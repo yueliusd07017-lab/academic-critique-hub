@@ -1,0 +1,8 @@
+{
+  "name": "Academic Critique Hub",
+  "description": "An interactive dashboard for bilingual video script translation, deep English academic commentaries, and an AI-powered academic bias analyzer exploring grassroots vs. institutional responses to scientific fraud.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
