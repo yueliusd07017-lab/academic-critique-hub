@@ -9,23 +9,47 @@ import { BookOpen, FileText, Activity, Brain, ArrowDown, GraduationCap, ShieldAl
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<"article" | "youtube" | "commentary" | "script" | "matrix" | "analyzer">("article");
+  const [copiedLink, setCopiedLink] = useState(false);
+
+  const handleCopyLink = () => {
+    // Obtain the direct domain of the loaded iframe
+    let rawUrl = window.location.href;
+    // Automatically replace dev domain with pre (public) domain to guarantee a VPN-free link
+    if (rawUrl.includes("ais-dev-")) {
+      rawUrl = rawUrl.replaceAll("ais-dev-", "ais-pre-");
+    }
+    navigator.clipboard.writeText(rawUrl);
+    setCopiedLink(true);
+    setTimeout(() => setCopiedLink(false), 3000);
+  };
 
   return (
     <div className="min-h-screen bg-slate-50/50 text-slate-800 font-sans selection:bg-slate-900 selection:text-white pb-12" id="app-container">
       
       {/* Top Academic Banner */}
       <div className="bg-slate-900 text-slate-200 border-b border-slate-950 py-3 px-4 sm:px-6">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-mono">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-xs font-mono">
           <div className="flex items-center gap-2">
             <GraduationCap className="w-4 h-4 text-amber-400" />
             <span className="font-semibold text-white tracking-wider uppercase">
               Scientific Integrity & Epistemology Forum
             </span>
           </div>
-          <div className="flex items-center gap-3 text-gray-400">
-            <span>Issue: Vol. VIII, No. 6</span>
+          <div className="flex flex-wrap items-center gap-4 text-gray-400">
+            <span>Vol. VIII, No. 6</span>
             <span className="hidden sm:inline">•</span>
-            <span>Date: June 2026</span>
+            <span>June 2026</span>
+            <span className="hidden sm:inline">•</span>
+            <button
+              onClick={handleCopyLink}
+              className={`inline-flex items-center gap-1.5 px-3 py-1 rounded transition-all font-sans font-bold text-[10.5px] cursor-pointer shadow-2xs ${
+                copiedLink 
+                  ? "bg-emerald-600 text-white" 
+                  : "bg-amber-400 text-slate-950 hover:bg-amber-500 font-extrabold"
+              }`}
+            >
+              {copiedLink ? "✓ Address Copied!" : "📋 Copy Direct Sharing Link (复制无墙分享链接)"}
+            </button>
           </div>
         </div>
       </div>
@@ -201,10 +225,10 @@ export default function App() {
           <div className="flex flex-col items-center md:items-end gap-1 font-mono text-[10px] text-gray-400">
             <span>CITATIONS & CORRESPONDENCE</span>
             <a
-              href="mailto:yueliusd07017@gmail.com"
+              href="mailto:yueliusd@163.com"
               className="text-gray-700 hover:text-slate-950 underline font-semibold text-xs"
             >
-              yueliusd07017@gmail.com
+              yueliusd@163.com
             </a>
             <span>SSRN Author Citation Index: Oct 2025</span>
           </div>

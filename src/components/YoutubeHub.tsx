@@ -1,10 +1,12 @@
 import React, { useState } from "react";
-import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown } from "lucide-react";
+import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX } from "lucide-react";
 
 export default function YoutubeHub() {
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
+  // PROJECT 1 TEXTS (The Asymmetry of Disbelief - Whistleblower Video)
   const youtubeScriptText = `[SCENE 1: THE DISAPPEARANCE OF THE WOODPECKER]
 [Visual: Extreme close-up of a computer screen running a Python data-scraping script. Lines of code fly past. The screen changes to show high-profile retractions with "FRAUD" stamped across them. Cut to a dark background. A sleek graphic of a woodpecker being slowly greyed-out and erased appears on screen.]
 [Sound: Rapid mechanical keyboard typing, transitioning into an eerie, ambient low-frequency hum.]
@@ -95,23 +97,249 @@ Physics Reference Document:
 1:35 - The Asymmetry of Disbelief: Pixel-Hunting vs. Theoretical Truth
 3:10 - Half a Century of Microwave Physics Dogmas & Eamonn Keogh's 95% Rule
 4:50 - Tone-Policing: Reviewers shifting focus from Math to Etiquette
-6:15 - Honjo Tasuku’s CNS warning & The Harvard Stem Cell Fraud case
-7:45 - Conclusion: Restoring "Slow Science" over Academic Alchemy
+9:15 - Honjo Tasuku’s CNS warning & The Harvard Stem Cell Fraud case
+9:45 - Conclusion: Restoring "Slow Science" over Academic Alchemy
 
 📧 CORRESPONDENCE & COLLABORATION:
 For inquiries or to contribute to peer-reviewed logical deconstruction, contact:
-➔ yueliusd07017@gmail.com
+➔ yueliusd@163.com
 
 #AcademicWhistleblowing #ScientificIntegrity #YueLiu #WavePhysics #ScienceAlchemy #MetaScience #EamonnKeogh #ResearchIntegrity #Qeios`;
 
-  const copyToClipboard = (text: string, setCopied: React.Dispatch<React.SetStateAction<boolean>>) => {
+  // PROJECT 2 TEXTS (Defining Important Research - Educational Video)
+  const youtubeScriptText2 = `[SCENE 1: THE SCI IMPACT ILLUSION | 第一幕：名刊与指标的“共识幻象”]
+[Visual: Opening shot of a highly polished, rotating heavy leather-bound journal. Suddenly, digital overlays of "SCI Impact Factor: 45.2", "Citations: 10,000+", and gold glitter stars explode onto the screen, gradually fading into a cold, dark-grey empty classroom. Bold text on screen: "Consensus ≠ Important".]
+[Sound: Energetic fanfares of commercial triumph quickly transitioning into a low, deep, solemn clock ticking.]
+
+[VOICEOVER]
+"What makes scientific research truly important? If you ask a modern university dean, they will point to the SCI Impact Factor. If you ask a journal editor, they will show you citation statistics. 
+
+But modern science has contracted a fatal systemic disease: we have confused consensus with importance. 
+
+学术期刊本应是思想碰撞、真理传播的阵地。而如今，整个学术出版界却将‘高影响因子’奉为衡量重要性的至高标准。这在本质上，是将‘学术圈共识’等同于‘物理学重要性’。主流权威发声，就会引来大量跟风模仿。期刊越发表主流，引用越高，却使得学术思想单一、看似繁荣、思想上实际死气沉沉。
+
+The result? Over 90% to 95% of papers published in prestigious top-tier journals are merely derivative, comfortable noise—safe, incremental, and ultimately dead on arrival. 
+
+这也是为什么期刊总是热衷于邀请学术权威来撰写总结性的综述文章，而草根学者即便在底层拥有再深刻的学术洞见，也无法拥有落笔的审查权。这像极了内容平台：把访问量、浏览量作为重要的标志，实际上只是把共识当成了事实。"
+
+
+[SCENE 2: THE REAL VALUE OF TRUTH | 第二幕：哪怕空无一人，真理依然是真理]
+[Visual: Smooth transition to a blackboard divided into two sides. Left: "Impedance Matching Theory" surrounded by hundreds of cited tags, looking crowded but hollow. Right: "Wave Mechanics Theory", standing entirely alone in the dark under a single bright spotlight.]
+[Sound: A subtle wind howling, symbolizing isolated pursuit.]
+
+[VOICEOVER]
+"True physical value is independent of the Herd Mentality. Think of wave physics.
+
+在微波吸收与电磁屏蔽领域，即使全行业所有人都在追捧‘阻抗匹配理论’，即便‘波动力学理论’一时间没有一个人关注、门可罗雀，波动力学也仍然比阻抗匹配理论重要百倍。因为物理法则不因人的多寡而动摇。
+
+As the great mathematician Morris Kline wrote in 1972: 'History teaches us that many subjects which aroused tremendous enthusiasm and engaged the attention of the best mathematicians ultimately faded into oblivion... Indeed one of the interesting questions that history answers is what survives. History makes its own and sounder evaluations.'
+
+历史是最公正的。历史反复证明，那些在当世喧嚣尘上的东西往往是主流学者为了维护地盘而炒作的糟粕泡沫，而那些在当世被冷落甚至联合打压的，往往才是纯度最高、终将 surviving 留存下来的金子。
+
+Famous Chinese economists also warned us. Zhang Weiying famously declared: 'Innovation is an idea that the majority of people do NOT agree with. If everyone agrees, it is merely common sense, not innovation.' 
+And Xu Xiaonian warned: 'Innovation has no sudden windfalls (风口); chasing a windfall is the very antithesis of creation.' 
+
+科研工作者可以出于生存需要根据SCI影响因子选择未来的研究方向；但期刊，作为科学真理的公正法庭，绝不能把影响因子高低作为挑选文章的标准！"
+
+
+[SCENE 3: IN SCIENCE, THERE ARE NO SMALL MATTERS | 第三幕：科学无小事，微波反常揭露鸿沟]
+[Visual: A magnifying glass focused on the edge of a thin metallic film. The display shows electromagnetic wave vectors reflection loss (RL). A visual flow chart shows how expanding this single mathematical outlier cracks open the 50-year-old impedance matching theory.]
+[Sound: Sudden energetic synthesized electronic beats, representing a major conceptual breakthrough.]
+
+[VOICEOVER]
+"Never look down on an anomaly because it seems small. A microscopic physical mismatch is often the seismic fault line of an entire paradigm.
+
+科学研究最关键的，是能够从细微的小事中敏锐抓住问题。
+
+In our research, we chose not to let go of a seemingly trivial anomaly that mainstream reviewers called an unimportant cosmetic detail: 'Why is it that when micro-waves enter a film backing, the thicker matching film actually leads to a smaller and better Reflection Loss (RL)?' 
+
+We held onto this thread, refusing to let go. Ultimately, this 'small question' unburied a giant fifty-year confusion inside materials science: the fundamental category error between 'a film properties' and 'inherent materials properties.' We demolished the classic micro-wave impedance matching theory and laid the foundations of the 'Wave Mechanics Theory.'
+
+Even Erwin Schrödinger’s historic breakthrough was originally born of a single spark: he merely incorporated wave-particle duality into classical wave equations. From that single spark of conceptual connection—driven purely by mathematical logic—the grand temple of Quantum Mechanics was constructed."
+
+
+[SCENE 4: LOGIC TRUMPS MASSIVE VOLUMES OF DATA | 第四幕：逻辑思辨，重于堆砌实验]
+[Visual: Stylized historic imagery of Galileo standing in deep contemplation. A split-screen shows a massive pile of random laboratory charts versus a single, elegant line of mathematical proof.]
+[Sound: Heavy, elegant cello chords, creating a meditative, high-class academic weight.]
+
+[VOICEOVER]
+"In modern research, scholars believe that if they pile up hundreds of tables, and run thousands of characterizations, their science becomes important. This is a delusion. Raw experimental data without a guiding logical spine is merely a high-tech junk heap.
+
+在近代科学史上，严密的‘逻辑思辨’要比提供海量重复、缺乏洞见的实验证据，重要得多。
+
+Without Ernest Rutherford’s airtight logical deduction of the atomic nucleus, his alpha scattering experiment data would still be just an unorganized, forgotten table in an old logbook. 
+
+If physicists had not logically derived the spin of electrons through the movement of charged particles in non-uniform magnetic fields, spectral splitting would still be an unexplained mess. 
+
+chemistry itself was nothing but alchemy, until Dalton and others elevated raw laboratory measurements into Laws of Mass Conservation and Definite Proportions—and finally into atomic-molecular logic.
+
+Let us look at Galileo. Galileo likely never dropped lead balls from the Leaning Tower of Pisa. He won his battle through pure, airtight theoretical contemplation.
+
+重的物体下落快，轻的物体下落慢，这符合常识。无数高杂质实验甚至会‘证明’重的落下更快。但这并不能证明常识就是真逻辑。
+
+Galileo asked a brilliant logical question: If heavy objects fall faster and light objects fall slower, what happens if we tie them together?
+
+If we tie them together, the lighter object should pull the heavier object, acting as a brake. The whole combination should fall slower than the heavy object alone. 
+But the combined weight of both objects is greater than the heavy object alone, so the whole combined pair should fall faster than the heavy object alone!
+
+This is an absolute, unavoidable logical paradox! 
+
+The only consistent logical resolution is that heavy and light objects must fall at the exact same velocity. 
+
+Nature will never tolerate self-contradictions in mathematical logic. If a theory is logically clean and mathematically secure, physical experiments will eventually catch up—just as astronauts proved when they dropped a feather and a steel hammer in the vacuum of the moon, watching them hit the dust in simultaneous glory."
+
+
+[SCENE 5: OUTRO | 第五幕：拨云见日，学术精神的价值回归]
+[Visual: The screen returns back to a clean dark slate design. High-contrast display of Yue Liu's key Substack essays and papers, with Email contact yueliusd@163.com and the SSRN link: https://ssrn.com/abstract=5434337.]
+[Sound: The dark cello chord settles into a peaceful, bright, resonant acoustic guitar chord.]
+
+[VOICEOVER]
+"Science is not a high-status elite club. It is not an athletic race to gather citations and secure administrative 'hats.' It is a relentless, pure-hearted pursuit of the physical universe, tested by mathematical logic.
+
+我们必须撕掉虚假的影响因子标签，重新呼唤那种独立思辨、科学求真的逻辑学风。
+
+Go visit the Substack articles linked below to read Yue Liu's full, unedited critical treatises on physics, citation games, and the wave mechanics paradigm. Let us stop policing tone and start verifying logic.
+
+感谢您的收看，我们下期节目再见。"`;
+
+  const youtubeDescText2 = `History is the most impartial judge. It repeatedly proves that things that create tremendous commercial buzz in the present day are often mainstream academic bubbles designed to protect local territory, while those that are initially marginalized or suppressed are pure gold destined to survive.
+
+In this video, we directly deconstruct the deep-seated flaws of modern academic evaluation and explore "What makes scientific research truly important?" Starting from the consensus illusion of SCI impact factors, we analyze how academia has degenerated into a metrics game for select interest cartels. Furthermore, we argue that in science, "a micro-anomaly can be a seismic fault line" and "airtight logical deduction is far more important than the mindless piling up of experimental data."
+
+📖 READ DR. YUE LIU'S ORIGINAL CRITICAL TREATISES (FREE on Substack):
+1️⃣ Core Academic Evaluation Critiques Series:
+➔ Defining Important Research: The Confused Consensus in Modern Science: https://yueliusd.substack.com/p/defining-important-research-the-confused
+➔ Redefining Importance & The Crisis of Replication: https://yueliusd.substack.com/p/redefining-importance-the-crisis
+➔ What is Academic Criticism: A Definition: https://yueliusd.substack.com/p/what-is-academic-criticism-a-definition
+➔ Why Journals Are Reluctant to Publish Critiques: https://yueliusd.substack.com/p/what-is-academic-criticism-a-definition
+
+2️⃣ Reconceptualizing Review Articles & Meta-Science Research (SSRN):
+➔ Redefining Review Articles: Beyond Balance Toward Theoretical Innovation: https://ssrn.com/abstract=5434337
+➔ From Academic Research to Academic Games: How Modern Science Lost its Way: https://ssrn.com/abstract=5684424
+
+---
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: The SCI Impact Illusion. Confusing Consensus with Physical Value
+2:15 - Innovation is an Unpopular Idea: Insights from Zhang Weiying, Xu Xiaonian & Morris Kline
+4:10 - The Real Mission of Peer Review: Rejecting Metrics for Hardcore Physical Logics
+5:30 - No Small Matters in Science: Explaining the Microwave RL Outlier Paradox
+7:05 - Schrödinger's Spark & The Birth of Quantum Wave Mechanics
+8:20 - Pure Logical Pre-eminence: Why Galileo Never Needed to Drop Lead Balls from Pisa
+10:35 - Summary: Breaking Institutional Barriers to Restore Rigor and Science Integrity
+
+📧 COLLABORATION & INQUIRIES:
+For academic discussions, criticism of peer-review bias, or research collaborations in electromagnetic wave physics, please contact us directly:
+➔ yueliusd@163.com
+
+#AcademicIntegrity #SCIImpactFactor #ScientificMethods #MetaScience #WaveMechanics #MicrowaveAbsorption #MorrisKline #Schrodinger #Galileo #PhilosophyOfScience #ResearchBias #AcademicFreedom`;
+
+  // PROJECT 3 TEXTS (The New Dark Age of Modern Academia - YouTube Video)
+  const youtubeScriptText3 = `[SCENE 1: THE DARK WINTER OF MODERN SCIENCE]
+[Visual: Split screen. Left shows a giant mechanical library card index spinning at high speed, churning out heaps of identical paper sheets. Right shows a small rustic candle burning in a cold cell under a grey stone tower. Large overlay on screen: "THE NEW DARK AGE".]
+[Sound: Sound of a heavy guillotine blade dropping down, transitioning into a howling freezing winter wind.]
+
+[VOICEOVER]
+"We are living in an era that pretends to be the golden age of scientific discovery. With millions of papers in the global index and billions of dollars in draft grants, we boast of our progress. But the tragic reality is that modern science has slipped into a cold, dark winter. 
+
+The academic establishment no longer knows what makes scientific research important. An intellectual void is covered up by beautiful data reports with zero conceptual weight. In short, any paper that has a true, paradigm-shattering conceptual idea is actively blacklisted, while mindless, routine experimental documents with flawless formats are instantly accepted. Science has degenerated from an engine of truth into an autocratic metrics game."
+
+
+[SCENE 2: THE COSMETIC EXECUTIONER & CONCEPT THEFT]
+[Visual: Sleek layout showing a rejection letter with red stamps highlighting 'AI Formatting Remnants Limit', 'Styling Gap', 'Font Size Deviation', all flagged as 'Lethal Errors'. This transitions into a slow-motion animation showing ideas being extracted from a rejected paper and inserted into a peer review cartel’s own fresh draft.]
+[Sound: A subtle clock ticking fast, with a digital static frequency overlay.]
+
+[VOICEOVER]
+"The gatekeeping is highly calculated. In today's scientific community, if a manuscript introduces a true, groundbreaking thought experiment or conceptual innovation, it is rejected almost immediately. Why? Under the hypocritical pretext of 'lethal cosmetic flaws.' A minor spelling error, a left-over AI copywriting prompt, a small styling gap—elements that are completely, 100% restorable! 
+
+The ethical duty of a reviewer is to find these small errors and help the author lift the paper's style. But instead, they use cosmetic flaws as an executioner's pretext to reject the idea, steal it, fix those silly flaws themselves, and publish it under their own name. 
+
+This is specifically evident in electromagnetic wave materials research. Dr. Yue Liu's wave mechanics theoretical breakthrough, which dismantled the fifty-year-old impedance matching model, was frequently rejected with zero physical reasons. Yet, in 2021, a paper published in the Journal of Colloid and Interface Science by Wang et al., suddenly adopted Yue Liu's highly specific signature variable notation '$Z_M$' to describe material characteristic impedance, enjoying an unnaturally rapid review-to-publication cycle while completely failing to cite Dr. Liu's pioneering work. This is the hallmark of modern intellectual hijacking."
+
+
+[SCENE 3: THE TYRANNY OF BRAINLESS DATA-REPORTS]
+[Visual: Graphic showing a large pile of laboratory machines (TEM, XRD, SEM) spitting out endless colorful heatmaps and element mapping graphs. The graphs contain high-vibrancy scientific illustrations but no theoretical soul.]
+[Sound: Loud industrial factory presses thumping continuously.]
+
+[VOICEOVER]
+"What then, are the papers that DO get published? They are the trash data dumps. Works that present flawless experimental logs, high-fidelity characterization graphs, and zero conceptual innovation, serving merely as safe annotations to the established authorities of the field. 
+
+These brainless data-reports are fundamentally unpublishable from a true scientific standpoint. Yet, they command the premium pages of top-tier SCI journals. 
+
+This has normalized a deep-seated culture of systemic academic misconduct, where entire fields agree to cite each other's junk and look the other way, because pointing it out would mean admitting that their entire multi-million-dollar industry is academic alchemy."
+
+
+[SCENE 4: AUTOCRATIC SILENCE VS. THE GALILEO SPIRIT]
+[Visual: A bold comparison panel: A medieval scroll (Trial of Galileo, 1633) showing active, public ecclesiastical signatures and recorded arguments, pitted against a modern digital desk-rejection screen with an anonymous grey avatar labeled 'Reviewer #2' behind a giant steel firewall.]
+[Sound: Low, resonant, ominous church bells tolling.]
+
+[VOICEOVER]
+"This is indeed an autocratic censorship era worse than the Medieval Inquisition. When Galileo challenged the geocentric model, the Catholic Church gave him a formal, public trial with written records. The theological and mathematical objections were entered into historical documents for public scrutiny. 
+
+The modern academic publishing cartels, however, operate in absolute shadow. They can kill a career over unprovable preprints with one click of an anonymous button. There is no court of appeal, no formal record, and when challenged with rigorous physical math, they hide behind 'The Golden Silence.' 
+
+Under this regime, silence replaces refutation. To protect their metrics and grant portfolios, entire fields remain complicitly silent while correct publications are locked away. Under this winter, can we not call academia deeply, structurally dark?"
+
+
+[SCENE 5: BREAKING THE SHACKLE OF ALCHEMY]
+[Visual: The text coordinates on screen fade back to slate dark. The email yueliusd@163.com and Dr. Yue Liu's Substack references appear in clean typography paired with a glowing SSRN author card.]
+[Sound: The dark cello notes dissolve into a bright, encouraging acoustic string pattern.]
+
+[VOICEOVER]
+"True scientific progress cannot be measured by a journal's impact factor or a citation loop index. It is the unsuperstitious, cold-blooded observation of mathematical logic and wave-physical consistency. 
+
+We must tear down the wall of anonymous gatekeepers, restore the primacy of intellectual innovation over cosmetic format loops, and reject the complicit silence of metrics cartels. Let us support slow, honest science over corporate academic alchemy. 
+
+Visit Yue Liu's Substack essays and original SSRN treatises linked in the fields below. Let us stop policing format, and start verifying logic. 
+
+Thank you for watching."`;
+
+  const youtubeDescText3 = `Indeed, the modern community has lost all scientific benchmarks of what paper is important, what data is publishable, and what theories represent true progress. In this video, we expose how modern scientific publishing has entered the "New Dark Age"—a period dominated by autocratic censorship, peer-review cartels, and systemic intellectual theft that runs far deeper than simple pixel-manipulations.
+
+📖 READ DR. YUE LIU'S CORE ENGLISH TREATISES (FREE on Substack):
+1️⃣ The Strategic Censorship Series:
+➔ The New Dark Age of Science Overview: https://yueliusd.substack.com/p/why-modern-science-is-a-dark-age
+➔ If Academia Has Become Like This, Can We Not Call It Dark?: https://yueliusd.substack.com/p/if-academia-has-become-like-this-850
+➔ When Silence Replaces Refutation & The Refusal of Debate: https://yueliusd.substack.com/p/when-silence-replaces-refutation-73f
+➔ The Polished Façade & The Hypocrisy of Modern Journals: https://yueliusd.substack.com/p/the-polished-facade-and-the-silent
+
+2️⃣ Core Academic Publishing Preprints (SSRN Network):
+➔ "The New Dark Age: Modern Academic Publishing as the Most Autocratic Censorship Era in Scientific History": https://ssrn.com/abstract=5679442
+➔ "Redefining Review Articles: Beyond Balance Toward Theoretical Innovation": https://ssrn.com/abstract=5434337
+
+---
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: Entering the Modern New Dark Age of Science
+1:50 - The Law of Restorable Defects: Why Cosmetic Rejections Mask Mind Theft
+3:35 - Strategic Concept Theft Case Study: Wang et al. (2021) and the "$Z_M$" Footprint
+5:45 - The Tyranny of Brainless Data-Reports: Why Journals Publish Safe Pseudo-Experiments
+8:10 - Worse than the Inquisition: Galileo’s Trial vs. Modern Anonymous Backroom Censorship
+10:15 - Conclusion: Breaking the Citation Syndicate loops to Support Slow Sciences
+
+📧 COLLABORATION, INQUIRIES & DEBATES:
+For direct academic disputes, electromagnetic boundary physics collaborations, or independent integrity verification, contact our desk:
+➔ yueliusd@163.com
+
+#AcademicIntegrity #ModernCensorship #YueLiu #IntellectualTheft #WavePhysics #ScienceAlchemy #PeerReviewCensorship #ScientificGatekeeping #ResearchEthics #PhilosophyOfScience #SSRN`;
+
+  // Select current active text
+  const currentScript = activeProject === "project1" ? youtubeScriptText : activeProject === "project2" ? youtubeScriptText2 : youtubeScriptText3;
+  const currentDesc = activeProject === "project1" ? youtubeDescText : activeProject === "project2" ? youtubeDescText2 : youtubeDescText3;
+
+  const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (isScript) {
+      setCopiedScript(true);
+      setTimeout(() => setCopiedScript(false), 2000);
+    } else {
+      setCopiedDesc(true);
+      setTimeout(() => setCopiedDesc(false), 2000);
+    }
   };
 
   return (
-    <div className="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 shadow-sm space-y-8 animate-fade-in" id="youtube-production-hub">
+    <div className="bg-white border border-gray-100 rounded-2xl p-6 md:p-8 shadow-sm space-y-6 md:space-y-8 animate-fade-in" id="youtube-production-hub">
       
       {/* Editorial Header */}
       <div className="border-b border-gray-100 pb-5">
@@ -121,10 +349,113 @@ For inquiries or to contribute to peer-reviewed logical deconstruction, contact:
         <h2 className="text-xl font-bold text-gray-900 tracking-tight font-sans">
           YouTube Video Text & Metadata
         </h2>
-        <p className="text-sm text-gray-500 mt-0.5 font-serif">
-          Ready-to-use production scripts and description templates designed to share Yue Liu’s academic findings on global video platforms.
+        <p className="text-sm text-gray-500 mt-0.5 font-serif font-light">
+          Ready-to-use production scripts and description templates designed to share Yue Liu’s academic findings on global video platforms. Use the toggle below to switch between videos.
         </p>
       </div>
+
+      {/* Dual Video Project Swapping Toggle */}
+      <div className="space-y-2">
+        <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
+          Select Active Video Project / 选择当前视频策划
+        </label>
+        <div className="flex flex-col xl:flex-row gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+          <button
+            onClick={() => {
+              setActiveProject("project1");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project1"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+            }`}
+            id="toggle-project1"
+          >
+            <PlaySquare className="w-4 h-4 shrink-0" />
+            Project A: Asymmetry of Disbelief (学术纠错)
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project2");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project2"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+            }`}
+            id="toggle-project2"
+          >
+            <Compass className="w-4 h-4 shrink-0" />
+            Project B: Important Research? (重要研究)
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project3");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project3"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project3"
+          >
+            <ShieldX className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
+            Project C: The New Dark Age (新黑夜时代)
+          </button>
+        </div>
+      </div>
+
+      {/* Dynamic Editorial Quote / Teaser Card for Project B */}
+      {activeProject === "project2" && (
+        <div className="bg-amber-50/40 border border-amber-200/50 rounded-xl p-4.5 space-y-3">
+          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono">
+            Core Epistemological Insight • 核心思辨要点
+          </div>
+          <p className="text-[12px] text-amber-900/90 leading-relaxed font-sans italic">
+            "历史是最公正的。历史反复证明，那些在当世喧嚣尘上的往往是主流学者刻意炒作的糟粕，而那些被当世冷落或打压的经常是真金白银。通过严密的逻辑思辨挑战共识，其学术分量远超堆砌海量平庸实验的重复劳动。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1">
+            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Consensus ≠ Important (共识不等于重要)
+            </span>
+            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              No Small Matters (科学无小事)
+            </span>
+            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Logic Trumps Data (逻辑思辨胜于海量实验)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alarm Indictment Box for Project C */}
+      {activeProject === "project3" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono">
+            Severe Systemic Indictment • 核心批判批判
+          </div>
+          <p className="text-[12px] text-red-950/90 leading-relaxed font-serif italic">
+            "当今学术界甚至连什么是重要的、可发表的文章都不再清楚。低创新度、无思想性的实验数据报告占领主流，而具有颠覆性创新的重大思想突破反因格式、AI写作残留或拼写错误等'可修复性瑕疵'被无情拒稿，沦为审稿人思想剽窃的猎物。当沉默取代公开辩论，这种绝对霸权的黑夜时代，与中世纪审判所并无二致。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              The New Dark Age (新黑夜时代)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Restorable Defects Law (可修复瑕疵法则)
+            </span>
+            <span className="px-1.5 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Concept Hijacking suspected ($Z_M$ variable footprint)
+            </span>
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
@@ -133,39 +464,40 @@ For inquiries or to contribute to peer-reviewed logical deconstruction, contact:
           <div className="space-y-3">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
-                <Video className="w-4 h-4 text-gray-500" />
-                <span>Audio / Visual Production Script</span>
+                <Video className="w-4 h-4 text-gray-550" />
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : "Project B"})</span>
               </div>
               <button
-                onClick={() => copyToClipboard(youtubeScriptText, setCopiedScript)}
-                className="inline-flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-semibold text-slate-700 hover:text-slate-950 hover:bg-gray-100 rounded border border-gray-200 transition"
+                onClick={() => copyToClipboard(currentScript, true)}
+                className="inline-flex items-center gap-1.5 px-3 py-1 text-[11px] font-bold text-slate-800 hover:text-slate-950 bg-slate-100 hover:bg-slate-200 rounded border border-slate-200 transition duration-150-ease"
+                id="copy-script-btn"
               >
                 {copiedScript ? (
                   <>
-                    <Check className="w-3 h-3 text-emerald-600" /> Copied!
+                    <Check className="w-3.5 h-3.5 text-emerald-600 font-bold" /> Copied!
                   </>
                 ) : (
                   <>
-                    <Copy className="w-3 h-3" /> Copy Script
+                    <Copy className="w-3.5 h-3.5" /> Copy Script (复制文本)
                   </>
                 )}
               </button>
             </div>
             
             <p className="text-xs text-gray-400 font-sans">
-              Engaging narrative structuring designed to capture interest within the first 5 seconds. Includes directions for slides and camera.
+              Narrative text optimized with visual directions [Visual] and sound clues [Sound] to bypass audience fatiguing in the first 10 seconds.
             </p>
 
-            <div className="bg-gray-50 border border-gray-150 p-4 rounded-xl max-h-[420px] overflow-y-auto font-mono text-[11px] leading-relaxed text-gray-750 custom-scrollbar whitespace-pre-wrap">
-              {youtubeScriptText}
+            <div className="bg-slate-950 text-slate-100 p-4.5 rounded-xl max-h-[460px] overflow-y-auto font-mono text-[11.5px] leading-relaxed custom-scrollbar whitespace-pre-wrap border border-slate-800">
+              {currentScript}
             </div>
           </div>
           
           <div className="pt-3">
-            <div className="p-3 bg-red-50/50 rounded-lg border border-red-100 flex gap-2 text-xs text-red-900/80">
+            <div className="p-3 bg-red-50/50 rounded-lg border border-red-100 flex gap-2 text-xs text-red-900/85">
               <Headphones className="w-4 h-4 text-red-500 shrink-0 mt-0.5" />
               <p className="font-sans leading-normal">
-                <strong>Narrative Style Key:</strong> Speak slowly, in a calm, objective, serious, and measured tone. Do not yell. The weight of the raw logical arguments carries the authority.
+                <strong>Narrative Style Key:</strong> Maintain an elegant, measured, objective cadence. Speak with continuous scientific logic. The severe gravity of Rutherford, Schrodinger, and Galileo's history carries the persuasive weight.
               </p>
             </div>
           </div>
@@ -176,43 +508,44 @@ For inquiries or to contribute to peer-reviewed logical deconstruction, contact:
           <div className="space-y-3">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
-                <MessageSquare className="w-4 h-4 text-gray-500" />
-                <span>SEO Optimized description metadata</span>
+                <MessageSquare className="w-4 h-4 text-gray-550" />
+                <span>Video Description / Meta Templates</span>
               </div>
               <button
-                onClick={() => copyToClipboard(youtubeDescText, setCopiedDesc)}
-                className="inline-flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-semibold text-slate-700 hover:text-slate-950 hover:bg-gray-100 rounded border border-gray-200 transition"
+                onClick={() => copyToClipboard(currentDesc, false)}
+                className="inline-flex items-center gap-1.5 px-3 py-1 text-[11px] font-bold text-slate-800 hover:text-slate-950 bg-slate-100 hover:bg-slate-200 rounded border border-slate-200 transition duration-150-ease"
+                id="copy-desc-btn"
               >
                 {copiedDesc ? (
                   <>
-                    <Check className="w-3 h-3 text-emerald-600" /> Copied!
+                    <Check className="w-3.5 h-3.5 text-emerald-600 font-bold" /> Copied!
                   </>
                 ) : (
                   <>
-                    <Copy className="w-3 h-3" /> Copy description
+                    <Copy className="w-3.5 h-3.5" /> Copy Description (复制介绍)
                   </>
                 )}
               </button>
             </div>
 
             <p className="text-xs text-gray-400 font-sans">
-              Contains exact direct links to Yue Liu's Substack pages, reference codes, time-stamps, core index terms, and scientific metadata.
+              Pre-filled with correct academic links, SSRN authors index pointers, comprehensive Substack bibliography entries, and targeted hashtags.
             </p>
 
-            <div className="bg-gray-50 border border-gray-150 p-4 rounded-xl max-h-[420px] overflow-y-auto font-mono text-[11px] leading-relaxed text-gray-750 custom-scrollbar whitespace-pre-wrap">
-              {youtubeDescText}
+            <div className="bg-gray-50 border border-gray-150 p-4.5 rounded-xl max-h-[460px] overflow-y-auto font-mono text-[11.5px] leading-relaxed text-gray-700 custom-scrollbar whitespace-pre-wrap">
+              {currentDesc}
             </div>
           </div>
 
           <div className="pt-3">
             <div className="p-3 bg-slate-900 text-white rounded-lg flex items-center justify-between gap-3 shadow-3xs">
               <div className="space-y-0.5">
-                <span className="text-[9px] uppercase tracking-wider text-gray-400 font-mono">Substack verification</span>
-                <p className="text-[11px] font-medium font-sans">
-                  Treatises are active and readable on Substack
+                <span className="text-[9px] uppercase tracking-wider text-gray-400 font-mono">Reference verification</span>
+                <p className="text-[11px] font-semibold font-sans text-gray-250">
+                  Substack & SSRN Links are configured accurately
                 </p>
               </div>
-              <ArrowDown className="w-4 h-4 text-emerald-400 animate-bounce shrink-0" />
+              <ChevronRight className="w-4 h-4 text-emerald-400 shrink-0" />
             </div>
           </div>
 
