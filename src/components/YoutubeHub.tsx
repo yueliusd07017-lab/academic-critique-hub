@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX } from "lucide-react";
+import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -323,9 +323,152 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
 
 #AcademicIntegrity #ModernCensorship #YueLiu #IntellectualTheft #WavePhysics #ScienceAlchemy #PeerReviewCensorship #ScientificGatekeeping #ResearchEthics #PhilosophyOfScience #SSRN`;
 
+  // PROJECT 4 TEXTS (The Privacy Illusion & Conflict of Interest - YouTube Video)
+  const youtubeScriptText4 = `[SCENE 1: THE SHIELDS OF CORRUPTION | 第一幕：学术权贵与虚假的“隐私神像”]
+[Visual: A heavy metal bank vault door with the words "PEER REVIEW - STRICTLY CONFIDENTIAL" embossed in gold leaf. The camera moves inside to reveal a group of faceless silhouettes in suits behind a desk. Digital stamps of "PRIVACY ACT" and "CONFIDENTIALITY" fly forward, stamping over glowing physical correction papers, turning them grey.]
+[Sound: Heavy sound of a vault locking, followed by a dramatic, ominous synthesizer chord.]
+
+[VOICEOVER]
+"Who is privacy law actually designed to protect? 
+
+In civilized society, privacy acts exist to shield vulnerable individuals from the crushing overreach of powerful institutions. But inside the secretive corridors of modern academic publishing, a grotesque inversion has occurred. 
+
+编辑部、学术期刊和审稿人，正在以‘隐私法’和‘保密协议’为由，强行禁止学者公开错误的、甚至充满偏见与学术欺诈的审稿意见和退稿信。他们宣称，一旦公开，就‘损害了期刊的名誉’、‘侵犯了审稿人的声音’、‘破坏了同行评议制度的神圣声誉’。
+
+This is an absolute fraud. They have weaponized privacy laws—which were meant to protect the weak—to build an impenetrable shield of immunity around the strong. They have turned a defensive human right into a corporate weapon of systemic censorship."
+
+
+[SCENE 2: THE WEAK PARTY’S RIGHT TO JUSTICE | 第二幕：作者作为弱者，自愿剥离隐私保护的权利]
+[Visual: An academic standing alone, holding a sheet of paper. As they try to show it to a public tribunal, hands from the shadows cover the paper, holding "NDA" and "Injunction" papers. Below them, a scale shows a massive commercial publishing house on one side, and a single young scientist on the other.]
+[Sound: Fast mechanical clock ticking, growing louder with an urgent rhythmic pulse.]
+
+[VOICEOVER]
+"Let’s define the power dynamic in research. The journal is the corporate giant. The anonymous peer reviewer represents expert authority. The author is an individual—the weak party, often carrying zero administrative leverage.
+
+同行评议的意见 and 决定，绝不是什么‘属于期刊独有’的秘密。它本质上是期刊向作者作出的、直接影响学者职业生涯、决定真理是否能够发表的‘裁判文书’。
+
+When that decision is scientifically invalid, when it deliberately stalls an innovative discovery to protect an elite citation cartel, and when it actively damages the author’s fundamental interest—who is the victim? It is the author. 
+
+If the victim of a bad decision holds the evidence of their own mistreatment, they have every ethical and physical right to disclose it. When the author voluntarily surrenders their own 'protection' of privacy and chooses to put their case under the public gaze, no journal has the moral or legal authority to force them silent.
+
+而且，公布原本就公正合理的审稿意见，会损害期刊的声誉吗？绝不。如果审稿意见是公正、客观、理性的，期刊和审稿人不仅没有必要担心名誉受损，反而应当因其专业度而感到骄傲。
+
+Anonymity was granted to reviewers to let them speak honest truth without fear. It was never meant to be a backroom license to commit intellectual robbery, enforce biased gatekeeping, and write scientifically illiterate reviews with absolute impunity. If a reviewer writes rubbish, exposing their words is not defamation; it is an academic audit."
+
+
+[SCENE 3: THE PRETEXT OF INTEREST | 第三幕：“利益冲突”的伪善定义与防弹衣]
+[Visual: A split screen. On the left: "Conflict of Interest" originally defined as a warning label over raw data. On the right: "Conflict of Interest" utilized as a giant concrete wall that blocks a paper titled "CORRECTIONS OF ERRORS IN HIGH-IMPACT PAPERS" from passing into the printer.]
+[Sound: Sharp, metallic electronic clangs, symbolizing bureaucratic censorship.]
+
+[VOICEOVER]
+"If the weaponization of 'privacy' represents the shield, then the perversion of 'Conflict of Interest' has become the academic firewall.
+
+‘利益冲突’（Conflict of Interest）初衷是为了保障透明度，提醒读者作者的观点是否可能受到商业资助、人际关系的偏见影响。然而，在现代学术出版商的手中，利益冲突被彻底工具化，成了阻挠发表学术纠错论文（Letter to the editor）的完美说辞。
+
+In a cynical maneuver, journals claim that publishing critical rebuttals that point out severe physical fallacies in their *own* previously published papers creates an 'administrative and financial conflict of interest.' 
+
+They argue that because correction letters challenge the correctness of their own 'brand' and undermine their editorial metrics, the journal lacks 'neutral interest' to host such debates. Thus, to evade reputational liability, they desk-reject critiques before peer reviewers can even lay eyes on the logical mathematics. 
+
+This is the ultimate corporate playbook: hiding behind ethics to shield themselves from empirical refutation."
+
+
+[SCENE 4: THE BARREN WASTELAND OF CORRECTION | 第四幕：九成论文属垃圾，纠错之声却归零]
+[Visual: A digital conveyor belt pushing out piles of glossy, high-impact journal covers that dissolve into dust. Below them, a counter shows "95% of Published Papers Contain Fatal Errors or ZERO Conceptual Value". Next to it, a small drawer labeled "ERRATA & REBUTTAL LETTERS" is locked shut, covered in thick spider webs.]
+[Sound: Low, resonant, tragic wind howling.]
+
+[VOICEOVER]
+"Go flip through any elite, high-impact materials science or biomedical journal today. What do you see? Thousands of pages of spectacular, polished data-reports, yet virtually *zero* errata, critical notes, or Letters to the Editor.
+
+尽管像诺贝尔奖得主本庶佑（Tasuku Honjo）所警告的那样，顶尖CNS期刊上发表的观点有高达90%是错误或无法重现的，但在期刊的页面里，你几乎看不到任何公开的交锋与纠错。
+
+Many journals have quietly written explicit rules into their submission guidelines stating they simply 'do not consider Letters to the Editor' or 'comments on published articles.' Others, while pretending to have open feedback systems, construct an invisible runaround of delay, endless formatting demands, and anonymous desk-rejection traps.
+
+Why? Because the Article Processing Charge model depends on high volume and flawless public relations. 
+
+To admit that a celebrated 50-year-old framework—like the microwave absorption impedance matching theory—is based on flawed electromagnetic boundary mathematics would invalidate thousands of papers they printed, disrupt the citation loops of their primary editorial board members, and threaten their impact factor currency. 
+
+To protect the business, the editorial cartels choose to treat academic errors as private client secrets, maintaining their polished façade while printing synthetic waste."
+
+
+[SCENE 4.5: THE COMPLICITY OF PREPRINT ARCHIVES | 第四点五幕：预印本平台的合谋与“名誉损害”挡箭牌]
+[Visual: A digital server rack representing a famous preprint platform. Suddenly, a block labeled "ERRATUM LETTER TO HIGH-impact JOURNAL" is rejected by an automated filter. Text appears on screen: "REJECTED: Threat of reputational damage to original journal authors." A scale balancing 'Critical Feedback' and 'Reader Judgment' is locked in place, with a big red stamp "CENSORSHIP".]
+[Sound: Buzzing signal error sound, followed by a tense, rhythmic bass sequence.]
+
+[VOICEOVER]
+"But the censorship doesn’t stop at the journals. In a shocking twist of institutional alignment, even preprint platforms—the very archives created to bypass journal gatekeepers—have joined this protective web.
+
+许多预印本平台开始制定自我阉割的规定：声称由于‘名誉侵权和数据保护规章’，若没有在同行评审期刊上正式发表的纠错 letter，任何批评已发表文章的审校或纠错文章都不能作为预印本挂网。他们给出的理由是：这类批判文章可能会损害原始期刊作者的名誉。
+
+This is an absolute logical absurdity. Pointing out physical and mathematical errors in a public, published journal article is a normal, fundamental academic debate. It belongs entirely to the healthy pursuit of raw physical truth—it has absolutely nothing to do with personal reputation or defamation.
+
+当纠错 letters 和原始期刊文章同时公开可见时，大众科研工作者和读者完全有智慧、有专业标准，自行明辨是非与对错。对错本应在公开辩论中由科学界自行裁决，这根本不该是预印本平台应当越权干预或者瞎操心的事。
+
+If the critic's arguments are scientifically wrong... they won't damage the original journal authors' reputation. Why? Because the readers will easily see they are wrong, exposing the critic's own scientific incompetence!
+
+By using 'reputational protection' as a screen to lock out un-peer-reviewed critiques, preprint channels are paralyzing the only remaining public arena for scientific audit. They have chosen to protect the reputation of incorrect studies over the preservation of invariant physical reality."
+
+
+[SCENE 5: DISMANTLING THE SECRET CABALS | 第五幕：学术公开化，夺回客观真理]
+[Visual: Clear typography displaying Dr. Yue Liu's key preprints: "Balancing Transparency and Data Protection" (preprints.org Doi: 10.20944/preprints202508.1193.v3) and "Conflict of Interest in Academic Publishing" (SSRN: 5470606). Dynamic links animate forward, surrounded by high-contrast green indicators.]
+[Sound: The music builds to a powerful, bright, inspiring symphonic climax.]
+
+[VOICEOVER]
+"Science is not a commercial trade-secret industry. It is a public, global hunt for raw physical truth, governed by invariant logical laws.
+
+If peer review remains locked in dark backrooms, where anonymous reviewers write illiterate commands and journals hide their letters behind the shield of privacy, peer review is no longer a filter for quality. It is a syndicate of censorship.
+
+We must force open these chambers. We must demand:
+First, the absolute right of authors to publish all editorial correspondence, referee transcripts, and rejection logs on preprint servers.
+Second, the mandatory peer review of all rebuttal Letters that present objective mathematical or physical challenges to previously published reports.
+
+Go read Dr. Yue Liu's original critical investigations on SSRN and Preprints.org, free and linked in the description below. Let us stop treating our scientific heritage as corporate property. 
+
+Let's shatter the golden silence, dismantle the secrets, and restore open, courageous, peer-reviewed logical truth.
+
+Thank you for watching."`;
+
+  const youtubeDescText4 = `The ultimate double standard of modern academic gatekeeping: under the guise of "privacy laws," elite journals forbid you from exposing their errors, while using "conflict of interest" excuses to blacklist any peer-reviewed corrections. Furthermore, preprint archives complicitly weaponize "reprehensible reputational damage" policies to silence critical Letters unless they are already accepted by journals, preventing scientific self-correction.
+
+In this video, we deconstruct how the top-tier academic publishing industry has turned peer-review confidentiality into a corporate defense tool. We explore why authors—who are the weak individuals in this system—possess an absolute ethical right to publish biased and erroneous referee correspondence. We examine how publishers leverage "reputational conflict of interest" to outlaw Letters to the Editor, and how preprint portals shield established authorities from open physical and mathematical debate.
+
+📖 DISCOVER DR. YUE LIU’S REVOLUTIONARY TREATISES ON ACADEMIC INTEGRITY:
+1️⃣ The Editorial Transparency Treatise (Preprints.org):
+➔ Balancing Transparency and Data Protection in Academic Publishing: The Case of Editorial Correspondence Disclosure on Preprint Servers
+➔ DOI / Link: https://www.preprints.org/manuscript/202508.1193/v3
+
+2️⃣ The Conflict of Interest & Accountability Study (SSRN Network):
+➔ Conflict of Interest in Academic Publishing: A Question of Accountability in the Pursuit of Truth
+➔ SSRN Link: https://ssrn.com/abstract=5470606 or http://dx.doi.org/10.2139/ssrn.5470606
+
+---
+
+⏱️ TIMESTAMPS:
+0:00 - The Inversion of Privacy Law: Protecting Elites from Exposure
+1:45 - The Author's Right to Disclose: Why "Confidentiality" Cannot Cover Bias
+3:50 - The Reviewer Paradox: Integrity vs. Backroom Immunity 
+5:40 - Weaponizing "Conflict of Interest" to Ban Erratum Letters
+7:20 - Preprint Complicity: Banning Correction Papers Under the Guise of "Reputation Protection"
+9:15 - The Golden Silence of Corporate Publishers (Wiley, Hindawi, CNS)
+12:10 - Conclusion: Demanding Open Peer-Review & Transparent Correspondence
+
+📧 CORRESPONDENCE, DISCUSSION, & ACADEMIC AUDITS:
+For collaborations on electromagnetic wave mechanics or peer-review transparency studies, get in touch:
+➔ yueliusd@163.com
+
+#PeerReviewCrisis #TransparentScience #AcademicPrivacy #YueLiu #ScientificEthics #ConflictOfInterest #OpenScience #SSRN #AcademicCensorship #MetaScience #ResearchIntegrity`;
+
   // Select current active text
-  const currentScript = activeProject === "project1" ? youtubeScriptText : activeProject === "project2" ? youtubeScriptText2 : youtubeScriptText3;
-  const currentDesc = activeProject === "project1" ? youtubeDescText : activeProject === "project2" ? youtubeDescText2 : youtubeDescText3;
+  const currentScript = 
+    activeProject === "project1" ? youtubeScriptText : 
+    activeProject === "project2" ? youtubeScriptText2 : 
+    activeProject === "project3" ? youtubeScriptText3 : 
+    youtubeScriptText4;
+
+  const currentDesc = 
+    activeProject === "project1" ? youtubeDescText : 
+    activeProject === "project2" ? youtubeDescText2 : 
+    activeProject === "project3" ? youtubeDescText3 : 
+    youtubeDescText4;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -408,6 +551,22 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
             <ShieldX className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
             Project C: The New Dark Age (新黑夜时代)
           </button>
+          <button
+            onClick={() => {
+              setActiveProject("project4");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project4"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project4"
+          >
+            <ShieldAlert className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
+            Project D: Privacy & COI (审稿公开与利益冲突)
+          </button>
         </div>
       </div>
 
@@ -438,7 +597,7 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
       {activeProject === "project3" && (
         <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in">
           <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono">
-            Severe Systemic Indictment • 核心批判批判
+            Severe Systemic Indictment • 核心批判
           </div>
           <p className="text-[12px] text-red-950/90 leading-relaxed font-serif italic">
             "当今学术界甚至连什么是重要的、可发表的文章都不再清楚。低创新度、无思想性的实验数据报告占领主流，而具有颠覆性创新的重大思想突破反因格式、AI写作残留或拼写错误等'可修复性瑕疵'被无情拒稿，沦为审稿人思想剽窃的猎物。当沉默取代公开辩论，这种绝对霸权的黑夜时代，与中世纪审判所并无二致。"
@@ -457,6 +616,75 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
         </div>
       )}
 
+      {/* Dynamic Editorial Quote / Teaser Card for Project B */}
+      {activeProject === "project2" && (
+        <div className="bg-amber-50/40 border border-amber-200/50 rounded-xl p-4.5 space-y-3">
+          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono">
+            Core Epistemological Insight • 核心思辨要点
+          </div>
+          <p className="text-[12px] text-amber-900/90 leading-relaxed font-sans italic">
+            "历史是最公正的。历史反复证明，那些在当世喧嚣尘上的往往是主流学者刻意炒作的糟粕，而那些被当世冷落或打压的经常是真金白银。通过严密的逻辑思辨挑战共识，其学术分量远超堆砌海量平庸实验的重复劳动。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Consensus ≠ Important (共识不等于重要)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              No Small Matters (科学无小事)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Logic Trumps Data (逻辑思辨胜于海量实验)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alarm Indictment Box for Project C */}
+      {activeProject === "project3" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono">
+            Severe Systemic Indictment • 核心批判
+          </div>
+          <p className="text-[12px] text-red-950/90 leading-relaxed font-serif italic">
+            "当今学术界甚至连什么是重要的、可发表的文章都不再清楚。低创新度、无思想性的实验数据报告占领主流，而具有颠覆性创新的重大思想突破反因格式、AI写作残留或拼写错误等'可修复性瑕疵'被无情拒稿，沦为审稿人思想剽窃的猎物。当沉默取代公开辩论，这种绝对霸权的黑夜时代，与中世纪审判所并无二致。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              The New Dark Age (新黑夜时代)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Restorable Defects Law (可修复瑕疵法则)
+            </span>
+            <span className="px-1.5 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Concept Hijacking suspected ($Z_M$ variable footprint)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alarm Box for Project D */}
+      {activeProject === "project4" && (
+        <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono">
+            Transparency & COI Shield Analysis • 审稿公开与利益冲突剖析
+          </div>
+          <p className="text-[12px] text-amber-955/90 leading-relaxed italic">
+            "隐私法本来是在权力不对等等社会和法理机制中保护微观无权个人的，而在学术界，它却成为了期刊机构、权威审稿人遮掩学术荒唐、偏见和渎职的保密盾牌。当作者自愿选择承担或剥离这种对其自身的保护时，学术公开审理其审稿往来是一项天然权利。同时，本应预防观点的商业偏倚的‘利益冲突’已被期刊利益化——用来做借口，彻底把对自身以往发表错误进行客观物理纠正的 Letter to the Editor 拒之门外，制造了几乎不发表任何纠错意见的学术自保死地。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-850 uppercase">
+              Bypassing Privacy Shields (破除隐私遮羞布)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-850 uppercase">
+              The Weak's Right to Disclose (弱者公开信披权)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Institutional COI Defense (利益冲突的制度化滥用)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -465,7 +693,7 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : "Project C"})</span>
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : "Project D"})</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}

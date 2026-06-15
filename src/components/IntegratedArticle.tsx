@@ -325,6 +325,20 @@ export default function IntegratedArticle() {
             <p>
               The modern academic publishing cartel provides no such luxury. Behind a wall of double-anonymous peer review, commercial gatekeepers operate with absolute autocracy. They can kill a paper with zero physics justification, hide behind "polite tone guidelines," and blacklist critics in backrooms without leaving a single trace on public records. This is a system where the "Golden Silence" prevents a court of scientific debate from ever taking place. 
             </p>
+            <div className="p-4.5 bg-amber-50/40 border border-amber-200/50 rounded-xl space-y-3 font-sans text-xs md:text-sm my-4">
+              <span className="font-bold text-amber-900 block uppercase tracking-wider font-mono text-[11px]">
+                The Collusion of Preprint Archives: The "Reputational Damage" Proxy
+              </span>
+              <p className="text-gray-700 leading-relaxed">
+                This censorship loop is further reinforced by a shocking, modern alignment: the systemic gatekeeping of preprint servers. Under pressure from commercial publishing networks, many major preprint platforms have enacted policies stating that critical or corrective peer commentaries (such as Letters to the Editor targeting published journal papers) cannot be hosted unless they have already been peer-reviewed and accepted by the target journal itself.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                The administrative pretext used is that exposing mathematical or physical flaws in a published journal article "carries a threat of reputational damage to the original authors." This argument is a complete logical fallacy. Points of physical debate, mathematical falsification, and logical scrutiny of a public scientific paper are normal, objective scholarly disagreements—not personal defamation. 
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                When both the original paper and the critical rebuttal Letter are openly posted in parallel, the broader scientific community has the absolute capacity and expert standards to judge the truth for themselves. It is not the moral or operational business of a preprint host to act as a reputational gatekeeper. If the critic's Letter is scientifically incorrect, it will not damage the original authors' status; instead, it will only expose the critic's own physical and mathematical incompetence. By weaponizing "reputational protection" as an excuse to lock out un-peer-reviewed critiques, preprint channels are actively participating in freezing out objective peer accountability.
+              </p>
+            </div>
             <p>
               Until we dismantle the metrics-based citation syndicates and return to a system where papers are judged by hard logical integrity rather than stylistic compliance, modern scientific progress remains an illusion—an academic winter pretending to be a spring, running quietly in the dark.
             </p>
