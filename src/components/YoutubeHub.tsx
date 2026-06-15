@@ -41,7 +41,7 @@ You get 'The Golden Silence.' No counter-proof is offered. No reviewer debates y
 [Sound: Sudden, abrupt slide transition effects.]
 
 [VOICEOVER]
-"And we have empirical evidence. Take the celebrated 'impedance matching theory' in microwave-absorbing materials research. For 50 years, this theory has guided billions of dollars in grants. Yet, rigorous wave-physics proofs have demonstrated that this model mathematically violates baseline electromagnetic boundary rules when applied to metal backings. 
+"And we have empirical evidence. Take the celebrated 'impedance matching theory of microwave absorption' inside materials research. While transmission-line theory itself is completely correct (and yields accurate conclusions for films), the microwave absorption impedance matching theory misinterprets its results. This misinterpretation mathematically violates baseline electromagnetic wave physics at metal boundaries, distorting the actual absorption mechanisms. Yet, this model has guided billions of dollars in research grants.
 
 How did the community respond? They didn't disprove the physics. Instead, reviewers resorted to tone-policing. They told the researchers to 'be more polite and professional.' 
 
@@ -254,7 +254,7 @@ The academic establishment no longer knows what makes scientific research import
 
 The ethical duty of a reviewer is to find these small errors and help the author lift the paper's style. But instead, they use cosmetic flaws as an executioner's pretext to reject the idea, steal it, fix those silly flaws themselves, and publish it under their own name. 
 
-This is specifically evident in electromagnetic wave materials research. Dr. Yue Liu's wave mechanics theoretical breakthrough, which dismantled the fifty-year-old impedance matching model, was frequently rejected with zero physical reasons. Yet, in 2021, a paper published in the Journal of Colloid and Interface Science by Wang et al., suddenly adopted Yue Liu's highly specific signature variable notation '$Z_M$' to describe material characteristic impedance, enjoying an unnaturally rapid review-to-publication cycle while completely failing to cite Dr. Liu's pioneering work. This is the hallmark of modern intellectual hijacking."
+This is specifically evident in electromagnetic wave materials research. Dr. Yue Liu's wave mechanics theoretical breakthrough, which dismantled the seventy-year-old microwave-absorption impedance matching model (which misinterpreted correct transmission line results), was frequently rejected with zero physical reasons. Yet, in 2021, a paper published in the Journal of Colloid and Interface Science by Wang et al., suddenly adopted Yue Liu's highly specific signature variable notation '$Z_M$' to describe material characteristic impedance, enjoying an unnaturally rapid review-to-publication cycle while completely failing to cite Dr. Liu's pioneering work. This is the hallmark of modern intellectual hijacking."
 
 
 [SCENE 3: THE TYRANNY OF BRAINLESS DATA-REPORTS]
@@ -465,7 +465,7 @@ For direct academic disputes, electromagnetic boundary physics collaborations, o
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : "Project B"})</span>
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : "Project C"})</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}

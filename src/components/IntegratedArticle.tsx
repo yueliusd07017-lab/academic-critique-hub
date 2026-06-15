@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -30,7 +30,7 @@ export default function IntegratedArticle() {
         </div>
         
         <button
-          onClick={() => handleCopy(activeArticle === "asymmetry" ? "master-article-text" : "darkage-article-text")}
+          onClick={() => handleCopy(activeArticle === "asymmetry" ? "master-article-text" : activeArticle === "darkage" ? "darkage-article-text" : "systemic-article-text")}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
           id="copy-article-btn"
         >
@@ -68,6 +68,18 @@ export default function IntegratedArticle() {
           >
             <ShieldX className="w-4 h-4 shrink-0 text-red-400" />
             Essay B: The New Dark Age of Science
+          </button>
+          <button
+            onClick={() => setActiveArticle("systemic")}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider ${
+              activeArticle === "systemic"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+            }`}
+            id="toggle-article-systemic"
+          >
+            <HelpCircle className="w-4 h-4 shrink-0 text-amber-500" />
+            Essay C: Isolated Cases or Systemic Disease?
           </button>
         </div>
       </div>
@@ -156,10 +168,10 @@ export default function IntegratedArticle() {
             </p>
             <ul className="list-disc pl-5 space-y-3 text-xs md:text-sm font-sans text-gray-750">
               <li>
-                <strong>Wave-Electromagnetic Materials</strong>: For half a century, microwave-absorbing coatings have relied on the "impedance matching theory" derived from transmission lines. 
-                Subsequent proofs have established that this theory mathematically violates baseline electromagnetic boundary rules when applied to metal-backed absorbers. 
-                The physics proves that the resulting calculations are equivalent to scientific "alchemy." 
-                Yet, instead of confronting the physics, peer reviewers bypass the proof, opting for <strong>Tone-Policing</strong> and warning authors that their critique should "be more polite and professional according to the era."
+                <strong>Wave-Electromagnetic Materials</strong>: For half a century, microwave-absorbing coatings have relied on the "impedance matching theory of microwave absorption" (which misinterprets correct results of transmission-line theory). 
+                Subsequent proofs have established that while transmission-line theory itself is correct (and yields correct results for films with or without metal backings), the microwave absorption impedance matching theory misinterprets its results, leading to a completely flawed understanding of material absorption mechanisms. 
+                This misinterpretation violates baseline electromagnetic wave physics at metal-backed boundaries, converting correct math into pseudo-scientific conclusions. 
+                Yet, instead of confronting the physical logic, peer reviewers bypass the refutation, opting for <strong>Tone-Policing</strong> and warning authors that their critique should "be more polite and professional according to the era."
               </li>
               <li>
                 <strong>Citation Integrity (Yue Liu, August 2025)</strong>: Publisher preprints (SSRN 5392646) detail how publishing houses maintain systematic citation cartels. 
@@ -284,7 +296,7 @@ export default function IntegratedArticle() {
               Why are such intellectual manipulations treated as standard procedures? Because modern academia operates under a state of systemic impunity.
             </p>
             <p>
-              In microwave absorption materials research, the rigorous wave-physics proofs laid down by Dr. Liu completely demolished the transmission-line "impedance matching theory" when applied to metal-backed absorbing films. Applied to a thin metal film under electromagnetic boundary conditions, the old formulas are mathematically equivalent to pseudoscience. Yet high-impact SCI journals continue to print thousands of error-ridden calculations every month. 
+              In microwave absorption materials research, the rigorous wave-physics proofs laid down by Dr. Liu completely exposed the flawed "impedance matching theory of microwave absorption." While transmission-line theory itself is completely accurate (and applying it to films with or without a metal backing yields correct outputs), the microwave absorption impedance matching theory misinterprets these outputs, leading to a fundamentally erroneous understanding of the actual microwave absorption mechanism. Applied under electromagnetic boundary conditions for metal-backed films, this misinterpretation produces pseudoscientific calculations, yet high-impact SCI journals continue to print thousands of these error-ridden papers every month.
             </p>
             <p>
               When these errors are systematically exposed on public channels, no editorial board comes forward to resolve them. The incorrect papers stream out in mass, while correct theories are aggressively frozen out. There is no open, peer-reviewed debate. Under this regime, <strong>silence replaces refutation</strong>.
@@ -315,6 +327,115 @@ export default function IntegratedArticle() {
             </p>
             <p>
               Until we dismantle the metrics-based citation syndicates and return to a system where papers are judged by hard logical integrity rather than stylistic compliance, modern scientific progress remains an illusion—an academic winter pretending to be a spring, running quietly in the dark.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {/* Article 3: Isolated Cases or Systemic Disease? */}
+      {activeArticle === "systemic" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="systemic-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-slate-950 font-sans tracking-tight leading-tight">
+              Isolated Aberrations or Systemic Disease? Why Science and Nature Frame Scientific Fraud as Individual Failures While Complicitly Printing 95% Junk
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Dr. Yue Liu • Landmark Structural & Philosophical Critique • June 2026
+            </p>
+            <div className="text-xs text-amber-700 bg-amber-50/50 px-3 py-1 rounded border border-amber-100 inline-block font-sans font-bold">
+              A Refutation of the "Isolated Incident" Defense in Modern Academic Publishing
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight">
+              I. The Whistleblower in the Spotlight: Geng Tongxue and the "Science" Paradox
+            </h3>
+            <p>
+              When a dedicated whistleblower uses data-scraping algorithms to expose hundreds of fabricated results, the academic establishment is forced to react. Recently, the Chinese digital detective known as <strong>“Geng Tongxue”</strong> was profiled by the leading international journal <i>Science</i>. 
+              The coverage was framed in a familiar, comfortable vernacular: Geng was represented as an exceptional, isolated crusader cleaning up isolated "bad apples" across several institutions.
+            </p>
+            <p>
+              This is the ultimate self-defense script of the scientific elite. By celebrating individual whistleblowers who hunt down comical visual aberrations—duplicate western blot strips, copy-pasted cell photos, or reports claiming pregnant male patients suffered from cervical cancer—the apex journals like <i>Science</i> and <i>Nature</i> establish an illusion of robust integrity and active self-purges. 
+              The narrative suggests: "The error-purging woodpecker represents the scientific engine self-correcting." 
+            </p>
+            <p>
+              However, this performs a major trick. It diverts focus from the much larger, darker reality. 
+              While the system happily sacrifices a few clumsy researchers over photogenic pixel-hunting scandals to maintain public relations, it remains absolutely defensive and silent when confronting systemic theoretical corruption which keeps its multi-billion-dollar publishing conveyor belts running.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight">
+              II. The Four Great Scandals and the Limits of Localised Purging
+            </h3>
+            <p>
+              Throughout the last two decades, science has witnessed spectacular cases of system-approved fraud. These cases are treated by administrative cartels as pathological outliers:
+            </p>
+            <div className="p-4 bg-slate-50 border border-slate-200 rounded-xl space-y-3 font-sans text-xs my-4 leading-relaxed">
+              <p>
+                ➔ <strong>The Jan Hendrik Schön Incident (2002)</strong>: A physics prodigy at Bell Labs who published breakthrough nanoscale triodes in <i>Nature</i> and <i>Science</i> every 8 days. He kept zero raw data and deleted conflicting variables in software. Peer-reviewers suspended basic critical filters because his metrics flattered their journals.
+              </p>
+              <p>
+                ➔ <strong>The Hwang Woo-suk Stem Cell Miracle (2005)</strong>: Seoul National University's national hero who published fabricated human-cloned embryonic stem cell lines in <i>Science</i>. The entire Korean government protected his work under national interest, demonstrating how easily metrics-concredentialism blindfolds regulators.
+              </p>
+              <p>
+                ➔ <strong>The Shinichi Fujimura Paleolithic Planting (2000)</strong>: An amateur archaeologist who buried old stone age relics in dig sites at dawn. His discoveries pushed back human history in Japan to 600,000 years, forcing history textbooks to be rewritten, until hidden Mainichi Shimbun camera rolls caught him red-handed.
+              </p>
+              <p>
+                ➔ <strong>The Sylvain Lesné Alzheimer's Deception (2006-2022)</strong>: A neuroscientist whose 2006 <i>Nature</i> paper on Aβ*56 became the bedrock of global Alzheimer's research and billion-dollar drug trials, until forensic audits proved he systematically copy-pasted and spliced protein band graphics.
+              </p>
+            </div>
+            <p>
+              While these four scandals are indeed horrific, they enjoy one feature that makes them "safe" for the scientific elite: they are clearly personal, individual acts of fabrication. 
+              By retracting these papers, firing the researchers, and publishing solemn editorials, <i>Science</i> and <i>Nature</i> preserve the myth that the publishing machine is fundamentally intact—it was just individual "rogues" who slipped through.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight">
+              III. The Real Crisis: Elon Musk’s 95% Junk Indictment and Zombie Science
+            </h3>
+            <p>
+              The most profound threat to scientific progress is not spectacular, photogenic fraud. It is the silent epidemic of what tech leader <strong>Elon Musk</strong> repeatedly criticized: the fact that <strong>over 95% of SCI-indexed, high-impact papers are redundant, useless, or outright incorrect junk</strong>.
+            </p>
+            <p>
+              Unlike spectacular image-splicing scandals, this 95% "junk pile" is highly formatted, grammatically perfect, and entirely uncontroversial. 
+              They are the "zombie data-reports" that dominate modern materials science, biomedical trials, and machine learning. 
+              These papers carry zero cognitive originality or physical originality; they are written by labs purely to convert government grant dollars into publication index counts. 
+              They exist strictly to satisfy rigid university promotion quotas—particularly in hospital systems and clinical academies. 
+            </p>
+            <p>
+              Here resides the deepest irony of modern academic publishing: <strong>While a paper is immediately retracted if it contains a copy-pasted Western blot strip, it is never retracted for being absolute garbage.</strong> 
+              No paper has ever been pulled back because its conceptual innovation is zero, or because its underlying wave-physics logic violates elementary conservation laws. 
+              As long as the format is polished, the spelling is correct, and the citations politely flatter the reigning experts, high-impact journals continue to print thousands of these garbage papers every month. In fact, entire scientific directories have collapsed into "citation cartels", where everyone agrees to cite each other's useless papers to mutual commercial benefit.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-slate-900">
+              IV. Systemic Complicity: When Silence Replaces Refutation
+            </h3>
+            <p>
+              Why are these zombie papers printed with premium placement? Because the commercial publishers—the cartels of Wiley, Elsevier, and the CNS apex—operate as transaction processors. Under the Article Processing Charge (APC) model, publishers reap immense margins by scaling publication volume. 
+              The expansion of "Special Issues" and the corporate takeover of publishers like Hindawi (culminating in 11,300+ retractions after paper-mill infiltration) represent the literal industrialization of scientific waste.
+            </p>
+            <p>
+              As Dr. Yue Liu documented in his critiques of electromagnetic materials, whenever a rigorous physical proof demonstrates that thousands of published papers rely on mathematically invalid equations (spawned by the flawed microwave absorption impedance matching theory which misinterprets otherwise correct transmission line results for metal-backed absorbers), the scientific elite retreats into <strong>"The Golden Silence"</strong>. 
+              No open debate is permitted. Editorial boards ignore the proofs and freeze out critical preprints. 
+              To acknowledge the error would destroy the citation networks and grant portfolios of the very experts who sit on peer review panels.
+            </p>
+            <p>
+              Thus, we arrive at the central conclusion: Geng Tongxue's Science profile and the exposure of the 4 grand scandals provide a safe, convenient distraction. 
+              They let the public believe that scientific fraud is an occasional, localized human aberration. 
+              The reality is that <strong>modern academic publishing has become a systemically corrupt industry</strong>—a metrics game where commercial cartels and academic elites agree to trade junk, enforce complicit silence, and suppress true intellectual progress. 
+              Until we cease valuing metrics over absolute logical truth, modern science remains trapped in its darkest, winter epoch.
             </p>
           </div>
         </article>
