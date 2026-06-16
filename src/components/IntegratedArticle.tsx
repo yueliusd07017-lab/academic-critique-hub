@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -35,7 +35,8 @@ export default function IntegratedArticle() {
             activeArticle === "darkage" ? "darkage-article-text" :
             activeArticle === "systemic" ? "systemic-article-text" :
             activeArticle === "freedom" ? "freedom-article-text" :
-            "metaphysics-article-text"
+            activeArticle === "metaphysics" ? "metaphysics-article-text" :
+            "tyranny-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
           id="copy-article-btn"
@@ -50,7 +51,7 @@ export default function IntegratedArticle() {
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Master Scholarly Essay / 选择核心学术论文
         </label>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-5 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-6 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => setActiveArticle("asymmetry")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
@@ -61,7 +62,7 @@ export default function IntegratedArticle() {
             id="toggle-article-asymmetry"
           >
             <BookMarked className="w-4 h-4 shrink-0" />
-            Essay A: The Asymmetry of Disbelief
+            Essay A: Asymmetry
           </button>
           <button
             onClick={() => setActiveArticle("darkage")}
@@ -72,8 +73,8 @@ export default function IntegratedArticle() {
             }`}
             id="toggle-article-darkage"
           >
-            <ShieldX className="w-4 h-4 shrink-0 text-red-400" />
-            Essay B: The New Dark Age of Science
+            <ShieldX className="w-4 h-4 shrink-0 text-red-500" />
+            Essay B: Dark Age
           </button>
           <button
             onClick={() => setActiveArticle("systemic")}
@@ -85,7 +86,7 @@ export default function IntegratedArticle() {
             id="toggle-article-systemic"
           >
             <HelpCircle className="w-4 h-4 shrink-0 text-amber-500" />
-            Essay C: Isolated Cases or Systemic Disease?
+            Essay C: Systemic
           </button>
           <button
             onClick={() => setActiveArticle("freedom")}
@@ -97,7 +98,7 @@ export default function IntegratedArticle() {
             id="toggle-article-freedom"
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
-            Essay D: Scientific Freedom & The War
+            Essay D: Freedom
           </button>
           <button
             onClick={() => setActiveArticle("metaphysics")}
@@ -109,7 +110,19 @@ export default function IntegratedArticle() {
             id="toggle-article-metaphysics"
           >
             <Sparkles className="w-4 h-4 shrink-0 text-violet-500 animate-pulse" />
-            Essay E: Metaphysics & Primacy of Theory
+            Essay E: Metaphysics
+          </button>
+          <button
+            onClick={() => setActiveArticle("tyranny")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "tyranny"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+            }`}
+            id="toggle-article-tyranny"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-500 animate-pulse" />
+            Essay F: Tyranny of Consensus
           </button>
         </div>
       </div>
@@ -749,6 +762,164 @@ export default function IntegratedArticle() {
             </p>
             <p className="italic text-indigo-500 text-xs text-center border-t border-indigo-100 pt-4">
               "The physical vessel may decay and be forgotten; but the mathematical Form—the eternal Tao of the wave—remains forever invariant across the cosmos."
+            </p>
+          </div>
+        </article>
+      )}
+
+      {/* Article 6: The Tyranny of Consensus and Mediocrity */}
+      {activeArticle === "tyranny" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="tyranny-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-emerald-950 font-sans tracking-tight leading-tight">
+              The Tyranny of Consensus and Mediocrity: In Defense of Direct, Edge-Heavy Truths over Complicit Scholarly Compromise
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Dr. Yue Liu • Critical Epistemological Treatise • June 2026
+            </p>
+            <div className="text-xs text-emerald-700 bg-emerald-50 px-3.5 py-1 rounded border border-emerald-100 inline-block font-sans font-bold animate-pulse">
+              Academic Critique Hub • Countering Tone-Policing & Comprehensive Score-Card Decay
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-emerald-950">
+              I. The Fallacy of Refinement: Polite Cowardice as the Mainstream Standard
+            </h3>
+            <p>
+              In contemporary scientific circles, a comfortable but highly destructive consensus has taken root: any research or critique that expresses itself with absolute certainty, uncompromising edge, or intense rhetorical vigor is immediately dismissed as "paroid," "extreme," or "uncared-for." 
+              Conversely, the establishment treats polite behavior, neutral phrasing, and smooth, middle-of-the-road compromises as the hallmarks of academic "refinement" and "high stature" (格局). 
+              A refined scholar is expected to "balance all perspectives," speak with circular, non-committal roundness, and avoid taking a hard, absolute stand on any intellectual battlefield.
+            </p>
+            <p>
+              This is a profound epistemological deception. This artificial "balance" is the supreme shield of mediocrity—a mechanism designed <strong>not to look for truth, but to protect errors</strong> from lethal falsification. 
+              By demanding that critiques remain polite and rounded, the establishment shifts the battlefield from hard mathematical and physical reality to social behavior. 
+              This polite cowardice is precisely how incorrect, corrupted research lines survive for decades. 
+              As documented during the monumental scandal surrounding the cardiologist <strong>Piero Anversa</strong>, whose lab at Harvard Medical School falsified cardiac stem-cell data for over fifteen years before 31 papers were retracted, the scientific community chose silence over confrontation. 
+              As reported in <i>The New York Times</i>, <strong>"some scientists wondered how a questionable line of research persisted for so long... experts were just too timid to take a stand."</strong> 
+              When "academic refinement" is equated with silence, politeness becomes a direct accessory to scientific fraud.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-emerald-950">
+              II. The Invariant Imperative: Why Some Truths Must Be Stated in Extremes
+            </h3>
+            <p>
+              The physical universe behaves according to absolute, invariant principles, not human diplomatic compromises. Certain truths cannot be rounded off or expressed with "middle-of-the-road balance." They must be stated in extreme, absolute, and uncompromising terms:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-6 font-sans">
+              <div className="p-4 rounded-xl border border-emerald-150 bg-emerald-50/20 space-y-2">
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider block font-mono">
+                  1. Real Physical Impossibility
+                </span>
+                <p className="text-xs text-gray-700 leading-relaxed">
+                  The statement that <strong>"a perpetual motion machine can absolutely never be built"</strong> is an extreme statement. It admits no middle ground, no subtle exceptions, and no polite compromises. It is an absolute, uncompromising reality dictated by the Second Law of Thermodynamics, which stands as an invariant, eternal truth of nature.
+                </p>
+              </div>
+              <div className="p-4 rounded-xl border border-emerald-150 bg-emerald-50/20 space-y-2">
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider block font-mono">
+                  2. Theoretical Falsehood
+                </span>
+                <p className="text-xs text-gray-750 leading-relaxed">
+                  In microwave physics, the <strong>"impedance matching theory of microwave absorption"</strong> is not simply "imperfect" or "relatively correct under specific conditions." It is <strong>completely, 100% incorrect</strong> when applied to metal-backed absorbers. Conversely, the wave mechanics theory of microwave absorption is absolutely correct. There is no middle ground between them.
+                </p>
+              </div>
+              <div className="p-4 rounded-xl border border-emerald-150 bg-emerald-50/20 space-y-2">
+                <span className="text-[10px] font-bold text-emerald-700 uppercase tracking-wider block font-mono">
+                  3. The Law of Non-Contradiction
+                </span>
+                <p className="text-xs text-gray-750 leading-relaxed">
+                  Wrong is wrong; wrong from any angle is wrong. Right is right; right from any angle is right. A theory that is "somewhat right and somewhat wrong" is a theory that has failed to touch the underlying ontological essence of the physical phenomenon. Seeking middle-of-the-road balance in physics is equivalent to mixing pure water with mud and calling it a compromise.
+                </p>
+              </div>
+            </div>
+            <p>
+              When a theory is wrong, it does not deserve polite "relative correctness according to the era." 
+              It deserves to be demolished. 
+              The task of the true explorer is to state these truths with uncompromising sharpness, carving away the soft, polite mud of consensus to reveal the hard, unchanging bedrock of physical reality.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-emerald-950">
+              III. The Comprehensive-Score Decay: How Grid-Scoring Eliminates Brilliance
+            </h3>
+            <p>
+              Modern academic evaluation has been colonized by a highly industrial, corporate bookkeeping model: the **"Comprehensive Merit Matrix" (综合评价、全面打分)**. 
+              Under this regime, whenever a manuscript is submitted, reviewers use a checklist of rigid criteria to calculate a normalized, balanced score. 
+              They look at styling, word count, sample size, citation formatting, bibliographic alignment, and rhetorical conformity.
+            </p>
+            <p>
+              The result of this comprehensive grid-scoring is a complete, systemic disaster. 
+              By averaging all parameters, the system systematically grinds away any edge, personality, or unique intellectual character. 
+              The truly groundbreaking, revolutionary ideas—which are inevitably raw, physically intense, and accompanied by minor stylistic or formatting blemishes—receive low comprehensive scores because they do not tick the standard bureaucratic boxes. 
+              Conversely, highly polished, impeccably formatted, but conceptually vacant reports receive maximum scores. 
+              <strong>This is why over 95% of published SCI papers are essentially professional garbage.</strong> 
+              They are built using professional paper-mill templates that possess "immaculate format and ample data" but contain zero new ideas.
+            </p>
+            <div className="bg-slate-955 text-slate-100 p-5 rounded-2xl border border-slate-800 space-y-3 font-sans my-4">
+              <span className="text-[10px] uppercase font-mono tracking-widest text-emerald-400 block font-bold">
+                The Hierarchy of Publishable Value
+              </span>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-1">
+                  <h5 className="text-xs font-bold text-red-400 uppercase font-mono">
+                    ❌ The High-Score Zombie Paper
+                  </h5>
+                  <p className="text-[11px] text-slate-300 leading-relaxed">
+                    Zero innovative thought. Complies 100% with reigning consensus. Exquisite formatting, flawless tables, abundant characterization lines, and zero typos. Received a 95% comprehensive score from peer-reviewers, yet has zero intellectual value and remains a waste of tree pulp.
+                  </p>
+                </div>
+                <div className="space-y-1">
+                  <h5 className="text-xs font-bold text-emerald-400 uppercase font-mono">
+                    ✓ The Imperfect Breakthrough Paper
+                  </h5>
+                  <p className="text-[11px] text-slate-300 leading-relaxed">
+                    Possesses a genuine, revolutionary new idea built on honest experimental foundations. May contain minor cosmetic blemishes: typos, formatting oversights, linguistic awkwardness, or even minor AI assistance footprints (like LLM phrases or hallucinated reference tags). These defects are 100% restorable and do not justify rejection.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-emerald-950">
+              IV. The Honest Data Principle: Original Ideas Must Build on Physical Realism
+            </h3>
+            <p>
+              While we must tolerate and actively restore cosmetic errors, we must maintain an absolute, zero-tolerance boundary against **Data Fabrication and Falsification**. 
+              This is the critical difference between the "Imperfect Breakthrough" and "Paper-Mill Alchemy."
+            </p>
+            <p>
+              A valuable, authentic new idea is naturally born from wrestling with the raw, stubborn resistance of physical reality. 
+              If the underlying experimental data is fabricated or falsified—such as copying western blots, copying SEM microstructures, or simulating values to fit a prediction—the researcher is no longer interacting with nature. 
+              They are interacting with their own social expectations. 
+              <strong>A fabricated dataset can never yield a valuable new scientific thought</strong>, because any theory extracted from fraud is simply an echo of the author's own tactical calculations. 
+              Therefore, those who fabricate data must be systematically and permanently purged from the scientific forest, whereas those who bring forward sharp, innovative theories—regardless of how raw their formatting or intense their tone—must be aggressively protected and published.
+            </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-emerald-950">
+              V. Conclusion: Restore the Edge of Scientific Inquiry
+            </h3>
+            <p>
+              To rescue science from its current state of industrial mediocrity, we must shatter the comprehensive-scoring tables and reject the tyranny of defensive politeness. 
+              When evaluating a manuscript, editorial offices must look at only one question: <strong>Does this work present a genuine, original intellectual idea?</strong> 
+              If it does, the paper must be published, and all minor stylistic blemishes should be repaired as a matter of routine clerical assistance. 
+              The task of science is to preserve the sharp, masculine vigor of intellectual courage, not to polish flat, polite, and high-scoring garbage. 
+              Only by defending the absolute, edge-heavy expression of physical truth can we restore scientific freedom and secure the progress of our civilization.
+            </p>
+            <p className="italic text-emerald-600 text-xs text-center border-t border-emerald-100 pt-4">
+              "Truth has edges; it is not smooth or round. To grind down these edges in the name of scholastic consensus is to ensure that science remains a flat, silent desert."
             </p>
           </div>
         </article>

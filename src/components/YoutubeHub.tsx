@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -584,20 +584,146 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
 
 #AcademicReformation #WaveMechanics #MicrowaveAbsorption #PhilosophyOfScience #MetaScience #AcademicIntegrity #YueLiu #Substack #GitHub #AcademicCensorship`;
 
+  const youtubeScriptText6 = `[SCENE 1: THE WAR ON SCIENTIFIC FREEDOM]
+[Visual: Montage of historical and modern academic censurers. Text overlay: "WISDOM OR COMPLIANCE?". Slowly, we zoom into Donald W. Braben's classic work "Scientific Freedom: The Elixir of Civilization." Graphic overlays show current peer-review charts, funding metrics, and corporate editorial offices with giant red clocks.]
+[Sound: Dramatic, heavy synth bass beat, dropping into a deep, atmospheric hum representing systematic academic oppression.]
+
+[VOICEOVER]
+"Is science under siege? If you watch mainstream media documentaries like 'The War on Science,' they'll tell you that academic freedom is threatened by culture wars, public mistrust, or funding cuts. 
+
+But there is a much deeper, more insidious warfare taking place inside the research community itself: the systemic destruction of the unconventional thinker. 
+
+In his landmark book, 'Scientific Freedom,' Donald Braben argued that true scientific progress depends entirely on protecting unconstrained, high-yield, individual research. Yet, today's scientific consensus has established an autocratic gatekeeping structure. 
+
+They don't ban books at the stake anymore. Today, they censor through bureaucratic peer review, anonymous rejections, and the absolute demand for circular, neutral, and complicit politeness."
+
+
+[SCENE 2: THE CRITERION OF 'REFINEMENT' AND COWARDICE]
+[Visual: Clean display split on screen. Left: "The Polite Scholar (Refinement)" represented by a cartoon mask smiling but hollow. Right: "The Edge of Truth" represented by a sharp, glowing geometric scalpel cutting through complex waves. Text on screen: "Manners ≠ Correctness."]
+[Sound: Sudden, clinical static sound, transitioning into an intellectual violin melody.]
+
+[VOICEOVER]
+"The mainstream consensus of the academic establishment operates on a highly comfortable bias. 
+
+They believe that if you express your ideas with intense certitude, sharp edges, or aggressive critique, you must be a 'radical,' 'unconsidered' eccentric, or simple troublemaker. They value what they call 'refinement'—the habit of circular, non-committal roundness, of balancing every perspective, of never taking a sharp, absolute stand. 
+
+In Chinese academic circles, this is called 'having high stature' (格局) or 'doing things smoothly' (办事圆滑). 
+
+But let us be clear: this polite refinement is often just a mask for corporate cowardice. It is how scientists stay comfortable while funding incorrect research pathways for decades. 
+
+Consider the Harvard cardiologist Piero Anversa, who published dozens of papers fabricating cardiac stem-cell data. Co-scholars knew the biology was flawed, but as the New York Times revealed: 'experts were just too timid to take a stand.' When politeness is valued over physical truth, science decays from a search for reality into a mutual protection society."
+
+
+[SCENE 3: INVARIANT TRUTHS HAVE EDGES]
+[Visual: Bold equations slam onto the screen: 
+1. "ΔS ≥ 0 (Second Law of Thermodynamics) — Perpetual Motion is IMPOSSIBLE"
+2. "Classic Impedance Matching has a Category Error; Wave Mechanics is Invariant"]
+[Sound: Loud, explosive wave synthesis beats, signifying undeniable physical logic.]
+
+[VOICEOVER]
+"The laws of physics do not have manners. They do not seek a polite compromise with social expectations. 
+
+Certain physical truths are absolute, uncompromising, and must be stated in extremes. 
+
+For instance: 'a perpetual motion machine can absolutely never be built.' This is an extreme statement. It leaves no room for diplomatic nuances or circular negotiations. It is dictated by the Second Law of Thermodynamics, which stands as an eternal, invariant truth of nature. 
+
+In microwave physics, the wave-dynamic mechanics of absorption at metal boundaries is absolutely correct, while the half-century impedance matching theory is fundamentally flawed. 
+
+To try to 'balance' these two views or find a cozy, middle-of-the-road compromise is not 'polite behavior.' It is active fraud. Truth has sharp edges; to grind them down in the name of academic etiquette is to replace science with alchemy."
+
+
+[SCENE 4: THE HYPOCRISY OF COMPREHENSIVE SCORECARDS]
+[Visual: A digital checklist sheet floating across, being graded "95% (EXCELLENT FORMAT, NULL NOVELTY)" with red stamps. Nearby, an unorthodox, raw, handwritten manuscript with an intense idea gets stamped with a big red "REJECTED."]
+[Sound: Rapid mechanical stamping sound effects.]
+
+[VOICEOVER]
+"How did academia become so flat? It is because modern journals are run on corporate bookkeeper models. 
+
+Reviewers use what they call 'comprehensive scorecards' (综合评分) to grade papers. They average out everything: word count, style, sample sizes, bibliographic alignment, and formatting conformity. 
+
+This averaging systematically grinds away any edge, personality, or genius. The result is what Elon Musk famously identified: <strong>over 95% of published SCI papers are essentially professional garbage.</strong> They contain zero new ideas. They are immaculate zombie reports, built on template data mills. 
+
+Conversely, a true breakthrough paper is often raw. It might have minor, restorable blemishes—linguistic awkwardness, formatting oversight, or even AI assistance footnotes from international authors struggling with English. 
+
+Yet, the establishment will reject the raw breakthrough for a formatting typo while publishing the flawless, high-scoring water report. This is the supreme hypocrisy of modern peer review."
+
+
+[SCENE 5: THE HONEST DATA PRINCIPLE]
+[Visual: A microscope view of cellular graphics turning into code blocks. Zoom out to show a clean ledger of raw data logs versus a copy-pasted photoshop image with brightness filters.]
+[Sound: Low, critical, warning bass drop.]
+
+[VOICEOVER]
+"But let us draw a clear line. While we must tolerate and actively restore cosmetic formatting and tone errors, we must maintain an absolute, zero-tolerance policy against data falsification. 
+
+Why? Because a valuable, authentic new theory can only be born from confronting the raw, stubborn resistance of physical reality. 
+
+If you fabricate your data—if copy-paste western blots or copy-paste SEM structures—you are no longer interacting with nature. You are interacting with your own career expectations. 
+
+A fabricated dataset can never yield a valuable new scientific thought. Therefore, those who falsified data are academic criminals. But those who bring forward sharp, innovative theories—regardless of how intense their tone or raw their spelling—are the true lifeblood of science."
+
+
+[SCENE 6: CONCLUSION — RECLAIMING THE COGNITIVE REBEL]
+[Visual: High-contrast title display of Dr. Yue Liu's key preprints, SSRN indices alongside the Substack and YouTube links.]
+[Sound: Beautiful, triumphant, soaring acoustic-electronic instrumental music.]
+
+[VOICEOVER]
+"It is time to choose. Do we want a scientific community of polite courtiers polishing high-scoring garbage, or do we want a community of courageous scholars searching for physical truth? 
+
+We must support scientific freedom, which means we must oppose the bureaucratic gatekeeping that silences dissenters in the name of 'decorum.' 
+
+Read Dr. Yue Liu's complete critical essays on Substack, watch our videos, explore our Academic Critique Hub, and join us in reclaiming the sharp, uncompromising edge of scientific inquiry. Let us stop policing tone and start verifying logic. 
+
+Thank you for watching."`;
+
+  const youtubeDescText6 = `True scientific inquiry does not have polite manners. It has edges. In this video, we deconstruct the "War on Science" from the perspective of Donald Braben's masterwork "Scientific Freedom: The Elixir of Civilization." We explore why the academic establishment's demand for circular, non-committal roundness and polite neutral behavior—often praised as "refinement" and "high stature"—is actually a defensive shield for mediocrity, as proven by the Harvard cardiac stem-cell retraction scandal of Piero Anversa.
+
+We examine why absolute physical truths (such as wave mechanics correctness and the impossibility of perpetual motion machines under the Second Law of Thermodynamics) must be stated in extreme, sharp terms. We deconstruct why the corporate "comprehensive scorecard" model of journal review averages out genius, producing over 95% SCI papers that are useless, while minor formatting and tone imperfections are used to crucify genuine breakthrough ideas. Finally, we establish the absolute zero-tolerance boundary against data fabrication.
+
+📖 EXPLORE THE ESSAY ON THE TYRANNY OF CONSENSUS (FREE):
+➔ Read Essay F on our Academic Critique Hub: https://yueliusd.substack.com/p/the-tyranny-of-consensus-and-mediocrity
+➔ Academic Critique Live Platform: https://ais-pre-jll4t3wjknzeiduaoffltv-799145491163.us-east1.run.app/
+
+Key SSRN References for Metaphysical Academic Integrity:
+1️⃣ Theoretical Primacy in Scientific Inquiry (SSRN 5379953):
+➔ https://ssrn.com/abstract=5379953
+2️⃣ Materialism vs Metaphysics: A Contemporary Analysis (SSRN 5447975):
+➔ https://ssrn.com/abstract=5447975
+3️⃣ A Critical Review of Contemporary Philosophical Discourse (SSRN 5514958):
+➔ https://ssrn.com/abstract=5514958
+
+---
+
+⏱️ TIMESTAMPS:
+0:00 - The War on Science vs. Donald Braben's "Scientific Freedom"
+1:40 - The Refinement Hoax: Why Polite Behavior is used to Protect Errors
+3:15 - " Experts were Too Timid to Take a Stand" (The Piero Anversa Case)
+5:10 - Truth is Extreme: Perpetual Motion Machines and Outlawing Impedance Matching
+7:05 - The Comprehensive Grid-Score Decay: Average Parameters, Zero Soul
+9:20 - Elon Musk's 95% SCI Garbage Rule: Immaculate Zombie Papers vs. Raw Genius
+11:50 - The Honest Data Principle: Fabricated Data yields Zero Concepts
+13:30 - Conclusion: Restoring the Sharp Vigor of Solo Scientific Rebellion
+
+📧 ACADEMIC INQUIRIES & DEBATES:
+➔ yueliusd@163.com
+
+#ScientificFreedom #DonaldBraben #MetaScience #AcademicIntegrity #YueLiu #Substack #WaveMechanics #TonePolicing #EamonnKeogh #HarvardScandal #PieroAnversa`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
     activeProject === "project2" ? youtubeScriptText2 : 
     activeProject === "project3" ? youtubeScriptText3 : 
     activeProject === "project4" ? youtubeScriptText4 :
-    youtubeScriptText5;
+    activeProject === "project5" ? youtubeScriptText5 :
+    youtubeScriptText6;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
     activeProject === "project2" ? youtubeDescText2 : 
     activeProject === "project3" ? youtubeDescText3 : 
     activeProject === "project4" ? youtubeDescText4 :
-    youtubeDescText5;
+    activeProject === "project5" ? youtubeDescText5 :
+    youtubeDescText6;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -631,14 +757,14 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Active Video Project / 选择当前视频策划
         </label>
-        <div className="flex flex-col xl:flex-row gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => {
               setActiveProject("project1");
               setCopiedScript(false);
               setCopiedDesc(false);
             }}
-            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project1"
                 ? "bg-slate-900 text-white shadow-sm"
                 : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
@@ -646,7 +772,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             id="toggle-project1"
           >
             <PlaySquare className="w-4 h-4 shrink-0" />
-            Project A: Asymmetry of Disbelief (学术纠错)
+            Project A: Whistleblower
           </button>
           <button
             onClick={() => {
@@ -654,7 +780,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
               setCopiedScript(false);
               setCopiedDesc(false);
             }}
-            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project2"
                 ? "bg-slate-900 text-white shadow-sm"
                 : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
@@ -662,7 +788,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             id="toggle-project2"
           >
             <Compass className="w-4 h-4 shrink-0" />
-            Project B: Important Research? (重要研究)
+            Project B: Quality
           </button>
           <button
             onClick={() => {
@@ -670,7 +796,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
               setCopiedScript(false);
               setCopiedDesc(false);
             }}
-            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project3"
                 ? "bg-slate-900 text-white shadow-sm"
                 : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
@@ -678,7 +804,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             id="toggle-project3"
           >
             <ShieldX className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
-            Project C: The New Dark Age (新黑夜时代)
+            Project C: Dark Age
           </button>
           <button
             onClick={() => {
@@ -686,7 +812,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
               setCopiedScript(false);
               setCopiedDesc(false);
             }}
-            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project4"
                 ? "bg-slate-900 text-white shadow-sm"
                 : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
@@ -694,7 +820,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             id="toggle-project4"
           >
             <ShieldAlert className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
-            Project D: Privacy & COI (审稿公开与利益冲突)
+            Project D: Privacy
           </button>
           <button
             onClick={() => {
@@ -702,7 +828,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
               setCopiedScript(false);
               setCopiedDesc(false);
             }}
-            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project5"
                 ? "bg-slate-900 text-white shadow-sm"
                 : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
@@ -710,7 +836,23 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             id="toggle-project5"
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
-            Project E: Academic Manifesto (学术变革宣言)
+            Project E: Manifesto
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project6");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project6"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project6"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-500 animate-pulse" />
+            Project F: Freedom
           </button>
         </div>
       </div>
@@ -811,6 +953,30 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
         </div>
       )}
 
+      {/* Dynamic Teaser Box for Project F */}
+      {activeProject === "project6" && (
+        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
+            Civilization Elixir & Anti-Consensus Defense • 科学自由与反平庸壁垒
+          </div>
+          <p className="text-[12px] text-emerald-955/90 leading-relaxed italic">
+            "主流科学界的舒适陷阱是：只要批评者言辞锋利，不留回旋余地，就无须仔细核实其数学推导就能直接打成偏激或欠缺格局；只要学者为人圆滑、平衡对错、和稀泥，就被封为德高望重的 refinement 标准。然而特定物理事实（如永动机不可能、波动力学正确而阻抗匹配全错）必须说死。一味追求‘全面打分’只会消消乐式地磨平所有独创理论棱角，沦为制造95%SCI学术垃圾的评分表格木乃伊剧场。我们要捍卫学术自由，反对专制官僚体制的言语规训！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Scientific Freedom (Donald Braben 理论)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              The Fallacy of Refinement (格局陷阱与和稀泥)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              95% SCI Trash Paper Mills (拒绝平庸打分指标)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -819,7 +985,7 @@ For debates on boundary electromagnetics or peer-review transparency studies, ge
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : "Project E"})</span>
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : activeProject === "project5" ? "Project E" : "Project F"})</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}
