@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert } from "lucide-react";
+import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -457,18 +457,147 @@ For collaborations on electromagnetic wave mechanics or peer-review transparency
 
 #PeerReviewCrisis #TransparentScience #AcademicPrivacy #YueLiu #ScientificEthics #ConflictOfInterest #OpenScience #SSRN #AcademicCensorship #MetaScience #ResearchIntegrity`;
 
+  const youtubeScriptText5 = `[SCENE 1: THE REVOLUTION IN WAVE MECHANICS | 第一幕：波动力学对阻抗匹配半世纪神话的终结]
+[Visual: Animation showing standard thin films on metal substrates under microwave illumination. Green vectors show wave propagation. A formula appears: "Classic Impedance Matching Theory: WRONG CATEGORY ERROR." This transitions to show wave mechanics equations for wave amplitudes and interference at boundary conditions, highlighted in glowing golden lines. Bold text: "Wave Mechanics of Microwave Absorption: A Mandatory Materials Undergraduate Course."]
+[Sound: Sudden, energetic electronic chords swelling into a wave pattern.]
+
+[VOICEOVER]
+"For more than half a century, materials science textbooks and billions of dollars in public research grants have been dominated by a supreme physical dogma: the impedance matching theory of microwave absorption. 
+
+While transmission-line theory itself is mathematically pure and physically correct for films, the classic impedance matching theory misinterprets its outcomes at metal boundaries. It commits a fatal, elementary category error—treating material properties and film structures as identical, thereby violating established boundary electromagnetics. 
+
+We must call it what it is: a physical and mathematical fiction. 
+
+To correct this historic error, we have developed the 'Wave Mechanics Theory of Microwave Absorption.' It represents the true, rigorous development of wave physics applied to electromagnetic materials. No longer should students be forced to memorize obsolete, mechanically inconsistent formulas. The Wave Mechanics Theory must become a mandatory, cornerstone curriculum for all materials science undergraduates worldwide."
+
+
+[SCENE 2: WHY SCIENCE IS IDEALIST METAPHYSICS | 第二幕：科学是唯心主义形而上学，而非盲目的炼金术数叠屋]
+[Visual: High-contrast graphics showing Erwin Schrödinger, John Dalton, and Galileo looking up at absolute conceptual structures. In contrast, a modern conveyor belt spits out endless mountains of TEM, SEM, and XRD measurements labeled "DIALECTICAL MATERIALIST experimental data-accumulation = MODERN ALCHEMY."]
+[Sound: Deep, atmospheric cello frequencies, highlighting intense philosophical contemplation.]
+
+[VOICEOVER]
+"This physics crisis exposes a deeper philosophical rot inside modern science. 
+
+How did our universities become so blind? It is because modern science has abandoned its true epistemological anchor. 
+
+Science in its purest form is Idealist Metaphysics (唯心主义形而上学). It is the conviction that the physical universe is ultimately governed by invisible, absolute, invariant mathematical laws and conceptual truths. Dalton did not discover the atom by scanning every chemical mixture in a laboratory. Galileo did not prove that heavy and light objects fall at the same speed by dropping thousands of lead balls from Pisa. They conquered through the pure, uncompromising beauty of deductive logic. 
+
+In contrast, modern research has degenerated into Dialectical Materialist experimental data-accumulation. It has abandoned theoretical soul for blind, routine measurements. It is modern high-tech alchemy. We believe that if we pile up enough expensive material characterization data, truth will magically materialize. It won’t. Without a guiding theoretical spine, a thousand tables of SEM images are merely a technological garbage heap."
+
+
+[SCENE 3: THE HIGH-TECH MEDIEVAL INQUISITION | 第三幕：比中世纪更黑暗的学术体制游戏与孤勇者的漫长道路]
+[Visual: Dynamic split-screen. On one side, a medieval monk’s desk with hand-copied scrolls. On the other side, an SCI index interface flashing "95% OF ARTICLES ARE SYNTHETIC WASTE," backed by faceless editorial boards drinking champagne, while a lone scholar sits completely alone in a dimly lit office reading a timeless classic monograph.]
+[Sound: Sudden, solemn church bells tolling combined with metallic clashing beats.]
+
+[VOICEOVER]
+"This systemic decay has turned research into a bureaucratic academic game. The academic publishing cartels enforce SCI Impact Factors and peer reviews with no experimental or mathematical validation. 
+
+We have slipped into an intellectual winter far darker than the Middle Ages. In the 17th century, the Catholic Church gave Galileo a formal trial with open written records. Today, anonymous reviewers kill career-defining innovations behind digital firewalls with single-click desk rejections. 
+
+The result? Over 95% of published journal papers are unread, safe, formatting-compliant 'synthetic waste' that actively drowns out genuine theoretical breakthroughs. 
+
+If you want to find real, invariant truth today, do not search the latest trending issues of top-tier SCI journals. Go read classic monographs (专著). Studying a single peer-reviewed timeless monograph is infinitely more valuable than skimming ten thousand fleeting journal articles. 
+
+And remember this: true, epoch-defining breakthroughs have never been achieved by massive, administrative corporate 'team project grants.' True science has always been, and must always remain, an act of courageous, individual solo struggle (单打独斗)."
+
+
+[SCENE 4: THE AUTOCRATIC FREAK & THE PRINCIPLE OF WU WEI | 第四幕：民主世界里的专制怪胎与科学的“无为而治”]
+[Visual: A bold organizational chart illustrating how the scientific community operates as an absolute dictatorship of administrative metrics and citation cartels. A green ink wash painting showing Taoist symbols of "Wu Wei" (无为而治) appears, washing away the administrative boxes.]
+[Sound: A light, serene, yet powerfully resonant bamboo flute melody joining the synths.]
+
+[VOICEOVER]
+"How do we classify the modern scientific establishment? It is an autocratic freak living inside the democratic world. While scientific institutions praise democratic accountability, they operate as rigid, self-preserving feudal dictatorships governed by administrative metrics. 
+
+The cure for this autocratic decay is simple, ancient, and profound: 'Wu Wei,' or active non-intervention (无为而治). 
+
+Science cannot be managed, scheduled, or directed by administrative committees. Genius must be allowed to breathe outside the matrix of KPIs and impact factors. We must leave scholars alone, abolish the constant, frantic metrics audits, and allow raw intellectual passion to dictate the course of inquiry."
+
+
+[SCENE 5: CITATION LIBERATION & THE EMPOWERMENT OF AI | 第五幕：学术信披的彻底解放与AI写作的正名]
+[Visual: Words flashing across the screen in high-contrast display:
+1. "Self-Citations > External Citation Loops" (自引重于他引)
+2. "The Absolute Freedom To Cite Zero Literature" (不引文献之自由)
+3. "AI as a Legitimate Scholarly Equalizer" (AI非学术不端)]
+[Sound: Sudden, bright symphonic transition, signaling liberation.]
+
+[VOICEOVER]
+"Finally, we must dismantle the arbitrary shackles on academic communication. 
+
+First: self-citation is infinitely more honest and scientifically meaningful than participating in fake, external citation loops between review cartels. 
+
+Second: every author must possess the absolute intellectual freedom to cite zero external papers if their logic stands independently. Reviewers, too, have every right to recommend their own publications to authors, provided the connection is scientifically justified. 
+
+And let us stop the hypocritical hysteria surrounding artificial intelligence. Writing is not science. Writing is merely a linguistic translation tool. Using AI to format, structure, or translate manuscripts is not 'academic misconduct'—it is a powerful, historic equalizer for grassroots and non-native international scholars to bypass the linguistic gatekeeping of elite publishers. Science must judge the logic of the mind, not the style of the typing."
+
+
+[SCENE 6: ACADEMIC REFORMATION | 第六幕：真理的反击，加入学术纠错演练场]
+[Visual: The screen returns back to a clean dark slate design. High-contrast display of:
+1. Substack: yueliusd.substack.com/about
+2. YouTube Channel: @Yue-gp7bt
+3. Academic Critique Hub: ais-pre-jll4t3wjknzeiduaoffltv-799145491163.us-east1.run.app/ & helpful-sfogliatella-f40891.netlify.app
+4. GitHub: github.com/yueliusd07017-lab/academic-critique-hub]
+[Sound: Peaceful, inspiring symphonic climax that slowly fades out.]
+
+[VOICEOVER]
+"The battle lines are drawn. We are not here to play the academic game; we are here to reform it. 
+
+Read Dr. Yue Liu's original critical analyses on our Substack, watch our video lectures, explore the live Academic Critique Hub, and download the full open-source code from GitHub. Engage with the data, test the wave equations, and judge the logic for yourself. 
+
+Let us shatter the golden silence and restore open, courageous, and transparent scientific truth.
+
+Thank you for watching."`;
+
+  const youtubeDescText5 = `The Manifesto of Academic Reformation: Challenging half a century of microwave absorption dogmas, exposing the epistemological rot of metrics-based publishing, and liberating the scholarly communication matrix.
+
+In this video, we present a sweeping critique of the modern scientific establishment. We deconstruct why the 50-year-old impedance matching theory of microwave absorption is a mathematical category error that must be replaced by the Wave Mechanics Theory in undergraduate curricula. We explore the deep philosophical nature of science as Idealist Metaphysics, and expose why the modern academic publishing industry operates as an autocratic freak worse than the Middle Ages—destroying raw breakthroughs in favor of formatted "synthetic waste" data-reports.
+
+📖 DISCOVER THE COMPLETE MULTI-PLATFORM REFORMATION PLATFORMS:
+
+1️⃣ READ THE INNOVATIVE TREATISES ON SUBSTACK:
+➔ Substack About & Treatise Library: https://yueliusd.substack.com/about
+
+2️⃣ ENGAGE WITH THE LIVE ACADEMIC CRITIQUE HUBS:
+➔ Scientific Audit Live Engine: https://ais-pre-jll4t3wjknzeiduaoffltv-799145491163.us-east1.run.app/
+➔ Mirror Static Platform: https://helpful-sfogliatella-f40891.netlify.app/
+
+3️⃣ STUDY AND DEPLOY THE OPEN CODE:
+➔ GitHub Collaboration Repository: https://github.com/yueliusd07017-lab/academic-critique-hub
+
+4️⃣ EXPLORE THE VIDEO SERIES ON YOUTUBE:
+➔ YouTube Channel Homepage: https://www.youtube.com/@Yue-gp7bt
+
+---
+
+⏱️ MANIFESTO TIMESTAMPS:
+0:00 - Wave Mechanics vs. Classic Microwave Impedance Matching Dogma
+2:30 - Idealist Metaphysics: Why Dalton, Schrödinger & Galileo Succeeded
+4:45 - The Modern Alchemy Trap: Mindless Data-Reports & "Synthetic Waste"
+7:00 - The High-Tech Medieval Inquisition: Anonymous Desk-Rejections vs. Galileo’s Trial
+8:45 - Studies of Genius: Why Classic Monographs Overrule Ephemeral Journal Papers
+10:15 - "Wu Wei" (无为而治) in Science: The Antidote to the Feudal Autocratic Freak
+12:10 - Academic Liberation: Self-Citation, Citations Freedom, and AI Writing Legitimacy
+14:35 - Join the Reformation: Substack, YouTube, Academic Critique Hub, and GitHub
+
+📧 COLLABORATIONS, DEBATES, AND PHYSICAL CORRESPONDENCE:
+For debates on boundary electromagnetics or peer-review transparency studies, get in touch:
+➔ yueliusd@163.com
+
+#AcademicReformation #WaveMechanics #MicrowaveAbsorption #PhilosophyOfScience #MetaScience #AcademicIntegrity #YueLiu #Substack #GitHub #AcademicCensorship`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
     activeProject === "project2" ? youtubeScriptText2 : 
     activeProject === "project3" ? youtubeScriptText3 : 
-    youtubeScriptText4;
+    activeProject === "project4" ? youtubeScriptText4 :
+    youtubeScriptText5;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
     activeProject === "project2" ? youtubeDescText2 : 
     activeProject === "project3" ? youtubeDescText3 : 
-    youtubeDescText4;
+    activeProject === "project4" ? youtubeDescText4 :
+    youtubeDescText5;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -567,65 +696,35 @@ For collaborations on electromagnetic wave mechanics or peer-review transparency
             <ShieldAlert className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
             Project D: Privacy & COI (审稿公开与利益冲突)
           </button>
+          <button
+            onClick={() => {
+              setActiveProject("project5");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex-1 flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project5"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project5"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
+            Project E: Academic Manifesto (学术变革宣言)
+          </button>
         </div>
       </div>
 
       {/* Dynamic Editorial Quote / Teaser Card for Project B */}
       {activeProject === "project2" && (
-        <div className="bg-amber-50/40 border border-amber-200/50 rounded-xl p-4.5 space-y-3">
+        <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 font-sans">
           <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono">
             Core Epistemological Insight • 核心思辨要点
           </div>
-          <p className="text-[12px] text-amber-900/90 leading-relaxed font-sans italic">
+          <p className="text-[12px] text-amber-900/90 leading-relaxed italic">
             "历史是最公正的。历史反复证明，那些在当世喧嚣尘上的往往是主流学者刻意炒作的糟粕，而那些被当世冷落或打压的经常是真金白银。通过严密的逻辑思辨挑战共识，其学术分量远超堆砌海量平庸实验的重复劳动。"
           </p>
-          <div className="flex flex-wrap gap-2 pt-1">
-            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
-              Consensus ≠ Important (共识不等于重要)
-            </span>
-            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
-              No Small Matters (科学无小事)
-            </span>
-            <span className="text-[9px] font-bold font-mono px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
-              Logic Trumps Data (逻辑思辨胜于海量实验)
-            </span>
-          </div>
-        </div>
-      )}
-
-      {/* Dynamic Alarm Indictment Box for Project C */}
-      {activeProject === "project3" && (
-        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in">
-          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono">
-            Severe Systemic Indictment • 核心批判
-          </div>
-          <p className="text-[12px] text-red-950/90 leading-relaxed font-serif italic">
-            "当今学术界甚至连什么是重要的、可发表的文章都不再清楚。低创新度、无思想性的实验数据报告占领主流，而具有颠覆性创新的重大思想突破反因格式、AI写作残留或拼写错误等'可修复性瑕疵'被无情拒稿，沦为审稿人思想剽窃的猎物。当沉默取代公开辩论，这种绝对霸权的黑夜时代，与中世纪审判所并无二致。"
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
-            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              The New Dark Age (新黑夜时代)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              Restorable Defects Law (可修复瑕疵法则)
-            </span>
-            <span className="px-1.5 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              Concept Hijacking suspected ($Z_M$ variable footprint)
-            </span>
-          </div>
-        </div>
-      )}
-
-      {/* Dynamic Editorial Quote / Teaser Card for Project B */}
-      {activeProject === "project2" && (
-        <div className="bg-amber-50/40 border border-amber-200/50 rounded-xl p-4.5 space-y-3">
-          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono">
-            Core Epistemological Insight • 核心思辨要点
-          </div>
-          <p className="text-[12px] text-amber-900/90 leading-relaxed font-sans italic">
-            "历史是最公正的。历史反复证明，那些在当世喧嚣尘上的往往是主流学者刻意炒作的糟粕，而那些被当世冷落或打压的经常是真金白银。通过严密的逻辑思辨挑战共识，其学术分量远超堆砌海量平庸实验的重复劳动。"
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
             <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
               Consensus ≠ Important (共识不等于重要)
             </span>
@@ -685,6 +784,33 @@ For collaborations on electromagnetic wave mechanics or peer-review transparency
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project E */}
+      {activeProject === "project5" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-red-500 animate-pulse" />
+            The Manifesto of Academic Reformation • 学术变革世界宣言
+          </div>
+          <p className="text-[12px] text-red-955/90 leading-relaxed italic">
+            "波动力学理论而非阻抗匹配应当成为材料学本科生必修课。科学本质是唯心主义形而上学理论逻辑，而非盲目积累数据的唯物主义高科技炼金术。学术体制已沦为民主世界里的专制怪胎，95%期刊文章沦为垃圾，必须无为而治。解放文献引用（自引重于他引，有不引之自由），承认AI写作是突破语言壁垒的平等利器，拒绝匿名垄断与偏见霸权！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Wave Mechanics Curriculum (推行波动力学课程)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Idealist Metaphysics (唯心主义形而上学)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Academic "Wu Wei" (科学无为而治)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              AI Writing Equalizer (AI写作平等工具)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -693,7 +819,7 @@ For collaborations on electromagnetic wave mechanics or peer-review transparency
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : "Project D"})</span>
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : "Project E"})</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}
