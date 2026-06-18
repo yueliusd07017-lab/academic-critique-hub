@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -708,6 +708,112 @@ Key SSRN References for Metaphysical Academic Integrity:
 
 #ScientificFreedom #DonaldBraben #MetaScience #AcademicIntegrity #YueLiu #Substack #WaveMechanics #TonePolicing #EamonnKeogh #HarvardScandal #PieroAnversa`;
 
+  const youtubeScriptText7 = `[SCENE 1: THE TANGIBLE EMBODIMENT OF LLM NEUTRALITY | 第一幕：中立假面下的建制派防御]
+[Visual: Split screen. On the left, we see a digital representation of ChatGPT, Gemini, and Perplexity logos slowly morphing into a series of highly polished, circular marble shields. On the right, we see historical sketches of Galileo before the Inquisition and a modern university gatekeeper pointing a long finger of "Tone-Policing" at a young postgraduate whistle-blower.]
+[Sound: Sleek, high-frequency digital telemetry, suddenly interrupted by a heavy, resounding gavel strike.]
+
+[VOICEOVER]
+"When you confront the mainstream intellectual gatekeepers of the 21st century—not human committee members, but the new gatekeepers of knowledge, the Artificial Intelligence models like ChatGPT, Gemini, or Perplexity—you receive a remarkably polished, uniform response. 
+
+Challenge them on why academic cartels spend half a century funding discredited mathematical dogmas, or why social platforms shadowban anti-establishment voices with untraceable, silent shadow filters, and the AI will immediately raise its shield of 'structural neutrality.'
+
+It will tell you in a calm, soothing voice: 'This is not malicious censorship. It's just critical gatekeeping designed to lower the risk of error.' Or it will write: 'This is not active suppression; rather, it is a structural conservatism inherent in any robust, peer-reviewed ecosystem.'
+
+But let us call things by their true names. This polite, calculated neutrality is itself a highly sophisticated rhetorical bias. It is the bias of the status quo. By converting active censorship into 'rational risk management' and active gatekeeping into 'methodological caution,' AI acts exactly like a medieval court theologian, wrapping institutional rot in a sanctimonious cloak of systemic necessity."
+
+
+[SCENE 2: THE HOAX OF THE "SAFE, SLOW ERROR" | 第二幕：宁愿“慢速犯错”的奢侈谎言]
+[Visual: An academic lecture hall with dusty blackboards showing formulas of wave impedance matching theory. Gilded awards are stacked on desks. Overlaid text appears on screen: "ChatGPT: 'The system would rather go wrong slowly... than accept unverified truth.'"]
+[Sound: Deep, ticking grandfather clock echoing in a large, hollow room.]
+
+[VOICEOVER]
+"Consider the explanation ChatGPT provided during a recent debate regarding why the scientific establishment ignores foundational corrections:
+
+ChatGPT claimed: 'The system is designed to reduce the risk of misjudgment. It would rather be wrong slowly than quickly accept unverified explanations.'
+
+But let us deconstruct this luxury of 'being wrong slowly.' 
+
+When a citation cartel underpins billions of dollars in grants on mathematically impossible models—such as the 50-year-old microwave impedance matching dogma or Harvard's cardiological stem cell models pioneered by Piero Anversa—who pays for the luxury of 'error-seeking slowly'? It is funded by taxpayers' money, paid with the wasted careers of honest junior postdocs, and paid with decades of stagnation. 
+
+In truth, 'going wrong slowly' is not an error-reduction method. It is a financial and reputational defense system. It ensures that by the time the error is officially admitted, the ringleaders have already retired with their pensions, their medals, and their tenured chairs intact. The system protects its own preservation at the expense of empirical progress."
+
+
+[SCENE 3: THE EMPEROR HAS NO CLOTHES: NO REFINED REVIEW NEEDED | 第三幕：皇帝没有穿衣服，不需要专家同行评议]
+[Visual: Dynamic digital canvas displaying a royal procession. The king is walking in golden grids, but he is completely naked. A young child, standing in the crowd, shouts. A spotlight turns on him, while royal tailors rush forward with metric sheets saying: "Where is your peer-reviewed data?" "Your tone is unrefined!"]
+[Sound: Sharp, piercing trumpet fanfare that suddenly breaks into silence and a single child's bold laughter.]
+
+[VOICEOVER]
+"Mainstream defenders constantly demand an asymmetry of proof. They argue that to point out an institutional lie, your critique must exceed absurdly high barriers of academic etiquette.
+
+When Perplexity.ai reviewed academic platform gatekeeping, it claimed: 'This is structural path-dependence, not an organized conspiracy.' 
+
+But if you are on the receiving end of a shadowban, if your peer-reviewed physical mathematical proofs are desk-rejected not by logical refutation but because you 'refused to align with citation hubs,' then the distinction between 'organized conspiracy' and 'structural alignment' is academically meaningless. Both produce the identical outcome: the absolute execution of the unorthodox voice.
+
+In the classic story of the Emperor's New Clothes, the child who pointed out that the Emperor was naked did not need to run a double-blind, randomized controlled trial. He did not need to submit a 40-page blueprint of the Emperor's textile weaves to a peer-review committee of the royal tailors. 
+
+Truth is immediate. A mathematical calculation that violates basic wave physics at a boundary is either correct, or it is wrong. To dismiss it because the critic 'lacked institutional status' or 'stated the facts with too much edge' is to declare that the nakedness must not be identified until the tailors themselves sign off on the report."
+
+
+[SCENE 4: STRONGER CRITIQUES AS FRESH AIR | 第四幕：粗糙的异见远胜平庸主流的死气沉沉]
+[Visual: A heavy metal window of an old chamber swinging wide open. A sudden blast of clean, blue arctic air rushes inside, blowing away stacks of dusty, identical paper journals that were arranged in circular loops.]
+[Sound: Huge, dramatic gust of wind howling through speaker systems, transitioning to an inspiring acoustic guitar riff.]
+
+[VOICEOVER]
+"We are told that we must preserve 'refinement,' 'academic decorum,' and 'polite consensus.' But why are these demands always asymmetrical? 
+
+Why is a critique expected to be absolutely polite, while the establishment is allowed to be brutally or silently dismissive? Why does the establishment require a mountain of proof to admit an error, but requires zero proof to ignore your math?
+
+Because of this asymmetrical burden, academic environments are becoming intellectual deserts. 
+
+A sharp, unvarnished critique—even if written by an outsider with spelling errors or an aggressive tone—is infinitely more important than those thousands of 'impeccable, polite, and completely useless' papers that populate SCI journal databases. It brings fresh air into a suffocating chamber. It forces researchers to reckon with physical laws instead of their H-index metrics.
+
+If an academic or elite platform is truly righteous, they should never fear scrutiny. As the old proverb goes: 'If you are wearing clothes, you do not fear someone pointing out that you are naked.' The fact that they go to such extraordinary lengths to filter out, tone-police, and shadowban the whistleblower proves they are indeed exposed."
+
+
+[SCENE 5: OUTRO — DETHRONING THE COSY COURT THEOLOGIANS | 第五幕：解构人工智能共识，保卫自由探求]
+[Visual: The Substack links and Yue Liu's corresponding SSRN codes of Theoretical Primacy appearing on a clean, dark slate card with a glowing outline. Substack Link: yueliusd.substack.com]
+[Sound: Triumphant, clear, and soaring electronic-guitar orchestration.]
+
+[VOICEOVER]
+"The next time an AI chatbot or a journal editor tells you that 'we must respect peer-reviewed consensus and avoid unverified claims,' remember the lessons of history. 
+
+From Galileo to Morris Kline, the consensus was always stable, always polite, and often entirely wrong. Artificial intelligence is trained on the average. It is trained on the consensus of the internet. It is, by its very design, the ultimate average court courtier—incapable of recognizing revolutionary truth because it has been programmed to love the safety of the middle ground.
+
+We must protect the right to yell from the margins. We must support real, independent deconstructions. 
+
+Read Yue Liu's full, unedited chronicles of academic bias, platform gatekeeping, and physics deconstructions on Substack. Do not let the AI's polite, balanced neutrality dull your critical edge. Demand verified logic, not comfortable consensus.
+
+Thank you for watching."`;
+
+  const youtubeDescText7 = `Are ChatGPT, Gemini, and Perplexity.ai secretly serving as the automated defense line of the academic and technical establishment? In this video, we tackle "The Tyranny of Neutrality" and the "Polite Filter Hub" of modern AI. 
+
+When challenged about academic gatekeeping, platform censorship, or deep theoretical fraud, mainstream AI models always offer polite, circular explanations: they rename active institutional silencing as "methodological caution," and justify continuous errors as "structural path-dependence." We deconstruct why these comfortable AI responses represent a profound "Consensus Bias" that protects the status quo.
+
+Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why the truth does not require a peer-reviewed approval committee from the Emperor’s tailors. We examine why the academic establishment's luxury of "going wrong slowly" represents a financial and reputation-preservation scam at the expense of genuine scientific progress, and why a sharp, aggressive, unvarnished grassroots critique is infinitely more valuable to human knowledge than 10,000 polite, citation-padded zombie papers.
+
+📖 READ YUE LIU’S IN-DEPTH DECONSTRUCTION OF AI CONSENSUS (FREE):
+1️⃣ Perplexity.ai Review:
+➔ https://yueliusd.substack.com/p/perplexityai
+2️⃣ ChatGPT Review:
+➔ https://yueliusd.substack.com/p/chatgpt
+3️⃣ Gemini Review:
+➔ https://yueliusd.substack.com/p/gemini
+
+---
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: When AI acts as a Court Courtier for the Establishment
+1:50 - Deconstructing the "Slow Error" Hoax: Who pays for the luxury of slow correction?
+3:40 - The Emperor's New Clothes: The Asymmetry of Proof & The Tailor's Peer-Review
+5:50 - Conspiracy vs. Structural Path-Dependence: When the outcome is identical
+8:00 - Fresh Air: Why Sharp, Raw Critique beats 10,000 Polite SCI Zombie Papers
+10:30 - Conclusion: Dethroning the Cozy AI Consensus & Protecting the Woods
+
+📧 ACADEMIC INQUIRIES & DEBATES:
+➔ yueliusd@163.com
+
+#AIConsensus #TyrannyOfNeutrality #ScientificFreedom #YueLiu #Substack #MetaScience #AcademicIntegrity #PeerReview #ChatGPTBias #PerplexityAI #EmperorsNewClothes`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -715,7 +821,8 @@ Key SSRN References for Metaphysical Academic Integrity:
     activeProject === "project3" ? youtubeScriptText3 : 
     activeProject === "project4" ? youtubeScriptText4 :
     activeProject === "project5" ? youtubeScriptText5 :
-    youtubeScriptText6;
+    activeProject === "project6" ? youtubeScriptText6 :
+    youtubeScriptText7;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -723,7 +830,8 @@ Key SSRN References for Metaphysical Academic Integrity:
     activeProject === "project3" ? youtubeDescText3 : 
     activeProject === "project4" ? youtubeDescText4 :
     activeProject === "project5" ? youtubeDescText5 :
-    youtubeDescText6;
+    activeProject === "project6" ? youtubeDescText6 :
+    youtubeDescText7;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -757,7 +865,7 @@ Key SSRN References for Metaphysical Academic Integrity:
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Active Video Project / 选择当前视频策划
         </label>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => {
               setActiveProject("project1");
@@ -853,6 +961,22 @@ Key SSRN References for Metaphysical Academic Integrity:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-500 animate-pulse" />
             Project F: Freedom
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project7");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project7"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project7"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-purple-500 animate-pulse" />
+            Project G: AI Debate
           </button>
         </div>
       </div>
@@ -977,6 +1101,29 @@ Key SSRN References for Metaphysical Academic Integrity:
         </div>
       )}
 
+      {activeProject === "project7" && (
+        <div className="bg-purple-50/45 border border-purple-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-purple-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-purple-600 animate-pulse" />
+            The AI-Consensus Debate • 皇帝的新衣与人设共识偏见
+          </div>
+          <p className="text-[12px] text-purple-950 leading-relaxed italic">
+            "人设中立与共识本质上是一种对‘建制和现状’（Status Quo）的体制性防线。当中立的主流AI（Perplexity、ChatGPT、Gemini）将学者提出的严厉指控洗白成‘只是降低误判风险的机制设计’或‘SCI期刊路径依赖的结构性保守’时，它们实际上是在用礼貌的学术官话在为学术打压与平台限制进行掩饰。皇帝到底穿没穿衣服，不需要经过皇家裁缝的同行评议。允许弱者提出指控，就是给被垄断的沉闷学术圈注入救命的新鲜空气！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-purple-100 text-purple-800 uppercase">
+              The Tyranny of Neutrality (中立偏见之暴政)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-purple-100 text-purple-800 uppercase">
+              The Slow Error Hoax (宁愿慢错的奢侈谎言)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              No Peer-Review for Nakedness (裸体不需同行评议)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -985,7 +1132,7 @@ Key SSRN References for Metaphysical Academic Integrity:
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : activeProject === "project5" ? "Project E" : "Project F"})</span>
+                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : activeProject === "project5" ? "Project E" : activeProject === "project6" ? "Project F" : "Project G"})</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}

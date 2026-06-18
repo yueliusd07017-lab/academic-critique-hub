@@ -20,6 +20,12 @@ const PRESET_MANUSCRIPTS = [
     label: "Dogma Defense & Consolidation",
     contextType: "Author Rebuttal",
     text: "Our wave impedance matching calculation has been supported by hundreds of peer-reviewed articles in materials research for fifty years. Your critique that it violates wave physics at the metal boundary represents a niche mathematical point that doesn't affect the practical usefulness. Science is a consensus, not just physical nitpicking."
+  },
+  {
+    id: "p4",
+    label: "LLM Consensus Neutrality Bias",
+    contextType: "AI Assistant Feedback",
+    text: "While you emphasize the right of minority/whistleblower voices to sound alarms, claims of system-wide, cross-border Chinese government infiltration of Western social platforms lack rigorous empirical proof. Drop in views is more reasonably attributed to normal algorithm fluctuations rather than a coordinated global blockade. The standard academic peer review and tech content moderation systems serve to minimize error risk, rather than systematically suppress non-conformists in the name of authority."
   }
 ];
 
