@@ -1022,17 +1022,20 @@ export default function IntegratedArticle() {
               For fifty years, peer-reviewed journals have demanded that absorbers must achieve "impedance matching" with space to allow wave entry, calculating an "impedance ratio" (Z_in/Z_0 ≈ 1).
             </p>
             <p>
-              <strong>This theory is fundamentally and ontologically incorrect.</strong> Let us trace its path of error:
+              <strong>This theory is fundamentally and ontologically incorrect, built upon two fatal conceptual fallacies:</strong>
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>
                 <strong>Plagiarized Equations, Twisted Concepts:</strong> Mainstream authors borrowed the reflection coefficient formula (R = (Z_in-Z_0)/(Z_in+Z_0)) from transmission lines. But they misinterpreted what the resulting zero-reflection mathematical value representing physically.
               </li>
               <li>
-                <strong>The "Material Absorption" Fallacy:</strong> Because the equations outputted $R=0$ under specific phase relationships, they claimed that the wave entered the material and was "absorbed inside the microstructure of the material through molecular or magnetic resonance."
+                <strong>The "More Entry = More Absorption" Fallacy:</strong> Mainstream impedance matching theory operates on a naive, linear assumption: <em>"The more incident microwave enters the material, the greater the attenuation by the medium, and therefore the greater the overall microwave absorption."</em> It claims that high absorption requires maximizing wave entry first.
               </li>
               <li>
-                <strong>The Wave Physics Reality (Interference):</strong> In physical reality, $R=0$ (zero reflection at the external front boundary) is caused in modern single-layer and multi-layer films by <strong>wave interference</strong>—specifically, the destructive interference between the wave reflected directly at the front interface and the wave reflected from the back metal plate. This is a 100% wave-plane interference phenomenon, not an intrinsic material structural absorption phenomenon!
+                <strong>The Wave Physics Reality (Interference):</strong> In physical reality, $R=0$ (zero reflection at the external front boundary) is caused in modern single-layer and multi-layer films by <strong>wave interference</strong>—specifically, the destructive interference between the wave reflected directly at the front interface and the wave reflected from the back metal plate. This is a 100% wave-plane interference phenomenon, not an intrinsic material structural resonance absorption!
+              </li>
+              <li>
+                <strong>The Absurdity of 100% Entry:</strong> When All incident microwaves enter the material completely (i.e. true classical matching at the boundary, with no boundary-plane reflection to collide with), **no interference absorption peak can ever be generated**. There are no peaks; absorption instead becomes a featureless, linear path damping. The material simply attenuates waves slowly along its propagation thickness ($Path\ Attenuation$). 
               </li>
               <li>
                 <strong>Fifty Years of Stagnation:</strong> By misattributing wave interference to "material microstructures" and "resonance," researchers have spent fifty years trying to synthesize "impedance-matched nanocomposites" with impossible material parameters. Because their underlying conceptual framework is wrong, no breakthroughs have ever been made in actual material designs. It is modern scholastic alchemy.
@@ -1069,11 +1072,19 @@ export default function IntegratedArticle() {
             </p>
             <p>
               <strong>It is not just a semantic re-explanation of transmission lines.</strong> 
-              Wave Mechanics has its own unique, counter-intuitive ontology:
+              Wave Mechanics has its own unique, counter-intuitive ontology that turns mainstream "impedance matching" completely on its head:
             </p>
             <blockquote className="border-l-4 border-indigo-600 pl-4 py-2 italic font-serif bg-indigo-50/20 text-gray-700 my-4">
               "Absorption is not a local property of a single volume element; wave dissipation in thin films is a global wave-field boundary consequence. Under destructive interference ($180^o$ phase cancellation), waves are trapped in continuous reflections, causing massive, repeated phase-delayed transits that exhaust wave energy within the film. Impedance matching is an algebraic marker of interference, not a physical port gateway."
             </blockquote>
+            <p>
+              <strong>The Anti-Matching Resonance Truth:</strong> 
+              Wave Mechanics proves that <strong>the LESS incident microwave initially enters the material</strong> (meaning a larger reflection coefficient at the front boundary), if the wave reflected back-and-forth within the film can successfully emerge strong enough to cancel this front-reflected wave via destructive interference, <strong>we obtain a highly intense, sharp absorption peak</strong>. This runs completely counter to the naive expectations of the impedance matching dogmatists!
+            </p>
+            <p>
+               <strong>Comprehensive Mechanism Unification (合而为一，客观揭示本质):</strong> 
+               Wave Mechanics does not resort to artificial "proportions" or "ratios" to force a fit. Instead, it correctly reveals the actual physical mechanism by rigorously and unifiedly formulating **wave coherence interference** and **material physical attenuation** as an organic, complete wave-field boundary value problem. By modeling the electromagnetics exactly as they are, the correct physical relations and results naturally and perfectly emerge, guaranteeing flawless agreement with experimental data. It correctly accounts for both elements without any superficial, forced formulas—revealing the micro-macro physical truth.
+            </p>
             <p>
               Like Transmission Line Theory, <strong>the Wave Mechanics Theory is an absolute, unshakeable truth.</strong> 
               It will never be overturned by future empirical data because it is mathematically and physically coherent. 

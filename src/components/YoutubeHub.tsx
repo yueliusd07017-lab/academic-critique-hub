@@ -850,9 +850,11 @@ But here is the crucial catch: Transmission Line Theory is a foundational, gener
 
 They created the 'Impedance Matching Theory of Microwave Absorption.' They claimed that to achieve zero reflection, the material must achieve 'impedance matching' to allow waves to enter, where they are consumed by molecular or magnetic resonance of the material’s structure.
 
-But this is an absolute ontological error. Zero reflection in single-layer and multi-layer films is not caused by 'microstructural absorption.' It is caused by wave plane interference! 
+They propagated a fundamental conceptual error: 'the more incident wave enters, the greater the material's attenuation, and therefore the higher the overall microwave absorption.'
 
-It is the destructive interference between the front boundary reflection and the back-plate reflection that cancels the wave. The material doesn't 'let the wave in' through a matching gateway—instead, the waves cancel each other out at the interface. 
+But this is an absolute ontological error. Zero reflection in single-layer and multi-layer films is not caused by 'microstructural absorption.' It is caused by wave-plane interference! 
+
+When all incident microwave enters the material completely under perfect boundary matching, there is no front-boundary reflection to collide with. That means no wave interference can ever occur, and no strong absorption peak can ever be generated! Without interference, absorption is merely slow, linear path attenuation—nothing more.
 
 By misattributing a macro wave-physics property back into 'material structures,' researchers spent fifty years synthesizing useless composite alloys that led to zero major breakthroughs. Mainstream materials journals have been printing professional alchemy for half a century."
 
@@ -880,9 +882,11 @@ Because circuit matching theory remains strictly silent on the physical molecula
 
 This is not merely a semantic re-explanation of transmission line equations. It is an independent disciplinary theory. It utilizes transmission line mathematics as its foundation, but establishes an entirely new, correct conceptual system.
 
-Wave Mechanics conceptualizes thin-film absorption not as an intrinsic local resonance property of a single volume element, but as a global consequence of wave-plane boundaries and interference. Wave reflection, transmission, phase-cancellation, and multiple-transit trapping are all unified into a precise spatial wave mechanics model.
+Wave Mechanics corrects the core concept of microwave absorption. It proves a beautiful, counter-intuitive truth: the LESS incident microwave initially enters the material—meaning higher front reflection—the GREATER the potential absorption peak! 
 
-Like Transmission Line Theory, the Wave Mechanics of Microwave Absorption is absolutely correct and will never be overturned. Future generations may build upon its equations, but they will never refute its core discovery of interference-based wave dissipation.
+Why? Because if the wave that does enter reflects off the back boundary and returns to the front interface, and if this returned wave is strong enough to cancel that large front reflection via destructive interference, then a remarkably powerful absorption peak is obtained. This is exactly the opposite of the impedance matching dogmas!
+
+Moreover, Wave Mechanics doesn't rely on forced ratios or artificial proportions to make things fit. It captures the true mechanism by unifying wave coherence interference and material physical attenuation into a single, organic wave-field boundary value problem. Because it models the electromagnetics exactly as they exist in reality, the correct relationships and results naturally and perfectly emerge, matching experimental results flawlessly. It accounts for both factors completely and accurately, revealing the true essence of how thin films dissipate electromagnetic energy.
 
 To understand this hierarchy, think of Electromagnetism and Magnetism Physics. 
 
