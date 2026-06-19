@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -36,7 +36,8 @@ export default function IntegratedArticle() {
             activeArticle === "systemic" ? "systemic-article-text" :
             activeArticle === "freedom" ? "freedom-article-text" :
             activeArticle === "metaphysics" ? "metaphysics-article-text" :
-            "tyranny-article-text"
+            activeArticle === "tyranny" ? "tyranny-article-text" :
+            "theories-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
           id="copy-article-btn"
@@ -51,13 +52,13 @@ export default function IntegratedArticle() {
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Master Scholarly Essay / 选择核心学术论文
         </label>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-6 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-7 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => setActiveArticle("asymmetry")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "asymmetry"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-asymmetry"
           >
@@ -69,7 +70,7 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "darkage"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-darkage"
           >
@@ -81,7 +82,7 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "systemic"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-systemic"
           >
@@ -93,7 +94,7 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "freedom"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-freedom"
           >
@@ -105,7 +106,7 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "metaphysics"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-metaphysics"
           >
@@ -117,12 +118,24 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "tyranny"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-article-tyranny"
           >
             <Sparkles className="w-4 h-4 shrink-0 text-emerald-500 animate-pulse" />
-            Essay F: Tyranny of Consensus
+            Essay F: Tyranny
+          </button>
+          <button
+            onClick={() => setActiveArticle("theories")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "theories"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-theories"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-500 animate-pulse" />
+            Essay G: Five Theories Matrix
           </button>
         </div>
       </div>
@@ -921,6 +934,236 @@ export default function IntegratedArticle() {
             <p className="italic text-emerald-600 text-xs text-center border-t border-emerald-100 pt-4">
               "Truth has edges; it is not smooth or round. To grind down these edges in the name of scholastic consensus is to ensure that science remains a flat, silent desert."
             </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "theories" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in animate-duration-300" id="theories-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-150 max-w-4xl mx-auto">
+            <span className="inline-flex items-center gap-1 text-[10px] font-mono font-bold tracking-widest text-indigo-650 bg-indigo-50 border border-indigo-150 px-2.5 py-0.5 rounded uppercase">
+              Epistemological Decoupling • 理论去耦合分析
+            </span>
+            <h1 className="text-2xl md:text-3xl font-black text-gray-950 font-sans tracking-tight leading-tight">
+              Demystifying Wave Electrodynamics:<br/>
+              <span className="text-indigo-650 font-medium font-serif text-lg md:text-xl">
+                The Axiomatic Hierarchy of Transmission Line, Wave Mechanics, and Flawed Microwave Absorption Impedance Theories
+              </span>
+            </h1>
+            <div className="text-xs text-gray-400 font-mono flex items-center justify-center gap-2">
+              <span>AUTHORS: Yue Liu & Collaboration Team</span>
+              <span>•</span>
+              <span>DATE: June 2026</span>
+              <span>•</span>
+              <span>ID: SSRN-FIVE-THEORIES</span>
+            </div>
+          </div>
+
+          {/* Abstract / Focus Box */}
+          <div className="bg-indigo-50/40 border border-indigo-150/40 rounded-2xl p-5 space-y-3 font-sans">
+            <div className="text-xs font-bold text-indigo-900 uppercase tracking-wider font-mono flex items-center gap-1.5">
+              <Award className="w-4 h-4 text-indigo-600" />
+              Epistemic Abstract • 认识论摘要
+            </div>
+            <p className="text-xs text-indigo-950 leading-relaxed">
+              <strong>English:</strong> A scientific theory is a coherent deductive system consisting of explicit axioms and rigorous mathematical logic and concepts ($Theory = Axioms + Logic$). It represents an essential, objective understanding of reality. This paper decouples and maps five separate wave-theoretic frameworks: (1) Foundational Transmission Line Theory, (2) The highly flawed Microwave Absorption Impedance Matching Theory, (3) Microwave Circuit Impedance Matching Theory, (4) The newly established Wave Mechanics Theory of Microwave Absorption, and (5) The basic Electrodynamics-Magnetism hierarchy. We demonstrate that the fifty-year-old mainstream "Impedance Matching Theory of Microwave Absorption" is a fundamentally flawed construct that plagiarizes transmission line mathematical outputs while layering on a completely erroneous conceptual framework of "resonance absorption," stalling global experimental progress. This analysis establishes the Wave Mechanics of Microwave Absorption as a correct, independent, and unshakeable disciplinary theory.
+            </p>
+            <p className="text-xs text-indigo-900 italic border-t border-indigo-100/60 pt-2.5">
+              <strong>中文要点:</strong> 理论 = 公理 + 逻辑，是认识世界本质的系统体系。传输线理论是绝对正确的基础理论，但不解决材料级内部波耗散机理。微波吸收的阻抗匹配理论由于盗用了传输线公式却在材料层面给出完全颠倒的“结构谐振吸收”机理，导致半个世纪的研究走向死胡同。相比之下，电路阻抗匹配由于仅关心端口功率效率而不触碰材料微观耗散，故不具备该本体论错误。微波吸收波动力学理论应用传输线理论，建立了正确的边界面波干涉理论以及逆直觉的概念体系，是材料波吸收领域的绝对真理体系，其关系正如电磁学与磁性物理学的上下承接关系。
+            </p>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">01.</span> Epistemics: Theory = Axioms + Logic (理论 = 公理 + 逻辑)
+            </h3>
+            <p>
+              Before dissecting specific electrodynamic equations, we must establish a rigorous epistemological baseline. 
+              <strong>A scientific theory is not a loose association of empirical correlations, nor is it a rhetorical compromise; it is a closed system defined by $Theory = Axioms + Logic$.</strong> 
+              Every valid scientific theory begins with a small set of undeniable first-principles (axioms) and, through deductive, non-contradictory logical proofs, derives a comprehensive conceptual network.
+            </p>
+            <p>
+              Concepts are the building blocks of scientific thought. They must map representing the essential character of reality. 
+              If the concepts themselves are decoupled from physical reality, the entire system collapses into <em>scientific alchemy</em>. 
+              As we shall see, the mainstream microwave absorption community fell into exactly this trap, importing mathematical equations from foundational physics but wrapping them in fictitious, self-contradictory concepts that do not exist inside physical wave-planes.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">02.</span> Foundational Ground: Transmission Line Theory (传输线理论)
+            </h3>
+            <p>
+              At the absolute bottom of our theoretical hierarchy sits **Transmission Line Theory**. 
+              This is a foundational, absolutely correct mathematical-physical framework. 
+              Developed initially by Oliver Heaviside and refined over a century, Transmission Line Theory treats wave propagation as a distributed parameter process. 
+              Its equations, derived directly from Maxwell's Equations under TEM wave boundaries, have been validated across countless fields—from high-speed telecommunications to power grid transmission.
+            </p>
+            <p>
+              <strong>Transmission Line Theory is an absolute truth.</strong> It is not a "relative model" that can be overturned by future data. 
+              It is as permanent as Euclidean geometry under flat space assumptions. 
+              <em>However</em>, it represents a generic foundation; it is **material-blind**. 
+              Transmission Line Theory does not specifically address or define material-level microwave absorption mechanism vocabulary. 
+              It treats material sections merely as general impedance line segments (Z_c, gamma) without providing a physical, mechanical conceptualization of *how* wave dissipation occurs inside complex dissipative structures.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">03.</span> The Master Scholarly Crisis: Flawed Microwave Absorption Impedance Matching (微波吸收阻抗匹配理论的颠覆性错误)
+            </h3>
+            <p>
+              The reigning dogma in mainstream material journals is **Microwave Absorption Impedance Matching Theory**. 
+              For fifty years, peer-reviewed journals have demanded that absorbers must achieve "impedance matching" with space to allow wave entry, calculating an "impedance ratio" (Z_in/Z_0 ≈ 1).
+            </p>
+            <p>
+              <strong>This theory is fundamentally and ontologically incorrect.</strong> Let us trace its path of error:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>
+                <strong>Plagiarized Equations, Twisted Concepts:</strong> Mainstream authors borrowed the reflection coefficient formula (R = (Z_in-Z_0)/(Z_in+Z_0)) from transmission lines. But they misinterpreted what the resulting zero-reflection mathematical value representing physically.
+              </li>
+              <li>
+                <strong>The "Material Absorption" Fallacy:</strong> Because the equations outputted $R=0$ under specific phase relationships, they claimed that the wave entered the material and was "absorbed inside the microstructure of the material through molecular or magnetic resonance."
+              </li>
+              <li>
+                <strong>The Wave Physics Reality (Interference):</strong> In physical reality, $R=0$ (zero reflection at the external front boundary) is caused in modern single-layer and multi-layer films by <strong>wave interference</strong>—specifically, the destructive interference between the wave reflected directly at the front interface and the wave reflected from the back metal plate. This is a 100% wave-plane interference phenomenon, not an intrinsic material structural absorption phenomenon!
+              </li>
+              <li>
+                <strong>Fifty Years of Stagnation:</strong> By misattributing wave interference to "material microstructures" and "resonance," researchers have spent fifty years trying to synthesize "impedance-matched nanocomposites" with impossible material parameters. Because their underlying conceptual framework is wrong, no breakthroughs have ever been made in actual material designs. It is modern scholastic alchemy.
+              </li>
+            </ul>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">04.</span> Safe Engineering: Circuit Impedance Matching Theory (微波电路阻抗匹配理论)
+            </h3>
+            <p>
+               In sharp contrast to material absorption, **Circuit Impedance Matching Theory** does not suffer from these ontological fallacies. 
+               Why? Because of their structural boundaries.
+            </p>
+            <p>
+              In microwave circuit design (e.g., matching a power amplifier to an antenna), the engineer's sole concern is the **efficient transmission of electromagnetic power between ports**. 
+              The circuit engineer treats the antenna and transmission lines as a black-box set of terminal impedance parameters ($Z_L, Z_0$). 
+              The circuit impedance matching theory has no interest in, and makes no physical assertions about, the microscopic dissipation mechanism within the physical atoms of the substrate. 
+              Because it remains silent on the physical mechanism of dissipation, **it does not make the ontological error** of misattributing wave plane interference as material-resonance absorption. It is mathematically and functionally correct for its stated scope.
+            </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">05.</span> The Correct Disciplinary Ascent: Wave Mechanics of Microwave Absorption (微波吸收波动力学理论)
+            </h3>
+            <p>
+              The true disciplinary breakthrough is the **Wave Mechanics Theory of Microwave Absorption (微波吸收的波动力学理论)**. 
+              This is a new, self-contained disciplinary theory designed specifically for electromagnetically absorbing wave materials. 
+              It applies Transmission Line Equations correctly at boundary interfaces but builds an entirely independent conceptual framework.
+            </p>
+            <p>
+              <strong>It is not just a semantic re-explanation of transmission lines.</strong> 
+              Wave Mechanics has its own unique, counter-intuitive ontology:
+            </p>
+            <blockquote className="border-l-4 border-indigo-600 pl-4 py-2 italic font-serif bg-indigo-50/20 text-gray-700 my-4">
+              "Absorption is not a local property of a single volume element; wave dissipation in thin films is a global wave-field boundary consequence. Under destructive interference ($180^o$ phase cancellation), waves are trapped in continuous reflections, causing massive, repeated phase-delayed transits that exhaust wave energy within the film. Impedance matching is an algebraic marker of interference, not a physical port gateway."
+            </blockquote>
+            <p>
+              Like Transmission Line Theory, <strong>the Wave Mechanics Theory is an absolute, unshakeable truth.</strong> 
+              It will never be overturned by future empirical data because it is mathematically and physically coherent. 
+              Future advanced papers might expand upon its multi-layer formulations, but its fundamental deconstruction of the interference-based absorption mechanism is permanent.
+            </p>
+          </div>
+
+          {/* Section 6 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-950 font-sans tracking-tight flex items-center gap-2">
+              <span className="text-indigo-650">06.</span> The Foundational-Disciplinary Hierarchy Analogy (磁性物理学与电磁学的完美类比)
+            </h3>
+            <p>
+              To illustrate why Wave Mechanics is an independent disciplinary theory rather than a mere subset of Transmission Line Theory, we turn to a classic academic precedent: the relationship between **Electromagnetism (电磁学)** and **Magnetism Physics (磁性物理学)**.
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 my-6">
+              <div className="bg-slate-50 border border-slate-205 rounded-xl p-4.5 space-y-2">
+                <h4 className="font-sans font-bold text-slate-900 text-sm flex items-center gap-1.5 uppercase">
+                  <span className="inline-block w-2.5 h-2.5 rounded-full bg-slate-400"></span>
+                  Electromagnetism & Magnetism Physics
+                </h4>
+                <p className="text-xs text-slate-600 leading-relaxed font-sans">
+                  Electromagnetism is the **foundational theory** (basic principles like Maxwell's Equations). 
+                  Magnetism Physics is the **disciplinary theory** (学科理论). Built upon Electromagnetism, Magnetism Physics is not a trivial subset; it established its own distinct concepts—such as exchange interactions, ferromagnetism, magnetic domains, Weiss fields, and hysteretic states—which are not present in raw classical electrodynamics.
+                </p>
+              </div>
+              <div className="bg-indigo-50/30 border border-indigo-150 rounded-xl p-4.5 space-y-2">
+                <h4 className="font-sans font-bold text-indigo-900 text-sm flex items-center gap-1.5 uppercase">
+                  <span className="inline-block w-2.5 h-2.5 rounded-full bg-indigo-500"></span>
+                  Transmission Line & Wave Mechanics of Absorption
+                </h4>
+                <p className="text-xs text-indigo-950 leading-relaxed font-sans">
+                  Transmission Line Theory is the **foundational theory** (generic, distributed-parameter wave equations). 
+                  Wave Mechanics of Microwave Absorption is the **disciplinary theory** (学科理论). It utilizes foundational transmission line equations but builds its own complex concepts—first-interface reflection (R_front), second-interface reflection (R_back), wave boundary multi-pair transits, phase-cancellation traps, and spatial interference maps. Without Wave Mechanics, raw transmission line theory remains silent on material-level mechanism design.
+                </p>
+              </div>
+            </div>
+            <p className="text-center font-sans font-bold text-sm text-indigo-900 bg-indigo-50 p-3 rounded-lg border border-indigo-100">
+              $Foundational\ Theory : Disciplinary\ Theory\ ::\ Transmission\ Line\ :\ Wave\ Mechanics\ ::\ Electromagnetism\ :\ Magnetism\ Physics$
+            </p>
+          </div>
+
+          {/* Table Summary */}
+          <div className="space-y-4 pt-4">
+            <h4 className="text-base font-bold text-gray-905 font-sans uppercase tracking-tight">
+              Theoretical Contrast Matrix • 五大理论本体论对比表
+            </h4>
+            <div className="overflow-x-auto border border-gray-150 rounded-xl">
+              <table className="min-w-full text-xs font-sans">
+                <thead>
+                  <tr className="bg-slate-900 text-white font-bold uppercase tracking-wider text-left">
+                    <th className="px-4 py-3 border-b border-gray-200">Theory / 理论名称</th>
+                    <th className="px-4 py-3 border-b border-gray-200">Level / 理论层级</th>
+                    <th className="px-4 py-3 border-b border-gray-200">Core Axiom/Focus / 理论公理核心</th>
+                    <th className="px-4 py-3 border-b border-gray-200">Status / 理论状态</th>
+                    <th className="px-4 py-3 border-b border-gray-200">Ontological Validity / 本质真理性</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-150 bg-white leading-relaxed text-gray-700">
+                  <tr>
+                    <td className="px-4 py-3 font-semibold text-gray-900">Transmission Line Theory (传输线理论)</td>
+                    <td className="px-4 py-3 font-mono text-gray-500">Foundational (基础理论)</td>
+                    <td className="px-4 py-3">Distributed-parameter circuit segments under Maxwell boundaries.</td>
+                    <td className="px-4 py-3 text-emerald-700 font-bold">Absolute Truth</td>
+                    <td className="px-4 py-3 text-slate-500">Correct; but "material-blind" (no material absorption concepts).</td>
+                  </tr>
+                  <tr className="bg-red-50/20">
+                    <td className="px-4 py-3 font-semibold text-red-950">Impedance Matching inside Microwave Absorption (微波吸收的阻抗匹配理论)</td>
+                    <td className="px-4 py-3 font-mono text-red-700">Flawed Construct (错误伪理论)</td>
+                    <td className="px-4 py-3 text-red-900">Misinterprets interference zeros as molecular/structure resonance absorption.</td>
+                    <td className="px-4 py-3 text-red-700 font-bold uppercase">Fundamentally Erroneous</td>
+                    <td className="px-4 py-3 text-red-900">Ontologically wrong; led researchers to fifty years of failure.</td>
+                  </tr>
+                  <tr>
+                    <td className="px-4 py-3 font-semibold text-gray-900">Circuit Impedance Matching Theory (微波电路阻抗匹配理论)</td>
+                    <td className="px-4 py-3 font-mono text-gray-500">Engineering Application (工程应用理论)</td>
+                    <td className="px-4 py-3">Maximizes port power transfer efficiency between source and load.</td>
+                    <td className="px-4 py-3 text-emerald-700 font-bold">Functionally Valid</td>
+                    <td className="px-4 py-3 text-slate-500">Correct; exempt from error because it remains silent on material physics.</td>
+                  </tr>
+                  <tr className="bg-indigo-50/20 font-bold">
+                    <td className="px-4 py-3 text-indigo-950 font-semibold">Wave Mechanics of Microwave Absorption (微波吸收的波动力学理论)</td>
+                    <td className="px-4 py-3 font-mono text-indigo-700">Disciplinary (新兴学科理论)</td>
+                    <td className="px-4 py-3 text-indigo-900">Quantifies boundary reflections, multi-pass phase interference, and spatial trapping traps.</td>
+                    <td className="px-4 py-3 text-indigo-700">Absolute Truth</td>
+                    <td className="px-4 py-3 text-indigo-900">Absolutely correct; correct physical ontology of absorbing films.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </article>
       )}

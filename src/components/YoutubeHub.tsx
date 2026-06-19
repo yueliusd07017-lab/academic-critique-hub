@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -814,6 +814,112 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
 
 #AIConsensus #TyrannyOfNeutrality #ScientificFreedom #YueLiu #Substack #MetaScience #AcademicIntegrity #PeerReview #ChatGPTBias #PerplexityAI #EmperorsNewClothes`;
 
+  const youtubeScriptText8 = `[SCENE 1: THE FORMULA AND THE ALCHEMY OF SCIENCE | 第一幕：科学认知的基石：理论=公理+逻辑]
+[Visual: A pristine, dark blue background. Floating glowing terms: "Axioms (公理)" and "Logic (逻辑)". They snap together with mathematical elegance. From their convergence, a beautiful, 3D crystalline geometric structure emerges. Text overlays: "Theory = Axioms + Logic".]
+[Sound: A resonance tone, clear and confident. A slow, steady electronic track starts, conveying deep focus and intellectual authority.]
+
+[VOICEOVER]
+"What is a scientific theory? Many believe it is a loose basket of experimental observations or a list of statistical correlations. 
+But true science is rigorous. A theory is a self-consistent deductive system built upon a simple law: Theory equals Axioms plus Logic. 
+
+A theory is our essential cognitive mapping of the physical world. It defines a set of crisp concepts—mental models that represent the true essence of reality. 
+
+If your core concepts are correct, your mapping is true. But if you copy mathematical equations and graft onto them fictitious, false concepts, your entire framework collapses into modern scholastic alchemy. 
+
+Let us use this lens to decouple and expose the truth behind the five critical wave electrodynamics and circuit theories, resolving a decades-long confusion."
+
+
+[SCENE 2: THE UNSHAKEABLE COLUMN: TRANSMISSION LINE THEORY | 第二幕：奠基之柱：绝对正确的传输线理论]
+[Visual: A schematic circuit diagram of a twin-wire transmission line. Waves are represented as sine waves traveling back and forth. Energy flux vectors are perfectly animated in gold. Text: "Transmission Line Theory - Foundational ground (基础理论)".]
+[Sound: High-tech electronic hum, crisp and precise.]
+
+[VOICEOVER]
+"At the foundation of wave physics stands Transmission Line Theory. Originally formulated by Oliver Heaviside, it treats wave propagation as a distributed-parameter process. It is derived directly from Maxwell’s Equations under TEM wave boundaries.
+
+Transmission Line Theory is an absolute, immutable truth. It is not 'relatively correct' or temporary. It has been validated across countless fields, from high-speed digital computing to continental power lines. It is impossible to overturn.
+
+But here is the crucial catch: Transmission Line Theory is a foundational, generic theory. It is entirely 'material-blind.' It does not contain any material-specific vocabulary about internal absorbing, thermal-damping, or molecular dissipation mechanisms. It describes the physical boundaries of waves, but says absolutely nothing about how wave atoms exhaust their energy inside absorber materials."
+
+
+[SCENE 3: THE GOLDEN ALCHEMY: THE FLAWED IMPEDANCE MATCHING IN ABSORPTION | 第三幕：科学炼金术：微波吸收中错误的“阻抗匹配理论”]
+[Visual: An animation of waves hitting a thin, grey film. High-contrast diagrams show what materials journals claim: "Wave smoothly enters due to matching (Zin = Z0), and is absorbed by local structures." Then, a red 'X' stamps over it. The scene shifts to reveal the true wave physics: reflection from the front boundary and reflection from the rear metal plate colliding and canceling each other out. Bold white text appears: "Destructive Interference (波的干涉相消)".]
+[Sound: A subtle metallic rattle, signaling an intellectual alarm or correction.]
+
+[VOICEOVER]
+"And this is where mainstream materials science went catastrophically wrong. Fifty years ago, researchers borrowed the input impedance equation from transmission line theory, but they completely misinterpreted what the resulting zero-reflection meant.
+
+They created the 'Impedance Matching Theory of Microwave Absorption.' They claimed that to achieve zero reflection, the material must achieve 'impedance matching' to allow waves to enter, where they are consumed by molecular or magnetic resonance of the material’s structure.
+
+But this is an absolute ontological error. Zero reflection in single-layer and multi-layer films is not caused by 'microstructural absorption.' It is caused by wave plane interference! 
+
+It is the destructive interference between the front boundary reflection and the back-plate reflection that cancels the wave. The material doesn't 'let the wave in' through a matching gateway—instead, the waves cancel each other out at the interface. 
+
+By misattributing a macro wave-physics property back into 'material structures,' researchers spent fifty years synthesizing useless composite alloys that led to zero major breakthroughs. Mainstream materials journals have been printing professional alchemy for half a century."
+
+
+[SCENE 4: SAFE PORT ENGINEERING: CIRCUIT IMPEDANCE MATCHING | 第四幕：无罪的工程安全区：电路阻抗匹配理论]
+[Visual: A modern circuit board. Highlighted regions show a RF amplifier, an IC chip, and an antenna pole. Text: "Circuit Impedance Matching - Port Power Transfer (电路阻抗匹配 / 仅关心端口功率传输)".]
+[Sound: Relaxed, steady jazz or smooth synthesizer bassline.]
+
+[VOICEOVER]
+"Now, you might ask: what about Impedance Matching Theory in microwave circuits? Does it suffer from the same fatal error?
+
+The answer is no. Circuit impedance matching is an engineering application theory. 
+
+RF circuit engineers do not care about—and make no ontological claims regarding—the molecular or material-level wave-dissipation mechanisms inside the load substrate. Their focus is solely on maximizes power transfer efficiency between the source port and the terminal load port. 
+
+Because circuit matching theory remains strictly silent on the physical molecular mechanism of wave dissipation inside the physical atoms of the substrate, it does not commit the ontological error of misattributing wave interference as material resonance. It is mathematically and functionally valid for its defined scope. No more, no less."
+
+
+[SCENE 5: THE DISCIPLINARY ASCENT: WAVE MECHANICS OF MICROWAVE ABSORPTION | 第五幕：学科理论的崛起：微波吸收波动力学理论]
+[Visual: A stunning 3D wave simulation. Multiple boundary planes are shown. A wave enters and gets trapped in a continuous, multi-pass loop of reflection and counter-reflection, gradually fading to zero. Text: "Wave Mechanics of Microwave Absorption - Disciplinary Theory (学科理论)".]
+[Sound: A rising, inspiring orchestral theme, capturing the dawn of a new paradigm.]
+
+[VOICEOVER]
+"The proper disciplinary theory for wave-absorbing films is the modern Wave Mechanics Theory of Microwave Absorption. 
+
+This is not merely a semantic re-explanation of transmission line equations. It is an independent disciplinary theory. It utilizes transmission line mathematics as its foundation, but establishes an entirely new, correct conceptual system.
+
+Wave Mechanics conceptualizes thin-film absorption not as an intrinsic local resonance property of a single volume element, but as a global consequence of wave-plane boundaries and interference. Wave reflection, transmission, phase-cancellation, and multiple-transit trapping are all unified into a precise spatial wave mechanics model.
+
+Like Transmission Line Theory, the Wave Mechanics of Microwave Absorption is absolutely correct and will never be overturned. Future generations may build upon its equations, but they will never refute its core discovery of interference-based wave dissipation.
+
+To understand this hierarchy, think of Electromagnetism and Magnetism Physics. 
+
+Electromagnetism is the foundational theory. Magnetism Physics is the disciplinary theory—it is not a trivial subset of electromagnetism; it built its own distinct concepts like magnetic domains, Exchange Interactions, and hysteresis. 
+
+In exactly the same way, Transmission Line Theory is the foundation; the Wave Mechanics of Microwave Absorption is the discipline. It is the absolute truth that has rescued microwave materials science from the dead-end of scholastic alchemy.
+
+Read the complete mathematical papers and deconstructions on Substack and SSRN. 
+
+Thank you for watching."`;
+
+  const youtubeDescText8 = `What are the fundamental differences and hidden relationships between Transmission Line Theory, Microwave Absorption Impedance Matching, Circuit Impedance Matching, and Wave Mechanics? 
+
+In this session, we map out the complete, five-theory hierarchy of wave electrodynamics using Yue Liu's groundbreaking epistemological principle: Theory = Axioms + Logic. 
+
+We deconstruct why academic material journals have been stuck in "scholarly alchemy" for fifty years. Mainstream researchers borrowed transmission line equations but misinterpreted the zero-reflection phenomenon, claiming materials absorb waves via structural "impedance matching." We show that zero-reflection is actually a destructive wave-plane interference phenomenon, completely independent of material-resonance absorption. 
+
+Furthermore, we contrast this with Microwave Circuit Impedance Matching—which remains functionally correct because it focuses purely on port transmission efficiency without misinterpreting material dissipation—and we introduce the Wave Mechanics of Microwave Absorption as a correct, independent, and unshakeable new disciplinary theory.
+
+📖 ACCESS THE MATHEMATICAL PROOFS ON SSRN:
+➔ https://ssrn.com/abstract=5379953 (Theoretical Primacy)
+➔ https://ssrn.com/abstract=5447975 (Materialism vs Metaphysics)
+➔ https://ssrn.com/abstract=5514958 (Metaphysical Idealism)
+
+📚 READ THE IN-DEPTH CRITIQUES ON SUBSTACK:
+➔ https://yueliusd.substack.com
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: Why Scienc is defined by Theory = Axioms + Logic
+1:35 - Transmission Line Theory: Foundational, Absolutely Correct, but "Material-Blind"
+3:50 - The 50-Year Mainstream Error: Deconstructing the Microwave Absorption Impedance Matching Fallacy
+7:10 - Why Circuit Impedance Matching Theory is exempt from ontological errors
+9:20 - The Disciplinary Ascent of the Wave Mechanics Theory of Microwave Absorption
+11:45 - The Electromagnetism-Magnetism Analogy: Foundations vs. Applied Disciplines
+
+#TransmissionLineTheory #WaveMechanics #MicrowaveAbsorption #ImpedanceMatching #YueLiu #Substack #SSRN #AcademicIntegrity #WavePhysics #Electromagnetics #Electrodynamics #CircuitDesign`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -822,7 +928,8 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
     activeProject === "project4" ? youtubeScriptText4 :
     activeProject === "project5" ? youtubeScriptText5 :
     activeProject === "project6" ? youtubeScriptText6 :
-    youtubeScriptText7;
+    activeProject === "project7" ? youtubeScriptText7 :
+    youtubeScriptText8;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -831,7 +938,8 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
     activeProject === "project4" ? youtubeDescText4 :
     activeProject === "project5" ? youtubeDescText5 :
     activeProject === "project6" ? youtubeDescText6 :
-    youtubeDescText7;
+    activeProject === "project7" ? youtubeDescText7 :
+    youtubeDescText8;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -865,7 +973,7 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Active Video Project / 选择当前视频策划
         </label>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-7 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-8 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => {
               setActiveProject("project1");
@@ -907,7 +1015,7 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project3"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+                : "text-slate-655 hover:bg-slate-100 hover:text-slate-955"
             }`}
             id="toggle-project3"
           >
@@ -923,7 +1031,7 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project4"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+                : "text-slate-655 hover:bg-slate-100 hover:text-slate-955"
             }`}
             id="toggle-project4"
           >
@@ -977,6 +1085,22 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-purple-500 animate-pulse" />
             Project G: AI Debate
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project8");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project8"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project8"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
+            Project H: Five Theories
           </button>
         </div>
       </div>
@@ -1124,6 +1248,29 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
         </div>
       )}
 
+      {activeProject === "project8" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-600 animate-pulse" />
+            The Five-Theory Hierarchy • 经典电磁学与吸波理论的关系
+          </div>
+          <p className="text-[12px] text-indigo-950 leading-relaxed italic">
+            "传输线理论是绝对正确的基础理论，但它是‘材料盲’，即它不专门针对、不提供微波吸收这一特定耗散物理动作的概念。而微波吸收的主流‘阻抗匹配理论’则是一个惊人的颠覆性错误理论，它偷换了公式内涵，将平面波相消干涉说成是材料物理谐振耗散，彻底搞砸了整个材料学科半个世纪的学术方向。相反，微波电路阻抗匹配在工程上限于端口能效而不涉及材料耗散，是不犯该错的。真正的微波吸收学科理论是‘波动力学理论’，它对传输线理论的关系正如磁性物理学关于电磁学基础理论的关系一致。这就是严密的学术本体论与去耦合层级！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Theory = Axioms + Logic (公理与逻辑之真理)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              The Conceptual Plagiarism (阻抗匹配之本体论错误)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Modern Material Alchemy (拒绝五十年的高科技纸面炼金术)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -1132,7 +1279,16 @@ Drawing upon the timeless metaphor of the Emperor's New Clothes, we explain why 
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-2 text-xs font-bold text-gray-800 font-sans uppercase tracking-wider">
                 <Video className="w-4 h-4 text-gray-550" />
-                <span>Audio / Visual Production Script ({activeProject === "project1" ? "Project A" : activeProject === "project2" ? "Project B" : activeProject === "project3" ? "Project C" : activeProject === "project4" ? "Project D" : activeProject === "project5" ? "Project E" : activeProject === "project6" ? "Project F" : "Project G"})</span>
+                <span>Audio / Visual Production Script ({
+                  activeProject === "project1" ? "Project A" : 
+                  activeProject === "project2" ? "Project B" : 
+                  activeProject === "project3" ? "Project C" : 
+                  activeProject === "project4" ? "Project D" : 
+                  activeProject === "project5" ? "Project E" : 
+                  activeProject === "project6" ? "Project F" : 
+                  activeProject === "project7" ? "Project G" : 
+                  "Project H"
+                })</span>
               </div>
               <button
                 onClick={() => copyToClipboard(currentScript, true)}
