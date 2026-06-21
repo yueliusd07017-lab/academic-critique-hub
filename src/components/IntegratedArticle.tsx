@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -37,7 +37,12 @@ export default function IntegratedArticle() {
             activeArticle === "freedom" ? "freedom-article-text" :
             activeArticle === "metaphysics" ? "metaphysics-article-text" :
             activeArticle === "tyranny" ? "tyranny-article-text" :
-            "theories-article-text"
+            activeArticle === "theories" ? "theories-article-text" :
+            activeArticle === "firstprinciples" ? "firstprinciples-article-text" :
+            activeArticle === "academicgames" ? "academicgames-article-text" :
+            activeArticle === "textbooksprimacy" ? "textbooksprimacy-article-text" :
+            activeArticle === "collectivesupremacy" ? "collectivesupremacy-article-text" :
+            "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
           id="copy-article-btn"
@@ -52,7 +57,7 @@ export default function IntegratedArticle() {
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Master Scholarly Essay / 选择核心学术论文
         </label>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-7 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-12 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => setActiveArticle("asymmetry")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
@@ -136,6 +141,66 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-indigo-500 animate-pulse" />
             Essay G: Five Theories Matrix
+          </button>
+          <button
+            onClick={() => setActiveArticle("empiricalAll")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "empiricalAll"
+                ? "bg-indigo-950 text-white shadow-sm"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-950"
+            }`}
+            id="toggle-article-empiricalAll"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay H: Objective "All"
+          </button>
+          <button
+            onClick={() => setActiveArticle("firstprinciples")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "firstprinciples"
+                ? "bg-cyan-950 text-white shadow-sm"
+                : "text-cyan-900 hover:bg-cyan-55 hover:text-cyan-950"
+            }`}
+            id="toggle-article-firstprinciples"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-500 animate-pulse" />
+            Essay I: First Principles
+          </button>
+          <button
+            onClick={() => setActiveArticle("academicgames")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "academicgames"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-academicgames"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay J: Academic Games & Reprisals
+          </button>
+          <button
+            onClick={() => setActiveArticle("textbooksprimacy")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "textbooksprimacy"
+                ? "bg-orange-955 text-white shadow-sm animate-pulse"
+                : "text-orange-900 hover:bg-orange-50 hover:text-orange-955"
+            }`}
+            id="toggle-article-textbooksprimacy"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-orange-500 animate-pulse" />
+            Essay K: Primacy of Textbooks
+          </button>
+          <button
+            onClick={() => setActiveArticle("collectivesupremacy")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "collectivesupremacy"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-collectivesupremacy"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay L: Collective Fallacy
           </button>
         </div>
       </div>
@@ -1178,9 +1243,563 @@ export default function IntegratedArticle() {
           </div>
         </article>
       )}
+      {activeArticle === "empiricalAll" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in animate-duration-300" id="empirical-all-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-150 max-w-4xl mx-auto">
+            <span className="inline-flex items-center gap-1 text-[10px] font-mono font-bold tracking-widest text-red-650 bg-red-50 border border-red-150 px-2.5 py-0.5 rounded uppercase animate-pulse">
+              Epistemic Courage • 论客观“全部”的认知勇气
+            </span>
+            <h1 className="text-2xl md:text-4xl font-black text-gray-950 font-sans tracking-tight leading-tight">
+              The Autocracy of Tone-Policing:<br/>
+              <span className="text-red-650 font-medium font-serif text-lg md:text-xl">
+                When "All" is an Objective Empirical Fact Rather Than an "Extreme Generalization"
+              </span>
+            </h1>
+            <div className="text-xs text-gray-400 font-mono flex items-center justify-center gap-2">
+              <span>CRITICAL METASCIENCE ANALYSIS</span>
+              <span>•</span>
+              <span>DATE: June 2026</span>
+              <span>•</span>
+              <span>KEYWORDS: Generalization, Whistleblowing, Scientific Epistemic</span>
+            </div>
+          </div>
 
-      {/* Substack Call to Action */}
-      <div className="p-4.5 bg-slate-50 border border-slate-200 rounded-xl space-y-3">
+          {/* Epistemic Reflection Panel */}
+          <div className="bg-red-50/40 border border-red-150/45 rounded-2xl p-5 space-y-3 font-sans">
+            <div className="text-xs font-bold text-red-900 uppercase tracking-wider font-mono flex items-center gap-1.5">
+              <ShieldX className="w-4 h-4 text-red-600 animate-pulse" />
+              Whistleblower Script Transcript • 视频脚本中英双语
+            </div>
+            <p className="text-xs text-red-950 font-mono leading-relaxed bg-white/70 p-3 rounded-lg border border-red-100">
+              <strong>Chinese Video Segment / 原始视频同期声:</strong><br />
+              "00:00:00:15 - 00:00:03:08 — 我告诉各位，我算是手下留情的；<br />
+              00:00:03:08 - 00:00:06:20 — 我要像耿同学那样的话，从论文的角度去下手的话；<br />
+              00:00:07:02 - 00:00:10:04 — 我告诉你，国内的绝大多数主流音乐学院的这些教授；<br />
+              00:00:10:19 - 00:00:13:15 — 尤其是那些吃相难看的教授，一个都站不住！<br />
+              00:00:13:15 - 00:00:15:06 — 这话还要说吗？还有往下讲吗？"<br />
+              <span className="block mt-2 pt-2 border-t border-red-100/60 font-serif not-italic text-red-900">
+                <strong>English Translation:</strong><br />
+                "I am telling you, I have actually shown mercy. If I were to follow student Geng’s precedent and attack strictly from the perspective of their academic theses—I tell you, the vast majority of professors in mainstream domestic music conservatories, especially those with such unsightly, greedy execution (unscrupulous behaviors)—not a single one of them would be able to stand their ground! Does this even need to be spelled out further? Is there even a point in continuing?"
+              </span>
+            </p>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900">
+              <span className="text-red-655 font-mono">I.</span> The Fear of the Absolute: The Linguistics of Tone-Policing
+            </h3>
+            <p>
+              In modern discourse, declaring that **"all"** members of an institution lack integrity or that **"not a single one"** of their treatises can stand is immediately flagged. It is categorized as "extreme speech," "sweeping generalization," or "uncivil hyperbole." Systemic arbiters and AI filter systems are designed to tone-police. They demand "nuance," "moderate language," and "balanced critiques." 
+            </p>
+            <p>
+              But this insistence on absolute moderacy is a profound epistemological trick. What happens when the systemic corruption is total? What happens when a foundational theoretical construct is mathematically zero? 
+            </p>
+            <p>
+              When a whistle-blower declares that "almost none of them can stand," it is not an emotional outburst. It is a precise statistical census of a compromised establishment. When the foundational rules of recruitment, validation, and peer-review are replaced by nepotism, title mills, and reciprocal praise, **"all" is no longer an exaggeration—it is the literal, objective state of the system.**
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900">
+              <span className="text-red-655 font-mono">II.</span> The Mathematical Analogy: False Axioms Guarantee Absolute Collapse
+            </h3>
+            <p>
+              To understand why the word "all" can be a rigid physical truth, we need only look at formal logic and material electrodynamics:
+            </p>
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4.5 space-y-3 font-sans text-xs">
+              <div className="font-bold text-slate-900 uppercase">Logic of the System: $Premise \rightarrow Proof$</div>
+              <p className="text-slate-700 leading-relaxed">
+                If the underlying axiom of a scientific theory is fundamentally flawed (such as the 50-year-old microwave absorption formula misinterpreting wave interference as intrinsic material resonance), then **every single paper** built upon this formula is invalid. 
+              </p>
+              <p className="text-red-950 font-bold bg-red-50 p-2.5 rounded border border-red-100">
+                Mathematically: if $Axiom = 0$, then $Theory(Axiom) = 0$. 
+              </p>
+              <p className="text-slate-755 leading-relaxed">
+                Stating that "all papers using the raw impedance matching model to characterize material-resonance absorption are false" is not "extreme speech." It is a deductive necessity. Stating that "50% are correct and 50% are false" to look moderate is itself the ultimate scientific lie, sacrificing physical facts to maintain polite social appearances.
+              </p>
+            </div>
+            <p>
+              In exactly the same way, if the academic standards of art and music institutions have decayed to the point where titles are granted for administrative compliance rather than artistic mastery or verified scholarship, then cracking down "from the thesis perspective" (从论文和学术审查的角度去下手) will inevitably bring down the entire house. Stating "not a single one can stand" is simply naming the reality of the empty house.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4 font-sans">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900 font-bold font-sans">
+              <span className="text-red-655 font-mono">III.</span> What Do We Do When "Extreme Speech" is the Real Situation?
+            </h3>
+            <p className="font-serif">
+              When the empirical reality corresponds to what polite society terms "extreme," we have only two options:
+            </p>
+            <ul className="list-decimal pl-6 space-y-3 font-sans text-sm text-gray-700">
+              <li>
+                <strong>Censor the Truth to Preserve "Harmony" (虚假的温和主义):</strong> We can force the critic to use "moderate, polite, and relative" terms. We can edit their treatises to read: "While some professors are excellent, others could improve." This preserves the social status of academic imposters, allowing them to keep consuming public funding and steering state research into dead ends.
+              </li>
+              <li>
+                <strong>Accept the Brutal Empirical Fact (客观唯物主义与不妥协的真理):</strong> We can accept that when a theory or institution is fully bankrupt, the extreme statement is the only scientific description. We must abandon tone-policing, refuse to be gaslit by demands for "constructive politeness," and rebuild the entire architecture on solid, uncompromised foundations.
+              </li>
+            </ul>
+            <p className="font-serif border-l-4 border-red-650 pl-4 py-2 italic font-medium text-red-950 bg-red-50/25 my-4">
+              "We have shown mercy for long enough. When academic communities print scientific alchemy for half a century and treat wave interference as magic resonance, calling them 'fundamentally wrong' is not a sweeping generalization. It is an objective duty. Politeness cannot design stealth fighters or build spacecraft; only uncompromised physical truth can."
+            </p>
+          </div>
+        </article>
+      )}
+
+      {/* Article 9: First Principles */}
+      {activeArticle === "firstprinciples" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="firstprinciples-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-955 font-sans tracking-tight leading-tight text-gray-900">
+              First Principles and the Primacy of Theoretical Foundations: Reclaiming the Aristotelian Engine of Scientific Progress
+            </h1>
+            <p className="text-sm font-sans font-medium text-slate-500 max-w-2xl mx-auto leading-normal">
+              An English translation of the First Principles Trilogy (Part 1—The Origin), paired with a meta-scientific critique of modern empirical literature and scholarly cartels.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3 text-2xs font-bold text-slate-500 uppercase tracking-widest font-mono pt-1">
+              <span>AUTHOR: YUE LIU</span>
+              <span>•</span>
+              <span>DATE: September 2025</span>
+              <span>•</span>
+              <span>KEYWORDS: First Principles, Aristotle, Cartesian Doubt, Theoretical Primacy</span>
+            </div>
+          </div>
+
+          {/* Epistemic Reflection Panel */}
+          <div className="bg-cyan-50/45 border border-cyan-150/45 rounded-2xl p-5 space-y-3 font-sans">
+            <div className="text-xs font-bold text-cyan-900 uppercase tracking-wider font-mono flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-cyan-600 animate-pulse" />
+              First Principles Trilogy Video Script Transcript • 视频脚本中英双语
+            </div>
+            
+            <div className="text-xs text-slate-900 font-mono leading-relaxed bg-white/70 p-4 rounded-lg border border-cyan-100 space-y-3 max-h-96 overflow-y-auto">
+              <div>
+                <span className="font-bold text-cyan-700">00:00:00 - 00:00:11:</span><br />
+                <strong>Chinese:</strong> 第一性原理三部曲之一 它的由来。第一性原理不是马斯克发明的，而是从古希腊哲学家亚里士多德那里来的。核心是追根溯源，找到最基本的那个东西。<br />
+                <strong>English:</strong> First Principles Trilogy Part 1: The Origin. First principles thinking was not invented by Elon Musk; it originated from the ancient Greek philosopher Aristotle. Its core concept is tracing everything back to its source, identifying the absolute most fundamental element.
+              </div>
+              
+              <div className="pt-2 border-t border-cyan-100/60">
+                <span className="font-bold text-cyan-700">00:00:12 - 00:00:32:</span><br />
+                <strong>Chinese:</strong> 第一，亚里士多德的定理。在《后分析篇》里，亚里士多德说第一性原理是最基本的问题，不能从别的命题推导出来，只能从它自己推导出别的命题。简单说就是起点。就像盖房子的地基，地基是第一性原理，房子是从地基上盖起来的，但地基不能从房子里推导出来。<br />
+                <strong>English:</strong> First: Aristotle's Axiom. In his treatise *Posterior Analytics*, Aristotle states that first principles are the most fundamental premises—they cannot be deduced from other propositions, but rather, all other propositions must be deduced from them. To put it simply, they are the starting point. Like the foundation of a house: the foundation is the first principle; the house is erected upon the foundation, but the foundation itself cannot be deduced from the structure of the house.
+              </div>
+
+              <div className="pt-2 border-t border-cyan-100/60">
+                <span className="font-bold text-cyan-700">00:00:33 - 00:00:50:</span><br />
+                <strong>Chinese:</strong> 第二，从哲学到科学。后来笛卡尔用怀疑一切的方式找第一性原理：除了我在思考这个事实，其他都可以怀疑。牛顿用它推导物理定律，把复杂的天体运动拆成最基本的一个公式。这个思维方式从哲学变成了科学方法。<br />
+                <strong>English:</strong> Second: From Philosophy to Science. Centuries later, René Descartes searched for first principles by doubting everything: except for the sheer fact of his doubting/thinking, everything else could be called into question. Later, Isaac Newton applied this methodology to derive laws of physics, decomposing the highly complex motion of celestial bodies into a singular, fundamental mathematical formula. Thus, this way of thinking leaped from speculative philosophy into rigorous scientific method.
+              </div>
+
+              <div className="pt-2 border-t border-cyan-100/60">
+                <span className="font-bold text-cyan-700">00:00:51 - 00:01:23:</span><br />
+                <strong>Chinese:</strong> 第三，马斯克把它带到商界。马斯克不是发明者，而是使用者。他用这个思维造火箭。别人说造火箭太贵，他说火箭的成本就是材料加技术，材料多少钱，技术能不能自己搞？结果把火箭成本降到了原来的10分之1。造电动车也一样，电池的成本就是锂钴镍这些原材料的价格，而不是行业惯例。第一性原理不是天才的专利，是每个人都能学会的思维工具。先别管别人怎么做，先问最基本的那个东西是什么？<br />
+                <strong>English:</strong> Third: Musk takes it to the business marketplace. Elon Musk is not the inventor, but rather a master practitioner. He deployed this mental model to manufacture aerospace rockets. When peers complained that rocket building was astronomically expensive, Musk argued that a rocket’s price was merely raw materials plus engineering. What do the raw materials cost on the open market, and can we develop the technical processing ourselves? Consequently, he cut the cost of rocket fabrication to one-tenth of the industry baseline. He did the exact same for electric vehicles, reducing battery cost to raw commodities—lithium, cobalt, nickel—rather than following arbitrary industry conventions. First principles thinking is not the exclusive patent of secluded geniuses; it is an accessible cognitive tool. Ignore what others are doing for a moment, and ask first: What is the most fundamental reality of the system?
+              </div>
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900 border-b border-gray-100 pb-1.5">
+              <span className="text-cyan-650 font-mono">I.</span> The Aristotelian Axiom: Bedrock Truth vs. Derived Illusion
+            </h3>
+            <p className="font-serif">
+              In his fundamental treatise <em>Posterior Analytics</em>, Aristotle laid down the foundation of all deductive systems. He established that human knowledge is not an infinite regress of secondary references. It must stop at a starting point—the <strong>First Principle</strong> (<em>principium</em>). A First Principle is an axiomatic truth that cannot be proven by anything else, for it is itself the beginning of all proof.
+            </p>
+            <p className="font-serif">
+              Aristotle used the elegant metaphor of geometry. Just as the axioms of Euclid cannot be derived from secondary theorems, but rather dictate the validity of every triangle and parallel line, so too must any genuine science rest on self-evident theoretical foundations. 
+            </p>
+            <p className="font-serif">
+              Yet, modern academic research has inverted this classical hierarchy. Today's research environment operates in a state of terminal amnesia. Instead of validating structures from the foundation up, researchers analyze the "house" (the complex downstream noise represented by literature trends and citation metrics) to speculate on the nature of the "foundations." This method is a logical absurdity: you cannot deduce the absolute structural properties of a concrete foundation simply by staring at the pattern of paint on the attic ceiling.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900 border-b border-gray-100 pb-1.5">
+              <span className="text-cyan-655 font-mono">II.</span> The Epistemological Transition: From Cartesian Doubt to Newton's Sky
+            </h3>
+            <p className="font-serif">
+              When René Descartes introduced radical skepticism (<em>Cartesian Doubt</em>) in his <em>Meditations on First Philosophy</em>, he was searching for an unshakeable point of rest. By systematic destruction, Descartes stripped away the illusions of sensory experiences, the authority of scholastic teachers, and even the certainty of mathematics, until he arrived at the irreducible truth of his own cognition: *Cogito, ergo sum* (I think, therefore I am). This was his first principle.
+            </p>
+            <p className="font-serif">
+              It was this exact intellectual weapon that Isaac Newton weaponized in physics. Before Newton, celestial physics was a chaotic, ad-hoc mixture of Kepler's empirical observations and theological circles. Newton looked past these custom empirical fits and asked: what are the absolute, fundamental axioms of motion and gravity? By applying Aristotelian-Cartesian reduction, Newton collapsed the infinitely complex orbits of planets and the fall of terrestrial apples into a singular, deterministic set of equations. 
+            </p>
+            <p className="font-serif">
+              This step transformed pure speculative metaphysics into physical science. It proved that real breakthroughs are not born from accumulating endless, unconnected empirical observations, but from finding the minimal set of mathematically rigorous principles that explain the totality of the physical universe.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900 border-b border-gray-100 pb-1.5">
+              <span className="text-cyan-655 font-mono">III.</span> Industrial Reconstruction and the Rejection of Secondary Analogy
+            </h3>
+            <p className="font-serif">
+              Translating first principles from speculative metaphysics into commercial reality is what defines modern industrial innovation. When Elon Musk dismantled the aerospace grid, he rejected the entire structure of <strong>reasoning by analogy</strong>. Reasoning by analogy says: "We must buy rockets from established military cartels because they have always cost $100 million." 
+            </p>
+            <p className="font-serif">
+              Musk's first principles calculation was simple, brutal, and mathematically correct. He stripped a rocket down to its elemental atoms. He looked at the spot-market prices of raw aluminum, carbon fiber, titanium, and copper. He discovered that the raw materials themselves constituted less than 2% of the price of the finished rocket. The remaining 98% of the cost was merely an index of administrative overhead, bloated corporate structures, and the greed-driven inefficiencies of state-backed contractors.
+            </p>
+            <p className="font-serif">
+              By applying this exact reductionist formula to lithium-ion batteries, he shattered the consensus of the automotive industry. He did not ask what Tesla's competitors charged for a battery pack; he asked what lithium, cobalt, manganese, and nickel cost on the London Metal Exchange. This is not the secret domain of an isolated, untouchable "genius." It is a democratic cognitive tool. It is the simple, stubborn refusal to accept secondary instructions in place of primary physical laws.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-gray-900 border-b border-gray-100 pb-1.5">
+              <span className="text-cyan-655 font-mono">IV.</span> Theoretical Primacy: Yue Liu's Challenge to Modern Scholarly Alchemy
+            </h3>
+            <p className="font-serif">
+              In his series of preprints on SSRN, Yue Liu expands this classical first-principles critique to expose the systemic rot within modern academic publishing. 
+            </p>
+            <ul className="list-disc pl-6 space-y-3 font-sans text-sm text-gray-700">
+              <li className="font-sans">
+                In <a href="https://ssrn.com/abstract=5379953" className="text-cyan-600 hover:underline font-bold" target="_blank" rel="noreferrer">Theoretical Primacy in Scientific Inquiry (SSRN 5379953)</a>, Liu proves that modern science has abandoned first-principles deduction in favor of "empirical orthodoxy"—an obsession with trial-and-error measurement that operates without mathematical validity.
+              </li>
+              <li className="font-sans">
+                In <a href="https://ssrn.com/abstract=5465615" className="text-cyan-600 hover:underline font-bold" target="_blank" rel="noreferrer">The Primacy of Theoretical Foundations: Why Textbooks and Monographs Matter more than Journal Literature (SSRN 5465615)</a>, Liu notes that standard textbooks and classical monographs are far more critical to scientific progress than the hyper-specialized "journal literature" produced by peer-reviewed cartels. Literature has become a system where researchers write to get cited, bypassing classical wave mechanics and foundational transmission line theory.
+              </li>
+              <li className="font-sans">
+                In <a href="https://ssrn.com/abstract=5447975" className="text-cyan-600 hover:underline font-bold" target="_blank" rel="noreferrer">Materialism vs Metaphysics (SSRN 5447975)</a> and <a href="https://ssrn.com/abstract=5514958" className="text-cyan-600 hover:underline font-bold" target="_blank" rel="noreferrer">Metaphysical Idealism (SSRN 5514958)</a>, Liu challenges the epistemic complacency of modern scholars who treat experimental curves as objective truth without investigating whether their theoretical models violate the first principles of conservation of energy and Maxwell's electrodynamics.
+              </li>
+            </ul>
+            <p className="font-serif">
+              This is why the "Wave Mechanics of Microwave Absorption" is such a critical battleground. For fifty years, mainstream material-resonance research has relied on an empirical "matching formula" to design radar absorbent materials. But when audited strictly from the first principles of classical electromagnetic waves, this formula is mathematically proven to be a major error: it asserts that zero reflection occurs inside a material without considering wave amplitude attenuation and phase cancellation at the boundary interface.
+            </p>
+            <p className="font-serif border-l-4 border-cyan-500 pl-4 py-2 italic font-medium text-slate-900 bg-cyan-50/30 my-4">
+                          "When you build scientific papers on an incorrect mathematical foundation, your entire literature becomes a castle in the air. Thousands of scientists are burning public resources writing papers about 'graphene nanocomposite absorbers' that can never perform in physical reality. They are trying to build the roof of the house while denying the existence of the foundation. True science begins when we stop reading secondary journals, and return to the primary equations of classical physics."
+            </p>
+          </div>
+        </article>
+      )}
+
+      {/* Article 10: Academic Games, Theoretical Poverty and Retaliation */}
+      {activeArticle === "academicgames" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="academicgames-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-rose-950 font-sans tracking-tight leading-tight">
+              Academic Games, Theoretical Poverty, and the Culture of Retaliation: Demolishing the Sycophantic Hegemony of Modern Peer-Review
+            </h1>
+            <p className="text-sm font-sans font-medium text-slate-500 max-w-2xl mx-auto leading-normal">
+              A critical review of Yue Liu's key preprints, exposing how modern science became a compliance exercise where sycophants flourish, critics are retrenched, and theoretical capacity declines in favor of experimental alchemy.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3 text-2xs font-bold text-slate-500 uppercase tracking-widest font-mono pt-1">
+              <span>AUTHOR: YUE LIU</span>
+              <span>•</span>
+              <span>DATE: October 2025</span>
+              <span>•</span>
+              <span>KEYWORDS: Theoretical Poverty, Academic Games, Peer-Review Cartels, Scholarly Retaliation, New Dark Age</span>
+            </div>
+          </div>
+
+          {/* Bilingual Key Insights Box */}
+          <div className="bg-rose-50/45 border border-rose-150/45 rounded-2xl p-5 space-y-3 font-sans">
+            <div className="text-xs font-bold text-rose-900 uppercase tracking-wider font-mono flex items-center gap-1.5 animate-pulse">
+              <Sparkles className="w-4 h-4 text-rose-600" />
+              Core Theses & Dual Translation • 核心学术论点中英双语对照
+            </div>
+            
+            <div className="text-xs text-slate-900 font-mono leading-relaxed bg-white/70 p-4 rounded-lg border border-rose-100 space-y-3 max-h-96 overflow-y-auto">
+              <div>
+                <span className="font-bold text-rose-700">Thesis I: Theoretical Primacy (理论第一性)</span><br />
+                <strong>Chinese:</strong> 在我心目中，理论就是第一性的。科学最关键的是搞懂原理、搞懂理论、提升理论认知能力，而不是搞那种盲目积累数据的唯物主义高科技炼金术实验。当公式和数学本质是错的时，做再多测量、发再多SCI也只是垃圾。<br />
+                <strong>English:</strong> In my view, theory is supreme and holds absolute primacy. The most critical core of scientific progress is comprehending fundamental principles, establishing rigorous logical theory, and elevating our theoretical cognitive capacity—rather than indulging in high-tech materialist alchemy that blindly accumulates measurements. When the underlying equations are mathematically incorrect, compiling infinite experimental data yields nothing but high-status noise.
+              </div>
+              
+              <div className="pt-2 border-t border-rose-100/60 font-mono">
+                <span className="font-bold text-rose-700">Thesis II: From Science to Academic Games (学术游戏化)</span><br />
+                <strong>Chinese:</strong> 现代科学界，你不能全面否定主流流行的东西。凡是主流的东西，你要指出它的错，必须要卑躬屈膝，说它本质和主体是好的，自己只是略作补充。是SCI影响因子和匿名同行评审把学术风气彻底搞坏了。评议形成了权威的威慑，大家为了自保相互勾结拥护错误。<br />
+                <strong>English:</strong> In modern academia, you are strictly forbidden from totally refuting mainstream consensus. If you point out a fatal error in a dominant paradigm, gatekeepers coerce you into being submissive—demanding you declare that the mainstream core is flawless, and that you are merely presenting a polite, modest expansion. It is the SCI impact factor and peer-review cartels that have poisoned scientific integrity, leveraging submission as a prerequisite for survival.
+              </div>
+
+              <div className="pt-2 border-t border-rose-100/60 font-mono">
+                <span className="font-bold text-rose-700">Thesis III: Retaliation & The Reign of Flatterers (打击报复与阿谀奉承)</span><br />
+                <strong>Chinese:</strong> 刚正不阿的科学家因为坚守真理、揭露错误而被打压和淘汰。学术界剩下的都是些迎合权威、相互吹捧、溜须拍马的政客。这些人如鱼得水、行事理直气壮、毫不掩饰。正义变的遮遮掩掩，而流氓坏蛋却理直气壮，导致学术界沦为地痞流氓的天下。<br />
+                <strong>English:</strong> Uncompromising, direct-speaking scientists who defend the physical truth and expose mainstream fallacies are systematic target of reprisal, filtered out of institutional pipelines. Consequently, who remain are sycophants, flatterers, and academic politicians who navigate citation coalitions with practiced ease. While integrity is forced to hide in the margins, intellectual charlatans stride forward proudly with unmasked entitlement, turning academia into a playground for academic gangsters.
+              </div>
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-650 font-mono">I.</span> The Theoretical Poverty of Modern Academia: Denouncing Experimental Alchemy
+            </h3>
+            <p className="font-serif">
+              In his preprint, <a href="https://ssrn.com/abstract=5463155" className="text-rose-700 hover:underline font-bold" target="_blank" rel="noreferrer">The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research (SSRN 5463155)</a>, Yue Liu diagnoses a terminal disease in contemporary scientific practice: the complete atrophy of theoretical capacity.
+            </p>
+            <p className="font-serif">
+              Modern science has abandoned the classical ideal of deep, fundamental deductive synthesis—the quest to expand our mental model of physical systems. In its place sits a brainless, materialist <strong>"high-tech alchemy."</strong> Legions of modern researchers dedicate their careers to blindly compounding new alloys, graphene additives, or chemical solutions in private and public labs, generating endless measurement curves without possessing any mathematical grasp of what their instruments measure. These studies are essentially blind trials dressed up in technical jargon. They produce high-impact papers, but they deliver zero scientific advancement because they sit on a foundation of math-free empirical correlations.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">II.</span> From Academic Research to Academic Games: Coerced Flattery or Instant Retrenchment
+            </h3>
+            <p className="font-serif">
+              When an honest intellectual attempts to point out that a foundational theory is mathematically invalid, they instantly collide with the structural barrier of the <strong>"Academic Game"</strong>, elaborated in Liu's preprint <a href="https://ssrn.com/abstract=5684424" className="text-rose-700 hover:underline font-bold" target="_blank" rel="noreferrer">From Academic Research to Academic Games: How Modern Science Lost its Way (SSRN 5684424)</a>.
+            </p>
+            <p className="font-serif">
+              Under current rules, you are never permitted to declare that a popular, mainstream theory is wrong. The gatekeepers demand a ritual show of obedience. Even if you hold an inarguable physical proof that the dominant formula violates Maxwell’s electromagnetism, reviewers and journal editors will reject your paper because your tone is "provocative" or "impolite." They dictate that you must start by praise. They demand you state that the mainstream theory is "beautiful, deep, and correct as a rule," and that you are simply offering a small, submissive, and highly localized correction.
+            </p>
+            <p className="font-serif">
+              This is not scholarly communication; it is a system of feudal control. The replication crisis, citation cartels, and peer-review coalitions have turned research into a game of corporate image preservation, where pointing out the nakedness of the emperor is treated as a major crime.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">III.</span> Confronting the Fear: Retaliation and the Extinction of Uncompromising Thinkers
+            </h3>
+            <p className="font-serif">
+              In his publication <a href="https://ssrn.com/abstract=5514918" className="text-rose-700 hover:underline font-bold" target="_blank" rel="noreferrer">Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism (SSRN 5514918)</a>, Liu outlines the terrible cost paid by error-detectors and whistleblowers.
+            </p>
+            <p className="font-serif">
+              A chilling illustration of this was recorded in a Nature commentary by Simine Vazire. She recounted a message from an anxious postdoc who had found a major error in a famous researcher's publication. His critique was accurate, objective, and measured—a vital service to the field. Yet his academic advisor threatened him, telling him he had "crossed a line" and ordered him to never publish criticism again.
+            </p>
+            <p className="font-serif italic border-l-4 border-rose-500 pl-4 py-2 bg-rose-50/20 my-2">
+              "Some scientists wondered how a questionable line of research persisted for so long... experts were just too timid to take a stand." — New York Times, on the Harvard retraction case where cardiologists fabricated cardiac stem cell data for over 10 years.
+            </p>
+            <p className="font-serif">
+              Because pointing outerrors brings instant professional exclusion, the natural selection of modern academia is completely inverted. Uncompromising scientists who speak plain facts are systematically expelled and filtered out of the system. Who remains? The sycophants, the flatterers, those who excel at political maneuvers, and those too timid to defend logic. These survivors ascend to the thrones of review boards and university chairs, parading their unearned authority while turning science into a dark age run by academic gangsters who tolerate no questions.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">IV.</span> The New Dark Age: Postmodern Relativism and the Death of Mathematical Proof
+            </h3>
+            <p className="font-serif">
+              The ultimate defenses used by these gatekeepers are "tone-policing" and relativism, analyzed in Liu's essay <a href="https://ssrn.com/abstract=5679442" className="text-rose-700 hover:underline font-bold" target="_blank" rel="noreferrer">The New Dark Age: Modern Academic Publishing as the Most Autocratic Censorship Era in Scientific History (SSRN 5679442)</a>.
+            </p>
+            <p className="font-serif">
+              When presented with mathematical derivations showing that their current formulas violate basic physics, peer reviewers routinely reply with statements like: 
+              <span className="block font-sans font-medium text-xs text-rose-900 bg-rose-50/50 p-2 border border-rose-100 rounded my-2">
+                "While you are demanding that journal papers are wrong, a thorough case study is required... Every research is relatively correct or wrong according to the era. The writing flow of the manuscript should be more polite and professional."
+              </span>
+              This is a desperate attempt to dissolve the absolute truth of physical laws into postmodern relativism. They pretend that wave mechanics and boundary conditions are "relative to the era" to protect their prestige. When Nobel laureate Honjo Tasuku famously declared that 90% of views published in top magazines like Cell, Nature, and Science are false, establishment apologists dismissed it as mere "hyperbole to alert young researchers." 
+            </p>
+            <p className="font-serif">
+              True science does not care about your era, your impact factor, or your fragile feelings. A formula that violates the conservation of energy is wrong—no matter how many peer reviewers hold hands to defend it. We must restore theoretical capacity, support whistleblowers, and refuse to accept academic games in place of physics.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {/* Article 11: The Primacy of Theoretical Foundations */}
+      {activeArticle === "textbooksprimacy" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="textbooksprimacy-article-text">
+          
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-orange-950 font-sans tracking-tight leading-tight">
+              The Primacy of Theoretical Foundations: Why Textbooks and Monographs Matter more than Journal Literature in Scientific Progress
+            </h1>
+            <p className="text-sm font-sans font-medium text-slate-500 max-w-2xl mx-auto leading-normal">
+              A comprehensive critique of modern research cultures, revealing how the bypass of foundational reading has turned academia into an arrogant, error-prone guild that values superficial innovation over fundamental truth.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-3 text-2xs font-bold text-slate-500 uppercase tracking-widest font-mono pt-1">
+              <span>AUTHOR: YUE LIU</span>
+              <span>•</span>
+              <span>DATE: September 2025</span>
+              <span>•</span>
+              <span>KEYWORDS: Foundational Textbooks, Impedance Matching Error, Higher Education, Appendix Truth, Yue Liu</span>
+            </div>
+          </div>
+
+          {/* Bilingual Key Insights Box */}
+          <div className="bg-orange-50/45 border border-orange-150/45 rounded-2xl p-5 space-y-3 font-sans">
+            <div className="text-xs font-bold text-orange-900 uppercase tracking-wider font-mono flex items-center gap-1.5 animate-pulse">
+              <Sparkles className="w-4 h-4 text-orange-600" />
+              Core Theses & Dual Translation • 核心学术论点中英双语对照
+            </div>
+            
+            <div className="text-xs text-slate-900 font-mono leading-relaxed bg-white/70 p-4 rounded-lg border border-orange-100 space-y-3 max-h-96 overflow-y-auto">
+              <div>
+                <span className="font-bold text-orange-700">Thesis I: Textbook Bypass vs Journal Obsequiousness (教材与期刊的错位)</span><br />
+                <strong>Chinese:</strong> 现代学术界的研究者目标就是发表顶刊文章，对于做真学问没有兴趣。因此他们非常重视读期刊文章，希望从中嗅出时髦风向、学到发表技巧。因为读教科书厚重严密很费劲，他们根本不读教材，反而傲慢地宣称教科书内容自己在上学时早就精通了。这种研究者是绝无可能做出真正创新的。<br />
+                <strong>English:</strong> The dominant goal of contemporary researchers is publishing in elite journals; they possess no genuine interest in pursuing physical truth. Consequently, they review journal papers exclusively to duplicate trendy topics, copying tricks to ease acceptance. Because classic textbooks are intellectually dense and demanding, they ignore them entirely—defensively claiming they 'mastered standard basics' long ago. Such researchers can never achieve authentic creative breakthroughs.
+              </div>
+              
+              <div className="pt-2 border-t border-orange-100/60 font-mono">
+                <span className="font-bold text-orange-700">Thesis II: Post-Graduate Digestion & The Microwave Absorber Error (终身复习与五十年学术大谬)</span><br />
+                <strong>Chinese:</strong> 真实的情况是教材绝非看一遍就能吃透的，很多公式和定理并不是上学期间能学透的，而是毕业后在工作中反复温习才吃懂的。正是因为我们对经典教科书的反复研读，选择了一条不同于绝大多数科研人员的路，才得以依靠本科学过的“波叠加原理”与初中代数，彻底推翻纠正了统治全球微波吸收领域半个多世纪的“阻抗匹配理论”大错。可悲的是，该领域大批物理和微波工程专业出身的专家早已由于不读经典教材而丧失了处理本科电磁学基础计算的认知能力。<br />
+                <strong>English:</strong> The reality is that textbook content cannot be digested in a single reading. Rigorous physical mechanics are rarely mastered during student years; deep understanding only emerges from returning to classical monographs long after graduation. By prioritising classic textbook physical models, we took an isolated path. This enabled us, using standard undergraduate wave superposition and middle-school algebra, to thoroughly dismantle the "impedance matching" error that governed microwave absorption for over 50 years. Meanwhile, vocal peer reviewers with elite degrees in physics and microwave engineering continue to defend this error because they claim to have "learned" but never "understood" basic textbooks.
+              </div>
+
+              <div className="pt-2 border-t border-orange-100/60 font-mono">
+                <span className="font-bold text-orange-700">Thesis III: The Purpose of Education & Feynman's Appendix (教育的继承性与被流放的附件)</span><br />
+                <strong>Chinese:</strong> 我们在《Journal of Chemical Education》2012的文章中提出：教育的目的并非以假大空的“创新”为唯一目的，教育更重要的使命在于继承人类既有的科学成就，提升理论水平和解决实际新问题的能力。然而主流利益集团只希望每张纸都号称“创新”（实则是一堆垃圾），甚至由于该继承观点与主流不符，强制让作者只能把理念写入补充材料（附录）而不是正文。这恰似理查德·费曼在挑战者号航天飞机事故中直言不讳的真实调查成果被剥夺正文资格、强行塞入“附录 F”一样——最刺穿谎言的一手物理真相往往只被默许存活在没人看的附录里。<br />
+                <strong>English:</strong> As we declared in our J. Chem. Educ. (2012) paper, the primary mission of higher education is not to chase a superficial label of "innovation". Its highest purpose is to inherit humanity’s hard-won discoveries and elevate students' standard theoretical competency to solve real, novel physical tasks. Yet institutional journals reject this inheritance paradigm because they survive on a market of fake "innovative" garbage. Reviewers even restricted our educational philosophy from appearing in the main body, enforcing its exile to supplementary materials. This mirrors how Richard Feynman's devastating Challenger disaster investigation was stripped from the main body and hidden as Appendix F. Direct, uncompromised truths are routinely quarantined in the footnotes.
+              </div>
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-orange-950 border-b border-gray-100 pb-1.5">
+              <span className="text-orange-655 font-mono">I.</span> The Decay of Scholarship: Chasing Journal Fads to Avoid Hard Study
+            </h3>
+            <p className="font-serif">
+              In his key preprint, <a href="https://ssrn.com/abstract=5465615" className="text-orange-700 hover:underline font-bold" target="_blank" rel="noreferrer">The Primacy of Theoretical Foundations: Why Textbooks and Monographs Matter more than Journal Literature in Scientific Progress (SSRN 5465615)</a>, Yue Liu unmasks the dirty secret of modern laboratory managers.
+            </p>
+            <p className="font-serif">
+              The priority of the modern academic climber is surprisingly clear: read the latest publications in top-tier journals (Nature, Advanced Materials, IEEE Transactions), scan the list of citations to determine where the money and prestige are flowing, replicate the visual format of diagrams, and draft a slightly modified paper. 
+            </p>
+            <p className="font-serif">
+              This process requires zero theoretical thought. In fact, deep theoretical understanding is actively discouraged on this assembly line. Foundational textbooks and monographs are thick, mathematically rigorous, and require heavy cognitive expenditure to digest. Consequently, researchers bypass them entirely. They survive on a diet of paper-mill publications that copy and paste raw empirical parameters. 
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-orange-950 border-b border-gray-100 pb-1.5">
+              <span className="text-orange-655 font-mono">II.</span> The Arrogance of Basic Competence: The Failure to Review Classroom Fundamentals
+            </h3>
+            <p className="font-serif">
+              If you point out to these high-status researchers that their manuscripts present calculations that violate standard mathematical and physical logic, their reaction is immediate and aggressive defensiveness. They declare: 
+              <span className="block font-sans font-medium text-xs text-orange-950 bg-orange-50/50 p-2 border border-orange-100 rounded my-2">
+                "Those basic textbook topics are trivial. I mastered them during my freshman and sophomore undergraduate years. If you are bringing up classical textbooks to question my published models, you must have failed your own university physics classes."
+              </span>
+              But this is a severe psychological delusion. The deep mathematical structure of classical physics and mechanics cannot be fully absorbed or integrated by an undergraduate student in a single semester. Mastery does not happen during student days. It is achieved post-graduation, through returning to classical textbook derivations over decades of actual application, steadily untangling the physical boundaries and assumptions.
+            </p>
+            <p className="font-serif">
+              Because modern scholars stop reading textbooks after they graduate, they live the rest of their lives in a state of theoretical poverty. In documents like <a href="https://yueliusd.substack.com/p/rejection-letters-as-data-ieee-transactions-dad" className="text-orange-700 hover:underline font-bold" target="_blank" rel="noreferrer">Rejection Letters as Data (IEEE Transactions 2)</a>, we see IEEE Associate Editors and reviewers reject papers because they quite literally fail to understand basic undergraduate mechanics, demonstrating that while they may have "studied" textbook physics, they never "understood" it.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-orange-950 border-b border-gray-100 pb-1.5">
+              <span className="text-orange-655 font-mono">III.</span> Dismantling a 50-Year Delusion with Middle-School Algebra and Superposition
+            </h3>
+            <p className="font-serif">
+              This failure of basic understanding is not just an abstract concern—it has derailed entire disciplines. The most striking manifestation of this decay is the <strong>impedance matching theory of wave absorption</strong>, which has dictated material design for half a century.
+            </p>
+            <p className="font-serif">
+              According to the establishment, zero reflection in an absorbing material requires matching the input impedance of the material to the impedance of free space. Millions of public dollars have been poured into synthesizing "graphene nanocomposites" to satisfy this condition. Yet, when we subject this "matching formula" to strict physical audit, it is proven mathematically wrong. It asserts zero reflection occurs *within* the material without considering wave amplitude attenuation and phase cancellation at the boundaries.
+            </p>
+            <p className="font-serif italic border-l-4 border-orange-500 pl-4 py-2 bg-orange-50/20 my-2">
+              "By choosing to read textbooks and monographs—traveling a completely different path than 99% of researchers—we were able to correct a 50-year-old error using nothing more than undergraduate-level wave superposition and middle-school algebra."
+            </p>
+            <p className="font-serif">
+              How could so many researchers—including those with physics and microwave engineering backgrounds—fail to see this error? The conclusion is clear: they mastered the social ritual of publishing, but they completely lost the capacity to solve basic physics problems.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-orange-950 border-b border-gray-100 pb-1.5">
+              <span className="text-orange-655 font-mono">IV.</span> The Betrayal of the Educational Mission and Feynman’s Appendix
+            </h3>
+            <p className="font-serif">
+              This raises a deep question about the mission of science education. In the publication <a href="https://ssrn.com/abstract=5463155" className="text-orange-700 hover:underline font-bold" target="_blank" rel="noreferrer">The Theoretical Poverty of Modern Academia (SSRN 5463155)</a>, we highlight that modern academia operates under a dogmatic, market-driven obsession with "innovation." Every paper has to claim a breakthrough, when in reality, 95% of these "innovations" are garbage in physical reality.
+            </p>
+            <p className="font-serif">
+              In our 2012 paper, <span className="italic">Anodic Polarization Curves Revisited (Journal of Chemical Education, 90)</span>, we argued that:
+              <span className="block font-sans font-medium text-xs text-orange-900 bg-orange-50/50 p-2.5 border border-orange-100 rounded my-2">
+                "The core purpose of higher education is not merely to force children to 'innovate'. It is to inherit the immense achievements of human history, to raise theoretical levels, and build the physical capacity to handle actual, complex problems."
+              </span>
+              Yet, the peer-review establishment rejected this statement in the main text. They coerced us, writing: "Don’t you know this is why we will allow you to put this view only in the supplementary materials (the appendix) and not the main paper?"
+            </p>
+            <p className="font-serif">
+              This is a standard institutional survival strategy. True, plain, devastating truths are banished to the margins to avoid offending the illusions of the consensus. This mirrors exactly what the NASA commission did to <strong>Richard Feynman</strong> during the Space Shuttle Challenger disaster. When Feynman produced a direct, unvarnished, mathematically tight report proving that management ignored hardware failure probabilities, the committee wanted to suppress it. Only by fighting did Feynman manage to have his findings included—but they were banished to the very back, quarantined as <strong>Appendix F</strong>.
+            </p>
+            <p className="font-serif">
+              True scholars must stop looking for shortcuts in the trivial fads of high-impact journals. Reopen the textbooks, review the monographic classics, and let's restore physical rigor to contemporary science.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "collectivesupremacy" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="collectivesupremacy-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-950 font-sans tracking-tight leading-tight">
+              The Fallacy of Collective Supremacy: How Teamwork Ideology and Student-Centered Education Undermine Scientific Progress
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Dr. Yue Liu • Corresponding Academic Treatise (Essay L) • October 2025
+            </p>
+            <div className="flex justify-center gap-4 text-xs font-sans text-gray-450 font-medium">
+              <span>SSRN: https://ssrn.com/abstract=5664450</span>
+              <span>Substack: https://yueliusd.substack.com/p/the-fallacy-of-collective-supremacy</span>
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">I.</span> The Ideological Mirage of Team Scientific Breakthroughs
+            </h3>
+            <p className="font-serif">
+              In the contemporary scientific community, peer reviewers and university administrators heavily promote the doctrine of "teamwork cooperation." They assert that while the individual "lone genius" was suitable for Isaac Newton's era, modern science has grown too complex and advanced for single researchers. Consequently, only massive consortia and highly integrated teams can drive innovations. 
+            </p>
+            <p className="font-serif">
+              Yet, this narrative is completely contradicted by history and contemporary trends. As funding, headcount, and collaboration in scientific literature have increased exponentially over the past 50 years, the rate of genuine, disruptive scientific breakthroughs has actually stalled. We do not see an acceleration in fundamental insights; instead, we find ourselves in an era of minor, superficial iterations.
+            </p>
+            <p className="font-serif">
+              The truth is that Committee consensus and teamwork serve as a shelter for mediocrity. High-ranking academic authorities, who often gain their positions using superficial "SCI publishing tricks" rather than actual theoretical understanding, utilize large collaborations as a shield. Inside a massive team, no single individual is solely accountable for the physical truth of the theory. The group-agreed consensus masks their lack of fundamental competence, and the sheer scale of the team acts as a tool of intimidation to silence anyone who dares to point out their errors.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-645 font-mono">II.</span> Systemic Darkness: When Scientific Institutions Rot in Every Pore
+            </h3>
+            <p className="font-serif">
+              Why has an error as low-level and elementary as "impedance matching theory"—which violates basic undergraduate-level wave superposition and boundary conditions—managed to dominate the global microwave wave-absorbing field for over half a century?
+            </p>
+            <p className="font-serif">
+              If academic research were dark in only one spot, the bright light of truth from elsewhere would easily expose and correct the defect. But modern academia is fully and systematically corrupted; it is dark in "every single pore." 
+            </p>
+            <p className="font-serif">
+              Consider the feedback loop of this darkness: 
+              First, researchers prioritize high-impact journals over timeless textbooks because the textbooks are "too difficult to read" and do not help with promotion. Since they stop reading textbooks, their theoretical competence collapses, rendering them unable to comprehend standard physics. 
+              Second, peer reviewers and editors form self-protecting cartels. Any criticism of their past mistakes is rejected, not because the criticism is mathematically incorrect, but because the reviewers lack the undergraduate-level competency to understand standard wave superposition. 
+              Third, the "teamwork ideology" is weaponized. When an individual whistleblower demonstrates with junior-high algebra and undergraduate physics that the authorities' foundational theories are mathematically false, the authorities respond not by refuting the algebra, but by retreating behind the shield of "consensus" and leveraging their large teams to retaliate and bury the critique.
+            </p>
+            <p className="font-serif">
+              When the entire system is dark, the inhabitants lose all awareness of light. They believe they are at the pinnacle of innovation, when they are simply recycling low-level, high-impact mathematical errors in a self-concluding loop of peer-agreed nonsense.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-645 font-mono">III.</span> Solo Thinkers and the Betrayal of Mainstream Consensus
+            </h3>
+            <p className="font-serif">
+              History's most profound scientific advancements were not achieved by committees or collaborative consensus. They were driven by individuals who had the intellectual courage to betray the mainstream consensus, embrace physical facts, and rebuild theoretical frameworks from the ground up.
+            </p>
+            <p className="font-serif">
+              In our preprints on SSRN, we have demonstrated that a single individual, armed with basic classical textbooks and simple mathematics, can completely overthrow a 50-year-old error that dominated a multi-billion-dollar scientific discipline. In the court of physical reality, there is no room for social "hedging" or "expert agreements." A formula is either physically true or physically false. A thousand compromised committee members agreeing on a mistake does not make it true; a single individual showing the mathematical error using wave superposition makes the entire consensus worthless.
+            </p>
+            <p className="font-serif">
+              We must reject the dogma of "teamwork ideology" and "student-centered education" that prioritize group conformity over raw theoretical competence, and return to the rigorous path of individual responsibility and foundational physical truths.
+            </p>
+          </div>
+        </article>
+      )}
+
+      <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
         <h4 className="text-sm font-bold text-slate-900 font-sans">
           Support Yue Liu’s Critical Scientific Treatises:
         </h4>
@@ -1247,6 +1866,60 @@ export default function IntegratedArticle() {
             className="text-xs bg-indigo-50 text-indigo-800 border border-indigo-200 hover:bg-indigo-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-3xs"
           >
             Metaphysical Idealism (SSRN 5514958) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5465615"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-cyan-50 text-cyan-800 border border-cyan-200 hover:bg-cyan-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-3xs"
+          >
+            Theoretical Foundations (SSRN 5465615) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5376778"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-cyan-50 text-cyan-800 border border-cyan-200 hover:bg-cyan-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-3xs"
+          >
+            Statistical Misapplication (SSRN 5376778) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5684424"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Academic Games (SSRN 5684424) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5514918"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Confronting Retaliation (SSRN 5514918) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5463155"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-50 text-rose-800 border border-rose-200 hover:bg-rose-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Theoretical Poverty (SSRN 5463155) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5664450"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-100 text-rose-900 border border-rose-300 hover:bg-rose-200 px-4 py-2 rounded-lg flex items-center gap-1.5 font-extrabold transition shadow-3xs animate-pulse"
+          >
+            Collective Supremacy (SSRN 5664450) <Share2 className="w-3.5 h-3.5" />
           </a>
         </div>
       </div>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -924,6 +924,341 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
 
 #TransmissionLineTheory #WaveMechanics #MicrowaveAbsorption #ImpedanceMatching #YueLiu #Substack #SSRN #AcademicIntegrity #WavePhysics #Electromagnetics #Electrodynamics #CircuitDesign`;
 
+  // PROJECT 9 TEXTS (When ALL is not extreme speech and cannot be said)
+  const youtubeScriptText9 = `[SCENE 1: THE TONE-POLICER'S REFUGE]
+[Visual: Screen split in half. On the left: A whistleblower's rigid mathematical equation Z_in / Z_0 showing that Destructive Interference cancels waves. On the right: A cartoon bubble of a reviewer with crossed arms, saying "Please rewrite this in a more polite, conservative tone." Fade into a large red title: THE SHIELD OF CIVILITY.]
+[Sound: Sudden, discordant violin scratch, followed by a steady, ticking countdown timer.]
+
+[VOICEOVER]
+"When academic establishment chairs cannot disprove your physics, they don't tackle your calculations. They police your tone.
+
+They tell you: 'Your language is too extreme.' They warn you: 'You cannot say ALL mainstream papers in this field are wrong.' They suggest that a balanced, polite scholar must compromise, finding value on both sides.
+
+But this is a dangerous trick. If you are examining a system where the foundational axiom is mathematically broken, then saying ALL downstream papers are wrong is not "extreme speech"—it is a direct deductive necessity. In physics, when an entry equation is false, literally every conclusion derived from it becomes a castle of cards. Stating that the entire house has collapsed is simply stating the empirical fact of the empty floor."
+
+[SCENE 2: THE MUSIC ACADEMY & THE SCHOLASTIC CARTEL]
+[Visual: Staggered screenshots of domestic and international music conservatory faculty pages. An overlay of whistleblower Geng Tongxue's channel logo. Text on screen: "00:00:00:15 - 我告诉各位 我算是手下留情的..." with Geng's face in high contrast.]
+[Sound: Dramatic orchestral drums fading into a tense synth pulse.]
+
+[VOICEOVER (SCRIPT TRANSCRIPTION)]
+"Listen to the viral transcript from our latest academic broadcast:
+
+'I am telling you, I have actually shown mercy. If I were to act like student Geng—the famous grassroots whistleblower—and crack down strictly from the perspective of their academic theses... I tell you, almost none of these professors in our mainstream domestic music conservatories—especially those with such unsightly, greedy execution—would be able to stand their ground! Is there even some need to say this out loud? Is there any point to continue?'
+
+This is the reality of modern scholastic cartels. It applies to art, to humanities, and to materials science. The peer-review system has been transformed into a reciprocal appraisal agency where gatekeepers validate each other's empty titles. If we audit them strictly from the bedrock of their thesis papers, the vast majority crumble instantly."
+
+[SCENE 3: WHAT TO DO WHEN THE EXTREME STATEMENTS ARE REAL]
+[Visual: A bold question flashing on screen: "当“全部”是客观事实的时候，我们该怎么办？" ("When 'All' is the Empirical Reality, What Should We Do?"). Transition to a clean graphic of a stealth fighter and a modern circuit board.]
+[Sound: Bright, powerful high-frequency synth sweep, rising to an epic climax.]
+
+[VOICEOVER]
+"When 'all' is not extreme rhetoric but simply the objective truth, what should we do?
+
+If we prioritize social harmony over physical reality, we force whistleblowers to use moderate, dilute words. We tell them to say: 'Some peer-reviewed papers could be refined, while others are useful.' This polite stance is the ultimate shield for scholastic alchemy. It allows researchers to keep burning billions in public funds synthesizing impossible matched nanocomposites that lead to zero real-world breakthroughs.
+
+Politeness cannot build semiconductor chips. Tone-policing cannot navigate spacecraft. In structural engineering and electrodynamics, facts must be absolute. The Wave Mechanics of Microwave Absorption proves that the less incident wave initially enters a thin film, the stronger the potential interference peak is. This is the absolute physical truth, and it stands completely opposed to mainstream matching models.
+
+Let us refuse to be gaslit by the gatekeeper’s demand for politeness. Support slow science, support uncompromised reality. Head below to visit Yue Liu’s Substack, download the preprints on SSRN, and read the raw, unedited proofs for yourself. Stop policing tone, and start verifying logic."`;
+
+  const youtubeDescText9 = `When "All" is not extreme speech, but simply the objective, empirical truth—what should we do? 
+
+In this video, we dissect the ultimate defensive shield of academic cartels: Tone-Policing. When establishment figures cannot refute a mathematical or physical proof, they retreat behind demands for civility, polite language, and relative moderateness. They claim that saying "all mainstream material-resonance papers are false" is an unscholarly, extreme generalization.
+
+But we prove that if the foundational axiom of a field is mathematically incorrect (such as the 50-year-old microwave absorption matching formula), then ALL derived papers are fundamentally flawed. The absolute statement is simply a deductive fact. 
+
+We also translate and analyze the viral whistleblowing audio regarding music conservatory professors, showing that across both art and electrodynamics, auditing establishment figures strictly from the perspective of their theses reveals a shocking truth: almost none of them can stand their ground.
+
+Read the uncompromised mathematical proofs and meta-scientific essays directly:
+➔ https://ssrn.com/abstract=5379953 (Theoretical Primacy)
+➔ https://ssrn.com/abstract=5679442 (The New Dark Age)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#AcademicIntegrity #TonePolicing #YueLiu #WaveMechanics #MicrowaveAbsorption #Whistleblower #GengTongxue #MainstreamAcademia #Metascience #TransmissionLine`;
+
+  const youtubeScriptText10 = `[SCENE 1: THE RADICAL ROOT]
+[Visual: A series of sleek portraits/illustrations. First, Aristotle holding a scroll, transitioning into René Descartes gazing at a candle, then Isaac Newton holding a prism, and finally Elon Musk looking at a Falcon Heavy rocket launch. Text overlay: "THE ORIGIN of FIRST PRINCIPLES • NOT AN ELITE SECRET."]
+[Sound: Deep, resonant cathedral bells followed by a ticking scientific clock.]
+
+[VOICEOVER]
+"The First Principles Trilogy: Part 1—The Origin.
+
+Everyone knows Elon Musk, but Elon Musk didn't invent First Principles.
+
+This cognitive hammer was forged over two thousand years ago by the ancient Greek philosopher Aristotle. The core of First Principles thinking is radical reduction: stripping away all analogies, tracking down the river of cause and effect to its source, and grasping the absolute, non-negotiable bedrock of reality. Let's trace how this philosophical weapon evolved into the ultimate scientific and industrial superpower."
+
+[SCENE 2: ARISTOTLE, DESCARTES, AND THE CRITICAL GEOMETRY]
+[Visual: A blueprint animation of a grand architectural structure being built from the ground up. The foundation is labeled 'FIRST PRINCIPLE'. The walls and roof are labeled 'DERIVED PROPOSITIONS'. Slide transition to Descartes sitting at a desk, with the Latin words 'COGITO, ERGO SUM' rising like glowing smoke.]
+[Sound: Gentle, focused wind chimes, transitioning into a sweeping electronic cello.]
+
+[VOICEOVER]
+"First: Aristotle’s axiom. In his monumental work Posterior Analytics, Aristotle defined First Principles as the ultimate, self-evident truths. They are the supreme propositions that cannot be deduced from any other premise—they can only be deduced from themselves. 
+
+Think of it as building a house. The foundation is the First Principle. The house is built upon the foundation, but you can never deduce the existence of the foundation from the house itself. You must start at the starting point.
+
+Second: From Philosophy to Science. Centuries later, René Descartes weaponized this via radical skepticism. He doubted everything—the physical world, his memories, his senses—until he reached the one unshakeable First Principle: 'I am doubting, therefore I am thinking, therefore I exist.' 
+
+Isaac Newton used this exact methodology to dismantle the heavens. Instead of copying previous mystical models, Newton reduced the infinitely complex celestial mechanics of planets down to single, elegant mathematical equations. With this step, First Principles left the halls of pure metaphysics and became the absolute engine of modern science."
+
+[SCENE 3: INDUSTRIAL REVOLUION & THE DEMOCRITIZATION OF GENIUS]
+[Visual: A split screen. On the left: Raw minerals (lithium ore, cobalt, nickel) glowing on dark plates. On the right: A giant rocket booster descending smoothly onto an ocean barge. Superimposed text: 'Raw Materials Cost: <10% of Retail.']
+[Sound: Triumphant brass fanfares rising behind a driving synth-pop rhythm.]
+
+[VOICEOVER]
+"Third: Elon Musk takes First Principles to the marketplace. Musk is not the inventor of this tool; he is its most aggressive modern disciple.
+
+When experts told him that building rockets was far too expensive, Musk refused to consult industry brochures. He asked: 'What is a rocket made of? Aerospace-grade carbon fiber, aluminum, titanium, copper, and fuel.' He calculated the raw spot-market price of those raw materials, and discovered that the materials themselves cost less than two percent of a typical rocket's retail price. By manufacturing everything in-house, SpaceX slashed the cost of spaceflight by ninety percent.
+
+He did the exact same thing with electric vehicle batteries. Instead of buying batteries at marked-up industry prices, he reduced them to their basic constituent parts: lithium, cobalt, nickel, and carbon. 
+
+First Principles thinking is not a secret patent reserved for isolated geniuses. It is an open-source cognitive tool waiting for you to pick it up. Stop looking at what your competitors are doing. Stop copying the industry's compromise. Strip the problem to its bare atoms, and ask: What is the fundamental, indisputable truth of the system?"`;
+
+  const youtubeDescText10 = `First Principles Trilogy Part 1 — The Origin: Aristotle, Descartes, and Elon Musk.
+
+In this first episode of our First Principles Trilogy, we reveal why this core concept is NOT an invention of Elon Musk, but rather a 2,400-year-old philosophical hammer forged by the ancient Greek giants. 
+
+We trace the cognitive history of First Principles:
+1. Aristotle's Axioms: Defining self-evident truths that cannot be deduced from downstream propositions (the famous House & Foundation analogy).
+2. Cartesian Doubt & Newtonian Heavens: How Descartes doubted his very senses to find the absolute core of thinking (Cogito, Ergo Sum), and how Newton translated pure metaphysics into deterministic physics equations.
+3. Industry Application: How Elon Musk stripped rockets and lithium batteries to their raw spot-market elements (lithium, cobalt, nickel) to bypass industry inertia and reduce manufacturing costs by 90%.
+
+Stop reasoning by analogy. Stop coping with the industry standard. Force your mind to ask: "What is the most fundamental, indisputable reality here?"
+
+Read Yue Liu's critical treatises connecting First Principles and Theoretical Primacy:
+➔ https://ssrn.com/abstract=5379953 (Theoretical Primacy)
+➔ https://ssrn.com/abstract=5465615 (Primacy of Theoretical Foundations)
+➔ https://ssrn.com/abstract=5447975 (Materialism vs Metaphysics)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#FirstPrinciples #Aristotle #RenéDescartes #ElonMusk #TheoreticalPrimacy #Metascience #YueLiu #PhilosophyOfScience #SpaceX #Physics`;
+
+  const youtubeScriptText11 = `[SCENE 1: THE ALCHEMY OF THE GANGS]
+[Visual: A split screen. On the left: A glowing, stylized telescope highlighting elegant physical equations. On the right: A giant concrete blender dumping thousands of dusty folders labeled "SCI Journal Volume" into a shredder. Superimposed text: "THEORETICAL PRIMACY VS. EXPERIMENTAL ALCHEMY."]
+[Sound: Deep, ticking grandfather clock, accompanied by a heavy, metallic bass note vibrating the floor.]
+
+[VOICEOVER]
+"In true science, theory is supreme. 
+
+The primary mission of scientific inquiry is to understand the core principles, construct rigorous logical models, and elevate our theoretical grasp of the universe. Science is NOT a repetitive, mind-numbing game of data-stacking. It is not an empirical alchemy that blindly cooks materials in a lab without mathematical comprehension. 
+
+Yet today, modern academia has completely lost its soul. It has traded the clean light of theoretical deduction for a profitable corporate game—an assembly line of sycophants, citation-printing cartels, and institutional compliance."
+
+[SCENE 2: THE RULES OF THE ACADEMIC GAME]
+[Visual: Animated flowchart showing how an original paper is blocked by "Peer Review Gatekeepers" while copy-pasted, incremental papers sail through. Text overlay: "SSRN 5684424 • HOW SCIENCE LOST ITS WAY."]
+[Sound: Sound of a mechanical coin-slot dropping, followed by an upbeat, satirical casino-style music bed.]
+
+[VOICEOVER]
+"In Yue Liu’s groundbreaking treatise, From Academic Research to Academic Games, he exposes the unspoken code of the scientific establishment.
+
+In modern academia, you are strictly forbidden from completely refuting mainstream delusions. If you find a massive, systematic error in standard literature, you cannot simply say: 'This is mathematically wrong.' The gatekeepers require you to bow. They force you to write: 'The mainstream paradigm is outstanding and beautiful, we are merely offering a polite, humble minor recommendation.'
+
+Why? Because the peer-review system does not exist to find truth. It exists to protect the reputation of dominant cartels. The SCI impact factor has became a weaponized currency, rewarding those who flatter the monarchs of journals while strangling real intellectual resistance."
+
+[SCENE 3: CONFRONTING THE FEAR of RETALIATION]
+[Visual: A gritty dark screen with typewriter-styled quotes glowing in white and amber:
+'Experts were just too timid to take a stand...' (Harvard Retraction Case)
+'...publishing the criticism had crossed a line, and he should never do it again.' (Nature, S. Vazire)]
+[Sound: Low, ominous atmospheric synth hums.]
+
+[VOICEOVER]
+"The fear of retaliation is real, suffocating, and absolute. 
+
+In her editorial in Nature, Simine Vazire shared a private message from a bruised postdoc. He had published an accurate, necessary, and measured critique pointing out fatal errors in a prominent researcher’s paper. His reward? His advisor threatened him, telling him he had crossed a line and must never publish critiques again. 
+
+When Harvard University called for the retraction of dozens of fraudulent papers by a famed cardiologist, co-scholars admitted they knew about the fabrication for a decade, but experts were simply too timid to take a stand.
+
+By punishing, blacklisting, and filtering out the righteous, the system operates a Darwinian counter-selection. High-integrity truth-seekers are expelled. What is left behind is a class of flatterers, academic politicians, and cowards. They comfortably reign over prestigious departments, parading their intellectual bankruptcy while real scientific discovery grinds to a halt. It is the rule of the academic gangsters."
+
+[SCENE 4: THE NEW DARK ERAS OF CENSORSHIP]
+[Visual: Zoom-in on actual peer review feedback letters from journals with red circles around text like 'Every research is relatively correct according to the era... be more polite.']
+[Sound: Sound of a loud, echoing metal cage slamming shut.]
+
+[VOICEOVER]
+"This is the New Dark Age. As Yue Liu demonstrated in his paper SSRN 5679442, modern academic publishing operates the most autocratic censorship machine in scientific history.
+
+When gatekeepers cannot refute your wave mechanics, they complain about your tone. When you present an absolute mathematical proof that the standard microwave-absorption formula violates electromagnetism, they claim: 'Every research is relatively correct or wrong according to the era. Please write more politely.'
+
+They attempt to replace absolute physical laws with postmodern relativism. They tell you that Nobel laureate Honjo Tasuku was merely 'exaggerating' when he warned that 90% of views published in top CNS journals are false. This tone-policing is a desperate firewall designed to prevent the collapse of their citation castles."
+
+[SCENE 5: THE EMBERS OF TRUTH]
+[Visual: The frame returns to a clean, elegant dark-mode screen showing Yue Liu's SSRN preprint library and Substack URL: yueliusd.substack.com]
+[Sound: Triumphant, soaring orchestral melody replacing the heavy synths.]
+
+[VOICEOVER]
+"But truth cannot be indefinitely policed. 
+
+The universe is not governed by peer-reviewed consensus; it is governed by Maxwell's equations, thermodynamic limits, and mathematical logic. 
+
+We must have the courage to demand theoretical rigor over experimental alchemy. We must stand with the error-detectors and the theoretical whistleblowers who refuse to let academic gangsters dictate the boundaries of human knowledge. 
+
+Visit the links below to read Yue Liu’s full preprints on SSRN and his unedited essays on Substack. Stand up for scientific integrity, reclaim theoretical primacy, and let us end this dark age of academic games. Thank you for listening."`;
+
+  const youtubeDescText11 = `The Academic Gangsters: How Peer-Review Cartels Censored Modern Science.
+
+In this explosive episode, we dissect the systemic decay of modern science through the lens of Yue Liu's latest meta-scientific preprints. 
+
+We explain why theoretical comprehension is first-rate, while modern trial-and-error experimental "alchemy" has turned scientific progress into an endless academic game of compliance.
+
+We break down:
+1. The Academic Game (SSRN 5684424): How researchers are strictly forbidden from pointing out mainstream fallacies without flattering the establishment, showing how peer review became a reputation-protection cartel.
+2. Confronting the Fear of Retaliation (SSRN 5514918): Analyzing the chilling effect where postdocs are blacklisted for detecting errors, and how "experts are too timid to take a stand" (as seen in the Harvard Retraction cases).
+3. The New Dark Age of Censorship (SSRN 5679442): How gatekeepers use "tone-policing" and relativism ("every research is relatively correct according to the era") to dodge mathematical proof of theoretical errors.
+4. Theoretical Primacy (SSRN 5463155): Reclaiming the Aristotelian focus on deep theoretical foundations over data-stacking and citation manipulation.
+
+"The universe is governed by physical laws, not peer-reviewed consensus."
+
+Read Yue Liu's critical treatises:
+➔ https://ssrn.com/abstract=5684424 (From Academic Research to Academic Games)
+➔ https://ssrn.com/abstract=5514918 (Confronting the Fear of Retaliation)
+➔ https://ssrn.com/abstract=5679442 (The New Dark Age of Censorship)
+➔ https://ssrn.com/abstract=5463155 (The Theoretical Poverty of Modern Academia)
+➔ https://yueliusd.substack.com (Yue Liu's Substack essays)
+
+#AcademicGames #PeerReview #TheoreticalPrimacy #Metascience #YueLiu #ScienceWhistleblower #AcademicCensorship #ScientificDarkAge #NatureCommentary`;
+
+  const youtubeScriptText12 = `[SCENE 1: THE IGNORANCE OF THE ELITE]
+[Visual: A heavy hardcover textbook labeled "Classical Electrodynamics" or "Wave Physics" sits on a mahogany table. Waves of neon particles bounce off its cover. Next to it, a virtual tablet flashes hundreds of low-quality journal papers scrolling at lightspeed labeled "SCI Impact Factor 15+".]
+[Sound: Massive, resonating brass note, followed by the quiet, tactile sound of a single page turning.]
+
+[VOICEOVER]
+"Ask any modern academic researcher about their career goal. They will answer instantly: 'To publish in top-tier journals.' 
+
+For them, doing real, fundamental science has become secondary. Their primary study is the journal literature. They read not to understand the universe, but to sniff out buzzwords, copy hot trends, and mimic tricks to print more papers. Ask them to sit down with a foundational, rigorous textbook or classical monograph, and they will scoff: 'Textbooks are exhausting. Beside, I already mastered those during my undergraduate days. Why waste time on what I already know?'
+
+But in Yue Liu's groundbreaking preprint, The Primacy of Theoretical Foundations, he exposes the ultimate lie of modern academia. Most experts do not understand basic textbooks. They never did. And because they stopped reading them after graduation, their theoretical capacity has collapsed into total poverty."
+
+[SCENE 2: THE REJECTION OF PRIMARY PHYSICS]
+[Visual: A split screen. On the left: A complex, mathematically flawed "impedance matching" equation highlighted with a skull icon. On the right: A simple drawing of wave superposition and high-school level algebra resolving the interface paradox with a glowing checkmark.]
+[Sound: Ominous, low synthesized drone, transitioning to sharp clockwork gears ticking.]
+
+[VOICEOVER]
+"Take the field of electromagnetic wave absorption. For over half a century, the global establishment has relied on a doctrine known as 'impedance matching theory' to design radar-absorbing materials. Thousands of highly funded papers are published on it every year. 
+
+But when we audit this theory using nothing more than undergraduate-level wave superposition and middle-school algebra, it collapses. It is a major mathematical error. The standard formula asserts that zero wave reflection is achieved internally without accounting for continuous boundary conditions and wave amplitude attenuation in physical reality!
+
+How can an entire scientific field—full of scholars with degrees in physics and microwave engineering—be misled for 50 years? The answer is simple: they learned the equations, but they never truly understood them. Many experts in the field, including IEEE editors and peer reviewers, cannot even comprehend basic review comments pointing out these fundamental mathematics."
+
+[SCENE 3: THE ILLUSION OF MASTERY]
+[Visual: Animated dialogue bubble showing a smug researcher saying, 'That's basic undergraduate physics, I mastered it!' while behind them is an interactive math diagram showing they got the undergraduate exam question completely wrong.]
+[Sound: Satirical, off-key violin screech transitioning to a firm, rhythmic beat.]
+
+[VOICEOVER]
+"When you try to discuss foundational textbooks with these professionals, they exhibit immense academic arrogance. They snap back: 'Those topics are trivial. If you are questioning this, you must have failed your undergraduate exams.' 
+
+But the reality is that the profound insights of a physics textbook are not absorbed on a single pass. Real mastery requires returning to the textbooks and classic monographs repeatedly after graduation, throughout one's entire career. 
+
+Because they never review the classics, elite peer reviewers reject mathematically correct papers. We documented these rejections in Substack articles like 'Rejection Letters as Data.' It reveals IEEE Associate Editors rejecting papers not because the physics is wrong, but because they quite literally lack the undergraduate-level competency to understand the wave superposition arguments presented."
+
+[SCENE 4: THE TRUE PURPOSE OF EDUCATION]
+[Visual: A classic lecture hall blackboard with the equation for anodic polarization curves. A red stamp marks a specific paragraph in a 'Supplementary Material' document labeled 'Appendix: The Mission of Higher Education.']
+[Sound: Gentle, swelling orchestral background music, carrying a sense of historic weight.]
+
+[VOICEOVER]
+"This brings us to a deep philosophical crisis. What is the purpose of education? 
+
+In 2012, Yue Liu and his co-authors published a paper in the Journal of Chemical Education titled 'Anodic Polarization Curves Revisited.' In it, they proposed a profound perspective: The primary mission of higher education is NOT merely to force superficial 'innovation.' Its most vital duty is to inherit human achievements, elevate the theoretical cognitive capacity of students, and build their ability to solve new problems. 
+
+Curiously, a journal reviewer objected to this, writing: 'Do you know why we allow you to express this view only in the supplementary materials, but not in the main text?' 
+
+The establishment rejects this. They want every paper to claim a ground-shaking, superficial 'innovation'—even if it is absolute garbage. As a result, the deepest truth is pushed to the margins. This is exactly how Richard Feynman's devastating investigation of the Space Shuttle Challenger disaster was handled: his direct, unedited findings were stripped from the main body and hidden in Appendix F."
+
+[SCENE 5: THE PATH OF RIGOR]
+[Visual: Deep space scene with stars. Superimposed text: yueliusd.substack.com and SSRN Author Index preprint link. The camera pans to a clean desk with classical monographs.]
+[Sound: Soaring, triumphant theme playing with crisp clarity.]
+
+[VOICEOVER]
+"By refusing to run in the journal-publishing rat race, and choosing instead to sit with textbooks, monographs, and primary equations, we were able to correct a 50-year-old error that dominated microwave physics. 
+
+We don't need elite, multi-million-dollar laboratories to find truth. We need the mathematical courage of middle-school algebra and wave superposition. We need the honesty to admit that textbook foundations are not trivial, but supreme.
+
+Stop looking for shortcuts in trendy journal publications. Turn off the notifications, close the latest high-impact index, and open the timeless, dusty textbooks. 
+
+Read Yue Liu's key preprints, SSRN 5465615 and 5463155, and join his Substack. Reclaim the primacy of theoretical foundations, and let's restore scientific integrity. Thank you for watching."`;
+
+  const youtubeDescText12 = `Why textbooks are more important than journal papers.
+
+In this deep meta-scientific critique, we examine why modern scientific progress has stalled, guided by Yue Liu's critical preprints on SSRN and his Substack publications.
+
+We discuss:
+1. The Journal Obsession (SSRN 5465615): How contemporary researchers read journals only to copy tricks to get published, while bypassing foundational textbooks because they are "too difficult."
+2. The Academic Arrogance: Why experts who claim they "already mastered the basics" reject mathematically correct papers because they actually fail to comprehend undergraduate physics (such as wave superposition).
+3. The Microwave Absorber Error: How a 50+ year error (impedance matching theory) was mathematically corrected using only middle-school algebra and undergraduate superposition principles, proving the "experts" never understood what they memorized.
+4. The Purpose of Education (Journal of Chemical Education 2012): Shifting the focus of education from superficial, garbage "innovation" back to inheriting human knowledge and raising theoretical capacity.
+5. Pushed to the Appendix: Why, like Richard Feynman's Challenger report (Appendix F), the most profound scientific truths are often banished to supplementary materials because they offend institutional illusions.
+
+"True science begins when we close the journals, and reopen the textbooks."
+
+Featured Treatises & Reading List:
+➔ https://ssrn.com/abstract=5465615 (The Primacy of Theoretical Foundations)
+➔ https://ssrn.com/abstract=5463155 (The Theoretical Poverty of Modern Academia)
+➔ https://yueliusd.substack.com (Yue Liu's Substack essays)
+
+#Textbooks #DeepPhysics #PrimacyOfFoundations #RichardFeynman #YueLiu #JournalOfChemicalEducation #IEEETransactions #MicrowaveAbsorption #Metascience #WaveSuperposition`;
+  
+  const youtubeScriptText13 = `[SCENE 1: THE TEAMWORK ILLUSION]
+[Visual: A massive sleek boardroom table with ten actors in clean suits nodding and shaking hands around a glowing diagram. The diagram says 'Consensus Agreement.' Above them, a single isolated figure with a laptop stands in a cold wind gazing at a blackboard with raw mathematical formulas, highlighted in gold.]
+[Sound: Echoing, grand corporate music, suddenly interrupted by a single dramatic, cold wind effect.]
+
+[VOICEOVER]
+"We are told that the era of the lone scientist is dead. Proponents of modern academia preach that while Isaac Newton could single-handedly discover gravity, modern science is far too complex for solo thinkers. Today, they claim, only through large, heavily-funded collaboration groups and student-centered 'teamwork' can breakthroughs be made. 
+
+But there is a tragic irony. As collaboration teams grew to hundreds of co-authors, actual scientific progress ground to a complete halt. Why? 
+
+In Yue Liu's critical preprint, *The Fallacy of Collective Supremacy*, he unmasks the teamwork ideology as a high-status cover. It is a psychological defense system. The truth is, many prominent academic authorities lack actual theoretical competence. They rise to power by publishing cookie-cutter, low-quality papers. They don't understand basic physics, so they utilize teamwork and vast committee boards to hide their individual weakness and systematically crush anyone who exposes their errors."
+
+[SCENE 2: SYSTEMIC DARKNESS]
+[Visual: A dark medieval castle floating in a foggy, pitch-black sky. Every brick in the castle is glowing dark charcoal gray with label coordinates: 'Peer Review', 'SCI', 'Collaborations', 'Teamwork', 'Bypassing Textbooks', 'Trend Chasing'.]
+[Sound: Distant iron chains rattling, mixed with a deep rumbling ambient bass.]
+
+[VOICEOVER]
+"An incorrect theoretical model is never wrong in just one place. If a theory is physically flawed, its errors compound—corrupting every single equation, boundary condition, and experimental interpretation. Every single pore of that model is wrong.
+
+Yet, a low-level theoretical error—the 'impedance matching' equation in microwave absorption—has ruled global research labs for over 50 years. How is this possible when the error is so simple it can be debunked using freshman-level wave superposition and middle-school algebra? 
+
+Because the rot of modern science is not isolated. If the academe went dark in just one spot—say, peer review—the rest of the system would spot the mistake. But are you beginning to see? Every single pore of modern academia has gone dark. The teamwork dogma, the obsession with SCI index values, the rejection of textbook reviews—it is a total, systemic darkness. When the Middle Ages are fully dark, no one inside realizes that they are living in the dark."
+
+[SCENE 3: THE SUPPRESSION BY COMMITTEE]
+[Visual: An academic panel of judges on high thrones holding rubber stamps. Down below, a whistleblower with a clean physical proof tries to raise their hand but is drowned out by the judges stamping 'REJECTED: IMPOLITE TONE' in unison.]
+[Sound: Rousing, industrial slamming of stamps, low metallic clanking.]
+
+[VOICEOVER]
+"Why is teamwork so heavily promoted? Because committees protect mediocre authorities. 
+
+When a lone researcher discovers a catastrophic error in the consensus, they submit their math to a journal. But the journal reviewers are part of the very citation coalitions that built the error. If they edit or review independently, they risk exposing their own incompetence. 
+
+Instead, they hide behind 'collective supremacy.' They use their massive teams to gatekeep publications, write rejection letters packed with pseudo-intellectual jargon, and retrench critics. Real scientific progress is never achieved by team-driven consensus; it is achieved by the lonely individual with the courage to betray the mainstream and defend physical reality."
+
+[SCENE 4: THE INDIVIDUAL PATH TO REALITY]
+[Visual: The isolated analyst's desk with old textbooks and mathematical sheets. Golden equations of Wave Superposition float over the desk as a bright sunrise breaks through the dark window.]
+[Sound: Majestic, rising solo violin theme, building into a powerful, inspiring crescendo.]
+
+[VOICEOVER]
+"By bypassing these massive collaborations and refusing to play the teamwork game, we took an isolated path. We focused entirely on the rigorous study of classic textbooks and monographs. And that is exactly why we succeeded. 
+
+Using nothing but basic undergraduate wave superposition and simple junior-high algebra, we corrected a half-century-old theoretical fallacy in microwave physics. We didn't need a team of fifty co-authors. We needed the mathematical honesty to see what we calculated.
+
+Modern science does not need more teamwork or committee consensus. It needs the courage of the individual mind. It needs uncompromised, direct-speaking scholars who refuse to bow to academic cartels.
+
+Read Yue Liu's groundbreaking preprint, SSRN 5664450, and subscribe to his Substack. Reclaim the power of physical truth over institutional consensus. Thank you for watching."`;
+
+  const youtubeDescText13 = `The Myth of Teamwork in Modern Science.
+
+Is the era of solo scientific breakthroughs truly over, or is the obsession with "teamwork ideology" actually killing creative progress? In this video, we dissect Yue Liu’s critical meta-scientific preprint, "The Fallacy of Collective Supremacy," to reveal how the academic establishment utilizes massive collaborations to mask systemic incompetence.
+
+Key Topics Discussed:
+1. The Teamwork Shelter (SSRN 5664450): How academic authorities who lack actual theoretical understanding hide behind massive collaborations and use committee consensus to suppress rigorous criticisms.
+2. Every Pore of Darkness: Why a low-level mathematical error like "impedance matching theory" survived for 50+ years. If academic research was dark in only one spot, the truth would shine. But modern science is dark in every pore—from peer-review cartels to textbook-bypassing and teamwork dogma. When the system is fully dark, no one realizes they are in the dark.
+3. Solo Minds vs. Committees: Why history’s most profound breakthroughs were achieved by individuals with the courage to betray the mainstream consensus, rather than team-driven collaborations.
+4. The Microwave Absorption Overthrow: How undergraduate-level wave superposition and junior-high algebra dismantled a global 50-year-old error, proving that a single honest individual with standard textbooks exceeds a committee of a thousand compromised experts.
+
+"True progress is driven by individuals who betray the consensus, never by committees that protect it."
+
+Explore Yue Liu's critical treatises:
+➔ https://ssrn.com/abstract=5664450 (The Fallacy of Collective Supremacy)
+➔ https://ssrn.com/abstract=5465615 (The Primacy of Theoretical Foundations)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#TeamworkFallacy #AcademicGames #YueLiu #WaveSuperposition #Metascience #ScienceWhistleblower #AcademicCartels #ImpedanceMatching #PeerReview`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -933,7 +1268,12 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
     activeProject === "project5" ? youtubeScriptText5 :
     activeProject === "project6" ? youtubeScriptText6 :
     activeProject === "project7" ? youtubeScriptText7 :
-    youtubeScriptText8;
+    activeProject === "project8" ? youtubeScriptText8 :
+    activeProject === "project9" ? youtubeScriptText9 :
+    activeProject === "project10" ? youtubeScriptText10 :
+    activeProject === "project11" ? youtubeScriptText11 :
+    activeProject === "project12" ? youtubeScriptText12 :
+    youtubeScriptText13;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -943,7 +1283,12 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
     activeProject === "project5" ? youtubeDescText5 :
     activeProject === "project6" ? youtubeDescText6 :
     activeProject === "project7" ? youtubeDescText7 :
-    youtubeDescText8;
+    activeProject === "project8" ? youtubeDescText8 :
+    activeProject === "project9" ? youtubeDescText9 :
+    activeProject === "project10" ? youtubeDescText10 :
+    activeProject === "project11" ? youtubeDescText11 :
+    activeProject === "project12" ? youtubeDescText12 :
+    youtubeDescText13;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -977,7 +1322,7 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Active Video Project / 选择当前视频策划
         </label>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-8 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-13 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => {
               setActiveProject("project1");
@@ -987,7 +1332,7 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project1"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-900"
             }`}
             id="toggle-project1"
           >
@@ -1003,7 +1348,7 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project2"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-600 hover:bg-slate-100 hover:text-slate-900"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-900"
             }`}
             id="toggle-project2"
           >
@@ -1105,6 +1450,86 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
             Project H: Five Theories
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project9");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project9"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-project9"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
+            Project I: Objective "All"
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project10");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project10"
+                ? "bg-cyan-950 text-white shadow-sm animate-pulse"
+                : "text-cyan-800 hover:bg-cyan-50 hover:text-cyan-950"
+            }`}
+            id="toggle-project10"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-cyan-550 animate-pulse" />
+            Project J: First Principles
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project11");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project11"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-800 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-project11"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-550 animate-pulse" />
+            Project K: Academic Games
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project12");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project12"
+                ? "bg-orange-950 text-white shadow-sm animate-pulse"
+                : "text-orange-850 hover:bg-orange-50 hover:text-orange-950"
+            }`}
+            id="toggle-project12"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-orange-500 animate-pulse" />
+            Project L: Textbooks Matter
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project13");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project13"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project13"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
+            Project M: Collective Fallacy
           </button>
         </div>
       </div>
@@ -1275,6 +1700,75 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
         </div>
       )}
 
+      {activeProject === "project9" && (
+        <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-rose-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
+            Objective "All" • 当所有学者都错的时候，这并非夸张修辞
+          </div>
+          <p className="text-[12px] text-rose-955 leading-relaxed italic">
+            "当一个理论的基石公式（公理）在物理数学上是错误的时候，大厦底部的流沙注定会让整栋建筑倒塌。指出‘此领域的全部文献都是错误的结论’，不是极端言论，而是在严密公理系统下的必然物理推导。真正的学术界，近乎绝大多数国内主流学院吃相难看的教授，一旦从论文的显微镜下严密审计，根本经不起底线推敲。我们必须打破‘中庸和泥’的礼貌牢笼，捍卫绝对的事实真理！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Empirical "All" is Fact (百分之百的客观事实)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Academic Cartel Audit (破除主流学术圈的虚伪光环)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Refusing Social Complicity (拒绝在物理事实面前和稀泥)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project12" && (
+        <div className="bg-orange-50/45 border border-orange-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-orange-850 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-orange-600 animate-pulse" />
+            The Primacy of Textbooks • 经典教材与教材继承比垃圾“创新”更重要
+          </div>
+          <p className="text-[12px] text-orange-950 leading-relaxed italic">
+            "现代学术界的研究者目标就是为了发表SCI论文，对做真正学问毫无兴趣。他们疯狂阅读期刊论文，希望从中模仿发表技巧。因为经典教材厚重严密又费劲，他们根本不去阅读，转而傲慢地宣称自己‘早就精通了教科书’。但事实是，教材并非看一遍就能吃透。许多同行审稿专家由于本科没学透、毕业后又没有终身复习，导致其甚至理解不了由于阻抗匹配所设防的、最基础理论错误的推翻。正是因为我们对教材与经典专著的反复研读，选择了一条不同于绝大多数科研人员的路，才得以依靠本科学过的‘波叠加原理’与初中代数，彻底推移了统治现代微波吸收领域半个多世纪的‘阻抗匹配理论’大错！教育的首要目的，并非盲目创制虚伪的‘垃圾创新’，而是继承人类已有成就，提升底色认知能力。把真正的真理，甚至如同费曼只能写入附录调查报告般，自豪地予以公开！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 uppercase">
+              Textbooks Classic Mastery (教材非一遍能透，需终身反复吃透)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-orange-100 text-orange-800 uppercase">
+              Superposition & Algebra (初中代数与本科波叠加推翻五十年匹配大谬)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              The Mission of Higher Education (教育继承重于虚伪的垃圾创新)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project13" && (
+        <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-rose-950 uppercase tracking-widest font-mono flex items-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
+            The Fallacy of Collective Supremacy • 集体至上谬误与学术全方位黑暗
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "现代学者吹捧Newton时代能单打独斗，当前科研必须靠团队合作。结果是团队越来越大，科学创新却彻底停滞了。这不过是学术平庸权威为掩盖自身理论无能而拼凑的保密机制和利益同盟。真正重大的突破永远由叛逆主流、拥抱事实的少数个人完成！不仅如此，如果学界中世纪的黑夜已到，必然不是一个点是黑暗，而是浸透到每一个毛孔：唯‘团队’马首是瞻、同行评审利益化、轻视教材研读…当整个黑夜深入骨髓，见错不错便成了常态，没人能再指出错误的阻抗匹配低级理论竟能统治学界半个世纪之后甚至还百般维稳狡辩。真理从来不掌握在委员会手中，在物理事实面前，没有和稀泥的余地！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Individual Betrayal (科学进步靠叛逆共识的少数个人推进)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Every Pore is Dark (学术中世纪是全方位的系统性黑夜)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Committee Arbitrage (权威用团队掩盖无能打压异己)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -1291,7 +1785,12 @@ Furthermore, we contrast this with Microwave Circuit Impedance Matching—which 
                   activeProject === "project5" ? "Project E" : 
                   activeProject === "project6" ? "Project F" : 
                   activeProject === "project7" ? "Project G" : 
-                  "Project H"
+                  activeProject === "project8" ? "Project H" :
+                  activeProject === "project9" ? "Project I" :
+                  activeProject === "project10" ? "Project J" :
+                  activeProject === "project11" ? "Project K" :
+                  activeProject === "project12" ? "Project L" :
+                  "Project M"
                 })</span>
               </div>
               <button
