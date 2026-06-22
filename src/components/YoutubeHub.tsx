@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1525,6 +1525,101 @@ Primary Research Treatises & Focused Reviews:
 
 #WaveMechanics #YueLiu #ImpedanceMatchingFallacy #WaveCancellationTheory #IndustrialEngineeringChemistryResearch #AcademicReview #PeerReviewFailure #YueLiuSubstack`;
 
+// PROJECT 17 TEXTS (The Mathematical Foundations of Wave Mechanics)
+  const youtubeScriptText17 = `[SCENE 1: THE DISLOCATION OF SCIENCE AND CREDENTIALS | 第一幕：科学与证书的背离——高分之下的知识黑洞]
+[Visual: A stunning historical canvas split down the middle. 
+- Left: Classical masters like Euler, Cauchy, and Maxwell holding hand-written proofs.
+- Right: A rows of modern high-scoring chemistry graduates receiving "Structural Chemistry" credentials. Behind them, prominent university logos are masked by falling stock tickers and duplicated bar charts.]
+[Sound: Cold, resonant brass symphony introducing an absolute, heavy scientific gravitas.]
+
+[VOICEOVER]
+"Welcome to the fourth lecture of our series on the Wave Mechanics of Microwave Absorption. Today, we address the root mathematical foundations of our theory. 
+
+But before we dive into the equations, let us confront an uncomfortable sociological truth described in our key preprint, 'The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research.'
+
+In many countries, chemistry graduates achieve high grades in 'Structural Chemistry,' a mandatory course dense with quantum mechanics and wave equations. Yet, when these graduates become principal investigators and peer-reviewers, they prove incapable of understanding high-school wave physics. 
+
+Exam-room high scores do not equal comprehension. Modern scientific credentialism has trained an elite class of consensus-seekers who can memorize equations to pass a test, but fail to comprehend their physical and logical synthesis when applied to real boundary-value devices. Let us reclaim the classical mathematical language that modern academia has lost."
+
+[SCENE 2: THE SUMMATION ENGINE — THE GEOMETRIC SERIES | 第二幕：多界面的物理引擎：高中的等比级数]
+[Visual: Animated mathematical progression scrolling on-screen, mapping the algebraic reduction:
+1. $s_n = 1 + q + q^2 + q^3 + \\dots + q^{n-1}$
+2. $q \\cdot s_n = q + q^2 + q^3 + \\dots + q^n$
+3. $s_n(1-q) = 1 - q^n$
+4. $s_n = \\frac{1-q^n}{1-q}$
+A wave vector $V_i$ hits a parallel film and splits into infinite multi-beam rays, which are represented by elements of the geometric progression.]
+[Sound: Rapid, steady rhythmic synth notes mimicking elements forming a coherent sum.]
+
+[VOICEOVER]
+"To deduce how waves behave inside a bounded film of thickness $d$, we must solve the superposition of infinite back-and-forth internal reflections. This entire device physical behavior rests upon the humble high-school geometric series.
+
+Let $s_n$ represent the sum of $n$ beams, with a common ratio $q$ reflecting propagation delay and amplitude attenuation. Mutliplying by $q$, subtracting the equations, and factoring yields the absolute, closed-form summation: $s_n = \\frac{1-q^n}{1-q}$.
+
+For a wave returning from a rear boundary, $q$ is represented by the phase-delay and attenuation term: $e^{-2j\\gamma_d} \\cdot R_M$. 
+
+Because mainstream materials scientists bypassed this explicit multi-beam vector progression, they failed to recognize that the reflection of a film is a collective device property governed by this closed-form geometric series. By skipping high-school algebra, they confused film-device reflection with individual interface characteristics for half a century."
+
+[SCENE 3: THE BRIDGE OF DYNAMICS — EULER'S FORMULA AND TAYLOR EXPANSIONS | 第三幕：从几何到波动力学：欧拉公式与泰勒展开的物理奇迹]
+[Visual: Dynamic unit circle rotating in the complex plane. A vector of length 1 sweeps through angle $\\theta$, projecting onto the real axis as $\\cos\\theta$ and the imaginary axis as $j\\sin\\theta$. Taylor series expansions appear:
+1. $e^{jx} = 1 + jx + \\frac{(jx)^2}{2!} + \\frac{(jx)^3}{3!} + \\frac{(jx)^4}{4!} + \\dots$
+2. Grouping real terms yields: $1 - \\frac{x^2}{2!} + \\frac{x^4}{4!} - \\dots = \\cos x$
+3. Grouping imaginary terms yields: $j(x - \\frac{x^3}{3!} + \\frac{x^5}{5!} - \\dots) = j\\sin x$]
+[Sound: Clean, beautiful acoustic piano chords demonstrating harmonic synthesis.]
+
+[VOICEOVER]
+"How do we bridge static geometry with dynamic, propagating field vectors? We use the most elegant equation in mathematical history: Euler's Formula.
+$e^{j\\theta} = \\cos\\theta + j\\sin\\theta$.
+
+We prove this rigorously by expanding $e^{jx}$ into its infinite Taylor series at $x=0$. By calculating the derivative of $e^{jx}$ and evaluating at each order, we find the coefficients. Because the imaginary unit $j$ satisfies $j^2 = -1, j^3 = -j$, and $j^4 = 1$, the series naturally splits. 
+
+Collecting the real, even-powered terms yields the exact Taylor series of $\\cos x$. Collecting the imaginary, odd-powered terms yields the Taylor series of $\\sin x$. 
+
+When a wave propagates in an absorbing medium, we represent its dynamic path as: $y = Ae^{-\\alpha x} \\cos[2\\pi(\\nu t - x/\\lambda)] = \\text{Re}\\{Ae^{-\\alpha x} e^{j2\\pi(\\nu t - x/\\lambda)}\\}$. 
+
+Euler's formula is not a theoretical ornament to be memorized for Structural Chemistry exams. It is the active physical bridge that allows us to track phase and amplitude concurrently as complex vectors. Neglecting the imaginary phase term is what led modern materials journals to publish erroneous 'impedance matching' proofs."
+
+[SCENE 4: BOUNDARY CONTINUITY SENSING THE TRUTH | 第四幕：总结点下的连续性方程：终结阻抗匹配谬误的数学审判]
+[Visual: Sleek diagram of a film bound by $x_1$ and $x_2$. On-screen system of boundary equations:
+1. Voltages: $V(x_1^-) = V(x_1^+)$ and $V(x_2^-) = V(x_2^+)$
+2. Currents: $I(x_1^-) = I(x_1^+)$ and $I(x_2^-) = I(x_2^+)$
+In free space ($Z_{\\text{metal}} = 0 \\implies R_{\\text{rear}} = -1$). Input Impedance $Z_{\\text{in}} = Z_M \\tanh(j\\gamma d)$.]
+[Sound: Sudden drop in frequency, leaving a heavy, powerful, authoritative cello tone.]
+
+[VOICEOVER]
+"Let us apply these classical mathematical tools to solve the boundary nodes $x_1$ and $x_2$ of a film device. 
+
+At each interface, classical electrodynamics demands the continuous conservation of total voltage and total current. By representing the internal fields as forward wave $f_M$ and backward wave $b_M$, we construct two simultaneous continuity equations.
+
+Solving this linear system immediately yields the exact reflection coefficient $RL$ of a metal-backed film:
+$RL = \\frac{R_M - e^{-2j\\gamma_d}}{1 - R_M e^{-2j\\gamma_d}}$, and the film's input impedance: $Z_{\\text{in}} = Z_M \\tanh(j\\gamma_d)$.
+
+Look closely. If the material impedance matches free space ($Z_M = Z_0 \\implies R_M = 0$), then $RL = -e^{-2j\\gamma_d}$, which is a monotonic decaying function of thickness $d$! There is absolutely no peak!
+
+But when $Z_{\\text{in}} = Z_0$, we achieve a deep minimum ($RL \\to -\\infty$). Why? Because pointing back to our geometric series, the direct interfacial reflection wave is perfectly out of phase by exactly $\\pi$ with the multi-beam waves returning from the rear boundaries, canceling each other out in the open space!
+
+The peak is caused by destructive wave interference—an absolute, beautiful device boundary property. It has nothing to do with bulk 'impedance matching' or 'material resonance.'
+
+Do not rely on the lazy consensus of uncritical review committees. Stand with classical mathematical physics. Read our landmark treatises, read our Substack, and reclaim your scientific integrity. Thank you for watching."`;
+
+  const youtubeDescText17 = `Lecture 4: Mathematical Foundations of Wave Mechanics in Microwave Absorption & The Educational Decline.
+
+In this fourth lecture of the Wave Mechanics series, we lay down the absolute, rigorous mathematical foundations that underpin electromagnetic film device equations, while addressing the deep-seated "theoretical poverty" modern materials scientists suffer from.
+
+Key Mathematical & Cognitive Insights Covered:
+1. The Summation Engine (Geometric Series): Proving how high-school geometric series ($s_n = \\frac{1-q^n}{1-q}$) governs the infinite multi-beam internal reflection superposition, forming the correct scattering parameters ($s_{11}$, $s_{21}$).
+2. The Bridge of Dynamics (Euler's Formula & Taylor Proofs): Step-by-step Taylor series expansion of $e^{jx}$ to prove Euler's Formula ($e^{j\\theta} = \\cos\\theta + j\\sin\\theta$) and showing its application to wave propagation in absorbing materials ($y = Ae^{-\\alpha x}\\cos(2\\pi(\\nu t - x/\\lambda))$).
+3. Continuous boundary conditions: Establishing total voltage and current continuity at the film borders ($x_1, x_2$) to deduce the classical input impedance ($Z_{\\text{in}} = Z_M \\tanh(j\\gamma_d)$) and deconstruct "impedance matching" errors.
+4. The Sociology of Academic Poverty: Discussing Yue Liu's landmark SSRN preprint 5463155, illuminating why high exam scores in "Structural Chemistry" have failed to translate into a solid grasp of physical wave mechanics inside the modern peer-review consensus.
+
+"Mathematical physics demands the rigorous synthesis of logical derivations, not the blind memorization of consensus-driven equations."
+
+Primary Research Treatises & Bibliographies:
+➔ https://ssrn.com/abstract=5463155 (SSRN - The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline)
+➔ https://doi.org/10.1021/acs.iecr.4c04544 (ACS Industrial & Engineering Chemistry Research, Landmark Review, 2025)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#WaveMechanics #YueLiu #MathematicalPhysics #EulersFormula #TaylorSeries #GeometricProgression #AcademicPoverty #StructuralChemistry #WaveCancellation`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1542,7 +1637,8 @@ Primary Research Treatises & Focused Reviews:
     activeProject === "project13" ? youtubeScriptText13 :
     activeProject === "project14" ? youtubeScriptText14 :
     activeProject === "project15" ? youtubeScriptText15 :
-    youtubeScriptText16;
+    activeProject === "project16" ? youtubeScriptText16 :
+    youtubeScriptText17;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1560,7 +1656,8 @@ Primary Research Treatises & Focused Reviews:
     activeProject === "project13" ? youtubeDescText13 :
     activeProject === "project14" ? youtubeDescText14 :
     activeProject === "project15" ? youtubeDescText15 :
-    youtubeDescText16;
+    activeProject === "project16" ? youtubeDescText16 :
+    youtubeDescText17;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -1850,6 +1947,22 @@ Primary Research Treatises & Focused Reviews:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
             Project P: Focused Review
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project17");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project17"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-project17"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
+            Project Q: Math Foundations
           </button>
         </div>
       </div>
@@ -2142,7 +2255,7 @@ Primary Research Treatises & Focused Reviews:
              Review: Deconstructing the Dilemma and Common Errors in Microwave Absorption • 膜散射机理系统性错误的严密纠正综述
           </div>
           <p className="text-[12px] text-amber-955 leading-relaxed italic">
-            "视频第三讲系统总结了发表在《Industrial & Engineering Chemistry Research, 2025》及 Qeios 预印本平台上的最新研究综述，全面论证了学术界将 ZM 和 Zin 混淆、将界面和膜混淆、以及将材料和界面混淆从而建立错误阻抗匹配理论的严重学术后果。ZM 是块体材料的固有属性，而 Zin 是受边界条件与样品厚度调控的物理器件属性；界面处只涉及光的连续边界通过与反射，没有吸波损耗；膜由于多束反射波干涉相消（Destructive Interference）可在外部实现反射为零，而非界面阻抗匹配。这一严密的科学事实纠正了长达半个世纪的理论谬误，终结了虚构‘材料本身存在共振吸收峰’的伪命题。"
+            "视频第三讲系统总结了发表在《Industrial & Engineering Chemistry Research, 2025》及 Qeios 预印本平台上的最新 research 综述，全面论证了学术界将 ZM 和 Zin 混淆、将界面和膜混淆、以及将材料和界面混淆从而建立错误阻抗匹配理论的严重学术后果。ZM 是块体材料的固有属性，而 Zin 是受边界条件与样品厚度调控的物理器件属性；界面处只涉及光的连续边界通过与反射，没有吸波损耗；膜由于多束反射波干涉相消（Destructive Interference）可在外部实现反射为零，而非界面阻抗匹配。这一严密的科学事实纠正了长达半个世纪的理论谬误，终结了虚构‘材料本身存在共振吸收峰’的伪命题。"
           </p>
           <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
             <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
@@ -2153,6 +2266,29 @@ Primary Research Treatises & Focused Reviews:
             </span>
             <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
               ACS I&ECR 25 Landmark Work (《工业与工程化学研究 2025》综述性重要成果)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project17" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-600 animate-pulse" />
+             Lecture 4: Rigorous Mathematical Foundations of Wave Mechanics • 经典电磁波动力学的严格数学基础
+          </div>
+          <p className="text-[12px] text-indigo-955 leading-relaxed italic">
+            "视频第四讲回归纯粹与严格的数学物理，系统串联了等比级数理论（Geometric Progression）、欧拉公式的泰勒级数展开证明（Euler's Formula & Taylor series expansion）以及波动节点上的麦克斯韦连续性边界条件（Voltage & Current Boundary Continuity）。视频通过引用 Yue Liu 最新的 SSRN 5463155 预印本，一针见血地指出了现代学术界‘高分低能’的理论贫困：虽然无数中国高校化学毕业生在《结构化学》必修课中斩获高分，但在真正面对器件有界电磁波波动计算时，却连经典高中物理等比级数的多束波干涉叠加和界面本征阻抗（ZM）与器件输入阻抗（Zin）的本质区别都无法理解。本课旨在重塑经典麦克斯韦电磁波动力学的至高物理严密性。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Geometric Summation Engine (多束波反射等比级数通式：Sn = (1-q^n)/(1-q))
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Euler's Bridge & Taylor Series (欧拉公式指数实虚部拆分：e^jx = cos x + j sin x)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Yue Liu SSRN 5463155 (《现代学术的理论贫困：当代科学研究智力退化的系统性求证》)
             </span>
           </div>
         </div>
@@ -2182,7 +2318,8 @@ Primary Research Treatises & Focused Reviews:
                   activeProject === "project13" ? "Project M" :
                   activeProject === "project14" ? "Project N" :
                   activeProject === "project15" ? "Project O" :
-                  "Project P"
+                  activeProject === "project16" ? "Project P" :
+                  "Project Q"
                 })</span>
               </div>
               <button
