@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1240,6 +1240,69 @@ Modern science does not need more teamwork or committee consensus. It needs the 
 
 Read Yue Liu's groundbreaking preprint, SSRN 5664450, and subscribe to his Substack. Reclaim the power of physical truth over institutional consensus. Thank you for watching."`;
 
+// PROJECT 14 TEXTS (Wave Coefficients & Superposition Methodologies)
+  const youtubeScriptText14 = `[SCENE 1: THE DISCOVERY OF INFINITE RECTITUDE | 第一幕：回归物理分界面的原点]
+[Visual: Schematic animation of a single electromagnetic wave propagating through empty space (with characteristic impedance $Z$₀ or $Z_l = 377$ ohms). It approaches a split-screen partition where on the other side sits a material medium characterized by characteristic impedance $Z_M$. The boundary line itself is highlighted in glowing gold.]
+[Sound: Sound of a deep ocean wave transitioning into a clear sine-wave tone.]
+
+[VOICEOVER]
+"Welcome to the first lecture of the Wave Coefficients & Superposition YouTube series. In this introductory lecture, we return to the absolute origin of microwave physics: the分界面 —— the boundary interface itself. 
+
+For more than half a century, contemporary materials science has worked under a tragic theoretical confusion. It has conflated the local behavior of an isolated interface with the compound behavior of a metal-backed film. Today, we return to classic textbook physics of standard electromagnetics to rigorously derive reflection and transmission coefficients from first principles. 
+
+Let's prove how boundary conditions work, utilizing two completely independent but mathematically equivalent paths, proving that a interface is a physical device in its own right, entirely independent of any thickness $d$."
+
+[SCENE 2: METHOD 1 — node continuity of voltage and current | 第二幕：第一条物理路线：电压与电流连续性]
+[Visual: A beautifully styled circuit diagram of a two-port system. Port 1 leads to boundary partition $x_1$. Superimposed gold formulas appear on screen:
+1. $V(x_1^-) + V_r(x_1^-) = V_f(x_1^+) + V_b(x_1^+)$ (The total voltage across the interface is continuous)
+2. $\\frac{V_1i(x_1^-)}{Z_0} - \\frac{V_r(x_1^-)}{Z_0} = \\frac{V_f(x_1^+)}{Z_{\\text{M}}} - \\frac{V_b(x_1^+)}{Z_{\\text{M}}}$ (The total node current is continuous)]
+[Sound: The ticking of a precise clock, representing mathematical rigor.]
+
+[VOICEOVER]
+"Our first path is the circuit-element route, derived from standard transmission-line theory. This methodology is detailed in Section 4.2.2.1 of Thomas, Paoloni, and Pai's 2024 Elsevier monograph on electromagnectic composites, as well as Appendix A of Liu's critical 2022 Physica Scripta treatise. 
+
+If we assume the adjacent medium is properly terminated, meaning there is no backward-propagating wave from the other end—so $V_b(x_1^+) = 0$—the equations simplify beautifully. 
+First, the total voltage immediately before $x_1$ must equal the total voltage immediately after $x_1$. 
+Second, the total current across the boundary node must be continuous.
+
+By solving this system of linear equations using simple middle-school algebra, we extract the Fresnel reflection coefficient $R_M$ and forward transmission coefficient $\\gamma_M$ for the isolated interface:
+$R_M = \\frac{Z_M - Z_0}{Z_M + Z_0}$
+and $\\gamma_M = \\frac{2 Z_M}{Z_M + Z_0}$.
+
+The math is absolute. It proves that the reflection coefficient at an isolated interface is an innate physical property determined solely by the characteristic impedances of the two media. It has absolutely nothing to do with the sample thickness $d$."
+
+[SCENE 3: METHOD 2 — field continuity of electric & magnetic vectors | 第三幕：第二条物理路线：电场与磁场连续性]
+[Visual: Interactive split-view demonstrating vector fields. Cut to the equations of Materials Chemistry and Physics (2020) Appendix Eqs. A13 - A16:
+1. $E_{y,i}(\\omega t) + E_{y,r}(\\omega t) = E_{y,t}(\\omega t)$
+2. $H_{z,i}(\\omega t) + H_{z,r}(\\omega t) = H_{z,t}(\\omega t)$]
+[Sound: Ambient synth, carrying a heavy intellectual and scientific tone.]
+
+[VOICEOVER]
+"Is the circuit-element analogy not fundamental enough for you? Let's take the second, completely independent path: Maxwell's electromagnetic boundary conditions across the split interface. We documented this proof in the appendix of our 2020 Materials Chemistry and Physics paper, equations A13 through A16. 
+
+By applying Maxwell's equations, we know that in the absence of free surface charges and currents, the tangential electric field $E_y$ and tangential magnetic field $H_z$ must be continuous across any interface. 
+
+Expressing these fields in terms of wave amplitudes $A^+(x_1^-)$, $A^-(x_1^-)$, and $A^+(x_1^+)$, and utilizing the characteristic wave impedance of the media, we solve once again:
+$R_M = \\frac{Z_M - Z_l}{Z_M + Z_l}$
+and $T_M = \\frac{2 Z_M}{Z_M + Z_l}$.
+
+Behold the beauty of physical convergence. The field method matches the voltage-current circuit method completely!"
+
+[SCENE 4: CHOOSE TRUTH OVER PEER-VIEWED COWARDICE | 第四幕：拥抱教材，摒弃权贵假“阻抗匹配”]
+[Visual: The camera pans out to show classic textbooks stacking high, with a glowing title: "Fundamental electromagnetism". Superimposed search link cards: yueliusd.substack.com and SSRN abstract link 5465615.]
+[Sound: Majestic orchestral crescendo, soaring to a triumphant finish.]
+
+[VOICEOVER]
+"These two independent derivations prove beyond doubt that reflection coefficients at an isolated interface are determined purely by characteristic impedances, entirely different from a metal-backed film where waves undergo infinite internal reflections. 
+
+Yet, for fifty years, academic gatekeepers in microwave absorption have used the illogical 'reflection loss' formula—coined in method-X—to claim they matched material impedances to free space. They ignored basic wave superposition and the fundamental boundary conditions of textbooks. 
+
+Why? Because copying journal tricks to publish is profitable, while sitting with classic monographs is difficult. 
+
+We don't need peer-review cartels to validate physical truth. We need the mathematical courage of middle-school algebra and the boundaries of Maxwell. 
+
+Read Yue Liu's key preprints, SSRN 5465615 and 5463155, and subscribe to his Substack. Reclaim the primacy of theoretical foundations over mainstream academic bubbles. Thank you for watching."`;
+
   const youtubeDescText13 = `The Myth of Teamwork in Modern Science.
 
 Is the era of solo scientific breakthroughs truly over, or is the obsession with "teamwork ideology" actually killing creative progress? In this video, we dissect Yue Liu’s critical meta-scientific preprint, "The Fallacy of Collective Supremacy," to reveal how the academic establishment utilizes massive collaborations to mask systemic incompetence.
@@ -1259,6 +1322,209 @@ Explore Yue Liu's critical treatises:
 
 #TeamworkFallacy #AcademicGames #YueLiu #WaveSuperposition #Metascience #ScienceWhistleblower #AcademicCartels #ImpedanceMatching #PeerReview`;
 
+  const youtubeDescText14 = `Lecture 1: Rigorous Interfacial Derivation of Reflection and Transmission Coefficients.
+
+In this first installment of the Wave Coefficients & Superposition lecture series, we dissect the fundamental physics of boundary interfaces, drawing directly from Chapter 4 of Thomas, Paoloni, and Pai's 2024 electromagnetic shielding monograph (pages 59-90) and Yue Liu's critical preprints.
+
+We demonstrate how Fresnel interface coefficients can be deduced using two completely independent, mathematically rigorous methods:
+1. Voltage and Current Continuity (Physica Scripta 2022, Appendix A): Treating the interface boundary as a node in transmission-line theory, establishing equations for continuous total voltages and currents, and solving for $R_M$ and $\\gamma_M$.
+2. Electric and Magnetic Field Continuity (Materials Chemistry and Physics 2020, Eqs. A13-A16): Applying Maxwell's interfacial boundary conditions to tangential $E_y$ and $H_z$ vectors to obtain identical Fresnel formulas ($R_M = \\frac{Z_M - Z_0}{Z_M + Z_0}$).
+
+This mathematical convergence proves that interface reflection coefficients are constant boundary properties, entirely unrelated to sample thickness $d$. Modern "impedance matching theory"—which claims that the reflection from a metal-backed film behaves like an isolated interface—violates these textbook foundations.
+
+"True science is built on logical convergence and empirical boundary conditions, never on peer-reviewed compromises."
+
+Featured Bibliography & Treatises:
+➔ https://ssrn.com/abstract=5465615 (The Primacy of Theoretical Foundations)
+➔ https://ssrn.com/abstract=5463155 (The Theoretical Poverty of Modern Academia)
+➔ https://doi.org/10.1016/B978-0-323-90035-5.00013-1 (Elsevier - Porous Nanocomposites shielding monograph)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#BoundaryConditions #WaveSuperposition #YueLiu #FresnelEquations #Electromagnetics #ElsevierThomas #PhysicaScripta2022 #MaterialsChemistry #ImpedanceMatchingFallacy`;
+
+// PROJECT 15 TEXTS (Wave Mechanics & Film Superposition Derivations)
+  const youtubeScriptText15 = `[SCENE 1: THE COMPOUND INTERFACE AND MULTI-BEAM SUPERPOSITION | 第一幕：从单界面特性到多束光线叠加的跨越]
+[Visual: Animated progression screen showing the transition from an isolated interface (zero thickness) to a material film of thickness $d$. Crucial equations appear floating:
+1. Interface (界面, $d = 0$): Characterized by Characteristic Impedance $Z_M$. Boundary reflections rely solely on the adjacent media.
+2. Film (膜, $d > 0$): Characterized by Input Impedance $Z_{\\text{in}}$. Boundary reflections now become a collective summation of infinite internal reflections.]
+[Sound: Deep mechanical hum leading to a steady, clean sine-wave synth.]
+
+[VOICEOVER]
+"Welcome to the second lecture of the Wave Mechanics of Microwave Absorption series. In our previous lecture, we rigorously derived the reflection and transmission coefficients of an isolated interface boundary, proving they are constant properties ($R_M$) independent of sample thickness $d$.
+
+But what happens when we transition from a zero-thickness interface to a practical film with physical thickness $d$?
+
+Here lies the fatal theoretical error that has governed materials science for fifty years: the confusion of the 'film' with the 'material', and the conflation of the 'interface' with the 'film'. A film is not merely a material; it is a physical device bounded by two parallel interfaces. 
+
+To describe the microwave reflection of a film—commonly known as scattering parameter $s_{11}$—we must move beyond isolated interface properties. We must account for the infinite superposition of waves reflecting back and forth within the two boundary interfaces. Let us prove this through two independent, mathematically rigorous methodologies."
+
+[SCENE 2: METHOD 1 — THE INFINITE GEOMETRIC VECTOR SUMMATION | 第二幕：第一条推导路线：无穷光线的多重反射矢量和]
+[Visual: Dynamic vector-diagram sketching a film partition. An incident wave $V_i$ arrives from empty space ($Z_0$). At the front interface ($x_1$), it splits:
+- Ray 1: Directly reflected to open space: $V_{r1} = R_M \\cdot V_i$
+- Ray 2: Penetrating into the film, propagating to the rear boundary ($x_2$), reflecting back, and exiting: $V_{r2} = \\gamma_M^+ \\cdot R_{\\text{rear}} \\cdot \\gamma_M^- \\cdot e^{-2j\\gamma_d} \\cdot V_i$
+- Subsequent rays: Infinite back-and-forth internal cycles, exiting the film as an infinite series.]
+[Sound: High-pitched rhythmic keyboard pattern mimicking a series of steps.]
+
+[VOICEOVER]
+"Our first derivation path is the micro-physical approach: Ray-by-Ray Wave Superposition. We trace the path of each individual wave as it undergoes internal reflections inside the film.
+
+At the front interface, the wave is partially reflected directly back to space as $R_M$. The transmitted part penetrates the film, experiences a propagation phase and damping factor $e^{-j\\gamma_d}$, reflects at the rear interface—characterized by rear reflection coefficient $R_{\\text{rear}}$—and travels back. Upon hitting the front interface again from the inside, it partially transmits back to space as a second ray, while the rest reflects back inside.
+
+By writing down this infinite geometric progression of waves escaping from the front and summing them to infinity, we obtain the rigorous formula for the film's scattering parameter $s_{11}$. 
+For a film without metal backing (WMB) placed in empty space, where $R_{\\text{rear}} = -R_M$, we get:
+$s_{11}(x_1^-) = \\frac{R_M(1 - e^{-2j\\gamma_d})}{1 - R_M^2 e^{-2j\\gamma_d}}$.
+
+And by summing the transmitted portions escaping through the rear interface into the back medium, we derive the transmission coefficient $s_{21}$:
+$s_{21} = \\frac{(1 - R_M^2) e^{-j\\gamma_d}}{1 - R_M^2 e^{-2j\\gamma_d}}$.
+
+This elegant vector summation is documented in the appendices of Yue Liu's critical treatises of 2021 in the Journal of Microwave Power and Electromagnetic Energy, as well as Section 4.2.3 of Thomas, Paoloni, and Pai's 2024 Elsevier monograph."
+
+[SCENE 3: METHOD 2 — THE MACRO-BOUNDARY CONTINUITY | 第三幕：第二条推导路线：总结算节点处的连续性边界方程]
+[Visual: Static circuit schematic showing total forward wave $f_{\\text{M}}$ and backward wave $b_{\\text{M}}$ within the film boundary. On-screen mathematical matrices:
+1. $V(x_1^-) = V(x_1^+)$ and $I(x_1^-) = I(x_1^+)$
+2. $V(x_2^-) = V(x_2^+)$ and $I(x_2^-) = I(x_2^+)$]
+[Sound: Heavy, deep orchestral brass chord establishing mathematical absolute authority.]
+
+[VOICEOVER]
+"Is there another route? Yes, the macro-continuous route using classic transmission-line boundaries, as authored by Yue Liu in Physica Scripta 2022, Appendix A2 and A3.
+
+By representing the fields inside the film as the superposition of a single total forward wave $f_{\\text{M}}$ and a single total backward wave $b_{\\text{M}}$, we establish two boundary nodes: $x_1$ and $x_2$. By writing down the continuity of total voltage and total current across both nodes simultaneously, we establish a system of linear equations.
+
+By solving this system using middle-school matrix mathematics, we arrive at the exact same expressions for $s_{11}$ and $s_{21}$. 
+
+Furthermore, this continuous boundary path naturally yields the film's complex input impedance, $Z_{\\text{in}} = Z_M \\tanh(j\\gamma_d)$ for a metal-backed film. 
+
+Behold the absolute unity of physical science. The ray-addition perspective and the node-boundary perspective converge perfectly, validating each other without a single shred of ambiguity."
+
+[SCENE 4: THE METAL-BACKED COLLAPSE OF IMPEDANCE MATCHING | 第四幕：金属后衬膜：无限求和后的矢量相消与阻抗匹配谬误]
+[Visual: A bold comparison panel:
+- Left: "THE ACADEMIC MYTH" (Z_in = Z_0, complete microwave entry, zero-reflection)
+- Right: "THE PHYSICAL REALITY" (Destructive Wave Cancellation, R_rear = -1, s11 = (R_M - e^{-2j\\gamma_d}) / (1 - R_M e^{-2j\\gamma_d}))]
+[Sound: Sudden silence, followed by a dramatic, percussive cello chime.]
+
+[VOICEOVER]
+"Now, let us apply this rigorous wave mechanics to the most common configuration in materials research: the metal-backed film. 
+
+Because the metal backing has a characteristic impedance of $Z_{\\text{metal}} = 0$, its interfacial reflection coefficient is fixed at exactly $R_{\\text{rear}} = -1$. 
+
+Plugging this into our wave mechanics formula immediately yields the textbook reflection coefficient $RL$ of a metal-backed film:
+$RL = \\frac{R_M - e^{-2j\\gamma_d}}{1 - R_M e^{-2j\\gamma_d}}$.
+
+Look closely at this formula. Academic journals have claimed for fifty years that a minimum in $RL$ means 'impedance matching' or $Z_{\\text{in}} = Z_0$—implying that all microwave energy penetrates without boundary reflection. 
+
+But this is completely false. A minimum in $RL$ is not caused by the interface disappearing. It is caused by 'Destructive Interference'—namely, the ray reflected from the front interface ($R_M$) is out of phase by exactly $\\pi$ with the rays reflected back from the metal interface ($e^{-2j\\gamma_d}$), cancelling each other out in the open space!
+
+Impedance matching is an interface property. Wave cancellation is a film device property. By misapplying $RL$ to characterize material properties and ignoring basic boundary superposition, modern materials science has built a half-century-old card house of false theory.
+
+We do not need peer-reviewed consensus to protect illogical errors. We need to reclaim the absolute primacy of classic wave mechanics over mainstream academic bubbles. 
+
+Read Yue Liu's master treatises in Physica Scripta and Materials Chemistry and Physics, and subscribe to his Substack. Reclaim the theoretical foundations. Thank you for watching."`;
+
+  const youtubeDescText15 = `Lecture 2: Wave Mechanics and Rigorous Derivation of Reflection and Transmission Coefficients for Films.
+
+In this second lecture of the Wave Coefficients & Superposition series, we mathematically derive the reflection and transmission coefficients of electromagnetic film devices ($s_{11}$ and $s_{21}$), demonstrating the fatal errors inside mainstream academic "impedance matching theory."
+
+We explore two completely independent, mathematically rigorous approaches:
+1. Ray-by-Ray Infinite Superposition ( Thomas & Pai's 2024 Monograph, Section 4.2.3 ): Infinite geometric tracking of internal waves reflecting back-and-forth between the front and rear interfaces of the film, culminating in wave cancellation formulas.
+2. Interfacial Current and Voltage Continuity (Physica Scripta 2022, Appendix A2 & A3): Formulating continuous total voltages and currents immediately before and after boundary nodes $x_1$ and $x_2$ to extract pristine analytical expressions for $s_{11}$ and $s_{21}$ for a film without metal backing (WMB) and metal-backed film (MB).
+
+Furthermore, we investigate the special metal-backed scenario ($R_{\\text{metal}} = -1$, Physica Scripta 2021 Appendix B) to prove that:
+- Deep absorption minima ($RL = 0$ or $s_{11} \\to -\\infty$) are caused purely by destructive wave interference (wave cancellation theory), not because "material impedance is matched to free space."
+- Confusing "film properties" (which depend on thickness $d$ and interface superposition) with "material properties" (which are thickness-independent boundary parameters) has misled materials science for half a century.
+
+"Progress in science relies on rigorous boundary conditions and mathematical courage, never on committee-drafted consensus."
+
+Primary Research Treatises & Bibliographies:
+➔ https://doi.org/10.1080/08327823.2021.1952835 (Journal of Microwave Power and Electromagnetic Energy, 2021)
+➔ https://doi.org/10.1088/1402-4896/ac1eb0 (Physica Scripta, 2021 - QWM Flaws Part 1)
+➔ https://doi.org/10.1088/1402-4896/ac1eb1 (Physica Scripta, 2022 - QWM Flaws Part 2)
+➔ https://doi.org/10.1016/j.matchemphys.2022.126601 (Materials Chemistry and Physics, 2022 - Real Mechanism)
+➔ https://doi.org/10.1063/5.0153612 (Journal of Applied Physics, 2023 - Impedance Matching Failure)
+➔ https://doi.org/10.1007/s11664-024-11370-9 (Journal of Electronic Materials, 2024 - Multilayer Wave Mechanics)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#WaveMechanics #YueLiu #ScatteringParameters #ElectromagneticSuperposition #PhysicaScripta #ElsevierThomas #WaveCancellation #ImpedanceMatchingFallacy`;
+
+// PROJECT 16 TEXTS (The Great Deconstruction of the Impedance Matching Fallacy)
+  const youtubeScriptText16 = `[SCENE 1: THE ACCUMULATION OF ERROR | 第一幕：半世纪学术泡沫的层叠]
+[Visual: Animated montage of major editorial covers (Industrial & Engineering Chemistry Research 2025, Qeios preprints, SSRN). Floating terms connected by broken red lines:
+- $Z_M$ vs $Z_{\\text{in}}$ (Characteristic Impedance vs Input Impedance)
+- Interface vs Film (界面与薄膜)
+- Material vs Boundary (材料与边界)]
+[Sound: Suspenseful synth pad with a quiet ticking clock undercurrent.]
+
+[VOICEOVER]
+"Welcome to the third lecture of our Wave Mechanics of Microwave Absorption series. In our first two lectures, we built the mathematical foundation. We derived the constant interfacial coefficients of an isolated interface, and we demonstrated how the scattering parameters $s_{11}$ and $s_{21}$ of a film device are created by infinite multi-beam internal reflections.
+
+Today, we address the ultimate consequence of confusing these basic boundaries. We present the systematic deconstruction of the half-century-old 'Impedance Matching' matching fallacy that dominates the modern scientific literature. 
+
+As summarized in our comprehensive focused review published in Industrial & Engineering Chemistry Research in 2025: the mainstream scientific fields have spent five decades confusing characteristic impedance with input impedance, confusing interfaces with films, and confusing bulk materials with bounded devices."
+
+[SCENE 2: CONFLATING THE CHARACTERISTIC AND THE INPUT | 第二幕：阻抗混淆的双重幽灵]
+[Visual: A split screen representing the two fatal confusions:
+1. $Z_M$ (Characteristic Impedance): Belongs to bulk material. It is an intrinsic property governing electromagnetic waves propagation.
+2. $Z_{\\text{in}}$ (Input Impedance): Belongs to the film device. It depends on boundary environments, propagation phase, and thickness $d$.
+Equations light up showing that for a film, $Z_{\\text{in}}$ changes wildy with thickness, while $Z_M$ remains constant.]
+[Sound: Distant, fading echoes representing confusion; then, a sharp chime when the distinction is established.]
+
+[VOICEOVER]
+"Let us define the core conceptual error. Characteristic impedance, $Z_M$, is an intrinsic property of a bulk medium. It describes the ratio of electric and magnetic fields inside an infinite material. 
+Input impedance, $Z_{\\text{in}}$, is a property of a finite film device. It represents the collective phase and amplitude state of a wave at a boundary, heavily dependent on the film's thickness $d$ and rear boundary conditions.
+
+Mainstream literature persistently conflates the two. They use $Z_{\\text{in}} = Z_0$ as a criterion for microwave penetration, claiming that matching the input impedance to free space allows waves to enter the film unimpeded.
+
+But this is a mathematical absurdity. Complete wave entry without boundary reflection occurs ONLY when $Z_M = Z_0$, meaning the front interface itself disappears! When $Z_{\\text{in}} = Z_0$, waves are indeed fully absorbed by the film, but NOT because they entered unimpeded. It occurs because the direct reflection at the front interface ($R_M$) is perfectly cancelled by waves returning from the internal and rear bounds of the film! Confusing $Z_{\\text{in}}$ and $Z_M$ is like confusing the flow of a river with the dam that regulates its exit."
+
+[SCENE 3: THE PARADOX OF THE RESONANCE PEAKS | 第三幕：材料共振论对物理常识的歪论]
+[Visual: Plot from the 2025 Focused Review showing that absorption peaks shift dramatically with thickness $d$. 
+If it were a material 'resonance', the peak frequency $\\nu$ should be fixed as a property of the material molecules.
+A slider increases $d$, showing how the absorption peak waves shift dynamically with the inverse relationship: $\\nu \\cdot d = \\text{constant}$.]
+[Sound: Upbeat, high-tech polyphonic scale demonstrating motion and mathematical shifts.]
+
+[VOICEOVER]
+"Because materials researchers did not understand wave cancellation, they were forced to invent a second myth: 'material resonance'. 
+
+They claimed that the multi-absorption peaks seen in $RL$ curves represent molecular or electronic resonance frequencies of the material itself.
+
+This is a flat-out violation of classical physics. Permittivity ($\\varepsilon_r$) and permeability ($\\mu_r$) are bulk properties of a material, completely independent of the film's thickness. If these peaks were material resonances, their frequencies would remain absolutely fixed regardless of how thick or thin you make the film.
+
+But what does experimental data actually show? As film thickness $d$ increases, the peak positions shift in perfect accordance with the inverse relationship: $\\nu \\cdot d = \\text{constant}$. This is the signature of wave cancellation, not material resonance. The film acts as a wave resonator, forcing the material to absorb more or less microwave energy than it is innately capable of on its own. The peak is a device property, never a material property!"
+
+[SCENE 4: DEBUNKED THEORETICAL PROOF AND THE PEER REVIEW FAILURE | 第四幕：被揭穿的假性推导与论文内生性危机]
+[Visual: Red stamp reading 'ERRONEOUS LOGIC' stamped over peer-reviewed derivations from literature (specifically Hou et al. Carbon 2024 and Akinay et al. 2023). Equations showing approximation errors and imaginary number neglect are highlighted.]
+[Sound: Low bell toll sounding a warning.]
+
+[VOICEOVER]
+"How did this wrong theory persist for fifty years? Our focused review in Industrial & Engineering Chemistry Research exposes the exact mathematical errors in these pseudo-proofs.
+
+In papers like Hou et al., authors used mathematical simplifications that completely neglected the imaginary parts of the complex phase $y$, treating it as a real number. In doing so, they overlooked that the absorption coefficient $\\alpha_P$ cannot coexist with zero reflection without destroying the very wave cancellation they sought to prove.
+
+Other authors, like Saikia et al., wrote impedance equations for double-layer films by directly applying single-layer input boundary formulas to the intermediate layer, overlooking that intermediate layers have incident waves arriving from both front and back.
+
+This is not a matter of experimental error or acceptable speculation. It is a failure of basic theoretical review. Peer-reviewed journals have uncritically accepted duplicate datasets and flawed equations because they conform to the established consensus. As Nobel laureate Tasuku Honjo famously warned: ninety percent of opinions published in even top scientific journals are not correct.
+
+Our mission is to restore the absolute primacy of classical wave mechanics over academic dogma. Read the comprehensive corrections in the 2025 ACS review and join the wave mechanics revolution. Reclaim the rigor of science. Thank you for watching."`;
+
+  const youtubeDescText16 = `Lecture 3: Deconstructing the Half-Century-Old Impedance Matching Fallacy in Microwave Absorption.
+
+In this third lecture of the Wave Mechanics of Microwave Absorption series, we present a systematic theoretical deconstruction of "Impedance Matching Theory," exposing how mainstream academic literature has spent fifty years propagating fundamental physical errors.
+
+Based on our landmark focused review published in Industrial & Engineering Chemistry Research (ACS, 2025):
+1. Confusing $Z_M$ and $Z_{\\text{in}}$: Characteristic Impedance ($Z_M$) is an intrinsic bulk material property, while Input Impedance ($Z_{\\text{in}}$) is a boundary property of a bounded portion of matter (a film device).
+2. Interface vs. Film: An interface cannot absorb microwaves ($R_M$ is a boundary coefficient), whereas a film's reflection ($RL$ or $s_{11}$) represents the wave superposition of multiple rays. Correct maximum absorption is governed by Destructive Wave Cancellation, not "Impedance Matching."
+3. Material Resonance Myth: Absorption peaks are wave cancellation resonances of the film device (governed by the $\\nu \\cdot d = \\text{constant}$ inverse relationship), not molecular or electronic resonances of the bulk material.
+4. Error Analysis in Literature: We detail mathematical errors in published "proofs" (e.g., Hou et al., Carbon 2024; Akinay et al., 2023) where complex variables were wrongly treated as real numbers, or single-layer boundary conditions were inappropriately applied to multilayered structures.
+
+"Science progresses by questioning consensus with rigorous logic and absolute mathematics, not by uncritical peer-review conformity."
+
+Primary Research Treatises & Focused Reviews:
+➔ https://doi.org/10.1021/acs.iecr.4c04544 (ACS Industrial & Engineering Chemistry Research, Review, 2025)
+➔ https://doi.org/10.32388/QQ1MFF (Qeios Preprint - Corrections of common errors in microwave absorption)
+➔ https://ssrn.com/abstract=4797207 (SSRN - Corrections of common errors associated with film/material confusion)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#WaveMechanics #YueLiu #ImpedanceMatchingFallacy #WaveCancellationTheory #IndustrialEngineeringChemistryResearch #AcademicReview #PeerReviewFailure #YueLiuSubstack`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1273,7 +1539,10 @@ Explore Yue Liu's critical treatises:
     activeProject === "project10" ? youtubeScriptText10 :
     activeProject === "project11" ? youtubeScriptText11 :
     activeProject === "project12" ? youtubeScriptText12 :
-    youtubeScriptText13;
+    activeProject === "project13" ? youtubeScriptText13 :
+    activeProject === "project14" ? youtubeScriptText14 :
+    activeProject === "project15" ? youtubeScriptText15 :
+    youtubeScriptText16;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1288,7 +1557,10 @@ Explore Yue Liu's critical treatises:
     activeProject === "project10" ? youtubeDescText10 :
     activeProject === "project11" ? youtubeDescText11 :
     activeProject === "project12" ? youtubeDescText12 :
-    youtubeDescText13;
+    activeProject === "project13" ? youtubeDescText13 :
+    activeProject === "project14" ? youtubeDescText14 :
+    activeProject === "project15" ? youtubeDescText15 :
+    youtubeDescText16;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -1322,7 +1594,7 @@ Explore Yue Liu's critical treatises:
         <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">
           Select Active Video Project / 选择当前视频策划
         </label>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-13 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 bg-slate-50 p-1.5 rounded-xl border border-slate-200">
           <button
             onClick={() => {
               setActiveProject("project1");
@@ -1530,6 +1802,54 @@ Explore Yue Liu's critical treatises:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
             Project M: Collective Fallacy
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project14");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project14"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project14"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
+            Project N: Wave Coefficients
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project15");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project15"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project15"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-500 animate-pulse" />
+            Project O: Film Derivations
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project16");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project16"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-project16"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-500 animate-pulse" />
+            Project P: Focused Review
           </button>
         </div>
       </div>
@@ -1748,7 +2068,7 @@ Explore Yue Liu's critical treatises:
 
       {activeProject === "project13" && (
         <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
-          <div className="text-[10px] font-bold text-rose-950 uppercase tracking-widest font-mono flex items-center gap-1.5">
+          <div className="text-[10px] font-bold text-rose-955 uppercase tracking-widest font-mono flex items-center gap-1.5">
             <Sparkles className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
             The Fallacy of Collective Supremacy • 集体至上谬误与学术全方位黑暗
           </div>
@@ -1764,6 +2084,75 @@ Explore Yue Liu's critical treatises:
             </span>
             <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
               Committee Arbitrage (权威用团队掩盖无能打压异己)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project14" && (
+        <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-amber-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-pulse" />
+            Derivation of Interface Reflection and Transmission Coefficients • 界面发射和透射系数的严密物理推导
+          </div>
+          <p className="text-[12px] text-amber-955 leading-relaxed italic">
+            "视频第一讲深入剖析了如何通过两种独立且等价物理路线——‘电压电流连续性’与‘电场磁场连续性’——推导任何物理界面上的Fresnel反射和透射系数。通过将《Physica Scripta 2022》附录A与《Materials Chemistry and Physics 2020》附录公式相互印证，彻底揭示了经典电磁波在分界面上的连续性边界条件。这证明了反射系数和透射系数是界面（Interface）的固有物理特性，而非具有厚度的材料膜（Film）或介质（Material）本身。这也是纠正学术界五十年来混淆‘界面’与‘膜’、错用阻抗匹配理论的科学推导基石。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Dual Derivation Paths (电压电流与电磁场双重等价物理推导)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Boundary Conditions (麦克斯韦方程组界面连续性边界条件)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Interface vs Film (界面特征与膜特性的本质物理区分)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project15" && (
+        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
+             Scattering Parameters s11 and s21 Derivation of Films • 膜散射参数 s11 与 s21 的严密物理推导
+          </div>
+          <p className="text-[12px] text-emerald-955 leading-relaxed italic">
+            "视频第二讲全面推导了无衬底薄膜（WMB）的散射参数 s11 与 s21，并由此推导了金属后衬膜（MB）的反射损耗（Reflection Loss, RL）计算公式。本课同样提供多束光线无限反射叠加（Micro-superposition）与总结算节点总波连续性（Macro-boundary continuity）两条完美等价的严密数学推导。通过对《Physica Scripta 2021》Part 1、《Journal of Microwave Power 2021》附录、以及《Physica Scripta 2022》附录 A2 和 A3 等经典文献的详细求证，彻底揭示了学术界将无金属后衬膜的 s11、s21 输入阻抗公式错套到多层膜中间层上的系统性错误。这再次证明了 RL = 0 的吸波波峰来源于膜前后表面反射波的‘矢量相消’（Destructive Waves Cancellation），而非谬传半世纪的虚假‘阻抗匹配’（Impedance Matching）。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Geometric Ray Superposition (无穷多重透反射几何级数矢量求和)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              WMB & MB Formulations (无金属后衬 s11/s21 与有金属后衬 RL 严密推导)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Wave Cancellation Over Impedance Matching (波动干涉相消对阻抗匹配谬误的终结)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {activeProject === "project16" && (
+        <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-pulse" />
+             Review: Deconstructing the Dilemma and Common Errors in Microwave Absorption • 膜散射机理系统性错误的严密纠正综述
+          </div>
+          <p className="text-[12px] text-amber-955 leading-relaxed italic">
+            "视频第三讲系统总结了发表在《Industrial & Engineering Chemistry Research, 2025》及 Qeios 预印本平台上的最新研究综述，全面论证了学术界将 ZM 和 Zin 混淆、将界面和膜混淆、以及将材料和界面混淆从而建立错误阻抗匹配理论的严重学术后果。ZM 是块体材料的固有属性，而 Zin 是受边界条件与样品厚度调控的物理器件属性；界面处只涉及光的连续边界通过与反射，没有吸波损耗；膜由于多束反射波干涉相消（Destructive Interference）可在外部实现反射为零，而非界面阻抗匹配。这一严密的科学事实纠正了长达半个世纪的理论谬误，终结了虚构‘材料本身存在共振吸收峰’的伪命题。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              ZM vs Zin Disentanglement (块体本征阻抗与有界器件输入阻抗的本质剥离)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Review and Refutations (对 Hou et al. 等经典文献公式系统性错误的严格求证)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              ACS I&ECR 25 Landmark Work (《工业与工程化学研究 2025》综述性重要成果)
             </span>
           </div>
         </div>
@@ -1790,7 +2179,10 @@ Explore Yue Liu's critical treatises:
                   activeProject === "project10" ? "Project J" :
                   activeProject === "project11" ? "Project K" :
                   activeProject === "project12" ? "Project L" :
-                  "Project M"
+                  activeProject === "project13" ? "Project M" :
+                  activeProject === "project14" ? "Project N" :
+                  activeProject === "project15" ? "Project O" :
+                  "Project P"
                 })</span>
               </div>
               <button
