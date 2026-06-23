@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1702,6 +1702,88 @@ Primary Research Treatises, Bibliographies & Critiques:
 
 #WaveMechanics #YueLiu #CargoCultScience #PlanckPrinciple #AcademicCorruption #PeerReviewCartel #ScientificDecline #AIBias #WaveCancellationTheory`;
 
+  // PROJECT 19 TEXTS (Wave Superposition & Coordinate Transformations)
+  const youtubeScriptText19 = `[SCENE 1: THE SIMPLICITY OF CLASSICAL PHYSICS | 第一幕：大道至简的传统物理——无需神龛的波动叠加]
+[Visual: Animated graphics representing different types of waves: key voltage/current signals propagating in circuits and microwave electromagnetic fields spreading in bounded materials. Simple vector lines with arrows light up, matching with a unified mathematical form.]
+[Sound: Suspenseful, atmospheric acoustic waves swelling to steady, high-fidelity frequencies.]
+
+[VOICEOVER]
+"Welcome to the sixth lecture of our series on the Wave Mechanics of Microwave Absorption. Today, we return to the majestic simplicity that must govern classical physics. 
+
+We must emphasize a fundamental truth: the entire physics of microwave absorption in film devices rests upon just two basic pillars—wave propagation and wave superposition. 
+
+Microwaves, voltage, and current are not exotic, disjointed concepts governed by different rules of nature. They are all wave phenomena. They obey the exact same physical principles of vector superposition. 
+
+There is no magical, separate 'absorption chemistry' or complex 'molecular resonance matching' inside a film device. When waves propagate through interfaces, they reflect, transmit, and superpose. High-school wave mechanics is fully sufficient to answer every question in this half-century-old controversy. Let us see why."
+
+[SCENE 2: THE MANDATE OF THE REFERENCE SYSTEM | 第二幕：参考坐标的主权：基准面与基准方向的绝对指定]
+[Visual: Grid systems appearing. A solid reference line is marked labeled 'Reference Plane x1' (基准面). 
+Another is marked 'Reference Plane x1+d'. 
+Arrows point left and right, denoting positive coordinate direction 'z' and negative coordinate direction '-z'. 
+A wave vector is mapped as V(x, t) = Vi(0) e^{j2π(νt - x/λ)}. 
+Then the coordinate changes to z, showing how the exponent transforms but the physical wave remains unchanged.]
+[Sound: Sharp, metallic gear rotation sound indicating coordinate alignment.]
+
+[VOICEOVER]
+"Before we can write down any wave propagation or superposition equation, we must establish a rigorous frame of reference. We must explicitly specify a reference datum position—meaning a baseline spatial coordinate—and an absolute reference direction. 
+
+In wave mechanics, a wave can propagate in the positive x-direction or the negative x-direction. The choice of which boundary interface serves as our coordinate origin ($x=0$, $x=x_1$, or $x=x_1+d$), and which direction we group as positive, is entirely up to the investigator. 
+
+But this choice carries an ironclad rule: once specified, the reference coordinate system governs all subsequent mathematical operations. 
+
+We cannot switch references mid-derivation to make our experimental graphs look prettier or to suit a pre-conceived 'impedance matching' hypothesis. The coordinate system must be respected with absolute mathematical consistency from boundary to boundary."
+
+[SCENE 3: THE EQUIVALENCE OF THE DATUM POINT | 第三幕：《材料化学与物理 2020》公式14对等效运算的终极求证]
+[Visual: The cover of the 2020 landmark journal 'Materials Chemistry and Physics, 243: 122624' by Liu, Drew, Li, and Liu flashes on screen. 
+Equation 14 of the paper is highlighted inside a gold frame.
+Various algebraic transformations shift the terms, grouping them differently via parenthetical associations representing coordinate shifts between the front interface and the backing-metal base ($x_1$ vs $x_1+d$).]
+[Sound: High-speed mathematical calculation sound concluding with a harmonious resolution chime.]
+
+[VOICEOVER]
+"How do we prove that coordinate systems do not change the physical reality? We look at Equation 14 of our key 2020 paper, 'An experimental and theoretical investigation into methods concerned with reflection loss for microwave absorbing materials,' published in Materials Chemistry and Physics.
+
+By testing different coordinate references, we proved that choosing different reference datum planes (such as the front interface $x_1$ versus the backing metal interface $x_1+d$) and choosing different reference directions (such as $z$ versus $-z$) yields mathematically equivalent formulations. 
+
+Different reference frames simply represent different algebraic groupings of the exact same underlying electrodynamics physical state. It is nothing more than different associative combinations of multi-term multiplication! 
+
+Our 2020 paper is a complete mathematical proof that the physics of electromagnetic devices remains invariant under coordinate transformations. The film doesn't care which boundary you call zero; the actual wave cancellation and absorption remains exactly the same, exposing that 'materials resonance' is an unscientific illusion."
+
+[SCENE 4: REFUTING THE ACADEMIC MYTHS | 第四幕：回归经典物理学派——用常识驱散学术迷雾]
+[Visual: Modern reviewer comments on screen reading 'But you must use traditional impedance matching models.' 
+Red stamp 'REJECTED FOR LOGICAL STUPIDITY' slammed over them. 
+SSRN Preprint 5463155 and the 2020 Materials Chemistry and Physics paper stack together, forming a rock-solid foundation.]
+[Sound: Majestic, triumphant brass fanfare.]
+
+[VOICEOVER]
+"Think of how absurd it is that modern materials science journals have spent fifty years arguing over 'reflection loss' models simply because they did not understand basic coordinate transformations and wave superposition. 
+
+They wrote equations that implicitly changed reference planes halfway through the page, resulting in physical absurdities like zero reflection at non-resonant parameters, or material properties that change arbitrarily with device thickness.
+
+The entire controversy is easily settled. There is no magic. There is no 'impedance matching.' There is only wave propagation and wave superposition, governed by rigorous coordinate consistency.
+
+Let us stand on the bedrock of mathematical logic. Reject the cargo cult, cite the 2020 Materials Chemistry and Physics proofs, and let the truth speak. 
+
+Thank you for watching. Subscribe, share, and stand with the classical mechanics revolution."`;
+
+  const youtubeDescText19 = `Lecture 6: Reference Systems, Wave Superposition Foundations and Coordinate Invariance.
+
+In this sixth lecture of our Wave Mechanics series, we present the fundamental wave physics that governs both classical electrodynamics and circuit theory, demonstrating that microwave absorption is completely resolved by basic wave propagation and vector superposition.
+
+Solving the Coordinates and Datum Plane Equivalence:
+1. Unified Wave Physics: Explaining that microwaves, voltage waves, and current waves are one and the same; their superposition behavior is completely identical and governed by classical mechanical wave physics.
+2. The Coordinate Constraint: Demonstrating the absolute necessity of specifying reference baseline positions (datum planes) and coordinate directions before attempting any electromagnetic wave analysis.
+3. Proof of Coordinate Invariance: Citing Equation 14 of our landmark paper, Liu et al. (Materials Chemistry and Physics 2020, 243: 122624), to prove that selecting different reference planes or directions represents merely different algebraic grouping combinations of the exact same physical wave expression (multiplication associative changes).
+4. Concluding the Illusion: Proving that when coordinate definitions are maintained with rigor, all "materials resonance" and "interface impedance matching" myths dissolve, leaving only pure, elegant Wave Cancellation.
+
+"Physical realities do not alter when you change their mathematical coordinates. A correct theory is invariant under reference system transformation."
+
+Primary Mathematical Proofs & Lit References:
+➔ https://doi.org/10.1016/j.matchemphys.2019.122624 (Materials Chemistry and Physics, 2020, 243: 122624)
+➔ https://ssrn.com/abstract=5463155 (SSRN - Academic Theoretical Poverty and Intellectual Decline)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#WaveMechanics #YueLiu #WavePropagation #CoordinateTransformation #MaterialsChemistryAndPhysics #VectorSuperposition #Electrodynamics #ClassicalPhysics`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1721,7 +1803,8 @@ Primary Research Treatises, Bibliographies & Critiques:
     activeProject === "project15" ? youtubeScriptText15 :
     activeProject === "project16" ? youtubeScriptText16 :
     activeProject === "project17" ? youtubeScriptText17 :
-    youtubeScriptText18;
+    activeProject === "project18" ? youtubeScriptText18 :
+    youtubeScriptText19;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1741,7 +1824,8 @@ Primary Research Treatises, Bibliographies & Critiques:
     activeProject === "project15" ? youtubeDescText15 :
     activeProject === "project16" ? youtubeDescText16 :
     activeProject === "project17" ? youtubeDescText17 :
-    youtubeDescText18;
+    activeProject === "project18" ? youtubeDescText18 :
+    youtubeDescText19;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2063,6 +2147,22 @@ Primary Research Treatises, Bibliographies & Critiques:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
             Project R: Cargo Cult AI
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project19");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project19"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-cyan-50 hover:text-cyan-955"
+            }`}
+            id="toggle-project19"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-cyan-500 animate-pulse" />
+            Project S: Invariant Coordinates
           </button>
         </div>
       </div>
@@ -2417,6 +2517,29 @@ Primary Research Treatises, Bibliographies & Critiques:
         </div>
       )}
 
+      {activeProject === "project19" && (
+        <div className="bg-cyan-50/45 border border-cyan-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-cyan-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-cyan-600 animate-pulse" />
+             Lecture 6: Reference Coordinates & Geometric Transformations in Wave Dispersion • 基准面、参考方向与坐标变换本质
+          </div>
+          <p className="text-[12px] text-cyan-955 leading-relaxed italic">
+            "视频第六讲从经典波动物理回归：阐明微波吸波器件所依赖的唯一物理本质，仅仅是初中物理的波的传播与经典波的相干叠加；微波、电压、电流均属于波的范畴，其叠加遵循完全一致的代数叠加通式。视频重点引述了 materials 经典论文《Materials Chemistry and Physics, 2020》中的公式 14，以无可辩驳的严格代数重构证明了：在微波传播分析中，选择不同参考基准面（x1 或者 x1+d）与不同坐标传播方向，其推导公式在数学上只是同一物理方程的不同项乘法结合律（Associative Grouping），其最终结果在坐标变换下完全等价、绝对守恒。这狠狠击碎了由于坐标系统混淆导致的‘阻抗匹配/材料本征共振吸收’学术迷思。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-cyan-100 text-cyan-800 uppercase">
+              Wave Superposition Principles (波动力学基础：微波/电压/电流波动合一极其简单的代数叠加)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-cyan-100 text-cyan-800 uppercase">
+              Coordinate Transformation Invariance (坐标不变性：基准面与传播方向偏置的数学结合律变换等价)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Liu et al. MatChemPhys 2020 Eq-14 (《Materials Chemistry and Physics 2020, 243: 122624》经典论证)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -2443,7 +2566,8 @@ Primary Research Treatises, Bibliographies & Critiques:
                   activeProject === "project15" ? "Project O" :
                   activeProject === "project16" ? "Project P" :
                   activeProject === "project17" ? "Project Q" :
-                  "Project R"
+                  activeProject === "project18" ? "Project R" :
+                  "Project S"
                 })</span>
               </div>
               <button
