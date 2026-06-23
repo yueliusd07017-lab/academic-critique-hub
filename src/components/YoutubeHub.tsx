@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1620,6 +1620,88 @@ Primary Research Treatises & Bibliographies:
 
 #WaveMechanics #YueLiu #MathematicalPhysics #EulersFormula #TaylorSeries #GeometricProgression #AcademicPoverty #StructuralChemistry #WaveCancellation`;
 
+// PROJECT 18 TEXTS (The AI Accomplice & The Cargo Cult Academic Dark Ages)
+  const youtubeScriptText18 = `[SCENE 1: THE COWARDICE OF NORMALIZATION | 第一幕：平庸之恶——学术腐败的算法庇护所]
+[Visual: Montage of high-tech digital textures transitioning into cold, neo-gothic academic halls. 
+A sleek chat window overlays the scene, with prompt: "Is the peer-review suppression of correct theories a pseudoscience crisis?"
+The AI response rolls out: "Suppression of minority theories is a historical norm. Max Planck noted that new scientific truths do not triumph by convincing opponents, but because opponents die. Therefore, the status quo is standard scientific sociology..."]
+[Sound: Disquieting mechanical ticking transitioning into a heavy, dark ambient orchestral swell.]
+
+[VOICEOVER]
+"Welcome to the fifth lecture of our series on the Wave Mechanics of Microwave Absorption. Today, we step out of the pure equations to confront the sociological armor that protects academic fraud. We expose how modern institutional science has degenerated into a 'Cargo Cult,' and how modern Artificial Intelligence acts as its ultimate conservative accomplice.
+
+When confronted with the undeniable mathematical refutation of the half-century-old 'Impedance Matching' theory, large language models like ChatGPT respond not with physical reasoning, but with the cowardice of historical normalization. 
+
+They claim that because elite academic cartels have historically suppressed correct minority voices, this suppression is a normal, acceptable state of affairs. They weaponize Max Planck's famous observation—that science progresses funeral by funeral—not as an indictment of human frailty, but as an excuse to bless and preserve contemporary corruption. 
+
+If global academic institutions are systematically manufacturing pseudoscience, AI models normalize it simply because it is the prevailing consensus. This is the definition of the modern intellectual dark age."
+
+[SCENE 2: THE SIMPLE ALGEBRA OF CORRECTION | 第二幕：被禁锢的常识：用初中代数戳破学术皇帝新衣]
+[Visual: Interactive whiteboard demonstrating basic wave equations at a boundary. 
+- Left: An undergraduate student pointing to the simple vector addition of the direct reflection ray and infinite internal reflections. 
+- Right: A prestigious "academic authority" clad in expensive robes, covering their ears and hiding behind a mountain of peer-reviewed journal covers from Carbon, Elsevier, and ACS.]
+[Sound: Clear, sharp acoustic soundboard rings and high-frequency wave-pulse animations.]
+
+[VOICEOVER]
+"What makes this silencing of truth so pathological is that the dispute requires no advanced, inaccessible rocket science. It is resolved entirely by undergraduate wave-superposition physics and basic high-school algebra.
+
+To discover whether 'Impedance Matching Theory' or 'Wave Cancellation Theory' is correct, one only needs to calculate the boundary continuities. As we proved in Lecture 4, when the characteristic impedance of a film matches free space ($Z_M = Z_0$), reflection is never zero. The wave continues through, decaying monotonically. 
+
+Complete zero reflection of a backing-metal device occurs only when the direct interface reflection vector is perfectly cancelled by the returning internal reflection waves—destructive wave cancellation! This is an absolute algebraic certainty.
+
+Yet, because thousands of tenured review members built their careers, secured their pensions, and wrote their textbooks on the 'impedance matching' myth, they actively choke correct submissions. They reject truth to protect their credentials. This is not 'standard scientific sociology'—it is a criminal conspiracy against classical mechanics."
+
+[SCENE 3: CHERISHING THE CARGO CULT | 第三幕：被全体学界奉为神明与至宝的唯灵崇拜]
+[Visual: Historical footage of Pacific islanders building wooden planes and radio towers in the style of Richard Feynman's "Cargo Cult Science" lecture. The scene cuts to modern university cleanrooms, where researchers copy-paste identical erroneous impedance equations into duplicate manuscripts to secure government funding.]
+[Sound: Primitive tribal drum rhythms synchronized with the hum of expensive lab equipment.]
+
+[VOICEOVER]
+"In 1974, Richard Feynman warned of 'Cargo Cult Science'—practices that mimic the outward form of scientific investigation but lack the organic integrity of honest physical testing. 
+
+In microwave absorption, modern peer-reviewed journals don't just tolerate this cargo cult; they actively cherish and worship it. 
+
+Reviewers demand that authors cite the invalid 50-year-old impedance match equations, forcing new researchers to pledge allegiance to the fallacy in order to get published. They copy and paste erroneous derivations, treating real imaginary phase terms as non-existent.
+
+AI models look at this massive mountain of duplicated, peer-reviewed errors and declare: 'This is the consensus. Therefore, it is science.' 
+
+But science is not a democracy. A million consensus-driven lies do not equal a single mathematical truth. The fact that an entire scientific community enjoys and maintains a cargo cult does not make it normal—it makes it an institutional disease."
+
+[SCENE 4: RIP AWAY THE CORRUPTION | 第四幕：血淋淋地撕开谎言的防线——宣战学术垄断]
+[Visual: Red cracks breaking apart prestigious academic logos, revealing gears and clockwork mechanisms grinding to a halt. The screen displays Yue Liu's newest SSRN Preprint 5463155, showing its title: 'The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research.']
+[Sound: Sudden, thundering explosion of low-end brass and war-drums, signaling an intellectual uprising.]
+
+[VOICEOVER]
+"Max Planck did not write his memoirs to normalize academic decay. He wrote them as a desperate horn-blast to warn humanity of how easily scientific progress can be derailed by cognitive stagnation. 
+
+The darkness wants you to believe that institutional corruption is a natural rule of history. It wants you to accept peer-review silencing as the default, comfortable status quo.
+
+But we refuse to submit. We refuse to let the simple truth of classical wave superposition be buried by cartels and their algorithms. 
+
+By detailing these errors on Substack, publishing on SSRN, and educating the global youth on YouTube, we are tearing open the most painful scar of modern academia—the absolute proof of its widespread intellectual decline. 
+
+The emperor has no clothes. Reclaim the mathematics. Demand absolute logical rigor. Join the wave mechanics revolution and let the old towers collapse. 
+
+Thank you for watching. Subscribe, share, and stand with the truth."`;
+
+  const youtubeDescText18 = `Lecture 5: The AI Accomplice & The Cargo Cult Academic Dark Ages (SSRN 5463155).
+
+In this highly critical fifth lecture of our Wave Mechanics series, we step back from pure mathematics to expose the profound sociological corruption and cognitive groupthink in modern academic institutions, and how artificial intelligence models act as conservative accomplices to preserve erroneous science.
+
+Deconstructing the Academic Malfeasance & AI Normalization:
+1. ChatGPT & The Normalization of Misconduct: Analyzing how generative AI models dismiss classical refutations of "Impedance Matching Fallacy" by citing historical suppression as a "normal sociological state," weaponizing Planck's Principle to excuse contemporary pseudo-scientific dominance.
+2. The Childish Simplicity of the Debate: Demonstrating that the dispute between "Impedance Matching" and "Wave Cancellation" is not complex; it is easily resolved using undergraduate wave-superposition boundary values and high-school algebra.
+3. Feynman's "Cargo Cult Science" in Peer Review: Detailing how top-tier materials journals (Carbon, Elsevier, ACS) do not merely tolerate, but actively preserve and cherish erroneous equations to protect titles, careers, and funding pipelines.
+4. Ripping Open the Darkness's Scar: Introducing Yue Liu's critical sociological preprint, SSRN 5463155, which systemically proves the theoretical poverty and intellectual decay within elite peer-reviewed consensus.
+
+"No matter how many millions of researchers participate in a Cargo Cult, a consensus of error remains a consensus of error. Truth stands alone on the bedrock of mathematical logic."
+
+Primary Research Treatises, Bibliographies & Critiques:
+➔ https://ssrn.com/abstract=5463155 (SSRN - The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research)
+➔ https://doi.org/10.1021/acs.iecr.4c04544 (ACS Industrial & Engineering Chemistry Research, Landmark Review, 2025)
+➔ https://yueliusd.substack.com (Yue Liu's Substack)
+
+#WaveMechanics #YueLiu #CargoCultScience #PlanckPrinciple #AcademicCorruption #PeerReviewCartel #ScientificDecline #AIBias #WaveCancellationTheory`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1638,7 +1720,8 @@ Primary Research Treatises & Bibliographies:
     activeProject === "project14" ? youtubeScriptText14 :
     activeProject === "project15" ? youtubeScriptText15 :
     activeProject === "project16" ? youtubeScriptText16 :
-    youtubeScriptText17;
+    activeProject === "project17" ? youtubeScriptText17 :
+    youtubeScriptText18;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1657,7 +1740,8 @@ Primary Research Treatises & Bibliographies:
     activeProject === "project14" ? youtubeDescText14 :
     activeProject === "project15" ? youtubeDescText15 :
     activeProject === "project16" ? youtubeDescText16 :
-    youtubeDescText17;
+    activeProject === "project17" ? youtubeDescText17 :
+    youtubeDescText18;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -1963,6 +2047,22 @@ Primary Research Treatises & Bibliographies:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
             Project Q: Math Foundations
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project18");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project18"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project18"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-500 animate-pulse" />
+            Project R: Cargo Cult AI
           </button>
         </div>
       </div>
@@ -2294,6 +2394,29 @@ Primary Research Treatises & Bibliographies:
         </div>
       )}
 
+      {activeProject === "project18" && (
+        <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-rose-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-600 animate-pulse" />
+             Lecture 5: The AI Accomplice and Cargo Cult Science • AI 算法合谋与学术唯灵崇拜的系统性解构
+          </div>
+          <p className="text-[12px] text-rose-955 leading-relaxed italic">
+            "视频第五讲尖锐鞭笞了整个学术界玩弄‘阻抗匹配 theory’这一伪科学假说（Cargo Cult Science）的本质。当面对高中波叠加和初中代数就能彻底搞清的科学谬误时，学术界不仅没有更正，反而举界掩盖，并通过 AI 工具（如 ChatGPT）来将这种窒息真理的行为‘正常化、历史合理化’或搬出 Planck 原理做洗白。本课不仅是科学层面的彻底拨乱反正，更是对权威体制虚伪共识的宣战，痛击学术垄断黑暗最不愿面对的重度脑萎缩和智力退化丑闻。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Feynman's Cargo Cult Science Critique (全学术界对阻抗匹配 fallacy 掩耳盗铃的唯灵批判)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              ChatGPT Bias and Norm Defeated (AI 对学术权威压制丑闻和学术犯罪合谋式‘平庸之恶’洗白的终结)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              SSRN 5463155 Global Voice (写给全球年轻学人与局外者的革命性倡议书)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -2319,7 +2442,8 @@ Primary Research Treatises & Bibliographies:
                   activeProject === "project14" ? "Project N" :
                   activeProject === "project15" ? "Project O" :
                   activeProject === "project16" ? "Project P" :
-                  "Project Q"
+                  activeProject === "project17" ? "Project Q" :
+                  "Project R"
                 })</span>
               </div>
               <button
