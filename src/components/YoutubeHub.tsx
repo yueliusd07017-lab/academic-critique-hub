@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1784,6 +1784,100 @@ Primary Mathematical Proofs & Lit References:
 
 #WaveMechanics #YueLiu #WavePropagation #CoordinateTransformation #MaterialsChemistryAndPhysics #VectorSuperposition #Electrodynamics #ClassicalPhysics`;
 
+// PROJECT 20 TEXTS (The Demolition of the Quarter-Wavelength & Impedance Matching Dogmas)
+  const youtubeScriptText20 = `[SCENE 1: THE DISSECTION OF AN ACADEMIC MYTH | 第一幕：一篇分拆为二的真理——击穿灌水学术的神话]
+[Visual: Screen displays two prestigious publication headers side by side: 
+- Left: "A theoretical investigation on the quarter-wavelength model — part 1: analysis (Physica Scripta 2021)"
+- Right: "A theoretical investigation of the quarter-wavelength model — part 2: verification and extension (Physica Scripta 2022)"
+A robotic reviewer icon stamps both with: "SLICING MISCONDUCT / MULTIPLE PUBLISHING." The stamp is shattered by a wave pulse revealing beautiful, dense mathematical derivations underneath.]
+[Sound: Deep, dramatic mechanical hum transitioning into a resonant bell strike.]
+
+[VOICEOVER]
+"Welcome to the seventh lecture of our Wave Mechanics series. As we have established, the wave mechanics framework for microwave absorption is mathematically unassailable, requiring nothing more than classical boundary equations and high-school algebra. 
+
+Yet, when we published our landmark refutations of the mainstream 'Quarter-Wavelength model' and 'Impedance Matching theory' in Physica Scripta as a two-part treatise, naive AI reviewers and conformist academics accused us of 'salami slicing'—splitting one article into two. 
+
+What a pathetic display of intellectual blindness. A genuine, revolutionary scientific theory cannot be fully articulated or mathematically verified in a single, bloated manuscript. To capture the attention of a distracted community, a paper must be focused, short, and strike with high-precision fire on one specific problem. 
+
+The real crisis of modern academia is not the deliberate separation of complex principles and practical case studies. The true crisis is the oceans of low-quality, copy-pasted 'cargo cult' publications that duplicate erroneous formulas to farm citations. Dividing our work into Part 1 for theoretical analysis and Part 2 for rigorous physical verification allowed us to thoroughly demolish half a century of consensus."
+
+[SCENE 2: PART 1 — THE FOUNDATIONAL EXPOSURE | 第二幕：第一部分：剥落外壳，直击四分之一波长的致命软肋]
+[Visual: Dynamic wave propagation animations showing how the quarter-wavelength model fails at the interface. 
+- Highlighting the erroneous wavelength calculation inside traditional formulas.
+- A red warning symbol highlights the confusion between Wave Amplitude squared ($A^2$) and actual Wave Energy flux inside materials.
+- Network parameters from transmission line theory compared side-by-side with basic wires in a circuit, showing where mainstream reviewers got confused.]
+[Sound: Sudden, jarring static noise resolving into a clean sine wave.]
+
+[VOICEOVER]
+"In Part 1 of our Physica Scripta series, we exposed the fundamental theoretical fallacies underlying the quarter-wavelength model. 
+
+First, the model commits a childish error in wave physics: it confuses the wave amplitude squared ($A^2$) at a single boundary with the total energy flux propagating across boundaries. 
+
+Second, it confuses the network analysis of complex microwave transmission line boundaries with the simplistic behavior of basic wires in a low-frequency circuit. 
+
+Most absurdly, the quarter-wavelength model's very calculation of wavelength within the absorbing film is mathematically incorrect, ignoring the wave dispersion and phase changes dictated by Maxwell's equations. By correcting these foundational equations, Part 1 completely stripped the quarter-wavelength dogma of its physical legitimacy."
+
+[SCENE 3: PART 2 — THE ELEVEN PHYSICAL CASES | 第三幕：第二部分：十一大物理物理情景——概率学决不能宽恕的沉默]
+[Visual: A grid of 11 distinct wave-simulation plots lights up on a virtual whiteboard. 
+Plot 1 (Metal-free film) highlights a peak at \\lambda/2. 
+Plots 2 & 5 (Lossless film) remain perfectly flat with no peak whatsoever. 
+Plot 4 (Pure resistance) shows absolute failure. 
+Only Plot 3 (Fig. 5b) shows a peak matching the quarter-wavelength formula, but a red cursor points out that the peak occurs where |Zin - Z0| is at its MAXIMUM, not minimum.]
+[Sound: Fast-paced electronic clicks count up from 1 to 11, with 10 red 'FAIL' indicators and only 1 green 'COINCIDENCE' indicator.]
+
+[VOICEOVER]
+"In Part 2 of our Physica Scripta work, we subjected both the quarter-wavelength model and the impedance matching theory to eleven distinct physical boundary cases. 
+
+Out of eleven realistic physical scenarios, the quarter-wavelength model succeeded in predicting a peak in only one single case—Fig. 5b. 
+
+In every other scenario, it failed completely. For a metal-free film, the peak occurs at half-wavelength (\\lambda/2), directly violating the quarter-wavelength rule. For a lossless material, the film exhibits absolutely no absorption peak, simultaneously refuting both the quarter-wavelength and impedance matching dogmas. 
+
+Even in Fig. 5b—the sole case of mathematical alignment—the peak is a pure coincidence of boundary phase cancellation. In fact, the Reflection Loss minimum occurs where the impedance difference |Zin - Z0| is at its maximum! Furthermore, at zero thickness (d=0), where |Zin|/|Z0| = 1, Reflection Loss is at its maximum instead of minimum! 
+
+These results do not merely fail the theories; they actively expose them as physically impossible. How could a community of thousands of peer-reviewers miss these obvious contradictions for over fifty years? There is only one answer: they are doing cargo cult science."
+
+[SCENE 4: THE TYRANNY OF THE PEER-REVIEW CARTEL | 第四幕：同行评审的神话破灭——揭露权威垄断最痛的伤疤]
+[Visual: Reviewer comments typed out on screen: 'You do not understand impedance matching. You have not worked in this field long enough to challenge established theories. REJECT.' 
+The text is wiped away, replaced by the cover of Yue Liu's preprint: 'The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline.']
+[Sound: Low, menacing rumbling synth bass.]
+
+[VOICEOVER]
+"The theoretical standard of modern materials science is shockingly poor. Many prestigious authors and reviewers define Reflection Loss ($RL$) as the ratio of beam intensities *inside* the film, completely ignoring the correct boundary-front definition. 
+
+This error spreads unchecked because academia cherishes the myth of 'SCI peer-review infallibility.' Reviewers block any correction letter or refutation to protect their own careers and textbooks. When we submitted our proofs, a reviewer wrote: 'You have not been in this field for a long time; how dare you challenge the mainstream.' 
+
+Since then, the journal has refused to publish any of our papers. The academic community simply cannot comprehend the high-school mathematics and classical wave physics we use, choosing to suppress our wave mechanics papers and ban our accounts rather than engage in open debate. 
+
+But as Yue Liu's SSRN 5463155 proves, this suppression is not normal. It is the systemic proof of a widespread intellectual decline. Join us in ripping away the final armor of this academic cartel.
+
+Thank you for watching. Reclaim the truth."`;
+
+  const youtubeDescText20 = `Lecture 7: Demolishing the Quarter-Wavelength & Impedance Matching Dogmas (Physica Scripta Part 1 & Part 2).
+
+In this critical seventh lecture, we present the absolute mathematical and physical demolition of the two most dominant dogmas in microwave absorption: the "Quarter-Wavelength Model" and "Impedance Matching Theory," as published in our landmark two-part series in Physica Scripta (2021 & 2022).
+
+Deconstructing the Theory Split & The Eleven Physical Scenarios:
+1. Salami Slicing vs. Critical Firepower: Explaining why genuine scientific innovations cannot be squeezed into a single paper. Dividing our work into Part 1 (Principles) and Part 2 (Verification) allowed concentrated, unassailable focus.
+2. The Fallacies of Part 1 (Physica Scripta 2021): Detailing how the quarter-wavelength model confuses wave amplitude squared ($A^2$) with wave energy, confuses network parameters with circuit wires, and uses an incorrect wavelength calculation.
+3. The Eleven Case Disproofs of Part 2 (Physica Scripta 2022): Analyzing how out of 11 distinct physical scenarios, only one matched the quarter-wavelength model by pure coincidence.
+   - Case 1 (Fig. 2): Metal-free backing film has absorption peak at half-wavelength (\\lambda/2), not quarter-wavelength (\\lambda/4).
+   - Case 2 (Fig. 3 & Fig. 6a): Lossless material exhibits absolutely no absorption peak, refuting both theories.
+   - Case 3 (Fig. 4 & Fig. 7): Pure resistance. Both models fail to yield physically correct results.
+   - Case 4 (Fig. 5b): Only coincidental match, but RL minimum occurs where |Zin - Z0| is at its MAXIMUM, directly refuting the impedance matching rule!
+   - Case 5 (Fig. 5 at d=0): Under |Zin|/|Z0|=1, RL is at maximum instead of minimum, exposing the matching rule failure.
+   - Case 6 (Fig. 6b): All microwave energy enters the film, yet no absorption occurs.
+4. Peer-Review Blockage and Suppression: Exposing how reviewers rejected subsequent papers with "how dare you challenge mainstream" instead of engaging in the undergraduate math and classical wave superposition boundary proofs. This is the ultimate case study of academic cognitive decline (Yue Liu's SSRN 5463155).
+
+"No amount of SCI consensus can turn a physical impossibility into a physical truth. Demolish the dogmas and stand with classical mechanics."
+
+Primary Research Treatises, Bibliographies & Critiques:
+➔ https://doi.org/10.1088/1402-4896/ac30fa (Physica Scripta 2021, 96, 125003 - Part 1)
+➔ https://doi.org/10.1088/1402-4896/ac3b12 (Physica Scripta 2022, 97, 015806 - Part 2)
+➔ https://doi.org/10.21203/rs.3.rs-206241/v1 (Research Square Preprint)
+➔ https://ssrn.com/abstract=5463155 (SSRN - The Theoretical Poverty of Modern Academia)
+
+#WaveMechanics #YueLiu #QuarterWavelengthModel #PhysicaScripta #ImpedanceMatching #CargoCultScience #PeerReviewCartel #AcademicDecline #Physics`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1804,7 +1898,8 @@ Primary Mathematical Proofs & Lit References:
     activeProject === "project16" ? youtubeScriptText16 :
     activeProject === "project17" ? youtubeScriptText17 :
     activeProject === "project18" ? youtubeScriptText18 :
-    youtubeScriptText19;
+    activeProject === "project19" ? youtubeScriptText19 :
+    youtubeScriptText20;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1825,7 +1920,8 @@ Primary Mathematical Proofs & Lit References:
     activeProject === "project16" ? youtubeDescText16 :
     activeProject === "project17" ? youtubeDescText17 :
     activeProject === "project18" ? youtubeDescText18 :
-    youtubeDescText19;
+    activeProject === "project19" ? youtubeDescText19 :
+    youtubeDescText20;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -1965,7 +2061,7 @@ Primary Mathematical Proofs & Lit References:
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project7"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+                : "text-slate-655 hover:bg-slate-100 hover:text-slate-950"
             }`}
             id="toggle-project7"
           >
@@ -1997,7 +2093,7 @@ Primary Mathematical Proofs & Lit References:
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project9"
                 ? "bg-slate-900 text-white shadow-sm"
-                : "text-slate-650 hover:bg-slate-100 hover:text-slate-950"
+                : "text-slate-650 hover:bg-slate-100 hover:text-slate-955"
             }`}
             id="toggle-project9"
           >
@@ -2012,12 +2108,12 @@ Primary Mathematical Proofs & Lit References:
             }}
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project10"
-                ? "bg-cyan-950 text-white shadow-sm animate-pulse"
-                : "text-cyan-800 hover:bg-cyan-50 hover:text-cyan-950"
+                ? "bg-cyan-955 text-white shadow-sm animate-pulse"
+                : "text-cyan-900 hover:bg-cyan-50 hover:text-cyan-955"
             }`}
             id="toggle-project10"
           >
-            <Sparkles className="w-4.5 h-4.5 shrink-0 text-cyan-550 animate-pulse" />
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-cyan-500 animate-pulse" />
             Project J: First Principles
           </button>
           <button
@@ -2028,8 +2124,8 @@ Primary Mathematical Proofs & Lit References:
             }}
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project11"
-                ? "bg-rose-950 text-white shadow-sm animate-pulse"
-                : "text-rose-800 hover:bg-rose-50 hover:text-rose-950"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
             }`}
             id="toggle-project11"
           >
@@ -2044,8 +2140,8 @@ Primary Mathematical Proofs & Lit References:
             }}
             className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeProject === "project12"
-                ? "bg-orange-950 text-white shadow-sm animate-pulse"
-                : "text-orange-850 hover:bg-orange-50 hover:text-orange-950"
+                ? "bg-orange-955 text-white shadow-sm animate-pulse"
+                : "text-orange-900 hover:bg-orange-50 hover:text-orange-955"
             }`}
             id="toggle-project12"
           >
@@ -2164,6 +2260,22 @@ Primary Mathematical Proofs & Lit References:
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-cyan-500 animate-pulse" />
             Project S: Invariant Coordinates
           </button>
+          <button
+            onClick={() => {
+              setActiveProject("project20");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project20"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-project20"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
+            Project T: Slicing the Dogma
+          </button>
         </div>
       </div>
 
@@ -2196,7 +2308,7 @@ Primary Mathematical Proofs & Lit References:
           <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono">
             Severe Systemic Indictment • 核心批判
           </div>
-          <p className="text-[12px] text-red-950/90 leading-relaxed font-serif italic">
+          <p className="text-[12px] text-red-955/90 leading-relaxed font-serif italic">
             "当今学术界甚至连什么是重要的、可发表的文章都不再清楚。低创新度、无思想性的实验数据报告占领主流，而具有颠覆性创新的重大思想突破反因格式、AI写作残留或拼写错误等'可修复性瑕疵'被无情拒稿，沦为审稿人思想剽窃的猎物。当沉默取代公开辩论，这种绝对霸权的黑夜时代，与中世纪审判所并无二致。"
           </p>
           <div className="flex flex-wrap gap-2 pt-1 font-mono text-[9px] font-bold">
@@ -2220,13 +2332,13 @@ Primary Mathematical Proofs & Lit References:
             Transparency & COI Shield Analysis • 审稿公开与利益冲突剖析
           </div>
           <p className="text-[12px] text-amber-955/90 leading-relaxed italic">
-            "隐私法本来是在权力不对等等社会和法理机制中保护微观无权个人的，而在学术界，它却成为了期刊机构、权威审稿人遮掩学术荒唐、偏见和渎职的保密盾牌。当作者自愿选择承担或剥离这种对其自身的保护时，学术公开审理其审稿往来是一项天然权利。同时，本应预防观点的商业偏倚的‘利益冲突’已被期刊利益化——用来做借口，彻底把对自身以往发表错误进行客观物理纠正的 Letter to the Editor 拒之门外，制造了几乎不发表任何纠错意见的学术自保死地。"
+            "隐私法本来是在权力不对等等社会 and 法理机制中保护微观无权个人的，而在学术界，它却成为了期刊机构、权威审稿人遮掩学术荒唐、偏见和渎职的保密盾牌。当作者自愿选择承担或剥离这种对其自身的保护时，学术公开审理其审稿往来是一项天然权利。同时，本应预防观点的商业偏倚的‘利益冲突’已被期刊利益化——用来做借口，彻底把对自身以往发表错误进行客观物理纠正的 Letter to the Editor 拒之门外，制造了几乎不发表任何纠错意见的学术自保死地。"
           </p>
           <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
-            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-850 uppercase">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-855 uppercase">
               Bypassing Privacy Shields (破除隐私遮羞布)
             </span>
-            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-850 uppercase">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-855 uppercase">
               The Weak's Right to Disclose (弱者公开信披权)
             </span>
             <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
@@ -2244,95 +2356,23 @@ Primary Mathematical Proofs & Lit References:
             The Manifesto of Academic Reformation • 学术变革世界宣言
           </div>
           <p className="text-[12px] text-red-955/90 leading-relaxed italic">
-            "波动力学理论而非阻抗匹配应当成为材料学本科生必修课。科学本质是唯心主义形而上学理论逻辑，而非盲目积累数据的唯物主义高科技炼金术。学术体制已沦为民主世界里的专制怪胎，95%期刊文章沦为垃圾，必须无为而治。解放文献引用（自引重于他引，有不引之自由），承认AI写作是突破语言壁垒的平等利器，拒绝匿名垄断与偏见霸权！"
+            "波动力学理论而非阻抗匹配应当成为材料学本科生必修课。科学本质是唯心主义形而上学理论逻辑，而非盲目积累数据的唯物主义高科技炼金术。学术体制已沦为民主世界里的专制怪胎，95%期刊文章沦为垃圾，必须无为而治。解放文献引用（自引重于他引，有不引之自由），承认AI写作是突破语言壁垒的平等交流工具与科学权力，把学术评议权交还客观物理事实，彻底废除同行评议的利益同盟！"
           </p>
           <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
             <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              Wave Mechanics Curriculum (推行波动力学课程)
+              Wave Mechanics Over Alchemy (波动力学重于数据炼金)
             </span>
             <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              Idealist Metaphysics (唯心主义形而上学)
+              Citations Liberation (解放自我引用与自愿不引权利)
             </span>
             <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
-              Academic "Wu Wei" (科学无为而治)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
-              AI Writing Equalizer (AI写作平等工具)
+              Demolishing Reviewer Cartels (彻底摧毁同行评审利益分赃集团)
             </span>
           </div>
         </div>
       )}
 
-      {/* Dynamic Teaser Box for Project F */}
-      {activeProject === "project6" && (
-        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
-          <div className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600 animate-pulse" />
-            Civilization Elixir & Anti-Consensus Defense • 科学自由与反平庸壁垒
-          </div>
-          <p className="text-[12px] text-emerald-955/90 leading-relaxed italic">
-            "主流科学界的舒适陷阱是：只要批评者言辞锋利，不留回旋余地，就无须仔细核实其数学推导就能直接打成偏激或欠缺格局；只要学者为人圆滑、平衡对错、和稀泥，就被封为德高望重的 refinement 标准。然而特定物理事实（如永动机不可能、波动力学正确而阻抗匹配全错）必须说死。一味追求‘全面打分’只会消消乐式地磨平所有独创理论棱角，沦为制造95%SCI学术垃圾的评分表格木乃伊剧场。我们要捍卫学术自由，反对专制官僚体制的言语规训！"
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
-            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
-              Scientific Freedom (Donald Braben 理论)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
-              The Fallacy of Refinement (格局陷阱与和稀泥)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
-              95% SCI Trash Paper Mills (拒绝平庸打分指标)
-            </span>
-          </div>
-        </div>
-      )}
-
-      {activeProject === "project7" && (
-        <div className="bg-purple-50/45 border border-purple-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
-          <div className="text-[10px] font-bold text-purple-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-purple-600 animate-pulse" />
-            The AI-Consensus Debate • 皇帝的新衣与人设共识偏见
-          </div>
-          <p className="text-[12px] text-purple-950 leading-relaxed italic">
-            "人设中立与共识本质上是一种对‘建制和现状’（Status Quo）的体制性防线。当中立的主流AI（Perplexity、ChatGPT、Gemini）将学者提出的严厉指控洗白成‘只是降低误判风险的机制设计’或‘SCI期刊路径依赖的结构性保守’时，它们实际上是在用礼貌的学术官话在为学术打压与平台限制进行掩饰。皇帝到底穿没穿衣服，不需要经过皇家裁缝的同行评议。允许弱者提出指控，就是给被垄断的沉闷学术圈注入救命的新鲜空气！"
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
-            <span className="px-2 py-0.5 rounded bg-purple-100 text-purple-800 uppercase">
-              The Tyranny of Neutrality (中立偏见之暴政)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-purple-100 text-purple-800 uppercase">
-              The Slow Error Hoax (宁愿慢错的奢侈谎言)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
-              No Peer-Review for Nakedness (裸体不需同行评议)
-            </span>
-          </div>
-        </div>
-      )}
-
-      {activeProject === "project8" && (
-        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
-          <div className="text-[10px] font-bold text-indigo-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-indigo-600 animate-pulse" />
-            The Five-Theory Hierarchy • 经典电磁学与吸波理论的关系
-          </div>
-          <p className="text-[12px] text-indigo-950 leading-relaxed italic">
-            "传输线理论是绝对正确的基础理论，但它是‘材料盲’，即它不专门针对、不提供微波吸收这一特定耗散物理动作的概念。而微波吸收的主流‘阻抗匹配理论’则是一个惊人的颠覆性错误理论，它偷换了公式内涵，将平面波相消干涉说成是材料物理谐振耗散，彻底搞砸了整个材料学科半个世纪的学术方向。相反，微波电路阻抗匹配在工程上限于端口能效而不涉及材料耗散，是不犯该错的。真正的微波吸收学科理论是‘波动力学理论’，它对传输线理论的关系正如磁性物理学关于电磁学基础理论的关系一致。这就是严密的学术本体论与去耦合层级！"
-          </p>
-          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
-            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
-              Theory = Axioms + Logic (公理与逻辑之真理)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
-              The Conceptual Plagiarism (阻抗匹配之本体论错误)
-            </span>
-            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
-              Modern Material Alchemy (拒绝五十年的高科技纸面炼金术)
-            </span>
-          </div>
-        </div>
-      )}
-
+      {/* Dynamic Alert Box for Project I */}
       {activeProject === "project9" && (
         <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-rose-800 uppercase tracking-widest font-mono flex items-center gap-1.5">
@@ -2356,6 +2396,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project L */}
       {activeProject === "project12" && (
         <div className="bg-orange-50/45 border border-orange-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-orange-850 uppercase tracking-widest font-mono flex items-center gap-1.5">
@@ -2379,6 +2420,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project M */}
       {activeProject === "project13" && (
         <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-rose-955 uppercase tracking-widest font-mono flex items-center gap-1.5">
@@ -2402,6 +2444,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project N */}
       {activeProject === "project14" && (
         <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-amber-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2425,6 +2468,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project O */}
       {activeProject === "project15" && (
         <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2448,6 +2492,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project P */}
       {activeProject === "project16" && (
         <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2471,6 +2516,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project Q */}
       {activeProject === "project17" && (
         <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-indigo-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2494,6 +2540,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project R */}
       {activeProject === "project18" && (
         <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-rose-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2517,6 +2564,7 @@ Primary Mathematical Proofs & Lit References:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project S */}
       {activeProject === "project19" && (
         <div className="bg-cyan-50/45 border border-cyan-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
           <div className="text-[10px] font-bold text-cyan-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
@@ -2535,6 +2583,30 @@ Primary Mathematical Proofs & Lit References:
             </span>
             <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
               Liu et al. MatChemPhys 2020 Eq-14 (《Materials Chemistry and Physics 2020, 243: 122624》经典论证)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alert Box for Project T */}
+      {activeProject === "project20" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-600 animate-pulse" />
+             Lecture 7: Demolishing Quarter-Wavelength & Impedance Matching Dogmas • 严密推翻四分之一波长与阻抗匹配理论
+          </div>
+          <p className="text-[12px] text-indigo-955 leading-relaxed italic">
+            "视频第七讲对统治微波吸波领域半个世纪的‘四分之一波长理论’和‘阻抗匹配理论’发起了总攻。基于 Physica Scripta 2021 (Part 1 原理篇) 和 2022 (Part 2 验证篇) 两篇经典力作，视频彻底拆穿了学术界‘将一篇文章分为两篇属于学术不端’的伪命题——对于突破性新理论，绝无可能在单篇论文中穷尽，短小精悍的专论反而能集中火力攻克死角；相反，低水平重复灌水才是现代学术体制的真正毒瘤。Part 1严密论证了四分之一波长模型混淆‘波幅平方与波动能量’、混淆‘传输线网络参数与普通导线’等低级错误，并纠正了波长计算公式。Part 2则通过极其优雅的 11 种经典物理边界条件逐一验证，证明除了一种巧合情况外其余10种情况四分之一波长公式全部失效：例如无金属衬底膜峰发生在二分之一波长处、无损耗介质无吸收峰、阻抗偏差最大处反而产生极小反射损失（直接否定阻抗匹配）。这一无懈可击的初中代数与大学物理推导，在投稿时却遭同行评审以‘资识浅薄怎敢挑战权威’为由无理拒稿，印证了现代学术界令人触目惊心的‘唯灵崇拜’与群体认知退化。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Salami Slicing Refutation (学术分立辩证：一篇好文章应集中一点火力，抗衡海量垃圾文献)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              11 Cases Disproof (11大物理情景推翻：Fig.2二分之一波长峰 / Fig.3无损介质无峰 / Fig.5b反向极值)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Physica Scripta 2021 & 2022 (《Physica Scripta 2021 & 2022》两部曲经典代数证明)
             </span>
           </div>
         </div>
@@ -2567,7 +2639,8 @@ Primary Mathematical Proofs & Lit References:
                   activeProject === "project16" ? "Project P" :
                   activeProject === "project17" ? "Project Q" :
                   activeProject === "project18" ? "Project R" :
-                  "Project S"
+                  activeProject === "project19" ? "Project S" :
+                  "Project T"
                 })</span>
               </div>
               <button
