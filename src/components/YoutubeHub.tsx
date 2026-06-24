@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1878,6 +1878,123 @@ Primary Research Treatises, Bibliographies & Critiques:
 
 #WaveMechanics #YueLiu #QuarterWavelengthModel #PhysicaScripta #ImpedanceMatching #CargoCultScience #PeerReviewCartel #AcademicDecline #Physics`;
 
+  const youtubeScriptText21 = `[SCENE 1: THE IMPEDANCE MATCHING ILLUSION | 第一幕：直击常识的伪命题——被神话的“阻抗匹配”]
+[Visual: A stunning cinematic animation of an electromagnetic wave striking a thin film. An overlay of traditional formulas highlights: "|Zin| = |Z0| (Impedance Matching)". Mainstream journals like JMCC fly by, zooming into M. Cao's 2018 JMCC paper, Figure 7, which claims: "The weaker the microwave reflected back from the rear interface of the material, the stronger the material's absorption peak." A large, red, glowing stamp slams down: "ILLUSION / 虚幻认知".]
+[Sound: Tense, ticking clocks, transitioning into a low-frequency warning buzz.]
+
+[VOICEOVER]
+"Welcome to the eighth lecture of our Wave Mechanics series. For half a century, the materials science community has been trapped in a singular, unquestioned dogma: the Impedance Matching Theory of Microwave Absorption. 
+
+According to this consensus, the absorption peak of a film is determined strictly by the impedance matching condition: absolute value of input impedance Zin equals the characteristic impedance of free space Z0. They claim that the more incident microwave penetrates into the material, the greater its attenuation, and thus the stronger the absorption peak. Furthermore, as explicitly claimed in Figure 7 of M. Cao's highly cited 2018 Journal of Materials Chemistry C paper on graphene nanohybrids, they believe that the weaker the wave reflected back from the rear interface, the stronger the absorption peak.
+
+It sounds perfectly logical. More penetration plus less back-reflection should equal maximum dissipation, right? 
+
+Wrong. This represents a fundamental misunderstanding of classical electromagnetism. It is a mathematical illusion that confuses the properties of bulk materials with the boundary-value mechanics of a physical device. Today, we dismantle this 50-year-old error with absolute mathematical logic."
+
+
+[SCENE 2: WAVE COHERENCE VS. THE PENETRATION DOGMA | 第二幕：两部曲重击——干涉干掉匹配：穿透多与衰减大决非吸收峰强的保证]
+[Visual: High-contrast split-screen animations of numerical simulations from Ying Liu's landmark papers in Surfaces and Interfaces (2023, 40, 103022 & 103024):
+- Left side: High microwave penetration and high material attenuation coefficients (\\varepsilon_r'', \\mu_r'') yielding a flat, weak absorption profile.
+- Right side: Minimal microwave penetration and very small attenuation coefficients resulting in an extremely sharp, near-perfect Reflection Loss peak. 
+The word "INTERFERENCE (干涉相消)" glows in brilliant gold across the screen.]
+[Sound: A high-tech digital ping, followed by a confident, uplifting synth chord.]
+
+[VOICEOVER]
+"In our two-part treatise published in Surfaces and Interfaces in 2023, we presented the absolute mathematical refutation of this dogma. 
+
+Using rigorous numerical simulations of the classical Reflection Loss (RL) formulas, we proved a counter-intuitive truth: allowing more incident microwave to enter the material does not guarantee a stronger absorption peak. Similarly, maximizing the material's attenuation capacity does not guarantee a stronger peak. 
+
+In fact, we demonstrated that even when the incident wave entering the material is extremely small, and when the material's attenuation capacity is practically negligible, the film can still produce a phenomenally strong, near-perfect absorption peak. 
+
+How is this possible? Because the strength of an absorption peak is not a bulk material property. It is determined entirely by wave coherence and phase cancellation between the waves reflected from the front and rear boundaries. The mainstream has confused the linear attenuation of a bulk medium with the wave-plane interference of a finite device. By treating the film as a material rather than a boundary-value device, they completely missed the true physical mechanism."
+
+
+[SCENE 3: THE PARADOX OF ENERGY CONSERVATION | 第三幕：能量守恒定理的终极推导——后界面反射最强时，吸波峰才最强！]
+[Visual: A stunning mathematical animation showing the boundary equations from Ying Liu's 2022 Materials Chemistry and Physics paper (Part 2: The Real Mechanism). An elegant flux diagram displays incoming energy balancing with reflected energy. Equations animate on-screen, showing that the wave reflected from the back interface (|R2|) reaches its mathematical MAXIMUM precisely when the total Reflection Loss (RL) reaches its absolute MINIMUM (the absorption peak). A textbook schematic from Ying Liu's 2024 Elsevier Chapter (Figure 4.8) highlights that the absorption peak and the point where |Zin| = |Z0| are miles apart.]
+[Sound: A resonant, deep church bell, symbolizing an immutable law of physics.]
+
+[VOICEOVER]
+"Let us take this logic to its absolute physical limits. In our paper published in Materials Chemistry and Physics in 2022, we derived the rigorous relationship between energy conservation and boundary reflections. 
+
+The mathematical proof is beautiful and entirely undeniable. Due to the strict conservation of energy, the overall absorption peak of a backed film reaches its maximum strength ONLY when the wave reflected back from the rear interface—which we define as the amplitude $|R_2|$—reaches its absolute MAXIMUM! 
+
+Let that sink in. Mainstream journals claim that rear reflection must be minimized to maximize absorption. But basic electromagnetics proves the exact opposite: the peak can only exist through the cancellation of two strong, balanced waves. If the rear reflection is weak, it can never cancel the front reflection, and you get no peak.
+
+This is why, as we explicitly marked in Figure 4.8 of our 2024 Elsevier Book Chapter, the absorption peak NEVER occurs at $|Z_{in}| = |Z_0|$. This glaring mismatch is visible in literally every single experimentally reported paper in materials science history. Hundreds of authors published plots showing this discrepancy, yet not a single reviewer or editor caught it. They looked at the data, saw that the peak didn't match $|Z_{in}| = |Z_0|$, and continued to write 'impedance matching is satisfied' anyway. This is not science. It is blind ritual."
+
+
+[SCENE 4: EXPERIMENTAL CARGO CULTS & PHOW PHILOSOPHY | 第四幕：对庸俗唯象论的清算——实验绝非歪理邪说的遮羞布]
+[Visual: Typographical display of reviewer rejections: 'Your dielectric constant is not from real experimental measurements...' stamped with 'REJECT.' This fades into a high-contrast graphic of a classic "Cargo Cult" wooden airplane on an empty Pacific island runway. Text overlays: "Cargo Cult Science (唯灵崇拜 / 货教科学)".]
+[Sound: The ticking of a clock, building a tense, intellectual atmosphere.]
+
+[VOICEOVER]
+"When we submitted these rigorous logical proofs, how did the peer-review cartel respond? 
+		
+They did not find a single mathematical error. Instead, they rejected our work, saying: 'The dielectric constants and magnetic permeabilities used in your simulations are not measured from "real" materials.' Because we dared to negate the fifty-year consensus, they closed the doors. 
+		
+This is a textbook example of Cargo Cult Science. It represents a deeply flawed philosophical view that 'experiment is the sole standard for testing a theory.' 
+		
+If a theory is logically and mathematically inconsistent on its own, it is already false. You do not need to build a physical device to prove that 1+1 equals 5 is wrong. In our Applied Physics A paper, we showed that the phase difference is the absolute indicator of wave interference, which can be plotted deterministically. Rejecting pure mathematical proofs because they don't feature a 'measured sample' is like a medieval court refusing to look through Galileo's telescope because the glass wasn't ground by an authorized church craftsman."
+
+
+[SCENE 5: THE DISCIPLINARY VICTORY OF WAVE MECHANICS | 第五幕：波动力学对阻抗匹配的彻底终结]
+[Visual: Comparison of two plots: Left: An impedance matching plot predicting a single, artificial sharp peak. Right: A Wave Mechanics simulation showing broad, multi-absorption peaks under realistic boundaries, which perfectly match experimental records. Then, the simulation transitions to the extreme case: all incident wave enters the film (no front reflection). The wave decays slowly and linearly with NO absorption peak, yet the Wave Mechanics curve models this flat state flawlessly, while Impedance Matching fails completely.]
+[Sound: An inspiring, sweeping orchestral theme rises to a climax.]
+
+[VOICEOVER]
+"To protect their monopoly, mainstream scientists launched a counter-attack. They argued: 'For different materials, the Reflection Loss curves are different, therefore material properties must decide absorption!' 
+
+Of course different materials have different curves—the complex permittivity and permeability dictate the speed and phase of the wave. But the Impedance Matching Theory has never understood *how* that absorption occurs. 
+
+Only the Wave Mechanics Theory of Microwave Absorption provides the correct physical explanation. It models the wave interference exactly, and places material attenuation in its proper, supporting role. 
+
+Furthermore, as we proved in our Journal of Applied Physics 2023 paper and Physica Scripta 2022 paper, even in the extreme case where wave interference cannot occur—such as when the wave enters the film completely without front boundary reflection—there is no absorption peak. The wave simply decays monotonically. Wave Mechanics describes this flat state flawlessly, while the Impedance Matching Theory completely collapses, predicting a sharp peak that doesn't exist.
+
+The verdict of history is clear. Consensus cannot change the laws of physics. Stand with math, stand with wave mechanics, and refuse the scholarly alchemy.
+
+Read the complete publications on Substack and SSRN. 
+
+Thank you for watching."`;
+
+  const youtubeDescText21 = `Lecture 8: Why the Impedance Matching Theory of Microwave Absorption is Wrong.
+
+In this eighth lecture of our Wave Mechanics series, we present the definitive, unassailable physical and mathematical demolition of "Impedance Matching Theory" in microwave absorption. We deconstruct the 50-year-old dogma that has led materials science into a half-century dead end of cargo cult publications.
+
+Key Concepts Deconstructed in this Lecture:
+1. The Core Dogma of Impedance Matching (IM): Explaining the mainstream claims that absorption peak intensity is determined by |Zin| = |Z0|, and that weaker rear reflection guarantees a stronger peak (exemplified by Fig 7 of M. Cao's JMCC 2018 paper on graphene nanohybrids).
+2. The Overturning Proofs (Surfaces and Interfaces 2023, Part 1 & Part 2): Showing through rigorous numerical simulation of the Reflection Loss (RL) formula that:
+   - More wave penetration does NOT guarantee a stronger absorption peak.
+   - Greater material attenuation capacity does NOT guarantee a stronger absorption peak.
+   - A near-perfect peak can occur under minimal wave penetration and low attenuation due to wave interference!
+3. The Energy Conservation Paradox (Mater. Chem. Phys. 2022, Part 2): Proving that due to energy conservation, the absorption peak is strongest ONLY when the microwave reflected from the rear interface (|R2|) reaches its absolute MAXIMUM—the exact opposite of the consensus!
+4. The |Zin| = |Z0| Mismatch: Referencing Chapter 4 of our 2024 Elsevier book chapter (Figure 4.8), which clearly shows that the absorption peak does not occur at the impedance matching point in all reported literature.
+5. Deconstructing Cargo Cult Reviewers: Critiques of the flawed empiricism that rejects mathematical proofs because they are "not measured from real materials." (Reference Substack: "Which research is important").
+6. Wave Mechanics vs. Impedance Matching: Detailing why only the Wave Mechanics Theory of Microwave Absorption accurately describes wave interference and material attenuation, even holding true when no interference exists (producing no peak), as shown in Journal of Applied Physics 2023 and Physica Scripta 2022.
+
+📖 PRIMARY SCIENTIFIC LITERATURE & PROOFS:
+➔ https://doi.org/10.1016/j.surfin.2023.103022 (Surfaces and Interfaces 2023, Part 1)
+➔ https://doi.org/10.1016/j.surfin.2023.103024 (Surfaces and Interfaces 2023, Part 2)
+➔ https://doi.org/10.1016/j.matchemphys.2022.126601 (Materials Chemistry and Physics 2022, Part 2)
+➔ https://doi.org/10.1016/B978-0-323-90035-5.00013-1 (Elsevier Book Chapter 4, 2024)
+➔ https://doi.org/10.1007/s10854-024-12128-4 (Applied Physics A 2024)
+➔ https://doi.org/10.1063/5.0153612 (Journal of Applied Physics 2023)
+➔ https://doi.org/10.1088/1402-4896/ac3b12 (Physica Scripta 2022, Part 2)
+
+📚 IN-DEPTH CRITIQUES & PREPRINTS:
+➔ https://yueliusd.substack.com/p/which-research-is-important (Which research is important)
+➔ https://yueliusd.substack.com/p/defining-important-research-the-confused (Defining "Important" Research)
+➔ https://yueliusd.substack.com/p/rejection-letters-as-data-advanced-78a (Rejection Letters As Data)
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: The Impedance Matching Illusion & M. Cao's 2018 Dogma
+2:10 - Overturning the Consensus: Surfaces and Interfaces 2023 (Part 1 & 2)
+4:45 - The Paradox of Energy Conservation: Maximum Rear Reflection for Maximum Peak
+7:30 - The Hidden Mismatch: Why the Peak Never Occurs at |Zin| = |Z0| (Elsevier 2024)
+9:55 - Cargo Cult Peer-Review & Flawed "Experiment-Only" Philosophy
+12:15 - Mainstream Backlash & The Complete Disciplinary Victory of Wave Mechanics
+
+#WaveMechanics #MicrowaveAbsorption #ImpedanceMatching #YueLiu #Substack #SSRN #AcademicIntegrity #WaveCancellation #Elsevier #AppliedPhysics #WavePhysics`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -1899,7 +2016,8 @@ Primary Research Treatises, Bibliographies & Critiques:
     activeProject === "project17" ? youtubeScriptText17 :
     activeProject === "project18" ? youtubeScriptText18 :
     activeProject === "project19" ? youtubeScriptText19 :
-    youtubeScriptText20;
+    activeProject === "project20" ? youtubeScriptText20 :
+    youtubeScriptText21;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -1921,7 +2039,8 @@ Primary Research Treatises, Bibliographies & Critiques:
     activeProject === "project17" ? youtubeDescText17 :
     activeProject === "project18" ? youtubeDescText18 :
     activeProject === "project19" ? youtubeDescText19 :
-    youtubeDescText20;
+    activeProject === "project20" ? youtubeDescText20 :
+    youtubeDescText21;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2276,6 +2395,22 @@ Primary Research Treatises, Bibliographies & Critiques:
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-500 animate-pulse" />
             Project T: Slicing the Dogma
           </button>
+          <button
+            onClick={() => {
+              setActiveProject("project21");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project21"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project21"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-550 animate-pulse" />
+            Project U: Matching Fallacy
+          </button>
         </div>
       </div>
 
@@ -2612,6 +2747,30 @@ Primary Research Treatises, Bibliographies & Critiques:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project U */}
+      {activeProject === "project21" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 8: Why Impedance Matching Theory is Wrong • 第八讲：微波吸收的阻抗匹配理论为什么是错的
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第八讲彻底推翻了吸波领域根深蒂固的‘阻抗匹配理论’，系统性批判了被学术界奉为圭臬的 |Zin| = |Z0| 伪命题（如曹茂盛JMCC 2018年高引论文图7声称‘后界面反射越弱则吸收峰越强’）。基于 Surfaces and Interfaces 2023 (Part 1 & Part 2) 的严格数值模拟，视频证明了：微波进入材料的多少与材料的衰减能力强弱，均不能保证吸收峰强度；即使入射微波极少、衰减极弱，吸收峰也可以极强。这是因为吸波峰强度由波动干涉（Wave Interference）决定。最震撼的物理真相（Mater. Chem. Phys. 2022 Part 2）在于：根据能量守恒定律，只有当从膜后界面反射回来的微波 |R2| 达到最大值时，吸收峰才能达到最强！同时，Elsevier 2024 书籍第四章（图4.8）无可辩驳地指出：在历史上所有实验文献的报道中，吸收峰均不发生在 |Zin| = |Z0| 处，然而竟无一人指出该漏洞。同行评审以‘介电常数非实测’、‘否定共识’为由蛮横退稿，是典型的‘货拜族科学（Cargo Cult Science）’和‘实验是检验真理唯一标准’狭隘哲学观的体现。唯有‘微波吸收的波动力学理论’才能准确描述波的干涉，并在无干涉存在时依然完美符合物理真实（J. Appl. Phys. 2023 / Physica Scripta 2022）。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Impedance Matching Myth (阻抗匹配神话终结：|Zin| = |Z0| 绝非吸波峰发生位置)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Energy Conservation Proof (能量守恒反向推导：后界面反射最大时吸波最强)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Surfaces and Interfaces 2023 (《Surfaces and Interfaces 2023》两部曲干涉理论)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -2640,7 +2799,8 @@ Primary Research Treatises, Bibliographies & Critiques:
                   activeProject === "project17" ? "Project Q" :
                   activeProject === "project18" ? "Project R" :
                   activeProject === "project19" ? "Project S" :
-                  "Project T"
+                  activeProject === "project20" ? "Project T" :
+                  "Project U"
                 })</span>
               </div>
               <button
