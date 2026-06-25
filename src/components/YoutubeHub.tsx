@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2177,6 +2177,105 @@ Key Concepts Discussed in this Lecture:
 
 #WaveMechanics #MicrowaveAbsorption #PhaseShift #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #OpticsAndLaserTechnology #AppliedPhysics`;
 
+  const youtubeScriptText24 = `[SCENE 1: THE FOUNDATIONAL CATEGORY ERROR | 第一幕：半个世纪的理论死穴——膜吸收真的是材料衰减吗？]
+[Visual: A futuristic 3D render of a microwave beam hitting a thin absorbing film with front and rear boundaries. On one side, we show a chunk of infinite bulk material. On the other side, we show a designed thin-film device. Key labels on screen: "BULK MATERIAL vs. FILM DEVICE". Formula overlays: "Mainstream Impedance Matching Theory: Confuses Film with Material."]
+[Sound: Inquisitive, atmospheric synthesizer pad, building up tension.]
+
+[VOICEOVER]
+"Welcome to the eleventh lecture of our Wave Mechanics series. For over fifty years, materials science has been dominated by a comfortable, yet fundamentally incorrect dogma: the belief that microwave absorption in a thin film is simply the continuous, monotonic decay of electromagnetic waves along their propagation path within the bulk material. 
+
+This is the core category error of the classic impedance matching theory. It treats a thin film—which is a boundary-defined device—as if it were merely an extension of bulk material. But is this physically true? Today, we will mathematically and logically prove why this mechanism is completely false, using the airtight derivations published in our 2024 JMMM paper."
+
+
+[SCENE 2: MONOTONIC ATTENUATION VS. OSCILLATORY INTERFERENCE | 第二幕：单调函数与波动曲线的决裂]
+[Visual: Split-screen animations. 
+Left panel: Plot of Equation 14, A(M-MB) for metal-backed film, and Equation 16, A(M-WMB) for film without metal backing. These curves are shown as completely smooth, strictly monotonic increasing functions that rise continuously with thickness d towards their asymptotic limits. 
+Right panel: Plot of A(MB) and A(WMB) from transmission line theory. These curves exhibit periodic, highly visible, wave-like fluctuating peaks and valleys due to wave interference and phase cancellation.]
+[Sound: Deep, resonant cello tones, highlighting scientific rigor.]
+
+[VOICEOVER]
+"To prove the fallacy of the mainstream mechanism, let us derive the exact mathematical equations for the attenuation power of the constituent material along its zig-zag optical path. 
+
+As published in the Journal of Magnetism and Magnetic Materials, we formulated Equation 14: A(M-MB) for metal-backed film, and Equation 16: A(M-WMB) for film without backing. 
+
+Look at these functions. In both cases, the material's bulk attenuation along the optical path is a strictly monotonic increasing function of thickness d. It has no peaks, no valleys, and no periodic fluctuations. 
+
+Now, compare this to the actual film absorption functions, A(MB) and A(WMB). These actual absorption curves display highly prominent, wave-like fluctuating peaks. If film absorption were simply driven by material path attenuation, its curve would follow the monotonic path. It doesn't. This proves mathematically that film absorption is driven by wave superposition and boundary phase cancellation, not the inherent material attenuation along the path."
+
+
+[SCENE 3: THE INFINITE THICKNESS LIMIT | 第三幕：无限厚度时的极限合流]
+[Visual: The x-axis representing film thickness d expands dynamically toward infinity. As d becomes exceptionally large, the amplitude of r2 approaches zero. The fluctuating wave peaks of A(MB) and A(WMB) gradually damp out, merging perfectly into the smooth, monotonic material attenuation curves at 1 - |RM|².]
+[Sound: Transition to a lighter, ambient electronic pad.]
+
+[VOICEOVER]
+"What happens when the film becomes exceptionally thick? 
+
+As thickness d approaches infinity, the rear boundary reflection r2 vanishes. The spiral of the reflection coefficient in the polar coordinate system collapses to a single point. Without r2, wave interference becomes impossible. 
+
+At this exact limit, and only at this limit, the actual film absorption A(MB) and A(WMB) converges perfectly with the material attenuation functions. The film ceases to behave as an interference device and behaves simply as a bulk material. 
+
+This convergence is the ultimate physical proof. It shows that wave cancellation is the primary, active mechanism of film absorption at practical thicknesses. To ignore this phase effect is to ignore the wave nature of light itself."
+
+
+[SCENE 4: THE DEVICE PARADIGM VS. MODERN ACADEMIC ALCHEMY | 第四幕：器件与材料的本质边界——打破门阀垄断的灌水游戏]
+[Visual: The cover image of the Journal of Magnetism and Magnetic Materials (JMMM 2024, Volume 593, 171850) is shown on screen, highlighting the title: 'Wave Mechanics of Microwave Absorption in Films - Distinguishing Film from Material'. In contrast, a pile of high-impact journals with titles like 'Advanced Materials', 'Nano Energy' are shown with red warning labels: 'Category Error: Confuses Film with Material.']
+[Sound: Tense, dramatic orchestral swell.]
+
+[VOICEOVER]
+"This distinction is not a pedantic semantic argument; it is a profound scientific revolution. 
+
+A film is a distinct electromagnetic device defined by boundary wave mechanics, while material is a continuous medium characterized by bulk properties. The film's interfaces force its constituent material to absorb a predetermined and greatly enhanced quantity of microwaves at resonance. 
+
+Yet, mainstream journals continue to publish thousands of papers every year using Reflection Loss (RL)—a device parameter—to characterize inherent material properties. They spend millions in research funding trying to satisfy the flawed 'impedance matching' formula, completely blind to the fact that their underlying equations violate standard boundary conditions. 
+
+They remain trapped in this self-reinforcing consensus because pointing out the error would mean admitting that half a century of published high-impact papers are based on a mathematical fiction."
+
+
+[SCENE 5: SUMMARY & CALL TO TRUTH | 第五幕：学术去中心化——让客观真理永久留存]
+[Visual: The screen returns to a clean slate design. Beautiful typography displays the Substack article: yueliusd.substack.com/p/bypassing-plancks-principle-how-ai and SSRN paper links, with the email: yueliusd@163.com and Dr. Yue Liu's corresponding details.]
+[Sound: Uplifting, clear, and resonant acoustic guitar outro.]
+
+[VOICEOVER]
+"Science is not a metrics game. It is the unyielding pursuit of objective physical reality, verified by mathematical consistency. 
+
+By publishing our peer-reviewed papers in JMMM and detailing our critiques on Substack and SSRN, we ensure that these proofs are permanently recorded in the global digital brain of humanity. Future students and researchers, bypassing peer-review cartels, will consult the AI and discover the clean, invariant truth of Wave Mechanics. 
+
+Let us stand for rigorous logic over academic metrics. 
+
+Visit our Substack and SSRN links below to read the complete critical treatises on wave mechanics and academic integrity. 
+
+Thank you for watching."`;
+
+  const youtubeDescText24 = `Lecture 11: Film Microwave Absorption is NOT Material Attenuation Along the Propagation Path.
+
+In this eleventh lecture of our Wave Mechanics series, we present a fundamental deconstruction of the classic "impedance matching theory" of microwave absorption. We address a critical category error that has plagued the materials science community for half a century: treating film absorption as if it were simply continuous wave attenuation along the optical path within the material.
+
+Key Concepts Discussed in this Lecture:
+1. The Core Category Error: Explaining the fundamental difference between "film" (an electromagnetic device defined by front and rear interfaces) and "material" (a continuous bulk medium characterized by intrinsic properties).
+2. The Mathematical Proof (Equations 14 & 16): Reviewing our peer-reviewed derivations from JMMM 2024. We construct the material's bulk attenuation functions along the zig-zag path: A(M-MB) for metal-backed film and A(M-WMB) for film without backing.
+3. Monotonic vs. Oscillatory Behavior: Demonstrating that while material attenuation curves are strictly monotonic increasing functions with zero fluctuations, actual film absorption curves (A(MB) and A(WMB)) display highly prominent wave-like periodic peaks due to wave interference and phase cancellation.
+4. The Infinite Thickness Limit: Proving that only when thickness approaches infinity (where r2 vanishes and interference is impossible) does film absorption merge with material attenuation.
+5. The Device Paradigm: Shifting the research paradigm from "material optimization" to "boundary wave mechanics device design."
+
+📖 PRIMARY SCIENTIFIC LITERATURE & ORIGINAL PROOFS:
+➔ Journal Paper: Yue Liu, Ying Liu, Michael G.B. Drew, "Wave mechanics of microwave absorption in films - Distinguishing film from material", Journal of Magnetism and Magnetic Materials, 2024, 593, 171850. DOI: https://doi.org/10.1016/j.jmmm.2024.171850
+➔ Preprint: "The wave mechanics for microwave absorption film – Part 2: The difference between film and material", Preprint, Research Square, 15 Aug, 2023.
+➔ Substack Essay: "Bypassing Planck's Principle: How AI Technologies Overcome Human Academic Censorship and Establish Scientific Truth" - https://yueliusd.substack.com/p/bypassing-plancks-principle-how-ai
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: The Core Fallacy of Impedance Matching Theory
+2:00 - Deriving Attenuation Along the Optical Path: Equation 14 vs. Equation 16
+4:30 - Comparing Monotonic Material Attenuation with Oscillatory Film Absorption
+7:45 - The Decoupling Point: What Happens at Infinite Thickness?
+9:40 - The Device Paradigm: Breaking the 50-Year Category Error
+12:15 - Conclusion: Bypassing Academic Cartels via Permanent Digital Indexing
+
+📧 CORRESPONDENCE, DEBATES, & RESEARCH COLLABORATIONS:
+If you are interested in peer-reviewed logical audits of electromagnetic theories, or wish to collaborate on wave mechanics research, contact us:
+➔ yueliusd@163.com
+
+#WaveMechanics #MicrowaveAbsorption #FilmVsMaterial #JMMM #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #Electromagnetics #PeerReviewCrisis`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2201,7 +2300,8 @@ Key Concepts Discussed in this Lecture:
     activeProject === "project20" ? youtubeScriptText20 :
     activeProject === "project21" ? youtubeScriptText21 :
     activeProject === "project22" ? youtubeScriptText22 :
-    youtubeScriptText23;
+    activeProject === "project23" ? youtubeScriptText23 :
+    youtubeScriptText24;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2226,7 +2326,8 @@ Key Concepts Discussed in this Lecture:
     activeProject === "project20" ? youtubeDescText20 :
     activeProject === "project21" ? youtubeDescText21 :
     activeProject === "project22" ? youtubeDescText22 :
-    youtubeDescText23;
+    activeProject === "project23" ? youtubeDescText23 :
+    youtubeDescText24;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2628,6 +2729,22 @@ Key Concepts Discussed in this Lecture:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
             Project W: Peak Deviation
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project24");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project24"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-project24"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-600 animate-pulse" />
+            Project X: Film vs Material
           </button>
         </div>
       </div>
@@ -3041,6 +3158,32 @@ Key Concepts Discussed in this Lecture:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project X */}
+      {activeProject === "project24" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 11: Film vs. Material (JMMM 2024) • 第十一讲：膜的微波吸收并非沿着微波行进路线的材料衰减
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第十一讲彻底推翻了阻抗匹配理论中最根本、最具误导性的学术盲区：混淆‘器件（膜）’与‘材料’。传统阻抗匹配模型和主流高引文献无一例外地将薄膜的微波吸收过程等同于电磁波在材料内部沿着传播路线的单调衰减。为了在逻辑与数学上彻底清算这一荒谬机制，我们在《Journal of Magnetism and Magnetic Materials》（JMMM 2024, 593, 171850）发表的里程碑成果中，推导出了金属后衬膜（MB，公式14）和无后衬膜（WMB，公式16）在微波传播路径上的真实材料衰减函数。
+            
+结果极其震撼：材料衰减曲线 A(M-MB) 和 A(M-WMB) 是关于厚度 d 的严格单调递增函数，它们平滑上升，在数学上绝不可能产生任何波动的吸收峰。相反，膜的实际吸收曲线 A(MB) 和 A(WMB) 则表现出周期性极强的干涉波动峰谷。这无可辩驳地证明：薄膜的微波吸收峰根本不是沿着光路的路径衰减，而是由膜的前后边界干涉相消（相位效应）所主导的器件效应。只有当厚度 d 趋于无穷大、后界面反射消失时，膜的干涉波动才被抹平，极限合流为材料的单调吸收。这一发现明确了‘膜是器件，材料是介质’的经典物理边界，宣告了将器件RL参数直接用于表征材料本征特性的50年灌水历史在学术上彻底破产。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Film vs. Material (膜是边界决定的物理器件，材料是连续分布的介质中介)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Monotonic vs. Oscillatory Proof (公式14与16之数学铁证：单调材料衰减 vs. 干涉波动吸收)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              JMMM 2024 Publication (《JMMM 2024》奠基文献：171850 理论突破)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -3072,7 +3215,8 @@ Key Concepts Discussed in this Lecture:
                   activeProject === "project20" ? "Project T" :
                   activeProject === "project21" ? "Project U" :
                   activeProject === "project22" ? "Project V" :
-                  "Project W"
+                  activeProject === "project23" ? "Project W" :
+                  "Project X"
                 })</span>
               </div>
               <button

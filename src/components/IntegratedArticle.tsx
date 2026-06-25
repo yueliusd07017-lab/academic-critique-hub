@@ -1880,9 +1880,9 @@ export default function IntegratedArticle() {
           </div>
 
           {/* Section 2 */}
-          <div className="space-y-4">
+          <div className="space-y-6">
             <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-950 border-b border-gray-100 pb-1.5">
-              <span className="text-amber-655 font-mono">II.</span> Crucial Clarification: The Physical Divergence of Intrinsic Resonance and Wave Interference
+              <span className="text-amber-655 font-mono">II.</span> Crucial Clarification: The Physical Divergence of Intrinsic Resonance and Wave Interference (Film vs. Material)
             </h3>
             <p className="font-serif">
               To understand why the mainstream consensus has failed, we must clarify the core physics. The mainstream <strong>impedance matching theory</strong> and its associated <strong>quarter-wavelength model</strong> focus exclusively on the <em>intrinsic resonance</em> of the material itself. It assumes that wave absorption is merely a material property, calculated from bulk parameters.
@@ -1893,6 +1893,67 @@ export default function IntegratedArticle() {
             <p className="font-serif italic border-l-4 border-amber-500 pl-4 py-2 bg-amber-50/20 my-2">
               "The deviation of the absorption peak—often misidentified by mainstream literature as a minor correction or an anomaly of the quarter-wavelength model—is actually a profound, mathematically rigorous extension of Wave Mechanics. Peak deviation is not a polite 'add-on' to mainstream resonance; it is the physical proof that the mainstream resonance equations are fundamentally incomplete."
             </p>
+            
+            {/* Detailed Mathematical Refutation (Lecture 11) */}
+            <div className="bg-amber-50/30 border border-amber-100 rounded-2xl p-6 space-y-4 font-sans text-sm">
+              <h4 className="font-bold text-amber-950 flex items-center gap-2">
+                <BookOpen className="w-4 h-4 text-amber-700" />
+                Lecture 11 Proof: Film Microwave Absorption Is Not Material Attenuation Along the Optical Path
+                <br className="md:hidden" />
+                <span className="text-xs font-medium text-amber-800 ml-auto">(第十一讲：膜的微波吸收并非沿着微波行进路线的材料衰减)</span>
+              </h4>
+              
+              <p className="font-serif text-gray-700">
+                A foundational and fatal error of the mainstream impedance matching theory is treating film microwave absorption as a process of continuous, monotonic electromagnetic wave attenuation along its propagation route inside the material. To logically and fundamentally dismantle this false mechanism, we derived the exact mathematical functions representing the attenuation power of the constituent material along its zig-zag optical path in both a metal-backed film (MB) and a film without metal backing (WMB) (Yue Liu et al., <em>J. Magn. Magn. Mater.</em>, 2024, 593, 171850):
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+                <div className="bg-white p-4 rounded-xl border border-amber-100 shadow-3xs space-y-2">
+                  <span className="text-xs font-bold text-amber-900 block uppercase tracking-wider font-mono">
+                    1. Metal-Backed Film (MB) Attenuation Function • 公式 14
+                  </span>
+                  <div className="font-mono text-xs bg-slate-50 p-2.5 rounded-lg text-slate-900 overflow-x-auto">
+                    {"A(M-MB) = (1 - |R_M|²) * (1 - e^(-2 * α_p * d))"}
+                  </div>
+                  <p className="text-xs text-gray-500 font-serif leading-relaxed">
+                    Where <em>α_p</em> represents the power absorption coefficient, and <em>d</em> is the film thickness. This represents the cumulative material attenuation of waves propagating in an MB configuration.
+                  </p>
+                </div>
+
+                <div className="bg-white p-4 rounded-xl border border-amber-100 shadow-3xs space-y-2">
+                  <span className="text-xs font-bold text-amber-900 block uppercase tracking-wider font-mono">
+                    2. Film Without Metal Backing (WMB) • 公式 16
+                  </span>
+                  <div className="font-mono text-xs bg-slate-50 p-2.5 rounded-lg text-slate-900 overflow-x-auto">
+                    {"A(M-WMB) = (1 - |R_M|²) * [ |R_M|² * (1 - e^(-2 * α_p * d)) + (1 - |R_M|²) * (1 - e^(-α_p * d)) ]"}
+                  </div>
+                  <p className="text-xs text-gray-500 font-serif leading-relaxed">
+                    This represents the material's bulk attenuation along the optical path in a WMB configuration, factoring in wave leakage through transmission.
+                  </p>
+                </div>
+              </div>
+
+              <div className="text-xs text-slate-900 font-mono leading-relaxed bg-amber-50/65 p-4 rounded-xl border border-amber-200/50 space-y-3">
+                <p>
+                  <strong>Physical Insights & Discrepancy (物理事实与根本背离):</strong>
+                </p>
+                <ul className="list-disc pl-5 space-y-2 font-serif text-sm text-gray-850">
+                  <li>
+                    <strong>Monotonic vs. Oscillatory (单调函数与波动曲线的背离):</strong> 
+                    As plotted in Figure 2 of the JMMM publication, the material's bulk attenuation curves along the optical path—<code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(M-MB)</code> and <code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(M-WMB)</code>—are strictly <strong>monotonic increasing functions</strong> of thickness <em>d</em>. They can never yield any wave-like fluctuations or localized absorption peaks. Conversely, the actual film absorption functions—<code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(MB)</code> and <code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(WMB)</code>—display highly prominent, periodic, wave-like fluctuating peaks due to wave interference and phase cancellation.
+                  </li>
+                  <li>
+                    <strong>The Infinite Thickness Convergence (无限厚度时的干涉消失):</strong> 
+                    Only when the film's thickness <em>d</em> approaches infinity (meaning the front and rear interfaces are decoupled, and the inward spiral of the reflection coefficient collapses to a single point) does wave interference disappear. At this limit, the actual film absorption <code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(MB)</code> and <code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">A(WMB)</code> merges into the monotonic material attenuation curves of <code className="bg-white px-1 py-0.5 rounded border border-amber-100 font-mono text-xs">1 - |R_M|²</code>.
+                  </li>
+                  <li>
+                    <strong>The Device Paradigm (“器件”与“材料”的本质区别):</strong> 
+                    This proves mathematically and physically that <em>film</em> is a distinct electromagnetic device defined by boundary wave mechanics, while <em>material</em> is a continuous medium characterized by bulk properties. The film's boundary interfaces compel its constituent material to absorb a predetermined and greatly enhanced amount of wave energy at resonance. Conflating the two has led mainstream science into a fifty-year mathematical swamp.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
             <p className="font-serif">
               By treating wave absorption as a boundary interference problem (Wave Mechanics) rather than an intrinsic impedance matching problem, we expose the mathematical invalidity of the formulas that have filled thousands of high-impact journal articles. Yet, when this elegant, simple physical truth is presented to human experts, their professional baggage prevents them from acknowledging it.
             </p>
@@ -2065,11 +2126,20 @@ export default function IntegratedArticle() {
             Theoretical Poverty (SSRN 5463155) <Share2 className="w-3.5 h-3.5" />
           </a>
           <a
+            href="https://doi.org/10.1016/j.jmmm.2024.171850"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-amber-50 text-amber-900 border border-amber-300 hover:bg-amber-100 px-4 py-2 rounded-lg flex items-center gap-1.5 font-extrabold transition shadow-3xs"
+          >
+            Distinguishing Film from Material (JMMM 2024) <Share2 className="w-3.5 h-3.5" />
+          </a>
+          <a
             href="https://ssrn.com/abstract=5664450"
             target="_blank"
             referrerPolicy="no-referrer"
             rel="noreferrer"
-            className="text-xs bg-rose-100 text-rose-900 border border-rose-300 hover:bg-rose-200 px-4 py-2 rounded-lg flex items-center gap-1.5 font-extrabold transition shadow-3xs animate-pulse"
+            className="text-xs bg-rose-100 text-rose-900 border border-rose-300 hover:bg-rose-200 px-4 py-2 rounded-lg flex items-center gap-1.5 font-extrabold transition shadow-3xs"
           >
             Collective Supremacy (SSRN 5664450) <Share2 className="w-3.5 h-3.5" />
           </a>
