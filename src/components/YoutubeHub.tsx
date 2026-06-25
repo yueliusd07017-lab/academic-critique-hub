@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2091,6 +2091,92 @@ Key Concepts Discussed in this Lecture:
 
 #WaveMechanics #MicrowaveAbsorption #MaterialAttenuation #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #MaterialsChemistryAndPhysics #AppliedPhysics`;
 
+  const youtubeScriptText23 = `[SCENE 1: THE DISCREPANCY REVEALED | 第一幕：不落于180度的吸收峰——直面实验与理论的偏离]
+[Visual: A beautiful dynamic animation of an electromagnetic wave entering a film. The reflection loss curve (RL) is plotted alongside the r2 amplitude curve. Vertical lines mark the exact 180° (pi) and 360° (2pi) phase differences. The audience sees that the minimum of the RL curve (the absorption peak) is shifted to the right of 180°, and the maximum of r2 is shifted to the left of 180°. These offsets are highlighted in glowing red and green text, referencing Optics and Laser Technology 2024 and Surfaces and Interfaces 2023.]
+[Sound: Inspiring, inquisitive electronic music.]
+
+[VOICEOVER]
+"Welcome to the tenth lecture of our Wave Mechanics series. Today, we address a fascinating and profound question: Why doesn't the microwave absorption peak occur exactly at a 180-degree phase difference between the front reflection r1 and the rear reflection r2?
+
+According to naive intuition, perfect cancellation should happen when r1 and r2 are exactly out of phase—at 180 degrees. Yet, rigorous experimental data and exact transmission line equations reveal a consistent shift: the absolute minimum of Reflection Loss, absolute RL, actually occurs at a phase difference *greater* than 180 degrees. Meanwhile, the maximum amplitude of r2 is shifted to a phase difference *less* than 180 degrees.
+
+For half a century, mainstream theories like the quarter-wavelength model could not offer a clear or physically consistent explanation for these shifts. Our Wave Mechanics Theory solves this puzzle elegantly using basic wave superposition principles."
+
+
+[SCENE 2: THE INTERFERENCE-ATTENUATION BALANCE | 第二幕：幅值衰减与相位变化的博弈机制]
+[Visual: A split screen. On the left, an animation shows a vector diagram with r1 and r2 vectors. On the right, the mathematical derivatives (Equations 13 and 14 from the Optics & Laser Technology paper) appear. An animated graph shows what would happen if |r2| were constant (yielding a perfect 180° peak) versus what happens when |r2| decreases monotonically with thickness.]
+[Sound: Deep, focused cello tones, suggesting intellectual depth.]
+
+[VOICEOVER]
+"To understand this shift, let us perform a simple mental experiment.
+
+Imagine if the amplitude of the rear-interface reflection r2 were a constant, independent of the phase difference. In this idealized case, the Reflection Loss would be governed solely by the phase effect. The rate of change of RL with respect to phase difference would be exactly zero at 180 degrees, meaning the absorption peak would align perfectly with the 180-degree line.
+
+But in any real absorbing film, r2 is NOT constant. As the film thickness d increases, the phase difference increases, but simultaneously, the material's attenuation dampens the amplitude of r2 at a constant, monotonic rate.
+
+Let us look at what happens at exactly 180 degrees. Because the phase difference is 180 degrees, the phase effect is at its extreme. But since the amplitude of r2 is still decreasing as thickness increases, this amplitude decay continues to drive the combined Reflection Loss, absolute RL, even lower! Therefore, the absolute minimum of RL is dragged past 180 degrees.
+
+Only when the phase effect—which wants to increase r2 as the phase difference shifts toward 360 degrees—perfectly balances the monotonic material attenuation effect, does RL reach its true minimum. This balance occurs at a phase difference greater than 180 degrees. Once the phase effect dominates, RL begins to rise."
+
+
+[SCENE 3: THE COMPELLING EVIDENCE AND SCIENTIFIC COMPARISON | 第三幕：大道至简与复杂不得要领的学术分野]
+[Visual: A slide listing the flawed papers from mainstream literature (Zhang et al. 2020, Hou et al. 2024, Wang et al. 2022) with their incredibly complex, multi-page mathematical treatments marked with a red 'X'. In contrast, Yue Liu's 2024 short review and 2023 Surfaces and Interfaces papers appear with a gold star, showing the clean, high-school-algebra-level wave equations.]
+[Sound: A light-hearted, slightly ironic academic chime.]
+
+[VOICEOVER]
+"Our Wave Mechanics Theory explains this shift using nothing more than undergraduate wave superposition and simple derivatives. It is an unassailable proof of the theory's correctness.
+
+Contrast this with mainstream impedance matching and quarter-wavelength models. Mainstream authors have long recognized that absorption peaks deviate from the quarter-wavelength thickness. To explain this, they published papers with highly complicated, dense, and difficult-to-follow mathematical treatments.
+
+But as we proved in our critiques published in Materials Chemistry and Physics and Journal of Applied Physics, these complex formulations are mathematically and physically flawed. They run in circles because they fail to grasp the fundamental nature of wave cancellation.
+
+The truth is often incredibly simple—'da dao zhi jian'—the greatest truths are the simplest. Flawed theories appear complex and mature, but in reality, their complexity is merely a symptom of missing the physical core. When you grasp the essence, a complicated problem can be solved with middle-school math and undergraduate physics."
+
+
+[SCENE 4: THE SYSTEMIC CRISIS IN ACADEMIC PUBLISHING | 第四幕：追逐错误与拒斥真理——现代学术出版的深层忧思]
+[Visual: A stylized bar graph showing citation patterns. Highly-cited papers containing fundamental errors are on the left. Highly rigorous papers correcting those errors—which are ignored or blocked by peer reviewers—are on the left. The words 'ACADEMIC CENSORSHIP' and 'INTELLECTUAL DECLINE' appear on screen, referencing Yue Liu's 2025 SSRN papers.]
+[Sound: Dramatic, serious orchestral cadence.]
+
+[VOICEOVER]
+"This brings us to a troubling reality in contemporary scientific publishing.
+
+Why does modern academia favor complex, flawed models over simple, correct ones? If you write a paper full of incorrect formulas that fit experimental curves, it gets published and heavily cited. But if you expose these errors and present a simple, correct wave mechanics alternative, mainstream journals often reject it as 'too simple' or 'low-level.'
+
+This intellectual decline has turned academic publishing into an autocracy of peer-reviewed censorship. Scientists continue to cite flawed, unphysical papers because their own work is built on those very same errors. If your foundation is wrong, can your conclusions ever be right?
+
+We must have the courage to demand logical consistency and physical correctness. We must reclaim scientific publishing as a pursuit of true knowledge, not a cargo cult of empirical curve-fitting.
+
+Explore our complete series of proofs on Substack, SSRN, and ResearchGate.
+
+Thank you for your commitment to scientific truth."`;
+
+  const youtubeDescText23 = `Lecture 10: Why the Microwave Absorption Peak Does Not Occur Exactly at a 180-Degree Phase Difference.
+
+In this tenth lecture of our Wave Mechanics series, we resolve a critical question that has puzzled researchers for decades: Why do real microwave absorption peaks consistently deviate from a 180-degree phase difference between the front-boundary reflection (r1) and the rear-boundary reflection (r2)?
+
+Key Concepts Discussed in this Lecture:
+1. The 180-Degree Shift Phenomenon: Proving that the absolute minimum of Reflection Loss (|RL|) occurs at a phase difference greater than 180° (and maximum at < 360°), while the maximum of |r2| occurs at < 180° (and minimum at > 360°).
+2. The Mechanism of the Shift: Demonstrating that if r2 were constant, the peak would be at exactly 180°. However, because r2 is monotonically damped by material attenuation as thickness increases, this amplitude decay drags the RL minimum past 180° until the phase-effect and attenuation-effect reach a perfect balance.
+3. Great Truths are Simple ("Da Dao Zhi Jian"): Contrasting our elegant, undergraduate-level wave superposition explanation with the over-complicated, mathematically flawed "corrections" proposed by mainstream quarter-wavelength and impedance matching advocates.
+4. The Academic Publishing Crisis: Exposing the systemic bias in modern peer review where flawed, over-complex papers are heavily cited while rigorous corrections are censored or ignored.
+
+📖 PRIMARY SCIENTIFIC LITERATURE & PROOFS:
+➔ https://doi.org/10.1016/j.optlastec.2024.111211 (Optics & Laser Technology 2024 - A Short Review)
+➔ https://doi.org/10.1016/j.surfin.2023.103024 (Surfaces and Interfaces 2023, Part 2 - Angular Effects and Wave Cancellation)
+➔ https://doi.org/10.1007/s11664-024-11370-9 (Journal of Electronic Materials 2024 - Multilayered Films)
+➔ https://ssrn.com/abstract=5392646 (Yue Liu, SSRN 2025 - Critical Analysis of Citation Reliability)
+➔ https://ssrn.com/abstract=5679442 (Yue Liu, SSRN 2025 - Modern Academic Publishing as Autocratic Censorship)
+➔ https://ssrn.com/abstract=5463155 (Yue Liu, SSRN 2025 - The Theoretical Poverty of Modern Academia)
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: The Deviation from 180 Degrees
+2:15 - Deriving the Peak Shift: Attenuation vs. Phase Effect
+5:40 - Critique of Over-Complicated Mainstream Mathematics
+8:50 - 'Da Dao Zhi Jian': Why Simple Physics is Dismissed by Modern Journals
+11:20 - The Crisis of Citation and Academic Censorship
+
+#WaveMechanics #MicrowaveAbsorption #PhaseShift #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #OpticsAndLaserTechnology #AppliedPhysics`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2114,7 +2200,8 @@ Key Concepts Discussed in this Lecture:
     activeProject === "project19" ? youtubeScriptText19 :
     activeProject === "project20" ? youtubeScriptText20 :
     activeProject === "project21" ? youtubeScriptText21 :
-    youtubeScriptText22;
+    activeProject === "project22" ? youtubeScriptText22 :
+    youtubeScriptText23;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2138,7 +2225,8 @@ Key Concepts Discussed in this Lecture:
     activeProject === "project19" ? youtubeDescText19 :
     activeProject === "project20" ? youtubeDescText20 :
     activeProject === "project21" ? youtubeDescText21 :
-    youtubeDescText22;
+    activeProject === "project22" ? youtubeDescText22 :
+    youtubeDescText23;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2524,6 +2612,22 @@ Key Concepts Discussed in this Lecture:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-550 animate-pulse" />
             Project V: Material Mechanism
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project23");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project23"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project23"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
+            Project W: Peak Deviation
           </button>
         </div>
       </div>
@@ -2911,6 +3015,32 @@ Key Concepts Discussed in this Lecture:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project W */}
+      {activeProject === "project23" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 10: Microwave Absorption Peak Offsets • 第十讲：为什么微波吸收峰没有发生在相位差正好在 180° 的地方
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第十讲直击微波吸收物理学最核心的佯谬：为什么实际吸收峰从来不发生在光束 r1 和 r2 相位差正好为 180° 的地方？我们的波动力学理论对此给出了极其简洁且无可辩驳的证明。如果光束 r2 的振幅是不随厚度与相位变化的常数，那么 |RL| 表征的吸收峰确实将完美落在 180° 相位差处。但在实际有损介质中，材料衰减作用使 r2 的振幅随着厚度（即相位差）增加而单调衰减。当处于 180° 处时，虽然相位干涉达到了完美的相消条件，但由于 r2 仍在继续减小，导致合成的 |RL| 依然会因为幅值衰减而继续被向下拉低。因此，|RL| 的极小值（即真正的吸收峰）必然被推移到相位差大于 180° 的位置。同理，r2 的最大值也被推到了相位差小于 180° 处。
+            
+这一极其优雅的推导仅需初中代数与大学物理波叠加原理，便与无数实际实验数据完美符合，揭示了‘大道至简（Da Dao Zhi Jian）’的学术最高境界。相比之下，传统的阻抗匹配和四分之一波长理论为了凑合这一偏离，写出了极其晦涩、累赘且暗藏数学漏洞的复杂公式。更令人深思的是，现代学术界尊崇那些本末倒置、晦涩错误的冗长文献，却将我们一针见血、简单正确的波动力学理论拒之门外。这恰恰印证了现代学术界正经历严重的智力退化与唯灵审查审查，用堆砌垃圾和自我引用的灌水游戏，将真正的科学发现打入冷宫。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Phase-Attenuation Balance (相位效应与衰减效应的完美动态平衡机制)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Peak Deviation Prediction (完美预测：|RL|极小值大于180° / |R2|极大值小于180°)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Optics & Laser Technology 2024 (《Optics & Laser Technology 2024》波动力学特稿综述)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -2941,7 +3071,8 @@ Key Concepts Discussed in this Lecture:
                   activeProject === "project19" ? "Project S" :
                   activeProject === "project20" ? "Project T" :
                   activeProject === "project21" ? "Project U" :
-                  "Project V"
+                  activeProject === "project22" ? "Project V" :
+                  "Project W"
                 })</span>
               </div>
               <button
