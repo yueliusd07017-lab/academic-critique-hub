@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -1995,6 +1995,102 @@ Key Concepts Deconstructed in this Lecture:
 
 #WaveMechanics #MicrowaveAbsorption #ImpedanceMatching #YueLiu #Substack #SSRN #AcademicIntegrity #WaveCancellation #Elsevier #AppliedPhysics #WavePhysics`;
 
+  const youtubeScriptText22 = `[SCENE 1: DECONSTRUCTING TO THE CORE | 第一幕：波的消散——干涉与衰减的双重交响]
+[Visual: A stunning cinematic animation of an electromagnetic wave approaching a backed film. The overall wave splits into multiple rays. An overlay demonstrates how the infinite geometric series of reflections (the full transmission-line formula) simplifies into two main beams: the front-boundary reflection beam r1, and the rear-boundary reflection beam r2. The phase difference between r1 and r2 is shown in glowing golden degrees, shifting between 0° and 180°.]
+[Sound: Deep, resonant synthesizer hum, conveying an atmosphere of deep physical inquiry.]
+
+[VOICEOVER]
+"Welcome to the ninth lecture of our series on Wave Mechanics. In previous lectures, we demolished the half-century-old 'Impedance Matching Theory' of microwave absorption. Today, we reveal the *real* physical mechanism of microwave absorption in film, as published in our papers in Materials Chemistry and Physics in 2022.
+
+The standard Reflection Loss formula is mathematically derived from the superposition of an infinite number of back-and-forth reflections. However, this complex equation can be intuitively simplified into a beautiful, two-beam interference model: the superposition of the front-interface reflection beam, which we call r1, and the rear-interface reflection beam, r2.
+
+The boundary conditions dictate that the interface itself is zero-thickness and cannot absorb microwaves. Consequently, the front-boundary reflection r1 remains entirely unaffected by the material's attenuation properties. On the other hand, the rear-boundary reflection r2 travels through the thickness of the film and back, meaning its amplitude is strongly decayed by the material's attenuation.
+
+Therefore, the Wave Mechanics Theory of Microwave Absorption is elegant because it does not choose between wave interference and material attenuation. Instead, it perfectly integrates both: the phase is dictated by wave propagation and interference, while the amplitude of the second beam is tuned by material decay. When the phase difference between r1 and r2 is 180 degrees, absorption is maximized. When it is 0 degrees, absorption is minimized."
+
+
+[SCENE 2: THE ZERO-ABSORPTION BENCHMARK | 第二幕：无损介质的能量守恒推导：最震撼的干涉反直觉证明]
+[Visual: A high-contrast display of Figure 5 from Ying Liu's landmark 2022 Materials Chemistry and Physics paper (Part 2: The Real Mechanism). A pristine polar coordinate graph displays a circle c1 representing |RL| = 1, and circles c2 and c3 for r2. An animation shows a point P rotating around c1. The screen displays the case of zero attenuation (imaginary parts of permittivity and permeability equal to zero).]
+[Sound: A subtle electronic ticking clock, highlighting a mathematical proof.]
+
+[VOICEOVER]
+"To prove this mechanism beyond any doubt, let us consider an extreme benchmark: what happens when the material has absolutely ZERO ability to absorb microwaves? That is, when the imaginary parts of permittivity and permeability are both zero.
+
+Under this condition, the overall Reflection Loss, absolute RL, must be exactly 1 for all film thicknesses. Since the material cannot absorb energy, conservation of energy dictates that whatever enters the film must eventually be returned into free space via the rear-boundary reflection r2.
+
+But we must make a critical distinction here: one that mainstream scientists often completely confuse. We must distinguish between the total energy returned and the amplitude of the individual split beams. While the total returned energy is equal to the entering energy, energy is NOT the same as the amplitude of the individual split beams in the infinite ray series.
+
+Why can the amplitude of the combined rear-boundary reflection r2 be so large at a 180-degree phase difference? 
+If the returned energy has not yet fully met the physical boundary requirements—meaning the entering energy has not yet been entirely spat back out—the internal r2 beam amplitude inside the film cannot be zero. The wave must continue to reflect back and forth within the film until the integrated r2 matches the physical boundary value, and only then does the final remaining beam of the internal r2 series decay to zero.
+
+As we proved and plotted in Figure 5 of our 2022 Materials Chemistry and Physics paper:
+When the phase difference between r1 and r2 is 0 degrees, the two reflections are in phase. Because r1 already reflects some of the incident wave, r2 is at its absolute minimum amplitude.
+But when the phase difference is 180 degrees, the two beams are out of phase. To satisfy energy conservation and cancel the front reflection r1, the amplitude of r2 must reach its absolute maximum!
+
+As the film thickness d increases, the phase difference between r1 and r2 increases. Energy conservation guarantees that from 0 to 180 degrees, the magnitude of r2 increases, and from 180 to 360 degrees, it decreases. This counter-intuitive behavior is the direct, undeniable consequence of wave conservation."
+
+
+[SCENE 3: THE ABSORBING REALITY | 第三幕：吸收介质的吸收峰形成机制——干涉与衰减的完美平衡]
+[Visual: The polar diagram from Scene 2 shifts. Now, attenuation is introduced. The circles deform as a decaying spiral overlays the graph. An animation shows how the monotonically decreasing attenuation function overlays on top of the oscillating interference function, carving out a sharp, perfect absorption peak in the overall RL curve.]
+[Sound: A sweeping, dramatic orchestral swell.]
+
+[VOICEOVER]
+"Now, let us introduce reality: a material that *does* absorb microwaves.
+
+When the material has attenuation capacity, a monotonically decreasing factor is superimposed onto the amplitude of r2. As the film thickness d increases, the material's attenuation dampens r2 further and further.
+
+Let us trace the Reflection Loss, absolute RL, as the phase difference increases with thickness:
+In the range from 0 to 180 degrees, the wave interference effect wants to decrease RL, and the material attenuation factor dampens r2, drawing it closer to r1. The combination of these two factors causes absolute RL to plummet, creating an incredibly strong, sharp absorption peak precisely when the phase difference reaches 180 degrees.
+In the range from 180 to 360 degrees, however, the wave interference effect works in the opposite direction, pushing absolute RL upward, even as the material attenuation continues to decay r2.
+
+This is the true, beautiful mechanism of microwave absorption. The absorption peak is not a magic resonance of the material. It is the deterministic result of material attenuation acting as an amplitude-decaying factor on top of a wave interference process. Wave mechanics perfectly bridges the gap between atomic decay and physical device boundaries."
+
+
+[SCENE 4: CLEANSING THE VULGAR EMPIRICISM | 第四幕：对庸俗唯象论的彻底清算]
+[Visual: Typographical highlights of the "PHOW Philosophy" vs. "Wave Mechanics." A critique of peer-review comments that claim "only experimental curves matter." The words "VULGAR EMPIRICISM (庸俗唯象论)" fade away, replaced by "RIGOROUS WAVE PHYSICS (严密波动力学)". A visual timeline of the history of chemistry appears: Antoine Lavoisier overthrows Phlogiston theory by introducing quantitative arithmetic relationships, establishing the Law of Definite Proportions and Dalton's Law of Multiple Proportions, transforming chemistry from alchemy into true science.]
+[Sound: Concluding with a confident, majestic, and clear tone.]
+
+[VOICEOVER]
+"This complete theory represents a profound philosophical departure from the 'vulgar empiricism' or 'PHOW philosophy' that dominates mainstream materials science. Mainstream researchers often treat the fitting of experimental curves as the sole validation of physical truth. If they can fit a reflection loss curve using a flawed model, they declare the model correct, ignoring the logical and mathematical self-contradictions beneath.
+
+Consider the history of science. Chemistry was once a collection of mystical, qualitative receipts—the alchemy. It was only when Antoine Lavoisier introduced quantitative mass balance and arithmetic relationships that the Phlogiston theory was overthrown. This led to the establishment of the Law of Definite Proportions and the Law of Multiple Proportions, which ultimately paved the way for modern atomic and molecular theory. Lavoisier's quantitative rigor elevated chemistry from the spiritual pursuit of alchemy into a rigorous, predictive branch of modern science.
+
+Today, microwave absorption research is in its own pre-scientific, 'alchemy' stage, dominated by the phenomenological fits of the 'impedance matching theory.' Our Wave Mechanics Theory provides the exact quantitative and arithmetic relationships required to elevate this entire field from empirical curve-fitting into a true, rigorous branch of modern wave physics.
+
+A model that violates energy conservation cannot be rescued by any amount of experimental data. Wave mechanics, by contrast, relies on the ironclad laws of wave propagation. It explains why a film absorbs more than the material can, why the peak moves with thickness, and how energy is conserved under all conditions.
+
+To design the next generation of electromagnetic materials, we must abandon phenomenological curve-fitting and embrace the true wave-mechanics boundary mechanics.
+
+Join us on Substack and SSRN to explore the complete mathematical derivations.
+
+Thank you for watching."`;
+
+  const youtubeDescText22 = `Lecture 9: The True Mechanism of Microwave Absorption in Film Explained by Wave Mechanics.
+
+In this ninth lecture of our Wave Mechanics series, we present the rigorous, mathematically complete mechanism of microwave absorption in film, as published in Materials Chemistry and Physics (2022). We reveal how wave interference and material attenuation work together, provide the ultimate proof of energy conservation, and draw a key historical parallel to how Lavoisier's quantitative methods rescued chemistry from alchemy.
+
+Key Concepts Discussed in this Lecture:
+1. Deconstruction of the RL Formula: Simplifying the infinite back-and-forth reflections into a clear, elegant two-beam model: the front-boundary reflection (r1) and the rear-boundary reflection (r2).
+2. Interface Non-Absorption: Since the interface itself has zero thickness, r1 is entirely unaffected by material attenuation, whereas r2 is directly dampened by it.
+3. The Non-Absorbing Benchmark (Mater. Chem. Phys. 2022, Part 2, Fig 5): Proving that when attenuation is zero, RL is always 1. We resolve a key mainstream error by distinguishing between returned energy and the amplitude of split beams, proving why r2's amplitude must reach its absolute maximum at 180° to satisfy conservation of energy.
+4. The Absorbing Reality: Showing how introducing material attenuation overlays a monotonically decreasing factor on r2, creating a sharp and powerful absorption peak in RL exactly at a 180-degree phase difference as the beams interfere.
+5. Deconstructing Vulgar Empiricism ("PHOW Philosophy"): Challenging the mainstream reliance on empirical curve-fitting over logical consistency, drawing a parallel to how the quantitative laws of definite/multiple proportions elevated chemistry from alchemy.
+
+📖 PRIMARY SCIENTIFIC LITERATURE & PROOFS:
+➔ https://doi.org/10.1016/j.matchemphys.2022.126601 (Materials Chemistry and Physics 2022, Part 2 - The Real Mechanism)
+➔ https://doi.org/10.1016/j.matchemphys.2022.126576 (Materials Chemistry and Physics 2022, Part 1 - Energy Conservation)
+➔ https://doi.org/10.1016/j.surfin.2023.103022 (Surfaces and Interfaces 2023, Part 1)
+➔ https://doi.org/10.1016/j.surfin.2023.103024 (Surfaces and Interfaces 2023, Part 2)
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: The Real Mechanism vs. Flawed Mainstream Models
+2:30 - Simplifying the Infinite Series: The Two-Beam r1 and r2 Model
+5:10 - Energy vs. Amplitude: The Zero-Loss Benchmark (Figure 5)
+8:20 - Introducing Attenuation: How the 180° Peak is Carved Out
+11:05 - Lavoisier & Alchemy: Elevating Microwave Absorption to Rigorous Science
+
+#WaveMechanics #MicrowaveAbsorption #MaterialAttenuation #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #MaterialsChemistryAndPhysics #AppliedPhysics`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2017,7 +2113,8 @@ Key Concepts Deconstructed in this Lecture:
     activeProject === "project18" ? youtubeScriptText18 :
     activeProject === "project19" ? youtubeScriptText19 :
     activeProject === "project20" ? youtubeScriptText20 :
-    youtubeScriptText21;
+    activeProject === "project21" ? youtubeScriptText21 :
+    youtubeScriptText22;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2040,7 +2137,8 @@ Key Concepts Deconstructed in this Lecture:
     activeProject === "project18" ? youtubeDescText18 :
     activeProject === "project19" ? youtubeDescText19 :
     activeProject === "project20" ? youtubeDescText20 :
-    youtubeDescText21;
+    activeProject === "project21" ? youtubeDescText21 :
+    youtubeDescText22;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2411,6 +2509,22 @@ Key Concepts Deconstructed in this Lecture:
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-550 animate-pulse" />
             Project U: Matching Fallacy
           </button>
+          <button
+            onClick={() => {
+              setActiveProject("project22");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project22"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project22"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-550 animate-pulse" />
+            Project V: Material Mechanism
+          </button>
         </div>
       </div>
 
@@ -2771,6 +2885,32 @@ Key Concepts Deconstructed in this Lecture:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project V */}
+      {activeProject === "project22" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 9: Microwave Material Absorption Mechanism • 第九讲：微波材料吸收机理的波动学说证明
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第九讲深入阐述了微波吸收的真实机理（Materials Chemistry and Physics 2022, Part 1 & Part 2），将无限次反射简化为膜前后两个界面反射光束的物理干涉模型。这里必须严格区分‘能量’与‘振幅’（主流科学家常在此处混淆）：膜吸收入射波后必须通过 r2 吐出同样多的能量，但能量绝非各分光束的振幅。在 180° 相位差时，为使 r2 与 r1 完全抵消以满足能量守恒，r2 振幅可以极大。如果吐出的能量还不够（吸波尚未完全返还），膜内 r2 振幅就不会是 0，光束将在膜内继续来回反射，直至满足物理边界要求、膜内最后一条光束振幅才归于零。
+
+历史的镜鉴无比清晰：化学正是因为引入了定量算术关系，推翻了燃素说，建立了定组成定律和倍比定律，进而建立原子分子论，使化学从炼金术步入了严密科学。我们的波动力学理论同样通过严格的波动干涉与能量守恒推导，使微波吸收研究从阻抗匹配的‘炼金术式’拟合，真正步入了严密物理学科学的殿堂。这一发现彻底清算了庸俗唯象论（PHOW Philosophy），用波动干涉和幅值衰减的完美平衡，揭示了微波吸收的终极真相。"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Two-Beam Interference (r1 与 r2 经典双光束干涉物理图像)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Zero-Loss Attenuation Benchmark (无损介质能量守恒：180°相位差时 |R2| 最大之逆向证明)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Materials Chemistry & Physics 2022 (《Materials Chemistry and Physics 2022》吸波机理重新评估)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -2800,7 +2940,8 @@ Key Concepts Deconstructed in this Lecture:
                   activeProject === "project18" ? "Project R" :
                   activeProject === "project19" ? "Project S" :
                   activeProject === "project20" ? "Project T" :
-                  "Project U"
+                  activeProject === "project21" ? "Project U" :
+                  "Project V"
                 })</span>
               </div>
               <button
