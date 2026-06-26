@@ -1,18 +1,30 @@
 import React, { useState } from "react";
-import { videoScriptData, fourScandalsScriptData } from "../data";
+import { videoScriptData, fourScandalsScriptData, huangWanliScriptData } from "../data";
 import { ScriptLine } from "../types";
 import { FileText, PlayCircle, Info, ChevronRight, CheckCircle2, AlertCircle } from "lucide-react";
 
 export default function BilingualScriptSection() {
-  const [activeScriptTab, setActiveScriptTab] = useState<"geng" | "scandals">("geng");
+  const [activeScriptTab, setActiveScriptTab] = useState<"geng" | "scandals" | "huang-wanli">("geng");
   const [selectedLineId, setSelectedLineId] = useState<string>("s1");
 
-  const currentScriptData = activeScriptTab === "geng" ? videoScriptData : fourScandalsScriptData;
+  const currentScriptData = 
+    activeScriptTab === "geng" 
+      ? videoScriptData 
+      : activeScriptTab === "scandals" 
+        ? fourScandalsScriptData 
+        : huangWanliScriptData;
+
   const activeLine = currentScriptData.find((l) => l.id === selectedLineId) || currentScriptData[0];
 
-  const handleTabChange = (tab: "geng" | "scandals") => {
+  const handleTabChange = (tab: "geng" | "scandals" | "huang-wanli") => {
     setActiveScriptTab(tab);
-    setSelectedLineId(tab === "geng" ? "s1" : "fs1");
+    setSelectedLineId(
+      tab === "geng" 
+        ? "s1" 
+        : tab === "scandals" 
+          ? "fs1" 
+          : "hw1"
+    );
   };
 
   // Expose specific commentary context for specific video sections
@@ -76,6 +88,37 @@ export default function BilingualScriptSection() {
       case "fs106":
       case "fs108":
         return "The AI era has created a robotic arms race: Generative AI systems write papers with flawless prose, while publishers deploy tools like Proofig to read pixels. But this ignores Musk's warning that 95% of science is garbage water.";
+
+      // Huang Wanli Case Study Notes
+      case "hw4":
+      case "hw13":
+      case "hw52":
+      case "hw54":
+      case "hw55":
+      case "hw57":
+        return "Huang Wanli's warning was rooted in sediment transport physics. Choking a heavily silted river like the Yellow River causes the deposit tail to move backward upriver, raising the riverbed at Tongguan, which blocks the Wei River, transforming the fertile Guanzhong Plain into alkali swamps.";
+      case "hw61":
+      case "hw63":
+      case "hw81":
+      case "hw82":
+        return "The six bottom outlets designed for sediment discharge were sealed during construction to satisfy immediate reservoir storage metrics. After the predictable crisis, blasting each outlet open cost 10 million RMB, destroying expensive power equipment and proving Huang completely correct.";
+      case "hw64":
+      case "hw67":
+      case "hw68":
+      case "hw71":
+        return "Huang's satirical essay 'Drizzle in a Flowery Grove' in the Tsinghua bulletin criticized academic conformism. For this truth, he was designated a 'Rightist', demoted, and banished to manual labor at Miyun Reservoir, shoveling gravel while less qualified sycophants held the podium.";
+      case "hw75":
+      case "hw77":
+      case "hw78":
+      case "hw85":
+        return "By 1962, 1.5 billion tons of silt accumulated, raising the Tongguan bed by over 4 meters. Generations of Shaanxi farmers paid the price, losing 800,000 mu of fertile cropland, which became saline marshes, forcing the evacuation of an entire county seat.";
+      case "hw90":
+      case "hw91":
+      case "hw92":
+      case "hw97":
+      case "hw100":
+        return "Even after his rehabilitation in 1980, no institution formally apologized or admitted they were wrong. Huang Wanli's story teaches that the true test of scientific integrity is standing as a solitary voice of physical reality against a wall of consensus.";
+
       default:
         return "A clear example of how digital and metrics automation have turned scientific publishing into an industrial-scale manufacturing pipeline, shifting fraud from isolated individuals to systemic cartels.";
     }
@@ -98,7 +141,7 @@ export default function BilingualScriptSection() {
           </p>
         </div>
         
-        <div className="flex bg-slate-100 p-1 rounded-xl border border-slate-200 h-fit self-start sm:self-auto shrink-0">
+        <div className="flex bg-slate-100 p-1 rounded-xl border border-slate-200 h-fit self-start sm:self-auto shrink-0 flex-wrap sm:flex-nowrap">
           <button
             onClick={() => handleTabChange("geng")}
             className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all cursor-pointer ${
@@ -117,7 +160,17 @@ export default function BilingualScriptSection() {
                 : "text-slate-500 hover:text-slate-900"
             }`}
           >
-            2. 4 Scandals & Milestones (14-min Audio)
+            2. 4 Scandals & Milestones
+          </button>
+          <button
+            onClick={() => handleTabChange("huang-wanli")}
+            className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all cursor-pointer ${
+              activeScriptTab === "huang-wanli"
+                ? "bg-white text-slate-950 shadow-xs border border-gray-200"
+                : "text-slate-500 hover:text-slate-900"
+            }`}
+          >
+            3. Solitary Truth: Huang Wanli
           </button>
         </div>
       </div>

@@ -945,3 +945,706 @@ export const flowDescription = {
     consequence: "The 'Golden Silence' / 'Head-in-the-sand' response. Mainstream figures ignore the critique because responding would invalidate decades of their own peer-reviewed outputs. When pressed, reviewers use 'Tone-Policing' (telling the author to 'be more polite') or dismissive claims that 'truth is relative to the era' to bypass objective refutation."
   }
 };
+
+export const huangWanliScriptData: ScriptLine[] = [
+  {
+    id: "hw1",
+    timeStart: "00:00:00:08",
+    timeEnd: "00:00:03:00",
+    textZh: "七十个人举起手 一个人摇头",
+    textEn: "Seventy hands raised high, while a single head shook."
+  },
+  {
+    id: "hw2",
+    timeStart: "00:00:03:00",
+    timeEnd: "00:00:06:00",
+    textZh: "那是全中国最顶尖的一批水利专家",
+    textEn: "Those seventy hands belonged to China's most elite hydraulics experts."
+  },
+  {
+    id: "hw3",
+    timeStart: "00:00:06:09",
+    timeEnd: "00:00:10:25",
+    textZh: "那一个人 赌上的是他后半辈子所有的名声、地位和自由",
+    textEn: "And that single dissenter risked everything—his reputation, status, and freedom for the rest of his life."
+  },
+  {
+    id: "hw4",
+    timeStart: "00:00:11:22",
+    timeEnd: "00:00:14:00",
+    textZh: "他说黄河不能清",
+    textEn: "He said, 'The Yellow River must not be artificially cleared.'"
+  },
+  {
+    id: "hw5",
+    timeStart: "00:00:14:00",
+    timeEnd: "00:00:19:10",
+    textZh: "1957年6月 北京饭店 周恩来总理主持了一场会议 议题只有一个：三门峡大坝建还是不建",
+    textEn: "June 1957, at the Beijing Hotel. Premier Zhou Enlai presided over a meeting with only one agenda item: whether to construct the massive Sanmenxia Dam."
+  },
+  {
+    id: "hw6",
+    timeStart: "00:00:19:10",
+    timeEnd: "00:00:23:04",
+    textZh: "苏联专家把方案铺开在桌上 高坝大库栏砂蓄水",
+    textEn: "Soviet advisors spread their blueprints: a towering dam and a colossal reservoir designed to trap silt and store water."
+  },
+  {
+    id: "hw7",
+    timeStart: "00:00:23:16",
+    timeEnd: "00:00:27:18",
+    textZh: "黄河清这三个字像一个炸弹 把在场所有人的血都炸热了",
+    textEn: "The romantic dream of 'Clearing the Yellow River' was like a bomb, setting the blood of everyone in the room boiling."
+  },
+  {
+    id: "hw8",
+    timeStart: "00:00:27:28",
+    timeEnd: "00:00:33:03",
+    textZh: "表决的时候 七十多个人齐刷刷举起了手",
+    textEn: "When it came to vote, over seventy experts raised their hands in perfect, uniform consensus."
+  },
+  {
+    id: "hw9",
+    timeStart: "00:00:33:18",
+    timeEnd: "00:00:37:15",
+    textZh: "然后 角落里一个人缓缓抬起胳膊",
+    textEn: "Then, from a quiet corner, one man slowly raised his arm to object."
+  },
+  {
+    id: "hw10",
+    timeStart: "00:00:37:26",
+    timeEnd: "00:00:40:24",
+    textZh: "他开口说了一段话",
+    textEn: "He stood up and delivered a short, piercing speech."
+  },
+  {
+    id: "hw11",
+    timeStart: "00:00:40:24",
+    timeEnd: "00:00:42:12",
+    textZh: "话音落下 整个会议室安静得像被人掐住了喉咙",
+    textEn: "As his voice fell, the entire conference room went dead silent, as if choked into submission."
+  },
+  {
+    id: "hw12",
+    timeStart: "00:00:42:12",
+    timeEnd: "00:00:46:09",
+    textZh: "他说你们都说圣人出黄河清",
+    textEn: "He said: 'You all cite the ancient adage, \"When the Sage appears, the Yellow River runs clear.\"' "
+  },
+  {
+    id: "hw13",
+    timeStart: "00:00:46:24",
+    timeEnd: "00:00:49:24",
+    textZh: "可我要说 黄河不能清 黄河清不是功 是罪",
+    textEn: "'But I must tell you: the Yellow River must not be cleared. To artificially clear the Yellow River is not a triumph—it is a disaster.'"
+  },
+  {
+    id: "hw14",
+    timeStart: "00:00:50:16",
+    timeEnd: "00:00:55:12",
+    textZh: "这个人叫黄万里 清华大学水利系教授",
+    textEn: "That man was Huang Wanli, a professor of hydraulics at Tsinghua University."
+  },
+  {
+    id: "hw15",
+    timeStart: "00:00:55:24",
+    timeEnd: "00:00:59:12",
+    textZh: "黄炎培的儿子 美国伊利诺伊大学历史上第一个华人工程博士",
+    textEn: "The son of legendary educator Huang Yanpei, and the first Chinese national to earn an engineering PhD from the University of Illinois."
+  },
+  {
+    id: "hw16",
+    timeStart: "00:00:59:26",
+    timeEnd: "00:01:04:27",
+    textZh: "从那句话说出口的那一刻起 这场会就成了他一个人的战场",
+    textEn: "From the moment those words left his mouth, this forum became his solitary battlefield."
+  },
+  {
+    id: "hw17",
+    timeStart: "00:01:05:11",
+    timeEnd: "00:01:09:09",
+    textZh: "黄万里出生在1911年 上海川沙人",
+    textEn: "Born in 1911 in Chuansha, Shanghai, Huang Wanli grew up in a turbulent era of transition."
+  },
+  {
+    id: "hw18",
+    timeStart: "00:01:09:20",
+    timeEnd: "00:01:12:26",
+    textZh: "父亲黄炎培是近代最著名的教育家之一",
+    textEn: "His father, Huang Yanpei, was one of modern China’s most prominent educators."
+  },
+  {
+    id: "hw19",
+    timeStart: "00:01:13:24",
+    timeEnd: "00:01:16:22",
+    textZh: "从小教他一句话做人要俯仰无愧",
+    textEn: "Who taught him a single, guiding maxim: 'Live your life with nothing to be ashamed of before Heaven and Earth.'"
+  },
+  {
+    id: "hw20",
+    timeStart: "00:01:16:22",
+    timeEnd: "00:01:20:03",
+    textZh: "他最早学的不是水利 是桥梁",
+    textEn: "Initially, Huang did not study water resource management; he studied bridge engineering."
+  },
+  {
+    id: "hw21",
+    timeStart: "00:01:20:18",
+    timeEnd: "00:01:22:27",
+    textZh: "唐山交大毕业 成绩拔尖",
+    textEn: "Graduating from Tangshan Chiao Tung University with top honors, he had a comfortable and secure career paved out ahead."
+  },
+  {
+    id: "hw22",
+    timeStart: "00:01:23:28",
+    timeEnd: "00:01:26:13",
+    textZh: "面前铺开的是一条舒舒服服的路",
+    textEn: "A prestigious, comfortable life stretched out before him."
+  },
+  {
+    id: "hw23",
+    timeStart: "00:01:26:13",
+    timeEnd: "00:01:29:11",
+    textZh: "但1933年 两件事撞在一起 把他整个人生轨迹砸完了",
+    textEn: "But in 1933, two catastrophic events collided, completely shattering his life's trajectory."
+  },
+  {
+    id: "hw24",
+    timeStart: "00:01:29:11",
+    timeEnd: "00:01:34:06",
+    textZh: "汉江发大水 湖北钟祥一夜之间淹死七万人",
+    textEn: "First, the Han River flooded, drowning 70,000 citizens in Zhongxiang, Hubei, in a single night."
+  },
+  {
+    id: "hw25",
+    timeStart: "00:01:34:24",
+    timeEnd: "00:01:38:12",
+    textZh: "紧接着 黄河决口十几处尸横遍野",
+    textEn: "Immediately after, the Yellow River breached its banks in over a dozen places, leaving bodies scattered across the fields."
+  },
+  {
+    id: "hw26",
+    timeStart: "00:01:39:00",
+    timeEnd: "00:01:42:19",
+    textZh: "那时候他正在美国康奈尔读研",
+    textEn: "At that time, he was pursuing graduate studies at Cornell University in the United States."
+  },
+  {
+    id: "hw27",
+    timeStart: "00:01:42:19",
+    timeEnd: "00:01:45:16",
+    textZh: "看到消息 他做了个决定 扔掉桥梁 改学水利",
+    textEn: "Hearing the tragic news from home, he made a life-altering choice: abandon bridge building and switch to hydrology."
+  },
+  {
+    id: "hw28",
+    timeStart: "00:01:45:16",
+    timeEnd: "00:01:49:27",
+    textZh: "不是最热门的专业 不是最好发论文的方向",
+    textEn: "It was not the most popular field, nor was it an easy path to publish prestigious academic papers."
+  },
+  {
+    id: "hw29",
+    timeStart: "00:01:50:11",
+    timeEnd: "00:01:53:11",
+    textZh: "是最苦最累、最需要把双脚踩进泥里的那一种",
+    textEn: "It was the most exhausting, grueling discipline—one that required sinking his feet deep into the mud."
+  },
+  {
+    id: "hw30",
+    timeStart: "00:01:54:01",
+    timeEnd: "00:01:58:04",
+    textZh: "他开着车跑了美国45,000英里每一条大河",
+    textEn: "He drove 45,000 miles across the United States, visiting every major river system."
+  },
+  {
+    id: "hw31",
+    timeStart: "00:01:58:17",
+    timeEnd: "00:02:02:10",
+    textZh: "蹲在岸边一捧沙 一捧水的亲手量过",
+    textEn: "Crouching by the banks, he personally measured the silt and water, handful by handful."
+  },
+  {
+    id: "hw32",
+    timeStart: "00:02:02:24",
+    timeEnd: "00:02:05:21",
+    textZh: "流速 泥沙含量、河床脾气",
+    textEn: "Flow rates, sediment concentration, and the changing temper of riverbeds..."
+  },
+  {
+    id: "hw33",
+    timeStart: "00:02:05:21",
+    timeEnd: "00:02:09:23",
+    textZh: "全记在本子上 也刻上了骨头里",
+    textEn: "...all were meticulously recorded in his notebooks, and etched into his very bones."
+  },
+  {
+    id: "hw34",
+    timeStart: "00:02:10:05",
+    timeEnd: "00:02:13:05",
+    textZh: "1937年 他拿下伊利诺伊大学工程学博士学位",
+    textEn: "In 1937, he obtained his engineering doctorate from the University of Illinois."
+  },
+  {
+    id: "hw35",
+    timeStart: "00:02:13:05",
+    timeEnd: "00:02:17:05",
+    textZh: "毕业论文创立了一套用暴雨数据推算洪流的全新方法",
+    textEn: "His dissertation established a pioneering method for calculating peak runoff rates from rainfall intensity data."
+  },
+  {
+    id: "hw36",
+    timeStart: "00:02:17:20",
+    timeEnd: "00:02:21:27",
+    textZh: "美国导师挽留他高薪终身教职",
+    textEn: "His American advisor urged him to stay, offering a high-salaried, tenured academic career."
+  },
+  {
+    id: "hw37",
+    timeStart: "00:02:22:09",
+    timeEnd: "00:02:25:19",
+    textZh: "实验室全摆在那里 他拒绝了",
+    textEn: "With advanced laboratories ready for him, he flatly refused."
+  },
+  {
+    id: "hw38",
+    timeStart: "00:02:26:02",
+    timeEnd: "00:02:29:02",
+    textZh: "他说我学水利不是为了在美国发论文",
+    textEn: "He said: 'I did not study hydrology to publish comfortable academic papers in America.'"
+  },
+  {
+    id: "hw39",
+    timeStart: "00:02:29:08",
+    timeEnd: "00:02:33:06",
+    textZh: "是为了中国那七万条淹死在水里的命",
+    textEn: "'I did it for the 70,000 Chinese souls who drowned in those waters.'"
+  },
+  {
+    id: "hw40",
+    timeStart: "00:02:34:02",
+    timeEnd: "00:02:36:26",
+    textZh: "1937年回国 他没进大学当教授",
+    textEn: "Returning to China in 1937 amidst the war, he did not seek a comfortable professorship."
+  },
+  {
+    id: "hw41",
+    timeStart: "00:02:36:26",
+    timeEnd: "00:02:39:26",
+    textZh: "一头扎进四川山区 沿着岷江、沱江、嘉陵江徒步走了三千多公里",
+    textEn: "Instead, he plunged into the mountainous regions of Sichuan, trekking over 3,000 kilometers along the Min, Tuo, and Jialing rivers."
+  },
+  {
+    id: "hw42",
+    timeStart: "00:02:40:06",
+    timeEnd: "00:02:43:29",
+    textZh: "炮火底下修灌溉区 闸险滩",
+    textEn: "Under the shadow of artillery shells, he engineered irrigation zones and cleared dangerous shoals."
+  },
+  {
+    id: "hw43",
+    timeStart: "00:02:44:09",
+    timeEnd: "00:02:47:09",
+    textZh: "搭便桥 衣服烂成布条儿 口袋掏不出一个铜板",
+    textEn: "He built temporary bridges; his clothes wore down to rags, and he didn't have a single copper coin left."
+  },
+  {
+    id: "hw44",
+    timeStart: "00:02:47:18",
+    timeEnd: "00:02:50:21",
+    textZh: "但多年以后 他回忆那段日子 说那是我这辈子最踏实的时候",
+    textEn: "Yet, looking back decades later, he reflected: 'Those were the days when my heart felt the most grounded and at peace.'"
+  },
+  {
+    id: "hw45",
+    timeStart: "00:02:51:02",
+    timeEnd: "00:02:54:24",
+    textZh: "时间推到1955年 新中国决心征服黄河",
+    textEn: "Fast forward to 1955: the new People’s Republic was determined to tame the Yellow River once and for all."
+  },
+  {
+    id: "hw46",
+    timeStart: "00:02:55:07",
+    timeEnd: "00:03:00:05",
+    textZh: "苏联专家主导的方案雄心勃勃在三门峡修一座高坝",
+    textEn: "Soviet engineering advisors proposed an ambitious plan: build a towering dam at Sanmenxia."
+  },
+  {
+    id: "hw47",
+    timeStart: "00:03:00:19",
+    timeEnd: "00:03:04:12",
+    textZh: "把水拦住 把泥沙沉下来 上游发电 下游安然",
+    textEn: "Trap the wild river, force the silt to precipitate out, generate power upstream, and secure safety downstream."
+  },
+  {
+    id: "hw48",
+    timeStart: "00:03:04:22",
+    timeEnd: "00:03:08:18",
+    textZh: "黄河清了 千秋伟业",
+    textEn: "'When the Yellow River runs clear, our legacy will endure for a thousand generations.'"
+  },
+  {
+    id: "hw49",
+    timeStart: "00:03:09:15",
+    timeEnd: "00:03:13:25",
+    textZh: "1957年6月那场论证会开了整整十天",
+    textEn: "That critical evaluation in June 1957 lasted ten grueling days."
+  },
+  {
+    id: "hw50",
+    timeStart: "00:03:14:22",
+    timeEnd: "00:03:17:00",
+    textZh: "黄万里参加了七天 辩了七天",
+    textEn: "Huang Wanli attended for seven days, and debated furiously for seven days."
+  },
+  {
+    id: "hw51",
+    timeStart: "00:03:17:00",
+    timeEnd: "00:03:20:07",
+    textZh: "他的反对不是赌气 不是利益 是硬碰硬的水、沙动力学逻辑",
+    textEn: "His opposition was not fueled by emotion or political interest; it was built on rigorous, uncompromising sediment transport physics."
+  },
+  {
+    id: "hw52",
+    timeStart: "00:03:21:04",
+    timeEnd: "00:03:24:02",
+    textZh: "他说黄河是世界上含沙量最大的河流",
+    textEn: "He warned: 'The Yellow River is the most sediment-heavy river in the entire world.'"
+  },
+  {
+    id: "hw53",
+    timeStart: "00:03:24:02",
+    timeEnd: "00:03:29:13",
+    textZh: "水流天然带着泥沙往下走 你用大坝把它节住",
+    textEn: "'Silt naturally moves downstream with the river flow. If you choke it with a massive dam...'"
+  },
+  {
+    id: "hw54",
+    timeStart: "00:03:29:26",
+    timeEnd: "00:03:33:04",
+    textZh: "泥沙不会凭空消失 它会沉库尾",
+    textEn: "'...the sediment will not magically vanish; it will deposit at the tail end of the reservoir.'"
+  },
+  {
+    id: "hw55",
+    timeStart: "00:03:34:00",
+    timeEnd: "00:03:37:10",
+    textZh: "从三门峡一路往上运淤回去 淤回去的第一个受害者是潼关",
+    textEn: "'Siltation will creep backward all the way up the channel from Sanmenxia, and the first victim will be Tongguan.'"
+  },
+  {
+    id: "hw56",
+    timeStart: "00:03:38:03",
+    timeEnd: "00:03:41:03",
+    textZh: "潼关一抬高 渭河就出不去水",
+    textEn: "'Once the riverbed at Tongguan rises, the Wei River won't be able to discharge its waters.'"
+  },
+  {
+    id: "hw57",
+    timeStart: "00:03:41:07",
+    timeEnd: "00:03:45:18",
+    textZh: "整个关中平原 西安脚下那片良田会变成沼泽和盐碱地",
+    textEn: "'The entire Guanzhong Plain—the cradle of civilization beneath Xi'an—will turn into swamps and barren alkali flats.'"
+  },
+  {
+    id: "hw58",
+    timeStart: "00:03:46:10",
+    timeEnd: "00:03:49:10",
+    textZh: "你不是消灭了黄河的水患 你是把河南的灾搬到了陕西头上",
+    textEn: "'You are not taming the Yellow River's floods; you are merely transferring the disaster of Henan onto the heads of Shaanxi.'"
+  },
+  {
+    id: "hw59",
+    timeStart: "00:03:49:14",
+    timeEnd: "00:03:54:15",
+    textZh: "在场的七十多个人里 除了一个叫温善章的年轻技术员怯怯提议 只有黄万里一个人明明白白说这坝不该建",
+    textEn: "Among the seventy-plus experts present, except for a young technician named Wen Shanzhang who timidly suggested an alternative plan, only Huang Wanli stood alone, explicitly declaring that this dam must not be built."
+  },
+  {
+    id: "hw60",
+    timeStart: "00:03:54:29",
+    timeEnd: "00:03:59:14",
+    textZh: "眼看大局已定 他退了一步 提了一个最低限度的底线",
+    textEn: "Seeing the political consensus was unshakable, he retreated one step to demand a bare minimum physical fail-safe."
+  },
+  {
+    id: "hw61",
+    timeStart: "00:03:59:29",
+    timeEnd: "00:04:03:24",
+    textZh: "他说如果一定非修不可 施工的时候 坝底那六个排水底孔绝对不能堵死",
+    textEn: "He pleaded: 'If you must build it, you must never block the six sediment-discharge outlets at the base of the dam.'"
+  },
+  {
+    id: "hw62",
+    timeStart: "00:04:03:24",
+    timeEnd: "00:04:07:19",
+    textZh: "留着将来还能泄砂救命",
+    textEn: "'Leave them open as a life-saving escape valve for future sediment flushing.'"
+  },
+  {
+    id: "hw63",
+    timeStart: "00:04:07:19",
+    timeEnd: "00:04:11:09",
+    textZh: "大家口头答应了 国务院也批了 等到真正施工的时候 六个洞全部堵死",
+    textEn: "Though they verbally agreed and the State Council approved it, when construction actually began, they sealed all six outlets."
+  },
+  {
+    id: "hw64",
+    timeStart: "00:04:11:20",
+    timeEnd: "00:04:15:27",
+    textZh: "就在这个节骨眼上 黄万里在清华校刊上写了一篇短文 叫花丛小雨",
+    textEn: "At this critical juncture, Huang Wanli published a short satirical essay in the Tsinghua University bulletin titled 'Drizzle in a Flowery Grove'."
+  },
+  {
+    id: "hw65",
+    timeStart: "00:04:16:11",
+    timeEnd: "00:04:18:27",
+    textZh: "借小说之口 讽刺了一些人只知歌功颂德 不知尊重事实的风气",
+    textEn: "Using fictional characters, he satirized the sycophantic culture of praising authority while ignoring physical reality."
+  },
+  {
+    id: "hw66",
+    timeStart: "00:04:18:27",
+    timeEnd: "00:04:22:26",
+    textZh: "其中当然也影射了三门峡方案的狂热",
+    textEn: "It was an obvious indictment of the fanatical romance surrounding the Sanmenxia Project."
+  },
+  {
+    id: "hw67",
+    timeStart: "00:04:23:14",
+    timeEnd: "00:04:25:29",
+    textZh: "毛泽东看到以后 批了四个字：这是什么话？",
+    textEn: "Upon reading it, Chairman Mao Zedong wrote a four-character annotation: 'What kind of talk is this?'"
+  },
+  {
+    id: "hw68",
+    timeStart: "00:04:25:29",
+    timeEnd: "00:04:28:20",
+    textZh: "人民日报随后开了一个专栏 名字就叫“什么话” 专门刊登批判右派的文章",
+    textEn: "The People's Daily subsequently opened a column named 'What Kind of Talk,' dedicated to denouncing right-wing intellectuals."
+  },
+  {
+    id: "hw69",
+    timeStart: "00:04:28:20",
+    timeEnd: "00:04:32:01",
+    textZh: "第一篇批判的就是黄万里",
+    textEn: "The very first target of this column was Huang Wanli."
+  },
+  {
+    id: "hw70",
+    timeStart: "00:04:32:13",
+    timeEnd: "00:04:37:02",
+    textZh: "清华大学宣布黄万里右派二级教授的工资降到了四级",
+    textEn: "Tsinghua University declared him a 'Rightist.' His salary as a grade-two professor was slashed to grade-four."
+  },
+  {
+    id: "hw71",
+    timeStart: "00:04:37:12",
+    timeEnd: "00:04:40:12",
+    textZh: "赶下台 送去密云水库工地劳动改造",
+    textEn: "Stripped of his platform, he was sent to the Miyun Reservoir construction site for manual labor."
+  },
+  {
+    id: "hw72",
+    timeStart: "00:04:40:24",
+    timeEnd: "00:04:44:13",
+    textZh: "让一个全中国最懂河流的人去大坝工地上挑灰桶产石子",
+    textEn: "The man who understood China's river dynamics better than anyone was forced to haul concrete buckets and shovel gravel."
+  },
+  {
+    id: "hw73",
+    timeStart: "00:04:45:10",
+    timeEnd: "00:04:48:10",
+    textZh: "他离开的那天 有学生后来回忆说 他背着铺盖卷回头看了眼教室的门 什么都没想",
+    textEn: "On the day of his banishment, a student recalled that Huang carried his bedding roll, looked back at his classroom, and walked away in silence."
+  },
+  {
+    id: "hw74",
+    timeStart: "00:04:48:20",
+    timeEnd: "00:04:50:24",
+    textZh: "就在同一时间 三门峡大坝竣工了 开始蓄水",
+    textEn: "At that very moment, the Sanmenxia Dam was completed and began storing water."
+  },
+  {
+    id: "hw75",
+    timeStart: "00:04:51:23",
+    timeEnd: "00:04:53:03",
+    textZh: "1960年9月 三门峡正式关闸蓄水 仅仅1年半之后 库区淤积泥沙十五亿吨",
+    textEn: "In September 1960, the Sanmenxia Dam gates were closed. Barely a year and a half later, 1.5 billion tons of silt accumulated in the reservoir."
+  },
+  {
+    id: "hw76",
+    timeStart: "00:04:53:03",
+    timeEnd: "00:04:56:03",
+    textZh: "全部堆在潼关到三门峡之间的河道上",
+    textEn: "Silt choked the entire waterway between Tongguan and Sanmenxia."
+  },
+  {
+    id: "hw77",
+    timeStart: "00:04:56:23",
+    timeEnd: "00:04:59:16",
+    textZh: "潼关河床抬高超过四米 渭河变成了一条悬河",
+    textEn: "The riverbed at Tongguan rose by over four meters, turning the Wei River into a dangerous 'suspended river'."
+  },
+  {
+    id: "hw78",
+    timeStart: "00:04:59:16",
+    timeEnd: "00:05:02:19",
+    textZh: "渭河两岸的地下水排不出去 八十万亩良田 盐碱 沼泽化 一整个县城被迫撤离",
+    textEn: "Groundwater could no longer drain. Over 800,000 mu of fertile cropland became saline swamps, forcing an entire county seat to evacuate."
+  },
+  {
+    id: "hw79",
+    timeStart: "00:05:03:02",
+    timeEnd: "00:05:08:24",
+    textZh: "数万农民背着行李离开了祖辈生活的土地",
+    textEn: "Tens of thousands of farmers packed their bags and abandoned the ancestral lands they had tilled for generations."
+  },
+  {
+    id: "hw80",
+    timeStart: "00:05:09:14",
+    timeEnd: "00:05:12:14",
+    textZh: "黄万里当初说的每一个字一字不差 全部应验了",
+    textEn: "Every single word of Huang Wanli's warning had come true, with absolute, terrifying precision."
+  },
+  {
+    id: "hw81",
+    timeStart: "00:05:13:06",
+    timeEnd: "00:05:17:25",
+    textZh: "1964年 水利部终于承认出了问题 当年被堵死的那些洞只能重新炸开",
+    textEn: "By 1964, the Ministry of Water Resources had to admit the failure. The sealed outlets at the base of the dam had to be blasted open."
+  },
+  {
+    id: "hw82",
+    timeStart: "00:05:18:05",
+    timeEnd: "00:05:21:21",
+    textZh: "每个洞的代价是¥1000万 炸掉昂贵的发电机组 凿出两条泄洪排沙隧洞",
+    textEn: "Blasting each outlet cost 10 million RMB. Expensive generators were scrapped to excavate new sediment-flushing tunnels."
+  },
+  {
+    id: "hw83",
+    timeStart: "00:05:21:21",
+    timeEnd: "00:05:25:12",
+    textZh: "原设计发电120万千瓦 最后剩下来的连个零头都不到",
+    textEn: "The original power capacity design of 1.2 million kilowatts was reduced to a mere fraction of its intended target."
+  },
+  {
+    id: "hw84",
+    timeStart: "00:05:25:23",
+    timeEnd: "00:05:29:11",
+    textZh: "后来又改了一次 又花了6000万 两次改建 耗资巨大",
+    textEn: "A later modification cost another 60 million RMB. These corrective overhauls consumed astronomical national resources."
+  },
+  {
+    id: "hw85",
+    timeStart: "00:05:29:22",
+    timeEnd: "00:05:33:02",
+    textZh: "几代陕西农民替那一场黄河清的浪漫买了单",
+    textEn: "Generations of Shaanxi farmers paid the ultimate price for the romantic hubris of 'Clearing the Yellow River'."
+  },
+  {
+    id: "hw86",
+    timeStart: "00:05:33:15",
+    timeEnd: "00:05:36:25",
+    textZh: "而那个唯一说过别建的人呢？他正在江西鲤鱼洲的稻田里被监督劳动",
+    textEn: "And where was the single man who had told them not to build it? He was laboring in the muddy rice paddies of Liyuzhou, Jiangxi, under armed surveillance."
+  },
+  {
+    id: "hw87",
+    timeStart: "00:05:37:05",
+    timeEnd: "00:05:40:05",
+    textZh: "被怀疑是特务 被审问、被批斗 胸口旧疾犯了 没人管",
+    textEn: "Suspected as a spy, interrogated, and publicly humiliated, his chronic chest ailments flared up with no medical care."
+  },
+  {
+    id: "hw88",
+    timeStart: "00:05:40:13",
+    timeEnd: "00:05:44:06",
+    textZh: "有一天夜里 他偷偷在纸上写下一首词 前面字句已经模糊了 但最后一句清清楚楚",
+    textEn: "One night, he secretly penned a poem on a scrap of paper. Though the opening lines are faded today, the final verse remains crystal clear:"
+  },
+  {
+    id: "hw89",
+    timeStart: "00:05:44:19",
+    timeEnd: "00:05:48:02",
+    textZh: "“苍生应济 仰天长啸” 一个连锄头都握不稳的人 心里装的还是那条河",
+    textEn: "'My life belongs to the common people; I roar at the uncaring sky.' Even when his hands could barely steady a shovel, his heart was still filled with the destiny of the river."
+  },
+  {
+    id: "hw90",
+    timeStart: "00:05:48:02",
+    timeEnd: "00:05:51:27",
+    textZh: "1980年 黄万里七十岁 摘掉了右派帽子 但摘帽不等于平反",
+    textEn: "In 1980, at seventy, his 'Rightist' label was removed. But rehabilitation is not the same as correction."
+  },
+  {
+    id: "hw91",
+    timeStart: "00:05:52:21",
+    timeEnd: "00:05:55:27",
+    textZh: "没有任何机构站出来说一句当年你是对的 是我们错了",
+    textEn: "No institution stood up to declare: 'You were right, and we were wrong.'"
+  },
+  {
+    id: "hw92",
+    timeStart: "00:05:56:07",
+    timeEnd: "00:06:00:07",
+    textZh: "他的学术地位 他的名誉 他那被抢走的二十多年研究岁月 没有任何人赔得起",
+    textEn: "His academic standing, his stolen reputation, and his lost twenty-plus years of research... none of these could ever be repaid."
+  },
+  {
+    id: "hw93",
+    timeStart: "00:06:00:19",
+    timeEnd: "00:06:03:16",
+    textZh: "晚年 他继续写黄河治理方案 继续指出三峡高坝的风险点 继续写信给中央 大多数石沉大海",
+    textEn: "In his final years, he continued to draft river management plans and warned of the physical risks of the Three Gorges Dam. He kept writing letters, most of which sank into silence."
+  },
+  {
+    id: "hw94",
+    timeStart: "00:06:04:15",
+    timeEnd: "00:06:07:15",
+    textZh: "2001年 黄万里去世 享年九十岁",
+    textEn: "In 2001, Huang Wanli passed away at the age of ninety."
+  },
+  {
+    id: "hw95",
+    timeStart: "00:06:07:29",
+    timeEnd: "00:06:11:05",
+    textZh: "他的墓碑上没有学部委员 没有国家功臣 没有黄河之子这些漂亮的头衔",
+    textEn: "His gravestone bears no grand academic titles, no national accolades, and no flowery honorifics."
+  },
+  {
+    id: "hw96",
+    timeStart: "00:06:11:05",
+    timeEnd: "00:06:14:25",
+    textZh: "但他用一辈子给这个世界留下了一个最朴素的自证",
+    textEn: "But his life left behind the most profound self-evidence to this world."
+  },
+  {
+    id: "hw97",
+    timeStart: "00:06:15:11",
+    timeEnd: "00:06:20:00",
+    textZh: "不是他赢了多少场争论 是当七十个人都朝着同一个方向欢呼的时候",
+    textEn: "It was not about how many arguments he won, but that when seventy people cheered in one direction..."
+  },
+  {
+    id: "hw98",
+    timeStart: "00:06:20:13",
+    timeEnd: "00:06:23:13",
+    textZh: "he was willing to be the one who stopped, knelt down, reached his hands into the mud, and measured the truth.",
+    textEn: "...he was willing to be the one who stopped, knelt down, reached his hands into the mud, and measured the truth."
+  },
+  {
+    id: "hw99",
+    timeStart: "00:06:23:20",
+    timeEnd: "00:06:26:14",
+    textZh: "我们总以为科学的光荣是造出更大的坝 算出更小的误差 登上更高的领奖台",
+    textEn: "We often think the glory of science is to build grander dams, calculate smaller margins of error, and climb higher award stages."
+  },
+  {
+    id: "hw100",
+    timeStart: "00:06:26:14",
+    timeEnd: "00:06:30:11",
+    textZh: "但黄万里告诉你另一件事 有时候科学最大的勇敢不是计算 是在所有人都喊对的时候 你一个人说“慢着 这不对” 哪怕代价是你自己",
+    textEn: "But Huang Wanli taught us another path: sometimes, the greatest courage in science is not calculating. It is when everyone else screams 'Correct!' and you stand alone to say: 'Wait, this is wrong.' Even if the price of that truth is your very self."
+  }
+];
