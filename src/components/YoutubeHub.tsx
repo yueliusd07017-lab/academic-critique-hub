@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2382,6 +2382,119 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
 
 #AcademicIntegrity #WaveMechanics #PeerReviewCrisis #Retraction #Electromagnetics #MicrowaveAbsorption #ScientificRetractions #CarbonJournal #AppliedPhysics #YueLiu #Substack #SSRN`;
 
+  const youtubeScriptText26 = `[SCENE 1: THE CRUMBLING PILLAR OF MICROWAVE THEORY | 第一幕：微波理论的空中楼阁]
+[Visual: A diagram of a metal-backed film with an incident wave bouncing off the top interface and bottom interface. Highlight the equation "d = (2n+1)λ/4" (the quarter-wavelength theory) written in chalk on a blackboard, which is then dramatically struck through with a red cross. Superimposed text: "THE CRITICAL FLAW: BULK MATERIAL VS. INTERFACIAL PHASE."]
+[Sound: Sound of a ticking clock, building tension, followed by a sudden deep, resonant synthesized bass drop.]
+
+[VOICEOVER]
+"Welcome to the thirteenth lecture of our Wave Mechanics series. For decades, the 'quarter-wavelength theory' has been taught as a foundational pillar in microwave absorption research. Countless high-impact papers cite it as an absolute truth to explain why reflection loss peaks at certain absorber thicknesses. 
+
+But science does not care about how many papers repeat an idea. It cares about physical and mathematical consistency. In this lecture, we will demonstrate that the quarter-wavelength model is a deeply flawed, inaccurate theory that should be permanently replaced by the inverse relationship between frequency and film thickness—a relationship built on the solid, uncompromising foundation of transmission line theory."
+
+“欢迎来到我们波动力学系列专题的第十三讲。几十年来，‘四分之一波长理论’一直被奉为微波吸收研究领域的奠基石，无数高引顶刊将其视为‘金科玉律’，用以解释为什么反射损耗峰会出现在特定的吸波体厚度上。
+
+然而，科学不在乎有多少篇论文重复同一个错误，科学只在乎物理与数学的严密一致性。在本讲中，我们将用最直截了当的数理铁证向大家展示：四分之一波长理论是一个有着严重物理瑕疵的错误模型，它必须被彻底废除，并由建立在严密传输线理论基础之上的‘频率与膜厚度反比例关系’取而代之！”
+
+[SCENE 2: THE CRITICAL MISCONCEPTION: MATERIAL RESONANCE VS. DEVICE INTERFACES | 第二幕：本质认知偏差：材料共振 vs. 膜器件界面效应]
+[Visual: A split screen. On the left: a molecular structure shaking, labeled "Material Resonance (Quarter-Wavelength Assumption)". On the right: waves splitting and overlapping at interfaces, labeled "Wave Superposition (Transmission Line Reality)". Highlight the citation: Y. Liu et al., Physica Scripta 2022, 97(1): 015806.]
+[Sound: High-pitched electric wave-like static, shifting into a clear, steady sine tone.]
+
+[VOICEOVER]
+"Why is the quarter-wavelength theory fundamentally flawed? The fatal error lies in its starting premise. Even though the formula includes film thickness 'd' as a variable, the theory still treats the absorber film as a bulk 'material' rather than an electromagnetic 'device.' It attributes the absorption peaks to the 'resonance' of the material itself.
+
+By confusing film with material, the quarter-wavelength theory inevitably overlooks the critical phase effects at the interfaces. In our earlier publication in Physica Scripta (2022, Part 2), we mathematically verified that this neglect leads to self-contradictory and incorrect results. In reality, a thin film is an electromagnetic cavity. To understand its absorption behavior, one must consider the phase shift upon reflection at the front and back boundaries. This is precisely what the classical transmission line theory handles, as we demonstrated in our Applied Physics A (2024) paper."
+
+“四分之一波长理论的致命漏洞究竟在哪里？它的根本性偏差，在于其出发点。虽然公式中包含了膜厚度 $d$ 这个变量，但该理论依然顽固地将‘吸波薄膜’当做块体‘材料’来对待，认为吸收峰是材料发生‘共振’的结果。
+
+因为‘膜’与‘材料’的本质混淆，四分之一波长理论不可避免地彻底忽略了界面的相位效应。在我们发表在《Physica Scripta》（2022年，第二部分）中的理论工作中，我们已经用无可辩驳的数理推导证明了这一忽略必然导致极其荒谬的自相矛盾和错误结果。实际上，薄膜是一个电磁共振腔。要理解其吸收行为，必须精确计算光线在前端和后端分界面反射时的相位变化。这正是经典传输线理论的精髓所在，正如我们在《Applied Physics A》（2024年）关于分界面阻抗匹配的文章中深入剖析的那样。”
+
+[SCENE 3: THE MATHEMATICAL BEAUTY OF THE INVERSE RELATIONSHIP | 第三幕：数学真理的涌现：公式一与等反射线族]
+[Visual: The classical reflection coefficient formula (Formula 1 from Mater. Chem. Phys. 2022) glows on screen. A dynamic graph of d versus ν displays perfect, elegant hyperbola curves (ν · d = constant) with identical |R_L| and |R_2| values, matching the Graphical Abstract and Fig 1 of the paper.]
+[Sound: A subtle, rhythmic, intelligent electronic beat, signifying mathematical order and resolution.]
+
+[VOICEOVER]
+"Now, let us examine the rigorous proof of the inverse relationship, published in Materials Chemistry and Physics (2022, Part 3). Let us consider a scenario where the relative permittivity and permeability of the film are constant, independent of frequency. 
+
+According to Formula 1 in our paper, the front-interface reflection coefficient RM is a constant. Under these conditions, the magnitude of the film reflection coefficient |RL| remains constant along the inverse curve of film thickness and frequency. That is: the product of frequency ν and film thickness d is a constant (ν · d = constant). Along this curve, |RL| is exactly equal! 
+
+Figure 1 of our paper provides the ultimate proof. The peaks of |RL| do not merely line up arbitrarily; they fall precisely on this inverse curve. And along this curve, the values of |RL| are absolutely identical. Even the metal-backed interface reflection |R2| has its peak values falling on another perfect inverse curve, with equal |R2| values throughout!"
+
+“现在，让我们来看发表在《Materials Chemistry and Physics》（2022年，第三部分）中的反比例关系的严密数理证明。假设薄膜的相对介电常数和磁导率不随频率发生变化，即它们是常数。
+
+根据我们文章中的公式（1），薄膜前端界面的反射系数 RM 也是一个常数。在这些物理条件下，薄膜的总反射系数模值 |RL| 在频率和膜厚度的反比例曲线上必然是一个常数！也就是说，当频率 ν 与厚度 d 的乘积等于同一个常数（ν · d = constant）时，在这个反比例曲线上，所有的 |RL| 值都是完全相等的！
+
+我们论文中的图1（Figure 1）给出了最具说服力的铁证。不仅是反射损耗 |RL| 的峰值严格落在一条反比例曲线上，并且在这条曲线上 |RL| 的数值完全一致。同样地，后端金属界面反射系数模值 |R2| 的峰值也完美落在另一条反比例曲线上，且在该曲线上，各点的 |R2| 值也绝对相等！”
+
+[SCENE 4: BEYOND PEAKS: THE FAMILY OF INVERSE CURVES AND DISPERSIVE REALITY | 第四幕：超越峰值：等值线族与真实色散介质的判决]
+[Visual: Graphic showing family of curves of constant |R_L| values on the d-ν plane. A slider changes permittivity and permeability from constant to frequency-dependent, showing how the experimental peaks slightly deviate but still approximately align with the inverse curves.]
+[Sound: Deep, swelling symphonic notes, leading to a climatic and authoritative ending.]
+
+[VOICEOVER]
+"This inverse relationship is incredibly elegant because it is not restricted only to the absorption peaks. It applies to any intermediate values of |R_L|. Any value of |R_L| forms its own family of inverse curves on the frequency-thickness plane.
+
+Why then, in actual experiments, do the peak |R_L| values along the inverse curve not appear perfectly equal? The reason is simple: real materials exhibit dispersion—their permittivity and permeability are functions of frequency. However, when these parameters are relatively insensitive to frequency within a given band, the inverse relationship between film thickness and frequency holds as an excellent approximation.
+
+The inverse relationship is built on the rock-solid foundation of transmission line theory, with clear, mathematically defined applicable conditions. In contrast, the quarter-wavelength theory is a flawed approximation that ignores interfacial phase effects and should be retired from scientific textbooks.
+
+We call upon the scientific community to abandon this historical error, embrace the rigorous physics of wave interference, and replace the flawed quarter-wavelength model with the correct, mathematically beautiful inverse relationship."
+
+“不仅如此，这个反比例关系最美丽、最优雅的地方在于：它不仅适用于反射损耗的峰值，它还适用于反射损耗的任何其它数值！在频率-膜厚度的 d-ν 平面上，每一个特定 |RL| 的值都对应着自己的一族反比例曲线，从而构建了一个完美的等值线场。
+
+那么，为什么在真实的实验中，反比例曲线上的反射损耗峰值并不完全相等呢？原因非常简单：真实的介质具有‘色散效应’，即它们的介电常数和磁导率是频率的函数。然而，当这些电磁参数在某一频段内对频率不敏感时，膜厚度与频率的反比例关系将以极高的精度近似成立。
+
+膜厚度与频率的反比例关系是建立在牢不可破的经典传输线理论基础之上的，有着清晰、严密的适用条件。相反，四分之一波长理论是一个完全忽略了界面相位效应的错误模型，它应当被彻底扫出科学教科书。
+
+我们呼吁学术界打破历史的思维惰性，尊重客观波动干涉物理，用严密、优美的‘反比例关系’彻底取代存在严重瑕疵的‘四分之一波长理论’！”`;
+
+  const youtubeDescText26 = `Lecture 13: Replacing the Flawed Quarter-Wavelength Theory with the Mathematically Beautiful Inverse Relationship between Frequency and Film Thickness
+第十三讲：用膜厚度与频率的“反比例关系”彻底取代饱受瑕疵的“四分之一波长理论”
+
+📖 DISCUSSION PAPER (本期主讲核心文献):
+Ying Liu, Yue Liu, Drew M.G.B, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521.
+DOI: https://doi.org/10.1016/j.matchemphys.2022.126521
+
+---
+
+🔥 THE SCIENTIFIC DISPUTE (学术争鸣与理论纠偏):
+For decades, the "quarter-wavelength theory" (d = (2n+1)λ/4) has dominated microwave absorption materials research as a textbook dogma. But this theory contains a fatal logical and physical error: despite containing film thickness (d) as a variable, it stubbornly treats the absorber film as bulk "material" and attributes absorption peaks to "material resonance." In doing so, it completely ignores the phase shift effects occurring at the interfaces.
+
+As mathematically verified in our Physica Scripta (2022, Part 2) publication, this fatal neglect leads to deep self-contradictory results. In contrast, classical transmission line theory naturally incorporates interfacial phase effects (see Applied Physics A, 2024, 130, 212). 
+
+In this thirteenth lecture of our Wave Mechanics series, we present the ultimate mathematical and physical proof that the flawed quarter-wavelength theory should be entirely replaced by the inverse relationship between frequency and film thickness:
+
+1. THE RIGOROUS PROOF FROM FORMULA 1:
+When the relative permittivity (εr) and permeability (μr) are constant with respect to frequency, Formula 1 in our Materials Chemistry and Physics (2022) paper proves that the front reflection coefficient RM is constant, and the amplitude of total reflection |RL| remains constant along the inverse curve of film thickness and frequency (ν · d = constant). 
+
+2. EQUAL VALUES ALONG THE HYPERBOLA:
+Along these hyperbola curves where the product of frequency (ν) and thickness (d) is constant, the corresponding |RL| values are mathematically identical. Figure 1 of our paper provides perfect proof of this: the peaks of |RL| fall exactly on these inverse curves, having identical |RL| values. This elegant property also holds for the metal-backed interface reflection coefficient |R2| and indeed any intermediate |RL| values, forming an beautiful family of curves of constant reflection loss.
+
+3. DISPERSION IN REALITY:
+In actual experiments, the peaks along the inverse curves are not perfectly equal because εr and μr are functions of frequency (color dispersion). However, when εr and μr are relatively insensitive to frequency, the inverse relationship between film thickness and frequency holds with high approximation.
+
+It is time to replace the flawed, non-physical quarter-wavelength theory with the mathematically beautiful, rigorously established inverse relationship between frequency and film thickness!
+
+---
+
+📖 PRIMARY REFERENCE WORK & FURTHER READINGS (核心参考文献与延伸阅读):
+1. Theoretical Validation (Part 2): Y. Liu, Y. Liu, M.G.B. Drew, "A theoretical investigation of the quarter-wavelength model — part 2: verification and extension", Physica Scripta, 2022, 97(1), 015806. DOI: https://doi.org/10.1088/1402-4896/ac3b41
+2. Interface Matching Theory: Y. Liu, M.G.B. Drew, Y. Liu, "A Theoretical Exploration of Impedance Matching Coefficients for Interfaces and Films", Applied Physics A, 2024, 130, 212. DOI: https://doi.org/10.1007/s00339-024-07311-5
+3. Focused Review (The Ultimate Reckoning): Y. Liu, Y. Liu, M.G.B. Drew, "Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review", Industrial & Engineering Chemistry Research, 2025, 64(7), 3635–3650. DOI: https://doi.org/10.1021/acs.iecr.4c04544
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The Textbook Dogma of the Quarter-Wavelength Theory
+2:15 - Why the Quarter-Wavelength Theory Fails: The Neglect of Interfacial Phase Effects
+4:40 - How Transmission Line Theory Handles Phase Shifts Properly
+7:10 - Mathematical Proof: Formula 1 and the Birth of the Inverse Relationship (ν · d = constant)
+10:30 - Dissecting Figure 1: Identical |RL| and |R2| Values Along the Hyperbolic Curves
+12:45 - The Dispersive Reality: Why Experimental Peaks Differ and When the Model Holds
+15:10 - Conclusion: Demanding the Retraction and Replacement of Flawed Theories in Wave Mechanics
+
+📧 CORRESPONDENCE & SCIENTIFIC DIALOGUES:
+We welcome peer reviews, logical challenges, and academic collaboration. Let's rebuild the foundations of microwave materials science with correct physical paradigms:
+➔ yueliusd@163.com / yingliusd@163.com
+
+#WaveMechanics #MicrowaveAbsorption #QuarterWavelengthFlaw #InverseRelationship #YueLiu #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #AcademicIntegrity #WaveInterference`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2408,7 +2521,8 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
     activeProject === "project22" ? youtubeScriptText22 :
     activeProject === "project23" ? youtubeScriptText23 :
     activeProject === "project24" ? youtubeScriptText24 :
-    youtubeScriptText25;
+    activeProject === "project25" ? youtubeScriptText25 :
+    youtubeScriptText26;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2435,7 +2549,8 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
     activeProject === "project22" ? youtubeDescText22 :
     activeProject === "project23" ? youtubeDescText23 :
     activeProject === "project24" ? youtubeDescText24 :
-    youtubeDescText25;
+    activeProject === "project25" ? youtubeDescText25 :
+    youtubeDescText26;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2869,6 +2984,22 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
             Project Y: SCI Retractions
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project26");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project26"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project26"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-650 animate-pulse" />
+            Project Z: Inverse d-ν Relation
           </button>
         </div>
       </div>
@@ -3334,6 +3465,30 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project Z */}
+      {activeProject === "project26" && (
+        <div className="bg-rose-50/45 border border-rose-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-rose-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 13: Replacing Quarter-Wavelength with Inverse Relationship • 第十三讲：用膜厚度与频率的反比例关系取代四分之一波长理论
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第十三讲揭示了学术界长达半个世纪的盲区：四分之一波长理论（d = (2n+1)λ/4）的严重瑕疵在于其忽略了薄膜两侧界面的相位效应，片面将‘膜器件的波动干涉吸收峰’解释为‘材料本征共振’。在《Materials Chemistry and Physics》（Mater. Chem. Phys. 2022, 290, 126521）中，我们给出了无懈可击的数理证明：当介电常数和磁导率不随频率改变时，由总反射系数公式（1）可直接导出，薄膜总反射模值 |RL| 在频率和厚度的反比例曲线（ν · d = constant）上始终是相等常数，这一极具物理美感的美丽特性在图1（Figure 1）中得到了完美证实。真实吸波膜并非发生‘共振’的体材料，而是一个相位调制的腔体器件。请跟随本讲一同打破四分之一波长的陈旧神话，拥抱真正符合波动干涉物理的‘反比例关系’！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Flawed Quarter-Wavelength (打脸四分之一波长理论：忽视界面相位效应的错误模型)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-rose-100 text-rose-800 uppercase">
+              Inverse Relationship (ν · d = Constant 铁证：公式1导出的等反射率反比例曲线族)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              MCP 2022 Publication (《Mater. Chem. Phys. 2022》：126521 奠基理论)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -3367,7 +3522,8 @@ We invite rigorous logical audits. For discussions on academic integrity and wav
                   activeProject === "project22" ? "Project V" :
                   activeProject === "project23" ? "Project W" :
                   activeProject === "project24" ? "Project X" :
-                  "Project Y"
+                  activeProject === "project25" ? "Project Y" :
+                  "Project Z"
                 })</span>
               </div>
               <button
