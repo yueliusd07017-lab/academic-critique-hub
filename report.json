@@ -1,0 +1,8 @@
+{
+  "name": "Academic Integrity and Wave Mechanics Hub",
+  "description": "An interactive hub for exploring Dr. Yue Liu's wave mechanics research, critiques on academic literature, and media production assets.",
+  "intermediate-analysis": {
+    "name": "Academic Critique Hub",
+    "status": "fully_integrated"
+  }
+}

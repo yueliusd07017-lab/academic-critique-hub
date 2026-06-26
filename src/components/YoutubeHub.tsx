@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2276,6 +2276,112 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
 
 #WaveMechanics #MicrowaveAbsorption #FilmVsMaterial #JMMM #YueLiu #Substack #SSRN #AcademicIntegrity #WaveInterference #Electromagnetics #PeerReviewCrisis`;
 
+  const youtubeScriptText25 = `[SCENE 1: THE EPIDEMIC OF ACADEMIC GARBAGE | 第一幕：当代学术瘟疫——高达95%的期刊文章是垃圾吗？]
+[Visual: Animated pile of academic paper covers (Nature, Carbon, Advanced Materials, etc.) slowly rotting and turning into a digital trash bin. Superimposed text: "95%+ OF PUBLISHED PAPERS ARE SCIENTIFIC NOISE / GARBAGE". On the other side, an image of Isaac Newton or Galileo reading a single, meticulous, leather-bound volume. Label: "The Era of Truth vs. The Era of Paper Mills."]
+[Sound: Somber, heavy, rhythmic electronic synthesizers, carrying the weight of a severe systemic crisis.]
+
+[VOICEOVER]
+"Welcome to the twelfth lecture of our Wave Mechanics series. Today, we address a raw, deeply uncomfortable truth that modern mainstream scientists desperately try to ignore: the fact that over 95% of published SCI journal papers are, quite literally, academic garbage. 
+
+In Isaac Newton's era, scientists wrote papers to communicate hard-won, immutable truths. They would rather burn their manuscripts than publish an error. But today? Academia has morphed into a publish-or-perish cargo cult. High-impact journals have become paper factories, where researchers break their necks to publish papers they themselves know are useless, simply to secure funding and tenure.
+
+This is not a victimless crime. The refusal to retract wrong papers has poisoned the global scientific record, turning materials science and physics into a self-reinforcing swamp of errors. Today, we will expose several fatal errors published in prestigious, high-impact journals, and ask the ultimate question: Why are editors and authors refusing to correct them?"
+
+
+[SCENE 2: EXPOSING THE ERRORS PART 1 - THE CARBON 2024 SCANDAL | 第二幕：打脸高引期刊之 Carbon 2024 —— 介电常数竟成厚度的函数]
+[Visual: Cover of the Carbon 2024 paper (Hou et al., Carbon 222, 118935) with red marker circling Figure 4. Below it, standard textbooks of electromagnetics are shown. Formula overlay: 'Permittivity (ε) = material parameter, independent of thickness (d) or geometry. Hou et al.: Permittivity (ε) = f(d)'. Substack review letters from peer reviewers saying: 'Permittivity is independent of thickness... However, this is not true from our experience on thin samples.']
+[Sound: Suspenseful, high-tension string chords.]
+
+[VOICEOVER]
+"Let us look at a concrete, shocking example of modern academic alchemy: a 2024 paper published in Carbon, a journal with an Impact Factor over 10. 
+
+In this paper, Hou and co-authors claim that the relative permittivity—which is a fundamental, bulk material parameter—is actually a function of the thin film's thickness. Look at their Figure 4! To anyone who has taken sophomore electromagnetics, this is a fatal, absolute error. Permittivity is independent of sample geometry and thickness by definition. 
+
+Yet, when we submitted our formal critique, the journal rejected it. What was the reviewers' excuse? A reviewer actually wrote: 'The first point cited is that permittivity is independent of thickness or geometry. However, this is not true from our experience on thin samples.' 
+
+Think about the sheer, unscientific absurdity of this statement! Because their flawed experimental setup produced miscalculated data, they threw out standard physics, declared permittivity to be thickness-dependent, and the peer reviewers patted them on the back. This paper remains unretracted and heavily cited, polluting the literature."
+
+
+[SCENE 3: THE PARADE OF IMPEDANCE CONFLATIONS | 第三幕：概念混淆的百态图——Zin 与 ZM 的致命缠绕]
+[Visual: Multi-panel diagram showing the formulas of multiple papers:
+Panel 1: Saikia et al. (Appl. Phys. A 2024) - circles Equations 1, 2, and 3, showing the confusion between Zin and ZM, and film R vs interface r.
+Panel 2: Singh et al. (Appl. Phys. A 2024) - highlights Equation 9, showing how they used identical symbols for both film reflection coefficient and interface reflection coefficient.
+Panel 3: Prima Hardianto et al. (ChemistrySelect 2024) - circles Equation 5, showing they characterized film absorption using interface reflection coefficient. Label: 'Interfaces do NOT absorb waves. Only bulk materials do!']
+[Sound: Deep, ticking clock sound, magnifying the ongoing passage of errors.]
+
+[VOICEOVER]
+"This is not an isolated incident. The literature is filled with papers that confuse the most basic concepts of wave mechanics. 
+
+Take a 2024 paper by Saikia et al. in Applied Physics A. In their equations, they use the capital R to represent the film's reflection coefficient, but then swap it with the interface's reflection coefficient. They completely conflate the normalized input impedance of the film, Zin, with the characteristic impedance of the material, ZM. 
+
+Or look at another 2024 paper in the same journal by Singh et al. In Equation 9, they use a symbol for the film's reflection coefficient, while just one line above, the exact same symbol refers to the interface's reflection coefficient. They literally confused the two concepts within a single paragraph!
+
+Then we have ChemistrySelect 2024 by Prima Hardianto et al. In Equation 5, they use the interface reflection coefficient to characterize film microwave absorption. But basic energy conservation proves that while a film can absorb microwaves through internal propagation, a zero-thickness boundary interface itself CANNOT absorb energy. Conflating the boundary with the volume is a fundamental violation of physics."
+
+
+[SCENE 4: THE COLLAPSE OF WAVE VECTOR MATHEMATICS | 第四幕：波叠加的沦丧——反射损失不是矢量]
+[Visual: Diagrams illustrating two papers:
+Panel 1: Andriyanti et al. (Physica B 2024) - showing Figure 12's unscientific 'first reflection loss' and 'second reflection loss'.
+Panel 2: Wang et al. (J. Appl. Phys. 2012) - showing the superposition of beam energies instead of wave field vectors. Red bold cross: 'Error: Sum of Energies ≠ Superposition of Wave Vectors'.]
+[Sound: Low-frequency bass drop, emphasizing theoretical poverty.]
+
+[VOICEOVER]
+"The errors run even deeper. To understand wave interference, one must understand that waves are vectors with both amplitude and phase. Yet, top papers completely disregard this.
+
+In a 2024 paper in Physica B by Andriyanti et al., the authors define a 'first reflection loss' and a 'second reflection loss' in their Figure 12. But 'Reflection Loss' is a scalar power ratio, a unitless quantity of energy. It is not a vector. You cannot use reflection loss for wave superposition! You must use the reflection coefficient, which is a complex vector. 
+
+This is the exact same blunder made by Wang et al. in their 2012 Journal of Applied Physics paper. They treated the superposition of multiple reflected beams as a sum of their independent energies, rather than a vector superposition of their wave fields. They literally tried to model interference without wave mechanics, treating waves as if they were billiard balls."
+
+
+[SCENE 5: THE PENETRATION MYTH AND THE CALL FOR SCIENTIFIC RETRACTIONS | 第五幕：学术纠错机制的瘫痪与撤稿之争]
+[Visual: Screenshot of Abu Sanad et al. (physica status solidi (a) 2024) claiming ideal penetration requires r, r1, and r2 to be zero. A large digital stamp falls: "CENSORED BY JOURNALS". Bulleted list of journals refusing corrections. Cover of the I&ECR 2025 paper: 'Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review.']
+[Sound: Heroic, rising orchestral melody, turning from despair to an unyielding call to arms.]
+
+[VOICEOVER]
+"In 2024, Abu Sanad and co-authors claimed in physica status solidi (a) that ideal wave penetration requires the reflection coefficient at every boundary—r, r1, and r2—to simultaneously vanish. But wave mechanics proves that the overall film reflection RL can equal zero even when individual boundary reflections are highly prominent, because the reflected beams cancel each other out in the air! 
+
+When we tried to submit corrections, the editorial systems of these journals slammed their doors shut. Why? Because admitting these errors would mean admitting that the peer-review system has failed. It would require retracting thousands of papers, collapsing the h-index of academic power-brokers, and exposing the publish-or-perish game as a massive, metrics-driven scam.
+
+We must demand retractions for these papers. A retraction is not just for academic misconduct; it is the ultimate hygiene mechanism of science. If we do not purge these errors, we are teaching the next generation of students that consensus matters more than physics, and that citations matter more than truth. 
+
+Our comprehensive critique, co-authored with Michael Drew and Ying Liu, has been published in Industrial & Engineering Chemistry Research in 2025. We have laid out every mathematical correction. We invite you to read the full papers on SSRN and Qeios, stand for scientific truth, and refuse to participate in the cargo cult of modern academic publishing.
+
+Thank you for watching."`;
+
+  const youtubeDescText25 = `Lecture 12: Should More Than 95% of SCI Top-Tier "Garbage" Papers Be Retracted? 
+
+In this twelfth lecture of our Wave Mechanics series, we confront a massive, systemic crisis in modern scientific publishing: the proliferation of flawed, unscientific "garbage" papers in high-impact SCI journals, and the absolute refusal of editorial boards to issue retractions. We present a detailed, logical audit of several widely cited publications in the field of microwave absorption, demonstrating how basic mathematical and physical category errors are allowed to propagate unchecked.
+
+Key Critiques and Fatal Errors Discussed:
+1. Carbon 2024 (Hou et al. - DOI: 10.1016/j.carbon.2024.118935): Claiming that permittivity is a function of film thickness (Fig 4). Permittivity is a bulk material property, completely independent of thickness or geometry. When pointed out, reviewers claimed "permittivity is dependent on thickness from our experience."
+2. Applied Physics A 2024 (Saikia et al. - DOI: 10.1007/s00339-024-07339-4): Confusing the film's reflection coefficient R with the interface's reflection coefficient r, and conflating input impedance Zin with material characteristic impedance ZM.
+3. Applied Physics A 2024 (Singh et al. - DOI: 10.1007/s00339-024-07331-y): Using the same symbols to represent completely different concepts, conflating the film's reflection coefficient in Eq 9 with the boundary's interface reflection coefficient.
+4. ChemistrySelect 2024 (Prima Hardianto et al. - DOI: 10.1002/slct.202304748): Characterizing film absorption using the interface reflection coefficient (Eq 5). This directly violates energy conservation: a zero-thickness boundary interface cannot absorb energy; only the bulk film can.
+5. Physica B 2024 (Andriyanti et al. - DOI: 10.1016/j.physb.2024.415690): Defining "first reflection loss" and "second reflection loss" (Fig 12), which is unscientific because Reflection Loss is a scalar power ratio and cannot be used for wave superposition (which requires complex vectors).
+6. Journal of Applied Physics 2012 (Wang et al. - DOI: 10.1063/1.4767365): Treating multiple reflected beams as a sum of energies rather than a vector superposition of wave fields.
+7. physica status solidi (a) 2024 (Abu Sanad et al. - DOI: 10.1002/pssa.202300828): Erroneously claiming that zero reflection requires r, r1, and r2 to simultaneously vanish, ignoring phase cancellation.
+
+📖 PRIMARY SCIENTIFIC CRITIQUES & COMPREHENSIVE REVIEWS:
+➔ Journal Review: Yue Liu, Ying Liu, Michael G. B. Drew, "Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review", Industrial & Engineering Chemistry Research, 2025, 64(7), 3635–3650. DOI: https://doi.org/10.1021/acs.iecr.4c04544
+➔ Qeios Preprint (Review & Corrections): https://doi.org/10.32388/QQ1MFF
+➔ SSRN Preprint: "Corrections of Common Errors Associated with the Confusion between Film and Material in Current Theories of Microwave Absorption" - https://ssrn.com/abstract=4797207
+➔ SSRN Preprint (Publication Biases & Citations): "Self-Citation Versus External Citation in Academic Publishing: A Critical Analysis of Citation Reliability" - https://ssrn.com/abstract=5392646
+
+⏱️ TIMESTAMPS:
+0:00 - Introduction: Newton's Rigor vs. Modern Cargo Cult Science
+2:00 - The Permittivity Scandal: Hou et al. (Carbon 2024)
+5:10 - Conflating Zin and ZM: Saikia et al. & Singh et al. (Appl. Phys. A 2024)
+8:00 - Interface vs. Film Absorption: Prima Hardianto et al. (ChemistrySelect 2024)
+10:15 - The Scalar Error in Wave Superposition: Andriyanti et al. & Wang et al.
+12:30 - The Penetration Myth: Abu Sanad et al. (PSS-A 2024)
+14:50 - Why Journals Refuse to Correct: The Publish-or-Perish Protection racket
+
+📧 CORRESPONDENCE, DEBATES, & RESEARCH COLLABORATIONS:
+We invite rigorous logical audits. For discussions on academic integrity and wave mechanics:
+➔ yueliusd@163.com
+
+#AcademicIntegrity #WaveMechanics #PeerReviewCrisis #Retraction #Electromagnetics #MicrowaveAbsorption #ScientificRetractions #CarbonJournal #AppliedPhysics #YueLiu #Substack #SSRN`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2301,7 +2407,8 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
     activeProject === "project21" ? youtubeScriptText21 :
     activeProject === "project22" ? youtubeScriptText22 :
     activeProject === "project23" ? youtubeScriptText23 :
-    youtubeScriptText24;
+    activeProject === "project24" ? youtubeScriptText24 :
+    youtubeScriptText25;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2327,7 +2434,8 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
     activeProject === "project21" ? youtubeDescText21 :
     activeProject === "project22" ? youtubeDescText22 :
     activeProject === "project23" ? youtubeDescText23 :
-    youtubeDescText24;
+    activeProject === "project24" ? youtubeDescText24 :
+    youtubeDescText25;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -2745,6 +2853,22 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-600 animate-pulse" />
             Project X: Film vs Material
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project25");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project25"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-red-50 hover:text-red-955"
+            }`}
+            id="toggle-project25"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
+            Project Y: SCI Retractions
           </button>
         </div>
       </div>
@@ -3184,6 +3308,32 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project Y */}
+      {activeProject === "project25" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-rose-650 animate-pulse" />
+             Lecture 12: SCI Retractions Crisis • 第十二讲：95%以上的SCI顶刊垃圾文章应不应该撤稿
+          </div>
+          <p className="text-[12px] text-rose-950 leading-relaxed italic">
+            "视频第十二讲振聋发聩，直面当代学术界最致命的道德与学术危机：高达95%的期刊文章充斥着致命错误。主流学术界宁可让错误理论统治学界半个多世纪，也不敢面对大规模撤稿的真相，这是典型的‘Cargo Cult Science’（草包族科学）。为了彻底扫清这些阻碍科学进步的学术垃圾，我们在《Industrial & Engineering Chemistry Research》（I&ECR 2025, 64(7), 3635–3650）及SSRN和Qeios平台发表了一系列无可挑剔的学术审计。
+
+我们一针见血地指出并纠正了多篇顶刊文献中的低级物理与数学错误：例如 Carbon 2024 (Hou等) 居然荒谬地认为介电常数（材料本征参数）是膜厚度的函数（其审稿人竟然以‘实验结果就是这样’予以包庇并允许大量高引发表！）；Applied Physics A 2024 连续两篇论文 (Saikia等与Singh等) 混淆了输入阻抗 Zin 与介质阻抗 ZM，更将符号搞错；ChemistrySelect 2024 (Prima Hardianto等) 用界面反射系数表征膜的微波吸收，完全违背了界面不消耗能量的能量守恒定理 (Mater. Chem. Phys. 2022)；Physica B 2024 (Andriyanti等) 错误定义‘第一/第二反射损失’，混淆了标量能量与矢量振幅。这些建立在‘本科生即可纠正’的错误基础之上的高引顶刊，应该被钉在学术的耻辱柱上并立即予以撤稿！只有坚决撤稿，才能惩罚学术灌水、打破门阀审查、维护真正的科学尊严！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Permittivity Error (打脸Carbon 2024：介电常数绝对与厚度无关)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Impedance Conflation (Zin vs. ZM 经典死结纠正，清算 Saikia/Singh 论文)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              I&ECR 2025 Publication (《I&ECR 2025》重量级纠错评述：3635–3650 权威清算)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -3216,7 +3366,8 @@ If you are interested in peer-reviewed logical audits of electromagnetic theorie
                   activeProject === "project21" ? "Project U" :
                   activeProject === "project22" ? "Project V" :
                   activeProject === "project23" ? "Project W" :
-                  "Project X"
+                  activeProject === "project24" ? "Project X" :
+                  "Project Y"
                 })</span>
               </div>
               <button
