@@ -2363,6 +2363,22 @@ export default function IntegratedArticle() {
             <p className="font-serif">
               Tolerating mistakes in scientific progress means we do not punish researchers for proposing bold hypotheses that later turn out to be wrong. But when an article contains clear, demonstrably falsified or fabricated data, or when basic, fatal logical flaws are pointed out, the refusal to retract and correct those errors is not "trial-and-error"—it is corruption.
             </p>
+            <p className="font-serif font-semibold text-rose-950 bg-rose-50/60 p-4 border border-rose-100 rounded-lg text-xs md:text-sm">
+              <strong>The Epistemic Link: Abolishing Forced Ranking is the Prerequisite for Truthfulness.</strong> 
+              <br className="mb-1" />
+              Abolishing the tyranny of stack ranking (末位淘汰) does not mean lowering academic standards; rather, it removes the very source of systemic academic fraud. When there is no punitive threat of being purged for a temporary lack of results, researchers no longer operate under terror. They are freed from the desperate survival pressure that forces them to falsify data, fabricate achievements, or churn out worthless, derivative papers just to keep their jobs. 
+              <br className="mb-2" />
+              In a relaxed, non-punitive environment, researchers can afford to be honest. They can **dare to admit their errors, dare to correct them, and dare to take responsibility** for honest mistakes (没有末位淘汰，就敢于承认错误，敢于纠正错误、敢于承担错误的责任). Therefore, removing the punishment for "no results" is structurally distinct from refusing to punish actual scientific fraud.
+            </p>
+            <p className="font-serif">
+              Conversely, the modern academic establishment does the exact opposite. Because researchers cannot survive without constant, short-term "results," those who wish to stay in academia are forced to commit fraud, fabricate statistics, and flood journals with repetitive, sterile papers (现代科学界你没有成果你活不下去。没有成果你还要活下去就得造假、就得发表垃圾文章). 
+            </p>
+            <p className="font-serif">
+              Under this terror-driven pressure, academia becomes pathologically terrified of making mistakes, leading to a system that refuses to admit errors, covers up flaws, and suppresses corrections. Smooth-talking pragmatists and paper-mill operators who contribute nothing to genuine human knowledge are elevated to positions of supreme academic authority, while the overall theoretical and intellectual level of researchers plumments. 
+            </p>
+            <p className="font-serif">
+              Thus, abolishing stack ranking and demanding the retraction of flawed or fraudulent papers are of entirely different natures. Academic progress requires us to protect the right of honest scholars to produce no immediate results, while simultaneously demanding absolute accountability and retractions for the garbage and incorrect articles published in prestigious journals.
+            </p>
             <p className="font-serif">
               Yet, the modern establishment reverses these priorities. It uses stack ranking to terrorize honest, junior researchers, while simultaneously maintaining a "golden silence" to protect powerful, established figures who publish fraudulent papers. As reported in the <em>New York Times</em> (2018) regarding the Harvard cardiac stem cell scandal, where dozens of fraudulent papers from Piero Anversa’s lab persisted for decades: <em>"some scientists wondered how a questionable line of research persisted for so long … experts were just too timid to take a stand."</em>
             </p>
@@ -2386,8 +2402,25 @@ export default function IntegratedArticle() {
               </span>
             </p>
             <p className="font-serif">
-              The fear of exposing the flaws of "scientific idols" keeps corrupt editorial boards silent. But progress is not driven by these prestige-brokering journals. In <em>Major Scientific Breakthroughs Are Not Born From Journals</em> (2025), Dr. Yue Liu demonstrates that the revolutionary technologies of our time—such as advanced deep learning models and semiconductor architectures—were driven by industrial constraints and empirical validation, not the gradual, conformist progress gatekept by <em>Nature</em> and <em>Science</em>.
+              The fear of exposing the flaws of "scientific idols" keeps corrupt editorial boards silent. But progress is not driven by these prestige-brokering journals. In <em>Major Scientific Breakthroughs Are Not Born From Journals</em> (2025) and <em>Wu Wei Governance</em> (SSRN 5421094, 2025), Dr. Yue Liu demonstrates that the revolutionary technologies of our time—such as advanced deep learning models and semiconductor architectures—were driven by industrial constraints and empirical validation, not the gradual, conformist progress gatekept by <em>Nature</em> and <em>Science</em>.
             </p>
+            <div className="font-serif bg-slate-900 text-slate-100 p-4 border border-slate-950 rounded-lg text-xs md:text-sm space-y-3">
+              <p className="font-sans font-bold text-rose-400">
+                The Technocratic Illusion: The Medieval Analogy of Modern Progress
+              </p>
+              <p className="italic">
+                Some defenders of the status quo argue: "We live in an age of artificial intelligence, high-performance drones, and powerful software platforms. How can anyone claim that modern science is stagnant, or that the academic establishment is in a dark age?"
+              </p>
+              <p>
+                This objection mistakes the fruits of industrial pragmatism for the success of academic bureaucracy. Did the neural network breakthroughs or the engineering marvels of drones emerge from academic debates gatekept by risk-averse peer review and stack-ranked tenure tracks? No. They were driven by private enterprises pursuing tangible market profits and real-world utility, where success is measured by physical performance rather than SCI impact factors.
+              </p>
+              <p>
+                To point to drones and AI to justify the sanity of the modern academic system is like a medieval apologist declaring: <em>"We have the most powerful heavy cavalry, we have conquered vast territories, and we have built magnificent cathedrals—how can you possibly call our era the Dark Ages?"</em> (中世纪也会说、我们有这么强大的军队、我们征服了那么多国家，难道你能说我们黑暗吗？). 
+              </p>
+              <p>
+                The structural decay of the intellectual class is independent of the empirical successes of industrial engineering. A dark age is defined not by a complete absence of physical tools, but by the systematic suppression of critical truth, the institutionalized fear of admitting errors, and the active purging of unorthodox thinkers in favor of conformist mediocrity.
+              </p>
+            </div>
             <p className="font-serif font-semibold text-slate-900 bg-slate-50 p-3.5 border border-slate-200 rounded-lg text-xs md:text-sm">
               "We must abolish the Taylorist, assembly-line tyranny of stack ranking that forces conformity and silences creative minds. Let scientists make mistakes, let them explore wild and unorthodox avenues of thought, and protect their right to fail. But hold the journals, the publishers, and the powerful editorial boards to absolute, personal accountability when they protect established fraud, hide corrections, and defend self-referential citation cartels."
             </p>
