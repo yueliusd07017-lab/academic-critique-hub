@@ -173,8 +173,8 @@ export default function IntegratedArticle() {
             onClick={() => setActiveArticle("academicgames")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "academicgames"
-                ? "bg-rose-955 text-white shadow-sm animate-pulse"
-                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
             }`}
             id="toggle-article-academicgames"
           >
@@ -185,8 +185,8 @@ export default function IntegratedArticle() {
             onClick={() => setActiveArticle("textbooksprimacy")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "textbooksprimacy"
-                ? "bg-orange-955 text-white shadow-sm animate-pulse"
-                : "text-orange-900 hover:bg-orange-50 hover:text-orange-955"
+                ? "bg-orange-900 text-white shadow-sm animate-pulse"
+                : "text-orange-900 hover:bg-orange-50 hover:text-orange-900"
             }`}
             id="toggle-article-textbooksprimacy"
           >
@@ -197,8 +197,8 @@ export default function IntegratedArticle() {
             onClick={() => setActiveArticle("collectivesupremacy")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "collectivesupremacy"
-                ? "bg-rose-955 text-white shadow-sm animate-pulse"
-                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
             }`}
             id="toggle-article-collectivesupremacy"
           >
@@ -209,8 +209,8 @@ export default function IntegratedArticle() {
             onClick={() => setActiveArticle("planckai")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "planckai"
-                ? "bg-amber-955 text-white shadow-sm animate-pulse"
-                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+                ? "bg-amber-900 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-900"
             }`}
             id="toggle-article-planckai"
           >
@@ -222,7 +222,7 @@ export default function IntegratedArticle() {
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "huangwanli"
                 ? "bg-rose-950 text-white shadow-sm animate-pulse"
-                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
             }`}
             id="toggle-article-huangwanli"
           >
@@ -233,8 +233,8 @@ export default function IntegratedArticle() {
             onClick={() => setActiveArticle("cooptation")}
             className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
               activeArticle === "cooptation"
-                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
-                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+                ? "bg-indigo-900 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-900"
             }`}
             id="toggle-article-cooptation"
           >
