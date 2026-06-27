@@ -771,7 +771,7 @@ export default function IntegratedArticle() {
 
           {/* Section 1 */}
           <div className="space-y-4 pt-4">
-            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-955">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-950">
               I. The Etymological Re-centering of Metaphysics (还原“形而上学”的本质)
             </h3>
             <p>
@@ -788,7 +788,7 @@ export default function IntegratedArticle() {
 
           {/* Section 2 */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-955">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-950">
               II. Aristotle's Ontology versus the "High-Tech Alchemy" of Modern Laboratories
             </h3>
             <p>
@@ -808,7 +808,7 @@ export default function IntegratedArticle() {
 
           {/* Section 3 */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-955">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-950">
               III. Kant's Copernican Revolution & The Illusory Authority of Pure Measurement
             </h3>
             <p>
@@ -829,7 +829,7 @@ export default function IntegratedArticle() {
 
           {/* Section 4 */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-955">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-950">
               IV. Wittgenstein's Mistake & Quine's Salvation: Ontological Commitment in Science
             </h3>
             <p>
@@ -847,7 +847,7 @@ export default function IntegratedArticle() {
 
           {/* Section 5 */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-955">
+            <h3 className="text-lg font-bold text-gray-900 font-sans tracking-tight text-indigo-950">
               V. The Clash of Realisms: Reclaiming Metaphysical Idealism in Wave Mechanics
             </h3>
             <p>
@@ -2139,6 +2139,7 @@ export default function IntegratedArticle() {
 
       {activeArticle === "cooptation" && (
         <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="cooptation-article-text">
+          {/* Essay O: The Co-optation Paradox of Modern Academia */}
           {/* Title Area */}
           <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
             <h1 className="text-2xl md:text-3xl font-extrabold text-gray-950 font-sans tracking-tight leading-tight">
