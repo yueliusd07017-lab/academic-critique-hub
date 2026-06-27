@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -45,6 +45,7 @@ export default function IntegratedArticle() {
             activeArticle === "planckai" ? "planckai-article-text" :
             activeArticle === "huangwanli" ? "huangwanli-article-text" :
             activeArticle === "cooptation" ? "cooptation-article-text" :
+            activeArticle === "trialanderror" ? "trialanderror-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -240,6 +241,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-indigo-500 animate-pulse" />
             Essay O: The Co-optation Paradox
+          </button>
+          <button
+            onClick={() => setActiveArticle("trialanderror")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "trialanderror"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-trialanderror"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay P: Trial-and-Error Imperative
           </button>
         </div>
       </div>
@@ -2240,6 +2253,131 @@ export default function IntegratedArticle() {
             </p>
             <p className="font-serif">
               By exposing Beihang's Outstanding Young Scholar even after his profiles in <em>Science</em> and <em>Nature</em>, Student Geng demonstrates that true rebel fire cannot be so easily put out by the court's co-optation. The battle for real science is not about getting published or profiled; it is about replacing consensus-driven alchemy with rigorous, classical physical truth.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "trialanderror" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="trialanderror-article-text">
+          {/* Essay P: The Trial-and-Error Imperative */}
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-955 font-sans tracking-tight leading-tight text-gray-900">
+              The Trial-and-Error Imperative: Why Forced Ranking Destroys Scientific Innovation and Why Accountability Must Rest on Editorial Gatekeepers
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              The Epistemology of Scientific Trial • Corporate Metaphors vs. Academic Realities • June 2026
+            </p>
+            <div className="text-xs text-rose-655 bg-rose-50 px-3 py-1 rounded border border-rose-100 inline-block font-sans font-semibold">
+              Misleading Forms of Formalism vs. The Necessity of Generous Epistemic Tolerance (误导科学的形式主义与鼓励试错探索的必要性)
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">I.</span> The Corporate Fallacy: Jensen Huang and the Ruin of Stack Ranking
+            </h3>
+            <p className="font-serif">
+              During his address at Cambridge University upon receiving the Stephen Hawking Fellowship, NVIDIA CEO Jensen Huang delivered an uncomfortable truth to the business elites who treat "stack ranking" (末位淘汰) as management gospel. Huang declared the system to be fundamentally stupid: <em>"If you let your people worry about being fired every day, the only thing they can do is avoid making mistakes. And when a team becomes too terrified to make errors, innovation dies."</em>
+            </p>
+            <p className="font-serif">
+              NVIDIA's own $3 trillion empire stands as a monument to persistent, protected failure. Thirty years ago, their early GPU architectures failed repeatedly, leaving them with just thirty days of operating cash flow. In a conventional stack-ranking environment, the engineers responsible for those failed product cycles would have been purged. Instead, their mistakes were treated as stepping stones; those "failed" engineers survived to design the parallel computing architectures that power modern artificial intelligence.
+            </p>
+            <p className="font-serif">
+              The corporate world possesses rare, visionary leaders who understand that brainpower is not a mechanical assembly line. Huawei founder Ren Zhengfei famously tolerated a reclusive Russian mathematician who spent years isolated in a corner, avoiding socialization, team buildings, and dating, returning a "zero KPI" year after year. In any system governed by forced ranking, he would have been dismissed during his probation. Yet, this "useless" mathematician eventually unlocked the core algorithms transitioning telecommunications from 2G to 3G, saving Huawei billions and positioning it for 5G dominance.
+            </p>
+            <p className="font-serif">
+              Conversely, the academic establishment has institutionalized the worst excesses of corporate Taylorism. A tragicomic embodiment of this systemic dysfunction occurred in 2021 when a prominent Chinese finance university dismissed financial economist Philip H. Dybvig because he did not meet their performance evaluation metrics—he failed to publish enough designated "A-class" papers, secure sufficient state funds, or attend standard staff meetings. Exactly one year later, Dybvig received the 2022 Nobel Prize in Economics for his banking panic models. Academia had attempted to measure the brilliance of a diamond with a cheap brick-ruler.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">II.</span> The Cult of Consensus: Academic Formalism and the Garbage Factory
+            </h3>
+            <p className="font-serif">
+              Modern academic evaluation has devolved into empty, hyper-vigilant formalism. Committees obsess over mechanical superficialities—using automated software to verify whether manuscripts contain AI-generated text or strictly follow citation templates—while remaining completely blind to whether the core ideas possess actual scientific value. 
+            </p>
+            <p className="font-serif">
+              Under the tyranny of SCI impact factors and consensus-driven peer review, the system systematically penalizes unorthodox thinkers. Prominent journals function like risk-averse academic cartels, practicing "instant rejection" (秒拒) for any paper that dares to challenge established mainstream dogmas. Today's academic establishment values the "safe," the "four-cornered," and the "politely non-disruptive." It encourages researchers to produce highly derivative, incremental, and ultimately meaningless papers that expand existing research programs of influential scholars.
+            </p>
+            <p className="font-serif font-semibold text-rose-900 bg-rose-50/45 p-3.5 border border-rose-100 rounded-lg text-xs md:text-sm">
+              As Nobel laureate Tasuku Honjo famously observed: "Ninety percent of the views published by top magazines like Cell, Nature, and Science are wrong. I formulate this in an exaggerated way to alert young researchers that they should never blindly follow authority."
+            </p>
+            <p className="font-serif">
+              The history of science confirms that peer-reviewed consensus is an unreliable measure of truth. In his monumental work <em>Mathematical Thought from Ancient to Modern Times</em>, Morris Kline wrote: 
+              <span className="block pl-4 border-l-2 border-slate-350 italic my-2">
+                "Beyond these considerations, the importance of many of the more recent developments cannot be evaluated objectively at this time. The history of mathematics teaches us that many subjects which aroused tremendous enthusiasm and engaged the attention of the best mathematicians ultimately faded into oblivion ... Indeed one of the interesting questions that the history answers is what survives in mathematics. History makes its own and sounder evaluations."
+              </span>
+              History consistently reveals that what is overemphasized by the prominent scholars of an era is often merely the intentional promotion of mediocrity, while that which is suppressed by prevailing contemporary authorities often reveals itself to be authentic and of true value.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">III.</span> The Necessity of Error: Why Mistakes are Scientific Nutrients
+            </h3>
+            <p className="font-serif">
+              As Dr. Yue Liu has rigorously articulated in his twin treatises, <em>The Inevitability and Necessity of Error in Scientific Publishing</em> (September 2025) and <em>The Necessity of Error: Why Mistakes Are the Essential Nutrients for Scientific Progress</em> (November 2025), errors are not catastrophic failures to be punished by forced purges; they are the fundamental fuel of the scientific method.
+            </p>
+            <p className="font-serif">
+              Science is not a straight line of gradual, error-free accumulation. It is a messy, non-linear evolutionary landscape where progress is made by exploring blind alleys, formulating incorrect hypotheses, and correcting them. If we demand that every published paper be free of incorrect interpretations, we silence the very intellectual play and risk-taking that make breakthroughs possible:
+            </p>
+            <ul className="list-disc list-inside space-y-2 pl-4 font-serif text-xs md:text-sm">
+              <li>
+                <strong>The Nutrients of Truth:</strong> An incorrect but bold, creative paper that challenges an assumption is infinitely more valuable to scientific progress than a thousands-page compiled experimental report that is technically "correct" but conceptually sterile.
+              </li>
+              <li>
+                <strong>Historical Relativism:</strong> "Research" means re-searching. What is deemed correct today is merely the approximation of our era; what is branded as "wrong" today may contain the kernel of tomorrow's paradigm shift.
+              </li>
+            </ul>
+            <p className="font-serif">
+              By enforcing a punitive environment where researchers are ranked, graded, and purged based on zero-tolerance evaluation metrics, we force them to play safe, write boring papers, and actively hide any anomalies in their data. We replace the passionate search for nature's laws with corporate metric-manipulation.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">IV.</span> The Dialectical Distinction: Protecting Trial-and-Error vs. Protecting Misconduct
+            </h3>
+            <p className="font-serif">
+              However, the defense of trial-and-error exploration must never be twisted into a shield for scientific misconduct and editorial negligence. There is a profound dialectical difference between **embracing honest errors during active exploration** and **protecting deliberate fraud and the refusal to correct errors**.
+            </p>
+            <p className="font-serif">
+              Tolerating mistakes in scientific progress means we do not punish researchers for proposing bold hypotheses that later turn out to be wrong. But when an article contains clear, demonstrably falsified or fabricated data, or when basic, fatal logical flaws are pointed out, the refusal to retract and correct those errors is not "trial-and-error"—it is corruption.
+            </p>
+            <p className="font-serif">
+              Yet, the modern establishment reverses these priorities. It uses stack ranking to terrorize honest, junior researchers, while simultaneously maintaining a "golden silence" to protect powerful, established figures who publish fraudulent papers. As reported in the <em>New York Times</em> (2018) regarding the Harvard cardiac stem cell scandal, where dozens of fraudulent papers from Piero Anversa’s lab persisted for decades: <em>"some scientists wondered how a questionable line of research persisted for so long … experts were just too timid to take a stand."</em>
+            </p>
+            <p className="font-serif">
+              Whistleblowers who attempt to correct these errors are routinely suppressed. In her 2020 <em>Nature</em> commentary, Simine Vazire highlighted the plight of a postdoc who pointed out errors in a famous researcher's paper: <em>"The critique was accurate, important and measured — a service to his field. But it caused him problems: his adviser told him that publishing the criticism had crossed a line, and he should never do it again."</em> The system actively shields established figures from accountability while purging the "lowest ranked" marginal scholars who fail to keep up with the paper-producing treadmill.
+            </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">V.</span> Editorial Accountability: Realigning the System of Scientific Progress
+            </h3>
+            <p className="font-serif">
+              In his treatise <em>Scientific Accountability: The Case for Personal Responsibility in Academic Error Correction</em> (Qeios, 2025), Dr. Yue Liu argues that we must replace the punitive stack-ranking of individual researchers with the personal, legal, and institutional accountability of journal editors and senior peer reviewers. 
+            </p>
+            <p className="font-serif">
+              When a journal publishes a flawed or fraudulent paper and is presented with undeniable evidence of its errors, the editor’s refusal to act or their deliberate delay in issuing retractions is a severe breach of public trust. We must hold these gatekeepers accountable. As Stephen T. Ziliak and Deirdre N. McCloskey observed in <em>The Cult of Statistical Significance</em> (2008): 
+              <span className="block pl-4 border-l-2 border-slate-350 italic my-2">
+                "The mainstream in science, as any scientist will tell you, is often wrong ... Scientists are often tardy in fixing basic flaws in their sciences despite the presence of better alternatives ... What Nietzsche called the 'twilight of the idols,' the fear of losing a powerful symbol or god or technology, haunts us all."
+              </span>
+            </p>
+            <p className="font-serif">
+              The fear of exposing the flaws of "scientific idols" keeps corrupt editorial boards silent. But progress is not driven by these prestige-brokering journals. In <em>Major Scientific Breakthroughs Are Not Born From Journals</em> (2025), Dr. Yue Liu demonstrates that the revolutionary technologies of our time—such as advanced deep learning models and semiconductor architectures—were driven by industrial constraints and empirical validation, not the gradual, conformist progress gatekept by <em>Nature</em> and <em>Science</em>.
+            </p>
+            <p className="font-serif font-semibold text-slate-900 bg-slate-50 p-3.5 border border-slate-200 rounded-lg text-xs md:text-sm">
+              "We must abolish the Taylorist, assembly-line tyranny of stack ranking that forces conformity and silences creative minds. Let scientists make mistakes, let them explore wild and unorthodox avenues of thought, and protect their right to fail. But hold the journals, the publishers, and the powerful editorial boards to absolute, personal accountability when they protect established fraud, hide corrections, and defend self-referential citation cartels."
             </p>
           </div>
         </article>
