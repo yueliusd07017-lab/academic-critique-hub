@@ -2288,6 +2288,9 @@ export default function IntegratedArticle() {
             <p className="font-serif">
               The corporate world possesses rare, visionary leaders who understand that brainpower is not a mechanical assembly line. Huawei founder Ren Zhengfei famously tolerated a reclusive Russian mathematician who spent years isolated in a corner, avoiding socialization, team buildings, and dating, returning a "zero KPI" year after year. In any system governed by forced ranking, he would have been dismissed during his probation. Yet, this "useless" mathematician eventually unlocked the core algorithms transitioning telecommunications from 2G to 3G, saving Huawei billions and positioning it for 5G dominance.
             </p>
+            <p className="font-serif font-semibold text-rose-900 bg-rose-50/40 p-3.5 border border-rose-100 rounded-lg text-xs md:text-sm">
+              As Dr. Yue Liu proposes in his philosophical framework, <em>Wu Wei Governance: A Philosophical Framework for Addressing the Academic Research Crisis and Institutional Gatekeeping</em> (SSRN 5421094, 2025), genuine scientific discoveries and breakthroughs are never chased down or forced out under pressure; they blossom naturally out of leisure and unhured, autonomous exploration (科学发现不是靠追命追出来的，科学发现是在闲暇中自然冒出来的).
+            </p>
             <p className="font-serif">
               Conversely, the academic establishment has institutionalized the worst excesses of corporate Taylorism. A tragicomic embodiment of this systemic dysfunction occurred in 2021 when a prominent Chinese finance university dismissed financial economist Philip H. Dybvig because he did not meet their performance evaluation metrics—he failed to publish enough designated "A-class" papers, secure sufficient state funds, or attend standard staff meetings. Exactly one year later, Dybvig received the 2022 Nobel Prize in Economics for his banking panic models. Academia had attempted to measure the brilliance of a diamond with a cheap brick-ruler.
             </p>
@@ -2306,6 +2309,15 @@ export default function IntegratedArticle() {
             </p>
             <p className="font-serif font-semibold text-rose-900 bg-rose-50/45 p-3.5 border border-rose-100 rounded-lg text-xs md:text-sm">
               As Nobel laureate Tasuku Honjo famously observed: "Ninety percent of the views published by top magazines like Cell, Nature, and Science are wrong. I formulate this in an exaggerated way to alert young researchers that they should never blindly follow authority."
+            </p>
+            <p className="font-serif">
+              In this environment, forced ranking (末位淘汰) acts as a highly effective filter to purge the absolute wrong group of scholars. Those who are inevitably weeded out are precisely the creative, non-conforming few who dare to challenge prevailing consensus and advance truly innovative ideas (末位淘汰的必然是敢于挑战共识、有创新思想的少数人). Meanwhile, those who conform, play nice, and churn out predictable, safe, and derivative literature are elevated to positions of supreme power.
+            </p>
+            <p className="font-serif">
+              A civilized society should recognize that higher education institutions are inherently designed to serve as sanctuaries to shelter and sustain "nerds" or bookworms (高等学校就是养书呆子的地方). Furthermore, supporting a vast population of ordinary, non-innovative personnel is a fundamental requirement of civilized progression (养一大批没有创新的人是社会文明的要求). A truly civilized society must support a large population and provide them with broad-ranging welfare and well-being (文明社会就是要养一大批人，为大批的人提供福祉).
+            </p>
+            <p className="font-serif">
+              However, providing well-being to all does not mean elevating smooth-talking, politically-dexterous pragmatists and paper-millers to academic authorities, nor does it mean purging the select, genuine few who dedicate their lives to deep scholarship (但是为全人类提供福祉不是要把会圆滑处事的人、把靠发表垃圾文章的人晋升为学术权威、也不是要把真正做学问的少数人淘汰出局).
             </p>
             <p className="font-serif">
               The history of science confirms that peer-reviewed consensus is an unreliable measure of truth. In his monumental work <em>Mathematical Thought from Ancient to Modern Times</em>, Morris Kline wrote: 
@@ -2388,6 +2400,24 @@ export default function IntegratedArticle() {
           Support Yue Liu’s Critical Scientific Treatises:
         </h4>
         <div className="flex flex-col sm:flex-row flex-wrap gap-2">
+          <a
+            href="https://yueliusd.substack.com/p/the-trial-and-error-imperative-why"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-900 text-white hover:bg-rose-950 px-4 py-2 border border-rose-900 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            The Trial-and-Error Imperative <Share2 className="w-3.5 h-3.5 text-rose-300" />
+          </a>
+          <a
+            href="https://ssrn.com/abstract=5421094"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-white text-rose-950 hover:bg-gray-100 px-4 py-2 border border-rose-300 rounded-lg flex items-center gap-1.5 font-bold transition shadow-3xs"
+          >
+            Wu Wei Governance (SSRN 5421094) <Share2 className="w-3.5 h-3.5 text-rose-700" />
+          </a>
           <a
             href="https://ssrn.com/abstract=5679442"
             target="_blank"
