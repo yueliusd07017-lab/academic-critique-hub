@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -44,6 +44,7 @@ export default function IntegratedArticle() {
             activeArticle === "collectivesupremacy" ? "collectivesupremacy-article-text" :
             activeArticle === "planckai" ? "planckai-article-text" :
             activeArticle === "huangwanli" ? "huangwanli-article-text" :
+            activeArticle === "cooptation" ? "cooptation-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -227,6 +228,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
             Essay N: Solitary Truth
+          </button>
+          <button
+            onClick={() => setActiveArticle("cooptation")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "cooptation"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-cooptation"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-500 animate-pulse" />
+            Essay O: The Co-optation Paradox
           </button>
         </div>
       </div>
@@ -2119,6 +2132,113 @@ export default function IntegratedArticle() {
             </p>
             <p className="font-serif">
               This monumental struggle directly mirrors the modern battle against academic cartels and the "95% wrong rule" in elite journals. In fields like wave-absorbent materials, mainstream peer reviewers systematically defend the flawed concept of "wave impedance matching" because acknowledging correct electromagnetic wave-interference mechanics would invalidate thirty years of their own published papers. Just as seventy experts cheered for "Clearing the Yellow River" in 1957, today's elite journals maintain a comfortable, self-referential citation cartel. Huang Wanli's legacy proves that truth is not a function of peer consensus, but a stubborn physical reality that remains standing long after the cheers of conformist committees have faded into the mud.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "cooptation" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="cooptation-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-950 font-sans tracking-tight leading-tight">
+              The "Zhao An" Paradox of Modern Academia: How Prestigious Journals Co-opt Whistleblowers to Shield Systemic Fraud
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              The Co-optation of Dissent • Policy Critique & Imperial Metaphor • June 2026
+            </p>
+            <div className="text-xs text-indigo-655 bg-indigo-50 px-3 py-1 rounded border border-indigo-100 inline-block font-sans font-semibold">
+              The Academic Translation of Water Margin's Amnesty (水浒传式的招安策略与期刊建制派)
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-indigo-950 border-b border-gray-100 pb-1.5">
+              <span className="text-indigo-655 font-mono">I.</span> The Outlaws of Liangshan and the Editorial Court: The Strategy of Zhao An
+            </h3>
+            <p className="font-serif">
+              In the classical Chinese epic <em>Water Margin (水浒传)</em>, the Song imperial court faces a recurring existential dilemma: the swelling ranks of rebellious, highly capable outlaws gathered at Liangshan Marsh. When brute military suppression repeatedly fails to destroy the rebels, the court pivots to a far more insidious, sophisticated tactic: <strong>Zhao An (招安)</strong>—amnesty, high-ranking official titles, and integration into the imperial hierarchy. By turning outlaws into imperial generals, the court changes the direction of their weapons, neutralizing the rebel threat and converting critical external whistleblowers into passive, co-opted defenders of the dynasty.
+            </p>
+            <p className="font-serif">
+              Today, the prestigious editorial courts of <em>Science</em> and <em>Nature</em> employ an identical, highly calculated strategy of co-optation when dealing with high-profile academic whistleblowers. The most prominent modern case study is Student Geng (耿同学), the courageous young scholar who ignited widespread public outrage by exposing severe, systemic data manipulation among elite academics, most recently targeting his own alma mater, Beihang University’s prominent Outstanding Young Scholar (杰青).
+            </p>
+            <div className="italic text-gray-650 bg-slate-50 border-l-4 border-slate-900 p-4 rounded-r font-serif text-xs md:text-sm my-4">
+              <strong>Historic Parallel:</strong> By profiling Student Geng in major features, first in <em>Science</em> and subsequently in <em>Nature</em>, these high-impact journals have implemented the ultimate modern act of "Zhao An."
+            </div>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-indigo-950 border-b border-gray-100 pb-1.5">
+              <span className="text-indigo-655 font-mono">II.</span> Shifting Accountability: The Shield of Shared Victimhood
+            </h3>
+            <p className="font-serif">
+              The deep-seated institutional shrewdness (城府) of <em>Nature</em> and <em>Science</em> in conducting these profiles lies in their ability to achieve two vital self-preservation goals. First, they construct an elaborate illusion of shared victimhood. By publishing interviews with Geng, the journals position themselves as concerned, neutral victims of dishonest researchers. They hijack the whistleblower's moral authority to project a false narrative: "We are on the side of academic integrity, and we are just as eager as you to catch these bad actors."
+            </p>
+            <p className="font-serif font-semibold text-indigo-900 bg-indigo-50/45 p-3.5 border border-indigo-100 rounded-lg text-xs md:text-sm">
+              " By portraying themselves as neutral victims of fraud, prestigious journals successfully divert public outrage away from their own gatekeeping failures, peer-review collusions, and commercialized incentives. The publisher of the fraud is transformed into the champion of its exposure. "
+            </p>
+            <p className="font-serif">
+              Second, this co-optation completely neutralizes the whistleblower's active trajectory. Once Geng is celebrated, profiled, and given a platform inside the very pages of <em>Science</em> and <em>Nature</em>, he is psychologically and socially integrated into their ecosystem. The rebel is crowned with imperial laurels; he becomes a stakeholder in their prestige. He can no longer turn his full intellectual firepower against the systemic corruption of the journals themselves, as his own credibility is now inextricably linked to the status they granted him.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-indigo-950 border-b border-gray-100 pb-1.5">
+              <span className="text-indigo-655 font-mono">III.</span> The Consensus Fallacy: The Intellectual Garbage Factory
+            </h3>
+            <p className="font-serif">
+              What these journals actively seek to avoid through co-optation is a fundamental critique of their very publishing model. <em>Nature</em> and <em>Science</em> do not merely suffer from a few "bad papers" that require occasional, reluctant retractions. The root rot is their foundational criteria for what is considered worthy of publication. Under the absolute tyranny of SCI impact factors, these journals systematically prioritize consensus-driven, highly popular topics.
+            </p>
+            <p className="font-serif">
+              Because consensus represents the average current understanding of the academic herd, papers that achieve high citation impact are, by definition, conformist. They represent intellectual "garbage"—highly derivative, incremental, and safe. Conversely, revolutionary, mathematically rigorous papers that challenge mainstream dogmas are summarily rejected because they upset the comfortable, self-referential citation cartels of peer reviewers.
+            </p>
+            <div className="bg-amber-50/40 p-4 border border-amber-200/60 rounded-xl space-y-2">
+              <p className="text-xs font-bold text-amber-950 flex items-center gap-1 font-sans">
+                <CheckCircle2 className="w-4 h-4 text-emerald-600" /> THE DISTINCTION OF TRUE SCIENTIFIC VALUE
+              </p>
+              <p className="text-xs italic text-gray-600 font-serif leading-relaxed">
+                True scientific progress does not emerge from massive, labor-intensive experimental reports that compile endless data to support popular, flawed theories (such as the quarter-wavelength model or interfacial impedance matching). It emerges from theoretically deep, mathematically elegant, and fundamentally simple conceptual breakthroughs that capture physical reality.
+              </p>
+            </div>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-indigo-950 border-b border-gray-100 pb-1.5">
+              <span className="text-indigo-655 font-mono">IV.</span> The Myth of Journal-Driven Progress: Assessing the Hypothetical Elimination
+            </h3>
+            <p className="font-serif">
+              The co-opted whistleblowers and academic cartels create an environment where the public believes that science cannot survive without these journals. But as Dr. Yue Liu has rigorously analyzed in his treatises, this is a dangerous myth:
+            </p>
+            <ul className="list-disc list-inside space-y-2 pl-4 font-serif text-xs md:text-sm">
+              <li>
+                <strong>The Hypothetical Elimination (2025):</strong> If we were to physically destroy every single paper ever published in <em>Science</em> and <em>Nature</em>, actual, physical scientific progress would not only survive—it would likely accelerate. We would dismantle the artificial hierarchies, conformist consensus traps, and citation cartels that actively gatekeep and slow down innovative, non-mainstream discoveries.
+              </li>
+              <li>
+                <strong>Breakthroughs Outside the Academic Registry:</strong> Major technological leaps of our era—from advanced AI large language models, modern microchip architectures, to robust industrial engineering—were not born in the pages of prestigious journals. They emerged from the pressure of physical constraints, industrial necessity, and empirical testing.
+              </li>
+            </ul>
+            <p className="font-serif">
+              While <em>Nature</em> and <em>Science</em> drag their feet for months and years under the guise of "prudent, careful evaluation" when asked to retract their own highly cited, fraudulent papers, they move with lightning speed to co-opt whistleblowers in their popular career columns. This hypocrisy highlights that their ultimate priority is not truth, but the preservation of their moral and financial monopoly over scientific evaluation.
+            </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-indigo-950 border-b border-gray-100 pb-1.5">
+              <span className="text-indigo-655 font-mono">V.</span> Beyond the Imperial Court: Reclaiming True Science
+            </h3>
+            <p className="font-serif">
+              Science belongs to the raw, uncompromised laws of nature, not the commercialized approval of elite editorial boards. Whistleblowing must not stop at the gates of the Beijing Hotel or the pages of a career profile in London. 
+            </p>
+            <p className="font-serif font-semibold text-slate-900 bg-slate-50 p-3.5 border border-slate-200 rounded-lg text-xs md:text-sm">
+              "To celebrate a whistleblower while defending the very system that produces and profits from the fraud is the ultimate act of intellectual hypocrisy. We must reject the 'Zhao An' of prestigious journals. True scientific integrity is not a badge of honor awarded by the imperial court; it is the stubborn, unyielding commitment to physical laws that remains standing when the court itself has crumbled."
+            </p>
+            <p className="font-serif">
+              By exposing Beihang's Outstanding Young Scholar even after his profiles in <em>Science</em> and <em>Nature</em>, Student Geng demonstrates that true rebel fire cannot be so easily put out by the court's co-optation. The battle for real science is not about getting published or profiled; it is about replacing consensus-driven alchemy with rigorous, classical physical truth.
             </p>
           </div>
         </article>
