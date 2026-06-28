@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -47,6 +47,7 @@ export default function IntegratedArticle() {
             activeArticle === "cooptation" ? "cooptation-article-text" :
             activeArticle === "trialanderror" ? "trialanderror-article-text" :
             activeArticle === "quantumscience" ? "quantumscience-article-text" :
+            activeArticle === "followersletter" ? "followersletter-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -266,6 +267,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-teal-500 animate-pulse" />
             Essay Q: Epistemology of Science
+          </button>
+          <button
+            onClick={() => setActiveArticle("followersletter")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "followersletter"
+                ? "bg-amber-950 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-950"
+            }`}
+            id="toggle-article-followersletter"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
+            Essay R: Letter to Followers
           </button>
         </div>
       </div>
@@ -2552,6 +2565,104 @@ export default function IntegratedArticle() {
             </ul>
             <p className="font-serif">
               Thus, we see that scientific validity is not determined by who gathers the most experimental data or who sits on the most prestigious editorial board. It is determined by the self-evident truth of the axioms and the absolute correctness of the mathematical logic applied to them.
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "followersletter" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="followersletter-article-text">
+          {/* Essay R: An Address to the Followers of Mainstream Academic Authorities */}
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-amber-950 font-sans tracking-tight leading-tight">
+              An Address to the Followers of Mainstream Academic Authorities: <br />
+              <span className="text-xl md:text-2xl font-medium text-amber-900 block mt-2">
+                Conformist Consensus, the Solitude of Popperian Insight, and the Unknown Pride of Refusal
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              The Epistemology of Dissent • Academic Solitude • June 2026
+            </p>
+            <div className="text-xs text-amber-800 bg-amber-50 px-3 py-1 rounded border border-amber-100 inline-block font-sans font-semibold animate-pulse">
+              告主流学术权威的追随者书：不随波逐流的性格与内心深处的骄傲
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-950 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-655 font-mono">I.</span> The Architecture of Conformist Consensus
+            </h3>
+            <p className="font-serif">
+              In any given society, the vast majority of people align themselves with mainstream academic authorities. They do so not because they possess deep, bone-deep convictions about the truth of those positions, but rather to show off to others: <em>"Look at me, I am correct; I stand on the correct side of the consensus."</em> (任何一个社会，多数人都站在主流学术权威一边，不是因为有什么深入骨髓的观点，而是为了向别人显摆：我是正确的、我站在正确的一边).
+            </p>
+            <p className="font-serif">
+              Under this social dynamic, conformists publish a colossal volume of derivative, low-value papers that merely echo and reinforce the existing authority. This artificial flood of literature is the real reason why an apparent "scientific consensus" exists. Yet, these papers are completely empty of original insight. Over time, they are inevitably drowned in the ocean of history, and future generations will remain entirely unaware that these garbage articles ever existed.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-950 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-655 font-mono">II.</span> Karl Popper’s Solitude: The Logic of Bone-Deep Critique
+            </h3>
+            <p className="font-serif">
+              Karl Popper stood firmly against the consensus of his era. Facing the profound systemic issues of mainstream theories, Popper proposed a truly bone-deep, fundamental critique: <strong>if a theory is wrong, it is wrong from every conceivable angle</strong> (一个理论如果错了，那么从各个角度看，这个理论都错了). This rigorous, all-encompassing realization is the exact reason why Popper was able to construct a massive, self-consistent theoretical system rather than just offering sporadic criticisms.
+            </p>
+            <p className="font-serif">
+              Yet, because Popper dared to oppose the comfortable, self-serving mainstream, he was met with immense institutional coldness. Nobody followed him. This is why his entire theoretical system was almost exclusively Popper's sole contribution, with virtually no significant input or honor shared by other contemporary scholars (因为波普尔反对的是主流理论，没有人跟随。这是为什么整个理论体系几乎都是波普尔一个人的贡献，几乎没有其他人的功绩).
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-950 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-655 font-mono">III.</span> The Modern Parallel: Demolishing Impedance Matching
+            </h3>
+            <p className="font-serif">
+              Our systematic refutation of the classical impedance matching theory and our exposure of the severe, structural corruption within modern academic publishing occupy an identical position of anti-mainstream dissent. Just like Popper, we face a wall of silence. No mainstream peer is willing to follow or publicly support us. 
+            </p>
+            <p className="font-serif">
+              As a result, we have had to construct this entire alternative theoretical system ourselves. In an academic framework that should, by all probability, have been co-authored and built by the collective effort of the scientific community, there is almost zero contribution from anyone else (我们否定阻抗匹配理论、揭露现代科学界的严重问题，是反主流的观点，这一点与波普尔一样，没有人跟随，整个理论体系都是我们建立的、在一个大概率应该是整个科学界共同建立的学术体系中几乎没有他人的贡献).
+            </p>
+            <div className="bg-amber-50 p-4 border border-amber-100 rounded-xl space-y-2">
+              <p className="font-serif text-sm font-semibold text-amber-950">
+                A Different Era, a Different Mission
+              </p>
+              <p className="font-serif text-xs md:text-sm text-amber-900">
+                However, our theory is distinct from Popper's. Popper addressed the crises of his own time, resolving the philosophical and scientific bottlenecks of the mid-20th century. We operate within the parameters of the 21st-century academic-industrial complex, addressing the unique crises of modern science. This historical shift dictates that our theory must diverge from Popper's, even as it shares his spirit of solitary, foundational critique (我们的理论与波普尔的是不同的理论。波普尔面对的是他那个时代，波普尔要解决的是他那个时代的问题。我们是在现代科学界，我们要解决的是现代科学界的问题。这就决定了我们的理论与波普尔的理论是不同的理论).
+              </p>
+            </div>
+            <p className="font-serif">
+              Whether our theory can withstand the judgment of history—just as Popper’s has—depends entirely on whether it is a <strong>bone-deep theory</strong>. Judging by our ability to construct a complete, self-consistent, and highly resilient theoretical framework, there is a very high probability that our theory is indeed bone-deep, and the structural crises we point out are the absolute truth of our era.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-950 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-655 font-mono">IV.</span> The Pride of Refusal
+            </h3>
+            <p className="font-serif">
+              The late, esteemed Chinese scholar and writer Yang Jiang once beautifully remarked:
+            </p>
+            <blockquote className="border-l-4 border-amber-500 pl-4 italic text-gray-700 bg-amber-50/55 p-3 rounded-r-lg my-3 font-serif">
+              "The most premium way to show off in one's life is what you have refused. In the things you can refuse, there lies your character of not following the crowd, and an unknown pride deep within your heart!"
+              <span className="block text-right text-xs text-gray-500 font-sans mt-1">
+                — Yang Jiang (杨绛先生：“一个人最高级的炫耀，是你这一生拒绝过什么，你能拒绝的东西里，藏着你不随波逐流的性格，和内心深处不为人知的骄傲！”)
+              </span>
+            </blockquote>
+            <p className="font-serif">
+              Let this be our manifesto to all followers of mainstream authority:
+            </p>
+            <p className="font-serif font-bold text-amber-955 bg-amber-50/80 p-5 border border-amber-200 rounded-xl text-center leading-relaxed">
+              Our highest-level pride—our ultimate form of "showing off"—is not what we have learned or conformingly accepted, but what we have resolutely refused. 
+              <br className="my-2" />
+              Within the boundaries of what we are capable of refusing, there lies everything we have truly understood, our unyielding character that refuses to swim with the tide, and the unspoken, sacred pride residing deep within our hearts!
+              <span className="block text-xs font-mono text-amber-800 mt-3 font-bold uppercase tracking-wider">
+                (我们最高级的炫耀，不是我们学会过什么，而是我们拒绝过什么，在我们能拒绝里，藏着我们学会的所有东西，藏着我们不随波逐流的性格，和内心深处不为人知的骄傲！)
+              </span>
             </p>
           </div>
         </article>

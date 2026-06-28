@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2495,6 +2495,146 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
 
 #WaveMechanics #MicrowaveAbsorption #QuarterWavelengthFlaw #InverseRelationship #YueLiu #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #AcademicIntegrity #WaveInterference`;
 
+  const youtubeScriptText27 = `[SCENE 1: THE AMPLITUDE PARADOX | 第一幕：振幅超越入射波？看似违背能量守恒的佯谬]
+[Visual: A professional, clear diagram of a microwave beam 'i' incident on a boundary interface 'x1'. The reflected wave 'r1' and transmitted wave 'f1' are shown as glowing arrows. Highlight a mathematical anomaly on screen: 'V_f1 > V_i' (Transmitted voltage exceeds incident voltage!). Next to it, show a thin film where the rear interface reflected beam 'r2' is larger than the incident beam 'i' ('V_r2 > V_i'). A large red question mark fades in over the diagram: 'Does this violate Energy Conservation?']
+[Sound: Rapid mechanical ticking of a clock, transitioning into a deep, intense electric hum representing wave oscillations.]
+
+[VOICEOVER]
+"Welcome to the fourteenth lecture of our Wave Mechanics series. Today, we confront one of the most counter-intuitive paradoxes in electromagnetics—a phenomenon that has deeply confused many mainstream material scientists, and exposed a fundamental misunderstanding of physics in top-tier SCI journals.
+
+If you look at the boundary interface of a microwave absorbing film, or a thin film without a metal backing, you will notice something shocking. The amplitude of the transmitted beam, f1, can actually be larger than the amplitude of the incident beam, i. Under certain conditions, the amplitude of the reflected beam, r2, from the rear interface can also exceed the incident beam. 
+
+To a casual observer, this seems to flatly violate the principle of energy conservation. How can a transmitted or reflected sub-beam carry more amplitude than the original beam that created it? Today, we will deconstruct the elegant physics that resolves this paradox, and show how the absolute laws of energy conservation are perfectly maintained."
+
+“欢迎来到我们波动力学系列专题的第十四讲。今天，我们将共同面对电磁学中一个最违背直觉的佯谬——这个现象曾让许多主流材料科学家感到极度困惑，也暴露了许多SCI顶刊在基础物理理解上的严重缺失。
+
+如果你仔细观察一个吸波薄膜的前端界面，或者一个没有金属背衬的薄膜器件，你会发现一个令人震惊的现象：界面处的微波透射光束 f1 的振幅，居然可以大于微波入射光束 i 的振幅！在特定厚度下，从薄膜后界面反射回来的光束 r2 的振幅，也可以超过入射光束。
+
+在表面上看来，这似乎公然违背了能量守恒原理。一个分光束的振幅，怎么可能比产生它的原始入射波还要大？今天，我们将通过严密的波动物理学为您解开这个谜题，展示能量守恒定律是如何在分界面与薄膜中得到完美维护的。”
+
+
+[SCENE 2: THE CRITICAL DISTINCTION: AMPLITUDE VS. ENERGY | 第二幕：本质澄清：波的叠加是振幅的叠加，绝非能量的直接相加]
+[Visual: A split screen with high-contrast text. 
+Left side: 'THE MAINSTREAM BLUNDER' showing a simple scalar sum of squared amplitudes: 'Energy = A^2 + B^2'. A red 'WRONG' stamp falls on it.
+Right side: 'WAVE MECHANICS TRUTH' showing the vector superposition of fields: 'Resultant Field = A + B (Vector Sum)'. Formulas of wave field vector superposition flow downwards.]
+[Sound: A sharp, digital alert tone, highlighting the conceptual clash.]
+
+[VOICEOVER]
+"To resolve this mystery, we must first clear up a massive, widespread error. Wave superposition is the superposition of wave field amplitudes—which are complex vectors—NOT the superposition of energies. 
+
+Yet, many mainstream scientists—including reviewers and editors of prestigious SCI physical journals—frequently make the childish mistake of treating wave superposition as a direct, scalar addition of beam energies. They assume that if an individual beam has a high amplitude, it must independently carry a massive amount of isolated energy. 
+
+But physics tells us otherwise: you cannot calculate the energy of a sub-beam simply by squaring its isolated amplitude. The energy flow depends on the impedance of the medium it propagates through, and the phase relationship with overlapping waves. When f1 and r2 exhibit large amplitudes, they are part of a coupled wave network where phase cancellation and impedance differences govern the actual distribution of power."
+
+“要解开这个佯谬，我们必须首先澄清一个在学术界流传极广的常识性错误：波的叠加是振幅（波场矢量）的叠加，而绝对不是能量的直接相加！
+
+然而，许多主流科学家——包括物理专业SCI顶刊的审稿人和编辑——却频繁犯下一个低级的物理错误，将波动干涉错误地等同于光束能量的直接累加。他们想当然地认为，只要某一个分光束的振幅变大了，它就必然独立地携带了超额的能量。
+
+但物理学告诉我们，分光束的能量绝对不能简单地用它孤立的振幅平方来计算。能量流的大小不仅取决于波在其中传播的介质阻抗，还取决于重叠波之间的相位关系。当 f1 和 r2 表现出超常的巨大振幅时，它们实际上处于一个多波相互干涉的耦合网络中，是界面的电磁边界条件和相位干涉决定了真实的能量分配。”
+
+
+[SCENE 3: THE RIGOROUS RIGOR OF COMPLEX ENERGY CONSERVATION | 第三幕：复数阻抗下的能量守恒——公式14与14’的终极判决]
+[Visual: The video displays Equations 14 and 14' from the paper (Materials Chemistry and Physics, 2022, Part 1) in glowing golden equations on a dark background. 
+Equation 14: 'P_r1/P_i + P_f1/P_i = 1' (The sum of the real parts of normalized powers equals exactly 1). 
+Equation 14': 'P_r1/P_i + P_f1/P_i ≠ |P_r1/P_i| + |P_f1/P_i|'. 
+Plot of the real and imaginary parts of normalized energies against frequency fades in, matching Figure 3 and Figure 4 of the paper.]
+[Sound: Calm, deep symphonic chord, conveying scientific authority.]
+
+[VOICEOVER]
+"In our paper published in Materials Chemistry and Physics in 2022, we provided the first rigorous, mathematical proof of energy conservation at interfaces when the material characteristic impedance, ZM, is a complex number—which is always the case for microwave absorbing materials.
+
+Look at our Formula 14 and 14'. When ZM is a complex number, the reflected and transmitted energy terms are also expressed as complex numbers. Under the laws of physics, the sum of their real parts—representing the actual active power—is always exactly equal to 1. Energy is perfectly conserved! 
+
+But look closely at Figure 3 and Figure 4 of our paper. They reveal a deeper physical reality: the critical contribution of the imaginary parts in Equation 14 to overall energy conservation. True wave-based energy conservation is a comprehensive synthesis of both real and imaginary parts. Attempting to evaluate conservation by looking solely at the real part or solely at the absolute values, as mistakenly done in Equation 14 prime, is physically incorrect and mathematically invalid. This sophisticated treatment is entirely missing from prior literature, yet our derivation is completely self-consistent and mathematically solid. It is this unwavering confidence in our logical consistency that allows us to stand firm without needing to seek validation from flawed mainstream textbooks.
+
+As shown in Formula 14 prime, the sum of their absolute values is NOT equal to 1. In fact, because of the phase shifts, the real part of the transmitted energy, Pf1 over Pi, can be significantly greater than 1, while the real part of the reflected energy, Pr1 over Pi, becomes negative! This negative real part signifies that energy is being stored and returned back through the interface, acting in perfect harmony to balance the total energy equation. This beautiful, exact balance is plotted in our paper's Figure 3 and Figure 4, proving that energy conservation behaves fundamentally differently when ZM is a complex variable rather than a simple real number."
+
+“在我们2022年发表于《Materials Chemistry and Physics》（第一部分：能量守恒）的论文中，我们首次给出了当材料特征阻抗 ZM 为复数（吸波材料的普遍情况）时，分界面处能量守恒的严密数理证明。
+
+请看我们论文中的公式（14）与（14'）。当特征阻抗 ZM 是复数时，反射和透射的能量项也都表现为复数。波动电磁学定律指出：它们实部（代表真实活性功率）的和，始终精确地等于1！能量得到了绝对的、完美的守恒！
+
+特别是，从论文的图3和图4中，我们可以清晰地看出公式14中的虚部对能量守恒所做出的关键贡献！波动体系中的能量守恒，是实部和虚部贡献的综合、整体体现，仅仅孤立地去看实部，或者像公式（14'）那样仅仅去看绝对值，都是完全行不通的。在现有的所有文献中，根本没有看到过类似这样对复数能量守恒的深刻处理。然而，我们的处理逻辑高度自洽、无懈可击，因此我们完全不需要到其他文献中去繁琐核实，我们无比自信这一推导是绝对正确的。
+
+然而，正如公式（14'）所揭示的，它们绝对值的和并不等于1。事实上，由于相位移动，透射能量的实部 Pf1/Pi 确实可以显著大于1，而此时，反射能量的实部 Pr1/Pi 则必然变成负数！这个负实部在物理上意味着能量的相干回收，它们完美协同，确保了总能量方程式的严格自洽。这一极具物理美感的平衡过程在论文的图3（Figure 3）和图4（Figure 4）中得到了完美展现。这铁一般地证明了：当阻抗为复数时，能量守恒的数学表达与虚数部分参与的波动机制，同传统的纯实数无损介质有着本质的不同。”
+
+
+[SCENE 4: CONCLUSION: CLEANING THE SWAMP OF ACADEMIC ERRORS | 第四幕：拨云见日：用波动物理捍卫科学尊严]
+[Visual: A pile of peer-reviewed articles fades out, leaving only the pristine, elegant wave vectors of Part 1 (Energy Conservation) standing tall. The Substack address yueliusd.substack.com is displayed proudly on screen.]
+[Sound: Rising, optimistic brass melody, culminating in a powerful, inspiring crescendo.]
+
+[VOICEOVER]
+"The lesson of our energy conservation paper is simple yet profound. A thin film is not a simple block of material; it is a wave-interfering boundary device. 
+
+By deconstructing the amplitude paradox, we have exposed how a failure to understand basic wave mechanics and complex variable functions has led mainstream materials scientists into half a century of erroneous calculations and flawed theories, such as the impedance matching theory.
+
+True science is built on rigorous logic and the unyielding laws of conservation. It does not bend to consensus, nor does it tolerate the sloppy mathematics of high-impact journal papers. We invite you to read Part 1 of our Energy Conservation series on Substack or via the link below, and join us in restoring mathematical and physical integrity to modern science.
+
+Thank you for watching."
+
+“我们关于能量守恒论文所揭示的真理既简单又深刻：薄膜不是一块简单的块体材料，而是一个由相位调制的波动分界面器件。
+
+通过解开振幅佯谬，我们揭示了主流材料学界因为忽视了波动物理学和复变函数基础，从而陷入了长达半个世纪的错误计算和陈旧理论（如阻抗匹配理论）。
+
+真正的科学建立在严密的逻辑和不可动摇的守恒定律之上。它既不向所谓的‘共识’低头，也绝不姑息顶刊论文中那些含混过关的低级数学错误。我们诚挚地邀请您阅读发表在《Materials Chemistry and Physics》上的第一部分能量守恒奠基作，同我们一道，用无懈可击的物理捍卫科学的尊严。
+
+感谢您的收看。”`;
+
+  const youtubeDescText27 = `Lecture 14: Rigorous Mathematical Proof of Energy Conservation for Interfaces and Films under Complex Impedance
+第十四讲：界面和膜的能量守恒的严格波动物理与数理证明
+
+📖 MASTERWORK REFERENCE (本期主讲核心文献):
+Ying Liu, Yue Liu, Michael G. B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 1: Energy conservation", Materials Chemistry and Physics, 2022, 290, 126576.
+DOI: https://doi.org/10.1016/j.matchemphys.2022.126576
+
+---
+
+🔥 THE SCIENTIFIC DISPUTE & PHYSICAL PARADOX (物理佯谬与理论澄清):
+In this fourteenth lecture of our Wave Mechanics series, we resolve a deep, counter-intuitive physical paradox that has long plagued materials scientists and exposed a widespread mathematical error in high-impact SCI journals.
+
+From Figure 1 of our paper, we observe a seemingly impossible phenomenon:
+1. The amplitude of the transmitted beam f1 at an interface can exceed the amplitude of the incident microwave beam i (V_f1 > V_i).
+2. For a non-absorbing film, the amplitude of the reflected beam r2 from the rear interface can also exceed the incident beam (especially at a 180-degree optical path difference, where r2 must be larger than the incident wave amplitude to cancel out r1 in the air).
+
+Does this violate the Law of Energy Conservation?
+
+1. AMPLITUDE VS. ENERGY (振幅与能量的本质区别):
+The fundamental resolution lies in understanding that wave superposition is the vector superposition of complex wave amplitudes (field vectors), NOT the direct scalar addition of energies. Many mainstream scientists make the naive error of treating wave superposition as a sum of beam energies—a common blunder found in high-profile physics and materials journals. The energy of a sub-beam cannot be calculated simply by squaring its isolated amplitude without considering the medium's impedance and phase relations.
+
+2. COMPLEX VARIABLE ENERGY CONSERVATION (复数阻抗下的严格能量守恒):
+For any absorbing medium, the characteristic impedance ZM is a complex number. Through Equations 14 and 14' in our paper, we prove that:
+- Reflected and transmitted energies are complex variables.
+- The sum of their real parts (active power) always adds up to exactly 1 (Equation 14), satisfying energy conservation perfectly.
+- Crucially, Figure 3 and Figure 4 demonstrate the active contribution of the imaginary parts in Equation 14 to overall energy conservation. Wave-based energy conservation is a holistic combination of both real and imaginary contributions; assessing it by looking only at the real parts or only at the absolute values (as in Equation 14') is completely inadequate. (公式14的虚部对能量守恒有着至关重要的贡献。能量守恒是实部和虚部贡献的综合体现，只看实部或者只看绝对值如公式（14'）都不行。现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确).
+- Although such an elegant, comprehensive treatment is absent in mainstream literature, our derivation is perfectly self-consistent and mathematically solid, giving us absolute confidence in its correctness without needing external textbook verification.
+- However, their absolute values do NOT add up to 1 (Equation 14'). Due to phase interference, the real part of the transmitted energy can exceed 1, while the real part of the reflected energy becomes negative.
+
+3. VISUALIZED PROOF IN FIGURES 3 & 4 (图3与图4的实验与理论证实):
+This delicate, beautiful balance of real and imaginary parts across various frequencies is plotted in Figure 3 and Figure 4 of our paper. This proves that energy conservation concepts for interfaces and films are fundamentally different from traditional concepts restricted to non-absorbing media or pure real impedance.
+
+It is time to abandon sloppy, energy-adding heuristics and return to rigorous, vector-based wave mechanics!
+
+---
+
+📖 PRIMARY CRITIQUE & FURTHER CLASSICAL READINGS (核心文献与延伸阅读):
+1. Energy Conservation (Part 1): Y. Liu, Y. Liu, M.G.B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 1: Energy conservation", Materials Chemistry and Physics, 2022, 290, 126576. DOI: https://doi.org/10.1016/j.matchemphys.2022.126576
+2. The Real Mechanism (Part 2): Y. Liu, Y. Liu, M.G.B. Drew, "A Re-evaluation of the Mechanism of Microwave Absorption in Film – Part 2: The Real Mechanism", Materials Chemistry and Physics, 2022, 290, 126601. DOI: https://doi.org/10.1016/j.matchemphys.2022.126601
+3. Inverse Relationship (Part 3): Y. Liu, Y. Liu, M.G.B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521. DOI: https://doi.org/10.1016/j.matchemphys.2022.126521
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Intro: The Transmitted Amplitude Paradox (V_f1 > V_i)
+2:15 - The Common Blunder in SCI Journals: Treating Superposition as Energy Addition
+4:30 - Demystifying the Amplitude vs. Power Distinction in Wave Mechanics
+7:05 - Mathematical Proof of Complex Energy Conservation (Equations 14 & 14')
+10:40 - Deconstructing Figures 3 & 4: Active Power Real Parts and Imaginary Cancellations
+12:55 - Why Film and Material must be distinguished under Energy Conservation
+15:15 - Conclusion: Rejecting Flawed Impedance Matching Theories in Materials Science
+
+📧 CORRESPONDENCE & DEBATES:
+We invite academic reviews and critical peer discussions:
+➔ yueliusd@163.com / yingliusd@163.com
+
+#WaveMechanics #MicrowaveAbsorption #EnergyConservation #AmplitudeParadox #YueLiu #ComplexImpedance #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #PhysicsTruth`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2522,7 +2662,8 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
     activeProject === "project23" ? youtubeScriptText23 :
     activeProject === "project24" ? youtubeScriptText24 :
     activeProject === "project25" ? youtubeScriptText25 :
-    youtubeScriptText26;
+    activeProject === "project26" ? youtubeScriptText26 :
+    youtubeScriptText27;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2550,7 +2691,8 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
     activeProject === "project23" ? youtubeDescText23 :
     activeProject === "project24" ? youtubeDescText24 :
     activeProject === "project25" ? youtubeDescText25 :
-    youtubeDescText26;
+    activeProject === "project26" ? youtubeDescText26 :
+    youtubeDescText27;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -3000,6 +3142,22 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-650 animate-pulse" />
             Project Z: Inverse d-ν Relation
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project27");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project27"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-project27"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-600 animate-pulse" />
+            Project AA: Energy Conservation
           </button>
         </div>
       </div>
@@ -3489,6 +3647,34 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AA */}
+      {activeProject === "project27" && (
+        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-emerald-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-650 animate-pulse" />
+             Lecture 14: Interface and Film Energy Conservation • 第十四讲：界面和膜的能量守恒
+          </div>
+          <p className="text-[12px] text-emerald-950 leading-relaxed italic">
+            "视频第十四讲从严密的经典波动物理学与复变函数视角，解开了界面与薄膜处看似‘超常’的振幅佯谬。在《Materials Chemistry and Physics》（Mater. Chem. Phys. 2022, 290, 126576）中，我们完美解答了以下疑问：为什么界面微波透射波 $f_1$ 的振幅可以大于入射波 $i$？为什么无损膜反射波 $r_2$ 的振幅可以大于入射波？
+            
+这一现象绝不违背能量守恒！因为波的叠加是复数场强振幅的矢量叠加，绝非能量（振幅平方）的直接标量相加。许多顶刊物理学家由于常识性地混淆了这一本质，错误地认为叠加是光束能量的叠加，从而推导出完全错误的公式。当我们使用论文中的公式（14）和（14'）时，可以严格证明在阻抗为复数时，透射与反射功率实部（有功功率）的和始终精确地等于1，而虚部则参与能量的相干回收与存储。
+
+特别是，从图3和图4可以看出，公式14的虚部对能量守恒有着至关重要的贡献。能量守恒是实部和虚部的贡献的综合体现，只看实部或者只看绝对值如公式（14'）都不行。虽然现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确，完美实现无懈可击的能量自洽！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Amplitude vs Energy (分清振幅矢量叠加与标量能量相加，终结顶刊低级错误)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Complex Variable Conservation (复数特征阻抗 ZM 下的严格守恒证明：公式14与14'铁证)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              MCP 2022 Publication (《Mater. Chem. Phys. 2022》：126576 能量守恒奠基作)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -3523,7 +3709,8 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
                   activeProject === "project23" ? "Project W" :
                   activeProject === "project24" ? "Project X" :
                   activeProject === "project25" ? "Project Y" :
-                  "Project Z"
+                  activeProject === "project26" ? "Project Z" :
+                  "Project AA"
                 })</span>
               </div>
               <button
