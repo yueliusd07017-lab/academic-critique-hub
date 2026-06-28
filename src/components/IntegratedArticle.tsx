@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -46,6 +46,7 @@ export default function IntegratedArticle() {
             activeArticle === "huangwanli" ? "huangwanli-article-text" :
             activeArticle === "cooptation" ? "cooptation-article-text" :
             activeArticle === "trialanderror" ? "trialanderror-article-text" :
+            activeArticle === "quantumscience" ? "quantumscience-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -253,6 +254,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
             Essay P: Trial-and-Error Imperative
+          </button>
+          <button
+            onClick={() => setActiveArticle("quantumscience")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "quantumscience"
+                ? "bg-teal-950 text-white shadow-sm animate-pulse"
+                : "text-teal-900 hover:bg-teal-50 hover:text-teal-950"
+            }`}
+            id="toggle-article-quantumscience"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-teal-500 animate-pulse" />
+            Essay Q: Epistemology of Science
           </button>
         </div>
       </div>
@@ -2423,6 +2436,122 @@ export default function IntegratedArticle() {
             </div>
             <p className="font-serif font-semibold text-slate-900 bg-slate-50 p-3.5 border border-slate-200 rounded-lg text-xs md:text-sm">
               "We must abolish the Taylorist, assembly-line tyranny of stack ranking that forces conformity and silences creative minds. Let scientists make mistakes, let them explore wild and unorthodox avenues of thought, and protect their right to fail. But hold the journals, the publishers, and the powerful editorial boards to absolute, personal accountability when they protect established fraud, hide corrections, and defend self-referential citation cartels."
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "quantumscience" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="quantumscience-article-text">
+          {/* Essay Q: The Epistemology of Scientific Theory */}
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-955 font-sans tracking-tight leading-tight text-gray-900">
+              The Epistemology of Scientific Theory: Axiomatic Structures, Quantum Mechanics, and the Independence of Theoretical Cognition
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              Theoretical Independence vs. Experimental Reductionism • Wave-Particle Duality as an Axiom • June 2026
+            </p>
+            <div className="text-xs text-teal-750 bg-teal-50 px-3 py-1 rounded border border-teal-100 inline-block font-sans font-semibold">
+              The True Nature of Science vs. The Alchemy of Pure Data (科学的真谛：理论体系的逻辑自洽性与公理体系)
+            </div>
+          </div>
+
+          {/* Preface */}
+          <div className="bg-slate-50 border-l-4 border-slate-400 p-4 rounded-r-lg italic text-slate-700 text-xs md:text-sm">
+            <strong>Author's Preface:</strong> Those who confidently proclaim that quantum mechanics is fundamentally "wrong" often betray a deep misunderstanding of what science actually is. Among those who claim quantum mechanics is incorrect, we find Nobel laureates, prominent mainstream scientists, and amateur scholars (民科). I do not consider myself smarter or superior to any of them. This essay represents only my personal philosophical perspective, offered not as an absolute dogma, but as an invitation to rigorous epistemological reflection (说量子力学是错的人是不知道什么是科学。在这些人中，包括诺贝尔获奖者、大牌科学家、民科。我并不认为自己比他们高明。本文只代表个人观点，不代表就是正确的).
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-teal-950 border-b border-gray-100 pb-1.5">
+              <span className="text-teal-655 font-mono">I.</span> What is Science? Theoretical Cognition vs. Empirical Alchemy
+            </h3>
+            <p className="font-serif">
+              What is science? Science is not high-tech alchemy that merely accumulates vast piles of raw experimental data without conceptual coherence. Rather, science is theory; it is the structured crystallization of <strong>theoretical cognition</strong> (科学不是积累实验数据的炼金术，科学是理论、是理论认知).
+            </p>
+            <p className="font-serif">
+              A theory is not a loose description of observations. Formally, a <strong>Theory = Axiom + Logic</strong> (理论 = 公理 + 逻辑). A genuine scientific theory is a complete conceptual system constructed through logical deduction on top of fundamental axioms, representing humanity's systematic, theoretical comprehension of natural phenomena (理论就是通过公理和逻辑建立一整套概念体系，代表人类对自然现象的理论认知).
+            </p>
+            <p className="font-serif">
+              In the natural sciences, the primary logical engine of a theory is **mathematical logic**. Axioms serve as the minimum, indivisible building blocks of a theory. Over these axioms, logic constructs the entire conceptual hierarchy.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-teal-950 border-b border-gray-100 pb-1.5">
+              <span className="text-teal-655 font-mono">II.</span> The Sovereignty of Theory: Axiomatic Self-Consistency and Experimental Verification
+            </h3>
+            <p className="font-serif">
+              An axiom, by definition, cannot be proven theoretically within the system it defines. Yet, to serve as a valid foundation, it must align with natural truth. While axioms are theoretically unprovable, they can be directly verified by experiments (公理是不能通过逻辑证明的，但必须是符合自然真理的东西才能是正确的公理。公理不能用理论证明，但是可以被实验验证). 
+            </p>
+            <p className="font-serif">
+              For instance, the geometric axiom that <em>"the shortest distance between two points is a straight line"</em> cannot be independently proven by pure geometric theory, but it can be empirically verified as an objective truth of physical space (两点之间，直线最短，不能通过理论独立地证明，但是通过实验可以验证它是真理). 
+            </p>
+            <p className="font-serif font-semibold text-teal-900 bg-teal-50 p-3.5 border border-teal-100 rounded-lg text-xs md:text-sm">
+              Distinct scientific theoretical systems may rest on different, even contradictory, axioms. A statement that serves as an unprovable axiom in one theoretical system can be a logically derived theorem in another system (理论可以有不同的公理，建立在不同公理上的理论是不同的理论体系。在这个理论体系中的公理，在另一个人理论体系中可以是通过逻辑推导出的结果). Both the foundational axioms and the deduced results are subject to experimental verification.
+            </p>
+            <p className="font-serif">
+              Consequently, the common assertion that mathematics cannot be classified as a natural science—because its truths are discovered through pure deduction without a physical laboratory—is a profound epistemological error (以数学不用通过实验验证就知道正确来否定数学是自然科学是无稽之谈). Every correct theory (comprising correct axioms, correct logic, and correct concepts) is fundamentally **independent of any single experiment** (任何正确的理论都独立于实验). 
+            </p>
+            <p className="font-serif">
+              A true theory exists as an autonomous, self-consistent intellectual architecture. It does not wait for a laboratory's permission to be correct; indeed, basic physical constants (such as the mass of an electron or the speed of light) are treated as axiomatic components of the theoretical framework itself (理论是能够独立存在的一套体系，不用依赖实验，基本的物理量如电子质量、光速等是理论公理的一部分).
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-teal-950 border-b border-gray-100 pb-1.5">
+              <span className="text-teal-655 font-mono">III.</span> Newtonian and Quantum Mechanics: A Parallel of Axiomatic Reality
+            </h3>
+            <p className="font-serif">
+              To understand the epistemological status of quantum mechanics, we must examine its classical predecessor:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-4">
+              <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                <h4 className="font-sans font-bold text-sm text-slate-900 mb-2">Classical Case: Newtonian Mechanics</h4>
+                <p className="font-serif text-xs md:text-sm leading-relaxed">
+                  Newtonian mechanics is built upon <strong>Newton's Second Law</strong>, which serves as its defining axiom. Why force, mass, and acceleration relate in precisely this linear fashion cannot be theoretically proven within the bounds of classical mechanics (为什么力、质量、加速度有牛顿第二定律的关系式，是不能从理论上证明的). However, this axiom is verified experimentally from countless distinct angles.
+                  <br className="my-2" />
+                  If one asks <em>why</em> this relation exists, one must construct an entirely different, deeper theoretical system. Crucially, any development in that deeper system does not affect the logical correctness of Newtonian mechanics. It remains an independent, correct theoretical architecture. Within its domain of validity, if an experimental result contradicts Newtonian mechanics, <strong>it is the experiment that is wrong, not the theory</strong> (凡是实验结果与牛顿力学结果不一致的，一定是实验错了。因为牛顿力学是正确的理论).
+                </p>
+              </div>
+              <div className="bg-teal-50/40 p-4 rounded-xl border border-teal-100">
+                <h4 className="font-sans font-bold text-sm text-teal-950 mb-2">Modern Case: Quantum Mechanics</h4>
+                <p className="font-serif text-xs md:text-sm leading-relaxed">
+                  <strong>Wave-particle duality</strong> (波粒二象性) is the fundamental axiom of quantum mechanics (波粒二象性是量子力学的公理). Quantum mechanics was constructed by introducing this duality as an axiom into classical wave equations and applying rigorous mathematical logic. 
+                  <br className="my-2" />
+                  Like Newton's Second Law, wave-particle duality cannot be proven theoretically from first principles. It is an axiom. But it perfectly conforms to natural truth and withstands the scrutiny of every known physical experiment (波粒二象性是公理，符合客观事实，是可以经得起任何实验现象的检验的). Asking <em>why</em> wave-particle duality exists is identical to asking why Newton's Second Law holds. Denying wave-particle duality is of the exact same epistemological nature as denying Newton's Second Law (问为什么有波粒二象性就跟问为什么有牛顿力学第二定律是一样的问题。不承认波粒二象性和不承认牛顿力学第二定律的性质是一样的).
+                </p>
+              </div>
+            </div>
+            <p className="font-serif">
+              Quantum mechanics stands as an independent, logically self-consistent theoretical system. Those who seek to dismiss it by pointing out its counter-intuitive axiomatic foundations fail to realize that an axiom does not require proof—it requires the recognition of its truth nature.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-teal-950 border-b border-gray-100 pb-1.5">
+              <span className="text-teal-655 font-mono">IV.</span> The Microwave Absorption Paradigm: Logic and Concept Correctness
+            </h3>
+            <p className="font-serif">
+              This axiomatic framework directly resolves the current crisis in electromagnetic and microwave absorption theories. The wave mechanics theory of microwave absorption (波动力学) and the classical impedance matching theory (阻抗匹配理论) occupy the same level of theoretical hierarchy. Both utilize the results of transmission line theory as their core axioms (它们都是以传输线理论结果为公理的理论体系).
+            </p>
+            <p className="font-serif">
+              However, their logical pathways diverge catastrophically:
+            </p>
+            <ul className="list-disc list-inside space-y-2 pl-4 font-serif text-xs md:text-sm">
+              <li>
+                <strong>Impedance Matching Theory:</strong> Built on a fundamental, mathematical misunderstanding of the transmission line equations. Because its logic is flawed, the entire conceptual system it attempts to establish is wrong (阻抗匹配理论是建立在对传输线理论结果错误理解基础上的理论体系，因而是逻辑错误的理论体系，逻辑错了、概念体系就错了).
+              </li>
+              <li>
+                <strong>Wave Mechanics Theory:</strong> Correctly interprets the mathematical core of transmission line theory. Its logical deduction is flawless, establishing a correct and physically robust conceptual system (而波动力学对传输线理论的理解是正确的、逻辑是正确的，因而波动力学理论建立的是正确的概念体系).
+              </li>
+            </ul>
+            <p className="font-serif">
+              Thus, we see that scientific validity is not determined by who gathers the most experimental data or who sits on the most prestigious editorial board. It is determined by the self-evident truth of the axioms and the absolute correctness of the mathematical logic applied to them.
             </p>
           </div>
         </article>
