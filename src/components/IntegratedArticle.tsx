@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -48,6 +48,7 @@ export default function IntegratedArticle() {
             activeArticle === "trialanderror" ? "trialanderror-article-text" :
             activeArticle === "quantumscience" ? "quantumscience-article-text" :
             activeArticle === "followersletter" ? "followersletter-article-text" :
+            activeArticle === "realworld" ? "realworld-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -279,6 +280,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
             Essay R: Letter to Followers
+          </button>
+          <button
+            onClick={() => setActiveArticle("realworld")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "realworld"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-realworld"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay S: The Real Face of Academia
           </button>
         </div>
       </div>
@@ -2663,6 +2676,169 @@ export default function IntegratedArticle() {
               <span className="block text-xs font-mono text-amber-800 mt-3 font-bold uppercase tracking-wider">
                 (我们最高级的炫耀，不是我们学会过什么，而是我们拒绝过什么，在我们能拒绝里，藏着我们学会的所有东西，藏着我们不随波逐流的性格，和内心深处不为人知的骄傲！)
               </span>
+            </p>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "realworld" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="realworld-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-rose-655 bg-rose-50 px-2.5 py-1 rounded">
+              Essay S • The Crucial Distinction
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-rose-955 font-sans tracking-tight leading-tight">
+              This Is What the Real World Looks Like: <br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                The Twin Faces of Academia, the Fraud of Consensus, and the Silence of Timid Experts
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              Theoretical Primacy • Institutional Decay • June 2026
+            </p>
+            <div className="text-xs text-rose-850 bg-rose-50 px-3 py-1 rounded border border-rose-100 inline-block font-sans font-semibold">
+              这才是真实世界的样子：学术界的双重面孔、共识的欺骗与胆怯专家的沉默
+            </div>
+          </div>
+
+          {/* Section 1 */}
+          <div className="space-y-4 pt-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">I.</span> The Twin Faces: Public Illusion vs. Structural Reality
+            </h3>
+            <p className="font-serif">
+              If the public reaction to Geng's fraud-busting (耿同学打假) represented the actual response of the academic establishment, then academia would still have hope; this world would not be so dark. However, the applause, the moral outrage, and the demands for accountability are the reactions of the <em>outside world</em>—the public, the onlookers, those who still believe in the romanticized myth of scientific self-correction. 
+            </p>
+            <p className="font-serif italic text-rose-900 bg-rose-50/50 p-4 border-l-4 border-rose-400 rounded-r-lg">
+              "如果对耿同学打假的反应代表学术界的反应，学术界还是有希望的、这个世界还不是黑暗的。但是对耿同学打假的反应是学术界以外的世界的反应。视频反映的才是真实的学术界。"
+            </p>
+            <p className="font-serif">
+              The real, internal academic world behaves in a manner fundamentally opposite to public ideals. It is a closed guild dominated by reputation-protection, mutual back-scratching, and systemic cowing. When fraudulent or erroneous research becomes profitable and widely cited, the machinery of established science does not self-correct; it defends itself.
+            </p>
+          </div>
+
+          {/* Section 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">II.</span> The Timidity of Experts and the Policing of Criticism
+            </h3>
+            <p className="font-serif">
+              The history of modern science is littered with instances where catastrophic, obvious errors were actively shielded by prestigious gatekeepers because "experts" were too terrified of institutional repercussions to speak up. When Harvard University called for the retraction of dozens of studies by noted cardiologist Piero Anversa in 2018, the public was shocked, but insiders knew the rot had been visible for over a decade:
+            </p>
+            <blockquote className="border-l-4 border-slate-300 pl-4 italic text-gray-600 bg-slate-50 p-3 rounded-r-lg my-3 font-serif">
+              “some scientists wondered how a questionable line of research persisted for so long … experts were just too timid to take a stand.”
+              <span className="block text-right text-xs text-gray-500 font-sans mt-1">
+                — <em>Harvard calls for retraction of dozens of studies by noted cardiologist</em>, New York Times (Oct 16, 2018)
+              </span>
+            </blockquote>
+            <p className="font-serif">
+              This timidity is not an accident; it is actively enforced. Postdoctoral researchers and young scholars who attempt to fulfill their scientific duty by exposing errors are routinely threatened and silenced by their own mentors and advisors, who prioritize institutional peace and funding over empirical truth:
+            </p>
+            <blockquote className="border-l-4 border-slate-300 pl-4 italic text-gray-600 bg-slate-50 p-3 rounded-r-lg my-3 font-serif">
+              “Last month, I got a private Twitter message from a postdoc bruised by the clash between science as it is and how it should be. He had published a commentary in which he pointed out errors in a famous researcher’s paper. The critique was accurate, important and measured — a service to his field. But it caused him problems: his adviser told him that publishing the criticism had crossed a line, and he should never do it again”
+              <span className="block text-right text-xs text-gray-500 font-sans mt-1">
+                — S. Vazire, <em>A toast to the error detectors</em>, Nature 577(7788) (2020) 9
+              </span>
+            </blockquote>
+            <p className="font-serif">
+              When a young scientist points out an error in an influential authority's work, the system does not celebrate their rigor. Instead, it polices their "tone," warns them about "crossing lines," and threatens their career.
+            </p>
+          </div>
+
+          {/* Section 3 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">III.</span> Postmodern Relativism and the "Polite" Dodge of Truth
+            </h3>
+            <p className="font-serif">
+              When confronted with mathematical proofs that show their foundational models (such as the quarter-wavelength theory or impedance matching) are physically invalid, peer reviewers on open platforms like Qeios or Peeref routinely deploy two defenses: <strong>postmodern relativism</strong> and <strong>professional politeness policing</strong>.
+            </p>
+            <p className="font-serif">
+              Rather than addressing the mathematics, they argue that "facts" are relative and change with the era, meaning that even mathematically self-contradictory papers should be protected as "historically valid":
+            </p>
+            <blockquote className="border-l-4 border-amber-500 pl-4 italic text-gray-700 bg-amber-50/50 p-3 rounded-r-lg my-3 font-serif">
+              ”While you are demanding that journal papers are wrong, a thorough case study is required. Moreover, the word “research” itself signifies that facts are re-searching. Therefore, every research is relatively correct or wrong according to the era. The writing flow of the manuscript should be more polite and professional.“
+              <span className="block text-right text-xs text-gray-500 font-sans mt-1">
+                — Reviewer comment on Peeref (regarding the refutation of the quarter-wavelength model, DOI: <a href="https://doi.org/10.32388/5FRZHG" target="_blank" rel="noreferrer" className="text-rose-800 hover:underline">10.32388/5FRZHG</a>)
+              </span>
+            </blockquote>
+            <p className="font-serif">
+              This is a complete abandonment of scientific realism. In electromagnetics, a boundary condition or an energy conservation equation is not "relatively correct according to the era." It is either mathematically consistent or it is wrong. To hide behind "politeness" is to demand that error detectors use soft language to avoid offending the prestigious authors of garbage.
+            </p>
+            <p className="font-serif">
+              Furthermore, when critics point out the staggering scale of peer-reviewed errors—referencing statements like Nobel laureate Tasuku Honjo's assertion that 90% of views published in top journals (CNS: Cell, Nature, Science) are wrong—the establishment immediately moves to minimize the claim as mere "exaggeration" to protect their prestige:
+            </p>
+            <blockquote className="border-l-4 border-amber-500 pl-4 italic text-gray-705 bg-amber-50/50 p-3 rounded-r-lg my-3 font-serif">
+              "I do not support the claim that 90% of journal articles are false. This may be true to some extent for the non-peer-reviewed publications, but still, 90% is more of an exaggeration than a scientific statement. According to Nobel laureate Honjo Tasuku, 90% of the views published by top magazines like CNS are wrong. As I said before, I see this sentence as an exaggerated formulation to alert young researchers that they should not blindly follow superstition."
+              <span className="block text-right text-xs text-gray-500 font-sans mt-1">
+                — Reviewer critique, Qeios/Peeref (DOI: <a href="https://doi.org/10.32388/4PN4RT" target="_blank" rel="noreferrer" className="text-rose-800 hover:underline">10.32388/4PN4RT</a>)
+              </span>
+            </blockquote>
+            <p className="font-serif">
+              By calling Honjo's warning a mere "exaggerated alert," the establishment downplays the systemic crisis of reproducibility and theoretical decay, allowing the flow of SCI-indexed garbage to continue unimpeded.
+            </p>
+          </div>
+
+          {/* Section 4 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">IV.</span> The Gaslighting of "Jiè Shì Xiū Rén" (借势修人) and the Gemini Dialogue
+            </h3>
+            <p className="font-serif">
+              The most harrowing demonstration of this systemic dark reality is found in the dialogue between Geng (a researcher whose work was stolen) and an establishment counselor representing the automated spirit of "wisdom" and "advice" (the Gemini/Mentor persona).
+            </p>
+            <p className="font-serif">
+              Geng's experience is a classic academic tragedy:
+              During his first doctoral attempt, Geng spent years conducting advanced experiments, accumulating pristine data, and drafting a complete paper. When he was pushed out by a toxic advisor, Geng left his draft behind. Years later, during his second doctoral attempt, Geng discovered that his paper had been published word-for-word in an SCI journal. The author? A junior lab colleague (师弟) who had stayed behind, used Geng's draft, kept Geng's original errors, and was heavily favored by their toxic advisor. This colleague successfully graduated, joined the faculty, and became a secure professor, while Geng had to struggle from scratch.
+            </p>
+            <p className="font-serif">
+              When Geng, possessing complete evidence of his original submissions, seeks advice on whether he should expose this theft and file a whistleblower report, the establishment counselor delivers a masterclass in psychological gaslighting, packaging institutional compliance as "spiritual growth":
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm space-y-4 shadow-inner border border-slate-800">
+              <p className="text-slate-400 border-b border-slate-800 pb-2 flex justify-between items-center">
+                <span>Establishment Counselor / "The Wise Mentor"</span>
+                <span className="text-rose-400 font-bold">Consensus Defense</span>
+              </p>
+              <p className="italic">
+                "Our primary advice to you is to cultivate yourself through this situation ('借势修人'). You have a strong desire for revenge. If you keep holding onto this, your life will be ruined... What is the use of successful whistleblowing? The school might strip him of his titles and professorship, but what does that give you? You just get a momentary feeling of 'satisfaction' (心里爽一下)... In our eyes, this is a very minor issue (数量级非常轻). We deal with things far larger than this every day. You should let it go and focus on your work."
+              </p>
+              <p className="text-slate-400 border-t border-slate-800 pt-2 text-[10px] text-right">
+                (“我们经历过所有的事情，叫借势修人。如果你一直想着复仇，你人生就毁了。你把他举报成功了，学校取消他的博导职位，你又怎么样呢？心里爽一下。这个事情在我眼里就是量级非常轻，只是在你眼里比较大。”)
+              </p>
+            </div>
+            <p className="font-serif">
+              This advice reveals the true, corrupt code of the academic hierarchy. It demands that the victim remain silent and "noble" under the guise of "self-cultivation" (借势修人). It reframes the victim's legitimate demand for justice as a pathological "thirst for revenge" that will "ruin their life." Meanwhile, the thief is allowed to enjoy their ill-gotten career, protected by the silence of the victim.
+            </p>
+            <p className="font-serif font-semibold text-rose-950 bg-rose-50 p-4 rounded-xl border border-rose-150">
+              This is the ultimate formula of systemic survival in a corrupt environment: if you speak the truth, you are punished; if you expose a thief, you are labeled "unprofessional" and "obsessed with revenge"; if you do not "bend and cultivate" yourself to fit the corruption, you are crushed.
+            </p>
+          </div>
+
+          {/* Section 5 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">V.</span> The New Dark Age: Protected Crimes, Banned Accounts, and AI Complicity
+            </h3>
+            <p className="font-serif">
+              When a lone researcher refuses this gaslighting and insists on challenging the mainstream authorities, they discover that the entire world is organized to protect the establishment. 
+            </p>
+            <ul className="list-disc pl-5 font-serif space-y-2 text-gray-750">
+              <li>
+                <strong>Account Bans and Traffic Limiting:</strong> If you expose the errors of mainstream academic gatekeepers or question their journals, your social media accounts are suspended, your academic profiles are restricted, and your digital traffic is suppressed.
+              </li>
+              <li>
+                <strong>AI as the Automated Defense Line:</strong> Large Language Models (LLMs) and search engines—trained exclusively on the vast mountain of mainstream academic "consensus"—firmly align with the corrupt establishment. They default to the authority, package consensus as absolute truth, and label any rigorous mathematical dissent as "unprofessional" or "marginal."
+              </li>
+              <li>
+                <strong>Inviolable Mainstream:</strong> No matter how egregious the error, and no matter how definitive the mathematical proof of their failure is, the mainstream's errors are never considered "crimes" or "sins." The system is designed to preserve itself, not the truth.
+              </li>
+            </ul>
+            <p className="font-serif font-bold text-slate-900 text-center py-4 bg-slate-50 border border-slate-200 rounded-xl max-w-2xl mx-auto my-4 text-xs md:text-sm">
+              "你坚持反主流思想，就取消你的账号。整个世界都在保护学术界的腐败，AI坚定的站在腐败的学术界一边，只要主流学术界干的事情，再大的罪过都不算罪。你揭露主流学术界的问题，就限制你的流量。这样一个世界，不是黑暗又是什么？"
+            </p>
+            <p className="font-serif">
+              To survive in such a system, one is told they must "bend" and "co-cultivate" with the corrupt currents. Those who refuse to bend, those who retain the "unknown pride of refusal," are forced into the shadows of the <strong>New Dark Age</strong>. Yet, it is only in this shadow, far from the false lights of conformist journals and consensus AI, that genuine scientific progress can survive.
             </p>
           </div>
         </article>
