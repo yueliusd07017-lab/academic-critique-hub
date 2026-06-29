@@ -2391,7 +2391,7 @@ Modern materials science publishing has degenerated into a metric-driven cargo c
 
 ⏱️ TIMESTAMPS (视频时间线):
 0:00 - Introduction: The Cargo Cult Epidemic of SCI Paper Mills
-2:10 - Carbon 2024 Debunked: Permittivity as a Function of Film Thickness?
+2:10 - Carbon 2024 Scandal (Hou et al., Carbon 222, 118935): Claiming permittivity is a function of film thickness.
 5:15 - Conflating Device Impedance Zin with Material Impedance ZM (Applied Physics A)
 8:30 - Boundary Interface vs. Volume Absorption (ChemistrySelect)
 11:00 - The Wave Vector Failure: Treating Wave Interference as Scalar Energy Addition
@@ -2403,6 +2403,35 @@ We invite rigorous peer review and academic collaboration. Contact us at:
 ➔ yueliusd@163.com / yingliusd@163.com
 
 #AcademicIntegrity #PeerReviewCrisis #WaveMechanics #MicrowaveAbsorption #JournalCartels #CarbonJournal #AppliedPhysics #YueLiu #Substack #SSRN`;
+
+  const youtubeDescText26 = `Lecture 13: Replacing the Quarter-Wavelength Theory with the Rigorous Inverse Relationship between Frequency and Film Thickness
+第十三讲：用膜厚度与频率的反比例关系取代四分之一波长理论
+
+📖 MASTERWORK REFERENCE (本期主讲核心文献):
+Ying Liu, Yue Liu, Michael G. B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521.
+DOI: https://doi.org/10.1016/j.matchemphys.2022.126521
+
+---
+
+1. THE QUARTER-WAVELENGTH FLAW (四分之一波长理论的致命漏洞):
+For half a century, the quarter-wavelength theory (d = (2n+1)λ/4) has been used blindly to characterize microwave absorption films. Its fundamental error lies in treating the film as a bulk material rather than a phase-modulated cavity device. By ignoring interfacial phase shifts, it arrives at self-contradictory results.
+
+2. THE RIGOROUS INVERSE RELATIONSHIP (严格的频率-厚度反比例关系 ν · d = Constant):
+In our Materials Chemistry and Physics (2022) paper, we present the first mathematically rigorous proof of the inverse relationship. Under constant permittivity and permeability:
+- The input reflection coefficient RM at the front interface remains constant.
+- The total reflection coefficient magnitude |RL| is constant along the hyperbola ν · d = constant.
+- Along this curve, all |RL| values are absolutely identical, as confirmed beautifully in Figure 1 of our paper.
+
+3. THE COLOR DISPERSION EFFECT (真实介质的色散偏离):
+In real materials, the peak values of |RL| are not perfectly equal along the curve because permittivity and permeability are functions of frequency (dispersion). However, when parameters are insensitive to frequency, the model holds with extreme precision.
+
+It is time to retire the non-physical quarter-wavelength theory and embrace the elegant, mathematically sound inverse relationship!
+
+---
+
+📖 PRIMARY REFERENCE WORK & FURTHER READINGS (核心参考文献与延伸阅读):
+1. Theoretical Validation (Part 2): Y. Liu, Y. Liu, M.G.B. Drew, "A theoretical investigation of the quarter-wavelength model — part 2: verification and extension", Physica Scripta, 2022, 97(1), 015806. DOI: https://doi.org/10.1088/1402-4896/ac3b41
+2. Interface Matching Theory: Y. Liu, M.G.B. Drew, Y. Liu, "A Theoretical Exploration of Impedance Matching Coefficients for Interfaces and Films", Applied Physics A, 2024, 130, 212. DOI: https://doi.org/10.1007/s00339-024-07311-5`;
 
   const youtubeScriptText26 = `[SCENE 1: THE CRUMBLING PILLAR OF MICROWAVE THEORY | 第一幕：微波理论的空中楼阁]
 [Visual: A diagram of a metal-backed film with an incident wave bouncing off the top interface and bottom interface. Highlight the equation "d = (2n+1)λ/4" (the quarter-wavelength theory) written in chalk on a blackboard, which is then dramatically struck through with a red cross. Superimposed text: "THE CRITICAL FLAW: BULK MATERIAL VS. INTERFACIAL PHASE."]
@@ -2470,51 +2499,6 @@ We call upon the scientific community to abandon this historical error, embrace 
 传输线理论为这一反比例关系奠定了不可动摇的数理基石，其适用条件清晰、定义严格。相反，四分之一波长理论仅仅是一个由于粗暴忽视界面相位效应而拼凑出的错误近似，理应被写进教科书的垃圾桶。
 
 我们呼吁整个学术界告别这一陈旧的历史性偏误，拥抱真正符合波动干涉物理的严格数理法则，用完美契合波动本质的反比例关系取代千疮百孔的四分之一波长模型。”`;
-
-  const youtubeDescText26 = `Lecture 13: Replacing the Quarter-Wavelength Theory with the Rigorous Inverse Relationship between Frequency and Film Thickness
-第十三讲：用膜厚度与频率的反比例关系取代四分之一波长理论
-
-📖 MASTERWORK REFERENCE (本期主讲核心文献):
-Ying Liu, Yue Liu, Michael G. B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521.
-DOI: https://doi.org/10.1016/j.matchemphys.2022.126521
-
----
-
-1. THE QUARTER-WAVELENGTH FLAW (四分之一波长理论的致命漏洞):
-For half a century, the quarter-wavelength theory (d = (2n+1)λ/4) has been used blindly to characterize microwave absorption films. Its fundamental error lies in treating the film as a bulk material rather than a phase-modulated cavity device. By ignoring interfacial phase shifts, it arrives at self-contradictory results.
-
-2. THE RIGOROUS INVERSE RELATIONSHIP (严格的频率-厚度反比例关系 ν · d = Constant):
-In our Materials Chemistry and Physics (2022) paper, we present the first mathematically rigorous proof of the inverse relationship. Under constant permittivity and permeability:
-- The input reflection coefficient RM at the front interface remains constant.
-- The total reflection coefficient magnitude |RL| is constant along the hyperbola ν · d = constant.
-- Along this curve, all |RL| values are absolutely identical, as confirmed beautifully in Figure 1 of our paper.
-
-3. THE COLOR DISPERSION EFFECT (真实介质的色散偏离):
-In real materials, the peak values of |RL| are not perfectly equal along the curve because permittivity and permeability are functions of frequency (dispersion). However, when parameters are insensitive to frequency, the model holds with extreme precision.
-
-It is time to retire the non-physical quarter-wavelength theory and embrace the elegant, mathematically sound inverse relationship!
-
----
-
-📖 PRIMARY REFERENCE WORK & FURTHER READINGS (核心参考文献与延伸阅读):
-1. Theoretical Validation (Part 2): Y. Liu, Y. Liu, M.G.B. Drew, "A theoretical investigation of the quarter-wavelength model — part 2: verification and extension", Physica Scripta, 2022, 97(1), 015806. DOI: https://doi.org/10.1088/1402-4896/ac3b41
-2. Interface Matching Theory: Y. Liu, M.G.B. Drew, Y. Liu, "A Theoretical Exploration of Impedance Matching Coefficients for Interfaces and Films", Applied Physics A, 2024, 130, 212. DOI: https://doi.org/10.1007/s00339-024-07311-5
-3. Focused Review (The Ultimate Reckoning): Y. Liu, Y. Liu, M.G.B. Drew, "Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review", Industrial & Engineering Chemistry Research, 2025, 64(7), 3635–3650. DOI: https://doi.org/10.1021/acs.iecr.4c04544
-
-⏱️ TIMESTAMPS (视频时间线):
-0:00 - Introduction: The Textbook Dogma of the Quarter-Wavelength Theory
-2:15 - Why the Quarter-Wavelength Theory Fails: The Neglect of Interfacial Phase Effects
-4:40 - How Transmission Line Theory Handles Phase Shifts Properly
-7:10 - Mathematical Proof: Formula 1 and the Birth of the Inverse Relationship (ν · d = constant)
-10:30 - Dissecting Figure 1: Identical |RL| and |R2| Values Along the Hyperbolic Curves
-12:45 - The Dispersive Reality: Why Experimental Peaks Differ and When the Model Holds
-15:10 - Conclusion: Demanding the Retraction and Replacement of Flawed Theories in Wave Mechanics
-
-📧 CORRESPONDENCE & SCIENTIFIC DIALOGUES:
-We welcome peer reviews, logical challenges, and academic collaboration. Let's rebuild the foundations of microwave materials science with correct physical paradigms:
-➔ yueliusd@163.com / yingliusd@163.com
-
-#WaveMechanics #MicrowaveAbsorption #QuarterWavelengthFlaw #InverseRelationship #YueLiu #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #AcademicIntegrity #WaveInterference`;
 
 
 
