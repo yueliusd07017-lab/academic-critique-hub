@@ -2322,65 +2322,87 @@ Then we have ChemistrySelect 2024 by Prima Hardianto et al. In Equation 5, they 
 [SCENE 4: THE COLLAPSE OF WAVE VECTOR MATHEMATICS | 第四幕：波叠加的沦丧——反射损失不是矢量]
 [Visual: Diagrams illustrating two papers:
 Panel 1: Andriyanti et al. (Physica B 2024) - showing Figure 12's unscientific 'first reflection loss' and 'second reflection loss'.
-Panel 2: Wang et al. (J. Appl. Phys. 2012) - showing the superposition of beam energies instead of wave field vectors. Red bold cross: 'Error: Sum of Energies ≠ Superposition of Wave Vectors'.]
-[Sound: Low-frequency bass drop, emphasizing theoretical poverty.]
+Panel 2: Wang et al. (J. Appl. Phys. 2012) - showing the superposition of beam energies instead of wave field vectors. Red bold cross on these equations.]
+[Sound: Deep, tense synth bass.]
 
 [VOICEOVER]
-"The errors run even deeper. To understand wave interference, one must understand that waves are vectors with both amplitude and phase. Yet, top papers completely disregard this.
+"The disregard for basic wave vector mathematics in modern journals is staggering. 
 
-In a 2024 paper in Physica B by Andriyanti et al., the authors define a 'first reflection loss' and a 'second reflection loss' in their Figure 12. But 'Reflection Loss' is a scalar power ratio, a unitless quantity of energy. It is not a vector. You cannot use reflection loss for wave superposition! You must use the reflection coefficient, which is a complex vector. 
+In a 2024 paper in Physica B, Andriyanti et al. introduce highly unscientific concepts like 'first reflection loss' and 'second reflection loss' as if they were separate, independent, addable physical quantities. They completely fail to realize that reflection loss is an integrated, coherent wave-interference outcome.
 
-This is the exact same blunder made by Wang et al. in their 2012 Journal of Applied Physics paper. They treated the superposition of multiple reflected beams as a sum of their independent energies, rather than a vector superposition of their wave fields. They literally tried to model interference without wave mechanics, treating waves as if they were billiard balls."
+But perhaps the most historic blunder is found in a 2012 paper by Wang et al. in the Journal of Applied Physics. They attempted to calculate the total energy of a film by directly adding the scalar energies of individual sub-beams! This completely ignores the phase of the wave vectors, which can lead to destructive interference where amplitudes subtract, or constructive interference where they add. Treating wave superposition as a scalar sum of beam energies is a freshman-level physics failure, yet it passed peer review in a major applied physics journal and has been cited hundreds of times."
+
+“现代期刊中对波动矢量数学的漠视同样令人震惊。
+
+在《Physica B》（2024年）中，Andriyanti 等人引入了极其不科学的‘第一反射损耗’和‘第二反射损耗’概念，就好像它们是独立的、可累加的物理量。他们完全没有意识到，反射损耗是相干波干涉的综合结果，绝非独立分量的累加。
+
+而最具历史性的低级错误，当属王等人2012年发表在《Journal of Applied Physics》上的文章。他们竟然试图通过直接累加各子光束的标量能量，来计算薄膜的总吸收能量！这彻底忽略了波动矢量的相位干涉。波的叠加是复场强的矢量叠加，其相位决定了是干涉相消还是干涉相长。将波叠加当做光束能量的标量直接累加，是大学二年级电磁学不及格的物理错误，却在知名物理期刊上顺利通过同行评审，并被引用了数百次！”
 
 
-[SCENE 5: THE PENETRATION MYTH AND THE CALL FOR SCIENTIFIC RETRACTIONS | 第五幕：学术纠错机制的瘫痪与撤稿之争]
-[Visual: Screenshot of Abu Sanad et al. (physica status solidi (a) 2024) claiming ideal penetration requires r, r1, and r2 to be zero. A large digital stamp falls: "CENSORED BY JOURNALS". Bulleted list of journals refusing corrections. Cover of the I&ECR 2025 paper: 'Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review.']
-[Sound: Heroic, rising orchestral melody, turning from despair to an unyielding call to arms.]
+[SCENE 5: CALL TO ACADEMIC INTEGRITY | 第五幕：学术诚信与重构物理常识]
+[Visual: Back to the clean slate design. Texts displaying: 'Academic Integrity', 'Rigorous Mathematics', 'Physical Reality'. We show links to yueliusd.substack.com and the SSRN preprints, with yueliusd@163.com shown in clear elegant typography.]
+[Sound: Warm, reflective acoustic guitar music starts to build up, moving towards an inspiring, dignified conclusion.]
 
 [VOICEOVER]
-"In 2024, Abu Sanad and co-authors claimed in physica status solidi (a) that ideal wave penetration requires the reflection coefficient at every boundary—r, r1, and r2—to simultaneously vanish. But wave mechanics proves that the overall film reflection RL can equal zero even when individual boundary reflections are highly prominent, because the reflected beams cancel each other out in the air! 
+"This systemic failure of peer review is a symptom of a larger epidemic. When editors and reviewers prioritize citations and publication volume over mathematical correctness, science ceases to be a search for truth and becomes a bureaucratic game.
 
-When we tried to submit corrections, the editorial systems of these journals slammed their doors shut. Why? Because admitting these errors would mean admitting that the peer-review system has failed. It would require retracting thousands of papers, collapsing the h-index of academic power-brokers, and exposing the publish-or-perish game as a massive, metrics-driven scam.
+But science does not bend to peer-review cartels. A mathematical error is still an error, even if peer-reviewed and cited a thousand times. We must return to the rigorous foundations of classical physics. We must demand that journals retract erroneous papers when presented with clear, unassailable mathematical proof.
 
-We must demand retractions for these papers. A retraction is not just for academic misconduct; it is the ultimate hygiene mechanism of science. If we do not purge these errors, we are teaching the next generation of students that consensus matters more than physics, and that citations matter more than truth. 
+Visit our Substack and SSRN links below to read our detailed critiques of these publications. Let us reject academic metrics and stand for absolute scientific truth.
 
-Our comprehensive critique, co-authored with Michael Drew and Ying Liu, has been published in Industrial & Engineering Chemistry Research in 2025. We have laid out every mathematical correction. We invite you to read the full papers on SSRN and Qeios, stand for scientific truth, and refuse to participate in the cargo cult of modern academic publishing.
+Thank you for watching."
 
-Thank you for watching."`;
+“同行评审的这种系统性失灵，只是当代学术‘唯指标论’和‘学术灌水’的一个缩影。当编辑与审稿人将引用量和发文量置于数理严密性之上时，科学研究就不再是寻求真理，而变成了一种官僚式的学术游戏。
 
-  const youtubeDescText25 = `Lecture 12: Should More Than 95% of SCI Top-Tier "Garbage" Papers Be Retracted? 
+然而，科学绝不向所谓的利益集团与审稿人门阀低头。一个数理错误即使被同行评审通过了一千次，它依然是错误。我们必须回归经典物理学的严谨根基。我们呼吁整个学术界和期刊编辑部：面对无可驳斥的数理铁证时，必须及时纠正和撤稿错误文献。
 
-In this twelfth lecture of our Wave Mechanics series, we confront a massive, systemic crisis in modern scientific publishing: the proliferation of flawed, unscientific "garbage" papers in high-impact SCI journals, and the absolute refusal of editorial boards to issue retractions. We present a detailed, logical audit of several widely cited publications in the field of microwave absorption, demonstrating how basic mathematical and physical category errors are allowed to propagate unchecked.
+欢迎访问我们下方的 Substack 专栏和 SSRN 预印本链接，阅读关于这些论文的详尽数理批判。让我们告别虚假的学术指标，用完美自洽的逻辑捍卫学术的纯洁与客观真理。
 
-Key Critiques and Fatal Errors Discussed:
-1. Carbon 2024 (Hou et al. - DOI: 10.1016/j.carbon.2024.118935): Claiming that permittivity is a function of film thickness (Fig 4). Permittivity is a bulk material property, completely independent of thickness or geometry. When pointed out, reviewers claimed "permittivity is dependent on thickness from our experience."
-2. Applied Physics A 2024 (Saikia et al. - DOI: 10.1007/s00339-024-07339-4): Confusing the film's reflection coefficient R with the interface's reflection coefficient r, and conflating input impedance Zin with material characteristic impedance ZM.
-3. Applied Physics A 2024 (Singh et al. - DOI: 10.1007/s00339-024-07331-y): Using the same symbols to represent completely different concepts, conflating the film's reflection coefficient in Eq 9 with the boundary's interface reflection coefficient.
-4. ChemistrySelect 2024 (Prima Hardianto et al. - DOI: 10.1002/slct.202304748): Characterizing film absorption using the interface reflection coefficient (Eq 5). This directly violates energy conservation: a zero-thickness boundary interface cannot absorb energy; only the bulk film can.
-5. Physica B 2024 (Andriyanti et al. - DOI: 10.1016/j.physb.2024.415690): Defining "first reflection loss" and "second reflection loss" (Fig 12), which is unscientific because Reflection Loss is a scalar power ratio and cannot be used for wave superposition (which requires complex vectors).
-6. Journal of Applied Physics 2012 (Wang et al. - DOI: 10.1063/1.4767365): Treating multiple reflected beams as a sum of energies rather than a vector superposition of wave fields.
-7. physica status solidi (a) 2024 (Abu Sanad et al. - DOI: 10.1002/pssa.202300828): Erroneously claiming that zero reflection requires r, r1, and r2 to simultaneously vanish, ignoring phase cancellation.
+感谢您的收看。”`;
 
-📖 PRIMARY SCIENTIFIC CRITIQUES & COMPREHENSIVE REVIEWS:
-➔ Journal Review: Yue Liu, Ying Liu, Michael G. B. Drew, "Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review", Industrial & Engineering Chemistry Research, 2025, 64(7), 3635–3650. DOI: https://doi.org/10.1021/acs.iecr.4c04544
-➔ Qeios Preprint (Review & Corrections): https://doi.org/10.32388/QQ1MFF
-➔ SSRN Preprint: "Corrections of Common Errors Associated with the Confusion between Film and Material in Current Theories of Microwave Absorption" - https://ssrn.com/abstract=4797207
-➔ SSRN Preprint (Publication Biases & Citations): "Self-Citation Versus External Citation in Academic Publishing: A Critical Analysis of Citation Reliability" - https://ssrn.com/abstract=5392646
+  const youtubeDescText25 = `Lecture 12: Exposing the Epidemic of Academic Garbage and the Deep Crisis of Peer Review in High-Impact Journals
+第十二讲：揭露高引期刊中的低级学术垃圾与同行评审制度的系统性崩溃
 
-⏱️ TIMESTAMPS:
-0:00 - Introduction: Newton's Rigor vs. Modern Cargo Cult Science
-2:00 - The Permittivity Scandal: Hou et al. (Carbon 2024)
-5:10 - Conflating Zin and ZM: Saikia et al. & Singh et al. (Appl. Phys. A 2024)
-8:00 - Interface vs. Film Absorption: Prima Hardianto et al. (ChemistrySelect 2024)
-10:15 - The Scalar Error in Wave Superposition: Andriyanti et al. & Wang et al.
-12:30 - The Penetration Myth: Abu Sanad et al. (PSS-A 2024)
-14:50 - Why Journals Refuse to Correct: The Publish-or-Perish Protection racket
+📖 MASTERWORK REFERENCES & CRITIQUES (本期主讲核心批判文献):
+1. Carbon 2024 Scandal (Hou et al., Carbon 222, 118935): Claiming permittivity is a function of film thickness.
+2. Saikia et al. (Appl. Phys. A 2024, 130, 119): Conflating input impedance Zin with material impedance ZM.
+3. Singh et al. (Appl. Phys. A 2024, 130, 182): Conflating film reflection coefficient and interface reflection coefficient with identical symbols.
+4. Prima Hardianto et al. (ChemistrySelect 2024): Characterizing film absorption with interface reflection coefficient.
+5. Andriyanti et al. (Physica B 2024): Unscientific "first/second reflection loss" concepts.
+6. Wang et al. (J. Appl. Phys. 2012, 111, 094103): Superposition of beam energies instead of wave vector fields.
 
-📧 CORRESPONDENCE, DEBATES, & RESEARCH COLLABORATIONS:
-We invite rigorous logical audits. For discussions on academic integrity and wave mechanics:
-➔ yueliusd@163.com
+---
 
-#AcademicIntegrity #WaveMechanics #PeerReviewCrisis #Retraction #Electromagnetics #MicrowaveAbsorption #ScientificRetractions #CarbonJournal #AppliedPhysics #YueLiu #Substack #SSRN`;
+1. THE PEER REVIEW EPIDEMIC (同行评审的系统性失灵):
+Modern materials science publishing has degenerated into a metric-driven cargo cult. High-impact journals frequently publish trivial, mathematically self-contradictory errors because peer reviewers and editors lack the basic mathematical background to perform logical audits, or actively protect establishment consensus over physical truth.
+
+2. DETAILED ANALYSIS OF FATAL ERRORS (六大低级数理错误深度剖析):
+- Relative permittivity (ε) is a fundamental bulk material property, independent of sample geometry or thickness. Claiming ε = f(d) violates sophomore electromagnetics.
+- Input impedance (Zin) of a device depends on film thickness, whereas characteristic impedance of the medium (ZM) does not. Conflating the two leads to meaningless mathematical formulations.
+- Zero-thickness interfaces do NOT absorb electromagnetic wave energy. Only bulk materials do through wave propagation. Conflating interfacial boundaries with film volume is a direct violation of energy conservation.
+- Wave superposition is a vector superposition of complex wave fields, NOT a direct scalar addition of sub-beam energies. Neglecting phase relationships is a catastrophic physics failure.
+
+---
+
+📖 PRIMARY REFERENCE WORK & FURTHER READINGS (核心参考文献与延伸阅读):
+1. Critical Treatise on Wave Mechanics: Yue Liu, Ying Liu, Michael G.B. Drew, "Wave mechanics of microwave absorption in films - Distinguishing film from material", Journal of Magnetism and Magnetic Materials, 2024, 593, 171850. DOI: https://doi.org/10.1016/j.jmmm.2024.171850
+2. Focus Review (The Ultimate Reckoning): Y. Liu, Y. Liu, M.G.B. Drew, "Recognizing problems in publications concerned with microwave absorption film and providing corrections: A focused review", Industrial & Engineering Chemistry Research, 2025, 64(7), 3635–3650. DOI: https://doi.org/10.1021/acs.iecr.4c04544
+3. Substack Essay: "Bypassing Planck's Principle: How AI Technologies Overcome Human Academic Censorship and Establish Scientific Truth" - https://yueliusd.substack.com/p/bypassing-plancks-principle-how-ai
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The Cargo Cult Epidemic of SCI Paper Mills
+2:10 - Carbon 2024 Debunked: Permittivity as a Function of Film Thickness?
+5:15 - Conflating Device Impedance Zin with Material Impedance ZM (Applied Physics A)
+8:30 - Boundary Interface vs. Volume Absorption (ChemistrySelect)
+11:00 - The Wave Vector Failure: Treating Wave Interference as Scalar Energy Addition
+13:45 - The Silence of Editors: Journal Cartels and the Failure to Retract Proved Errors
+16:20 - Conclusion: The AI Revolution and Decentralized Scientific Truth
+
+📧 CORRESPONDENCE & DEBATES:
+We invite rigorous peer review and academic collaboration. Contact us at:
+➔ yueliusd@163.com / yingliusd@163.com
+
+#AcademicIntegrity #PeerReviewCrisis #WaveMechanics #MicrowaveAbsorption #JournalCartels #CarbonJournal #AppliedPhysics #YueLiu #Substack #SSRN`;
 
   const youtubeScriptText26 = `[SCENE 1: THE CRUMBLING PILLAR OF MICROWAVE THEORY | 第一幕：微波理论的空中楼阁]
 [Visual: A diagram of a metal-backed film with an incident wave bouncing off the top interface and bottom interface. Highlight the equation "d = (2n+1)λ/4" (the quarter-wavelength theory) written in chalk on a blackboard, which is then dramatically struck through with a red cross. Superimposed text: "THE CRITICAL FLAW: BULK MATERIAL VS. INTERFACIAL PHASE."]
@@ -2395,6 +2417,7 @@ But science does not care about how many papers repeat an idea. It cares about p
 
 然而，科学不在乎有多少篇论文重复同一个错误，科学只在乎物理与数学的严密一致性。在本讲中，我们将用最直截了当的数理铁证向大家展示：四分之一波长理论是一个有着严重物理瑕疵的错误模型，它必须被彻底废除，并由建立在严密传输线理论基础之上的‘频率与膜厚度反比例关系’取而代之！”
 
+
 [SCENE 2: THE CRITICAL MISCONCEPTION: MATERIAL RESONANCE VS. DEVICE INTERFACES | 第二幕：本质认知偏差：材料共振 vs. 膜器件界面效应]
 [Visual: A split screen. On the left: a molecular structure shaking, labeled "Material Resonance (Quarter-Wavelength Assumption)". On the right: waves splitting and overlapping at interfaces, labeled "Wave Superposition (Transmission Line Reality)". Highlight the citation: Y. Liu et al., Physica Scripta 2022, 97(1): 015806.]
 [Sound: High-pitched electric wave-like static, shifting into a clear, steady sine tone.]
@@ -2407,6 +2430,7 @@ By confusing film with material, the quarter-wavelength theory inevitably overlo
 “四分之一波长理论的致命漏洞究竟在哪里？它的根本性偏差，在于其出发点。虽然公式中包含了膜厚度 $d$ 这个变量，但该理论依然顽固地将‘吸波薄膜’当做块体‘材料’来对待，认为吸收峰是材料发生‘共振’的结果。
 
 因为‘膜’与‘材料’的本质混淆，四分之一波长理论不可避免地彻底忽略了界面的相位效应。在我们发表在《Physica Scripta》（2022年，第二部分）中的理论工作中，我们已经用无可辩驳的数理推导证明了这一忽略必然导致极其荒谬的自相矛盾和错误结果。实际上，薄膜是一个电磁共振腔。要理解其吸收行为，必须精确计算光线在前端和后端分界面反射时的相位变化。这正是经典传输线理论的精髓所在，正如我们在《Applied Physics A》（2024年）关于分界面阻抗匹配的文章中深入剖析的那样。”
+
 
 [SCENE 3: THE MATHEMATICAL BEAUTY OF THE INVERSE RELATIONSHIP | 第三幕：数学真理的涌现：公式一与等反射线族]
 [Visual: The classical reflection coefficient formula (Formula 1 from Mater. Chem. Phys. 2022) glows on screen. A dynamic graph of d versus ν displays perfect, elegant hyperbola curves (ν · d = constant) with identical |R_L| and |R_2| values, matching the Graphical Abstract and Fig 1 of the paper.]
@@ -2425,6 +2449,7 @@ Figure 1 of our paper provides the ultimate proof. The peaks of |RL| do not mere
 
 我们论文中的图1（Figure 1）给出了最具说服力的铁证。不仅是反射损耗 |RL| 的峰值严格落在一条反比例曲线上，并且在这条曲线上 |RL| 的数值完全一致。同样地，后端金属界面反射系数模值 |R2| 的峰值也完美落在另一条反比例曲线上，且在该曲线上，各点的 |R2| 值也绝对相等！”
 
+
 [SCENE 4: BEYOND PEAKS: THE FAMILY OF INVERSE CURVES AND DISPERSIVE REALITY | 第四幕：超越峰值：等值线族与真实色散介质的判决]
 [Visual: Graphic showing family of curves of constant |R_L| values on the d-ν plane. A slider changes permittivity and permeability from constant to frequency-dependent, showing how the experimental peaks slightly deviate but still approximately align with the inverse curves.]
 [Sound: Deep, swelling symphonic notes, leading to a climatic and authoritative ending.]
@@ -2438,40 +2463,36 @@ The inverse relationship is built on the rock-solid foundation of transmission l
 
 We call upon the scientific community to abandon this historical error, embrace the rigorous physics of wave interference, and replace the flawed quarter-wavelength model with the correct, mathematically beautiful inverse relationship."
 
-“不仅如此，这个反比例关系最美丽、最优雅的地方在于：它不仅适用于反射损耗的峰值，它还适用于反射损耗的任何其它数值！在频率-膜厚度的 d-ν 平面上，每一个特定 |RL| 的值都对应着自己的一族反比例曲线，从而构建了一个完美的等值线场。
+“不仅如此，这个反比例关系最美丽、最优雅的地方在于：它不仅适用于反射损耗的峰值，它还适用于反射损耗的任何其它数值！在频率-膜厚度的 d-ν 平面上，每一个特定 |RL| 的值都对应着自己的一族反比例曲线，从而构建了一个由等反射损耗线组成的、具有对称美感完整族群。
 
-那么，为什么在真实的实验中，反比例曲线上的反射损耗峰值并不完全相等呢？原因非常简单：真实的介质具有‘色散效应’，即它们的介电常数和磁导率是频率的函数。然而，当这些电磁参数在某一频段内对频率不敏感时，膜厚度与频率的反比例关系将以极高的精度近似成立。
+在真实的实验中，反比例曲线上的峰值往往并非绝对相等，因为实际材料的介电常数和磁导率是随频率变化的（即存在色散效应）。然而，在特定的频段内，只要材料的参数对频率不敏感，膜厚度与频率之间的反比例关系依然能以极高精度成立。
 
-膜厚度与频率的反比例关系是建立在牢不可破的经典传输线理论基础之上的，有着清晰、严密的适用条件。相反，四分之一波长理论是一个完全忽略了界面相位效应的错误模型，它应当被彻底扫出科学教科书。
+传输线理论为这一反比例关系奠定了不可动摇的数理基石，其适用条件清晰、定义严格。相反，四分之一波长理论仅仅是一个由于粗暴忽视界面相位效应而拼凑出的错误近似，理应被写进教科书的垃圾桶。
 
-我们呼吁学术界打破历史的思维惰性，尊重客观波动干涉物理，用严密、优美的‘反比例关系’彻底取代存在严重瑕疵的‘四分之一波长理论’！”`;
+我们呼吁整个学术界告别这一陈旧的历史性偏误，拥抱真正符合波动干涉物理的严格数理法则，用完美契合波动本质的反比例关系取代千疮百孔的四分之一波长模型。”`;
 
-  const youtubeDescText26 = `Lecture 13: Replacing the Flawed Quarter-Wavelength Theory with the Mathematically Beautiful Inverse Relationship between Frequency and Film Thickness
-第十三讲：用膜厚度与频率的“反比例关系”彻底取代饱受瑕疵的“四分之一波长理论”
+  const youtubeDescText26 = `Lecture 13: Replacing the Quarter-Wavelength Theory with the Rigorous Inverse Relationship between Frequency and Film Thickness
+第十三讲：用膜厚度与频率的反比例关系取代四分之一波长理论
 
-📖 DISCUSSION PAPER (本期主讲核心文献):
-Ying Liu, Yue Liu, Drew M.G.B, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521.
+📖 MASTERWORK REFERENCE (本期主讲核心文献):
+Ying Liu, Yue Liu, Michael G. B. Drew, "A re-evaluation of the mechanism of microwave absorption in film – Part 3: Inverse relationship", Materials Chemistry and Physics, 2022, 290, 126521.
 DOI: https://doi.org/10.1016/j.matchemphys.2022.126521
 
 ---
 
-🔥 THE SCIENTIFIC DISPUTE (学术争鸣与理论纠偏):
-For decades, the "quarter-wavelength theory" (d = (2n+1)λ/4) has dominated microwave absorption materials research as a textbook dogma. But this theory contains a fatal logical and physical error: despite containing film thickness (d) as a variable, it stubbornly treats the absorber film as bulk "material" and attributes absorption peaks to "material resonance." In doing so, it completely ignores the phase shift effects occurring at the interfaces.
+1. THE QUARTER-WAVELENGTH FLAW (四分之一波长理论的致命漏洞):
+For half a century, the quarter-wavelength theory (d = (2n+1)λ/4) has been used blindly to characterize microwave absorption films. Its fundamental error lies in treating the film as a bulk material rather than a phase-modulated cavity device. By ignoring interfacial phase shifts, it arrives at self-contradictory results.
 
-As mathematically verified in our Physica Scripta (2022, Part 2) publication, this fatal neglect leads to deep self-contradictory results. In contrast, classical transmission line theory naturally incorporates interfacial phase effects (see Applied Physics A, 2024, 130, 212). 
+2. THE RIGOROUS INVERSE RELATIONSHIP (严格的频率-厚度反比例关系 ν · d = Constant):
+In our Materials Chemistry and Physics (2022) paper, we present the first mathematically rigorous proof of the inverse relationship. Under constant permittivity and permeability:
+- The input reflection coefficient RM at the front interface remains constant.
+- The total reflection coefficient magnitude |RL| is constant along the hyperbola ν · d = constant.
+- Along this curve, all |RL| values are absolutely identical, as confirmed beautifully in Figure 1 of our paper.
 
-In this thirteenth lecture of our Wave Mechanics series, we present the ultimate mathematical and physical proof that the flawed quarter-wavelength theory should be entirely replaced by the inverse relationship between frequency and film thickness:
+3. THE COLOR DISPERSION EFFECT (真实介质的色散偏离):
+In real materials, the peak values of |RL| are not perfectly equal along the curve because permittivity and permeability are functions of frequency (dispersion). However, when parameters are insensitive to frequency, the model holds with extreme precision.
 
-1. THE RIGOROUS PROOF FROM FORMULA 1:
-When the relative permittivity (εr) and permeability (μr) are constant with respect to frequency, Formula 1 in our Materials Chemistry and Physics (2022) paper proves that the front reflection coefficient RM is constant, and the amplitude of total reflection |RL| remains constant along the inverse curve of film thickness and frequency (ν · d = constant). 
-
-2. EQUAL VALUES ALONG THE HYPERBOLA:
-Along these hyperbola curves where the product of frequency (ν) and thickness (d) is constant, the corresponding |RL| values are mathematically identical. Figure 1 of our paper provides perfect proof of this: the peaks of |RL| fall exactly on these inverse curves, having identical |RL| values. This elegant property also holds for the metal-backed interface reflection coefficient |R2| and indeed any intermediate |RL| values, forming an beautiful family of curves of constant reflection loss.
-
-3. DISPERSION IN REALITY:
-In actual experiments, the peaks along the inverse curves are not perfectly equal because εr and μr are functions of frequency (color dispersion). However, when εr and μr are relatively insensitive to frequency, the inverse relationship between film thickness and frequency holds with high approximation.
-
-It is time to replace the flawed, non-physical quarter-wavelength theory with the mathematically beautiful, rigorously established inverse relationship between frequency and film thickness!
+It is time to retire the non-physical quarter-wavelength theory and embrace the elegant, mathematically sound inverse relationship!
 
 ---
 
@@ -2494,6 +2515,8 @@ We welcome peer reviews, logical challenges, and academic collaboration. Let's r
 ➔ yueliusd@163.com / yingliusd@163.com
 
 #WaveMechanics #MicrowaveAbsorption #QuarterWavelengthFlaw #InverseRelationship #YueLiu #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #AcademicIntegrity #WaveInterference`;
+
+
 
   const youtubeScriptText27 = `[SCENE 1: THE AMPLITUDE PARADOX | 第一幕：振幅超越入射波？看似违背能量守恒的佯谬]
 [Visual: A professional, clear diagram of a microwave beam 'i' incident on a boundary interface 'x1'. The reflected wave 'r1' and transmitted wave 'f1' are shown as glowing arrows. Highlight a mathematical anomaly on screen: 'V_f1 > V_i' (Transmitted voltage exceeds incident voltage!). Next to it, show a thin film where the rear interface reflected beam 'r2' is larger than the incident beam 'i' ('V_r2 > V_i'). A large red question mark fades in over the diagram: 'Does this violate Energy Conservation?']
@@ -2545,7 +2568,15 @@ Plot of the real and imaginary parts of normalized energies against frequency fa
 
 Look at our Formula 14 and 14'. When ZM is a complex number, the reflected and transmitted energy terms are also expressed as complex numbers. Under the laws of physics, the sum of their real parts—representing the actual active power—is always exactly equal to 1. Energy is perfectly conserved! 
 
-But look closely at Figure 3 and Figure 4 of our paper. They reveal a deeper physical reality: the critical contribution of the imaginary parts in Equation 14 to overall energy conservation. True wave-based energy conservation is a comprehensive synthesis of both real and imaginary parts. Attempting to evaluate conservation by looking solely at the real part or solely at the absolute values, as mistakenly done in Equation 14 prime, is physically incorrect and mathematically invalid. This sophisticated treatment is entirely missing from prior literature, yet our derivation is completely self-consistent and mathematically solid. It is this unwavering confidence in our logical consistency that allows us to stand firm without needing to seek validation from flawed mainstream textbooks.
+Let's do a detailed reading of Figure 3 and Figure 4 from our paper to show the critical contribution of the imaginary parts in Equation 14 to overall energy conservation:
+
+First, Figure 3a represents the absolute energy conservation of the interface under a complex characteristic impedance ZM. Calculated strictly using Equation 14, it shows that the real part of the normalized power sum of reflection and transmission equals exactly 1. This means the incident wave energy is completely equal to the sum of transmitted and reflected wave energies. Energy is strictly conserved, and the interface itself does not absorb any microwaves!
+
+Second, Figure 3b represents a metal-backed film where the dielectric constant and magnetic permeability are real numbers, meaning the film itself does not absorb microwaves. Under a metal-backed condition, we have the identity |RL^2| = |RL|^2. Here, the sum of the real and imaginary parts of the normalized reflection power is exactly 1, proving that the reflected microwave energy is perfectly equal to the incident microwave energy. When the film does absorb microwaves, the true absorption is given by the law of energy conservation as A = 1 - |RL|^2, never by simple amplitude subtraction.
+
+Third, Figure 4 represents a film without a metal backing. When the film does not absorb microwaves, we have |s11|^2 + |s21|^2 = 1, showing that the incident microwave energy equals the sum of the film's reflected and transmitted microwave energies. Importantly, before we plotted Figure 4, we had already completed the rigorous mathematical proof of Equation 20. Only with that solid proof in hand could we establish Figure 4. The experimental curves already presented in Figure 4 were acquired precisely after we had reached a mature, complete theoretical understanding. When the film does absorb microwaves, according to energy conservation, the absorption must be calculated as A = 1 - |s11|^2 - |s21|^2. Yet, countless papers in mainstream materials science make the childish mathematical blunder of using the incorrect formula A = 1 - s11^2 - s21^2, completely ignoring the complex absolute square!
+
+This rigorous treatment of complex energy conservation is entirely missing from prior literature. Because our logic is completely self-consistent and mathematically solid, we stand firm with absolute confidence in its correctness without needing to seek validation from flawed mainstream textbooks.
 
 As shown in Formula 14 prime, the sum of their absolute values is NOT equal to 1. In fact, because of the phase shifts, the real part of the transmitted energy, Pf1 over Pi, can be significantly greater than 1, while the real part of the reflected energy, Pr1 over Pi, becomes negative! This negative real part signifies that energy is being stored and returned back through the interface, acting in perfect harmony to balance the total energy equation. This beautiful, exact balance is plotted in our paper's Figure 3 and Figure 4, proving that energy conservation behaves fundamentally differently when ZM is a complex variable rather than a simple real number."
 
@@ -2553,7 +2584,15 @@ As shown in Formula 14 prime, the sum of their absolute values is NOT equal to 1
 
 请看我们论文中的公式（14）与（14'）。当特征阻抗 ZM 是复数时，反射和透射的能量项也都表现为复数。波动电磁学定律指出：它们实部（代表真实活性功率）的和，始终精确地等于1！能量得到了绝对的、完美的守恒！
 
-特别是，从论文的图3和图4中，我们可以清晰地看出公式14中的虚部对能量守恒所做出的关键贡献！波动体系中的能量守恒，是实部和虚部贡献的综合、整体体现，仅仅孤立地去看实部，或者像公式（14'）那样仅仅去看绝对值，都是完全行不通的。在现有的所有文献中，根本没有看到过类似这样对复数能量守恒的深刻处理。然而，我们的处理逻辑高度自洽、无懈可击，因此我们完全不需要到其他文献中去繁琐核实，我们无比自信这一推导是绝对正确的。
+在这里，我们需要对论文中的图3（Figure 3）和图4（Figure 4）进行极其详尽的物理学解读，这揭示了公式14中的虚部对整个能量守恒做出的关键性贡献。波动体系中的能量守恒，必须是实部和虚部贡献的综合与整体体现，仅仅孤立地去看实部，或者像公式（14'）那样仅仅去看绝对值，在物理和数学上都是完全行不通的：
+
+首先，图3a（Figure 3a）表达的是界面的能量守恒，此时特征阻抗 ZM 是复数。它严格按照公式14计算得到，展示出入射波的能量完美地等于透射波与反射波能量的实部之和。这证明界面处的能量是严格守恒的，而单单这个零厚度的‘界面’本身并不吸收任何微波！
+
+其次，图3b（Figure 3b）展示的是金属后衬膜的情况。当介电常数和磁导率为实数时，薄膜本身不吸收微波。在有金属后衬时，有恒等式 |RL^2| = |RL|^2 成立。|RL^2| 的实部和虚部之和精确为1，说明反射回空气中的微波能量与入射微波能量完全相等。而当薄膜开始吸收微波时，根据能量守恒定律，吸收率 A 必须表达为 A = 1 - |RL|^2。
+
+再次，图4（Figure 4）展示的是无金属后衬膜（双端口器件）的情况。当薄膜本身不吸收微波时，|s11|^2 + |s21|^2 = 1，完美说明了入射微波能量等于薄膜反射微波能量与透射微波能量的绝对值平方之和。至关重要的是，在我们做出图4之前，我们其实已经完成了公式20的证明，然后才有图4的诞生。图4中所展现的实验曲线，是在我们有了成熟、科学的理论认知之后才成功取得和理解的。当薄膜吸收微波时，根据能量守恒，吸波率 A 必须表示为 A = 1 - |s11|^2 - |s21|^2。然而，现行的大量主流文献却犯下了极其低级的数学错误，竟然错误地使用 A = 1 - s11^2 - s21^2 这一完全不考虑复数模平方的荒谬公式！
+
+这种对复数阻抗下波动能量守恒的严格处理，在以往的所有文献中根本从未出现过。由于我们的理论和推导逻辑高度自洽、无懈可击，我们具有绝对的学术自信，根本不需要去所谓的主流文献中核实，真理就站在我们这边！
 
 然而，正如公式（14'）所揭示的，它们绝对值的和并不等于1。事实上，由于相位移动，透射能量的实部 Pf1/Pi 确实可以显著大于1，而此时，反射能量的实部 Pr1/Pi 则必然变成负数！这个负实部在物理上意味着能量的相干回收，它们完美协同，确保了总能量方程式的严格自洽。这一极具物理美感的平衡过程在论文的图3（Figure 3）和图4（Figure 4）中得到了完美展现。这铁一般地证明了：当阻抗为复数时，能量守恒的数学表达与虚数部分参与的波动机制，同传统的纯实数无损介质有着本质的不同。”
 
@@ -2600,15 +2639,19 @@ Does this violate the Law of Energy Conservation?
 1. AMPLITUDE VS. ENERGY (振幅与能量的本质区别):
 The fundamental resolution lies in understanding that wave superposition is the vector superposition of complex wave amplitudes (field vectors), NOT the direct scalar addition of energies. Many mainstream scientists make the naive error of treating wave superposition as a sum of beam energies—a common blunder found in high-profile physics and materials journals. The energy of a sub-beam cannot be calculated simply by squaring its isolated amplitude without considering the medium's impedance and phase relations.
 
-2. COMPLEX VARIABLE ENERGY CONSERVATION (复数阻抗下的严格能量守恒):
-For any absorbing medium, the characteristic impedance ZM is a complex number. Through Equations 14 and 14' in our paper, we prove that:
-- Reflected and transmitted energies are complex variables.
-- The sum of their real parts (active power) always adds up to exactly 1 (Equation 14), satisfying energy conservation perfectly.
-- Crucially, Figure 3 and Figure 4 demonstrate the active contribution of the imaginary parts in Equation 14 to overall energy conservation. Wave-based energy conservation is a holistic combination of both real and imaginary contributions; assessing it by looking only at the real parts or only at the absolute values (as in Equation 14') is completely inadequate. (公式14的虚部对能量守恒有着至关重要的贡献。能量守恒是实部和虚部贡献的综合体现，只看实部或者只看绝对值如公式（14'）都不行。现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确).
-- Although such an elegant, comprehensive treatment is absent in mainstream literature, our derivation is perfectly self-consistent and mathematically solid, giving us absolute confidence in its correctness without needing external textbook verification.
-- However, their absolute values do NOT add up to 1 (Equation 14'). Due to phase interference, the real part of the transmitted energy can exceed 1, while the real part of the reflected energy becomes negative.
+2. COMPLEX VARIABLE ENERGY CONSERVATION & THE CRITICAL ROLE OF IMAGINARY PARTS (复数阻抗下的严格能量守恒与虚部贡献):
+For any absorbing medium, the characteristic impedance ZM is a complex number. Through Equations 14 and 14' in our paper, we prove that reflected and transmitted energies are complex variables, where the sum of their real parts (active power) always adds up to exactly 1 (Equation 14), satisfying energy conservation perfectly. 
 
-3. VISUALIZED PROOF IN FIGURES 3 & 4 (图3与图4的实验与理论证实):
+Crucially, Figure 3 and Figure 4 demonstrate the active contribution of the imaginary parts in Equation 14 to overall energy conservation. Wave-based energy conservation is a holistic combination of both real and imaginary contributions. Assessing it by looking only at the real parts or only at the absolute values (as in Equation 14') is completely inadequate.
+
+3. DETAILED ANALYSIS OF FIGURES 3 & 4 (论文图3与图4的详尽数理分析):
+- **Figure 3a (界面能量守恒)**: Represents the absolute energy conservation at a single interface when characteristic impedance ZM is a complex number. Calculated strictly using Equation 14, it shows that the real part of the normalized power sum of reflection and transmission equals exactly 1. This means the incident wave energy is completely equal to the sum of transmitted and reflected wave energies. Energy is strictly conserved, and the interface itself does not absorb any microwaves (界面不吸收微波).
+- **Figure 3b (有金属后衬膜能量守恒)**: When the dielectric constant and magnetic permeability are real numbers, the film itself does not absorb microwaves. Under a metal-backed film, the identity |RL^2| = |RL|^2 holds. The sum of the real and imaginary parts of the normalized reflection power is exactly 1, proving that the reflected microwave energy is perfectly equal to the incident microwave energy (反射微波能量等于入射微波能量). When the film does absorb microwaves, according to energy conservation, the true absorption must be calculated as A = 1 - |RL|^2.
+- **Figure 4 (无金属后衬膜能量守恒)**: When a thin film without a metal backing does not absorb microwaves, we have |s11|^2 + |s21|^2 = 1, showing that the incident microwave energy equals the sum of the film's reflected and transmitted microwave energies. Importantly, before plotting Figure 4, the rigorous mathematical proof of Equation 20 was completed, which paved the way for Figure 4. The experimental curves presented in Figure 4 were only obtained after establishing this mature theoretical understanding. When the film does absorb microwaves, according to the unyielding laws of energy conservation, the absorption must be calculated as A = 1 - |s11|^2 - |s21|^2. Yet, countless mainstream publications commit a childish mathematical blunder by using the incorrect formula A = 1 - s11^2 - s21^2, completely ignoring the complex absolute square.
+
+Although such an elegant, comprehensive treatment is absent in mainstream literature, our derivation is perfectly self-consistent and mathematically solid, giving us absolute confidence in its correctness without needing external textbook verification (虽然现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确).
+
+4. VISUALIZED PROOF IN FIGURES 3 & 4 (图3与图4的实验与理论证实):
 This delicate, beautiful balance of real and imaginary parts across various frequencies is plotted in Figure 3 and Figure 4 of our paper. This proves that energy conservation concepts for interfaces and films are fundamentally different from traditional concepts restricted to non-absorbing media or pure real impedance.
 
 It is time to abandon sloppy, energy-adding heuristics and return to rigorous, vector-based wave mechanics!
@@ -3657,9 +3700,14 @@ We invite academic reviews and critical peer discussions:
           <p className="text-[12px] text-emerald-950 leading-relaxed italic">
             "视频第十四讲从严密的经典波动物理学与复变函数视角，解开了界面与薄膜处看似‘超常’的振幅佯谬。在《Materials Chemistry and Physics》（Mater. Chem. Phys. 2022, 290, 126576）中，我们完美解答了以下疑问：为什么界面微波透射波 $f_1$ 的振幅可以大于入射波 $i$？为什么无损膜反射波 $r_2$ 的振幅可以大于入射波？
             
-这一现象绝不违背能量守恒！因为波的叠加是复数场强振幅的矢量叠加，绝非能量（振幅平方）的直接标量相加。许多顶刊物理学家由于常识性地混淆了这一本质，错误地认为叠加是光束能量的叠加，从而推导出完全错误的公式。当我们使用论文中的公式（14）和（14'）时，可以严格证明在阻抗为复数时，透射与反射功率实部（有功功率）的和始终精确地等于1，而虚部则参与能量的相干回收与存储。
+这一现象绝不违背能量守恒！因为波的叠加是复数场强振幅的矢量叠加，绝非能量（振幅平方）的直接标量相加。许多顶刊物理学家由于常识性地混淆了这一本质，错误地认为叠加是光束能量的叠加，从而推导出完全错误的公式。
 
-特别是，从图3和图4可以看出，公式14的虚部对能量守恒有着至关重要的贡献。能量守恒是实部和虚部的贡献的综合体现，只看实部或者只看绝对值如公式（14'）都不行。虽然现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确，完美实现无懈可击的能量自洽！"
+论文图3与图4的详尽数理分析如下：
+1. **图3a (界面能量守恒)**：表达的是单界面的能量守恒，特征阻抗 $Z_M$ 是复数。它严格按照公式14计算得到，说明入射波能量完全等于透射波和反射波能量（实部有功功率）之和。能量是完全守恒的，零厚度的界面本身绝不吸收任何微波。
+2. **图3b (有金属后衬膜能量守恒)**：介电常数和磁导率为实数，说明膜本身不吸收微波。在有金属后衬时，恒等式 $|R_L^2|=|R_L|^2$ 成立。$|R_L^2|$ 的实部和虚部之和是1，说明反射回空气中的微波能量与入射微波能量完全相等。当膜开始吸收微波时，根据能量守恒，吸波率计算公式应为 $A=1-|R_L|^2$。
+3. **图4 (无金属后衬膜能量守恒)**：当薄膜不吸收微波时，恒等式 $|s_{11}|^2+|s_{21}|^2 =1$ 成立，完美说明入射微波能量等于膜的反射和透射微波能量之和。至关重要的是，在我们做出图4之前，我们其实已经完成了公式20的证明，然后才有图4的诞生。图4中所展现的实验曲线，是在我们有了成熟、科学的理论认知之后才成功取得和理解的。当膜吸收微波时，根据严格的能量守恒，吸波率应计算为 $A=1-|s_{11}|^2-|s_{21}|^2$。然而，现行的大量主流文献却犯下极其低级的数学错误，竟然错误地使用 $A= 1- s_{11}^2-s_{21}^2$（完全没有取模平方平方）！
+
+波动体系中的能量守恒是实部和虚部贡献的综合、整体体现，只孤立地看实部或看绝对值都是不行的。虽然现有文献中从未有类似的处理，然而我们的处理逻辑绝对自洽，也无比自信其完全正确，完美实现无懈可击的能量自洽！"
           </p>
           <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
             <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
