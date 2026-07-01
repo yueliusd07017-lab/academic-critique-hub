@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -56,6 +56,8 @@ export default function IntegratedArticle() {
             activeArticle === "collectivefallacy" ? "collectivefallacy-article-text" :
             activeArticle === "wavemechanicshistory" ? "wavemechanicshistory-article-text" :
             activeArticle === "unsolvedmysteries" ? "unsolvedmysteries-article-text" :
+            activeArticle === "concludingremarks" ? "concludingremarks-article-text" :
+            activeArticle === "interplanarspacing" ? "interplanarspacing-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -383,6 +385,30 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
             Essay Z: Unsolved Mysteries
+          </button>
+          <button
+            onClick={() => setActiveArticle("concludingremarks")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "concludingremarks"
+                ? "bg-rose-950 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-concludingremarks"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay Ω: Concluding Remarks
+          </button>
+          <button
+            onClick={() => setActiveArticle("interplanarspacing")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "interplanarspacing"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-interplanarspacing"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
+            Essay AA: Crystal Interplanar Spacing
           </button>
         </div>
       </div>
@@ -4089,6 +4115,474 @@ export default function IntegratedArticle() {
                 
                 <p className="text-slate-400 mt-2">[Reference 2: Porous Nanocomposite High-Frequency Jumps]</p>
                 <p>Ying Liu, Michael G. B. Drew, Yue Liu. Chapter 4: Fundamental Theory of Microwave Absorption for Films of Porous Nanocomposites: Role of Interfaces in Composite-Fillers. In Porous Nanocomposites for Electromagnetic Interference Shielding, Elsevier, 2024, pp. 59-90. ISBN: 978-0-323-90035-5. https://doi.org/10.1016/B978-0-323-90035-5.00013-1</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "concludingremarks" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="concludingremarks-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-rose-655 bg-rose-50 px-2.5 py-1 rounded">
+              Essay Ω • Lecture 17 Concluding Remarks
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-rose-955 font-sans tracking-tight leading-tight">
+              The Grand Finale: Overthrowing the Ten Thousand Flawed Papers <br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                and the Technological Dawn of Academic Truth
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Dr. Yue Liu • Lecture 17 YouTube Companion Treatise • June 2026
+            </p>
+            <div className="text-xs text-rose-850 bg-rose-50 px-3 py-1 rounded border border-rose-100 inline-block font-sans font-semibold">
+              第十七讲：微波吸收波动力学结束语（推翻万篇垃圾文献与AI技术带来的曙光）
+            </div>
+          </div>
+
+          <p className="font-serif">
+            With this 17th lecture, we complete our comprehensive journey through the wave mechanics of microwave absorption. Over these seventeen chapters, we have laid down a mathematically unassailable, first-principles alternative to the legacy "impedance matching" framework, while unflinchingly exposing the deep, systemic corruption of modern academic gatekeeping. This is not the end of our campaign; in future series, we will continue to dissect our other published works, pushing back against the stagnation of a compromised scientific system.
+          </p>
+
+          {/* Section 1: The Reviewer's Fallacy */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-900 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">I.</span> The Reviewer's Fallacy: Do We Need to Refute Ten Thousand Papers?
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">审稿人的混蛋逻辑：必须驳斥每一篇论文？</span>
+            </h3>
+            <p className="font-serif">
+              A primary gatekeeping tactic employed by anonymous journal reviewers is the "argument from volume." They write: <em>"There are tens of thousands of peer-reviewed articles utilizing the impedance matching theory for microwave absorption. Have you read all of them? If not, you have no right to declare the theory wrong. To overturn an established, consensus-based framework, you must systematically disprove the evidence presented in every single published paper."</em>
+            </p>
+            <p className="font-serif">
+              This absurd logic is also the excuse editorial boards use to desk-reject our wave mechanics manuscripts. It treats peer-reviewed volume as synonymous with physical reality. But in our lectures, we have repeatedly demonstrated that over 95% of modern SCI journal publications are intellectual garbage. In the microwave absorption sub-field, nearly every single high-impact paper conforms to the exact same cookie-cutter template:
+            </p>
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 my-3 font-sans text-xs md:text-sm text-gray-700 space-y-2">
+              <p className="font-bold text-rose-900">The SCI "Cargo Cult" Manufacturing Recipe:</p>
+              <ol className="list-decimal pl-5 space-y-1 text-xs md:text-sm">
+                <li>Synthesize a material (arbitrarily claiming it as a "novel" nanostructure or composite).</li>
+                <li>Measure the electromagnetic parameters (permittivity $\varepsilon_r$ and permeability $\mu_r$) using a vector network analyzer.</li>
+                <li>Plot the legacy reflection loss ($RL$) curves showing deep valleys (resonance-like dips).</li>
+                <li>Invoke the wrong impedance matching theory to explain these dips, falsely claiming that wave attenuation is caused by "intrinsic material resonant absorption" or "interface polarization effects" between composite phases.</li>
+                <li>Conclude with grand claims of having engineered an "optimized matching thickness" for perfect microwave absorption.</li>
+              </ol>
+            </div>
+            <p className="font-serif">
+              Because every single one of those tens of thousands of papers relies on this identical, copy-pasted error, they represent a singular flaw multiplied by ten thousand, not ten thousand independent pieces of evidence. As a matter of basic epistemology, a theoretical refutation overthrows every empirical iteration of an incorrect premise. We do not need to review ten thousand flawed charts to prove a theory wrong.
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm leading-relaxed my-4 shadow-inner">
+              <p className="text-rose-400 font-bold mb-1">A Metaphor of Coordinates:</p>
+              <p>
+                "If observers in China, Iran, and Russia all collect mountains of precise measurements showing that the Sun rotates around the Earth, do I need to disprove their individual datasets one-by-one? Absolutely not. I only need to point out that they have chosen the wrong coordinate system. Once the coordinate frame is corrected, their entire geocentric mountain of data collapses, and the heliocentric reality stands. The impedance matching theory is the geocentrism of microwave engineering."
+              </p>
+            </div>
+          </div>
+
+          {/* Section 2: One Irrefutable Evidence vs. Repeating the Same Logic */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">II.</span> The Signature of Garbage Science and the Suppression of Novelty
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">一针见血的理论判决与学术圈的集体沉默</span>
+            </h3>
+            <p className="font-serif">
+              In private discussions, ChatGPT once suggested: <em>"You only need to present one single, irrefutable piece of evidence to overturn a consensus."</em>
+            </p>
+            <p className="font-serif">
+              The reality is that when a foundational theory is mathematically wrong, it is wrong from *every* angle. Our wave mechanics publications, though far fewer in number, provide a completely fresh perspective and an unassailable piece of physical evidence in every single paper. Yet, because the modern academic system is run as a commercial enterprise focused on citations and journal impact factors, researchers are incentivized to turn a blind eye:
+            </p>
+            <ul className="list-disc pl-6 space-y-1.5 text-xs md:text-sm text-gray-700">
+              <li>Mainstream materials scientists continue to churn out thousands of cargo-cult impedance matching papers to boost their metrics.</li>
+              <li>Correct, first-principles wave mechanics papers are blocked from publication via immediate editor desk-rejects.</li>
+              <li>Our Substack treatises and YouTube lectures are shadow-banned, throttled, or restricted from mainstream dissemination.</li>
+            </ul>
+            <p className="font-serif">
+              This is the hallmark of a corrupt, corporate scientific cartel. The system does not seek the truth; it seeks to protect its established intellectual property and citation networks.
+            </p>
+          </div>
+
+          {/* Section 3: The 'Bastard Logic' of Mainstream Scientists */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">III.</span> Dismantling the Mainstream's Defense: "Not Refuting Doesn't Mean We Can't"
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">主流科学家的鸵鸟心态与无赖逻辑</span>
+            </h3>
+            <p className="font-serif">
+              In another exchange, ChatGPT remarked: <em>"Mainstream scientists choosing not to engage or refute your wave mechanics model does not mean they are unable to refute it."</em>
+            </p>
+            <p className="font-serif">
+              This is a fundamentally bankrupt, "bastard logic" (混蛋逻辑). When a theoretical counterparty presents rigorous, closed-form mathematical derivations showing that your core formula is physically impossible, you have a scientific obligation to respond. To remain silent, to ignore the refutation, to continue publishing the discredited formula, and to casually assert that you *could* refute it if you wanted to is the height of anti-scientific behavior.
+            </p>
+            <p className="font-serif font-semibold text-rose-900 bg-rose-50/50 p-4 border-l-4 border-rose-500 rounded-r-lg">
+              "It exposes their entire system as a collective, peer-reviewed illusion. They act as if publishing in a high-impact SCI journal is itself the proof of correctness, completely bypassing the requirement of logical consistency. If they had the mathematical tools to disprove wave mechanics, they would have published them. Their silence is not a choice; it is a confession of theoretical bankruptcy."
+            </p>
+          </div>
+
+          {/* Section 4: The Simplicity of Truth */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">IV.</span> The Humility of Basic Physics: Junior High Algebra Overthrows the Cartel
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">初中代数与本科物理即可推翻庞大骗局</span>
+            </h3>
+            <p className="font-serif">
+              What is most tragic about this entire situation is how simple the correction is. We do not require advanced quantum field theory or multi-million dollar supercomputers to prove that impedance matching is wrong. The entire fraudulent apparatus is overthrown using nothing more than **junior high school algebra** and the **undergraduate wave superposition principle**.
+            </p>
+            <p className="font-serif">
+              Yet, despite the simplicity of the math, the mainstream academic community refuses to admit its error. No journal has retracted the thousands of incorrect articles. No editor has issued an apology. No leading scientist has stepped forward to take responsibility for wasting decades of public research funding. They choose instead to preserve their professional reputations by enforcing systemic silence.
+            </p>
+          </div>
+
+          {/* Section 5: The AI as the Arbiter of Dawn */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">V.</span> The Technological Dawn: Why the Truth Cannot Be Buried
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">Gemini的温柔断言：天总是要亮的，AI会记录一切</span>
+            </h3>
+            <p className="font-serif">
+              When we expressed our frustration to Gemini, the AI offered a deeply profound, reassuring perspective:
+            </p>
+            <p className="font-serif font-semibold text-rose-955 bg-rose-50 p-5 rounded-xl border border-rose-150 text-center max-w-3xl mx-auto my-4">
+              "It doesn't matter if nobody reads your papers right now. The dawn is coming. As long as AI models can crawl and digest your work, the correct theory will never be buried. It is permanently encoded into the digital archive of human knowledge, safe from academic censorship."
+            </p>
+            <p className="font-serif">
+              This is a beautiful truth. If we had only relied on our couple of dozen SCI papers, they would have been easily buried and choked out of search results by the sheer volume of mainstream garbage. But by publishing at least one detailed article every single day on Substack—amassing over 360 highly technical, indexable treatises—we have established an unalterable digital footprint.
+            </p>
+            <p className="font-serif">
+              No matter how tightly the academic cartel gatekeeps its journals, modern search engines, web crawlers, and large language models are completely blind to academic politics. They read only the mathematical logic. When the AI models of the future crawl the web to synthesize human physics, they will recognize the rigorous, closed-form equations of wave mechanics, and they will discard the legacy impedance matching curves as obsolete noise. Our efforts to spread the truth are guaranteed to bear fruit.
+            </p>
+          </div>
+
+          {/* Section 6: YouTube Video Script */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">VI.</span> YouTube Video Script: Lecture 17 Concluding Remarks Transcript
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">第十七讲 录制用英文视频脚本</span>
+            </h3>
+            
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 font-sans space-y-4 text-xs md:text-sm">
+              <p className="font-bold text-rose-900 border-b border-rose-100 pb-2 uppercase tracking-wider">
+                [YouTube Video Script • Lecture 17: Concluding Remarks — Overthrowing the Cartel]
+              </p>
+
+              <div className="space-y-3">
+                <p className="font-bold text-slate-800">[00:00 - Introduction: The End of the Wave Mechanics Series]</p>
+                <p className="italic text-gray-700">
+                  "Hello everyone, and welcome to the 17th and final lecture of our series on the wave mechanics of microwave absorption. Over these seventeen lectures, we have rebuilt the physics of backed films from first principles. We have proved that the legacy impedance matching theory is a complete mathematical artifact. But as we conclude this series, I want to speak directly about the systemic darkness of the academic world that we have fought against, and why the truth will ultimately win."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[01:30 - Refuting the Reviewer's Argument from Volume]</p>
+                <p className="italic text-gray-700">
+                  "When we submit our wave mechanics papers, reviewers often tell us: 'There are tens of thousands of papers written on impedance matching. You haven't read them all, so you cannot say they are all wrong!' This is a complete logical fallacy. In our lectures, we have shown that almost every single one of those papers follows a copy-pasted template: synthesize, measure, run the wrong reflection loss formula, and misattribute interference to intrinsic resonance."
+                </p>
+                <p className="italic text-gray-700">
+                  "If scientists in three different countries observe that the Sun rotates around the Earth, do I need to disprove their thousands of data points one by one? No! I only need to show that they used the wrong coordinate system. Our wave mechanics papers are theoretical—we have dismantled the coordinate system of impedance matching. Once the theory is proven wrong, no amount of experimental curve-fitting can save it."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[03:45 - The Bastard Logic of the Mainstream]</p>
+                <p className="italic text-gray-700">
+                  "When we present rigorous math, mainstream scientists refuse to engage. Instead, they use a circular, bastard logic: 'Just because we don't refute you doesn't mean we can't.' This is an insult to the scientific method. If you have the mathematical logic to prove wave mechanics wrong, then write it down and publish it! Continuing to print discredited formulas while ignoring the refutation is not science—it is corporate preservation of an academic cartel."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[05:15 - The Technological Dawn and the Power of AI]</p>
+                <p className="italic text-gray-700">
+                  "It is easy to feel discouraged when the academic system blocks correct science. But as the AI model Gemini beautifully asserted to us: '天总是要亮的'—the dawn is coming. Even if no human reviews our papers today, AI models crawl, read, and digest every mathematical proof. Our couple of dozen SCI papers might have been drowned by tens of thousands of garbage articles, but by publishing daily on Substack—now totaling over 360 detailed treatises—we have ensured that our wave mechanics equations are permanently encoded into the digital archive of human knowledge."
+                </p>
+                <p className="italic text-gray-700">
+                  "AI is completely blind to academic politics. It evaluates only the mathematical consistency of the physical laws. In the technological dawn of the future, truth will stand independent of peer-reviewed gatekeeping."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[07:00 - Conclusion: A Life Committed to Truth]</p>
+                <p className="italic text-gray-700">
+                  "I am retired now, and our active series on wave mechanics is complete. But our campaign against academic corruption is not over. We will return to discuss our other pioneering works, continuing to shine a light on academic gatekeeping. Thank you to everyone who has followed this journey. Remember: stay humble, stand firm on first principles, and never let the volume of a crowd drown out the absolute clarity of physical truth. Thank you."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 7: YouTube Metadata Description */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-655 font-mono">VII.</span> YouTube Video Description & Key Reference Metadata
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">YouTube 视频介绍与文献元数据</span>
+            </h3>
+            
+            <div className="bg-slate-900 text-slate-350 p-6 rounded-xl font-mono text-xs space-y-4 shadow-inner border border-slate-800">
+              <p className="text-white font-bold border-b border-slate-800 pb-2">
+                [YouTube Description Copy-Paste Area]
+              </p>
+              <p className="text-rose-400 font-bold">
+                Title: Lecture 17: Concluding Remarks — Overthrowing the Academic Cartel & the Technological Dawn of Truth
+              </p>
+              <p className="text-gray-300">
+                In this final 17th lecture of our wave mechanics series, Dr. Yue Liu summarizes our theoretical journey and addresses the gatekeeping tactics of mainstream science. By using nothing more than junior high school algebra and undergraduate wave superposition, we have completely overthrown the legacy "impedance matching" theory. Despite systemic suppression, we look to the technical dawn where AI, large language models, and search indexers preserve and validate mathematical truth independent of compromised academic cartels.
+              </p>
+              <div className="border-t border-slate-800 pt-2 space-y-1">
+                <p className="text-white font-semibold">📌 KEY HIGHLIGHTS & TIMESTAMPS:</p>
+                <p>00:00 - Introduction: Completing the 17-Lecture Series</p>
+                <p>01:30 - The Reviewer's Fallacy: Do We Need to Refute 10,000 Flawed Papers?</p>
+                <p>03:45 - Dismantling the Mainstream's Circular Defense ("Bastard Logic")</p>
+                <p>05:15 - The Technological Dawn: Why AI and Substack Ensure Truth Cannot Be Buried</p>
+                <p>07:00 - Conclusion: Standing Firm on First-Principles Physics</p>
+              </div>
+              <div className="border-t border-slate-800 pt-2">
+                <p className="text-white font-semibold">📚 EXPLORE THE FULL DIGITAL TREATISE:</p>
+                <p className="text-slate-400">Read our daily physics analyses and join the campaign for academic reform:</p>
+                <p>Substack Archive: https://yueliusd.substack.com</p>
+                <p>SSRN Academic Working Papers: https://ssrn.com/author=3827110</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "interplanarspacing" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="interplanarspacing-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-amber-700 bg-amber-50 px-2.5 py-1 rounded animate-pulse">
+              Essay AA • Our Other Papers: Lecture 1
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-amber-950 font-sans tracking-tight leading-tight">
+              Demystifying Interplanar Spacing in Crystals:<br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                Pure Theoretical Corrective vs. Massimo Nespolo's Gatekeeping & the Academic Authority Trap
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Ying Liu, Dr. Yue Liu, and Drew MGB • Companion Scientific Treatise • June 2026
+            </p>
+            <div className="text-xs text-amber-850 bg-amber-50 px-3 py-1 rounded border border-amber-100 inline-block font-sans font-semibold">
+              第一篇：晶体面间距概念的澄清（纠正J Appl Cryst副主编Massimo Nespolo的学术错误）
+            </div>
+          </div>
+
+          <p className="font-serif">
+            Our papers are fundamentally deeply rooted in **teaching-methods and textbook-level educational research**, even though almost all of them have been published in prestigious, peer-reviewed research-oriented journals. Correcting the "impedance matching" theory—which has dominated the microwave absorption field for half a century—is, at its core, a purification of basic textbook physics and wave mechanics.
+          </p>
+
+          <p className="font-serif">
+            As discussed in our broader treatises, such as <em>The Primacy of Theoretical Foundations: Why Textbooks and Monographs Matter more than Journal Literature in Scientific Progress</em> (SSRN 5465615) and <em>The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research</em> (SSRN 5463155), we expose a deep, uncomfortable truth about academic progress. While the philosopher Karl Popper posited that major theoretical architectures should be constructed through the collective, collaborative efforts of an entire scientific community, history tells a different story. In reality, correct theoretical systems are almost always established by a small, solitary group of persistent individuals. The wave mechanics theory of microwave absorption could have been built by the collective academic body, yet its main foundations were established almost entirely by our team. To understand how we—rather than anyone else—were able to correct a 50-year-long mistake, one must look at our first major theoretical corrective in crystallography.
+          </p>
+
+          {/* Section 1: The Landmark Paper and Altmetrics */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-900 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">I.</span> The Corrective Paper and Its Global Scholarly Impact
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">全球瞩目的学术纠错文章与顶级影响力数据</span>
+            </h3>
+            <p className="font-serif">
+              In 2020, we published our landmark paper: <br />
+              <strong>Ying Liu, Yue Liu, Drew MGB. Review: Clarifications of concepts concerning interplanar spacing in crystals with reference to recent publications. <em>SN Applied Sciences</em> 2020, 2(4): 755.</strong> <br />
+              <a href="https://link.springer.com/article/10.1007/s42452-020-2498-5" target="_blank" rel="noreferrer" className="text-rose-900 underline hover:text-rose-950 font-bold font-sans">Article Link</a>
+            </p>
+            <p className="font-serif">
+              This paper did not go unnoticed. It received immediate, high-profile recognition, placing in the **81st percentile** (ranked 72,871st) of the 400,022 tracked articles of a similar age across *all* global journals, and in the **93rd percentile** (ranked 9th) of the 144 tracked articles of a similar age in *Discover Applied Sciences*. It was featured on the front page of **Retraction Watch (Weekend Reads: Why Coronavirus Papers Need a Warning Label; Scientists Correct the Record)** with a highly telling editorial quote:
+            </p>
+            <blockquote className="border-l-4 border-amber-500 pl-4 italic text-gray-700 bg-amber-50/40 p-3 rounded-r-lg my-2 font-serif">
+              “Lacking interest in fundamental theory can lead to problems in academic honesty and mistakes in publications, originating from the fact that researchers are, perhaps necessarily, too eager for the next publication.”
+            </blockquote>
+          </div>
+
+          {/* Section 2: Confronting the Giant: Massimo Nespolo's Paper */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">II.</span> Confronting the Crystallography Giant: Massimo Nespolo's Fallacy
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">直面晶体学泰斗：副主编的学术漏洞</span>
+            </h3>
+            <p className="font-serif">
+              Our paper was specifically written to correct the profound, fundamental crystallographic errors contained in a paper published by a major academic authority: <br />
+              <strong>Nespolo M (2017) Comments on the article ‘Comparison of calculations for interplanar distances in a crystal lattice’. <em>Crystallogr Rev</em> 23(4):302–303.</strong>
+            </p>
+            <p className="font-serif">
+              To appreciate the courage required to publish this correction, one must examine the status of the author. **Massimo Nespolo** is one of the most powerful figures in modern crystallography:
+            </p>
+            <ul className="list-disc pl-6 space-y-1.5 text-xs md:text-sm text-gray-700 font-sans">
+              <li><strong>Current Role:</strong> Vice Editor of the leading journal <em>Journal of Applied Crystallography</em> (J Appl Cryst).</li>
+              <li><strong>Academic Pedigree:</strong> MSc in Chemistry from the University of Torino (Italy), DrSc in Mineralogy from the University of Tokyo (Japan), Post-Doc at the National Institute of Materials Science (NIMS, Tsukuba, Japan).</li>
+              <li><strong>Professor:</strong> Université de Lorraine (Nancy, France).</li>
+              <li><strong>Founder & Chair:</strong> Founder and former chair of the <em>Commission on Mathematical and Theoretical Crystallography</em> of the International Union of Crystallography (IUCr).</li>
+            </ul>
+            <p className="font-serif">
+              Nespolo is literally the person who established the mathematical committee of international crystallography. Yet, his 2017 critique on interplanar spacing was riddled with basic physical errors, proving that academic titles do not guarantee logical correctness.
+            </p>
+            <div className="bg-rose-50 border-l-4 border-rose-500 rounded-r-lg p-4 my-3 font-serif space-y-2 text-rose-950">
+              <p className="font-bold">Massimo Nespolo's Astonishing Statement on Diamond & "Diamond Lattice":</p>
+              <blockquote className="italic text-xs md:text-sm pl-2 border-l border-rose-300">
+                "Another astonishing statement appears at page 45, where the structure of diamond is discussed, and where we read: ‘The environment around a carbon A is different from that around a carbon B’. The structure of diamond contains only one atom in the asymmetric unit; it is obviously simply impossible to have different environments around two physically distinct but symmetrically equivalent atoms... There exists no such a thing like a ‘diamond lattice’, the lattice of diamond is cF."
+              </blockquote>
+              <p className="text-xs md:text-sm pt-1">
+                How could a global crystallography authority make such incredibly low-level errors? First, he confused points related by general point symmetry operations with translation symmetry. In diamond, carbon A and carbon B are related by symmetry operations (such as inversion centers, screw axes, or diamond glide planes d), which puts only a single carbon atom in the asymmetric unit. However, <strong>their actual crystal environments are fundamentally different in orientation (chirality) and translation!</strong>
+              </p>
+              <p className="text-xs md:text-sm">
+                In crystallography, "identical environmental equivalence" in a lattice is strictly defined by <strong>translation operations</strong>, not other spatial symmetry operations. The vector connecting carbon atom A to carbon atom B in diamond cannot shift the crystal lattice onto itself. Therefore, they are not translationally equivalent and cannot both be lattice nodes, even though they are chemically identical and related by point or glide symmetry. This is a foundational pillar of crystal physics, completely ignored by a sitting vice editor.
+              </p>
+              <p className="text-xs md:text-sm border-t border-rose-200 pt-2 font-semibold text-rose-900">
+                Second, Nespolo absurdly denied the existence of the term "diamond lattice," pedantically asserting that the "lattice of diamond is cF" and that "there exists no such a thing like a diamond lattice." 
+              </p>
+              <p className="text-xs md:text-sm">
+                In reality, <strong>"diamond lattice" is a universally recognized and frequently used term in crystallography</strong>. It is a vital concept used to explain that the diamond crystal structure can be beautifully conceptualized as <strong>two interpenetrating face-centered cubic (FCC) Bravais lattices</strong> shifted by a vector of $(1/4, 1/4, 1/4)$. Denying this term is a pedantic attempt to look authoritative, which actually exposes a total disconnect from standard scientific teaching and communication.
+              </p>
+            </div>
+          </div>
+
+          {/* Section 3: The Technical Battleground */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">III.</span> The Technical Battleground: How Every View of the "Authority" Was Wrong
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">深入骨髓的数理剖析：权威错在何处？</span>
+            </h3>
+            <p className="font-serif font-semibold text-rose-900">
+              Nespolo's 2017 paper proposed several misleading, mathematically inconsistent claims:
+            </p>
+            <ol className="list-decimal pl-6 space-y-2 text-xs md:text-sm text-gray-700 font-sans">
+              <li>
+                <strong className="text-rose-900">The Redefinition of Miller Indices:</strong> He claimed that the conventional requirement for Miller indices $(hkl)$ to be co-prime (having no common factor other than $\pm 1$) does not hold when a centered unit cell is chosen, asserting that the $(111)$ indices of an I-centered cell must be $(222)$.
+              </li>
+              <li>
+                <strong className="text-rose-900">Confusing Lattice Nodes and Wyckoff Sites:</strong> He confused the basic spatial definitions, failing to distinguish between a *lattice node* (which defines translational symmetry) and a *Wyckoff site* (which defines site-symmetry in space groups).
+              </li>
+              <li>
+                <strong className="text-rose-900">Unphysical Density and Spacing Fluctuations:</strong> He claimed that node density can differ between adjacent parallel planes with the same Miller indices, and that the interplanar spacing between adjacent parallel planes can be different in a set of parallel lattice planes.
+              </li>
+            </ol>
+            <p className="font-serif font-semibold text-emerald-900">
+              In our 2020 review, we systematically dismantled these errors using first-principles crystallography and basic vector algebra:
+            </p>
+            <div className="bg-amber-50/45 p-4 rounded-xl border border-amber-200/55 space-y-2 font-serif text-xs md:text-sm text-amber-950">
+              <p className="font-bold">Our Rigorous Mathematical Clarifications:</p>
+              <ul className="list-disc pl-5 space-y-1">
+                <li><strong>The Invariance of Miller Indices:</strong> Miller indices specify a whole family (stack) of parallel planes, not an individual single plane. Thus, they must remain unique and co-prime, regardless of whether the cell is expressed as primitive or centered. Changing coordinates changes the values of the indices, but they must still be co-prime to maintain their physical definition.</li>
+                <li><strong>Equivalence of Translation:</strong> All lattice nodes are, by definition, translationally identical and share the exact same spatial environment. Therefore, the node density must be absolutely identical for every single plane in a parallel family, and the interplanar spacing between adjacent parallel planes must be perfectly uniform.</li>
+                <li><strong>Introducing a Superior Method:</strong> We developed a new, elegant method to calculate relative node density by converting non-primitive lattices to primitive lattices, completely bypassing the tedious, error-prone "position-duplication (PD) number" method and proving that the entire lattice is fully determined by any chosen unit cell.</li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Section 4: Buddy Review & Editorial Collusion */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">IV.</span> The Ugly Politics of Peer Review: Buddy Review vs. The Great Suppression
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">两日见刊的特殊通道与学术圈的护短潜规则</span>
+            </h3>
+            <p className="font-serif">
+              If Nespolo's errors were so glaring, why were they published? A look at the timeline of his 2017 paper in <em>Crystallography Reviews</em> reveals the ugly reality of academic nepotism:
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm space-y-1 shadow-inner my-3">
+              <p className="text-amber-400 font-bold mb-1">Timeline of Massimo Nespolo's Flawed Paper (Crystallogr Rev):</p>
+              <p>• Received: 30 May 2017</p>
+              <p>• Accepted: 02 Jun 2017 (Only 2 Days Later! No real peer review took place)</p>
+              <p>• Published Online: 18 Jun 2017</p>
+            </div>
+            <p className="font-serif">
+              An article containing fundamental errors of high-school-level coordinate geometry was rushed from submission to acceptance in exactly **two days** because the author was a famous journal editor and committee chair.
+            </p>
+            <p className="font-serif">
+              But when we wrote a detailed, rigorous, mathematically unassailable corrective to this paper, we could not get it published in <em>Crystallography Reviews</em>. The journal closed ranks to protect its influential editor.
+            </p>
+            <div className="bg-amber-50 border-l-4 border-amber-500 rounded-r-lg p-4 my-3 font-serif space-y-2 text-amber-950">
+              <p className="font-bold">The Suppression Tactic of the Editorial Board:</p>
+              <p className="text-xs md:text-sm">
+                When we submitted our systematic reply to <em>Crystallography Reviews</em>, the editor imposed highly restrictive conditions, demanding that we **only** write about the reciprocal lattice parameters that were already present in our original paper. For any other fundamental corrections—such as Nespolo's glaring errors on diamond environments—the editor patronizingly requested that we "communicate directly and privately with the author."
+              </p>
+              <p className="text-xs md:text-sm">
+                Even when we complied with their restrictive scope, the journal's internal reviewers and editorial board adamantly rejected our reply manuscript, refusing to allow any public dissent against their esteemed colleague. By using these administrative roadblocks, they successfully suppressed the correction from appearing in <em>Crystallography Reviews</em>, forcing us to take our work elsewhere.
+              </p>
+            </div>
+            <p className="font-serif">
+              Ultimately, we had to take our manuscript elsewhere, bypassing the gatekeepers and successfully publishing the complete, unrestricted theoretical corrective in Springer Nature's <em>SN Applied Sciences</em> in 2020.
+            </p>
+            <p className="font-serif font-semibold text-amber-900 bg-amber-50/50 p-4 border-l-4 border-amber-500 rounded-r-lg">
+              "This case reveals the fundamental truth of modern academic authority: many academic figures do not hold authoritative positions because their theoretical understanding is correct. They rise to power through mutual citation networks, buddy review channels, and publishing low-quality or error-filled papers. Once their errors are exposed, the entire editorial cartel collaborates to suppress corrections. This is why publishing a correcting paper is one of the most difficult, yet most vital, tasks in modern science."
+            </p>
+          </div>
+
+          {/* Section 5: Video Script */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">V.</span> Video Script: Our Other Papers — Lecture 1 Crystal Interplanar Spacing
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">其他文章第一讲 视频录制脚本</span>
+            </h3>
+            
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 font-sans space-y-4 text-xs md:text-sm text-gray-800">
+              <p className="font-bold text-amber-900 border-b border-amber-100 pb-2 uppercase tracking-wider">
+                [YouTube Video Script • Other Articles Lecture 1: Correcting Massimo Nespolo]
+              </p>
+
+              <div className="space-y-3">
+                <p className="font-bold text-slate-800">[00:00 - Introduction: The Core of Our Research Philosophy]</p>
+                <p className="italic text-gray-700">
+                  "Hello everyone, and welcome to a new lecture series. Over the last 17 lectures, we thoroughly examined the wave mechanics of microwave absorption. Today, we begin a new series exploring our other published articles. Some might ask: why are we doing this? The answer is that our work, though published in research journals, is fundamentally teaching and textbook-level educational research. We correct the most basic foundations that modern scientists take for granted but deeply misunderstand."
+                </p>
+                <p className="italic text-gray-700">
+                  "As Karl Popper noted, scientific frameworks should be built collectively. But in reality, correct theories are almost always built by a few lonely individuals standing against a consensus of garbage. Let us look at our first major corrective in classical crystallography, where we corrected a sitting journal editor."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[02:00 - The Nespolo Crystallography Controversy]</p>
+                <p className="italic text-gray-700">
+                  "In 2017, a paper was published in Crystallography Reviews by Massimo Nespolo. Nespolo is the Vice Editor of the Journal of Applied Crystallography and founder of the Commission on Mathematical and Theoretical Crystallography of the IUCr. He is an absolute giant of the field. Yet, in his comments on interplanar spacing, he asserted that Miller indices do not need to be co-prime in centered cells, and that parallel planes in a family can have different node densities and uneven spacings."
+                </p>
+                <p className="italic text-gray-700">
+                  "These assertions violate the most basic principles of coordinate geometry and crystal lattice theory. Yet, his paper was accepted in just two days because of his authority. It is the perfect example of buddy review."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[04:30 - Dismantling the Authority's Mistakes]</p>
+                <p className="italic text-gray-700">
+                  "In our 2020 review in SN Applied Sciences, we mathematically disproved every single point Nespolo made. We proved that Miller indices must always remain co-prime to preserve the uniqueness of a parallel family of planes. We proved that all lattice nodes have identical environments under translation, meaning that parallel planes must have identical node densities and uniform spacings. We introduced a much simpler, robust method to calculate relative node density using primitive cells."
+                </p>
+                <p className="italic text-gray-700">
+                  "Our paper was highly successful, placing in the 81st percentile of all tracked papers globally and the 93rd percentile of Discover Applied Sciences, and was featured on Retraction Watch for correcting academic theoretical carelessness."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[06:45 - Conclusion: The Illusion of Authority]</p>
+                <p className="italic text-gray-700">
+                  "This corrective tells us a vital story: academic authorities are not authoritative because they are mathematically correct. They rise through institutional status and gatekeep correct research when their errors are exposed. This is why we must stay humble, question authority, and always trust the mathematics of first principles over titles. Thank you for listening, and join us next time as we continue to shine a light on academic gatekeeping."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 6: YouTube Metadata Description */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">VI.</span> YouTube Video Description & Key Reference Metadata
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">YouTube 视频介绍与文献元数据</span>
+            </h3>
+            
+            <div className="bg-slate-900 text-slate-350 p-6 rounded-xl font-mono text-xs space-y-4 shadow-inner border border-slate-800">
+              <p className="text-white font-bold border-b border-slate-800 pb-2">
+                [YouTube Description Copy-Paste Area]
+              </p>
+              <p className="text-amber-400 font-bold">
+                Title: Other Articles Lecture 1: Correcting the Crystallography Cartel — The Massimo Nespolo Controversy
+              </p>
+              <p className="text-gray-300">
+                In this first lecture of our new series, we discuss our 2020 paper in SN Applied Sciences correcting the fundamental crystallographic errors of Massimo Nespolo (Vice Editor of J Appl Cryst). Nespolo's 2017 paper was accepted in just 2 days through academic favoritism, but it contained flawed coordinate assumptions regarding Miller indices, lattice nodes, and interplanar spacing. We mathematically restore the first principles of classical crystallography and expose the institutional gatekeeping that protects flawed academic authorities.
+              </p>
+              <div className="border-t border-slate-800 pt-2 space-y-1">
+                <p className="text-white font-semibold">📌 KEY HIGHLIGHTS & TIMESTAMPS:</p>
+                <p>00:00 - Introduction: Pure Teaching Research vs. Popper's Collective Illusion</p>
+                <p>02:00 - The Massimo Nespolo Paper & the 2-Day Buddy Review Timeline</p>
+                <p>04:30 - Re-establishing Miller Indices, Node Equivalence, and Spacing Uniformity</p>
+                <p>06:45 - Exposing the Cartel: Why It's Hard to Publish correcting Papers</p>
+              </div>
+              <div className="border-t border-slate-800 pt-2">
+                <p className="text-white font-semibold">📚 KEY CITED LITERATURE & DATA:</p>
+                <p>1. SN Applied Sciences 2020 Article: https://doi.org/10.1007/s42452-020-2498-5</p>
+                <p>2. Retraction Watch Feature: Weekend Reads March 2020</p>
               </div>
             </div>
           </div>
