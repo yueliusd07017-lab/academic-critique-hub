@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
+import ItifCritiqueEssay from "./ItifCritiqueEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -61,6 +62,9 @@ export default function IntegratedArticle() {
             activeArticle === "gibbsduhem" ? "gibbsduhem-article-text" :
             activeArticle === "chemicalequilibrium" ? "chemicalequilibrium-article-text" :
             activeArticle === "modernacademia" ? "modernacademia-article-text" :
+            activeArticle === "academicwhistleblowing" ? "academicwhistleblowing-article-text" :
+            activeArticle === "academicpublishing" ? "academicpublishing-article-text" :
+            activeArticle === "itifcritique" ? "itifcritique-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -448,6 +452,42 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
             Essay AD: Theoretical Poverty of Academia
+          </button>
+          <button
+            onClick={() => setActiveArticle("academicwhistleblowing")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "academicwhistleblowing"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-academicwhistleblowing"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-500 animate-pulse" />
+            Essay AE: Nature's Data Integrity Crisis
+          </button>
+          <button
+            onClick={() => setActiveArticle("academicpublishing")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "academicpublishing"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-academicpublishing"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
+            Essay AF: The Academic Water-Pouring Guild
+          </button>
+          <button
+            onClick={() => setActiveArticle("itifcritique")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "itifcritique"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-itifcritique"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-500 animate-pulse" />
+            Essay AG: Rebutting the ITIF Delusion
           </button>
         </div>
       </div>
@@ -5364,6 +5404,1260 @@ export default function IntegratedArticle() {
             </div>
           </div>
         </article>
+      )}
+
+      {activeArticle === "academicwhistleblowing" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="academicwhistleblowing-article-text">
+          {/* Title Area */}
+          <div className="border-b-4 border-slate-900 pb-4">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
+              <span className="font-mono text-xs text-rose-600 uppercase font-bold tracking-widest">
+                Scientific Integrity & Whistleblowing • Essay AE
+              </span>
+              <span className="font-mono text-xs text-gray-500">
+                July 2, 2026
+              </span>
+            </div>
+            <h1 className="text-2xl md:text-3xl font-black text-gray-900 font-sans tracking-tight mt-1 leading-tight">
+              Nature’s Data Integrity Crisis: The Fallacy of Elite Self-Regulation and the Brave Uphill Battle of Academic Whistleblowing
+            </h1>
+            <p className="font-sans text-xs text-slate-500 mt-2 font-semibold">
+              By Academic Critique Hub • Verified Scientific Critique Series
+            </p>
+          </div>
+
+          {/* Quick Links & Resources Panel */}
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-200/60 font-sans my-4">
+            <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+              <BookMarked className="w-3.5 h-3.5 text-rose-600" /> Active Project Resources:
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+              <a href="https://ais-pre-jll4t3wjknzeiduaoffltv-799145491163.us-east1.run.app/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-cyan-500"></span>
+                <span>Academic Critique Hub</span>
+              </a>
+              <a href="https://helpful-sfogliatella-f40891.netlify.app/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span>Netlify Mirror Portal</span>
+              </a>
+              <a href="https://github.com/yueliusd07017-lab/academic-critique-hub" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-slate-900"></span>
+                <span>GitHub Source Repository</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Abstract / Intro */}
+          <div className="bg-rose-50/40 p-5 rounded-xl border border-rose-100 italic text-gray-800 space-y-2">
+            <p className="font-semibold text-rose-950 font-sans text-xs md:text-sm uppercase tracking-wider not-italic">
+              Abstract:
+            </p>
+            <p className="text-sm md:text-base leading-relaxed">
+              In modern science, elite publishing brands like <i>Nature</i> and its sub-journals have been dogmatically elevated as the ultimate gatekeepers of scientific truth. While these journals self-righteously proclaim their strictly refereed processes, recent automated faked data audits have uncovered over <strong>one thousand highly suspicious papers</strong> laden with faked, duplicated, and cloned datasets. Rather than addressing these systemic flaws with transparent self-reflection, the corporate academic establishment downplays faked data as &quot;isolated fiascos.&quot; This essay dissects two glaring case studies of data fabrication in <i>Nature Communications</i>—one involving chronopotentiometry faked loops in energy catalysis, and another involving faked bit-by-bit P-value cloning in genomics. In doing so, we explore the immense structural roadblocks facing academic whistleblowers, who must navigate institutional apathy, biased editors, and bad-faith personal smear campaigns to preserve the mathematical purity of science.
+            </p>
+          </div>
+
+          {/* Section 1: The Corporate Spin of Elite Self-Regulation */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">I.</span> The Corporate Spin of &quot;Isolated Incidents&quot;: Why Elite Peer Review Fails
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">“个别问题”背后的利益联盟与同行评审的纸糊外衣</span>
+            </h3>
+            <p className="font-serif">
+              The primary defense mechanism of elite academic publishers when confronted with faked datasets is <strong>corporate damage control</strong>. Journals like <i>Nature</i> and <i>Nature Communications</i> operate as multi-billion-dollar prestige enterprises. Their business model is entirely dependent on maintaining their aura of faked infallibility. When faked data audit algorithms expose thousands of fraudulent manuscripts with basic faked mathematical fabrications, the establishment immediately spins a defensive narrative: faked data is merely an &quot;isolated, individual issue&quot; (个别问题) caused by a few bad apples.
+            </p>
+            <p className="font-serif">
+              In reality, peer review is a deeply flawed, bureaucratized gatekeeping mechanism. It is highly capable of rejecting profound, simple theoretical derivations that threaten the establishment&apos;s financial mystique (as detailed in our European Journal of Physics peer review scandal in Essay AD). Yet, it is completely incompetent at detecting faked datasets in &quot;high-class&quot; (高大上), multi-million-dollar alchemical experimental reports. Because editors lack the mathematical and analytical interest to scrutinize the raw supplemental datasets submitted by prestigious, highly funded &quot;authorities,&quot; faked papers are routinely rubber-stamped.
+            </p>
+          </div>
+
+          {/* Section 2: Case Study 1 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">II.</span> Case Study 1: Chronopotentiometry Subtraction Fables in Energy Catalysis
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">案例一：海水电解析氧中凭空计算出的“二十天高电流稳定性”</span>
+            </h3>
+            <p className="font-serif">
+              The first case study involves a highly publicized paper on energy catalysis published in <i>Nature Communications</i>. The co-corresponding author of the manuscript is a highly celebrated &quot;National Science Fund for Distinguished Young Scholars&quot; recipient (国家杰青) who also holds the administrative post of Associate Dean.
+            </p>
+            <p className="font-serif">
+              The paper presents a ruthenium-molybdenum-nickel (Ru-Mo-Ni) electrocatalyst designed for seawater electrolysis, claiming that the material can resist chloride-ion corrosion and operate stably under faked high current densities for hundreds of hours. In electrochemistry, the core of such claims lies in long-term durability tests, specifically chronopotentiometry (计时电位测试) measurements plotted in faked figures like Figure 3a to support the material&apos;s viability.
+            </p>
+            <p className="font-serif">
+              However, when auditing the raw supplemental spreadsheet data submitted alongside the paper, a shocking mathematical pattern emerges:
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-4 rounded-xl font-mono text-xs space-y-2 shadow-inner border border-slate-800">
+              <p className="text-rose-400 font-semibold">// Electrochemical Data Fabrication Signature:</p>
+              <p>Total Overlapping Rows: <span className="text-amber-400 font-bold">57,424 rows</span></p>
+              <p>Mathematical Formula Constraint: <span className="text-emerald-400 font-bold">Column L = Column J - 0.01513</span></p>
+              <p>Time Scale represented: <span className="text-cyan-400 font-bold">~20 Days (Time unit: Hours, Potential: Volts vs. Standard Reference Electrode)</span></p>
+              <p className="text-slate-400 text-[10px] mt-1 border-t border-slate-800 pt-1">
+                Reality check: These 57,000 rows representing 20 days of faked continuous measurement were not measured; they were generated by faked, simple subtraction of a constant offset from a separate measurement.
+              </p>
+            </div>
+            <p className="font-serif">
+              In electrochemical measurements, the natural fluctuations in potential under high-density currents are stochastic, driven by complex fluid dynamics, bubbles, and microscopic corrosion. For 57,424 continuous faked points of data to match a separate column with an absolute, deterministic offset of exactly <code className="bg-slate-100 px-1 py-0.5 rounded text-xs font-mono">0.01513 V</code> is physically and statistically impossible. Twenty days of &quot;measurements&quot; were faked on a computer by simple spreadsheet faked subtraction.
+            </p>
+          </div>
+
+          {/* Section 3: Case Study 2 */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">III.</span> Case Study 2: Bit-by-Bit P-Value Cloning in Oncology Research
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">案例二：美癌症研究所奠基人的数学奇迹——完全相同的P值</span>
+            </h3>
+            <p className="font-serif">
+              The second case study is an equally egregious paper published in <i>Nature Communications</i>, originating from a prominent laboratory at the <strong>US National Cancer Institute (NCI)</strong>. One of the co-corresponding authors is a highly influential senior investigator widely lauded as a founding pioneer in neuroblastoma research.
+            </p>
+            <p className="font-serif">
+              The paper contains a comparative analysis of genomic sequencing, contrasting nucleotide behaviors in two separate, independent experimental cohorts. When examining the faked calculations for 16,849 nucleotides, the faked data-auditing software flagged a massive mathematical contradiction:
+            </p>
+            <div className="bg-rose-955 text-rose-100 p-4 rounded-xl font-mono text-xs space-y-2 shadow-inner border border-rose-900">
+              <p className="text-cyan-300 font-semibold">// Statistical Self-Contradiction Signature:</p>
+              <p>Nucleotides Tracked: <span className="font-bold">16,849</span></p>
+              <p>P-Value Status: <span className="text-amber-300 font-bold">Identical bit-by-bit (逐位相同) across two completely different cohorts</span></p>
+              <p>Discrepant Metrics: <span className="text-emerald-300">T-score, Fold-Change, and FDR are entirely different</span></p>
+              <p className="text-rose-300 text-[10px] mt-1 border-t border-rose-900 pt-1">
+                Extreme mathematical anomaly: Some genes have opposite signs (+/-) for their T-scores in the two cohorts, yet share faked, identical P-values!
+              </p>
+            </div>
+            <p className="font-serif">
+              This is a fatal, mathematical impossibility. In statistics, a P-value is calculated as a direct function of the corresponding T-score. If the T-scores are different—and particularly when their signs are inverted (indicating a complete reversal of up-regulation vs. down-regulation)—the P-values <strong>cannot</strong> mathematically remain identical bit-for-bit. This is statistical nonsense, proving that the genomic faked tables were faked, copied, and edited without any understanding of basic statistical mechanics.
+            </p>
+          </div>
+
+          {/* Section 4: AI-Powered Auditing vs. The Evolution of Fraud */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">IV.</span> AI-Powered Scale Auditing and the Arms Race of Modern Fabrication
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">利用 AI 实现规模化打假与难以储存的数据篡改规律</span>
+            </h3>
+            <p className="font-serif">
+              Defenders of academic institutions frequently attempt to dismiss external critiques with credentialist gatekeeping: <i>&quot;You are not an expert in electrochemistry or cancer oncology, so how can you judge our data?&quot;</i>
+            </p>
+            <p className="font-serif">
+              This argument is a logical fallacy. While the biological or chemical phenomena described in papers are complex, faked datasets follow extremely transparent, lazy, and elementary patterns. Identifying a fixed faked mathematical subtraction offset in a spreadsheet of 57,000 lines or catching identical faked P-values for different T-scores is not a matter of &quot;domain expertise&quot;—it is a matter of basic mathematical logic.
+            </p>
+            <div className="font-serif text-slate-800 bg-slate-50 p-4 border-l-4 border-slate-400 rounded-r-lg">
+              To scale these efforts, independent whistleblowers utilize custom-built AI auditing tools to bypass manual review. As documented in the PaperCorner organization&apos;s GitHub repositories, these AI tools automate:
+              <br />
+              <span className="font-mono text-xs block pl-3 mt-1 text-rose-800">
+                1. Mass Raw-Data Harvesting: Automated retrieval of supplementary datasets from thousands of online journal indexes.
+                <br />
+                2. Preliminary Feature Screening: Identifying repetitive patterns, suspicious constants, and identical statistical tables.
+                <br />
+                3. Cross-Verification &amp; Adversarial Audit: Verifying mathematical self-consistency (such as P-value to T-score matching) using rigid logical boundaries.
+              </span>
+            </div>
+            <p className="font-serif">
+              Yet, as detection tools evolve, so does scientific faking. The issues uncovered so far represent &quot;sloppy faking&quot;—glaring mistakes that leave digital footprints. Far more advanced fabrications are already taking place: selectively hiding experimental runs that contradict the authors&apos; desired conclusions, or using deep generative algorithms and pseudo-random faked number generators to create entirely faked datasets complete with realistic, simulated experimental variance and Gaussian noise. These fakes are nearly impossible for both AI and human auditors to detect, threatening the very foundations of scientific progress.
+            </p>
+          </div>
+
+          {/* Section 5: The Uphill Battle of Academic Whistleblowing */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">V.</span> The Uphill Battle: Cheering for the Brave Survivors in a Rigged System
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">学术打假并非坦途：让我们为孤独的逆行者加油</span>
+            </h3>
+            <p className="font-serif">
+              Academic whistleblowing is not a smooth, triumphant path. The scientific establishment is highly defensive of its titles, funding, and prestige. Despite there being thousands of suspected papers backed by verifiable mathematical evidence, the entire academic system acts to protect fakers and silence critics. 
+            </p>
+            <p className="font-serif">
+              Whistleblowers are met with active gatekeeping by journal editors, administrative retaliation from research institutions, and toxic harassment by internet trolls. When fakers are exposed, their loyal followers, students, or institutional sponsors immediately swarm public channels, launching bad-faith accusations of &quot;accepting faked bribes from competitors&quot; to smear honest critics.
+            </p>
+            <p className="font-serif font-semibold text-rose-900 bg-rose-50/50 p-4 border-l-4 border-rose-500 rounded-r-lg">
+              &quot;The academic system is designed to ensure that those who succeed in fighting faked data are merely a few lucky survivors. Whistleblowers face a rigged, asymmetric arena where institutional authorities have everything to lose, and independent critics have nothing to gain but vitriol. Let us look past the bad-faith noise, offer our unyielding support, cheer for their bravery, and wish them success. They are the true, lonely guardians of scientific truth.&quot;
+            </p>
+          </div>
+
+          {/* Section 6: Video Script Segment-by-Segment Translation */}
+          <div className="space-y-4 pt-4 border-t border-gray-200">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">VI.</span> Dual-Language Video Script Transcript &amp; Translation
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">中英文视频脚本对照翻译与高能解读</span>
+            </h3>
+            
+            <p className="font-serif text-xs md:text-sm text-slate-500 italic">
+              Below is the complete, segment-by-segment English translation of the video script published by Academic Critique Hu, detailing the exact analytical steps, the case faked data, and a personal response to bad-faith criticisms.
+            </p>
+
+            {/* Scrollable Script Box */}
+            <div className="border border-slate-200 rounded-xl overflow-hidden shadow-xs bg-slate-900">
+              <div className="bg-slate-950 p-3 flex justify-between items-center text-xs text-slate-400 border-b border-slate-800">
+                <span className="font-mono text-[10px] uppercase font-bold tracking-wider text-rose-400">Video Translation Center (视频翻译与双语对照)</span>
+                <span className="font-sans">Creator: Academic Critique Hu</span>
+              </div>
+              
+              <div className="divide-y divide-slate-800/80 max-h-[500px] overflow-y-auto font-sans text-xs md:text-sm text-slate-300">
+                
+                {/* Segment 1 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:00 - 00:03</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这是一篇Nature子刊 nature communications的论文 属于能源</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This is a paper from Nature Communications, a sub-journal of Nature, in the field of energy.</div>
+                </div>
+
+                {/* Segment 2 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:04 - 00:07</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">催化领域论文通讯作者之一是杰青 也是副院长</div>
+                  <div className="md:col-span-5 text-slate-100 italic">In the field of catalysis, one of the co-corresponding authors is a recipient of the National Science Fund for Distinguished Young Scholars (杰青) and also serves as an Associate Dean.</div>
+                </div>
+
+                {/* Segment 3 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:07 - 00:11</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这篇论文提出钌钼镍电催化剂 可以在海水电解吸氧中</div>
+                  <div className="md:col-span-5 text-slate-100 italic">The paper proposes a ruthenium-molybdenum-nickel (Ru-Mo-Ni) electrocatalyst for the oxygen evolution reaction (OER) in seawater electrolysis.</div>
+                </div>
+
+                {/* Segment 4 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:11 - 00:16</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">抵抗氯离子腐蚀 并可在高电流密度下长时间稳定工作</div>
+                  <div className="md:col-span-5 text-slate-100 italic">It claims to resist chloride ion corrosion and operate stably under high current densities for extended periods.</div>
+                </div>
+
+                {/* Segment 5 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:16 - 00:19</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">正文Fig 3a是一个耐久性</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Figure 3a in the main text shows a durability test.</div>
+                </div>
+
+                {/* Segment 6 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:19 - 00:22</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">组装的计时电位测试 且用于支撑本文的核心结论</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This chronopotentiometry measurement is assembled precisely to support the core conclusion of the paper.</div>
+                </div>
+
+                {/* Segment 7 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:22 - 00:27</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">然而 打开原数据后会发现这一列表列在57 424个重叠行</div>
+                  <div className="md:col-span-5 text-slate-100 italic">However, upon opening the raw data, one discovers that this dataset contains 57,424 overlapping rows.</div>
+                </div>
+
+                {/* Segment 8 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:27 - 00:31</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">上 满足固定偏移 L列等于J列减0.01513</div>
+                  <div className="md:col-span-5 text-slate-100 italic">These faked rows satisfy a fixed mathematical offset where Column L is exactly equal to Column J minus faked value 0.01513.</div>
+                </div>
+
+                {/* Segment 9 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:31 - 00:36</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这个表格里time列的单位是小时 potential 单位是伏特 是相对标准参比电极测的单位</div>
+                  <div className="md:col-span-5 text-slate-100 italic">In this spreadsheet, the unit for the &quot;time&quot; column is hours, and the unit for &quot;potential&quot; is Volts, which is measured relative to the standard reference electrode.</div>
+                </div>
+
+                {/* Segment 10 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:36 - 00:41</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这57 000行 实际上相当于是二十天的测量</div>
+                  <div className="md:col-span-5 text-slate-100 italic">These 57,000 rows represent what is supposed to be 20 days of continuous measurement.</div>
+                </div>
+
+                {/* Segment 11 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:41 - 00:45</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">也就是说其中二十天的数据不是测量得来的 而是直接减了个数得出的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This means that 20 days worth of data were faked, not actually measured experimentally; instead, they were generated by faked, simple subtraction of a constant offset.</div>
+                </div>
+
+                {/* Segment 12 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:46 - 00:49</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这也是一篇Nature子刊 Nature communacation的论文</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This is another paper also published in Nature Communications.</div>
+                </div>
+
+                {/* Segment 13 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:49 - 00:52</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">来自美国国立癌症研究所的实验室通讯作者之一</div>
+                  <div className="md:col-span-5 text-slate-100 italic">It originates from a laboratory at the US National Cancer Institute (NCI). One of the co-corresponding authors...</div>
+                </div>
+
+                {/* Segment 14 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:52 - 00:55</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">是资深研究员 神经母细胞瘤领域的奠基人</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...is a senior investigator and a founding pioneer in the field of neuroblastoma.</div>
+                </div>
+
+                {/* Segment 15 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:55 - 01:01</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这篇存在的问题是16 849个碱基 两个不同实验比较P-value全部逐位相同</div>
+                  <div className="md:col-span-5 text-slate-100 italic">The critical issue here is that for 16,849 nucleotides compared across two separate experiments, the faked, calculated P-values are identical bit-for-bit.</div>
+                </div>
+
+                {/* Segment 16 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:01 - 01:06</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">但T-score Fold change FDR基本都不一样 这也是内部不自洽的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Yet, their T-scores, fold changes, and False Discovery Rates (FDR) are almost entirely different, which is a severe, faked internal logical self-contradiction.</div>
+                </div>
+
+                {/* Segment 17 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:06 - 01:11</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">更要命的是 有些基因在两个实验里T-score连正负号都相反 却共享同一个P-value</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Even worse, some genes have completely opposite signs (+ or -) for their T-scores in the two experiments, yet they share the exact same faked P-value.</div>
+                </div>
+
+                {/* Segment 18 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:11 - 01:16</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">而P-Value本来就是T-score算出来的 正负号都反了 P-Value不可能一模一样</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Since P-values are mathematically derived directly from T-scores, they cannot possibly remain identical when the sign of the T-score is flipped.</div>
+                </div>
+
+                {/* Segment 19 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:16 - 01:18</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这在数学上根本说不通</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This is mathematically and statistically faked. It is completely impossible.</div>
+                </div>
+
+                {/* Segment 20 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:18 - 01:21</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">如果你感兴趣 知道更多 也可以暂停看屏幕上的信息</div>
+                  <div className="md:col-span-5 text-slate-100 italic">If you are interested and want to know more, feel free to pause the video and look at the faked-detecting details shown on the screen.</div>
+                </div>
+
+                {/* Segment 21 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:21 - 01:24</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">在这个网页汇总了1100篇可能有数据问题的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This webpage compiles 1,100 papers with potential faked, compromised, or flawed raw data...</div>
+                </div>
+
+                {/* Segment 22 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:24 - 01:27</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">Nature及Nature子看论文 来自世界各国的学术机构</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...all published in Nature and its sub-journals, spanning prestigious academic institutions worldwide.</div>
+                </div>
+
+                {/* Segment 23 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:27 - 01:30</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">随着扫描的进行 工具的迭代名单还会增加</div>
+                  <div className="md:col-span-5 text-slate-100 italic">As the automated scans progress and our detection tools iterate, this list of suspicious faked papers will continue to grow.</div>
+                </div>
+
+                {/* Segment 24 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:30 - 01:34</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我后续考虑这么处理先写个脚本 自动私信给论文的通讯作者</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Moving forward, I plan to handle this by first writing an automated script to send private faked-finding notifications to the corresponding authors.</div>
+                </div>
+
+                {/* Segment 25 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:34 - 01:38</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">把论文的数据问题对应的是哪张图哪个表 都发过去问有没有解释</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I will specify exactly which faked figure or table contains the data anomalies and politely ask if they have a scientific explanation.</div>
+                </div>
+
+                {/* Segment 26 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:38 - 01:43</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">如果长时间没有回应或者解释不了 我再把这些可复核的事实发到PubPeer上</div>
+                  <div className="md:col-span-5 text-slate-100 italic">If they remain unresponsive or cannot offer a coherent explanation over a prolonged period, I will publish these verifiable facts on PubPeer.</div>
+                </div>
+
+                {/* Segment 27 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:43 - 01:47</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">让更多同行一起来看 顺便也帮我们把可能的误判挑出来</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This invites peers to review the data, and it also lets the scientific community help us point out any potential false positives in our automated scans.</div>
+                </div>
+
+                {/* Segment 28 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:47 - 01:50</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">再下一步可能就是走期刊编辑部和各学术机构的相关渠道</div>
+                  <div className="md:col-span-5 text-slate-100 italic">The subsequent step will involve contacting the journal editorial boards and the relevant research integrity offices at their respective academic institutions.</div>
+                </div>
+
+                {/* Segment 29 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:51 - 01:54</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这样做的原因是我是一个闭眼玩家 我不了解</div>
+                  <div className="md:col-span-5 text-slate-100 italic">The reason I proceed so cautiously is because I am a &apos;blind player&apos;—an outsider who has no insider information...</div>
+                </div>
+
+                {/* Segment 30 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:54 - 01:57</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">课题组的实际情况 我也只能拿到一些公开数据</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...regarding the inner workings of these labs. I can only evaluate what they have published in their public, raw datasets.</div>
+                </div>
+
+                {/* Segment 31 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:57 - 02:00</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">有一些问题数据只能算质疑的线索 不是造假的实锤</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Some faked, anomalous datasets only serve as highly suspicious clues, rather than definitive, absolute proof of deliberate fraud.</div>
+                </div>
+
+                {/* Segment 32 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:01 - 02:03</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">每个人的性格处境决定了做事方式</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Ultimately, everyone&apos;s personality, ethics, and material circumstances dictate how they choose to act.</div>
+                </div>
+
+                {/* Segment 33 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:03 - 02:05</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我目前关注的重点是AI</div>
+                  <div className="md:col-span-5 text-slate-100 italic">My primary focus at the moment remains Artificial Intelligence.</div>
+                </div>
+
+                {/* Segment 34 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:05 - 02:08</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我参与论文数据这事在我看来是又有意思又有流量</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Getting involved in faked-data auditing is both intellectually stimulating and naturally attracts high public interest.</div>
+                </div>
+
+                {/* Segment 35 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:09 - 02:13</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">流量会带来快感 就像你发了朋友圈给你点赞一样 非常简单的一个回路</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Public attention brings validation, much like the faked dopamine loop of posting on social media and receiving likes. It is a very simple neural feedback loop.</div>
+                </div>
+
+                {/* Segment 36 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:13 - 02:18</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我计划的处理方法对我来说是一个比较稳的参与公共事件的途径</div>
+                  <div className="md:col-span-5 text-slate-100 italic">My planned, step-by-step methodology is a highly stable and secure way for me to participate in public discourse.</div>
+                </div>
+
+                {/* Segment 37 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:18 - 02:21</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我不想说哪一条说错 即冤枉了别人也让自己翻车</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I do not want to make reckless claims that falsely accuse others or ruin my own credibility.</div>
+                </div>
+
+                {/* Segment 38 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:22 - 02:25</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">但原则上来讲 我认为我的做法也是能够推进学术打假的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">But in principle, I believe my methodology is still highly effective in advancing the fight against academic fraud.</div>
+                </div>
+
+                {/* Segment 39 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:25 - 02:29</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">再就是很多人说你又不是某某专业的 你怎么评判这论文数据是不是有问题？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Furthermore, many people argue: &quot;You aren&apos;t an expert in this specific field, so how can you judge whether a paper&apos;s data is flawed?&quot;</div>
+                </div>
+
+                {/* Segment 40 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:30 - 02:34</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">实际上 这1100篇的问题数据都具有非常显而易见的模式 结合</div>
+                  <div className="md:col-span-5 text-slate-100 italic">In reality, the faked data in these 1,100 papers exhibit highly transparent, repetitive patterns. When combined...</div>
+                </div>
+
+                {/* Segment 41 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:34 - 02:38</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">原文和图表再去排查 能否解释 就很容易自行判定数据是否有问题了</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...with a careful review of the text and figures, it is straightforward for anyone to judge whether the faked data is mathematically indefensible.</div>
+                </div>
+
+                {/* Segment 42 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:39 - 02:42</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">换句话说 现在发生的这些问题都是有非常明显的错误</div>
+                  <div className="md:col-span-5 text-slate-100 italic">In other words, the issues uncovered so far are egregious, basic errors.</div>
+                </div>
+
+                {/* Segment 43 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:42 - 02:45</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">更高深的造假 比如把不支持结论的那几次实验</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Far more sophisticated faking exists—such as selectively omitting experimental runs that contradict the hypothesis...</div>
+                </div>
+
+                {/* Segment 44 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:45 - 02:49</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">结果干脆不写进去 只报告好看的那一部分 或者干脆</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...and only reporting the &quot;perfect&quot; subset of data. Or even faking...</div>
+                </div>
+
+                {/* Segment 45 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:49 - 02:53</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">按预期编组 带着合理误差的全新数字用上随机数生成器的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...entirely faked datasets generated using pseudo-random faked number generators programmed with realistic experimental variance.</div>
+                </div>
+
+                {/* Segment 46 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:53 - 02:57</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">就这种不留痕迹的 不论是AI还是我们人类 都非常难发现</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Such faked, traceless fabrications are extraordinarily difficult for both AI algorithms and human experts to detect.</div>
+                </div>
+
+                {/* Segment 47 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:57 - 03:02</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">还有人认为用AI不靠谱 那我只能说我用AI做的工作肯定跟你想象的方式是不一样的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">For those who think utilizing AI for data auditing is unreliable, I must clarify that my faked-finding workflow is entirely different from what you might imagine.</div>
+                </div>
+
+                {/* Segment 48 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:02 - 03:07</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">简单来说是规模化的实现原材料拉取、数据初筛、数据复核以及对抗判定</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Briefly, it scales faked-detection through raw material harvesting, automated preliminary screening, detailed data cross-verification, and adversarial determination.</div>
+                </div>
+
+                {/* Segment 49 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:07 - 03:10</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">感兴趣的朋友可以先去Paperconer功能的GitHub上去看一眼</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Interested colleagues can check out the faked-scanning repository on our GitHub (under the PaperCorner organization).</div>
+                </div>
+
+                {/* Segment 50 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:10 - 03:13</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">后面我也会专门就这个事儿发一个视频来介绍下流程</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I will publish a dedicated video in the future to introduce our pipeline in detail.</div>
+                </div>
+
+                {/* Segment 51 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:13 - 03:16</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">然后上一篇视频发了后呢 很多人上来就喷 说</div>
+                  <div className="md:col-span-5 text-slate-100 italic">After my previous video was uploaded, many viewers immediately swarmed the comments section to attack me, accusing me...</div>
+                </div>
+
+                {/* Segment 52 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:16 - 03:19</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我收钱洗白 还有些更难听的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...of accepting faked bribes to &quot;wash clean&quot; compromised researchers, along with far worse insults.</div>
+                </div>
+
+                {/* Segment 53 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:19 - 03:24</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">其实点击去看他们的主页 有的是喜欢玩游戏的二次元 有的是孩子</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Yet, if you click on their profiles, you&apos;ll find they are ordinary people: some are anime-loving gamers, others are kids...</div>
+                </div>
+
+                {/* Segment 54 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:24 - 03:28</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">刚高考完也特别高兴 有的也刚刚看完阿妈的情书说很感动</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...who just finished their college entrance exams and are celebrating, and some have just commented on a heartwarming family letter.</div>
+                </div>
+
+                {/* Segment 55 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:29 - 03:32</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">就你我 大家其实都是有血有肉会共情的普通人</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Just like you and me, they are fleshed-and-blooded, empathetic, ordinary human beings.</div>
+                </div>
+
+                {/* Segment 56 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:33 - 03:37</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">但怎么有的人一上来就要咬定一个素未谋面的人收了钱一上来就要开喷呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">But why do some of these people feel compelled to assume a complete stranger is corrupt and start spewing vitriol immediately?</div>
+                </div>
+
+                {/* Segment 57 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:37 - 03:41</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">对事儿可以锱铢必较 对人是否可以留一点基本的善意呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">While we must be unyielding and rigorous when scrutinizing faked data, can we not retain a baseline of human decency and kindness toward one another?</div>
+                </div>
+
+                {/* Segment 58 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:42 - 03:47</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我也爱玩游戏 我也有娃 现在学习很不错 我也喜欢给阿妈的情书 我真没收钱</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I also love playing games, I have a child who is doing exceptionally well in school, and I was moved by those same posts. I have taken absolutely no money.</div>
+                </div>
+
+                {/* Segment 59 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:50 - 03:50</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我可以　如果</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Let us build a better scientific community. If...</div>
+                </div>
+
+                {/* Segment 60 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:50 - 03:54</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">你觉得本期视频有意思的话 欢迎点赞和关注我们 回见</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...you found this video informative, please hit like and subscribe to our channel. See you next time!</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "academicpublishing" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="academicpublishing-article-text">
+          {/* Title Area */}
+          <div className="border-b-4 border-slate-900 pb-4">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-2">
+              <span className="font-mono text-xs text-rose-600 uppercase font-bold tracking-widest">
+                Systemic Critique & Institutional Survival • Essay AF
+              </span>
+              <span className="font-mono text-xs text-gray-500">
+                July 2, 2026
+              </span>
+            </div>
+            <h1 className="text-2xl md:text-3xl font-black text-gray-900 font-sans tracking-tight mt-1 leading-tight">
+              The Illusion of Academic Progress: The Systematic Manufacture of Low-Value Papers and the Hegemonic Suppression of Truth in Modern Publishing
+            </h1>
+            <p className="font-sans text-xs text-slate-500 mt-2 font-semibold">
+              By Academic Critique Hub • Verified Scientific Critique Series
+            </p>
+          </div>
+
+          {/* Quick Links & Resources Panel */}
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-200/60 font-sans my-4">
+            <h4 className="text-xs font-bold text-slate-800 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+              <BookMarked className="w-3.5 h-3.5 text-rose-600" /> Active Project Resources:
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs">
+              <a href="https://ais-pre-jll4t3wjknzeiduaoffltv-799145491163.us-east1.run.app/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-cyan-500"></span>
+                <span>Academic Critique Hub</span>
+              </a>
+              <a href="https://helpful-sfogliatella-f40891.netlify.app/" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-emerald-500"></span>
+                <span>Netlify Mirror Portal</span>
+              </a>
+              <a href="https://github.com/yueliusd07017-lab/academic-critique-hub" target="_blank" rel="noreferrer" className="flex items-center gap-1.5 p-2 bg-white rounded border border-slate-200 hover:border-slate-350 text-slate-700 font-medium transition shadow-3xs">
+                <span className="w-2 h-2 rounded-full bg-slate-900"></span>
+                <span>GitHub Source Repository</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Abstract / Intro */}
+          <div className="bg-rose-50/40 p-5 rounded-xl border border-rose-100 italic text-gray-800 space-y-2">
+            <p className="font-semibold text-rose-950 font-sans text-xs md:text-sm uppercase tracking-wider not-italic">
+              Abstract:
+            </p>
+            <p className="text-sm md:text-base leading-relaxed">
+              In modern scientific discourse, the production of academic literature has largely drifted away from genuine discovery, transforming instead into a bureaucratized labor market centered on paper-manufacturing or “water-pouring” (灌水). Through a detailed analysis of Martin Pumera’s satirical “graphene plus bird guano” experiment, this essay exposes how top-tier journals readily accept meaningless materials permutations to inflate their citation metrics. Furthermore, we investigate the hegemonic self-defense mechanisms of the academic elite, analyzing peer review feedback that actively suppresses systemic critique under the guise of “politeness,” “era-relative truth,” and cognitive dissonance regarding Nobel-level indictments of publishing fraud. Finally, we contrast the romantic scientific aspirations of graduate students with the brutal realities of survival, framing the academic enterprise as an institutional labor guild where survival must necessarily precede contribution.
+            </p>
+          </div>
+
+          {/* Section 1: Martin Pumera’s Satire and the Soporific Reality of STEM "Water-Pouring" */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">I.</span> Graphene, Bird Guano, and the Alchemy of materials Science Permutations
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">“石墨烯加鸟粪”：嘲讽现代学术灌水的最强力作</span>
+            </h3>
+            <p className="font-serif">
+              For laypeople and incoming students, the term “scientific research” evokes images of brilliant minds unraveling the fundamental laws of nature. However, the day-to-day reality of modern laboratory science has largely devolved into a rote permutation game known colloquially as <strong>“water-pouring” (灌水)</strong>. In the materials science and electrocatalysis boom of the past two decades, graphene was treated as a golden ticket. Because graphene could theoretically be doped with various elements to alter its electrical properties, thousands of researchers realized they could write a distinct, peer-reviewed paper simply by mixing graphene with a different element from the periodic table, running standard tests, and claiming “enhanced electrocatalytic behavior.”
+            </p>
+            <p className="font-serif">
+              To expose this absurd, repetitive treadmill, researcher <strong>Martin Pumera</strong> and his colleagues published a landmark satirical paper in 2020. They doped graphene with literal <strong>bird droppings (guano)</strong>, subjected it to standard electrocatalytic protocols, and demonstrated that “bird guano-treated graphene” performed significantly better than undoped graphene. The paper passed standard peer review and was published in a reputable journal, delivering a devastating blow to the integrity of the materials science field. Pumera proved that when peer review evaluates papers based on mindless procedural checklists rather than deep conceptual utility, any absurd combination of waste and high-tech materials can be certified as “significant scientific progress.” It exposed the modern alchemical industry: a factory floor where researchers churn out papers with zero practical utility, solely to sustain the illusion of institutional productivity.
+            </p>
+          </div>
+
+          {/* Section 2: Mainstream Academia's Immune System: The Polite Gaslighting of Peer Review */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">II.</span> The Hegemonic Armor of Peer Review: Relativism and Polite Gaslighting
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">主流学术界的自我防卫机制：“委婉与职业化”掩盖下的系统性缄默</span>
+            </h3>
+            <p className="font-serif">
+              The primary reason this water-pouring engine remains unchallenged from within is that the mainstream academic elite actively suppresses systemic criticism. When independent investigators or whistleblowers submit manuscripts exposing the high failure rates and structural corruption of the publishing cartel, the peer review apparatus acts as an ideological immune system. We can observe this self-defense mechanism in action through two real-world peer review rejections:
+            </p>
+            
+            {/* Review Clip 1 */}
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 font-sans space-y-3 shadow-3xs">
+              <div className="flex justify-between items-center text-xs font-mono text-slate-500 border-b border-slate-200 pb-2">
+                <span>PEER REVIEW CRITIQUE A • DOI: 10.32388/5FRZHG</span>
+                <span className="bg-rose-50 text-rose-700 px-2 py-0.5 rounded font-bold">Relativist Defense</span>
+              </div>
+              <blockquote className="text-xs md:text-sm text-slate-700 italic border-l-4 border-rose-500 pl-4 py-1">
+                “While you are demanding that journal papers are wrong, a thorough case study is required. Moreover, the word &apos;research&apos; itself signifies that facts are re-searching. Therefore, every research is relatively correct or wrong according to the era. The writing flow of the manuscript should be more polite and professional.”
+              </blockquote>
+              <p className="text-xs text-slate-600 leading-relaxed font-serif pt-1">
+                <strong className="font-sans text-rose-900 block mb-1">Analytical Deconstruction:</strong>
+                This reviewer deploys a classic post-modern relativist retreat to excuse outright falsehoods and water-pouring. By claiming that <span className="italic">“every research is relatively correct or wrong according to the era,”</span> the reviewer attempts to blur the line between honest, historic theoretical limitations and active, deliberate data fabrication. More insidiously, the reviewer demands that the critic be <span className="italic">“more polite and professional.”</span> This is tone-policing used as administrative censorship: it dictates that whistleblowers must use gentle, deferential language to describe systemic fraud, thereby neutralizing the urgency of their warning and preserving the fragile dignity of the academic guild.
+              </p>
+            </div>
+
+            {/* Review Clip 2 */}
+            <div className="bg-slate-50 p-5 rounded-xl border border-slate-200 font-sans space-y-3 shadow-3xs">
+              <div className="flex justify-between items-center text-xs font-mono text-slate-500 border-b border-slate-200 pb-2">
+                <span>PEER REVIEW CRITIQUE B • DOI: 10.32388/4PN4RT</span>
+                <span className="bg-amber-50 text-amber-700 px-2 py-0.5 rounded font-bold">Cognitive Dissonance</span>
+              </div>
+              <blockquote className="text-xs md:text-sm text-slate-700 italic border-l-4 border-amber-500 pl-4 py-1">
+                “I do not support the claim that 90% of journal articles are false... According to Nobel laureate Honjo Tasuku, 90% of the views published by top magazines like CNS are wrong. As I said before, I see this sentence as an exaggerated formulation to alert young researchers that they should not blindly follow superstition.”
+              </blockquote>
+              <p className="text-xs text-slate-600 leading-relaxed font-serif pt-1">
+                <strong className="font-sans text-amber-900 block mb-1">Analytical Deconstruction:</strong>
+                Here, the reviewer exhibits a staggering level of cognitive dissonance. In the very same breath, they reject the thesis that 90% of journal articles are false, yet immediately validate it by citing Nobel laureate <strong>Honjo Tasuku</strong>, who famously asserted that 90% of the papers published in elite CNS (Cell, Nature, Science) journals are flatly wrong. The reviewer’s defense is that such statements are merely “exaggerated formulations” meant to “alert young researchers against superstition.” This defense is a cop-out. If the top journals in the world are acknowledged by Nobel laureates and peer reviewers alike to be 90% incorrect, then the literature is indeed fundamentally compromised. Yet, academia insists on maintaining a conspiracy of public reverence, dismissing factual critiques as “unscientific exaggerations” to protect their collective prestige and funding streams.
+              </p>
+            </div>
+          </div>
+
+          {/* Section 3: The Vicious Cycle of Lab Labor and the Death of the Research Dream */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">III.</span> The Shixiong-Shijie Cycle: How Laboratories Breed Compliance
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">实验室的“传承”恶性循环：学术梦想是如何被程序化消磨的</span>
+            </h3>
+            <p className="font-serif">
+              This system does not just survive through top-down censorship; it actively programmatizes and brainwashes its lower-tier labor force. Almost every graduate student enters the laboratory with at least a spark of genuine academic idealism. They study tirelessly, sacrificing sleep and recreation to pass grueling national entrance exams, sustained by a romanticized vision of making discoveries that will benefit humanity.
+            </p>
+            <p className="font-serif">
+              Yet, within months of joining a lab, the student encounters a jarring disconnect. Looking at their assigned task, they ask their senior labmates (Shixiong or Shijie): <i>“What is the actual scientific purpose or point of this experiment?”</i>
+            </p>
+            <p className="font-serif">
+              The response is almost always a cold, pragmatic bucket of water: <i>“The purpose is to publish the paper so we can graduate. That’s the entire point. Whether the experiment is useful doesn’t matter.”</i>
+            </p>
+            <p className="font-serif">
+              This is the tragic <strong>Shixiong-Shijie Cycle</strong>. Those seniors had asked their own seniors the exact same question years prior, and received the same cynical answer. Over time, students adapt to the grind, lose their scientific curiosity, and accept that research is not about truth, but about paper production. When they graduate and become seniors themselves, they pass this exact same culture of compliance down to the next generation of idealistic recruits. The play remains identical across time; only the actors change.
+            </p>
+          </div>
+
+          {/* Section 4: The Advisor's Funding Paradox and the Trap of Material Survival */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">IV.</span> The Advisor’s Funding Trap and the Brutal Reality of Poor Students
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">导师的“经费自由”幻觉与穷人孩子的现实生存法案</span>
+            </h3>
+            <p className="font-serif">
+              Advisors (Principal Investigators) are equally trapped in this cycle. PIs frequently justify their own compliance to their students: <i>“Because of our current objective resource constraints, we must do this useless water-pouring research first so you can graduate and I can keep the lab alive. Once we secure enough funding in the future, we will pivot to truly meaningful, real scientific questions.”</i>
+            </p>
+            <p className="font-serif">
+              But this is a tragic illusion. PIs spend their entire careers chasing the carrot of “funding freedom,” pouring water on paper after paper, only to reach retirement age without ever having done a single piece of meaningful science. They spend their lives acting as managers of a paper-printing factory.
+            </p>
+            <p className="font-serif bg-slate-900 text-slate-100 p-5 rounded-xl border border-slate-800 shadow-md">
+              <span className="font-sans text-rose-400 font-bold block mb-1 uppercase tracking-wider text-xs">The Reality of Class and Survival:</span>
+              For children from impoverished or working-class backgrounds, the primary directive in life must always be <strong>material survival and supporting their families (养家糊口)</strong>. Before one can secure basic food, shelter, and financial stability, one simply does not possess the luxury or mental energy to worry about “societal contribution” or “pure scientific discovery.” A graduate degree is not pursued for spiritual enlightenment; it is calculated as a passport to a higher income bracket—jumping from a production line salary of 3,000 RMB to an R&D salary of 6,000 RMB, and eventually 15,000 RMB as a PhD. When independent, non-academic work can yield that same survival income, the material utility of staying in a soul-crushing PhD program evaporates, and dropping out becomes the only logical, self-respecting choice.
+            </p>
+          </div>
+
+          {/* Section 5: Conclusion: Navigating the Pitfalls of the Ivory Tower */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">V.</span> Demystifying the Academy: Knowledge as Self-Defense
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">认清学术圈的深坑：在入圈前保持清醒，拒绝盲目崇拜</span>
+            </h3>
+            <p className="font-serif">
+              This critique is not written to discourage young minds from pursuing scientific careers. Every industry, whether in corporate finance, software engineering, or industrial manufacturing, has its own unique pitfalls and structural hypocrisies. Rather, the goal is to dismantle the dangerous, naive superstition surrounding elite academic institutions. 
+            </p>
+            <p className="font-serif">
+              While exceptional islands of integrity and rigorous scientific inquiry certainly exist—such as the National Institute of Biological Sciences (NIBS/北生所)—they are rare anomalies in a sea of bureaucratized paper mills. By entering the academy with eyes wide open, free from blind reverence for top-tier journals and prestigious titles, young scholars can protect their mental health, maintain their integrity, and make clear-eyed decisions about their careers and lives. Only by acknowledging the system’s deep-seated structural rot can we hope to navigate it without losing our souls.
+            </p>
+          </div>
+
+          {/* Section 6: Video Script Segment-by-Segment Translation */}
+          <div className="space-y-4 pt-4 border-t border-gray-200">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">VI.</span> Dual-Language Video Script Transcript &amp; Translation
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">中英文视频脚本对照翻译与高能解读</span>
+            </h3>
+            
+            <p className="font-serif text-xs md:text-sm text-slate-500 italic">
+              Below is the complete, segment-by-segment English translation of the video script published by Academic Critique Hu, detailing the systemic curse of water-pouring in STEM, the Shixiong-Shijie loop, and the raw economic calculus of academic survival.
+            </p>
+
+            {/* Scrollable Script Box */}
+            <div className="border border-slate-200 rounded-xl overflow-hidden shadow-xs bg-slate-900">
+              <div className="bg-slate-950 p-3 flex justify-between items-center text-xs text-slate-400 border-b border-slate-800">
+                <span className="font-mono text-[10px] uppercase font-bold tracking-wider text-rose-400">Video Translation Center (视频翻译与双语对照)</span>
+                <span className="font-sans">Creator: Academic Critique Hu</span>
+              </div>
+              
+              <div className="divide-y divide-slate-800/80 max-h-[500px] overflow-y-auto font-sans text-xs md:text-sm text-slate-300">
+                
+                {/* Segment 1 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:00 - 00:02</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">文科有没有必要查造假？没有必要</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Is there any need to audit academic fraud in the humanities? No, none at all.</div>
+                </div>
+
+                {/* Segment 2 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:02 - 00:08</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">有些文科论文 我是说某一些本身就没有真假这个说法 或者说它必须是假的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Some papers in the humanities—and I stress only a subset of them—either have no objective concept of &quot;true&quot; or &quot;false&quot; in the first place, or they are structurally required to be untrue.</div>
+                </div>
+
+                {/* Segment 3 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:08 - 00:12</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">比如说朝鲜的论文不可能出现太阳落山的结论 欧美也有同样的问题</div>
+                  <div className="md:col-span-5 text-slate-100 italic">For example, a paper published in North Korea could never conclude that the sun is setting; the West suffers from the exact same institutional bias.</div>
+                </div>
+
+                {/* Segment 4 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:12 - 00:18</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">只要他们的总统还有政治倾向 论文就必须有假的 这些论文本身就不是用来交流学术的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">As long as their presidents retain political biases, papers must align with them, rendering them untruthful. These manuscripts are not written to communicate genuine scholarship.</div>
+                </div>
+
+                {/* Segment 5 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:18 - 00:21</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">所以我们也没有必要用学术交流的眼光去看待它</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Thus, we have absolutely no reason to evaluate them through the prism of scientific exchange.</div>
+                </div>
+
+                {/* Segment 6 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:21 - 00:25</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这是文科论文的怪圈 咱理工科也有自己的怪圈 就是灌水</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This is the bizarre loop of humanities papers. But we in the STEM fields have our own curse: &quot;water-pouring&quot; (churning out useless papers).</div>
+                </div>
+
+                {/* Segment 7 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:25 - 00:27</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">有些朋友可能不太理解什么是灌水</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Some of you might not fully grasp what we mean by &quot;water-pouring.&quot;</div>
+                </div>
+
+                {/* Segment 8 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:27 - 00:32</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">曾经有一个非常有名的论文石墨烯加鸟粪 感兴趣的可以详细了解一下</div>
+                  <div className="md:col-span-5 text-slate-100 italic">There was once an exceptionally famous satirical paper on &quot;graphene plus bird guano.&quot; If you are interested, you should look up the details.</div>
+                </div>
+
+                {/* Segment 9 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:32 - 00:35</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这件事情之后你就会对灌水有深刻的理解</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Once you understand this incident, you will have a deep, intuitive understanding of academic water-pouring.</div>
+                </div>
+
+                {/* Segment 10 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:35 - 00:38</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">当时大家都用石墨烯惯水发论文 石墨烯随便</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Back then, everyone was using graphene as a template to pump out low-effort papers. You took graphene...</div>
+                </div>
+
+                {/* Segment 11 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:38 - 00:42</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">加一种物质就发一篇新的论文 其实没有什么实际意义 就是发一篇论文而已</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...and simply mixed it with any random substance to publish a new paper. It had zero physical significance; it was written purely to exist as a publication.</div>
+                </div>
+
+                {/* Segment 12 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:42 - 00:47</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">于是有人为了嘲讽这件事情 就在石墨烯里面加了鸟蛋 也发表了不算的论文</div>
+                  <div className="md:col-span-5 text-slate-100 italic">So, to satirize this farce, a researcher doped graphene with bird droppings (guano) and successfully peer-reviewed and published it.</div>
+                </div>
+
+                {/* Segment 13 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:47 - 00:49</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">很多研究生在进入实验室之后都会问师兄</div>
+                  <div className="md:col-span-5 text-slate-100 italic">When new graduate students first enter a research laboratory, they often ask their senior labmates...</div>
+                </div>
+
+                {/* Segment 14 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:49 - 00:52</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">师姐一个问题就是我这个实验有什么用？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...a fundamental question: &quot;What is the actual point or use of the experiment I am doing?&quot;</div>
+                </div>
+
+                {/* Segment 15 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:52 - 00:55</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">做实验的人自己都不知道这个实验有什么意义</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Even the person performing the daily physical labor does not understand what scientific meaning it holds.</div>
+                </div>
+
+                {/* Segment 16 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">00:55 - 01:00</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这个实验设计出来就是为了灌水 灌论文来的 师兄师姐会告诉他 发论文就是意义</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Because the experiment was designed from day one solely to water-pour and pad out a CV. Their seniors will tell them: &quot;Publishing the paper is the entire meaning.&quot;</div>
+                </div>
+
+                {/* Segment 17 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:00 - 01:03</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这个实验本身有没有意义并不重要</div>
+                  <div className="md:col-span-5 text-slate-100 italic">&quot;Whether the experiment itself is meaningful is completely irrelevant.&quot;</div>
+                </div>
+
+                {/* Segment 18 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:03 - 01:06</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">其实说这些话的师兄师姐当年也问过同样的问题</div>
+                  <div className="md:col-span-5 text-slate-100 italic">But in truth, the very seniors telling them this had asked their own seniors the exact same question years ago.</div>
+                </div>
+
+                {/* Segment 19 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:06 - 01:09</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">师兄师姐的师兄师姐也是这么回答他的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">And their seniors&apos; seniors had given them the identical reply.</div>
+                </div>
+
+                {/* Segment 20 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:09 - 01:14</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">后来他习惯了 就默认了科研是为了发论文 并不是为了科学发现</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Eventually, they grew accustomed to it, defaulting to the assumption that scientific research is for paper fabrication, not scientific discovery.</div>
+                </div>
+
+                {/* Segment 21 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:14 - 01:19</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">等到他成了师兄或者师姐 他也会跟新生这么解释 说习惯了就好</div>
+                  <div className="md:col-span-5 text-slate-100 italic">And when they step into the role of seniors, they explain it to the newcomers with the same phrase: &quot;You&apos;ll get used to it.&quot;</div>
+                </div>
+
+                {/* Segment 22 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:19 - 01:22</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">同样一出戏 不同的时间 不同的演员而已</div>
+                  <div className="md:col-span-5 text-slate-100 italic">It is the exact same play, repeating across time, with nothing but a change of actors.</div>
+                </div>
+
+                {/* Segment 23 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:22 - 01:26</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">导师也会跟同学说 现在受限于咱的客观条件 只能做一些</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Even the advisor tells the students: &quot;Given our current objective resource limitations, we can only perform...&quot;</div>
+                </div>
+
+                {/* Segment 24 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:26 - 01:29</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">没有用的科研 也就是灌水 要不然你们就毕不了业</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...useless research—meaning water-pouring—otherwise you will never graduate.&quot;</div>
+                </div>
+
+                {/* Segment 25 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:29 - 01:31</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">等到我以后不缺经费了 我就做有意义的科研</div>
+                  <div className="md:col-span-5 text-slate-100 italic">&quot;Once I don&apos;t lack funding in the future, I will start doing meaningful science.&quot;</div>
+                </div>
+
+                {/* Segment 26 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:31 - 01:36</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">于是导师等到退休的一天都没有实现经费自由 于是灌了一辈子的水</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Yet, the advisor waits until their retirement day without ever achieving funding freedom, having poured water their entire career.</div>
+                </div>
+
+                {/* Segment 27 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:36 - 01:40</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这个事儿就跟有些朋友有梦想一样 但是年轻的时候没钱 想着</div>
+                  <div className="md:col-span-5 text-slate-100 italic">This is exactly like people who have grand dreams but have no money when they are young, planning...</div>
+                </div>
+
+                {/* Segment 28 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:40 - 01:44</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">等到我以后有钱了 攒够了钱再去实现我的梦想 于是</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...to wait until they save up enough wealth before pursuing those dreams. As a result...</div>
+                </div>
+
+                {/* Segment 29 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:44 - 01:47</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这一辈子都没有攒够钱 这一辈子梦想都没有实现</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...they never save up enough money, and their dreams remain unfulfilled for their entire lifetime.</div>
+                </div>
+
+                {/* Segment 30 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:47 - 01:50</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">举这个例子 是不是比较容易让大家理解导师们的困难？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Does this analogy make the structural difficulties that advisors face easier to comprehend?</div>
+                </div>
+
+                {/* Segment 31 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:50 - 01:55</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">等到学生当了导师 也会面临同样的难题 也会做出和他的导师一样的选择</div>
+                  <div className="md:col-span-5 text-slate-100 italic">When the students eventually become PIs themselves, they face the exact same obstacles and make identical choices.</div>
+                </div>
+
+                {/* Segment 32 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">01:55 - 02:01</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">于是又一个循环开始了 又是同一个戏码 在不同的时间换了不同的演员而已</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Thus, another vicious cycle begins—the exact same script played by a fresh cast at a different time.</div>
+                </div>
+
+                {/* Segment 33 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:01 - 02:06</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">其实每个研究生都或多或少有科研梦想 我是考研搞上去的 考研的人也超级累</div>
+                  <div className="md:col-span-5 text-slate-100 italic">In truth, nearly every graduate student harbors some scientific aspiration. I entered grad school through national exams, which is incredibly grueling.</div>
+                </div>
+
+                {/* Segment 34 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:07 - 02:10</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">大学放纵4年的人几乎丧失了学习能力</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Those who slack off for four years in college have nearly lost their cognitive habits for intense study.</div>
+                </div>
+
+                {/* Segment 35 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:10 - 02:13</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">但是为了考研又要找回高三的状态 其实很有难度</div>
+                  <div className="md:col-span-5 text-slate-100 italic">But to pass the entrance exam, you must force yourself back into the hyper-disciplined state of high school seniors, which is extremely difficult.</div>
+                </div>
+
+                {/* Segment 36 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:13 - 02:16</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">所以这个时候就需要有一些精神上的支柱 在一个支柱是什么呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">So during that trying phase, you need a psychological anchor. And what is that anchor?</div>
+                </div>
+
+                {/* Segment 37 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:17 - 02:20</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">就是对科研的向往 这是内心深处的原动力 很重要</div>
+                  <div className="md:col-span-5 text-slate-100 italic">It is the pure aspiration for scientific discovery. That deep inner drive is incredibly important.</div>
+                </div>
+
+                {/* Segment 38 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:21 - 02:26</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">这份原动力越足考研成绩越好 进实验室以后落差越大 为什么不退学呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">The stronger this drive, the higher your exam scores, but the more painful the disillusionment when you enter the lab. Why don&apos;t they drop out?</div>
+                </div>
+
+                {/* Segment 39 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:26 - 02:29</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">同学们各有各的理由 但大体上都是为了生存</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Each student has their own unique constraints, but broadly speaking, it is entirely about material survival.</div>
+                </div>
+
+                {/* Segment 40 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:29 - 02:30</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我当时为什么不退学？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Why didn&apos;t I withdraw from school at the time?</div>
+                </div>
+
+                {/* Segment 41 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:30 - 02:32</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我本科不是已经出去工作了吗？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Hadn&apos;t I already gone out and worked after my bachelor&apos;s?</div>
+                </div>
+
+                {/* Segment 42 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:32 - 02:38</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">在沈阳的一家药企 当时的工资是3000多 我是做生产的 旁边研发部也有一个员工 他是硕士</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I was working at a pharmaceutical firm in Shenyang, earning around 3,000 RMB in production. Nearby in R&amp;D, there was a staff member with a master&apos;s degree.</div>
+                </div>
+
+                {/* Segment 43 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:38 - 02:44</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">他工资有6000多 而且不是什么好硕士 但是人家就是工资6000多 工作还比我轻松 比我有前途</div>
+                  <div className="md:col-span-5 text-slate-100 italic">His salary was over 6,000 RMB, despite not graduating from a prestigious school. He made double my wage, had lighter duties, and possessed a brighter future.</div>
+                </div>
+
+                {/* Segment 44 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:44 - 02:48</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我算了一下 我在这个岗位上继续干3年 工资能到6000吗？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I calculated: if I continued in my production role for three more years, could my salary ever hit 6,000 RMB?</div>
+                </div>
+
+                {/* Segment 45 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:48 - 02:50</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">好像不能　于是果断考研</div>
+                  <div className="md:col-span-5 text-slate-100 italic">It seemed impossible. So, I decisively opted to take the graduate entrance exams.</div>
+                </div>
+
+                {/* Segment 46 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:50 - 02:53</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">最初考研的目的就是为了让工资从3000变成6000</div>
+                  <div className="md:col-span-5 text-slate-100 italic">My original, honest goal in pursuing grad school was simply to lift my income from 3,000 RMB to 6,000 RMB.</div>
+                </div>
+
+                {/* Segment 47 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:53 - 02:57</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">后来绿茶读博的博士在东北工资大概是1万5左右</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Later, I learned that a PhD in Northeast China could earn around 15,000 RMB.</div>
+                </div>
+
+                {/* Segment 48 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">02:57 - 03:03</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我又算了一下 博士4年工资从6000变成十五千 我又是直接硕士毕业之后就出去找工作</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I calculated again: during the four years of a PhD, my wage would leap from 6,000 RMB to 15,000 RMB. If I entered the job market immediately with a master&apos;s...</div>
+                </div>
+
+                {/* Segment 49 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:03 - 03:07</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">工作4年 我的工资能从6000变成十五千吗？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...and worked for four years in industry, could I raise my wage from 6,000 to 15,000 RMB?</div>
+                </div>
+
+                {/* Segment 50 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:07 - 03:09</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">不太可能 那就读博了</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Highly improbable. So, I committed to pursuing a PhD.</div>
+                </div>
+
+                {/* Segment 51 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:09 - 03:10</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">那后来那啥退学了呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Then why did I eventually withdraw from the doctoral program?</div>
+                </div>
+
+                {/* Segment 52 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:10 - 03:14</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">等我的收入能够轻轻松松达到十五的时候 读博的意义就消失了</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Quite simple: once my independent income could easily and comfortably exceed 15,000 RMB, the entire material utility of obtaining a PhD vanished.</div>
+                </div>
+
+                {/* Segment 53 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:15 - 03:17</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">所以就退学了　要换成别人退学比我果断</div>
+                  <div className="md:col-span-5 text-slate-100 italic">So I quit. Honestly, anyone else in my circumstances would have dropped out even more decisively.</div>
+                </div>
+
+                {/* Segment 54 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:17 - 03:20</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">咱穷人家的孩子 第一重要的事情就是养家糊口</div>
+                  <div className="md:col-span-5 text-slate-100 italic">For kids from humble families, the absolute first priority is putting bread on the table and supporting your family.</div>
+                </div>
+
+                {/* Segment 55 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:20 - 03:24</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">不能养家糊口之前没有余力去想什么社会贡献</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Before you can sustain your own family, you do not possess the mental surplus or luxury to ponder grand ideas of societal contribution.</div>
+                </div>
+
+                {/* Segment 56 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:24 - 03:29</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我也有何梦想 很多研究生都有 但是现实的科研真的让人提不起兴趣</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I also had dreams—and many graduate students do—but the state of real-world research makes it incredibly difficult to remain inspired.</div>
+                </div>
+
+                {/* Segment 57 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:29 - 03:32</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">有同感的可以分享一下你的感受 让没入选的同学们</div>
+                  <div className="md:col-span-5 text-slate-100 italic">If you resonate with this, please share your thoughts so that prospective students...</div>
+                </div>
+
+                {/* Segment 58 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:32 - 03:35</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">知道这不是一个偶然现象 而是普遍现象</div>
+                  <div className="md:col-span-5 text-slate-100 italic">...know that this disillusionment is not an anomaly; it is a universal phenomenon.</div>
+                </div>
+
+                {/* Segment 59 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:36 - 03:37</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">为什么说这个事情呢？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Why am I discussing this topic?</div>
+                </div>
+
+                {/* Segment 60 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:37 - 03:39</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">有很多年轻的同学过来问我科研环境是怎么样的？</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Many young students reach out to ask me what the academic and scientific research environment is truly like.</div>
+                </div>
+
+                {/* Segment 61 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:39 - 03:41</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">那我刚刚说的就是我实际看到的</div>
+                  <div className="md:col-span-5 text-slate-100 italic">And what I have just shared is exactly what I have personally witnessed.</div>
+                </div>
+
+                {/* Segment 62 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:41 - 03:44</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">当然我希望你遇到的环境比我说的好很多</div>
+                  <div className="md:col-span-5 text-slate-100 italic">Of course, I sincerely hope that the environment you encounter is far superior to what I described.</div>
+                </div>
+
+                {/* Segment 63 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:44 - 03:47</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我国也确实有不少非常优秀的科研单位 比如北生所</div>
+                  <div className="md:col-span-5 text-slate-100 italic">And indeed, there are several truly outstanding research organizations, such as the National Institute of Biological Sciences (NIBS/北生所).</div>
+                </div>
+
+                {/* Segment 64 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:47 - 03:51</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">我并不劝退科研 各行各业都有属于自己的坑</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I am not trying to deter you from entering science. Every single industry has its own unique pitfalls and traps.</div>
+                </div>
+
+                {/* Segment 65 */}
+                <div className="p-3 grid grid-cols-1 md:grid-cols-12 gap-2 hover:bg-slate-800/40 transition">
+                  <div className="md:col-span-2 font-mono text-[10px] text-cyan-400 font-semibold">03:51 - 03:55</div>
+                  <div className="md:col-span-5 text-slate-300 font-medium">只是希望大家在入坑之前能够提前了解一下这个行业是什么状态</div>
+                  <div className="md:col-span-5 text-slate-100 italic">I merely hope that before you make your decision and jump in, you can gain a realistic understanding of the actual state of this profession.</div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "itifcritique" && (
+        <ItifCritiqueEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
