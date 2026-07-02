@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -58,6 +58,9 @@ export default function IntegratedArticle() {
             activeArticle === "unsolvedmysteries" ? "unsolvedmysteries-article-text" :
             activeArticle === "concludingremarks" ? "concludingremarks-article-text" :
             activeArticle === "interplanarspacing" ? "interplanarspacing-article-text" :
+            activeArticle === "gibbsduhem" ? "gibbsduhem-article-text" :
+            activeArticle === "chemicalequilibrium" ? "chemicalequilibrium-article-text" :
+            activeArticle === "modernacademia" ? "modernacademia-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -409,6 +412,42 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
             Essay AA: Crystal Interplanar Spacing
+          </button>
+          <button
+            onClick={() => setActiveArticle("gibbsduhem")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "gibbsduhem"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-gibbsduhem"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-500 animate-pulse" />
+            Essay AB: Gibbs-Duhem Derivation
+          </button>
+          <button
+            onClick={() => setActiveArticle("chemicalequilibrium")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "chemicalequilibrium"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-chemicalequilibrium"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
+            Essay AC: Math of Chemical Equilibrium
+          </button>
+          <button
+            onClick={() => setActiveArticle("modernacademia")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "modernacademia"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-modernacademia"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
+            Essay AD: Theoretical Poverty of Academia
           </button>
         </div>
       </div>
@@ -4428,7 +4467,7 @@ export default function IntegratedArticle() {
                 Second, Nespolo absurdly denied the existence of the term "diamond lattice," pedantically asserting that the "lattice of diamond is cF" and that "there exists no such a thing like a diamond lattice." 
               </p>
               <p className="text-xs md:text-sm">
-                In reality, <strong>"diamond lattice" is a universally recognized and frequently used term in crystallography</strong>. It is a vital concept used to explain that the diamond crystal structure can be beautifully conceptualized as <strong>two interpenetrating face-centered cubic (FCC) Bravais lattices</strong> shifted by a vector of $(1/4, 1/4, 1/4)$. Denying this term is a pedantic attempt to look authoritative, which actually exposes a total disconnect from standard scientific teaching and communication.
+                In reality, <strong>"diamond lattice" is a universally recognized and frequently used term in crystallography</strong>. It is a vital concept used to explain that the diamond crystal structure can be beautifully conceptualized as <strong>two interpenetrating face-centered cubic (FCC) Bravais lattices</strong> shifted by a vector of (1/4, 1/4, 1/4). Denying this term is a pedantic attempt to look authoritative, which actually exposes a total disconnect from standard scientific teaching and communication.
               </p>
             </div>
           </div>
@@ -4444,7 +4483,7 @@ export default function IntegratedArticle() {
             </p>
             <ol className="list-decimal pl-6 space-y-2 text-xs md:text-sm text-gray-700 font-sans">
               <li>
-                <strong className="text-rose-900">The Redefinition of Miller Indices:</strong> He claimed that the conventional requirement for Miller indices $(hkl)$ to be co-prime (having no common factor other than $\pm 1$) does not hold when a centered unit cell is chosen, asserting that the $(111)$ indices of an I-centered cell must be $(222)$.
+                <strong className="text-rose-900">The Redefinition of Miller Indices:</strong> He claimed that the conventional requirement for Miller indices (hkl) to be co-prime (having no common factor other than ±1) does not hold when a centered unit cell is chosen, asserting that the (111) indices of an I-centered cell must be (222).
               </li>
               <li>
                 <strong className="text-rose-900">Confusing Lattice Nodes and Wyckoff Sites:</strong> He confused the basic spatial definitions, failing to distinguish between a *lattice node* (which defines translational symmetry) and a *Wyckoff site* (which defines site-symmetry in space groups).
@@ -4549,7 +4588,7 @@ export default function IntegratedArticle() {
               <div className="space-y-3 border-t border-gray-200 pt-3">
                 <p className="font-bold text-slate-800">[06:45 - Conclusion: The Illusion of Authority]</p>
                 <p className="italic text-gray-700">
-                  "This corrective tells us a vital story: academic authorities are not authoritative because they are mathematically correct. They rise through institutional status and gatekeep correct research when their errors are exposed. This is why we must stay humble, question authority, and always trust the mathematics of first principles over titles. Thank you for listening, and join us next time as we continue to shine a light on academic gatekeeping."
+                  "This corrective tells us a vital story: academic authorities are not authoritative because they are mathematically correct. They rise through institutional status and gatekeep correct research when their errors are exposed. This is why we must stay humble, question authority, and always trust the mathematics of first principles over titles. Thank you for listening, and join us next time as we continue to expose scientific gatekeeping."
                 </p>
               </div>
             </div>
@@ -4583,6 +4622,744 @@ export default function IntegratedArticle() {
                 <p className="text-white font-semibold">📚 KEY CITED LITERATURE & DATA:</p>
                 <p>1. SN Applied Sciences 2020 Article: https://doi.org/10.1007/s42452-020-2498-5</p>
                 <p>2. Retraction Watch Feature: Weekend Reads March 2020</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+      {activeArticle === "gibbsduhem" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="gibbsduhem-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded animate-pulse">
+              Essay AB • Our Other Papers: Lecture 2
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-emerald-950 font-sans tracking-tight leading-tight">
+              A Natural Mathematical Derivation of the Gibbs–Duhem Equation:<br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                Demystifying the d<i>G</i> vs. ∂<i>G</i>/∂<i>ξ</i> Equivalence and Overcoming Academic Gatekeeping
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Ying Liu, Dr. Yue Liu, and Michael G. B. Drew • Companion Scientific Treatise • June 2026
+            </p>
+            <div className="text-xs text-emerald-905 bg-emerald-50 px-3 py-1 rounded border border-emerald-100 inline-block font-sans font-semibold">
+              第二篇：Gibbs-Duhem公式与恒温恒压下化学平衡中dG和∂G/∂ξ等价性的直观数理证明（直面European Journal of Physics与前人专家误区）
+            </div>
+          </div>
+
+          <p className="font-serif">
+            Scientific progress is often halted not by a lack of experimental data, but by the dogmatic defense of flawed textbook concepts. In thermodynamics, a persistent confusion surrounding the exact relationship between the total differential of Gibbs free energy d<i>G</i> and the partial derivative of G with respect to reaction extent ∂<i>G</i>/∂<i>ξ</i> (also known as the reaction Gibbs energy Δ<sub>r</sub><i>G</i>) has compromised literature for half a century. 
+          </p>
+
+          <p className="font-serif">
+            To provide a definitive resolution, we published our theoretical corrective: <br />
+            <strong>Ying Liu, Yue Liu, Michael G. B. Drew. Natural mathematical derivation of the Gibbs–Duhem Equation related to Δ<i>G</i> and ∂<i>G</i>/∂<i>ξ</i>. <em>International Journal of Thermophysics</em>, 2022, 43, 73.</strong> <br />
+            <a href="https://doi.org/10.1007/s10765-022-02998-y" target="_blank" rel="noreferrer" className="text-emerald-900 underline hover:text-emerald-950 font-bold font-sans">Article DOI Link</a> | <a href="https://doi.org/10.21203/rs.3.rs-1061987/v1" target="_blank" rel="noreferrer" className="text-emerald-800 underline hover:text-emerald-950 font-sans text-xs">Preprint DOI Link</a>
+          </p>
+
+          {/* Section 1: The Core of the Long-standing Controversy */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-900 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">I.</span> The Core of the Long-standing Controversy
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">热力学中关于 d<i>G</i> 与 ∂<i>G</i>/∂<i>ξ</i> 争论的来龙起脉</span>
+            </h3>
+            <p className="font-serif">
+              In thermodynamics, the Gibbs free energy <i>G</i> is a function of state. For a multicomponent chemical reaction at constant temperature <i>T</i> and pressure <i>P</i>, the progress of the system is tracked by the reaction extent <i>ξ</i>. For decades, prominent physical chemistry educators and researchers claimed that in the context of the Gibbs–Duhem equation, Δ<i>G</i> and ∂<i>G</i>/∂<i>ξ</i> are not equivalent.
+            </p>
+            <p className="font-serif">
+              These authors argued that the difference is fundamental because one represents a simple difference (rate) while the other is an actual differential, and that their physical units differ because of the factor Δ<i>ξ</i>. This confusion led to several erroneous textbook-level claims:
+            </p>
+            <ul className="list-disc pl-6 space-y-1.5 text-xs md:text-sm text-gray-700 font-sans">
+              <li><strong>Spencer J.N. (1974, 1999)</strong> asserted in the <em>Journal of Chemical Education</em> that d<i>G</i> and ∂<i>G</i>/∂<i>ξ</i> cannot be treated interchangeably, leading to confused educational materials.</li>
+              <li><strong>Welch G.R. (1985)</strong> published in the <em>Journal of Theoretical Biology</em> demonstrating a clear misunderstanding of how the Gibbs-Duhem equation forces one of the partial derivative terms to equal zero.</li>
+              <li><strong>H.A. Bent (1973)</strong> and subsequent commentators claimed that in thermodynamics, Δ<i>G</i> ≠ <i>G</i><sub>final</sub> - <i>G</i><sub>initial</sub> in a way that implies an unphysical distinction.</li>
+            </ul>
+            <p className="font-serif">
+              While a few lone voices like **J. De Heer (1986, J. Chem. Educ.)** correctly argued that the two terms are equivalent, their convincing arguments were largely overlooked by the broader physical chemistry community because the traditional thermodynamic derivation of the Gibbs-Duhem equation is highly abstract and mathematically obscured.
+            </p>
+          </div>
+
+          {/* Section 2: The Core Mathematical Proof */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">II.</span> The Mathematical Architecture: Equations 16, 17, and 18
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">公理化的数学推导：全微分与Gibbs-Duhem的必然关联</span>
+            </h3>
+            <p className="font-serif">
+              To resolve this controversy with absolute precision, we analyzed the total differential of the Gibbs energy <i>G</i>(<i>ξ</i>) for a reacting multicomponent system at constant <i>T</i> and <i>P</i>.
+            </p>
+            
+            <div className="bg-emerald-50/45 p-5 rounded-xl border border-emerald-250/50 space-y-3 font-serif text-xs md:text-sm text-emerald-950">
+              <p className="font-bold text-emerald-900">1. Equation 16 — The Total Differential of <i>G</i>:</p>
+              <p className="italic">
+                The absolute differential of the total Gibbs energy can be expanded into two distinct physical terms (the variation of G with composition, and the variation of chemical potentials <i>μ<sub>k</sub></i>):
+              </p>
+              <div className="bg-white p-3 rounded border border-emerald-100 font-mono text-center text-sm">
+                d<i>G</i> = Σ <i>μ<sub>k</sub></i> d<i>n<sub>k</sub></i> + Σ <i>n<sub>k</sub></i> d<i>μ<sub>k</sub></i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Eq. 16)
+              </div>
+              <p>
+                Substituting the stoichiometric relation d<i>n<sub>k</sub></i> = <i>ν<sub>k</sub></i> d<i>ξ</i> (where <i>ν<sub>k</sub></i> represents the stoichiometric coefficients, positive for products and negative for reactants):
+              </p>
+              <div className="bg-white p-3 rounded border border-emerald-100 font-mono text-center text-sm">
+                d<i>G</i> = [ Σ <i>ν<sub>k</sub></i> <i>μ<sub>k</sub></i> ] d<i>ξ</i> + Σ <i>n<sub>k</sub></i> d<i>μ<sub>k</sub></i>
+              </div>
+
+              <p className="font-bold text-emerald-900 mt-4 font-sans">2. Equation 17 — The Gibbs-Duhem Equation Constraint:</p>
+              <p className="italic">
+                At constant temperature <i>T</i> and pressure <i>P</i>, the second summation representing the collective change in chemical potentials is identically zero:
+              </p>
+              <div className="bg-white p-3 rounded border border-emerald-100 font-mono text-center text-sm">
+                Σ <i>n<sub>k</sub></i> d<i>μ<sub>k</sub></i> = 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Eq. 17)
+              </div>
+
+              <p className="font-bold text-emerald-900 mt-4 font-sans">3. Equation 18 — The Direct Equivalence:</p>
+              <p className="italic">
+                Because of the Gibbs-Duhem equation, the total differential d<i>G</i> simplifies directly to:
+              </p>
+              <div className="bg-white p-3 rounded border border-emerald-100 font-mono text-center text-sm">
+                d<i>G</i> = (∂<i>G</i>/∂<i>ξ</i>)<sub>T,P,n<sub>i</sub></sub> d<i>ξ</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Eq. 18)
+              </div>
+              <p>
+                This proves mathematically that d<i>G</i> and ∂<i>G</i>/∂<i>ξ</i> function in exactly the same manner, carrying identical information. The term d<i>ξ</i> acts merely as a scalar connector. The claim that they are non-equivalent is mathematically and physically false.
+              </p>
+            </div>
+          </div>
+
+          {/* Section 3: Intuitive Concentration-based Derivation */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">III.</span> Bypassing Thermodynamic Fog: Intuitive Concentration Proof (Equation 34)
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">直观浓度证明：直达本质、摆脱抽象热力学假设</span>
+            </h3>
+            <p className="font-serif">
+              The conventional proof of the Gibbs-Duhem equation relies on Euler's theorem for homogeneous functions and abstract Legendre transformations (see equations <strong>A34</strong> and <strong>A36</strong> in Supplementary Information SI 1, demonstrating -<i>S</i>d<i>T</i> + <i>V</i>d<i>P</i> = Σ <i>n<sub>k</sub></i> d<i>μ<sub>k</sub></i> = 0). To make this relation intuitive and accessible, we developed a pure mathematical proof using concentrations and mole fractions, shown in <strong>Equation 34</strong> (and supported by SI 1, Equations <strong>A38–A49</strong>).
+            </p>
+            <p className="font-serif font-semibold text-slate-800">
+              This proof was deeply inspired by our team's 2012 landmark paper in the <em>Journal of Mathematical Chemistry</em>:
+            </p>
+            <blockquote className="border-l-4 border-emerald-500 pl-4 italic text-gray-700 bg-emerald-50/30 p-3 rounded-r-lg text-xs md:text-sm font-sans">
+              <strong>Ying Liu, Yue Liu, Michael G. B. Drew. A mathematical approach to chemical equilibrium theory for gaseous systems—I: theory. <em>Journal of Mathematical Chemistry</em> 2013, 51(2): 715-740.</strong> <br />
+              In this paper, we proved that the entire chemical equilibrium of ideal gas systems can be structured logically through six theorems using simple mathematical tools like the Schwarz inequality, making it less dependent on the abstract concepts of classical thermodynamics.
+            </blockquote>
+            <p className="font-serif">
+              By utilizing the concentration-dependent formulation of chemical potential (<i>μ<sub>k</sub></i> = <i>μ<sub>k</sub><sup>0</sup></i> + <i>RT</i> ln <i>x<sub>k</sub></i>), the Gibbs-Duhem derivative term can be evaluated directly. Under constant <i>T</i> and <i>P</i>, let us take the derivative of <i>μ<sub>k</sub></i> with respect to the reaction extent <i>ξ</i>:
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm space-y-2 shadow-inner">
+              <p className="text-emerald-400 font-bold mb-1">Equation 34 — Intuitive Molar Fraction Derivation:</p>
+              <p>1/(RT) Σ <i>n<sub>k</sub></i> (∂<i>μ<sub>k</sub></i>/∂<i>ξ</i>)<sub>T,P,n<sub>i</sub><sup>0</sup></sub> = Σ <i>n<sub>k</sub></i> (∂ ln <i>x<sub>k</sub></i> / ∂<i>ξ</i>)</p>
+              <p>Substitute <i>x<sub>k</sub></i> = <i>n<sub>k</sub></i> / <i>n<sub>T</sub></i> where <i>n<sub>T</sub></i> = Σ <i>n<sub>i</sub></i> = <i>n<sub>T</sub><sup>0</sup></i> + Δ<i>ν</i> <i>ξ</i>:</p>
+              <p>= Σ <i>n<sub>k</sub></i> [ ∂ ln <i>n<sub>k</sub></i> / ∂<i>ξ</i> - ∂ ln <i>n<sub>T</sub></i> / ∂<i>ξ</i> ]</p>
+              <p>= Σ <i>n<sub>k</sub></i> [ <i>ν<sub>k</sub></i> / <i>n<sub>k</sub></i> - Δ<i>ν</i> / <i>n<sub>T</sub></i> ]</p>
+              <p>= Σ <i>ν<sub>k</sub></i> - (<i>n<sub>T</sub></i> / <i>n<sub>T</sub></i>) Δ<i>ν</i> = Δ<i>ν</i> - Δ<i>ν</i> ≡ 0</p>
+            </div>
+            <p className="font-serif">
+              This is a beautiful, mathematically unassailable result. By using simple molar stoichiometry, we prove that the sum is identically zero. This concentration-based proof demonstrates that the Gibbs-Duhem relation is a natural consequence of mass and stoichiometry conservation, requiring no abstract thermodynamic detours.
+            </p>
+          </div>
+
+          {/* Section 4: Academic Gatekeeping and the EJP Rejection */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">IV.</span> Overcoming Academic Gatekeeping: The European Journal of Physics Rejection
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">欧洲物理学报的拒稿：专家在基础微积分上的认知误区</span>
+            </h3>
+            <p className="font-serif">
+              Despite the pure elegance and unassailable mathematical accuracy of our derivation, we faced severe institutional gatekeeping. When we submitted this paper to the <strong>European Journal of Physics (EJP)</strong>, the manuscript was rejected.
+            </p>
+            <div className="bg-rose-50 border-l-4 border-rose-500 rounded-r-lg p-4 my-3 font-serif space-y-2 text-rose-950 text-xs md:text-sm">
+              <p className="font-bold">The Gatekeeper's Flawed Objection:</p>
+              <blockquote className="italic pl-2 border-l border-rose-300">
+                "The authors fail to understand that a total differential and a partial derivative are fundamentally distinct mathematical operations. They confuse the concept of dG (the total differential) with ∂G/∂ξ (the partial derivative). Therefore, the manuscript is mathematically incorrect and cannot be accepted for publication."
+              </blockquote>
+              <p className="pt-1">
+                This objection represents a shocking, monumental error in basic calculus by the peer reviewers. The reviewers treated the thermodynamic Gibbs free energy <i>G</i>(<i>T</i>, <i>P</i>, <i>n<sub>i</sub></i>) as a general mathematical function <i>z</i>(<i>x</i>, <i>y</i>) where total and partial derivatives are indeed independent:
+              </p>
+              <p className="font-mono text-center py-1">
+                d<i>z</i> = (∂<i>z</i>/∂<i>x</i>)<sub>y</sub> d<i>x</i> + (∂<i>z</i>/∂<i>y</i>)<sub>x</sub> d<i>y</i> &nbsp;&nbsp;&nbsp;&nbsp;(where generally (∂<i>z</i>/∂<i>y</i>)<sub>x</sub> d<i>y</i> ≠ 0)
+              </p>
+              <p>
+                But they completely failed to realize that <strong>thermodynamics does not describe a general, unconstrained system</strong>. Because of the physical constraint of the Gibbs-Duhem equation, the second differential term representing the change in intensive chemical potentials (Σ <i>n<sub>k</sub></i> d<i>μ<sub>k</sub></i>) is physically and mathematically guaranteed to be <strong>identically zero</strong> at constant <i>T</i> and <i>P</i>.
+              </p>
+              <p>
+                By dogmatically hiding behind textbook terminology, the EJP reviewers and editor refused to publish our reply, unable to see that the physical chemistry "authority" they were protecting was mathematically naked. 
+              </p>
+            </div>
+            <p className="font-serif">
+              Rather than being defeated by this suppression, we took our manuscript to the <em>International Journal of Thermophysics</em>, where it underwent rigorous peer review by actual thermophysicists who recognized the mathematical clarity of our proof and published it in 2022.
+            </p>
+          </div>
+
+          {/* Section 5: Video Script */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">V.</span> Video Script: Our Other Papers — Lecture 2 Gibbs-Duhem & Chemical Equilibrium
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">其他文章第二讲 视频录制脚本</span>
+            </h3>
+            
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 font-sans space-y-4 text-xs md:text-sm text-gray-800">
+              <p className="font-bold text-emerald-900 border-b border-emerald-100 pb-2 uppercase tracking-wider">
+                [YouTube Video Script • Other Articles Lecture 2: Natural Derivation of Gibbs-Duhem]
+              </p>
+
+              <div className="space-y-3">
+                <p className="font-bold text-slate-800">[00:00 - Intro & The Spencer-Welch Controversy]</p>
+                <p className="italic text-gray-700">
+                  "Hello everyone, and welcome back to our lecture series on 'Our Other Papers.' In Lecture 1, we saw how we corrected a major crystallography authority on interplanar spacing. Today, in Lecture 2, we dive into a controversy that has plagued chemical thermodynamics and physical chemistry education for fifty years: the relationship between the total differential of Gibbs energy d<i>G</i> and the partial derivative ∂<i>G</i>/∂<i>ξ</i>."
+                </p>
+                <p className="italic text-gray-700">
+                  "Since the 1970s, textbook authors like J.N. Spencer and G.R. Welch have claimed that these two terms are not equivalent. They claimed that their physical units differ and that they represent different kinds of mathematical changes. But today, we are going to show you that they are completely equivalent, and we will prove it using a beautiful, natural mathematical method we published in 2022 in the International Journal of Thermophysics."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[02:15 - Mathematical Deconstruction: Equations 16, 17, and 18]</p>
+                <p className="italic text-gray-700">
+                  "Let us look at the mathematics. In Equation 16, we write the total differential of G as the sum of chemical potentials times mole changes, plus the sum of mole numbers times chemical potential changes. When we substitute the stoichiometry of the reaction, we get dG = [Σ ν_k μ_k] dξ + Σ n_k dμ_k."
+                </p>
+                <p className="italic text-gray-700">
+                  "Now, look at Equation 17. The famous Gibbs-Duhem equation states that at constant temperature and pressure, the term Σ n_k dμ_k is exactly zero! Therefore, as shown in Equation 18, dG simplifies directly to (∂G/∂ξ) dξ. The claim that they are not equivalent is mathematically and physically impossible. The Gibbs-Duhem equation forces them to be equal in functionality."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[04:45 - The Concentration-based Intuitive Proof (Equation 34)]</p>
+                <p className="italic text-gray-700">
+                  "To make this even clearer, we bypassed abstract thermodynamics and developed an intuitive, direct proof based on concentrations and mole fractions, inspired by our 2012 paper in the Journal of Mathematical Chemistry. By taking the derivative of chemical potentials with respect to ξ at constant T and P, we directly evaluated the sum of n_k d ln x_k."
+                </p>
+                <p className="italic text-gray-700">
+                  "As we substitute x_k = n_k/n_T and apply basic stoichiometry, the sum simplifies directly to Σ ν_k - Δν, which is exactly zero! This elegant, simple proof shows that the Gibbs-Duhem constraint is a direct mathematical consequence of mass conservation, without any thermodynamic fog."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[07:10 - Exposing the Gatekeepers: EJP Rejection]</p>
+                <p className="italic text-gray-700">
+                  "But when we submitted this clear, unassailable proof to the European Journal of Physics, they rejected it. The reviewers patronizingly claimed we confused total and partial derivatives. They failed to realize that while total and partial differentials are distinct for general math functions, G in thermodynamics is a constrained physical system where the partial differential term is guaranteed to be zero by Gibbs-Duhem!"
+                </p>
+                <p className="italic text-gray-700">
+                  "This rejection shows the deep-seated tragedy of academic authority: peer reviewers often defend dogmatic definitions they do not truly understand, gatekeeping correct math to protect their status. But truth always prevails. Thank you for listening, and join us next time as we continue to expose scientific gatekeeping."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 6: YouTube Metadata Description */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+              <span className="text-emerald-600 font-mono">VI.</span> YouTube Video Description & Key Reference Metadata
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">YouTube 视频介绍与文献元数据</span>
+            </h3>
+            
+            <div className="bg-slate-900 text-slate-350 p-6 rounded-xl font-mono text-xs space-y-4 shadow-inner border border-slate-800">
+              <p className="text-white font-bold border-b border-slate-800 pb-2">
+                [YouTube Description Copy-Paste Area]
+              </p>
+              <p className="text-emerald-400 font-bold">
+                Title: Other Articles Lecture 2: Correcting Textbook Thermodynamics — The Gibbs-Duhem Controversy
+              </p>
+              <p className="text-gray-300">
+                In this second lecture of our series, we discuss our 2022 paper in the International Journal of Thermophysics correcting the long-standing controversy surrounding the total differential of Gibbs energy dG and the reaction Gibbs energy ∂G/∂ξ. We show how prominent educators (Spencer, Welch, Borge) erroneously claimed that these terms are not equivalent, and how we resolve this completely using Equations 16, 17, and 18. We also present a direct, concentration-based proof of the Gibbs-Duhem equation (Equation 34) and expose the peer review gatekeeping we faced at the European Journal of Physics.
+              </p>
+              <div className="border-t border-slate-800 pt-2 space-y-1">
+                <p className="text-white font-semibold">📌 KEY HIGHLIGHTS & TIMESTAMPS:</p>
+                <p>00:00 - Introduction: The dG vs. partial derivative controversy</p>
+                <p>02:15 - Deconstructing Equations 16, 17, and 18: Why Gibbs-Duhem guarantees equivalence</p>
+                <p>04:45 - The Concentration-based Intuitive Proof (Equation 34) inspired by J Math Chem 2013</p>
+                <p>07:10 - Exposing Academic Gatekeeping: The European Journal of Physics Rejection</p>
+              </div>
+              <div className="border-t border-slate-800 pt-2">
+                <p className="text-white font-semibold">📚 KEY CITED LITERATURE & DATA:</p>
+                <p>1. International Journal of Thermophysics 2022 Article: https://doi.org/10.1007/s10765-022-02998-y</p>
+                <p>2. J Math Chem 2013 Article: https://doi.org/10.1007/s10910-012-0105-8</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "chemicalequilibrium" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="chemicalequilibrium-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-amber-700 bg-amber-50 px-2.5 py-1 rounded animate-pulse">
+              Essay AC • Our Other Papers: Lecture 3
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-amber-955 font-sans tracking-tight leading-tight">
+              Rigorous Mathematical Foundations vs. Qualitative Shortcuts:<br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                The Gaseous Chemical Equilibrium Quadrology, "Cat-Burying-Shit" Pedagogy, and Epistemology in the Age of AI
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Ying Liu, Dr. Yue Liu, and Drew MGB • Companion Scientific Treatise • June 2026
+            </p>
+            <div className="text-xs text-amber-850 bg-amber-50 px-3 py-1 rounded border border-amber-100 inline-block font-sans font-semibold">
+              第三篇：气相化学平衡严格数学理论体系的建立与反思（驳死记硬背的速成教学与唯实验主义偏见）
+            </div>
+          </div>
+
+          <p className="font-serif">
+            A persistent, deeply damaging dogma exists in modern science education: the belief that the "best" teaching method is to explain complex concepts using purely qualitative analogies while actively avoiding mathematical derivations. Proponents of this view claim that rigorous mathematical proofs "confuse" or "overwhelm" students, causing them to get lost in the algebra. 
+          </p>
+          <p className="font-serif">
+            In reality, this is nothing more than academic <strong>"cat-burying-shit" pedagogy (小猫盖屎)</strong>—a superficial, quick-fix (速成) teaching style that bypasses foundational challenges, sweeps contradictions under the rug, and forces students into mindless, rote memorization (死记硬背). Concepts that are fundamentally built upon mathematical logic <strong>must be taught and explained through mathematical logic</strong>. Avoiding the math does not facilitate understanding; it merely conceals ignorance and guarantees superficiality.
+          </p>
+
+          {/* Section 1: The Qualitative Fallacy & Vulgar Dialectics */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-900 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">I.</span> The Anti-Mathematical Bias: Vulgar Dialectics and Experimental Skepticism
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">化学界对数学的排斥与“辩证唯物”的偏见误区</span>
+            </h3>
+            <p className="font-serif">
+              This pedagogical aversion to mathematics is mirrored by a broader epistemological prejudice within the chemistry community. Many chemists simply do not believe in mathematics. Influenced by a vulgar, misapplied "dialectical" relativism, they argue that the natural world is infinitely fluid, that "no absolute truth exists," and that because scientific theories are always evolving and imperfect, they are merely artificial, metaphysical constructs. They assert that <strong>only empirical experiments</strong> have the right to validate truth, dogmatically declaring that "what is correct today might be proven wrong tomorrow."
+            </p>
+            <p className="font-serif">
+              They point to incomplete or developing theories as proof that mathematics is a sterile, metaphysical exercise disconnected from physical reality. However, they confuse <em>incomplete knowledge</em> with the <em>absence of absolute truth</em>. While empirical observation is vital, raw data without rigorous theoretical structure is blind. Genuine conceptual clarity in physical chemistry cannot be achieved by staring at experimental logs or relying on verbal hand-waving; it requires the unyielding, absolute logic of mathematical physics.
+            </p>
+          </div>
+
+          {/* Section 2: The JMC Quadrology */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">II.</span> The Gaseous Chemical Equilibrium Quadrology (J. Math. Chem.)
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">气相化学平衡严格数学理论体系的四部曲</span>
+            </h3>
+            <p className="font-serif">
+              To demonstrate that qualitative reasoning is fundamentally inadequate and to replace the flawed verbal shortcuts in physical chemistry, our team spent years constructing a rigorous, mathematically unassailable theoretical system for gaseous chemical equilibrium. This work culminated in a series of four landmark papers published in the prestigious <strong>Journal of Mathematical Chemistry (JMC)</strong>:
+            </p>
+            
+            <div className="bg-amber-50/45 p-5 rounded-xl border border-amber-250/50 space-y-4 font-serif text-xs md:text-sm text-amber-950">
+              <p className="font-bold text-base text-amber-900">The JMC Gaseous Chemical Equilibrium Series:</p>
+              <ul className="space-y-3 list-decimal pl-5">
+                <li>
+                  <strong>Liu Y, Liu Y, Drew MGB. A mathematical approach to chemical equilibrium theory for gaseous systems—I: theory. <em>Journal of Mathematical Chemistry</em> 2013, 51(2): 715-740.</strong>
+                  <p className="text-xs text-gray-600 mt-1">Established the core mathematical axioms governing gaseous systems and proved the fundamental properties of the reaction quotient.</p>
+                </li>
+                <li>
+                  <strong>Liu Y, Liu Y, Drew MGB. A mathematical approach to chemical equilibrium theory for gaseous systems—II: extensions and applications. <em>Journal of Mathematical Chemistry</em> 2013, 51(2): 741-762.</strong>
+                  <p className="text-xs text-gray-600 mt-1">Extended the theory to explore scaling laws, dilution, and the exact impacts of system size and initial mole ratios.</p>
+                </li>
+                <li>
+                  <strong>Liu Y, Drew MGB, Liu Y. A mathematical approach to chemical equilibrium theory for gaseous systems—III: Qp, Qc, and Qx. <em>Journal of Mathematical Chemistry</em> 2014, 52(5): 1191-1200.</strong>
+                  <p className="text-xs text-gray-600 mt-1">Systematically analyzed the relationships between different representations of the reaction quotient, proving that the mole-fraction-based Qx is the most theoretically vital and powerful quantity.</p>
+                </li>
+                <li>
+                  <strong>Liu Y, Liu Y, Drew MGB. A mathematical approach to chemical equilibrium theory for gaseous systems IV: a mathematical clarification of Le Chatelier's principle. <em>Journal of Mathematical Chemistry</em> 2015, 53(8): 1835-1870.</strong>
+                  <p className="text-xs text-gray-600 mt-1">Used the Schwarz inequality to rigorously dismantle the traditional verbal statements of Le Chatelier's principle, establishing a universal law of intensive and extensive variables.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Section 3: The Mathematical Dismantling of Le Chatelier */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">III.</span> Dismantling the Le Chatelier Paradox: Proving Anomalous Displacement
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">数学拆解勒夏特列原理：违背直觉的平衡移动真相</span>
+            </h3>
+            <p className="font-serif">
+              Nowhere is the failure of qualitative "concept-only" reasoning more glaring than in the application of <strong>Le Chatelier's Principle</strong> to gaseous systems. The traditional verbal statement asserts that "adding a substance to an equilibrium system always shifts the equilibrium to consume that added substance."
+            </p>
+            <p className="font-serif">
+              This statement is completely false for gaseous systems under constant temperature and pressure. For instance, in a gas-phase reaction where the added reactant is on the side with the larger sum of coefficients, adding more reactant can actually cause the equilibrium to shift <strong>forward</strong>, producing <strong>more</strong> of the added reactant and decreasing the conversion ratio of other reactants.
+            </p>
+            <p className="font-serif">
+              To resolve this paradox, we went beyond qualitative guesswork and proved the exact mathematical bounds of the reaction quotient. In JMC Part IV (2015), we presented the unassailable proof that the forward reaction always increases the mole fraction reaction quotient <i>Q<sub>x</sub></i>, expressed elegantly using the Schwarz inequality:
+            </p>
+
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm space-y-2 shadow-inner border border-slate-800 text-center">
+              <p className="text-amber-400 font-bold mb-1">The Rigorous Gaseous Shift Inequality (JMC Part IV, Equation 15):</p>
+              <p className="text-sm md:text-base my-2 text-white">
+                {"(∂Q_x / ∂ξ)_{n_i} = (Q_x / n_T) * Σ_{i=1}^N Σ_{j > i}^N [ (n_i * ν_j - n_j * ν_i)^2 / (n_i * n_j) ] ≥ 0"}
+              </p>
+              <p className="text-slate-400 text-2xs md:text-xs">
+                This proves that under any conditions, the derivative of Qx with respect to the reaction extent ξ is strictly positive, establishing an absolute mathematical guarantee that the forward reaction increases the reaction quotient.
+              </p>
+            </div>
+
+            <p className="font-serif">
+              By utilizing this strict foundation, we derived the exact mathematical conditions under which the qualitative Le Chatelier principle fails. When a reactant species <i>j</i> is added to an ideal gaseous system at constant temperature and pressure, the direction of the equilibrium shift is determined by the partial derivative of <i>Q<sub>x</sub></i> with respect to the added moles <i>n<sub>j</sub></i>:
+            </p>
+
+            <div className="bg-slate-900 text-slate-100 p-5 rounded-xl font-mono text-xs md:text-sm space-y-2 shadow-inner border border-slate-800 text-center">
+              <p className="text-amber-400 font-bold mb-1">The Gaseous Addition Derivative (JMC Part IV, Equation 16):</p>
+              <p className="text-sm md:text-base my-2 text-white">
+                {"(∂Q_x / ∂n_j)_{ζ, n_i} = Q_x * [ (ν_j - x_j * Δν) / n_j ]"}
+              </p>
+              <p className="text-slate-400 text-2xs md:text-xs">
+                Where ν_j is the stoichiometric coefficient, x_j is the mole fraction, and Δν is the change in the total stoichiometric sum of the reaction.
+              </p>
+            </div>
+
+            <p className="font-serif">
+              This derivative reveals a breathtaking truth: if both <i>ν<sub>j</sub></i> and <i>Δν</i> are positive (or both negative), and the initial mole fraction of the added reactant satisfies <strong><i>x<sub>j</sub> &gt; ν<sub>j</sub> / Δν</i></strong>, the derivative becomes positive. Under constant temperature and pressure, the system must shift to decrease <i>Q<sub>x</sub></i> in order to restore equilibrium, which requires a <strong>backward reaction</strong>. This backward reaction actually <strong>produces more of the added reactant <i>j</i></strong>!
+            </p>
+            <p className="font-serif">
+              No amount of verbal hand-waving or "intuition" can deduce this boundary. Only through rigorous calculus and the Schwarz inequality can we map the true topology of chemical systems, proving that qualitative chemical pedagogy is fundamentally naked without mathematical rigor.
+            </p>
+          </div>
+
+          {/* Section 4: Chemistry and Mathematics in Reasoning */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">IV.</span> Similarity Between Chemistry and Mathematics in Reasoning (2018)
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">化学和数学在逻辑推理中的相似性</span>
+            </h3>
+            <p className="font-serif">
+              The fundamental truth of chemistry is that it is not merely a taxonomical science of compiling and classifying experimental receipts. Ever since the establishment of quantum mechanics, the fundamental physical and mechanical problems of chemistry have been resolved. The future of chemistry lies in transforming it into a mathematically rigorous, deductive science. 
+            </p>
+            <p className="font-serif">
+              In our 2018 paper in <em>The Chemical Educator</em>: <br />
+              <strong>Ying Liu, Drew MGB, Yue Liu. Similarity Between Chemistry and Mathematics in Reasoning. <em>The Chemical Educator</em> 2018, 23: 231-236.</strong> <br />
+              We systematically demonstrated how complex, highly confusing chemical systems—such as the reactions between <strong>{"KAl(SO_4)_2"}</strong> and <strong>{"Ba(OH)_2"}</strong>—can be elegantly solved by decomposing them into a series of fundamental, simple reactions acting as "mathematical axioms." By logically reassembling these axioms under different stoichiometric constraints, we arrive at unassailable, unified solutions. Just as a complex mathematical proof is built on basic axioms, a complex chemical process is governed by fundamental theoretical sub-steps.
+            </p>
+          </div>
+
+          {/* Section 5: AI, Big Data, and the Epistemological Trap */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">V.</span> The Nobel Prize and the Epistemological Trap of "Alchemical" Big Data
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">人工智能诺奖对化学的启示：理论先于数据的硬道理</span>
+            </h3>
+            <p className="font-serif">
+              In recent years, the Nobel Prizes awarded for AI in chemistry have led to a dangerous misunderstanding. Many empirical researchers believe that chemical science can now bypass theoretical cognition entirely, relying on AI models to extract physical laws directly from massive datasets of unorganized experimental observations.
+            </p>
+            <p className="font-serif">
+              This is a monumental epistemological trap. AI is a powerful logic-processing engine, not a magical source of truth. If you only feed AI massive, unstructured empirical data, it cannot "悟" (inductively comprehend) the underlying physical theories of nature. If your theoretical starting point is incorrect, AI will merely accelerate the generation of flawed, superficial conclusions.
+            </p>
+            <p className="font-serif font-semibold text-amber-900 bg-amber-50/50 p-4 border-l-4 border-amber-500 rounded-r-lg">
+              "AI can only assist you if your theoretical cognition is correct and your mathematical logic is pristine. You must first logically and theoretically structure the experimental data before the AI can help you find the essential correlations. The future of chemistry does not lie in the brute-force 'alchemy' of compiling massive empirical datasets; it lies in the purification of our theoretical models through rigorous mathematical logic."
+            </p>
+          </div>
+
+          {/* Section 6: Video Script */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">VI.</span> Video Script: Our Other Papers — Lecture 3 Gaseous Chemical Equilibrium
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">其他文章第三讲 视频录制脚本</span>
+            </h3>
+            
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 font-sans space-y-4 text-xs md:text-sm text-gray-800">
+              <p className="font-bold text-amber-900 border-b border-amber-100 pb-2 uppercase tracking-wider">
+                [YouTube Video Script • Other Articles Lecture 3: The Gaseous Chemical Equilibrium Quadrology]
+              </p>
+
+              <div className="space-y-3">
+                <p className="font-bold text-slate-800">[00:00 - Introduction: The Rote-Learning Crisis in Science Pedagogy]</p>
+                <p className="italic text-gray-700">
+                  "Hello everyone, and welcome back to our lecture series. Today we begin Lecture 3 of our 'Other Papers' series, where we examine the mathematical foundations of gas-phase chemical equilibrium. There is a popular view in modern education that we should avoid mathematical proofs in chemistry, under the guise of keeping things simple so students don't get lost in the algebra."
+                </p>
+                <p className="italic text-gray-700">
+                  "But as we will show today, avoiding mathematical derivations is a superficial cop-out—what we call 'cat-burying-shit' pedagogy. When you hide the math, you force students into rote memorization, stripping chemistry of its logical beauty. Concepts that are built on mathematics must be taught through mathematics."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[02:30 - The JMC Quadrology & Dismantling Le Chatelier's Principle]</p>
+                <p className="italic text-gray-700">
+                  "Between 2012 and 2015, we published a series of four foundational papers in the Journal of Mathematical Chemistry. In these papers, we established a mathematically strict theoretical framework for gaseous equilibrium. Specifically, we tackled the glaring flaws of Le Chatelier's Principle under constant temperature and pressure."
+                </p>
+                <p className="italic text-gray-700">
+                  "Textbooks claim that adding a reactant always shifts the equilibrium to consume it. But we mathematically disproved this. In JMC Part IV, using the Schwarz inequality, we derived the Gaseous Shift Derivative, proving that if the added reactant is on the side with the larger stoichiometric coefficient, and its mole fraction exceeds the threshold of x_j &gt; ν_j/Δν, adding more reactant will actually trigger a backward shift, producing even more of that reactant!"
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[05:00 - AI & The Alchemical Fallacy of Raw Big Data]</p>
+                <p className="italic text-gray-700">
+                  "This brings us to a vital epistemological point regarding modern AI. Many empirical chemists believe that with big data and AI, we no longer need strict mathematical models—that we can just feed raw data to AI and let it discover the laws. This is a complete alchemical illusion."
+                </p>
+                <p className="italic text-gray-700">
+                  "AI cannot deduce essential theories from unstructured, raw empirical data if your theoretical assumptions are flawed. As we proved in our 2018 paper on the similarities between chemical and mathematical reasoning, you must first logically structure your data using sound, first-principles mathematics. AI can only assist you when your theoretical cognition is correct and your mathematical logic is rigorous."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[07:15 - Conclusion: Stay Humbler, Demand Mathematical Rigor]</p>
+                <p className="italic text-gray-700">
+                  "The take-home message of our JMC quadrology is simple: do not settle for verbal hand-waving. Demanding mathematical rigor is not 'overcomplicating' things—it is the only way to achieve genuine physical comprehension. Thank you for listening, question textbook authority, and stay tuned as we continue to purify scientific foundations through strict mathematical logic."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 7: YouTube Metadata Description */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
+              <span className="text-amber-600 font-mono">VII.</span> YouTube Video Description & Key Reference Metadata
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">YouTube 视频介绍与文献元数据</span>
+            </h3>
+            
+            <div className="bg-slate-900 text-slate-350 p-6 rounded-xl font-mono text-xs space-y-4 shadow-inner border border-slate-800">
+              <p className="text-white font-bold border-b border-slate-800 pb-2">
+                [YouTube Description Copy-Paste Area]
+              </p>
+              <p className="text-amber-400 font-bold">
+                Title: Other Articles Lecture 3: Purifying Chemical Equilibrium — The J. Math. Chem. Quadrology and the Epistemology of AI
+              </p>
+              <p className="text-gray-300">
+                In this third lecture of our series on 'Our Other Papers,' we analyze our groundbreaking four-part series published in the Journal of Mathematical Chemistry (2012–2015). We critique the qualitative shortcuts in modern chemistry education, which we label 'cat-burying-shit' pedagogy (小猫盖屎) that encourages superficial rote memorization. Using rigorous calculus and the Schwarz inequality, we mathematically deconstruct Le Chatelier's principle, deriving the exact conditions where adding a reactant shifts the equilibrium to produce even more of that reactant. Finally, we expose the epistemological trap of relying on raw experimental data and AI without strict theoretical logic, demonstrating that AI can only assist when your mathematical cognition is pristine.
+              </p>
+              <div className="border-t border-slate-800 pt-2 space-y-1">
+                <p className="text-white font-semibold">📌 KEY HIGHLIGHTS & TIMESTAMPS:</p>
+                <p>00:00 - Introduction: The superficial 'Cat-Burying-Shit' teaching methods</p>
+                <p>02:30 - The JMC Gaseous Equilibrium Quadrology and the Le Chatelier Fallacy</p>
+                <p>05:00 - Big Data & the Alchemical Trap: Why AI requires correct theoretical models first</p>
+                <p>07:15 - Conclusion: Emphasizing strict mathematical reasoning in chemical education</p>
+              </div>
+              <div className="border-t border-slate-800 pt-2">
+                <p className="text-white font-semibold">📚 KEY CITED LITERATURE & DATA:</p>
+                <p>1. J Math Chem Part I: https://doi.org/10.1007/s10910-012-0105-8</p>
+                <p>2. J Math Chem Part II: https://doi.org/10.1007/s10910-012-0109-4</p>
+                <p>3. J Math Chem Part III: https://doi.org/10.1007/s10910-014-0306-4</p>
+                <p>4. J Math Chem Part IV: https://doi.org/10.1007/s10910-015-0523-5</p>
+                <p>5. The Chemical Educator 2018: https://doi.org/10.1333/s00897182826a</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      )}
+
+      {activeArticle === "modernacademia" && (
+        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="modernacademia-article-text">
+          {/* Title Area */}
+          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
+            <span className="text-xs uppercase font-mono font-bold tracking-widest text-rose-700 bg-rose-50 px-2.5 py-1 rounded animate-pulse">
+              Essay AD • Our Other Papers: Lecture 4
+            </span>
+            <h1 className="text-2xl md:text-3xl font-extrabold text-rose-955 font-sans tracking-tight leading-tight">
+              The Theoretical Poverty of Modern Academia:<br />
+              <span className="text-xl md:text-2xl font-medium text-slate-700 block mt-2">
+                Unified Angular Relations, Textbook-Level Research, and the Epistemological Tragedy of the Funded Bureaucracy
+              </span>
+            </h1>
+            <p className="text-sm text-gray-400 font-mono">
+              By Ying Liu, Dr. Yue Liu, and Drew MGB • Companion Scientific Treatise • June 2026
+            </p>
+            <div className="text-xs text-rose-850 bg-rose-50 px-3 py-1 rounded border border-rose-100 inline-block font-sans font-semibold">
+              第四篇：现代科学界学术环境的贫瘠化（剖析晶体学倒易矢量与欧拉定理的统一、经典教科书定理的荒谬审稿与傻子科研精神）
+            </div>
+          </div>
+
+          <p className="font-serif">
+            Is the ultimate goal of science to make the complex simple, or is it to dress the simple in an impenetrable shroud of mystique to secure institutional funding? In a healthy scientific ecosystem, a theoretical work that unifies two seemingly disparate fields or simplifies a complex phenomenon to textbook-level clarity is celebrated as a triumph. 
+          </p>
+          <p className="font-serif">
+            In the modern corporate-academic complex, however, the opposite is true. Deep theoretical research that simplifies and clarifies phenomena is systematically devalued. Once a phenomenon is stripped of its mysteries and expressed in clean, simple mathematical logic, it loses its "upmarket" (高大上/上档次) prestige. It is dismissed as a mere "plaything" unfit for research grants, because modern academic authorities thrive on the perpetual accumulation of unexplainable experimental data—a massive alchemical industry designed to secure funding, chase institutional hats, and conceal a widespread, catastrophic intellectual decline.
+          </p>
+
+          {/* Section 1: The Crystallography-Euler Unification */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-900 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">I.</span> The Discovery of Hidden Unification: Reciprocal Lattices and Euler's Rotations
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">偶然发现中的必然：晶体学倒易矢量与欧拉旋转公式的数学大一统</span>
+            </h3>
+            <p className="font-serif">
+              In 2011, our team published a paper that exemplified the elegance of textbook-level theoretical unification:
+            </p>
+            <blockquote className="border-l-4 border-rose-500 pl-4 italic text-gray-700 bg-rose-50/30 p-3 rounded-r-lg text-xs md:text-sm font-sans">
+              <strong>Ying Liu, Bihui Liu, Yue Liu, Michael G. B. Drew. Correlations between two sets of angular relation equations. <em>Journal of Mathematical Chemistry</em> 2011, 49(9): 2089-2108.</strong>
+            </blockquote>
+            <p className="font-serif">
+              We noticed a striking, almost haunting similarity between two sets of equations used in completely separate disciplines:
+            </p>
+            <p className="font-serif">
+              The first is the set of <strong>angular relationships between direct and reciprocal vectors in crystallography (Equations 4–6)</strong>, which define how angles in real space relate to angles in reciprocal space:
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-4 rounded-xl font-mono text-xs md:text-sm space-y-1 shadow-inner border border-slate-800">
+              <p>{"cos α* = (cos β cos γ - cos α) / (sin β sin γ)      [Crystallography Eq. 4]"}</p>
+              <p>{"cos β* = (cos γ cos α - cos β) / (sin γ sin α)      [Crystallography Eq. 5]"}</p>
+              <p>{"cos γ* = (cos α cos β - cos γ) / (sin α sin β)      [Crystallography Eq. 6]"}</p>
+            </div>
+            <p className="font-serif">
+              The second is the set of <strong>relationships between rotations as specified in Euler's rotation theorem (Equations 14–16)</strong>, describing the kinematics of rigid bodies:
+            </p>
+            <div className="bg-slate-900 text-slate-100 p-4 rounded-xl font-mono text-xs md:text-sm space-y-1 shadow-inner border border-slate-800">
+              <p>These relate the orientation angles and Euler angles in three dimensions, showing the exact same algebraic ratios.</p>
+            </div>
+            <p className="font-serif">
+              Although direct/reciprocal vectors and Euler rotation matrices are treated as unrelated topics and utilize completely different symbols and physical definitions, we proved using the <strong>cosine rule for spherical triangles</strong> that they are, in fact, <strong>the exact same mathematical entity</strong>—different sides of the same geometric coin. Underneath the superficial differences in terminology, the universe operates on unified mathematical structures.
+            </p>
+          </div>
+
+          {/* Section 2: "Upmarket" Academic Garbage */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">II.</span> "Upmarket" Academic Garbage vs. "Textbook-Level" Breakthroughs
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">“不上档次”的教科书研究与“高大上”的学术垃圾</span>
+            </h3>
+            <p className="font-serif">
+              Solving such foundational, textbook-level questions is the very definition of scientific progress—it clarifies our core models and purifies our educational material. However, modern researchers view such work with patronizing disdain: <i>"This kind of stuff is fine to play with in your own spare time, but it's not high-class (不上档次). It can't be treated as project research, and no funding agency would ever authorize project money for this."</i>
+            </p>
+            <p className="font-serif">
+              What, then, constitutes "high-class" research in the eyes of contemporary academia? It is the endless compilation of empirical datasets and highly complex, mysterious experimental phenomena that no one actually understands. These uninterpreted logs are wrapped in prestige, decorated with expensive instrument telemetry, and published in top journals (CNS/tier-1) to secure multimillion-dollar project grants.
+            </p>
+            <p className="font-serif">
+              But these papers are not genuine science; they are merely glorified <strong>"experimental reports" (实验报告)</strong>. They lack any intellectual depth, offer zero theoretical enrichment, and fail to advance human understanding. Yet, this is the only research that modern institutions consider "upmarket" enough to justify funding, and it is the only path to becoming an "academic authority."
+            </p>
+          </div>
+
+          {/* Section 3: The Intellectual Decline of the "Academic Authority" */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">III.</span> The Intellectual Decline of the Funded Authority: The Impedance Matching Failure
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">项目帽子的温床、理论水平的荒原：阻抗匹配谬误的活标本</span>
+            </h3>
+            <p className="font-serif">
+              Because human energy is finite, a scientist who spends their entire life playing administrative games—writing grant proposals, networking, lobbying, and chasing academic "hats" and titles—will inevitably see their theoretical capacity collapse. They become administrative giants but intellectual pygmies.
+            </p>
+            <p className="font-serif font-semibold text-slate-800">
+              This explains the central thesis of our landmark SSRN paper:
+            </p>
+            <blockquote className="border-l-4 border-rose-500 pl-4 italic text-gray-700 bg-rose-50/30 p-3 rounded-r-lg text-xs md:text-sm font-sans">
+              <strong>Ying Liu, Yue Liu. The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research. 2025. SSRN: <a href="https://ssrn.com/abstract=5463155" target="_blank" rel="noreferrer" className="text-rose-600 underline">https://ssrn.com/abstract=5463155</a></strong>
+            </blockquote>
+            <p className="font-serif">
+              This widespread, funded theoretical poverty explains why a massive crowd of highly prestigious "academic authorities," editors, and reviewers was utterly unable to discover or correct the foundational errors in the <strong>electromagnetic impedance matching theory</strong>. For over fifty years, the scientific establishment taught a wave-reflection model that violates basic wave superposition principles. 
+            </p>
+            <p className="font-serif">
+              And yet, this monumental error did not require quantum mechanics or supercomputer simulations to expose; it was corrected using nothing more than <strong>junior high school algebra</strong> and the <strong>wave superposition principle (波的叠加原理)</strong> taught to university undergraduates. The fact that the entire academic establishment missed this for half a century is absolute, mathematical proof of widespread intellectual decline in funded contemporary research.
+            </p>
+          </div>
+
+          {/* Section 4: The Tragedy of Peer Review */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">IV.</span> The Tragedy of Peer Review: The European Journal of Physics Rejection
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">欧洲物理学报（EJP）的审稿笑话与被捧上神坛的同行评审</span>
+            </h3>
+            <p className="font-serif">
+              This scientific gatekeeping and intellectual decline are laid bare in our peer review experience when submitting our work on theoretical foundations:
+            </p>
+            <blockquote className="border-l-4 border-rose-500 pl-4 italic text-gray-700 bg-rose-50/30 p-3 rounded-r-lg text-xs md:text-sm font-sans">
+              <strong>Ying Liu, Bihui Liu, Yue Liu, Michael G. B. Drew. Correlations between two sets of angular relation equations. <em>Journal of Mathematical Chemistry</em> 2011, 49(9): 2089-2108. doi: <a href="https://doi.org/10.1007/s10910-011-9875-7" target="_blank" rel="noreferrer" className="text-rose-600 underline">10.1007/s10910-011-9875-7</a></strong>
+            </blockquote>
+            <p className="font-serif">
+              When we submitted this treatise to the <strong>European Journal of Physics (EJP)</strong>, we received two reviews. The first-round reviewer was highly supportive, writing that although the manuscript was mathematically heavy, physics is a discipline that fundamentally requires math, and recommended acceptance.
+            </p>
+            <div className="bg-rose-50 border-l-4 border-rose-500 rounded-r-lg p-4 my-3 font-serif space-y-2 text-rose-950 text-xs md:text-sm">
+              <p className="font-bold">The Gatekeeper's Flawed Objection (EJP Reviewer 2):</p>
+              <blockquote className="italic pl-2 border-l border-rose-300">
+                "I searched the literature for 'Euler's theorem' and found many different formulations. However, the specific version of Euler's theorem presented in this manuscript is nowhere to be found. Therefore, the manuscript's premise is unsupported and must be rejected."
+              </blockquote>
+              <p className="pt-1">
+                This is a shocking, embarrassing display of incompetence by an official scientific reviewer. The specific version of Euler's rotation theorem we used is not some obscure, self-invented formula; it is a <strong>standard, classical textbook formulation</strong> taught in every advanced classical mechanics course on Earth!
+              </p>
+              <p className="font-serif font-bold">
+                It can be found explicitly in the most famous classical mechanics bible in history:
+              </p>
+              <p className="font-mono text-center text-xs md:text-sm py-1.5 bg-rose-100/50 rounded border border-rose-250 inline-block px-3 mx-auto block w-fit">
+                <strong>H. Goldstein, C. Poole, J. Safko, <em>Classical Mechanics</em>, 3rd edn (Pearson Education, Inc., New Jersey, 1996), pp. 155–161.</strong>
+              </p>
+              <p className="pt-1">
+                Because the reviewer's entire research career was built on skimming superficial journal papers rather than mastering textbook-level theoretical foundations, they were utterly blind to a classical mechanics formula that has been in print for decades. When the blind lead the blind, truth is rejected as an "unsupported novelty."
+              </p>
+            </div>
+            <p className="font-serif">
+              This experience exposes the true nature of what the academic world dogmatically puts on a pedestal: <strong>"peer review" (同行评审)</strong>. Elite, "upmarket" journals like the <i>European Journal of Physics</i> self-righteously brand themselves as strictly refereed bastions of scientific quality. In reality, peer review is a deeply flawed, bureaucratized gatekeeping mechanism. The review comments are frequently incompetent, and editors—lacking the time or deep theoretical competence to judge the math themselves—almost always blindly adopt these incorrect, superficial reviewer opinions, rejecting ground-breaking truth to preserve institutional complacency.
+            </p>
+          </div>
+
+          {/* Section 5: The Spirit of the "Fool" */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">V.</span> Textbook-Level Research as a Badge of Honor: Why Only Fools Pursue Deep Science
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">教科书水平：人类最伟大成就的褒义词与科研中的逆淘汰</span>
+            </h3>
+            <p className="font-serif">
+              In a rational intellectual society, a <strong>"textbook-level" (教科书水平)</strong> breakthrough is the highest form of praise. Only the most foundational, mathematically rigorous, and beautiful discoveries—the absolute pinnacle of human understanding—have the privilege of being written into classical textbooks and passed down through generations. The vast, overwhelming majority of contemporary journal articles have absolutely no qualification to ever be mentioned in a textbook; they are transient noise, destined to be forgotten.
+            </p>
+            <p className="font-serif">
+              Yet, in the inverted, corporate-bureaucratic logic of modern science, "textbook-level research" has been twisted into a patronizing synonym for "low-tier/primitive" (low) work. Authorities look down on textbook-level theoretical derivations because they do not require multimillion-dollar experimental machinery or trendy, complex jargon. They prefer "high-class" (高大上/上档次) experimental reports that accumulate messy, uninterpretable data—phenomena that are kept intentionally complicated so that research funding never dries up.
+            </p>
+            <p className="font-serif font-semibold text-rose-900 bg-rose-50/50 p-4 border-l-4 border-rose-500 rounded-r-lg">
+              "To simplify what is complex, to unify what is fragmented, and to achieve textbook-level clarity is the true mission of science. But because simplifying a phenomenon destroys its financial mystique, doing deeply honest theoretical work is something only a 'fool' would do today. You will receive no grants, you will face endless gatekeeping by editors who blindly rubber-stamp incompetent peer reviews, and you will be mocked by title-chasing authorities. Yet, it is precisely because we were willing to be 'fools'—to ignore the funding games and focus on unyielding textbook-level mathematical truth—that we, and not those prestigious 'authorities,' succeeded in exposing and overturning the half-century-old impedance matching fallacy."
+            </p>
+          </div>
+
+          {/* Section 6: Video Script */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">VI.</span> Video Script: Our Other Papers — Lecture 4 The Academic Environment of Modern Science
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">其他文章第四讲 视频录制脚本</span>
+            </h3>
+            
+            <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 font-sans space-y-4 text-xs md:text-sm text-gray-800">
+              <p className="font-bold text-rose-900 border-b border-rose-100 pb-2 uppercase tracking-wider">
+                [YouTube Video Script • Other Articles Lecture 4: The Theoretical Poverty of Modern Academia]
+              </p>
+
+              <div className="space-y-3">
+                <p className="font-bold text-slate-800">[00:00 - Intro & The Paradox of Simple Science]</p>
+                <p className="italic text-gray-700">
+                  "Hello everyone, and welcome to Lecture 4 of our 'Other Papers' series. In previous lectures, we saw how we corrected crystallography formulas and chemical thermodynamics. Today, we turn our gaze inward to examine the very environment where modern scientific research is conducted. We are going to discuss a deeply uncomfortable truth: why modern academia is characterized by a widespread, funded intellectual decline."
+                </p>
+                <p className="italic text-gray-700">
+                  "True science is supposed to make complex things simple. But in modern corporate academia, simplifying a phenomenon is a financial death sentence. If you solve a problem completely and make the theory simple, your work's perceived prestige drops, you lose your funding, and you can't publish. Today, we show you why only 'fools' do deep science—and why those fools are the only ones who actually discover the truth."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[02:15 - Unified Angular Relations & The Dismissal of Textbook Research]</p>
+                <p className="italic text-gray-700">
+                  "Let's look at a concrete example of textbook-level unification. In 2011, we published a paper in the Journal of Mathematical Chemistry where we proved that the angular relations between direct and reciprocal vectors in crystallography are mathematically identical to Euler's rotation equations. Two separate fields, using different symbols and terms, but underneath, they are the exact same geometric entity governed by the cosine rule of the spherical triangle."
+                </p>
+                <p className="italic text-gray-700">
+                  "This is textbook-level progress. But modern research authorities dismiss this, saying it is 'not high-class' because it doesn't require millions of dollars in instrument grants. Instead, they reward alchemical experimental reports that pile up unexplainable data. This creates academic authorities who have massive project budgets but incredibly poor theoretical capabilities."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[04:45 - The EJP Reviewer Scandal & Goldstein's Classical Mechanics]</p>
+                <p className="italic text-gray-700">
+                  "This theoretical poverty is illustrated by our experience with the European Journal of Physics. When we submitted our paper on theoretical foundations, a referee rejected it, claiming that 'the specific Euler's theorem used in this manuscript cannot be found in the literature.' This is a mind-boggling display of ignorance! This exact Euler's theorem is a standard textbook formula taught worldwide, present in the famous Classical Mechanics textbook by Goldstein, Poole, and Safko on pages 155 to 161!"
+                </p>
+                <p className="italic text-gray-700">
+                  "Because modern peer reviewers spend their lives scanning superficial journal letters rather than studying deep textbook foundations, they are completely illiterate in classical physics. They reject established truths because they've never read the classics."
+                </p>
+              </div>
+
+              <div className="space-y-3 border-t border-gray-200 pt-3">
+                <p className="font-bold text-slate-800">[07:10 - Outro: The Triumph of the Fool]</p>
+                <p className="italic text-gray-700">
+                  "This explains why a massive crowd of highly funded academic authorities was completely unable to find the wave superposition errors in electromagnetic impedance matching theory for fifty years—an error we corrected using junior high school algebra. When the establishment is busy playing funding games, truth belongs to the fools who are willing to do the hard, unfunded work of deep theory. Thank you for listening, study the textbooks, and join us in demanding intellectual honesty over funded bureaucracy."
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 7: YouTube Metadata Description */}
+          <div className="space-y-4">
+            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+              <span className="text-rose-600 font-mono">VII.</span> YouTube Video Description & Key Reference Metadata
+              <span className="text-xs font-sans text-gray-400 font-normal ml-auto">YouTube 视频介绍与文献元数据</span>
+            </h3>
+            
+            <div className="bg-slate-900 text-slate-350 p-6 rounded-xl font-mono text-xs space-y-4 shadow-inner border border-slate-800">
+              <p className="text-white font-bold border-b border-slate-800 pb-2">
+                [YouTube Description Copy-Paste Area]
+              </p>
+              <p className="text-rose-400 font-bold">
+                Title: Other Articles Lecture 4: The Theoretical Poverty of Modern Academia — The Gatekeepers and the Fool's Spirit
+              </p>
+              <p className="text-gray-300">
+                In this fourth lecture of our series on 'Our Other Papers,' we dissect the highly stagnant intellectual environment of contemporary science. We share our 2011 paper in the Journal of Mathematical Chemistry which proved the mathematical identity between crystallography's reciprocal vectors and Euler's rotation theorem. We critique why modern academic institutions devalue 'textbook-level' theoretical breakthroughs in favor of 'upmarket' (高大上) alchemical experimental reports that fail to enrich our theoretical understanding. We expose our peer-review experience at the European Journal of Physics, where an official reviewer rejected our manuscript because they were illiterate in standard textbook Euler theorems present in Goldstein's Classical Mechanics. Finally, we discuss why the half-century-old impedance matching fallacy was overturned by 'fools' like us, rather than the funded, title-chasing academic establishment.
+              </p>
+              <div className="border-t border-slate-800 pt-2 space-y-1">
+                <p className="text-white font-semibold">📌 KEY HIGHLIGHTS & TIMESTAMPS:</p>
+                <p>00:00 - Introduction: The reverse selection of modern funded academia</p>
+                <p>02:15 - Unifying Crystallography Lattices and Euler's Rotation Theorem (JMC 2011)</p>
+                <p>04:45 - The EJP Reviewer Scandal: Literate in Letters, Illiterate in Textbooks</p>
+                <p>07:10 - Why only 'Fools' overturn half-century-old fallacies like Impedance Matching</p>
+              </div>
+              <div className="border-t border-slate-800 pt-2">
+                <p className="text-white font-semibold">📚 KEY CITED LITERATURE & DATA:</p>
+                <p>1. Journal of Mathematical Chemistry 2011 Article: https://doi.org/10.1007/s10910-011-9875-7</p>
+                <p>2. SSRN 5463155 (Theoretical Poverty of Modern Academia): https://ssrn.com/abstract=5463155</p>
+                <p>3. SSRN 5465615 (Primacy of Theoretical Foundations): https://ssrn.com/abstract=5465615</p>
+                <p>4. Textbook: H. Goldstein, Classical Mechanics, 3rd edn, pp. 155-161.</p>
               </div>
             </div>
           </div>
