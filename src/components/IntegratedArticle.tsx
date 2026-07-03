@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { BookOpen, Award, CheckCircle2, Copy, FileText, Share2, CornerRightDown, BookMarked, HelpCircle, ShieldX, Sparkles } from "lucide-react";
 import ItifCritiqueEssay from "./ItifCritiqueEssay";
 import RepresentativeEssay from "./RepresentativeEssay";
+import AuthorityParadoxEssay from "./AuthorityParadoxEssay";
+import CollectiveSupremacyEssay from "./CollectiveSupremacyEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -67,6 +69,8 @@ export default function IntegratedArticle() {
             activeArticle === "academicpublishing" ? "academicpublishing-article-text" :
             activeArticle === "itifcritique" ? "itifcritique-article-text" :
             activeArticle === "representative" ? "representative-article-text" :
+            activeArticle === "authorityparadox" ? "authority-article-text" :
+            activeArticle === "collectivesupremacy" ? "collectivesupremacy-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -502,6 +506,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-emerald-500 animate-pulse" />
             Essay AH: The "Representative Works" Absurdity
+          </button>
+          <button
+            onClick={() => setActiveArticle("authorityparadox")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "authorityparadox"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-authorityparadox"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay AI: Mainstream Obstruction & Authority Paradox
           </button>
         </div>
       </div>
@@ -2029,75 +2045,7 @@ export default function IntegratedArticle() {
       )}
 
       {activeArticle === "collectivesupremacy" && (
-        <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="collectivesupremacy-article-text">
-          {/* Title Area */}
-          <div className="text-center space-y-3 pb-6 border-b border-gray-100 max-w-3xl mx-auto">
-            <h1 className="text-2xl md:text-3xl font-extrabold text-gray-950 font-sans tracking-tight leading-tight">
-              The Fallacy of Collective Supremacy: How Teamwork Ideology and Student-Centered Education Undermine Scientific Progress
-            </h1>
-            <p className="text-sm text-gray-400 font-mono">
-              By Dr. Yue Liu • Corresponding Academic Treatise (Essay L) • October 2025
-            </p>
-            <div className="flex justify-center gap-4 text-xs font-sans text-gray-450 font-medium">
-              <span>SSRN: https://ssrn.com/abstract=5664450</span>
-              <span>Substack: https://yueliusd.substack.com/p/the-fallacy-of-collective-supremacy</span>
-            </div>
-          </div>
-
-          {/* Section 1 */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
-              <span className="text-rose-655 font-mono">I.</span> The Ideological Mirage of Team Scientific Breakthroughs
-            </h3>
-            <p className="font-serif">
-              In the contemporary scientific community, peer reviewers and university administrators heavily promote the doctrine of "teamwork cooperation." They assert that while the individual "lone genius" was suitable for Isaac Newton's era, modern science has grown too complex and advanced for single researchers. Consequently, only massive consortia and highly integrated teams can drive innovations. 
-            </p>
-            <p className="font-serif">
-              Yet, this narrative is completely contradicted by history and contemporary trends. As funding, headcount, and collaboration in scientific literature have increased exponentially over the past 50 years, the rate of genuine, disruptive scientific breakthroughs has actually stalled. We do not see an acceleration in fundamental insights; instead, we find ourselves in an era of minor, superficial iterations.
-            </p>
-            <p className="font-serif">
-              The truth is that Committee consensus and teamwork serve as a shelter for mediocrity. High-ranking academic authorities, who often gain their positions using superficial "SCI publishing tricks" rather than actual theoretical understanding, utilize large collaborations as a shield. Inside a massive team, no single individual is solely accountable for the physical truth of the theory. The group-agreed consensus masks their lack of fundamental competence, and the sheer scale of the team acts as a tool of intimidation to silence anyone who dares to point out their errors.
-            </p>
-          </div>
-
-          {/* Section 2 */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
-              <span className="text-rose-645 font-mono">II.</span> Systemic Darkness: When Scientific Institutions Rot in Every Pore
-            </h3>
-            <p className="font-serif">
-              Why has an error as low-level and elementary as "impedance matching theory"—which violates basic undergraduate-level wave superposition and boundary conditions—managed to dominate the global microwave wave-absorbing field for over half a century?
-            </p>
-            <p className="font-serif">
-              If academic research were dark in only one spot, the bright light of truth from elsewhere would easily expose and correct the defect. But modern academia is fully and systematically corrupted; it is dark in "every single pore." 
-            </p>
-            <p className="font-serif">
-              Consider the feedback loop of this darkness: 
-              First, researchers prioritize high-impact journals over timeless textbooks because the textbooks are "too difficult to read" and do not help with promotion. Since they stop reading textbooks, their theoretical competence collapses, rendering them unable to comprehend standard physics. 
-              Second, peer reviewers and editors form self-protecting cartels. Any criticism of their past mistakes is rejected, not because the criticism is mathematically incorrect, but because the reviewers lack the undergraduate-level competency to understand standard wave superposition. 
-              Third, the "teamwork ideology" is weaponized. When an individual whistleblower demonstrates with junior-high algebra and undergraduate physics that the authorities' foundational theories are mathematically false, the authorities respond not by refuting the algebra, but by retreating behind the shield of "consensus" and leveraging their large teams to retaliate and bury the critique.
-            </p>
-            <p className="font-serif">
-              When the entire system is dark, the inhabitants lose all awareness of light. They believe they are at the pinnacle of innovation, when they are simply recycling low-level, high-impact mathematical errors in a self-concluding loop of peer-agreed nonsense.
-            </p>
-          </div>
-
-          {/* Section 3 */}
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-950 border-b border-gray-100 pb-1.5">
-              <span className="text-rose-645 font-mono">III.</span> Solo Thinkers and the Betrayal of Mainstream Consensus
-            </h3>
-            <p className="font-serif">
-              History's most profound scientific advancements were not achieved by committees or collaborative consensus. They were driven by individuals who had the intellectual courage to betray the mainstream consensus, embrace physical facts, and rebuild theoretical frameworks from the ground up.
-            </p>
-            <p className="font-serif">
-              In our preprints on SSRN, we have demonstrated that a single individual, armed with basic classical textbooks and simple mathematics, can completely overthrow a 50-year-old error that dominated a multi-billion-dollar scientific discipline. In the court of physical reality, there is no room for social "hedging" or "expert agreements." A formula is either physically true or physically false. A thousand compromised committee members agreeing on a mistake does not make it true; a single individual showing the mathematical error using wave superposition makes the entire consensus worthless.
-            </p>
-            <p className="font-serif">
-              We must reject the dogma of "teamwork ideology" and "student-centered education" that prioritize group conformity over raw theoretical competence, and return to the rigorous path of individual responsibility and foundational physical truths.
-            </p>
-          </div>
-        </article>
+        <CollectiveSupremacyEssay />
       )}
 
       {/* Article 13: Planck & AI */}
@@ -6676,6 +6624,10 @@ export default function IntegratedArticle() {
 
       {activeArticle === "representative" && (
         <RepresentativeEssay />
+      )}
+
+      {activeArticle === "authorityparadox" && (
+        <AuthorityParadoxEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
