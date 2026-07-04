@@ -5,9 +5,11 @@ import RepresentativeEssay from "./RepresentativeEssay";
 import AuthorityParadoxEssay from "./AuthorityParadoxEssay";
 import CollectiveSupremacyEssay from "./CollectiveSupremacyEssay";
 import PublishingConflictEssay from "./PublishingConflictEssay";
+import PeerReviewDeterrenceEssay from "./PeerReviewDeterrenceEssay";
+import HistoryWillJudgeEssay from "./HistoryWillJudgeEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -73,6 +75,8 @@ export default function IntegratedArticle() {
             activeArticle === "authorityparadox" ? "authority-article-text" :
             activeArticle === "collectivesupremacy" ? "collectivesupremacy-article-text" :
             activeArticle === "publishingconflict" ? "publishingconflict-article-text" :
+            activeArticle === "peerreviewdeterrence" ? "peerreviewdeterrence-article-text" :
+            activeArticle === "historywilljudge" ? "historywilljudge-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -532,6 +536,30 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
             Essay AJ: Publishing Conflict of Interest
+          </button>
+          <button
+            onClick={() => setActiveArticle("peerreviewdeterrence")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "peerreviewdeterrence"
+                ? "bg-rose-950 text-white shadow-sm"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-950"
+            }`}
+            id="toggle-article-peerreviewdeterrence"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-500 animate-pulse" />
+            Essay AK: Peer Review Deterrence
+          </button>
+          <button
+            onClick={() => setActiveArticle("historywilljudge")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "historywilljudge"
+                ? "bg-red-955 text-white shadow-sm"
+                : "text-red-900 hover:bg-red-50 hover:text-red-955"
+            }`}
+            id="toggle-article-historywilljudge"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-red-500 animate-pulse" />
+            Essay AL: History Will Judge
           </button>
         </div>
       </div>
@@ -6646,6 +6674,14 @@ export default function IntegratedArticle() {
 
       {activeArticle === "publishingconflict" && (
         <PublishingConflictEssay />
+      )}
+
+      {activeArticle === "peerreviewdeterrence" && (
+        <PeerReviewDeterrenceEssay />
+      )}
+
+      {activeArticle === "historywilljudge" && (
+        <HistoryWillJudgeEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -2662,6 +2662,482 @@ We invite academic reviews and critical peer discussions:
 
 #WaveMechanics #MicrowaveAbsorption #EnergyConservation #AmplitudeParadox #YueLiu #ComplexImpedance #TransmissionLineTheory #Electromagnetics #MaterialsChemistryAndPhysics #PeerReviewCrisis #PhysicsTruth`;
 
+  const youtubeScriptText28 = `[SCENE 1: THE CORROSION MYSTERY & PASSIVATION FILM DOGMA | 第一幕：金属腐蚀之谜与固化的钝化膜教条]
+[Visual: A glossy, animated diagram showing a piece of iron in acidic solution, with green Fe2+ ions escaping. Then, a dense grey layer labeled "Fe3O4 Passivation Film (致密钝化膜)" forms on the surface, stopping the escape. Text appears: "CLASSICAL THEORY: PASSIVATION FILM PROTECTS METAL". Cut to a hand holding a textbook (Corrosion Engineering) being marked with a big red question mark.]
+[Sound: Sound of metal sizzling and corroding, followed by an ominous digital alarm tone.]
+
+[VOICEOVER]
+"Welcome to this lecture on electrochemical polarization. For decades, electrochemists and material protection engineers have lived under a absolute dogma: the Passivation Film Theory. 
+
+According to standard textbooks, when iron undergoes anodic polarization, the current density suddenly drops to almost zero at a certain potential because a dense, protective, nanometer-thin oxide layer—such as magnetite or ferric oxide—is formed on the surface, blocking further oxidation. This passivation theory became the supreme gospel of metal protection. 
+
+But is this picture physically true? Or have we merely accepted a convenient fiction because we are too lazy to look closer?"
+
+“欢迎来到电化学极化专题。数十年来，电化学家和金属保护工程师们一直生活在一个绝对的教条之下：钝化膜理论。
+
+根据经典教科书的解释，当铁发生阳极极化时，由于表面生成了一层致密的、纳米级厚度的氧化物薄膜（如四氧化三铁或三氧化二铁），从而阻碍了金属的进一步氧化，导致电流密度在到达特定电位后急剧降到接近于零。这一钝化理论成为了金属防护界的至高福音。
+
+然而，这一物理图景真的是真实的吗？还是说，我们仅仅因为懒得深究，就接受了一个看似完美的虚构故事？”
+
+
+[SCENE 2: THE REPEATED SCAN ANOMALY | 第二幕：无可辩驳的反证——重新扫描时的曲线重现]
+[Visual: A real-time polarization curve plot. The voltage sweeps forward, the current climbs, peaks, drops (passivation region), and then transpassivates. The scanner sweeps *again* immediately from low voltage. Instead of zero current (as expected if a permanent, dense passivation film was formed), the curve repeats *perfectly* along the exact same path!]
+[Sound: The sound of a pen squeaking on a whiteboard, followed by a fast electronic beep.]
+
+[VOICEOVER]
+"In our landmark paper published in the Journal of Chemical Education (2013, 90, 76-81), we revisited iron's anodic polarization curves and discovered something extraordinary: when we rescanned the sample immediately, the polarization curve repeated *perfectly*. 
+
+Let's think about this with simple, uncompromising logic. If the traditional explanation were correct—if a dense, stable oxide passivation film indeed formed and blocked the metal surface—then a subsequent rescan should show zero or negligible current right from the start. The film is already there, protecting the metal. 
+
+But it doesn't! As soon as the voltage drops back to low values, the current flows again, and as we increase the voltage, the current climbs, peaks, and gets suppressed at the exact same potential difference. The process is completely reversible and repeatable. 
+
+This proves that the suppression of current is not caused by the formation of a dense, permanent physical oxide film. It is a dynamic state where current is suppressed by the electric potential difference itself. As soon as that potential drops, the suppression vanishes instantly."
+
+“在我们在《Journal of Chemical Education》（2013, 90, 76-81）上发表的里程碑式论文中，我们重新审视了铁的阳极极化曲线，并发现了一个极其惊人的现象：当我们立即对样品进行重新扫描时，极化曲线居然可以**完美重现和重复**！
+
+让我们用最纯粹、不妥协的逻辑来思考这个问题。如果传统的解释是正确的——如果表面确实生成了一层致密、稳定的氧化物钝化膜并彻底封锁了金属——那么第二次重新扫描时，从低电压开始就应该几乎没有电流。因为钝化膜已经在那儿了，金属已经被保护起来了。
+
+但实验结果完全相反！只要电压一回到低位，电流就立即重新恢复流动；而随着电压再次升高，电流同样攀升、见顶，并在完全相同的电位差处被抑制。整个过程是完全可逆、可重复的！
+
+这铁一般地证明了：电流的抑制绝不是因为生成了什么致密的、永久性的物理氧化物钝化膜，而是一种由电位差本身动态调控和抑制电流的暂态物理状态。只要电位差一减小，这种抑制作用就瞬间烟消云散。”
+
+
+[SCENE 3: CARGO CULT SCIENCE IN THE LAB | 第三幕：学术界的集体失明——草包族科学的现实写照]
+[Visual: Faceless scientists in white coats looking at a computer screen showing the perfectly repeating curves. Instead of celebrating, they look nervous. One scientist drags the repeating curve into a trash folder labeled "ERROR". Cut to Richard Feynman's quote on screen: "If it disagrees with experiment, it is wrong. But what if it disagrees with consensus?"]
+[Sound: Soft, somber violin melody playing in the background.]
+
+[VOICEOVER]
+"This repeating scan phenomenon is so simple to observe that we are certainly not the first to have seen it. Yet, before our paper, there was virtually zero mention of this in the literature. Why? 
+
+Because of what Richard Feynman famously called Cargo Cult Science. 
+
+When modern researchers find experimental results that don't fit the established, textbook passivation film theory, they don't question the theory. Instead, they assume they did something wrong in the lab. They think, 'My cell must be leaking, or my electrode was contaminated,' and they throw the data away. 
+
+They ignore any results that contradict the prevailing consensus, treating anomalies as personal mistakes to preserve the cozy, unchallenged illusion of the textbook dogma. They would rather believe their own hands are broken than admit that the textbook is wrong."
+
+“这种扫描重复的现象如此简单、如此容易观察，我们绝对不是世界上第一个看到它的人。然而，在我们的论文发表之前，文献里对此几乎只字未提。这是为什么？
+
+因为这就是理查德·费曼所痛斥的‘草包族科学’（Cargo Cult Science）。
+
+当现代科研人员发现实验结果与公认的、写在教科书里的钝化膜理论不符时，他们从不怀疑理论本身。相反，他们本本能地认为自己在实验室里做错了。他们会想：‘肯定是我的电解池漏电了，或者是我的电极被污染了’，然后随手就把这宝贵的数据扔进了垃圾桶。
+
+他们忽略任何与流行共识相冲突的结果，把客观的异常数据当做个人的操作失误，以此来维护教科书教条那温暖、舒适、不容挑战的幻觉。他们宁可相信是自己的双手做错了，也不愿承认是神圣的教科书写错了。”
+
+
+[SCENE 4: THE LOW THEORETICAL LEVEL OF ACADEMIA | 第四幕：现代学术界的理论贫困——缺乏独立思考的科研机器]
+[Visual: An academic assembly line. Scientists with graduation caps running on giant hamster wheels labeled "SCI PAPER MACHINE". At the center, a golden throne with the words "TEXTBOOK CONSENSUS" is guarded by anonymous reviewers.]
+[Sound: Industrial factory stamping sounds transition into a solo cello note.]
+
+[VOICEOVER]
+"This systemic blindness is a direct indicator of the low theoretical level of modern academic researchers. 
+
+Most scientists today are trained not as independent thinkers, but as high-tech technicians. They excel at running advanced, expensive characterization machines, but lack the theoretical capacity to audit the thermodynamic and kinetic equations they rely on. They run away from raw physics and mathematics, seeking shelter under the umbrella of consensus. 
+
+Science progress depends on treating anomalies not as errors to be hidden, but as seismic faults that expose the cracks in our understanding. By proving that the anodic polarization curve of iron is fully repeatable and reversibly potential-controlled, we have shown that passivation is a dynamic, kinetic equilibrium state, not a simple permanent oxide barrier. 
+
+We must reject the copy-paste habits of cargo cult science, restore independent, critical auditing to our laboratories, and have the courage to trust our data over textbooks."
+
+“这种系统性的集体盲区，正是现代学术界研究人员理论水平低下、缺乏独立思辨能力的直接体现。
+
+今天的绝大多数科研人员，并不是作为独立思考的学者被培养出来的，而是作为高科技流水线上的操作工。他们极其擅长运行那些昂贵、复杂的表征仪器，却极度缺乏对他们赖以生存的热力学和动力学方程进行底层数理审计的能力。他们害怕直面纯粹的物理与数学，只求在‘共识’的庇护伞下混得安稳。
+
+科学的真正进步，取决于我们将异常数据视为暴露我们认知裂缝的‘地震带’，而不是需要被掩盖的错误。通过严格证明铁的阳极极化曲线是完全可重复、可逆地受电位差调控，我们揭示了钝化本质上是一个动态的、动力学的平衡状态，而非简单的永久性氧化物屏障。
+
+我们必须告别‘草包族科学’的盲目跟风，让独立、批判性的底层审计重新回到实验室，并拥有在无可辩驳的数据面前，敢于质疑经典教条的科学勇气。”
+
+
+[SCENE 5: THE PEDAGOGICAL REVOLUTION | 第五幕：教育的真谛——继承重于盲目创新]
+[Visual: A split screen. On the left, students study classic treatises with high concentration, mastering fundamental calculations. On the right, students are pushed into empty labs to produce "innovations," stressed, copy-pasting code or manipulating figures on a screen. Text highlights Section 3 of the Supporting Information: "The creation of new knowledge is only part of education. Education mainly concerns learning, learning ability, and the ability to apply knowledge to solve real problems."]
+[Sound: Inspiring and grand orchestral string movement.]
+
+[VOICEOVER]
+"This work has deep pedagogical implications that strike at the heart of modern academic policy. In Section 3 of our paper's Supporting Information, we proposed a paradigm shift: The main goal of education is not the premature 'creation of new knowledge' or forcing students to 'innovate' before they understand. 
+
+Education mainly concerns learning, building deep learning ability, and acquiring the capability to apply existing knowledge to solve real problems. True innovation is not something you can chase by building empty labs and rushing graduate students to publish trash papers just to graduate. True innovation naturally arises when a mind has fully mastered and inherited the greatest achievements of human civilization.
+
+When universities prioritize superficial 'innovation' over solid theoretical training, they end up producing millions of paper-manufacturing technicians who cannot think. By teaching students to refuse uncritical acceptance and instead verify basic physical principles, we cultivate real problem solvers."
+
+“这项研究具有深远的教育学启示，直击现代学术体制的痛点。在论文补充材料（Supporting Information）的第三部分中，我们提出了一个颠覆性的教育理念：
+
+教育的最根本任务，绝非过早地要求学生去‘创造新知识’，或在他们尚未理解前人成果时盲目‘追求创新’。教育的核心在于学习、培养深度的学习能力，以及将人类已有知识运用于解决实际问题的能力。
+
+真正的创新绝不是通过大建实验室、逼迫研究生为了毕业疯狂灌水发表垃圾论文就能‘追逐’出来的。真正的创新，是在彻底继承人类科学史上最伟大成就的基础上，自然而然孕育而生的。当高校将肤浅的‘创新指标’置于扎实的理论训练之上时，它们最终只能培养出数以百万计、毫无独立思考能力的论文机器。只有引导学生拒绝盲从，学会用最基础的物理原理去审计和解决实际问题，才能培养出真正能为人类造福的解决问题者。”
+
+
+[SCENE 6: OUTRO | 第六幕：学术去中心化——用独立思考拥抱真理]
+[Visual: The cover of the Journal of Chemical Education 2013 paper appears on screen alongside Yue Liu's Substack and SSRN links, framed by clear, minimalist dark slate typography. The email yueliusd@163.com animates forward.]
+[Sound: Bright, positive acoustic guitar melody builds to a warm, inspiring finish.]
+
+[VOICEOVER]
+"Thank you for watching the fifteenth lecture of our series, where we expand our critical audit beyond wave mechanics to classical electrochemistry. 
+
+True scientific craftsmanship means looking at the most basic, common experimental curves with fresh, unsuperstitious eyes. We must stop treating textbook consensus as a divine shield and start verifying physical logic from first principles. 
+
+Go read Dr. Yue Liu's original J. Chem. Educ. paper and related critical treatises on Substack and SSRN. The links are in the description below. 
+
+Let us break free from the cargo cult, and let logic rule our labs. 
+
+Thank you for watching."
+
+“感谢您收看本期专题视频。我们将批判性的科学审计从波动力学延伸到了经典的电解化学领域。
+
+真正的科学匠人精神，意味着用全新、不迷信的眼光去审视那些最基础、最习以为常的实验曲线。我们必须停止将教科书共识当做免罪牌，而是从第一性原理出发，严格验证每一个物理逻辑。
+
+欢迎阅读下方描述栏里岳刘博士在《Journal of Chemical Education》上发表的原版论文以及在 Substack 和 SSRN 上的深度思辨专栏。
+
+让我们挣脱草包族科学的枷锁，让真理重回实验室。
+
+感谢您的收看。”`;
+
+  const youtubeDescText28 = `Lecture 15: Anodic Polarization Curves Revisited - Challenging the 100-Year-Old Passivation Film Dogma in Electrochemistry
+第十五讲：重新审视阳极极化曲线——挑战电化学中百年之久的“致密钝化膜”教条
+
+📖 MASTERWORK REFERENCE (本期主讲核心文献):
+Ying Liu, Michael G. B. Drew, Ying Liu, Lishun Liu, "Anodic Polarization Curves Revisited", Journal of Chemical Education, 2013, 90(1), 76-81.
+DOI: https://doi.org/10.1021/ed200305p
+
+---
+
+🔥 THE SCIENTIFIC DISPUTE & ELECTROCHEMICAL MYSTERY (电化学极化之谜与理论澄清):
+In this video, we extend our rigorous, first-principles scientific audit from electromagnetic wave mechanics to classical electrochemistry. We challenge a 100-year-old textbook dogma: the Passivation Film Theory for iron's anodic polarization.
+
+According to traditional textbook explanations, when iron is anodically polarized in acidic media, the current density drops sharply because a dense, protective, permanent oxide passivation film (like Fe3O4 or Fe2O3) is formed on the metal surface, physically blocking further oxidation.
+
+However, our rigorous, repeatable scans reveal a completely different reality.
+
+1. THE REPEATED SCAN DISCOVERY (重复扫描的重要发现):
+When we rescanned the iron sample immediately, the polarization curve repeated perfectly along the exact same path! If a permanent, dense physical passivation film had indeed formed to protect the metal, any subsequent scan should exhibit near-zero current from the very beginning. The perfect repeatability and reversibility of the polarization curve proves that the current suppression is a dynamic, potential-driven state, not a simple physical oxide barrier.
+
+2. CARGO CULT SCIENCE IN THE MODERN LAB (当代学术界的“草包族科学”):
+This repeating scan phenomenon is extremely simple to replicate, and we are certainly not the first to observe it. Why then was it never reported in the literature?
+Because modern researchers behave as a Cargo Cult (草包族科学). When their experimental results contradict textbook theories, they assume they committed an error in the lab, ignore the data, and hide it to preserve the consensus. They would rather believe their hands are broken than admit that the textbook is wrong.
+
+3. THE THEORETICAL POVERTY OF RESEARCHERS (现代学界的理论贫困与低水平盲从):
+Modern science training turns scholars into high-tech technicians who can run expensive machinery but cannot audit basic thermodynamic and kinetic equations. This systemic blindness and fear of error-correction are clear markers of the low theoretical level of modern academic cartels.
+
+4. THE TRUE PURPOSE OF EDUCATION (教育的根本任务——继承与解决问题的能力):
+As argued in Section 3 of our Supporting Information (SI), the creation of new knowledge is only a small part of education. Modern education has degenerated into an "innovation-obsessed" paper mill, forcing graduate students to publish "new" but useless garbage articles. Real education must focus on inheriting the highest scientific achievements and cultivating the ability to apply existing principles to solve real, unvarnished problems. Innovation is the byproduct of profound inheritance, not a bureaucratic metric.
+
+---
+
+📖 PRIMARY REFERENCE WORK & FURTHER READINGS (核心参考文献与延伸阅读):
+1. J. Chem. Educ. Publication: Y. Liu, M.G.B. Drew, Y. Liu, L. Liu, "Anodic Polarization Curves Revisited", Journal of Chemical Education, 2013, 90(1), 76-81. DOI: https://doi.org/10.1021/ed200305p
+2. Substack Essay: "Bypassing Planck's Principle: How AI Technologies Overcome Human Academic Censorship and Establish Scientific Truth" - https://yueliusd.substack.com/p/bypassing-plancks-principle-how-ai
+3. "The Asymmetry of Disbelief" by Yue Liu on Substack: https://yueliusd.substack.com/p/the-asymmetry-of-disbelief-why-grassroots
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The 100-Year-Old Passivation Film Dogma
+2:15 - The Reversibility Challenge: Why iron's anodic curve repeats perfectly
+4:40 - Demolishing the permanent Fe3O4 dense film explanation
+7:10 - Richard Feynman's Cargo Cult Science & why scholars hide anomalies
+9:55 - The low theoretical level of modern materials and electrochemistry researchers
+11:40 - The True Purpose of Education: Inheritance vs. Blind Innovation (SI Section 3)
+13:30 - Conclusion: Restoring critical physical auditing to the laboratory
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous physical disputes and scholarly audits:
+➔ yueliusd@163.com
+
+#Electrochemistry #AnodicPolarization #PassivationFilm #JournalOfChemicalEducation #CargoCultScience #Feynman #YueLiu #AcademicIntegrity #MaterialsScience #ScientificConsensus #CorrosionEngineering`;
+
+  // PROJECT 29 TEXTS (The Deterrent Function of Peer Review / 同行评审的威慑功能)
+  const youtubeScriptText29 = `[SCENE 1: THE REIGN OF ACADEMIC TERROR | 第一幕：敢说真话的下场]
+[Visual: High-contrast, dramatic text cards slide in with the Chinese dialogue timestamps, accompanied by clean English subtitles. Underneath, a stylized digital waveform representing a human voice is suddenly choked, turning into a flat, silent line.]
+[Sound: Sudden static screech, cutting sharply into a dead, heavy silence. A low, rhythmic heartbeat heartbeat echo begins.]
+
+[VOICEOVER]
+"当今社会你敢说真话，分分钟就有人让你闭嘴。
+In today’s society, if you dare to speak the truth, someone will make you shut up in a split second.
+
+你敢揭露黑幕，那你就是断了别人的财路。
+If you dare to expose the dark truth, you are cutting off someone else’s gold mine.
+
+你敢坚持原则，那就是打了他们的脸。"
+If you dare to stand on principle, you are slapping them right in the face.
+
+[Visual: Dramatic transition showing a prestigious journal logo morphing into a heavy iron padlock, locking down a stack of manuscript pages.]
+[Sound: Sound of a heavy steel gate slamming shut.]
+
+[VOICEOVER]
+"This is not just street logic; this is the literal mechanism of the modern academic guild. 
+这不仅仅是社会潜规则，更是现代学术行会的底层运作机制。
+
+When we talk about peer review, we are trained to think of a noble panel of disinterested experts validating scientific progress. But in reality, peer review has been transformed into a powerful deterrent function—a weaponized barrier of systemic intimidation and retaliation designed to protect established scientific cartels."
+当我们谈论同行评审时，我们总以为那是无私专家捍卫真理的殿堂。但在现实中，同行评审已被异化为一种强大的威慑力量——一套旨在保护学术行会既得利益、系统性压制和恐吓真相阐述者的报复性武器。
+
+
+[SCENE 2: THE DETERRING REPLICABLE CRITIQUE | 第二幕：被阻吓的真理审计]
+[Visual: Formula of quarter-wavelength electromagnetic waves matched with the experimental potential-driven iron passivation curve. On the opposite side, reviewers in dark robes pointing red stamps reading "UNCOLLEGIAL" or "REJECTED" or "TONE-POLICING".]
+[Sound: Low drone transition, heavy and intellectual.]
+
+[VOICEOVER]
+"In Dr. Yue Liu's corresponding SSRN treatise 5514918, titled 'Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism,' we analyze the administrative levers used to enforce absolute compliance. 
+在岳刘博士发表于SSRN 5514918的开山之作《面对恐惧：理解与克服学术批评中的报复机制》中，我们详细剖析了这些用来强迫绝对服从的行政大棒。
+
+When an independent scholar mathematically demonstrates that a foundational textbook model—such as the quarter-wavelength theory or classic oxide passivation film explanations—is physically self-contradictory, they do not encounter scientific debate. They encounter coordinated hostility. Because exposing their mathematical errors directly threatens their citation loops, grant streams, and professional authority, gatekeepers use peer review to deter you."
+当一位独立学者用数学和物理规律严密证明某个经典的教科书模型——如四分之一波长理论或经典的氧化物钝化膜假说——在逻辑上完全自相矛盾时，他迎来的绝不是纯粹的学术探讨，而是系统性的联手敌视。因为揭露其学术硬伤，直接威胁到了这些门阀大佬的引用链条、经费链条和学术霸权。因此，门阀大佬们用同行评议作为大棒来阻吓你。
+
+
+[SCENE 3: THE HARVARD CARDIOLOGY DISASTER | 第三幕：哈佛心肌干细胞欺诈案与学者的胆怯]
+[Visual: Portrait of world-famous cardiologist Dr. Piero Anversa. Overlay text highlights: "NY Times, Oct 16, 2018: 31 Retractions." A quote is typed out: "Experts were just too timid to take a stand."]
+[Sound: Slow, heavy piano keys playing in a somber, tragic tone.]
+
+[VOICEOVER]
+"How does fraudulent, non-reproducible research persist at elite universities for decades? 
+为什么那些荒谬、根本无法被重复的虚假研究，竟然能长年在顶刊和名校里安如磐石？
+
+In 2018, Harvard University and Brigham and Women’s Hospital called for the retraction of 31 cardiovascular papers by Dr. Piero Anversa, who fabricated data claiming cardiac stem cells regenerate the heart. It unlocked hundreds of millions in NIH grants and led to speculative clinical trials on real patients. 
+2018年，哈佛大学及其附属医院被迫要求撤回心血管名宿皮埃罗·安维萨博士的31篇顶刊论文。他在过去的十多年中，捏造了所谓“心肌干细胞能够再生心脏”的世纪谎言。这欺骗性地锁定了数亿美元的NIH经费，甚至促成了针对无辜心衰患者的临床试验。
+
+As the New York Times revealed: 'Experts were just too timid to take a stand.' Other scientists knew the c-kit+ cells could not regenerate anything. But because Anversa controlled their grants and reviewed their manuscripts, they maintained a cowardly, golden silence. Peer review functioned as a deterrent."
+正如《纽约时报》当时痛心揭露的：‘专家们只是太胆怯了，不敢站出来反对他。’ 其他科学家其实早就心知肚明，知道安维萨的实验结果根本无法重复。但由于安维萨掌控着他们的科研生杀大权，控制着他们的经费和审稿前途，所有人便选择性地维持了黄金般的沉默。同行评审在此刻完全沦为了防卫性的威慑门阀。
+
+
+[SCENE 4: CROSSING THE TEMPLATE LINE | 第四幕：被规训的纠错者——Nature 杂志的证言]
+[Visual: Typographic text from Simine Vazire in Nature (2020) typed slowly on screen. Underneath, a diagram of a postdoc standing on the edge of an abyss with their advisor holding them back.]
+[Sound: Metronome ticking, sharp and cold.]
+
+[VOICEOVER]
+"This culture of administrative terror is systemic. Meta-scientist Simine Vazire reported in Nature in 2020: 
+这种由学术门阀制造的行政恐怖文化是全方位的。正如元科学家西明·瓦齐尔2020年在《Nature》上披露的：
+
+'Last month, I got a private Twitter message from a postdoc bruised by the clash between science as it is and how it should be. He had published a commentary in which he pointed out errors in a famous researcher’s paper. The critique was accurate, important and measured... But it caused him problems: his adviser told him that publishing the criticism had crossed a line, and he should never do it again.'
+“上个月，我收到了一位深受现实学术与理想科学冲突所伤害的博士后的私信。他发表了一篇评论，精确、重要且克制地指出了某位学术泰斗论文中的致命错误，这是一项对科学共同体非常有价值的贡献。然而，这却给他带来了灭顶之灾：他的导师警告他，发表这种批评完全是‘过了线（crossed a line）’，并命令他永远不要再犯。”
+
+Correcting physical and mathematical errors is treated as a social crime in modern academia. The cartel values etiquette and citation networks far above empirical reality."
+在现代学术界，纠正那些泰斗名宿在物理和数学公式上的低级错误，竟然被视作一种“越界”的社交重罪。学术利益共同体将虚伪的社交礼仪和利益输送网络，看得远比客观物理规律更为重要。"
+
+
+[SCENE 5: DISMANTLING THE MONOPOLY | 第五幕：打破垄断——让真理摆脱门阀审批]
+[Visual: A bold digital network symbolizing decentralized science (DeSci) and open platforms like SSRN and Substack. Text overlays: "yueliusd.substack.com" and "SSRN Index". The padlock from Scene 1 is shattered into pieces by a glowing laser of mathematical equations.]
+[Sound: Shattering glass sound, transitioning into an uplifting, epic orchestral climax.]
+
+[VOICEOVER]
+"But truth does not require the permission of a referee to exist. 
+然而，事实真理的成立，从来不需要任何学术门阀和审稿人的“签字批准”。
+
+If peer review is being used as a weaponized administrative deterrent to protect the cartels' gold mines and enforce compliance, we must bypass their closed editorial circles. By publishing unassailable math and physical proofs on open preprints like SSRN, and engaging in open digital audits, we strip the guild of its silencing power.
+如果同行评审已被利益共同体用作恐吓异己和保护经费财路的霸权工具，我们就必须彻底绕过其封闭的审稿圈子。通过在 SSRN 等开放预印本平台上发布无懈可击的物理与数学证明，并开展公开的数字审计，我们能彻底剥夺学术门阀“强制禁言”的能力。
+
+We must cultivate the courage to trust our calculations and raw data over textbooks and peer consensus. History remembers neither the timid experts who stood by in silence, nor the corrupt advisers who policed the manners of their postdocs. History belongs to the error detectors who stood by physical reality and had the courage to tell the truth.
+我们必须拥有独立思辨的底气，在无可辩驳的数据和物理公式面前，敢于直面恐惧、拒绝盲从！历史绝不会记住那些在谎言面前唯唯诺诺、维持黄金沉默的“胆怯专家”，也绝不会记住那些帮着门阀威吓博后的“平庸导师”。历史只会属于那些坚守客观规律、不畏强权、敢于还原科学尊严的真相阐述者。
+
+Thank you for watching. Go read Dr. Yue Liu's full, unedited treatise on SSRN 5514918 and Substack via the links in the description below. Let us stop policing tone, and start verifying logic.
+感谢您的收看。欢迎阅读下方描述栏内岳刘博士在 SSRN 5514918 以及 Substack 专栏上的完整无修改文献。让我们打破‘草包族’的枷锁，让真理重回实验室。
+
+Thank you."`;
+
+  const youtubeDescText29 = `Lecture 16: The Deterrent Function of Peer Review - Exposing Systemic Intimidation and Retaliation against Truth-Tellers in Academia
+第十六讲：同行评审的威慑功能——揭露学术界针对真相阐述者的系统性恐吓与报复机制
+
+📖 FEATURED MASTERWORK (本期主讲核心文献):
+Yue Liu, "Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism" (September 17, 2025). 
+SSRN Abstract: https://ssrn.com/abstract=5514918 or http://dx.doi.org/10.2139/ssrn.5514918
+Substack Article: "Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism" ➔ https://yueliusd.substack.com/p/confronting-the-fear-understanding
+
+---
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要):
+1️⃣ THE WEAPONIZATION OF PEER REVIEW (同行评审的威慑功能):
+Traditional narratives treat peer review as a benign "self-correcting engine of science." In practice, however, it serves as an administrative deterrent. Dissenting scholars who mathematically or physically challenge established models are met with weaponized rejections, tone-policing, and institutional exclusion. Dissent is treated as a personal attack on the cartel's livelihood, triggering immediate, coordinated reprisals.
+
+2️⃣ THE HARVARD STEM CELL RETRACTION CASE (哈佛心肌干细胞欺诈案与“专家的胆怯”):
+How does fraudulent research persist in top-tier journals for decades? The New York Times (Oct 16, 2018) exposed that when Harvard cardiologist Piero Anversa fabricated cardiac stem-cell data for over a decade, co-scholars were fully aware of the non-reproducibility. Yet: "some scientists wondered how a questionable line of research persisted for so long … experts were just too timid to take a stand." Fear of losing grants and provoking academic bosses keeps the "golden silence."
+
+3️⃣ THE POSTDOC'S WARNING IN "NATURE" (自然杂志发声：被规训的错误检测者):
+As meta-scientist Simine Vazire wrote in Nature (2020, "A toast to the error detectors"): "Last month, I got a private Twitter message from a postdoc bruised by the clash between science as it is and how it should be. He had published a commentary in which he pointed out errors in a famous researcher's paper... But it caused him problems: his adviser told him that publishing the criticism had crossed a line, and he should never do it again." The cartel prioritizes manners and networks over physics and truth.
+
+4️⃣ THE BILINGUAL TRUTH (敢说真话的分分钟让你闭嘴):
+"当今社会你敢说真话，分分钟就有人让你闭嘴。你敢揭露黑幕，那就是断了别人的财路；你敢坚持原则，那就是打了他们的脸。"
+To challenge the quarter-wavelength model or the classic electrochemical oxide film explanation is to threaten the citation loops and grant flows of academic bosses. They do not apologize; they do not learn conscience. They use the deterrent power of peer review to force the wood-pecker out of the forest.
+
+---
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: "当今社会你敢说真话，分分钟有人让你闭嘴"
+2:10 - Peer Review as a Deterrent: The Real Mechanics of SSRN 5514918
+4:45 - The NYT Harvard Cardiology Scandal: Why experts are "too timid to take a stand"
+7:30 - Nature (2020) Simine Vazire Quote: The Silencing of Postdocs and Error Detectors
+10:15 - "Cutting off the gold mine" vs. "Slapping them in the face" in Modern Research
+12:50 - Restoring Mathematical and Physical Rigor Outside the Academic Guild
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+➔ yueliusd@163.com
+
+#PeerReview #AcademicRetaliation #YueLiu #SSRN5514918 #SimineVazire #HarvardStemCell #ScientificIntegrity #Feynman #CargoCultScience #TruthTellers`;
+
+  // PROJECT 30 TEXTS (The Era of Flooded Papers & Academic Nepotism / 历史裁决下的学术灌水与“世袭鬼故事”)
+  const youtubeScriptText30 = `[SCENE 1: THE REIGN OF REVELATIONS | 第一幕：耿同学杀疯了与系统性恐惧]
+[Visual: Screen turns deep crimson red. High-contrast headlines blink: "10% OF NATURE PAPERS ANALYZED," "JIEQING ACADEMICIAN FRAUD EXPOSED." A stylized balance scale on screen, with one massive golden throne representing an Academic Baron on one side, and a mountain of ordinary grad students in chains on the other side.]
+[Sound: Deep, thunderous percussion beat. High-tension violin strings.]
+
+[VOICEOVER]
+"耿同学今天晚上杀疯了，我已经看得胆战心惊了。
+Geng Tongxue went absolutely savage tonight. I watched it with sheer, heart-pounding terror.
+
+一条短视频胆战心惊，为耿同学。
+A single short video that fills you with absolute dread—fearing for Geng Tongxue's safety.
+
+我想说啊，我害怕到什么程度呢？我怕我这条短视频都会被牵连。
+I want to say, how terrified am I? I'm afraid that even this video of mine will be implicated and taken down.
+
+又是重量级人物：杰青、候选院士、院士啊！我们心中是不是像山一样的学术大牛啊？
+These are heavyweights once again: Distinguished National Youth Scholars (Jieqing), Academician Candidates, even full Academicians! Are they not the academic giants who stand like mountains in our hearts?"
+
+[Visual: Dramatic transition showing a textbook or scientific journal with pages tearing open, revealing empty, hollow black holes where mathematical proofs should be.]
+[Sound: Sudden static sound effects, transitioning into a clock's ticking.]
+
+[VOICEOVER]
+"Right now, Geng Tongxue's state of mind is: 'I raise my blade and laugh at the heavens; my loyal liver and gall remain as steadfast as the twin Kunlun mountains!'
+耿同学现在的状态就是：我自横刀向天笑，去留肝胆两昆仑了。
+
+I originally thought he was backing down to protect himself: going to Jilin University to ease relations, saying in interviews his intent was positive, and saying he would let them self-investigate quietly.
+我原来觉得他已经开始自保了。第一，他去吉林大学缓和关系；第二，接受采访说自己的本意是为学校好；第三，他说不公开举报了，让他们去自查。
+
+I thought that under his family's intense opposition and the 'gentle, polite threats' via telephone calls from powerful people, he had taken a step back. I never expected him to be so fierce today. He directly dumped everything he has in his hands!"
+我认为他在全家人反对之中，在某一些人电话的温和威胁之中，已经退了一步。但我万万没想到，今天他会这么猛，他把手里所有的东西直接就砸了出来！
+
+
+[SCENE 2: THE 10% TIP OF THE SCI ICEBERG | 第二幕：Nature顶刊之下的灌水冰山]
+[Visual: An enormous iceberg in a deep dark blue ocean. The tip of the iceberg is labeled "Nature publications." The massive underwater mass is labeled "Zone 1, Zone 2, and C-Journals." Reviewers are stamp-approving papers blindly without checking data.]
+[Sound: Heavy low-frequency hum.]
+
+[VOICEOVER]
+"And take note: Geng Tongxue stated that these numerous fabricated papers represent only ONE-TENTH of what he analyzed. Only 1/10th of the Nature papers published by this prominent Jieqing!
+注意啊，他说这么多的造假论文，是他只看了十分之一。杰青发表在Nature上的论文，十分之一。
+
+If we meticulously analyze and audit the remaining 99% of academic literature, what would we find?
+那剩下99%细细分析一下，又会如何呢？
+
+Some people believe academic fraud is just an isolated case of a few individual big shots. But let me ask you: the papers Geng Tongxue exposed—weren't they published in Nature?
+有些人认为这只是极少数学术大牛在搞造假。那我问大家一个简单的问题：耿同学打的这些，是不是在Nature上发布的？
+
+Is the prestige of domestic Zone 1, Zone 2, or standard C-journals higher or lower than Nature? Is their quality higher or lower?
+国内的学术刊物所谓C刊、一区、二区，他们的级别比Nature高还是低？水平比Nature高还是低？
+
+If we audited Zone 1 and Zone 2 papers with the exact same rigor, what do you think would happen? Do you honestly believe fraud is a rare minority?"
+如果把一区、二区的论文也这样去分析一下，你觉得怎么样？你觉得它会是少数人吗？
+
+
+[SCENE 3: THE DISPLACEMENT OF ORDINARY STUDENTS | 第三幕：大牛犯病，普通硕博生吃药的体制怪圈]
+[Visual: An exhausted, tearful graduate student sitting in front of a computer late at night. The screen displays "ERROR: Data Verification Audit." Overlaid text: "Ordinary master's and PhD students bear the brunt."]
+[Sound: Somber, melancholic violin melody.]
+
+[VOICEOVER]
+"I know that master's and PhD students are living through absolute hell right now. Why? Because when a scandal of this scale breaks out, do you think the system only targets the academic elites at the top?
+我知道现在正在读硕士、读博士的人日子都不好过。为什么？这个事儿一出，你以为对准的是少数头部的人吗？
+
+No! The first thing universities will do is dealing with the named elites, but then they will demand that all master's and PhD theses undergo hyper-stringent data verification, audits, and bureaucracy.
+学校我跟你说，第一件事除了被点名的这些人需要处理之外，很重要的一条，就是所有的硕士和博士论文、数据，要被严加核对。
+
+The ones who are ultimately tortured and ground down are the ordinary, hardworking graduate students!
+那折腾的可就是普通的硕士生和博士生嘛！
+
+So everyone is crying out: 'Can you please stop for a moment? Let me secure my PhD diploma first, then you can go back to exposing them!'
+所有人都在喊：求求大佬，能不能先收手，让我的这个博士文凭能不能先搞到手，你再打呀？
+
+Even ordinary, honest researchers are filled with sheer terror."
+打得我们普通人也心惊胆战。
+
+
+[SCENE 4: THE CHILLING NEPOTISTIC GHOST STORY | 第四幕：权力与“世袭学阀”的鬼故事]
+[Visual: A prestigious academic building. A shadow puppet show appears. A wealthy child who scored 60% in primary school magically floats through Beijing's elite key schools. An arrow points from Beijing to "The Chinese University of Hong Kong (CUHK)" where their parent is an adjunct professor. The child receives a PhD and is injected back into a mainland university as an associate professor.]
+[Sound: Suspenseful, eerie music with a wooden fish clicking.]
+
+[VOICEOVER]
+"I don't even dare to express my real views on the deeper systemic mechanisms anymore. But let me tell you a 'ghost story' that is purely fictional—something I read in trashy digest magazines like Story Zone.
+这一条我已经不敢发表观点。背后的机制，我本来有太多想说的，现在不敢说。我就讲个纯属虚构的‘鬼故事’，是我在故事会上看来的。
+
+The ghost story goes like this: There is a mother who is an absolute academic giant—a powerful baron (Danian). Her child, in the third grade, could barely pass exams, scoring only 60 or 70 in Chinese and Math under Beijing's lowest-difficulty curriculum.
+这个鬼故事是这样：有一个妈妈，她是一个领域的大牛。他们家的孩子，三年级就不咋及格了，语文数学只能考六七十分。
+
+So she hired professional academic planners to map out his entire life. Her plan was outrageous:
+那么她就找人在做学业规划。这个妈妈说了自己的想法，大体是这样的：
+
+She said that even though the child's scores are terrible and he will fail in 5th and 6th grade, he is guaranteed to enter Beijing's elite key middle and high schools.
+她说，别看这孩子成绩这个样子，初中和高中完全能上北京最好的市重点。
+
+And what about college? He will fail every course and normally fail to get into any university. So how will he pass?
+那大学呢？十有八九是考不上的，每科都挂科。那怎么考得上？
+
+Well, her institution has deep collaborative ties with universities like the Chinese University of Hong Kong. Many elite scholars serve there as adjunct/guest professors and PhD supervisors.
+但是呢，他们这个单位跟香港中文大学等高校都有非常深度的合作。她们在那里担任客座教授和博导，可以带硕士、带博士。
+
+So the student will simply be sent over to that collaborative university. He can't write papers, but that's fine—he will be awarded a PhD anyway.
+那么这个学生就会过去。考试不及格、论文写不出来也没关系，博士是可以毕业的。
+
+After graduation, they will use administrative channels to inject him back into a mainland university as a lecturer or associate professor. Look, isn't this career path perfect?"
+博士毕业之后，我们再通过一定的方法，把他弄到大陆的大学里当老师，比如讲师、副教授。你看这路挺好吧？
+
+
+[SCENE 5: HISTORICAL JUSTICE FOR THE HUMBLE SCHOLAR | 第五幕：历史将裁决灌水时代与寒门世子的抗争]
+[Visual: Splendid gold letters typed in English and Chinese: "HISTORY WILL JUDGE." A lone student studying under a dim lamp. Equations from Dr. Yue Liu's SSRN 5514918 and electromagnetic wave theorems shatter the dark curtain, letting direct sunlight shine through.]
+[Sound: Deep, swelling, triumphant orchestral symphony.]
+
+[VOICEOVER]
+"Personally, I believe such a path is completely impossible to realize. Why?
+反正我是认为这条路是不可能实现的。为什么？
+
+This person has been failing exams since middle school! How can a PhD graduate enter a prestigious university as a lecturer or associate professor so easily?
+这人上初中就不及格了，你博士毕业进大学当讲师、副教授，这不是开玩笑吗？
+
+For a grassroots student from a humble family (Hanmen Xuezi), they must have their ancestors' blessings, score at the absolute top of national exams, graduate from elite schools, and work like dogs just to have a tiny shot at entering such universities!
+我寒门学子那都是祖上烧高香的，得考到什么样的成绩，又是从什么名校毕业的博士，才能杀到那么好的大学当个讲师副教授？怎么能这么容易？
+
+Furthermore, Chinese academic management is sometimes extremely strict; you can't just bribe and manipulate your way through. I do not believe she could succeed.
+而且我们中国管理有的时候是很严格，不是你这运作就能成功的。我不相信他能成功。所以我认为这就是个鬼故事。
+
+But as an educator of 16 or 17 years, hearing this plan remains the absolute most preposterous and outrageous story of all absurdities.
+但我听到这样的对孩子的规划，作为一个教书十六七年的人，这真的是所有离谱故事里最离谱的一个。
+
+History will ultimately judge whether modern academia is an era flooded with garbage papers. Let the academic barons and their failing children play their games. But true, objective physical and mathematical laws will never yield to nepotism and cartel peer reviews.
+历史终将做出公正裁决：现代学术界究竟是不是一个垃圾文章泛滥、学阀门阀世袭的时代！门阀们可以垄断职位与经费，但他们永远无法垄断客观物理规律和数学铁证。
+
+Stand strong, honest researchers. Go read Dr. Yue Liu's corresponding SSRN 5514918 to understand the real structural dynamics of academic resistance.
+坚守尊严，寒门学者！去阅读岳刘博士在 SSRN 5514918 上的完整批判性著作，共同迎接学术大复兴！
+
+Thank you."`;
+
+  const youtubeDescText30 = `Lecture 17: History Will Judge - Elite Academic Fraud, Flooded SCI Papers, and the Fictional "Ghost Story" of Nepotism
+第十七讲：历史将裁决灌水时代——揭露名门造假、顶刊垃圾论文，与寒门学子的生存空间
+
+📖 FEATURED MASTERWORK (本期主讲核心文献):
+Yue Liu, "Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism" (September 17, 2025). 
+SSRN Abstract: https://ssrn.com/abstract=5514918 or http://dx.doi.org/10.2139/ssrn.5514918
+Substack Article: "Confronting the Fear: Understanding and Overcoming Retaliation in Academic Criticism" ➔ https://yueliusd.substack.com/p/confronting-the-fear-understanding
+
+---
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE 10% SCI TIP OF THE ICEBERG (Nature顶刊十分之一的造假暴击):
+Geng Tongxue's recent shocking exposure targeted Distinguished National Youth Scholars (Jieqing) and Academicians who published fabricated papers in Nature. Shockingly, Geng stated this represented only ONE-TENTH of his findings. If prestigious Nature papers by academic leaders are plagued with fabricated data, what about Zone 1, Zone 2, and domestic C-journals? If audited with the same physical and mathematical rigor, the sheer volume of "garbage papers" would completely embarrass the global peer-review system.
+
+2️⃣ THE DISPLACEMENT TRAGEDY (大牛犯病，普通硕博生吃药的体制怪圈):
+When academic giants commit fraud, the administrative backlash backfires. Instead of punishing the barons, universities implement bureaucratic data verifications on master's and PhD students' theses, delaying their graduation and torturing grassroots researchers. Ordinary students are forced to beg whistleblowers to stop, just so they can escape the academic grinder with their diplomas first.
+
+3️⃣ THE INHERITED ACADEMIC NEPOTISM (学术门阀世袭的“鬼故事”):
+This episode presents a fictional "ghost story" from digest magazines: an academic baron's child who failed basic subjects in the 3rd grade in Beijing is guaranteed seats in top-tier schools. Through collaborative channels at collaborative universities (like CUHK), the parent serves as an advisor, rubber-stamps a fake PhD for the child, and injects them back into mainland universities as lecturers or associate professors, completely bypassing the extreme meritocracy forced upon grassroots scholars (寒门学子).
+
+4️⃣ WILL HISTORY JUDGE THIS ERA? (历史对垃圾论文与世袭学阀的最终裁决):
+"历史将裁决现代学术界是不是一个垃圾文章泛滥的时代。"
+Yue Liu's corresponding research on SSRN 5514918 demonstrates that academic cartels maintain this flooded paper industry to justify their multi-million dollar grants, and protect their families' intergenerational privilege. The ultimate defense against this decline is Decentralized Science (DeSci), mathematical auditing, and open peer reviews.
+
+---
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: Geng Tongxue's savage expose of Jieqing & Academicians
+2:15 - Nature Papers: Only the 10% tip of the fabricated scientific iceberg
+4:30 - "大牛犯病，普通硕博生吃药": Why grassroots researchers bear the burden
+7:15 - The "Ghost Story": intergenerational academic nepotism and failing children
+10:45 - The extreme contrast with Hanmen Xuezi (寒门学子) and their extreme struggles
+13:10 - Conclusion: Why History Will Judge this Era of Flooded Papers
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous physical disputes and academic audits:
+➔ yueliusd@163.com
+
+#GengTongxue #AcademicFraud #HanmenXuezi #YueLiu #SSRN5514918 #NatureRetractions #AcademicBarons #AcademicNepotism #ScientificIntegrity #DeSci`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -2690,7 +3166,10 @@ We invite academic reviews and critical peer discussions:
     activeProject === "project24" ? youtubeScriptText24 :
     activeProject === "project25" ? youtubeScriptText25 :
     activeProject === "project26" ? youtubeScriptText26 :
-    youtubeScriptText27;
+    activeProject === "project27" ? youtubeScriptText27 :
+    activeProject === "project28" ? youtubeScriptText28 :
+    activeProject === "project29" ? youtubeScriptText29 :
+    youtubeScriptText30;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -2719,7 +3198,10 @@ We invite academic reviews and critical peer discussions:
     activeProject === "project24" ? youtubeDescText24 :
     activeProject === "project25" ? youtubeDescText25 :
     activeProject === "project26" ? youtubeDescText26 :
-    youtubeDescText27;
+    activeProject === "project27" ? youtubeDescText27 :
+    activeProject === "project28" ? youtubeDescText28 :
+    activeProject === "project29" ? youtubeDescText29 :
+    youtubeDescText30;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -3185,6 +3667,54 @@ We invite academic reviews and critical peer discussions:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-600 animate-pulse" />
             Project AA: Energy Conservation
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project28");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project28"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-project28"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-amber-600 animate-pulse" />
+            Project AB: Passivation Film
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project29");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project29"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-project29"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-rose-650 animate-pulse" />
+            Project AC: Peer Review Deterrence
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project30");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project30"
+                ? "bg-red-955 text-white shadow-sm animate-pulse"
+                : "text-red-900 hover:bg-red-50 hover:text-red-955"
+            }`}
+            id="toggle-project30"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
+            Project AD: History Will Judge
           </button>
         </div>
       </div>
@@ -3707,6 +4237,99 @@ We invite academic reviews and critical peer discussions:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AB */}
+      {activeProject === "project28" && (
+        <div className="bg-amber-50/45 border border-amber-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-amber-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-amber-600 animate-pulse" />
+             Lecture 15: Anodic Polarization Curves Revisited • 重新扫描曲线完全重复：终结传统氧化物钝化膜理论
+          </div>
+          <p className="text-[12px] text-amber-955 leading-relaxed italic">
+            "视频第十五讲将批判性科学审计拓展至经典电化学领域。传统电化学教材认为，铁在阳极极化到一定电位时，会因为表面生成了一层致密的 Fe3O4 物理钝化膜而使电流急剧减小。然而，我们的重复扫描表明，只要一回到低电位，曲线就会完美重复！这说明钝化是一种可逆的、由电位差动态控制的阻抑状态，而非由于物理致密膜的隔绝。这种由于数据不符而被前人刻意忽略、不敢报道的现象，再次揭露了当代学术界在偏见面前的集体失明（Cargo Cult Science）和理论水平的低下。"
+          </p>
+          <div className="border-t border-dashed border-amber-200/60 pt-2.5 space-y-1.5">
+            <span className="text-[10px] font-bold text-amber-900 uppercase tracking-wider block font-mono">
+              💡 Pedagogic Implications (论文补充材料第三章：教育学的深刻启示):
+            </span>
+            <p className="text-[11px] text-amber-900/90 leading-relaxed font-serif bg-white/50 p-2.5 rounded border border-amber-150/40">
+              <strong>"The creation of new knowledge is only part of education. Education mainly concerns learning, learning ability, and the ability to apply knowledge to solve real problems."</strong>
+              <br />
+              <span className="text-[10px] block mt-1 text-amber-800 italic">
+                “创造新知识仅仅是教育的一小部分。教育的核心和首要任务是学习、培养深度的学习能力，以及将知识应用于解决真实、具体问题的能力。” —— 《化学教育学报 (J. Chem. Educ.) 2013》论文 Supporting Information (SI) 第 3 节
+              </span>
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Reversible Polarization (阳极极化曲线的完全可逆与完美重复，物理钝化膜说破产)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Feynman's Cargo Cult (费曼草保族科学：学术界选择性失明)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-amber-100 text-amber-800 uppercase">
+              Pedagogic Inheritance (教育的根本在继承而非盲灌论文)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              J. Chem. Educ. 2013 Publication (《化学教育学报 2013》电化学领域经典求证)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alert Box for Project AC */}
+      {activeProject === "project29" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-red-650 animate-pulse" />
+             Lecture 16: The Deterrent Function of Peer Review • 同行评审的威慑功能：学术界系统性阻吓、报复机制与“学者的胆怯”
+          </div>
+          <p className="text-[12px] text-red-955 leading-relaxed italic">
+            "视频第十六讲一针见血地指出：在现实中，同行评审已被异化为一种强大的行政威慑力量——一套旨在保护学术行会既得利益、系统性压制和恐吓真理阐述者报复性武器。正如哈佛心肌干细胞欺诈案中暴露出的‘专家的胆怯’（New York Times 2018）和《Nature 2020》披露的导师对博后纠错跨越‘社交雷区’的训诫，由于害怕学术大佬扼杀其未来的经费与学术生命，同行之间保持了‘黄金般的沉默’，致使不实的理论大行其道半个世纪。指出这一点并非傲慢，而是对真理的无畏捍卫！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Peer Review Deterrence (同行评审沦为打击异己与行政阻吓的霸权工具)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Expert Timidity (哈佛学术欺诈案中的学者胆怯与黄金沉默)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Nature Vazire Quote (导师警告纠错博后“crossed a line”永远别再犯的规训)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              SSRN 5514918 Publication (《面对恐惧：理解和克服学术批评中的报复机制》核心宣誓)
+            </span>
+          </div>
+        </div>
+      )}
+
+      {/* Dynamic Alert Box for Project AD */}
+      {activeProject === "project30" && (
+        <div className="bg-red-50/45 border border-red-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-red-800 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-red-650 animate-pulse" />
+             Lecture 17: History Will Judge Modern Academia • 第十七讲：历史将裁决现代学术界是不是一个垃圾文章泛滥的时代
+          </div>
+          <p className="text-[12px] text-red-955 leading-relaxed italic">
+            "第十七讲视频发人深省、直击痛处：历史最公正、也最无情，终将对这个垃圾文章泛滥、学术大牛造假、门阀门下世袭世袭的学术时代做出最终的历史判决！耿同学用仅分析Nature顶刊十分之一的暴击，戳穿了高不可攀的学术图腾；而其揭露下学校对普通硕博毕业论文施加严酷核对、拖延毕业的荒谬操作，更体现了‘大牛犯病、百姓吃药’的悲哀。最震撼的是那个极度真实的‘学术二代世袭鬼故事’：不及格的孩子靠着母辈的资源和两地大学的‘客座教授/博导’深度合作，轻而易举地混成博士，并直接空降大陆名校担任副教授，把寒门学子千军万马的拼死一博变成了天大的笑话。这是一篇对不公的控诉、对尊严的宣誓，历史只会记住敢说真话的错误检测者！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              History Will Judge (历史是最无情的法官，学术垃圾终将被扫进历史垃圾堆)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Academic Nepotism (世袭学术豪门门阀的“鬼故事”与利益输送)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-red-100 text-red-800 uppercase">
+              Grassroots Displacement (大牛病态灌水造假，底层寒门硕博含泪买单)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Tan Sitong Resolution (耿同学：我自横刀向天笑，去留肝胆两昆仑)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -3742,7 +4365,10 @@ We invite academic reviews and critical peer discussions:
                   activeProject === "project24" ? "Project X" :
                   activeProject === "project25" ? "Project Y" :
                   activeProject === "project26" ? "Project Z" :
-                  "Project AA"
+                  activeProject === "project27" ? "Project AA" :
+                  activeProject === "project28" ? "Project AB" :
+                  activeProject === "project29" ? "Project AC" :
+                  "Project AD"
                 })</span>
               </div>
               <button

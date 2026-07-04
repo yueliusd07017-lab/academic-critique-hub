@@ -242,6 +242,29 @@ export default function PublishingConflictEssay() {
           <p>
             This systemic experience inspired our theoretical preprint on SSRN: <i>Conflict of Interest in Academic Publishing: A Question of Accountability in the Pursuit of Truth</i> (SSRN 5470606), where we modeled these two coexisting publishing philosophies.
           </p>
+          <div className="bg-red-950/20 border border-red-900/40 p-5 rounded-xl space-y-4">
+            <h4 className="text-sm font-bold text-rose-400 font-sans flex items-center gap-1.5">
+              <AlertTriangle className="w-4 h-4 text-rose-500 animate-pulse" />
+              The Sunk-Cost of Falsehood and the Fear of Self-Correction
+            </h4>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed">
+              The deep resistance to self-correction in modern academia stems from its vast, systemic vested interests: 
+              <strong> 这么多学术权威是靠造假晋升的，所以整个学术界都怕纠错、都怕打假。这就是为什么现代学术界打假、纠错的阻力这么大。</strong>
+              When an entire elite class has built their reputations, titles, and multi-million-dollar grant portfolios upon flawed foundations, error correction is no longer viewed as a healthy scientific utility, but as an existential threat to the cartel.
+            </p>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed">
+              Consequently, fundamental, wave-physics conclusions—such as 
+              <i> "interfaces do not absorb microwaves" (界面不吸收微波)</i>, 
+              <i> "when a bulk material does not absorb microwaves, its corresponding thin film cannot absorb microwaves either" (材料不吸收微波，膜也不会吸收微波)</i>, and 
+              <i> "when incident microwaves fully enter a material, no wave absorption peak can ever be generated" (入射微波全部进入材料时绝不会产生微波吸收峰)</i>
+              —are not merely "relatively correct" models dependent on specific, cherry-picked experimental data. They are <strong>absolute physical facts and universal, mathematically proven conclusions (是理论严格证明的普适结论，绝不是相对正确，而是绝对正确)</strong>.
+            </p>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed">
+              Yet, in a consensus-driven academic publishing market, these absolutely correct physical laws are met with cold indifference: 
+              <strong> 但是绝对正确的理论没人关心、没有人引用、没有人看。相反，靠经验数据拟合、在物理和数学上千疮百孔的“阻抗匹配理论”文章却大量发表、大量被引用。</strong>
+              This tragic inversion of values—where mathematically flawless truths are sidelined while convenient, data-fitted fictions are celebrated—reveals the true moral and intellectual decay of modern institutional science.
+            </p>
+          </div>
           <div className="bg-slate-950 border border-slate-800 p-5 rounded-xl space-y-3">
             <h4 className="text-xs font-bold text-amber-400 uppercase tracking-widest font-sans">
               Coexisting Ideologies in Academic Knowledge Networks
@@ -262,6 +285,25 @@ export default function PublishingConflictEssay() {
                 </p>
               </div>
             </div>
+          </div>
+          <div className="bg-amber-955/25 border border-amber-900/40 p-5 rounded-xl space-y-4">
+            <h4 className="text-sm font-bold text-amber-400 font-sans flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-amber-400 animate-pulse" />
+              The Pedagogical Mandate: Learning Capacity Over Metric-Driven "Innovation"
+            </h4>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed italic border-l-4 border-amber-500 pl-3">
+              "The creation of new knowledge is only part of education. Education mainly concerns learning, learning ability, and the ability to apply knowledge to solve real problems."
+              <br />
+              <span className="text-xs text-amber-400/90 block mt-1 font-sans not-italic font-bold">
+                — Section 3 of Supporting Information, "Anodic Polarization Curves Revisited" (Journal of Chemical Education, 2013)
+              </span>
+            </p>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed">
+              This statement exposes a tragic systemic flaw in modern academic training. Universities have largely transformed into metric-obsessed paper factories that prioritize superficial "novelty" over rigorous theoretical foundations. Graduate students are forced to "innovate" and publish speculative findings before they have even mastered basic wave mechanics, classical kinetics, or thermodynamic equations.
+            </p>
+            <p className="text-xs md:text-sm text-slate-300 font-serif leading-relaxed">
+              True scientific education must center on <strong>learning capacity, critical thinking, and the absolute power to apply proven, rigorous physical principles to solve real-world problems</strong>. Innovation cannot be manufactured by bureaucratic quotas; it is the natural, inevitable outcome of a mind that has fully inherited, audited, and internalized the masterworks of science.
+            </p>
           </div>
           <p>
             We recognize that to publish within established journals, one must naturally adapt to the collective expectations of the publishing consensus. This is a reasonable and necessary trade-off for community-wide collaboration. However, when an independent scholar reaches a stage of career security or intellectual self-reliance where they no longer depend on mainstream approval, they can fully reclaim their unvarnished voice. Both paths serve science: one preserves and refines the shared consensus, while the other courageously points to the raw frontier.
