@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -3255,6 +3255,105 @@ We welcome rigorous theoretical disputes and academic audits:
 
 #RussellSaundersTerms #Spectroscopy #ChemicalEducation #SpinPartitioning #YueLiu #TheChemicalEducator #JCE #ScientificIntegrity #DeSci #GarbagePapers`;
 
+  // PROJECT 32 TEXTS (Ninth Lecture: The Metaphysical Inversion / 第九讲：形而上学被污名化与现代科学界的颠倒规则)
+  const youtubeScriptText32 = `[SCENE 1: THE INVERSION OF REASON | 第一幕：颠倒的学术黑白]
+[Visual: A stylized, high-contrast animation of a world turned completely upside down. On the ceiling, we see massive, sparkling laboratories, millions of dollars in grants, and piles of SCI papers. On the floor, we see fundamental equations, classic textbooks, and single thinkers working under candlelight. Suddenly, a golden scale appears on screen, with a single, simple equation in a textbook completely outweighing a mountain of SCI journals.]
+[Sound: Deep, resonant orchestral brass chord, followed by a dark, driving synth bassline.]
+
+[VOICEOVER]
+"In the modern scientific establishment, truth has been systematically demonized, while bureaucratic form has been glorified as cutting-edge progress. 
+这是一个科学观念被彻底颠倒的时代。在这个时代，把真相化繁为简的‘形而上学’被批判为机械死板，而空洞无物的‘辨证形式主义’却被捧上神坛。
+They tell you that science is an industrial army operation where individuals must submit to the consensus. They tell you that textbook theory is 'low-level,' while journal papers are 'high-level.' But what if everything they have told you is a self-serving lie designed to protect a decaying administrative guild? Let's dismantle the great inversion."
+
+---
+
+[SCENE 2: THE REHABILITATION OF METAPHYSICS | 第二幕：为“形而上学”正名]
+[Visual: Animated sequence showing Newton sitting under his apple tree. Wind blows, planets move, and rain falls in a complex storm. Slowly, Newton draws a bounding box around the apple. He writes: F = m * a. The storm fades into a clean, simple, geometric grid. Text on screen: "Isolate. Simplify. Hold Constant."]
+[Sound: Uplifting, clear classical acoustic guitar and synthesizer elements.]
+
+[VOICEOVER]
+"Let's look at their first deception: the demonization of 'metaphysics.' The academic establishment mocks metaphysics as a rigid, mechanical worldview that is 'too simple' to capture our complex reality. They offer 'dialectics' as the only correct, high-minded path.
+形而上学最大的伟大之处，恰恰就在于它把复杂的世界看成是‘简单的、机械的、一成不变的’。
+Because that is exactly how scientific discovery works. Every single timeless law of nature was discovered by ruthlessly isolating a single invariant principle from a chaotic universe. Galileo, Newton, Maxwell, and Boltzmann did not try to model the entire interconnected cosmos at once. They held variables constant, isolated systems, and established simple, rigid, unchanging laws. If you reject this metaphysical isolation, you reject science itself.
+And what do these critics of 'metaphysical rigidity' offer in its place? A toxic, bureaucratic formalism of their own: measuring scientists by arbitrary SCI metrics, auditing Master's theses only for formatting margins and typos, and calling AI text assistance 'misconduct' while ignoring massive empirical fraud. This is empty, administrative ceremonialism—not scientific rigor."
+
+---
+
+[SCENE 3: THE TEXTBOOK PRIMACY VS. THE JOURNAL FACTORY | 第三幕：教科书之至高，与期刊公式的虚无]
+[Visual: Side-by-side comparison of a heavy, leather-bound textbook labeled 'Classical Mechanics' and a flimsy, glossy journal titled 'Advanced Nano Materials 2026'. The textbook glows with a warm, steady light. The journal flashes with hyperactive, shallow, neon-colored graphs that quickly turn into static noise.]
+[Sound: Sound of paper shredding, followed by an objective, analytical tone.]
+
+[VOICEOVER]
+"Their second inversion is the worship of journals over textbooks. Mainstream scientists treat textbook-level knowledge as 'low-level' basics that they mastered long ago. They focus entirely on journal publications.
+这是一种极度愚蠢的傲慢。学校教育仅仅是引你入门，要真正吃透教科书，需要毕业后用一生的时间反复研读、多本对照、从不同物理视角去交叉验证。
+The truth is: 99.9% of journal papers have absolutely no qualification to ever enter a standard textbook. Textbooks filter for permanent, self-consistent, mathematically unassailable laws. Journals are merely raw, instrument-driven alchemical logs.
+And let's expose their mathematical sophistry: journal papers routinely print complex equations while skipping all intermediate derivations, pretending the math is 'obvious' to look sophisticated. In reality, the authors themselves rarely understand the deep physics of their own printed formulas. They use equations as decorative wallpaper to hide the theoretical emptiness of their experimental stories."
+
+---
+
+[SCENE 4: THE TYRANNY OF CONSENSUS VS. THE INDIVIDUAL GENIUS | 第四幕：大兵团作战的霸权与自由学者]
+[Visual: A massive, grey industrial army of identical scientists in lab coats marching in lockstep, holding signs that say 'CONSENSUS', 'GRANTS', 'COMPLIANCE'. Opposing them stands a single, brilliant thinker carrying a notebook. A stamp descends from the army: 'CRANK' (民科 / 民间科学家).]
+[Sound: Heavy, mechanical, industrial marching sound, transitioning into a pure, soaring solo violin melody.]
+
+[VOICEOVER]
+"Their third inversion is the fetishization of 'big science'—the idea that research must be a collective, military-style operation (大兵团作战). Anyone working outside their state-funded, peer-reviewed loop is labeled a 'crank' or 'civilian scientist.'
+但在历史上，真正推动科学重大跨越的，从来都是‘非共识的、自由思考的个人’。
+Academic authorities do not protect truth; they protect their own funding monopolies. They claim they must suppress the minority because 'most minority opinions are wrong.' But they have the logic completely backward!
+Agreeing with the majority is easy—it requires zero courage, zero intellectual risk, and guarantees career security. But an individual who dares to openly oppose the entire academic establishment must have incredibly solid, unassailable evidence or logical derivations. To ignore and suppress these brave dissidents under the guise of 'protecting consensus' is the ultimate crime against scientific progress. Tolerance for the non-consensus minority is the sole engine of human discovery."
+
+---
+
+[SCENE 5: THE FINAL AUDIT | 第五幕：客观规律的终极审计]
+[Visual: The upside-down world slowly rotates back to its correct, upright position. The massive SCI paper mill crumbles into dust, while the classic textbooks and fundamental equations remain standing, glowing with golden light.]
+[Sound: Majestic, victorious orchestral finale.]
+
+[VOICEOVER]
+"The modern scientific establishment has built its entire empire on a foundation of sand. They have reversed the natural order of science: they ignore the permanent to chase the transient, and they punish the individual thinker to protect the bureaucratic cartel.
+But nature does not care about their peer-review consensus, their funding grants, or their SCI metrics. When late-stage academic monopolies decay, they collapse under the weight of their own useless paper flood. Master the textbooks. Protect your independent mind. Stand with the rigorous minority, and let history deliver the final verdict on this era of alchemical illusions.
+See you in the next lecture."
+[Visual: Fade out to links to Yue Liu’s SSRN and Substack papers.]`;
+
+  const youtubeDescText32 = `Lecture 9: The Metaphysical Inversion - Reclaiming Metaphysics, Textbook Primacy, and the Individual Dissident
+第九讲：学术界的颠倒规则——为形而上学正名、捍卫教科书至高地位与自由学者的正名之旅
+
+📖 FEATURED ESSAY & DE-SCI TRACTS (本期核心思想文献):
+➔ Essay AN: Metaphysical Inversion (现代学术界的颠倒之网)
+➔ SSRN 5447975: Materialism vs Metaphysics (论唯物主义与形而上学在科学中的真实演化)
+➔ SSRN 5514958: Metaphysical Idealism in Physical Chemistry (物理化学中的唯心主义形而上学建构)
+
+---
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE TRUE GREATNESS OF METAPHYSICS (形而上学的科学伟大之处):
+Mainstream academia demonizes metaphysics (形而上学) as simple, mechanical, and rigid, while praising dialectics (辩证法) as complex and superior. This is a massive epistemic deception. Isolating variables, holding systems constant, and establishing unchanging, timeless laws is the absolute peak of scientific inquiry. Every major natural law was discovered through metaphysical simplification.
+
+2️⃣ THE SO-CALLED "FORMALISM" OF ACADEMIA (现代学术界的形式主义真面目):
+While the establishment mocks metaphysics for its "rigidity," they are themselves trapped in a toxic, empty administrative formalism. They measure scientific value purely by SCI metrics and journal tiers, audit Master's and PhD theses solely for margins and typos, and treat AI-assisted writing as "misconduct" while completely ignoring massive, systemic empirical data fabrication by elite cartels.
+
+3️⃣ THE TEXTBOOK PRIMACY VS. THE JOURNAL FACTORY (教科书的至高地位与期刊公式的虚无):
+Modern scientists look down on textbook-level knowledge as "elementary," preferring glossy journals. In truth, school only introduces you to the subject; truly digesting a textbook requires a lifetime of post-graduate, multi-perspective study. 99.9% of journal papers have zero qualifications to enter a textbook. Journal papers skip intermediate mathematical derivations to look "sophisticated," yet the authors themselves rarely understand the deep physical foundations of their own copied equations.
+
+4️⃣ THE ARMY VS. THE LONE THINKER (大兵团作战的集权垄断与少数派思想):
+The establishment promotes "big science" (大兵团作战) and brands independent scholars as "cranks" (民科) to protect their funding monopolies. History proves that major breakthroughs are always driven by non-consensus individuals working in absolute freedom. Agreeing with the majority requires zero courage and guarantees career security. An individual who dares to oppose the establishment always has strong logical or empirical grounds, and protecting their dissenting voice is the sole engine of scientific progress.
+
+---
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The upside-down world of modern science
+2:15 - Rehabilitating Metaphysics: Why isolating and simplifying is the greatness of science
+5:00 - The empty forms of the establishment: SCI metrics and thesis margins
+7:45 - Textbook Primacy: Why reading classic books is real scholarship
+10:30 - The sophistry of journal equations: Skipped derivations and copied formulas
+13:15 - Big Science vs. The Lone Thinker: How consensus cartels suppress breakthroughs
+15:50 - The Rigorous Minority: Why we must protect the dissenters
+18:15 - Conclusion: The final audit of objective reality
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous theoretical disputes and academic audits:
+➔ yueliusd@163.com
+
+#Metaphysics #TextbookPracy #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #IndependentScholar #DeSciRevolution #GarbagePapers`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -3287,7 +3386,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project28" ? youtubeScriptText28 :
     activeProject === "project29" ? youtubeScriptText29 :
     activeProject === "project30" ? youtubeScriptText30 :
-    youtubeScriptText31;
+    activeProject === "project31" ? youtubeScriptText31 :
+    youtubeScriptText32;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -3320,7 +3420,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project28" ? youtubeDescText28 :
     activeProject === "project29" ? youtubeDescText29 :
     activeProject === "project30" ? youtubeDescText30 :
-    youtubeDescText31;
+    activeProject === "project31" ? youtubeDescText31 :
+    youtubeDescText32;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -3850,6 +3951,22 @@ We welcome rigorous theoretical disputes and academic audits:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-650 animate-pulse" />
             Project AE: Russell-Saunders Terms
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project32");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project32"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-project32"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-655 animate-pulse" />
+            Project AF: Metaphysical Inversion
           </button>
         </div>
       </div>
@@ -4492,6 +4609,33 @@ We welcome rigorous theoretical disputes and academic audits:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AF */}
+      {activeProject === "project32" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-655 animate-pulse" />
+             Lecture 9: The Metaphysical Inversion of Modern Science • 第九讲：形而上学被污名化、形式主义猖獗与真理颠倒现象
+          </div>
+          <p className="text-[12px] text-indigo-955 leading-relaxed italic">
+            "本期视频聚焦于‘真理的妖魔化与错误的崇高化’这一荒诞现实。视频痛斥主流科学界将‘形而上学’污名化为僵化机械，却不知将系统简化、隔离并抓取恒常规律正是科学赖以立身的基石！相反，学术界大谈所谓高大上的辩证法和复杂性，实质却退化为狂热的形式主义：唯SCI指标论、对毕业论文只挑格式错别字、把AI语言辅助当‘学术不端’却对大牛数据造假视而不见。此外，视频一针见血指出教科书与学术期刊的价值颠倒：学校教育仅是门槛，真正吃透教科书理论需毕业后一生的求索；而99.9%的顶刊文献既无资格写进教科书，更不经作者本人的深入推演。最后，视频为被贴上‘民科’标签的自由学者正名，大兵团作战的官僚体制从不催生重大突破，非共识的、敢于独立面对主流霸权的自由大脑，才是真正的科学发动机。这是一部对颠倒黑白的学术霸权，正本清源的檄文！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              In Defense of Metaphysics (简化隔离、抓取恒常：形而上学之伟大)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              The Real Formalism (唯指标、查错字、反AI：学术界的形式主义真面目)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              The Primacy of Textbooks (99.9%期刊文献无资格进入教科书的常识)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              The Rigorous Minority (非共识的自由头脑才是科学的终极引擎)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -4531,7 +4675,8 @@ We welcome rigorous theoretical disputes and academic audits:
                   activeProject === "project28" ? "Project AB" :
                   activeProject === "project29" ? "Project AC" :
                   activeProject === "project30" ? "Project AD" :
-                  "Project AE"
+                  activeProject === "project31" ? "Project AE" :
+                  "Project AF"
                 })</span>
               </div>
               <button
