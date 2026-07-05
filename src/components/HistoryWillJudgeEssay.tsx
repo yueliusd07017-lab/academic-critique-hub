@@ -124,10 +124,44 @@ export default function HistoryWillJudgeEssay() {
         </p>
       </div>
 
-      {/* Section 4: The Final Verdict of History */}
+      {/* Section 4: The Nostalgia Paradox and the Imperial Cycle of Centralized Systems */}
       <div className="space-y-4">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-red-955 border-b border-gray-100 pb-1.5">
-          <span className="text-red-655 font-mono">IV.</span> The Decoupling of Truth: Why Objective Reality Will Shatter the Cartels
+          <span className="text-red-655 font-mono">IV.</span> The Nostalgia Paradox: Cyclic Degeneration of Centralized Guilds
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">怀古之谜与集权循环：为什么科学界逃不脱“今不如昔”的周期律</span>
+        </h3>
+        <p>
+          In typical narratives of social and technological progress, human development is assumed to be linear: tomorrow is always supposed to be better than today, and the present must be superior to the past. Why, then, do deep critics of the scientific establishment find themselves looking back with profound nostalgia (怀古) to Newton’s era or the 1950s–70s golden era of chemistry? Why does "今不如昔" (the present is worse than the past) feel like an undeniable reality in modern scientific research?
+        </p>
+        <p>
+          To many, this nostalgia seems like a romantic, anti-progressive delusion. However, a deep historical and institutional analysis reveals that this is not a delusion, but a structural law. 
+          There is a profound parallel here with <strong>Chinese imperial history</strong>. In China's centralized imperial systems, "longing for the past and praising the ancestors" (怀古与法先王) was always the dominant philosophical paradigm. The ancient dynasties did not believe in linear, endless progress because they were bound to a strict, inescapable natural cycle: 
+          <strong>Rise ➔ Prosperity ➔ Satiation ➔ Institutional Bureaucratization ➔ Deep Corruption ➔ Collapse (兴盛—腐败—灭亡的周期律)</strong>.
+        </p>
+        <div className="p-4.5 rounded-xl border border-slate-200 bg-slate-50 my-4 space-y-2">
+          <span className="text-xs font-bold text-slate-850 uppercase tracking-wider block font-mono">
+            The Parallel of Centralized Monopoly (集权体制与学术门阀的同构性):
+          </span>
+          <p className="text-xs md:text-sm text-gray-800 font-serif leading-relaxed italic">
+            "The modern scientific peer-review and funding apparatus is not a free, self-correcting market of ideas. It is a highly centralized, monopolistic bureaucratic guild system. In terms of institutional architecture, it shares a deep, structural isomorphism with the centralized imperial systems of ancient China. Because both are top-down monopolies with zero external feedback or genuine grassroots accountability, they are governed by the exact same cycle of decay."
+          </p>
+        </div>
+        <p>
+          At the "founding" of a dynasty—or a scientific epoch (such as Newton’s Royal Society or the early years of the physical-chemistry revolution)—the system is driven by pure, high-minded, and idealist pursuits of order and discovery. Bureaucratic layers are thin, and rent-seeking is non-existent. Meritocracy is at its peak because survival depends on actual competence and raw truth.
+        </p>
+        <p>
+          But as the system matures and centralizes, it is inevitably captured by interest groups. Over generations, the academic gatekeepers accumulate absolute power. They form monopolistic cartels (学术门阀). They build impenetrable networks of mutual citation and exclusive funding channels. Power becomes hereditary, leading to the "ghost story" of nepotistic academic lineages where the children of barons effortlessly inherit elite positions, while the brilliant grassroots scholar is ground down into an exhausted, compliant assembly-line laborer.
+        </p>
+        <p>
+          In this late-stage centralized decay, the system's primary goal shifts from <em>discovering truth</em> to <em>maintaining the bureaucracy and preserving elite privilege</em>. To justify their massive state grants, the cartels must print a deluge of high-frequency, peer-reviewed, yet theoretically hollow paper-waste—the post-2010 SCI "garbage papers." 
+          This explains why the nostalgia for Newton or the mid-century JACS is mathematically and institutionally robust: we are longing for the <strong>high-merit, low-bureaucracy initial state</strong> of the system, before it devolved into a corrupt, self-serving, and rent-seeking imperial guild.
+        </p>
+      </div>
+
+      {/* Section 5: The Final Verdict of History */}
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-red-955 border-b border-gray-100 pb-1.5">
+          <span className="text-red-655 font-mono">V.</span> The Decoupling of Truth: Why Objective Reality Will Shatter the Cartels
           <span className="text-xs font-sans text-gray-400 font-normal ml-auto">真理的决不妥协：客观规律对门阀的终极清算</span>
         </h3>
         <p>

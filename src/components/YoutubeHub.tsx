@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -3138,6 +3138,123 @@ We welcome rigorous physical disputes and academic audits:
 
 #GengTongxue #AcademicFraud #HanmenXuezi #YueLiu #SSRN5514918 #NatureRetractions #AcademicBarons #AcademicNepotism #ScientificIntegrity #DeSci`;
 
+  // PROJECT 31 TEXTS (Eighth Lecture: Russell-Saunders Terms / 第八讲：光谱项自旋分割与现代顶刊学术退化)
+  const youtubeScriptText31 = `[SCENE 1: THE PEDAGOGICAL NIGHTMARE OF SPECTROSCOPY | 第一幕：光谱项推导的传统噩梦]
+[Visual: Animated sequence showing an atomic nucleus surrounded by equivalent d-electrons (e.g. d2). Subtitles flash terms like "Pauli Exclusion Principle", "L-S Coupling", "Forbidden Microstates". The screen then splits to show a massive, dry, confusing 45-microstate table from a standard physical chemistry textbook, and a giant red "X" stamped over it to represent the frustration of chemistry students.]
+[Sound: Sound of pages turning rapidly, followed by an aggressive, heavy synth beat.]
+
+[VOICEOVER]
+"For generations of chemistry and physics students, determining the Russell-Saunders terms of equivalent electrons has been an absolute nightmare. Standard textbook methods—whether they rely on massive tables or tedious ladder operators—are so complicated that they overwhelm undergraduates and are completely pushed to the margins of spectroscopy.
+但如果我告诉你，这个折磨了无数人的学术噩梦，其实早在一场被顶级教育期刊拒绝的学术杰作中，得到了完美的解决呢？
+In 2012, we developed a method so elegant, so mathematically complete, that it automatically excludes physically forbidden microstates with zero complex calculations. But when we submitted it, it was immediately rejected. Let's find out why."
+
+---
+
+[SCENE 2: THE SPIN PARTITIONING MASTERPIECE | 第二幕：自旋分割法，神作的诞生]
+[Visual: A beautiful animated diagram showing two parallel electrons of d2. Suddenly, the screen splits: one side shows alpha spin, the other side shows beta spin. A golden formula appears on screen: <F(α,α,α) + P(α,α,α)> ⊗ <F(β,β) + P(β,β)>. The animation shows the direct product instantly grouping them, automatically excluding forbidden and duplicate microstates.]
+[Sound: Uplifting, high-tech electronic music with a sense of clarity.]
+
+[VOICEOVER]
+"In 2010, we published an article in the 'Journal of Chemical Education', extending the direct product representation of molecular spectroscopy to spherical atomic symmetry. It was an excellent work. But our ultimate, most satisfying masterpiece came in 2012, published in 'The Chemical Educator'. 
+这是我们自己最满意、也是推导光谱项最完美、最高效的方法：自旋分割组合法 (Spin Partitioning Method)。
+Instead of treating all equivalent electrons in a single massive pool, we partitioned them into separate spin groups: α-spins and β-spins. By doing this, we automatically rule out all the physically impossible microstates. The direct product of these spin-partitioned groups yields the exact, allowed Russell-Saunders terms in seconds, with absolutely no tables required. It is pure, self-consistent physical logic."
+
+---
+
+[SCENE 3: "TOO COMPLEX FOR UNDERGRADUATES" | 第三幕：高高在上的编辑，与秒拒背后的学术黑幕]
+[Visual: A copy of a rejection letter from the Journal of Chemical Education appears. Highlighting the words: 'Too complex for undergraduates'. Cut to an abstract animation of an editor with closed eyes, waving away a manuscript, while colorful, simplistic laboratory flasks bubble in the background.]
+[Sound: Record scratch, low-pitched mechanical hum of cynicism.]
+
+[VOICEOVER]
+"When we submitted this masterpiece to the 'Journal of Chemical Education', the editor rejected it almost instantly. The official excuse? 'It is too complex for undergraduate students.'
+这只是一个愚蠢的表面理由。这个表面理由的背后，是期刊编辑根深蒂固的傲慢与冷漠。
+In reality, the editors and reviewers had absolutely no interest in spending the mental effort required to read the manuscript or follow its logical derivations. They saw a manuscript dealing with mathematical group theory and atomic terms, and in their lazy minds, they dismissed it as complex, dry nuclear structure physics with zero practical significance. They wanted simple, colorful laboratory experiments, not rigorous physical theory."
+
+---
+
+[SCENE 4: THEORY VS. SCI ALCHEMY | 第四幕：能写进教科书的理论，与顶刊“炼金术”垃圾的对比]
+[Visual: Side-by-side comparison. Left side: High-contrast retro footage from 1965 showing JACS, featuring molecular orbital symmetry and Woodward-Hoffmann rules. Right side: A generic post-2010 SCI paper titled 'High-Performance Nano-Catalysis with Graphene', filled with expensive TEM/XPS curves, and a storybook-like flow chart leading to a trash bin labeled 'Garbage Papers'.]
+[Sound: Melancholic, dramatic orchestral build-up.]
+
+[VOICEOVER]
+"Despite this rejection, education journals like the 'Journal of Chemical Education' and the 'American Journal of Physics' actually publish many classic works. Why? Because they are educational journals, they are forced to respect theory and pedagogical logic. 
+而在研究型期刊看来，教学理论研究是‘低水平工作’。他们青睐的是什么？是流水线式的‘炼金术’实验报告。
+Let's be completely honest: the only scientific works of permanent, genuine value are those that are worthy of entering standard textbooks to be compared with classic physical theories. 
+During the 1950s to 70s, JACS published monumental, theoretical breakthroughs like frontier molecular orbitals. But today? Almost every post-2010 modern SCI paper you read is a piece of flooded garbage. They use hyper-expensive automated instruments—TEM, XPS, DFT—to produce a massive pile of raw empirical data, weave it into an entertaining 'story', and call it a breakthrough. But once you finish reading, your fundamental theoretical understanding of nature is improved by exactly zero. It's just a high-tech alchemical record log."
+
+---
+
+[SCENE 5: THE NOSTALGIA PARADOX & IMPERIAL DECAY | 第五幕：学术界为什么需要“怀古”与集权周期律]
+[Visual: A stunning animated diagram showing the progression of a Chinese dynasty: from a clean, lean founding state to a massive, bloated, corrupted court full of sycophants and buyable titles. Next to it, an identical timeline for modern academia: from Newton's lean Royal Society to a massive, bloated modern guild of peer-review cartels and academic barons.]
+[Sound: Deep, heavy, dramatic imperial drums combined with modern synth beats.]
+
+[VOICEOVER]
+"Here lies the ultimate question: in a world of endless technological progress, why does the scientific community need to long for the past? Why does '今不如昔' (the present is worse than the past) feel so real?
+很多人无法接受今不如昔的观点，认为明天一定会比今天好。但这忽视了集权体制的演化规律。
+In Chinese imperial history, nostalgia—longing for the ancient golden era (怀古与法先王)—was always the dominant intellectual theme. The reason is simple: centralized monopolies are governed not by linear progress, but by the strict, inescapable cycle of Rise, Prosperity, Bureaucratic Corruption, and final Collapse (兴盛—腐败—灭亡的周期律).
+The modern scientific peer-review guild is NOT an open, self-correcting market of ideas. It is a highly centralized, top-down bureaucratic monopoly—with no essential difference from the ancient imperial systems of China. 
+At its initial state, a system is lean, merit-driven, and focused purely on truth. But as power consolidates, academic barons build impenetrable cartels, trade citations like feudal currency, and let their offspring inherit prestige. To maintain their massive state grants, they must flood the archive with automated, instrument-driven alchemical garbage. Our nostalgia is not a delusion; it is a mathematically rigorous recognition of the high-integrity initial state of a centralized system before it entered its late-stage decay."
+
+---
+
+[SCENE 6: THE FINAL VERDICT OF REALITY | 第六幕：客观规律的清算]
+[Visual: The animation of the d2 atom returns. The symbols 1G, 3F, 1D, 3P, 1S glow in gold. The name 'Ying Liu & Yue Liu' is highlighted over the 2012 Chemical Educator paper.]
+[Sound: Powerful, victorious final chord.]
+
+[VOICEOVER]
+"Peer review can be manipulated. Lazy editors can reject elegant papers. But they can never manipulate or bribe objective reality. A fabricated material will never behave as their stories claim. And our spin partitioning method remains mathematically and physically unassailable, proving that true scientific progress belongs to the theoretical purists who dare to simplify nature's laws.
+Read the 2012 Chemical Educator paper. Master the spin partitioning method. Let's return science to its empirical and logical roots, and let history deliver the final verdict on this era of alchemical garbage.
+See you in the next lecture."
+[Visual: Fade out to a screen showing links to Yue Liu’s SSRN and Substack papers.]`;
+
+  const youtubeDescText31 = `Lecture 8: Russell-Saunders Terms - Spin Partitioning, JCE Rejection, and the "Alchemical" Flood of Modern SCI Journals
+第八讲：等价电子光谱项推导——揭秘自旋分割算法、JCE秒拒黑幕与SCI“炼金术报告”的时代堕落
+
+📖 FEATURED PUBLICATIONS (本期主讲核心文献):
+1️⃣ Dr. Yue Liu's Masterpiece (自旋分割算法 - 本期核心):
+Ying Liu, Yue Liu*, Michael G. B. Drew, "The use of Three Simple Related Procedures in Determining the Russell-Saunders Terms of Equivalent Electrons," The Chemical Educator 2012, 17: 118–124.
+➔ Publisher Link: http://dx.doi.org/10.1333/s00897122428a
+
+2️⃣ JCE Extension Paper (分子光谱法向原子光谱法的推广应用):
+Ying Liu, Yue Liu*, Bihui Liu, "A New Method for Obtaining Russell–Saunders Terms," Journal of Chemical Education 2010, 88(3): 295–298.
+➔ Publisher Link: https://doi.org/10.1021/ed100721q
+
+---
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE SPIN PARTITIONING INNOVATION (自旋分割法的革命性化简):
+Determining Russell-Saunders terms for equivalent electrons in atomic spectroscopy is traditionally a pedagogical nightmare, requiring massive tables or ladder operators. Our 2012 Chemical Educator paper solved this by partitioning equivalent electrons into separate spin groups (α and β). Since parallel spins are restricted within their groups, the direct product automatically excludes forbidden and duplicate microstates. It simplifies a complex quantum gauntlet into pure, elegant physical logic.
+
+2️⃣ THE JOURNAL OF CHEMICAL EDUCATION REJECTION (JCE秒拒背后的编辑惰性):
+This 2012 masterpiece was rejected by JCE on the superficial excuse that "it is too complicated for undergraduates." In truth, JCE editors and reviewers lacked the intellectual curiosity to read and understand a novel theoretical framework. Because it contained group theory and mathematical logic, they lazily assumed it was useless "nuclear structure physics," prioritizing simplistic, colorful lab demonstrations over rigorous pedagogy.
+
+3️⃣ CAN REAL SCIENCE BE FOUND IN EDUCATION JOURNALS? (教育期刊与研究期刊的错位价值):
+Unlike research-oriented journals that treat teaching research as "low-level," journals like JCE and the American Journal of Physics (AJP) publish historically significant theoretical reorganizations because they emphasize foundational principles. Only theories worthy of being written into textbooks have permanent scientific value.
+
+4️⃣ JACS GOLDEN ERA VS. POST-2010 SCI GARBAGE FLOOD (黄金年代与现代“炼金术垃圾”的碰撞):
+From the 1950s to the 1970s, JACS published highly conceptual theoretical masterpieces (such as orbital symmetry conservation and frontier molecular orbitals). Today, modern post-2010 SCI top-tier papers are almost entirely flooded "garbage papers." They use expensive automated instruments (TEM, XPS, DFT) to generate massive empirical data, weave it into a vivid "story," but offer exactly ZERO advancement in fundamental theoretical understanding. They are merely expensive, highly-polished alchemical logs.
+
+5️⃣ THE NOSTALGIA PARADOX & IMPERIAL DECAY CYCLE (怀古之谜与集权周期律):
+Why must the scientific community long for the past? Because modern academia operates as a highly centralized, monopolistic bureaucratic guild—with no essential difference from the ancient centralized imperial systems of Chinese history. Centralized monopolies are bound to a strict, cyclical law of decay: Rise ➔ Prosperity ➔ Satiation ➔ Institutional Bureaucratization ➔ Deep Corruption ➔ Collapse. Our nostalgia for Newton or mid-century JACS is a mathematically rigorous recognition of the system's high-integrity initial state before late-stage decay set in.
+
+---
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The pedagogical nightmare of equivalent electrons
+2:30 - The 2010 JCE paper: Extending molecular spectroscopy to atomic terms
+4:15 - The 2012 Chemical Educator paper: The elegant Spin Partitioning algorithm
+7:00 - Behind the JCE rejection: Editor laziness and intellectual arrogance
+9:45 - The textbook test: What constitutes real scientific value?
+12:15 - 1960s JACS vs Post-2010 SCI: From deep theory to alchemical data storytelling
+14:10 - The Nostalgia Paradox: Why centralized systems follow Chinese imperial cycles of decay
+16:30 - Conclusion: Why objective reality always clears out the garbage
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous theoretical disputes and academic audits:
+➔ yueliusd@163.com
+
+#RussellSaundersTerms #Spectroscopy #ChemicalEducation #SpinPartitioning #YueLiu #TheChemicalEducator #JCE #ScientificIntegrity #DeSci #GarbagePapers`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -3169,7 +3286,8 @@ We welcome rigorous physical disputes and academic audits:
     activeProject === "project27" ? youtubeScriptText27 :
     activeProject === "project28" ? youtubeScriptText28 :
     activeProject === "project29" ? youtubeScriptText29 :
-    youtubeScriptText30;
+    activeProject === "project30" ? youtubeScriptText30 :
+    youtubeScriptText31;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -3201,7 +3319,8 @@ We welcome rigorous physical disputes and academic audits:
     activeProject === "project27" ? youtubeDescText27 :
     activeProject === "project28" ? youtubeDescText28 :
     activeProject === "project29" ? youtubeDescText29 :
-    youtubeDescText30;
+    activeProject === "project30" ? youtubeDescText30 :
+    youtubeDescText31;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -3715,6 +3834,22 @@ We welcome rigorous physical disputes and academic audits:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-red-650 animate-pulse" />
             Project AD: History Will Judge
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project31");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project31"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-project31"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-650 animate-pulse" />
+            Project AE: Russell-Saunders Terms
           </button>
         </div>
       </div>
@@ -4330,6 +4465,33 @@ We welcome rigorous physical disputes and academic audits:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AE */}
+      {activeProject === "project31" && (
+        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-emerald-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-650 animate-pulse" />
+             Lecture 8: Russell-Saunders Terms of Equivalent Electrons • 第八讲：光谱项推导自旋分割法、JCE秒拒黑幕与顶刊炼金术化
+          </div>
+          <p className="text-[12px] text-emerald-955 leading-relaxed italic">
+            "本期视频堪称理论物理化学教学史上的神作。视频聚焦于2012年发表在《The Chemical Educator》上的代表作：等价电子光谱项推导的‘自旋分割组合法’。相比教材中动辄写几十个微态或用复杂的阶梯算符，自旋分割组合法通过将α自旋和β自旋电子分别在不同的组合空间单独处理，依靠直积规则天然地将违反泡利原理和重复的态自动屏蔽，不需画微态表，数秒内即可得出正确结果！而这样一篇推导逻辑完美的教学神作，却被《Journal of Chemical Education》秒拒，理由是‘对本科生太复杂’，其实质是编辑和审稿人缺乏耐心通读稿件，以傲慢和惰性直接把其归类为‘无意义的数学游戏’。视频并以此切入，深刻对比了重视理论教学的研究（如50-70年代JACS发表的分子轨道对称守恒）与现代顶刊向仪器数据堆砌、讲个漂亮故事却对理论认知零提升的‘炼金术报告’的时代堕落。这是一场对科学研究本源、学风 degenerating 的灵魂拷问！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Spin Partitioning Method (等价电子自旋分割高效无表推导光谱项)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              JCE Editorial Laziness (JCE编辑傲慢、因“太复杂”秒拒教学神作黑幕)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Textbook Quality Check (有资格写进教科书的理论才是真正的永久价值)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Modern SCI Alchemy (现代SCI灌水论文堆砌仪器数据讲故事的“炼金术报告”实质)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -4368,7 +4530,8 @@ We welcome rigorous physical disputes and academic audits:
                   activeProject === "project27" ? "Project AA" :
                   activeProject === "project28" ? "Project AB" :
                   activeProject === "project29" ? "Project AC" :
-                  "Project AD"
+                  activeProject === "project30" ? "Project AD" :
+                  "Project AE"
                 })</span>
               </div>
               <button
