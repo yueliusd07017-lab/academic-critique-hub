@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32" | "project33">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -3354,6 +3354,103 @@ We welcome rigorous theoretical disputes and academic audits:
 
 #Metaphysics #TextbookPracy #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #IndependentScholar #DeSciRevolution #GarbagePapers`;
 
+  // PROJECT 33 TEXTS (Tenth Lecture: Where Should the Nuclei Be Located? / 第十讲：原子核在分子轨道中的位置)
+  const youtubeScriptText33 = `[SCENE 1: THE TEXTBOOK MISCONCEPTION | 第一幕：教科书里的经典谬误]
+[Visual: Close-up of open pages of a prestigious inorganic chemistry textbook showing drawings of s-p overlap and sp hybrid orbitals. A glowing red magnifying glass highlights the atomic nucleus visually centered exactly on a dotted nodal line/plane. Suddenly, the word 'ERROR!' is stamped on the page.]
+[Sound: Sound of a buzzer, followed by a dramatic cello melody.]
+
+[VOICEOVER]
+"Where should the nuclei be located? If you open almost any Inorganic Chemistry or Physical Chemistry textbook today, you will see orbital diagrams placing the atomic nucleus directly at the nodes or nodal planes of molecular and hybrid orbitals. 
+许多经典教材在绘制分子轨道或杂化轨道时，都想当然地将原子核画在波函数的节面、节点处。
+But this is a qualitative and mathematical impossibility. Today, we expose a decades-old textbook error, published in our 2005 JCE paper, and reveal how the anonymous peer-review system was abused to steal our work and quietly correct the textbooks of domestic academic giants."
+
+---
+
+[SCENE 2: THE MATHEMATICAL TRUTH | 第二幕：分子轨道节点的物理真相]
+[Visual: Beautiful mathematical rendering on a blackboard. Two hydrogen px orbitals with positive and negative wave lobes approach. Equations fly in: \Psi_mol = \psi_1 + \psi_2. We see that at nucleus 1, \psi_1 is zero, but the tail of \psi_2 is positive. Therefore, the sum \Psi_mol is non-zero at nucleus 1.]
+[Sound: Pure, clean piano notes accompanied by digital chime effects.]
+
+[VOICEOVER]
+"Let's break down the physics simply: for a single isolated atomic orbital, the angular wavefunction can indeed have a node where its value is zero. But in a molecule, the wavefunctions overlap.
+当两个p轨道结合形成化学键时，分子轨道是两个原子波函数的叠加。在1号原子核的位置上，虽然1号原子的波函数因为节面原因确实为零，但2号原子伸过来的波函数‘尾巴’在这里却不为零！
+Therefore, the combined molecular wavefunction at the position of nucleus 1 is never zero. The nucleus does not lie on a node—neither in bonding nor in antibonding orbitals. Our 2005 JCE paper demonstrated this quantitatively with exact hydrogenic wave function plots. Yet, when we first tried to publish this correction, we ran head-first into domestic academic feudalism."
+
+---
+
+[SCENE 3: CASE STUDY A - CHEMISTRY BULLETIN REJECTION | 第三幕：案例一：不透明评审下的悄悄修改]
+[Visual: An academic manuscript labeled 'Where Should the Nuclei Be Located?' is stamped 'REJECTED' by a Chinese journal. Behind the desk, a textbook editor wears a dual mask of 'anonymous reviewer' and 'celebrated textbook author'. They secretly copy the correction onto a proof of their own textbook.]
+[Sound: Tension-building pizzicato strings.]
+
+[VOICEOVER]
+"Before our international publication in JCE, we submitted this discovery to the Chinese journal 'Chemistry Bulletin' (《化学通报》). It was rejected. 
+为什么被拒？因为我们的稿件指出了国内极具影响力的北京师范大学编写的《无机化学》教材中的硬伤。
+To challenge an authoritative textbook compiled by BNU is to challenge the academic elite. The anonymous reviewer rejected our manuscript. But here is the scandal: shortly after our paper was blocked, BNU released a new edition of their textbook. In it, the orbital nodal error was quietly corrected—adopting our exact arguments—without citing our paper or acknowledging our submission. The peer-review system was used as an espionage network to debug their own textbook while erasing the independent discoverer."
+
+---
+
+[SCENE 4: CASE STUDY B & C - FRONT-RUNNING AND THE GOLDEN SILENCE | 第四幕：案例二与三：15天发表神迹与“无声蚕食”]
+[Visual: A split-screen showing a timeline. Left: Dr. Yue Liu's preprints with the custom characteristic impedance symbol 'ZM'. Right: A journal article from JCIS 2021 by Wang et al. showing an impossible 15-day review timeline (Received March 8, Accepted March 23) using the identical 'ZM' symbol. Below, a Wiley 2025 paper quietly adopts criticisms of RL while systematically refusing to cite.]
+[Sound: Fast-paced electronic clock ticking, followed by deep static noise.]
+
+[VOICEOVER]
+"This practice of front-running and quiet co-optation is rampant today. In 2021, a paper was published in JCIS using the exact same 'ZM' symbol for characteristic impedance that we developed, rushing from submission to acceptance in an impossible 15 days. 
+而在2025年，发表在AELM的一篇微波吸收论文，在正文中悄悄吸收了我们关于‘反射损耗（RL）评估标准漏洞’、‘虚假无限大吸收峰’等核心批判理论，却故意在文献中彻底封杀、绝不引用我们的奠基性工作。
+This is the ultimate weapon of academic cartels: when they cannot refute your calculations, they use 'the golden silence.' They block your manuscripts in peer review, rewrite their own works to absorb your ideas, and publish them in elite journals to rewrite history. They hope that by denying you citations, you will be erased from scientific memory."
+
+---
+
+[SCENE 5: THE UNALTERABLE TRUTH | 第五幕：历史的恒常账本]
+[Visual: Gold-gilded letters spelling 'JCE 2005 - LIU & DREW'. An unalterable mathematical graph showing the non-zero wave values at the nucleus glow with golden light. The modern peer-review cartels fade into dark, obsolete shadows.]
+[Sound: Majestic, grand orchestral outro.]
+
+[VOICEOVER]
+"But nature does not keep its books in journal offices. The mathematical proof that molecular nuclei do not reside at nodes stands as an unalterable monument in JCE 2005. 
+任凭门阀在期刊和评审中如何合谋、抄袭和封锁，真理的墨迹一旦写下，便永远无法被抹去。
+Master the classic textbooks. Protect your independent mind from the silent, plagiary cartels. Truth is the ultimate auditor, and history will deliver the final verdict.
+See you in the next lecture."
+[Visual: Fade out showing JCE 2005 citation, Yue Liu's Substack, and SSRN links.]`;
+
+  const youtubeDescText33 = `Lecture 10: Where Should the Nuclei Be Located? - Textbook Errors, Silent Plagiarism, and Peer-Review Abuse
+第十讲：原子核在分子轨道中的位置之谜——经典教材谬误、同行评审剽窃与学术门阀的无声冷处理
+ 
+📖 FEATURED ESSAY & SCIENTIFIC TRACTS (本期核心思想文献):
+➔ Essay AO: Where Should the Nuclei Be Located? (原子核在分子轨道中的位置)
+➔ JCE 2005: Where Should the Nuclei Be Located? Journal of Chemical Education 2005, 82(2): 320-322. (分子轨道节点处的物理真相纠正)
+➔ Substack Criticisms: "When Silence Replaces Refutation: An Open Critique of Editorial Non-Engagement and the Erosion of Scientific Self-Correction"
+
+---
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE TEXTBOOK NODAL ERROR (教材中关于分子轨道节点的概念性硬伤):
+For decades, mainstream Inorganic and Physical Chemistry textbooks visually depicted atomic nuclei directly at the nodes or nodal planes of molecular and hybrid orbitals (such as p-p overlap or sp hybrid orbitals). This is a physical impossibility. Since molecular orbitals are linear combinations of atomic wavefunctions (\Psi_mol = \psi_1 \pm \psi_2), the neighboring wavefunction's "tail" is always non-zero at any given nucleus coordinate. Thus, the total wavefunction value at the nucleus is never zero.
+
+2️⃣ THE "CHEMISTRY BULLETIN" REJECTION SCANDAL (《化学通报》拒稿与北师大教材“悄悄纠错”案):
+Before publishing in JCE in 2005, we submitted this discovery to the domestic Chinese journal Chemistry Bulletin (《化学通报》), pointing out the error in the highly influential Inorganic Chemistry textbook compiled by Beijing Normal University (北京师范大学). The paper was rejected. Shockingly, in subsequent editions, BNU quietly corrected the error to match our exact analysis but systematically refused to cite our JCE paper or acknowledge our submission.
+
+3️⃣ THE 15-DAY MIRACLE & NOVELTY THEFT (15天接受奇迹与符号ZM的剽窃嫌疑):
+In 2021, a paper was rushed through JCIS (from received on March 8 to accepted on March 23, 2021) using the exact characteristic impedance symbol 'ZM' we developed to front-run our publications. This highlights how anonymous reviewers abuse the peer-review timeline to block grassroots papers while rushing their own version to print.
+
+4️⃣ THE STRATEGY OF "THE GOLDEN SILENCE" (无声蚕食与冷处理霸权):
+As seen in recent 2025 papers in Advanced Electronic Materials (AELM 2025), academic barons quietly adopt several of our core theoretical criticisms of Reflection Loss (RL) evaluation paradigms, but deliberately and systematically refuse to cite our SSRN or Substack publications. They use silence as a weapon to starve original authors of credit while stealing intellectual assets.
+
+---
+
+⏱️ TIMESTAMPS (视频时间线):
+0:00 - Introduction: The nodal error in prestigious textbooks
+2:10 - Mathematical proof: Why molecular wavefunctions are non-zero at the nucleus
+5:30 - The Chemistry Bulletin scandal: Challenging BNU and getting rejected
+8:15 - Silent corrections: How textbook authors steal reviewer-intercepted discoveries
+11:00 - The JCIS 2021 case: The 15-day review miracle and 'ZM' symbol reproduction
+13:50 - The AELM 2025 case: Quiet co-optation of RL criticisms
+16:40 - The Golden Silence: How academic cartels attempt to erase original thinkers
+19:15 - Conclusion: History is the ultimate ledger of truth
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous theoretical disputes and academic audits:
+➔ yueliusd@163.com
+
+#MolecularOrbitals #ChemicalEducation #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #JournalOfChemicalEducation #JCE #BNUTextbook`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -3387,7 +3484,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project29" ? youtubeScriptText29 :
     activeProject === "project30" ? youtubeScriptText30 :
     activeProject === "project31" ? youtubeScriptText31 :
-    youtubeScriptText32;
+    activeProject === "project32" ? youtubeScriptText32 :
+    youtubeScriptText33;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -3421,7 +3519,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project29" ? youtubeDescText29 :
     activeProject === "project30" ? youtubeDescText30 :
     activeProject === "project31" ? youtubeDescText31 :
-    youtubeDescText32;
+    activeProject === "project32" ? youtubeDescText32 :
+    youtubeDescText33;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -3967,6 +4066,22 @@ We welcome rigorous theoretical disputes and academic audits:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-655 animate-pulse" />
             Project AF: Metaphysical Inversion
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project33");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project33"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-project33"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-655 animate-pulse" />
+            Project AG: Nuclei Location
           </button>
         </div>
       </div>
@@ -4636,6 +4751,33 @@ We welcome rigorous theoretical disputes and academic audits:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AG */}
+      {activeProject === "project33" && (
+        <div className="bg-emerald-50/45 border border-emerald-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-emerald-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-emerald-655 animate-pulse" />
+             Lecture 10: Where Should the Nuclei Be Located? • 第十讲：原子核在分子轨道中的位置之谜与学术不透明黑幕
+          </div>
+          <p className="text-[12px] text-emerald-955 leading-relaxed italic">
+            "本期视频聚焦于经典教材中关于分子和杂化轨道原子核位置的常年概念性硬伤（JCE 2005），并深刻揭露同行评审机制如何沦为门阀掠夺独立学者智慧的黑网。视频首先给出严格的量子化学解释：由于分子轨道是相邻原子轨道叠加，一号原子的波函数在自身原子核处虽为零，但二号原子伸过来的波函数‘尾巴’在此坐标上绝非为零，因此原子核在分子轨道中绝不会坐落在节面上！接着，视频痛陈真实遭遇的三桩不公：一是首发《化学通报》指出北师大《无机化学》教材硬伤后被拒，但教材编者随后在后续版本中悄悄修改了错误却拒不引用作者已发表的JCE论文；二是JCIS 2021某文章竟在短至15天的评审神迹中，套用我们独创的特征阻抗符号ZM抢先发表；三是AELM 2025等期刊最近论文在微波吸收评估中悄然吸收我们的反射损耗RL批判内核，却以‘绝对沉默’对我们的开拓性研究实施学术封杀。这不仅是一堂硬核化学理论课，更是一次对学术门阀蚕食独立大脑成果的愤怒指控！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              Hydrogenic Wave Truth (原子核在叠加轨道中绝不位于节面)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              The BNU Textbook Espionage (《化学通报》拒稿、北师大悄悄纠错与抄袭疑云)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-emerald-100 text-emerald-800 uppercase">
+              JCIS 15-Day Miracle & ZM (15天神速评审与阻抗符号重合嫌疑)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              The Weapon of Silence (以绝对沉默蚕食、不引、封杀开拓者)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -4676,7 +4818,8 @@ We welcome rigorous theoretical disputes and academic audits:
                   activeProject === "project29" ? "Project AC" :
                   activeProject === "project30" ? "Project AD" :
                   activeProject === "project31" ? "Project AE" :
-                  "Project AF"
+                  activeProject === "project32" ? "Project AF" :
+                  "Project AG"
                 })</span>
               </div>
               <button
