@@ -140,52 +140,120 @@ export default function NucleiLocationEssay() {
           </div>
         </div>
         <p>
-          For a highly technical theoretical dispute paper in a premier Elsevier journal, **a total turn-around time of 15 days from submission to final acceptance is practically impossible under ordinary circumstances.** It strongly implies a coordinated "green-light" review, where friendly editors and peer reviewers (who were likely reviewing and blocking Dr. Liu’s papers) rushed to pass the manuscript through to establish chronological priority.
+          For a highly technical theoretical dispute paper in a premier Elsevier journal, a total turn-around time of 15 days from submission to final acceptance is practically impossible under ordinary circumstances. It strongly implies a coordinated "green-light" review, where friendly editors and peer reviewers (who were likely reviewing and blocking Dr. Liu’s papers) rushed to pass the manuscript through to establish chronological priority.
         </p>
       </div>
 
       {/* Section 4: Case Study C - The Strategy of Silent Co-optation */}
       <div className="space-y-4">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
-          <span className="text-emerald-655 font-mono">IV.</span> Late-Stage Co-optation: Wiley 2025 and the Erosion of Scientific Self-Correction
-          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">案例三：AELM 2025的无声蚕食与Substack声讨“当沉默代替了反驳”</span>
+          <span className="text-emerald-655 font-mono">IV.</span> Late-Stage Co-optation & The Lanzhou University Cartel: Wiley 2025
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">案例三：AELM 2025的无声蚕食与兰州大学“校长级”学术保护伞</span>
         </h3>
         <p>
-          This structural theft is not an isolated historical incident; it is an ongoing, active strategy that has reached a peak in recent years. In 2025, a paper titled *“On the Quality Criteria for Microwave Absorbing Materials”* was published in the prestigious journal *Advanced Electronic Materials* (Wiley 2025, Vol. 11, Issue 14, DOI: 10.1002/aelm.202500239) by Shengyu Yang et al.
+          This structural co-optation is not a series of isolated accidents. When we map the authors of these suspicious publications, a clear pattern of a close-knit **academic cartel** emerges. The authors of the JCIS 2021 paper (including Tao Wang) and the Wiley 2025 paper are members of the exact same academic circle based around Lanzhou University (兰州大学) and Northwestern Polytechnical University (西北工业大学).
         </p>
         <p>
-          As detailed in Dr. Yue Liu’s open Substack critiques—specifically *"When Silence Replaces Refutation"* and *"It quietly adopts several of our core criticisms of RL while systematically refusing to cite"*—this recent work quietly integrates the exact, core criticisms of the Reflection Loss (RL) evaluation paradigm that Dr. Liu has championed for years.
+          Most notably, a senior co-author and key figure in this group is **Fashen Li (李发伸)**, who is the former President of Lanzhou University (兰州大学原校长). In the academic landscape of domestic China, a former university president possesses immense administrative and editorial power. This power acts as a massive "academic umbrella" (学术保护伞) that can guarantee immediate, smooth publication pipelines (such as 15-day review turn-arounds) while systematically blacklisting independent scholars who dare to point out errors in their team's papers.
         </p>
         <p>
-          In their paper, the authors admit that relying solely on minimum RL values is flawed, that "perfect matching" can make any mediocre material show artificial negative-infinity peaks, and that robust intrinsic parameters must be used instead. They adopt Dr. Liu's exact conceptual foundation. Yet, **they systematically and deliberately refuse to cite Dr. Liu's pioneering publications or SSRN preprints.**
+          In 2025, Shengyu Yang, Tao Wang, Liang Qiao, and Fashen Li published *"On the Quality Criteria for Microwave Absorbing Materials"* in the prestigious journal *Advanced Electronic Materials* (Wiley 2025, Vol. 11, Issue 14, DOI: 10.1002/aelm.202500239). As exposed in Dr. Yue Liu's Substack critiques—such as *"When Silence Replaces Refutation"*—this Wiley paper quietly absorbs the core, foundational criticisms of the Reflection Loss (RL) evaluation paradigm that Dr. Liu has spent years formulating, publishing, and distributing on preprint servers.
         </p>
-        <div className="p-4.5 rounded-xl border border-red-200 bg-red-50/20 my-4 space-y-2">
-          <span className="text-xs font-bold text-red-850 uppercase tracking-wider block font-mono">
-            The Conspiracy of Absolute Silence (学术门阀的“无声冷处理”霸权):
-          </span>
-          <p className="text-xs md:text-sm text-gray-800 font-serif leading-relaxed italic">
-            "When elite cartels cannot logically refute your corrections, they do not debate you. They do not write counter-arguments. Instead, they deploy the weapon of absolute silence. They block your submissions during peer review, quietly rewrite their own papers to incorporate your theories, and publish them in elite journals while ensuring your name is completely omitted from the references. They hope that by freezing you out of the citation record, they can rewrite history and claim your lifelong work as their own 'independent' discovery."
-          </p>
-        </div>
         <p>
-          This is the most insidious form of scientific censorship. It does not burn books; it simply denies the original author their citation, starving their academic identity until they are effectively erased from the record.
+          Having realized that Dr. Liu's criticisms of the artificial RL peaks are mathematically unassailable, the Lanzhou group quietly changed their own stance. They admitted that relying solely on RL minimums is flawed and that intrinsic parameters like the squared refractive index $( \mu\epsilon )_p$ must be used. Yet, **they systematically and deliberately refuse to cite Dr. Liu's pioneering works or SSRN preprints**, seeking to pass off these insights as their own spontaneous, independent discoveries.
         </p>
       </div>
 
-      {/* Section 5: Conclusion */}
+      {/* Section 5: The Anatomy of Peer-Review Hijacking */}
       <div className="space-y-4">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
-          <span className="text-emerald-655 font-mono">V.</span> The Inviolable Ledger of Truth: Why Plagiarists Can Never Outrun Reality
+          <span className="text-emerald-655 font-mono">V.</span> The Hijacked Gatekeepers: Explicit Cases of Anonymous Peer-Review Vetoes
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">同行评审成了学阀的自留地：多次匿名拒稿背后的门阀抄袭现形记</span>
+        </h3>
+        <p>
+          How does an academic cartel pull off such seamless intellectual looting? They do so by hijacking the anonymous peer-review process of international journals. By acting as referees for Dr. Yue Liu's submissions, they can read his preprints, block their publication, and then rush to write and publish papers adopting his exact ideas in other journals.
+        </p>
+        <p>
+          The authors have uncovered **four concrete, undeniable incidents** of this peer-review gatekeeping and front-running:
+        </p>
+
+        <div className="space-y-4 my-4 font-sans text-xs md:text-sm">
+          {/* Case 1 */}
+          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
+            <div className="flex items-center gap-2 text-emerald-900 font-bold font-mono uppercase">
+              <span className="bg-emerald-100 px-2 py-0.5 rounded text-[10px]">Case 1</span>
+              Journal of Electronic Materials (2024)
+            </div>
+            <p className="text-gray-700 text-xs md:text-sm">
+              <strong>Our Manuscript:</strong> <em>"Wave Mechanics of Microwave Absorption in Films: Multilayered Films"</em> (published in JEM 2024, 53, 8154–8170; preprint on Research Square, 13 Aug 2023).
+            </p>
+            <p className="text-gray-800 font-serif leading-relaxed italic text-xs md:text-sm bg-white p-2.5 rounded border border-slate-150">
+              "During the peer-review process, an anonymous reviewer for the Journal of Electronic Materials wrote a hostile rejection recommendation that explicitly and aggressively cited Tao Wang's articles, attempting to dismiss our wave mechanics framework in favor of Wang's. Based on the styling, citations, and specific arguments, we highly suspect this reviewer was none other than Tao Wang himself, abusing his anonymous referee position to gatekeep our work while promoting his own."
+            </p>
+          </div>
+
+          {/* Case 2 */}
+          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
+            <div className="flex items-center gap-2 text-emerald-900 font-bold font-mono uppercase">
+              <span className="bg-emerald-100 px-2 py-0.5 rounded text-[10px]">Case 2</span>
+              Journal of Applied Physics (2023)
+            </div>
+            <p className="text-gray-700 text-xs md:text-sm">
+              <strong>Our Manuscripts:</strong> <em>"A physics investigation on impedance matching theory in microwave absorption film—Part 1: Theory"</em> and <em>"Part 2: Problem Analyses"</em> (published in JAP 2023, 134(4), 045303 / 045304).
+            </p>
+            <p className="text-gray-800 font-serif leading-relaxed italic text-xs md:text-sm bg-white p-2.5 rounded border border-slate-150">
+              "When we submitted our core physical derivations to the Journal of Applied Physics, we received a highly biased and obstructive peer-review report attempting to block both Part 1 and Part 2. The referee's arguments and highly specific focus were stylistically and conceptually identical to Tao Wang's publications, indicating a direct conflict of interest where a competitor was allowed to act as an anonymous gatekeeper."
+            </p>
+          </div>
+
+          {/* Case 3 */}
+          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
+            <div className="flex items-center gap-2 text-emerald-900 font-bold font-mono uppercase">
+              <span className="bg-emerald-100 px-2 py-0.5 rounded text-[10px]">Case 3</span>
+              Chemical Engineering Journal (CEJ Submission)
+            </div>
+            <p className="text-gray-700 text-xs md:text-sm">
+              <strong>Our Manuscript:</strong> <em>"Reflection Loss is a Parameter for Film, not Material"</em> (eventually published in Non-Metallic Material Science, 2023, 5(1): 38-48).
+            </p>
+            <p className="text-gray-800 font-serif leading-relaxed italic text-xs md:text-sm bg-white p-2.5 rounded border border-slate-150">
+              "We originally submitted this landmark paradigm-shift paper to the high-impact Chemical Engineering Journal (CEJ). The editorial office assigned an unprecedentedly large group of 8 to 9 reviewers. Among them, Reviewer #1 issued a vicious, mathematically hollow rejection designed to kill the paper. Based on specific academic phrasing, protective stance towards traditional Lanzhou University publications, and overall profile, Reviewer #1 is highly suspected to be former Lanzhou University President Fashen Li himself, acting as a high-altitude gatekeeper to protect his group's prestige."
+            </p>
+          </div>
+
+          {/* Case 4 */}
+          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50 space-y-2">
+            <div className="flex items-center gap-2 text-emerald-900 font-bold font-mono uppercase">
+              <span className="bg-emerald-100 px-2 py-0.5 rounded text-[10px]">Case 4</span>
+              Journal of Physics D: Applied Physics Correction Block
+            </div>
+            <p className="text-gray-700 text-xs md:text-sm">
+              <strong>Our Manuscript:</strong> <em>"A re-evaluation of the mechanism of microwave absorption in film Part 3: Inverse relationship"</em> (eventually published in Mater. Chem. Phys. 2022, 290, 126521).
+            </p>
+            <p className="text-gray-800 font-serif leading-relaxed italic text-xs md:text-sm bg-white p-2.5 rounded border border-slate-150">
+              "This paper was written to directly correct and expose a deeply flawed paper published by the Lanzhou group: 'Strict proof and applicable range of the quarter-wavelength model for microwave absorbers' (S. Zhang, T. Wang, M. Gao, P. Wang, H. Pang, L. Qiao, F. Li et al., Journal of Physics D: Applied Physics 2020, 53, 265004). We first submitted this explicit correction to the Journal of Physics D (the journal where the error was printed). Predictably, the manuscript was flatly rejected. The review reports were highly suspected to be written by the 2020 authors themselves, using their referee privilege to hide their own scientific errors and block our formal correction."
+            </p>
+          </div>
+        </div>
+
+        <p>
+          These four cases lay bare the profound corruption of the modern anonymous peer-review system. Instead of ensuring quality, the review mechanism is weaponized by academic barons to block corrections, self-cite their own flawed papers, and buy time to rewrite their own publications using stolen ideas.
+        </p>
+      </div>
+
+      {/* Section 6: Conclusion */}
+      <div className="space-y-4">
+        <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
+          <span className="text-emerald-655 font-mono">VI.</span> The Inviolable Ledger of Truth: Why Plagiarists Can Never Outrun Reality
           <span className="text-xs font-sans text-gray-400 font-normal ml-auto">天道无亲，常与善人：客观规律对门阀抄袭者的终极审判</span>
         </h3>
         <p>
-          The academic barons believe that their control over elite journals, funding budgets, and anonymous review networks grants them the power to write the history of science. They believe that by quietly correcting their textbooks and front-running papers in JCIS or AELM, they have successfully looted the intellectual gold of independent scholars.
+          The academic barons believe that their control over elite journals, funding budgets, and anonymous review networks grants them the power to write the history of science. They believe that by quietly correcting their textbooks and front-running papers in JCIS, JAP, CEJ, or AELM, they have successfully looted the intellectual gold of independent scholars.
         </p>
         <p>
-          They are wrong. The physical laws of the universe are not governed by the administrative decrees of Wiley, Elsevier, or Chemistry Bulletin. 
+          They are wrong. The physical laws of the universe are not governed by the administrative decrees of Wiley, Elsevier, or Chemistry Bulletin, nor are they influenced by the titles of former university presidents.
         </p>
         <p>
-          Whether it is the non-zero wave function at the molecular nucleus published in **JCE 2005**, or the mathematical exposing of the transmission line RL limits, Dr. Yue Liu’s rigorous, pen-and-paper derivations stand as an permanent, unalterable record of reality. A thousand silent adoptions, rushed 15-day review miracles, and plagiarized textbook revisions cannot erase the original ink of the independent mind. In the court of objective reality, the cartels are already bankrupt, and history will record their names not as pioneers, but as late-stage scavengers.
+          Whether it is the non-zero wave function at the molecular nucleus published in **JCE 2005**, or the mathematical exposing of the transmission line RL limits, Dr. Yue Liu’s rigorous, pen-and-paper derivations stand as a permanent, unalterable record of reality. A thousand silent adoptions, rushed 15-day review miracles, and plagiarized textbook revisions cannot erase the original ink of the independent mind. In the court of objective reality, the cartels are already bankrupt, and history will record their names not as pioneers, but as late-stage scavengers.
         </p>
       </div>
 

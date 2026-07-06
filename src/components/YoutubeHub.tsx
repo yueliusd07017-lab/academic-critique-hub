@@ -3394,12 +3394,27 @@ To challenge an authoritative textbook compiled by BNU is to challenge the acade
 
 [VOICEOVER]
 "This practice of front-running and quiet co-optation is rampant today. In 2021, a paper was published in JCIS using the exact same 'ZM' symbol for characteristic impedance that we developed, rushing from submission to acceptance in an impossible 15 days. 
+当把这些关系网络拼接在一起时，一个由兰州大学（Lanzhou University）和西北工业大学（NWPU）相关人员构成的学术门阀（Academic Cartel）清晰浮现。JCIS 2021与Wiley 2025的作者全是一伙人，其中的核心人物李发伸（Fashen Li）更是兰州大学的前校长。这种‘校长级’的门阀霸权，让他们的稿件能以15天‘光速发表’，而独立学者的纠错论文却遭到无理封锁！
 而在2025年，发表在AELM的一篇微波吸收论文，在正文中悄悄吸收了我们关于‘反射损耗（RL）评估标准漏洞’、‘虚假无限大吸收峰’等核心批判理论，却故意在文献中彻底封杀、绝不引用我们的奠基性工作。
 This is the ultimate weapon of academic cartels: when they cannot refute your calculations, they use 'the golden silence.' They block your manuscripts in peer review, rewrite their own works to absorb your ideas, and publish them in elite journals to rewrite history. They hope that by denying you citations, you will be erased from scientific memory."
 
 ---
 
-[SCENE 5: THE UNALTERABLE TRUTH | 第五幕：历史的恒常账本]
+[SCENE 5: THE ANATOMY OF PEER-REVIEW HIJACKING | 第五幕：匿名同行评审的“看门狗”现形记]
+[Visual: A dark web connecting several prestigious journals (JEM, JAP, CEJ, JP D). Red lines extend from Lanzhou University to anonymous reviewer terminals. Animated case cards pop up detailing how reviewers blocked Dr. Liu's submissions while citing or writing papers based on them.]
+[Sound: Low, ominous brass notes, sound of keyboard typing in a dark room.]
+
+[VOICEOVER]
+"How did they enforce this block? By hijacking peer review across multiple premier journals. We have uncovered four explicit instances where our submissions were vetoed by anonymous reviewers who were clearly from this Lanzhou cartel:
+第一，我们在Journal of Electronic Materials 2024发表的层状薄膜波动力学论文，在审稿时被一个匿名审稿人强行拒稿，该审稿人恶意要求我们引用并承认王涛（Tao Wang）的研究。此人高度疑似就是王涛本人，滥用审稿权阻碍同行工作！
+第二，我们在Journal of Applied Physics 2023发表的阻抗匹配两篇奠基论文，也遭遇了行文风格、学术倾向与王涛高度一致的审稿人百般刁难与拒稿推荐。
+第三，我们的‘反射损耗是薄膜参数而非材料参数’一文投往Chemical Engineering Journal时，编辑部找了前所未有的八九个审稿人，其中一号审稿人发表了充满敌意、逻辑混乱的拒稿意见，从学术套路看高度疑似前校长李发伸本人，实施‘校长级’封锁！
+第四，更荒谬的是，我们针对李发伸、王涛等人2020年发表在Journal of Physics D上的‘四分之一波长模型严格证明’错误论文的纠错稿，首先投往该期刊，却被高度疑似这伙作者本人的匿名审稿人直接枪毙，利用裁判身份隐藏学术硬伤！
+Peer review has ceased to be an objective tool for quality; it has become the private fiefdom of academic barons to hide errors and pillage ideas."
+
+---
+
+[SCENE 6: THE UNALTERABLE TRUTH | 第六幕：历史的恒常账本]
 [Visual: Gold-gilded letters spelling 'JCE 2005 - LIU & DREW'. An unalterable mathematical graph showing the non-zero wave values at the nucleus glow with golden light. The modern peer-review cartels fade into dark, obsolete shadows.]
 [Sound: Majestic, grand orchestral outro.]
 
@@ -3410,7 +3425,7 @@ Master the classic textbooks. Protect your independent mind from the silent, pla
 See you in the next lecture."
 [Visual: Fade out showing JCE 2005 citation, Yue Liu's Substack, and SSRN links.]`;
 
-  const youtubeDescText33 = `Lecture 10: Where Should the Nuclei Be Located? - Textbook Errors, Silent Plagiarism, and Peer-Review Abuse
+  const youtubeDescText33 = `Lecture 10: Where Should the Nuclei Be Located? - Textbook Errors, Peer-Review Hijacking, and Academic Cartels
 第十讲：原子核在分子轨道中的位置之谜——经典教材谬误、同行评审剽窃与学术门阀的无声冷处理
  
 📖 FEATURED ESSAY & SCIENTIFIC TRACTS (本期核心思想文献):
@@ -3422,16 +3437,22 @@ See you in the next lecture."
 
 🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
 1️⃣ THE TEXTBOOK NODAL ERROR (教材中关于分子轨道节点的概念性硬伤):
-For decades, mainstream Inorganic and Physical Chemistry textbooks visually depicted atomic nuclei directly at the nodes or nodal planes of molecular and hybrid orbitals (such as p-p overlap or sp hybrid orbitals). This is a physical impossibility. Since molecular orbitals are linear combinations of atomic wavefunctions (\Psi_mol = \psi_1 \pm \psi_2), the neighboring wavefunction's "tail" is always non-zero at any given nucleus coordinate. Thus, the total wavefunction value at the nucleus is never zero.
+For decades, mainstream Inorganic and Physical Chemistry textbooks visually depicted atomic nuclei directly at the nodes or nodal planes of molecular and hybrid orbitals. This is a physical impossibility. Since molecular orbitals are linear combinations of atomic wavefunctions (\Psi_mol = \psi_1 \pm \psi_2), the neighboring wavefunction's "tail" is always non-zero at any given nucleus coordinate. Thus, the total wavefunction value at the nucleus is never zero.
 
-2️⃣ THE "CHEMISTRY BULLETIN" REJECTION SCANDAL (《化学通报》拒稿与北师大教材“悄悄纠错”案):
-Before publishing in JCE in 2005, we submitted this discovery to the domestic Chinese journal Chemistry Bulletin (《化学通报》), pointing out the error in the highly influential Inorganic Chemistry textbook compiled by Beijing Normal University (北京师范大学). The paper was rejected. Shockingly, in subsequent editions, BNU quietly corrected the error to match our exact analysis but systematically refused to cite our JCE paper or acknowledge our submission.
+2️⃣ THE "CHEMISTRY BULLETIN" REJECTION SCANDAL (北师大教材“一言堂”与审查窃书):
+Before publishing in JCE in 2005, we submitted this discovery to the domestic Chinese journal Chemistry Bulletin (《化学通报》), pointing out the error in the highly influential Inorganic Chemistry textbook compiled by Beijing Normal University (北京师范大学). The paper was rejected, but shortly after, BNU quietly corrected the error in subsequent editions without citing our JCE paper or acknowledging our submission.
 
-3️⃣ THE 15-DAY MIRACLE & NOVELTY THEFT (15天接受奇迹与符号ZM的剽窃嫌疑):
-In 2021, a paper was rushed through JCIS (from received on March 8 to accepted on March 23, 2021) using the exact characteristic impedance symbol 'ZM' we developed to front-run our publications. This highlights how anonymous reviewers abuse the peer-review timeline to block grassroots papers while rushing their own version to print.
+3️⃣ THE LANZHOU UNIVERSITY CARTEL (兰州大学/西北工大门阀与校长级学术伞):
+We expose a deep academic cartel surrounding Lanzhou University and Northwestern Polytechnical University (NWPU), including key members Tao Wang and Fashen Li (former President of Lanzhou University - 兰州大学原校长). Their immense power guarantees 15-day "light-speed" reviews for their own papers (e.g., JCIS 2021) while they weaponize anonymous peer-review to block competitor publications.
 
-4️⃣ THE STRATEGY OF "THE GOLDEN SILENCE" (无声蚕食与冷处理霸权):
-As seen in recent 2025 papers in Advanced Electronic Materials (AELM 2025), academic barons quietly adopt several of our core theoretical criticisms of Reflection Loss (RL) evaluation paradigms, but deliberately and systematically refuse to cite our SSRN or Substack publications. They use silence as a weapon to starve original authors of credit while stealing intellectual assets.
+4️⃣ THE FOUR EXPLICIT PEER-REVIEW HIJACKING CASES (四大评审劫持现形记):
+- JEM 2024: Our wave mechanics paper was hostilely rejected by an anonymous reviewer who aggressively demanded we cite and validate Tao Wang's flawed articles (highly suspected of being Tao Wang himself).
+- JAP 2023: Our landmark impedance matching papers faced a referee whose review comments and style were conceptually identical to Tao Wang, attempting to suppress our foundational derivations.
+- CEJ Submission: Our paper proving "Reflection Loss is a Parameter for Film, not Material" was submitted to Chemical Engineering Journal and blocked by Reviewer #1, who based on style and protective stance is highly suspected to be former Lanzhou University President Fashen Li.
+- JP D 2020: Our correction manuscript debunking the 2020 "Strict Proof" error paper by S. Zhang, T. Wang, and F. Li was submitted to the Journal of Physics D and flatly rejected by reviewers highly suspected to be the original authors themselves protecting their flaws.
+
+5️⃣ THE STRATEGY OF "THE GOLDEN SILENCE" (无声蚕食与冷处理霸权):
+When cartels cannot mathematically refute your papers (as seen in Advanced Electronic Materials / AELM 2025), they quietly rewrite their own papers to absorb your corrections while systematically refusing to cite your SSRN preprints, hoping to starve you of credit and write you out of history.
 
 ---
 
@@ -3440,16 +3461,19 @@ As seen in recent 2025 papers in Advanced Electronic Materials (AELM 2025), acad
 2:10 - Mathematical proof: Why molecular wavefunctions are non-zero at the nucleus
 5:30 - The Chemistry Bulletin scandal: Challenging BNU and getting rejected
 8:15 - Silent corrections: How textbook authors steal reviewer-intercepted discoveries
-11:00 - The JCIS 2021 case: The 15-day review miracle and 'ZM' symbol reproduction
-13:50 - The AELM 2025 case: Quiet co-optation of RL criticisms
-16:40 - The Golden Silence: How academic cartels attempt to erase original thinkers
-19:15 - Conclusion: History is the ultimate ledger of truth
+10:45 - The Lanzhou University Cartel: Former President Fashen Li & Tao Wang
+13:15 - Case 1: Journal of Electronic Materials (Tao Wang's suspected review hijacking)
+15:00 - Case 2: Journal of Applied Physics (Suppression of impedance matching Part 1 & 2)
+17:00 - Case 3: Chemical Engineering Journal (Former President Fashen Li's suspected veto)
+18:45 - Case 4: Journal of Physics D (Cartel protecting their own flawed 2020 paper)
+21:00 - The AELM 2025 case: Quiet co-optation of RL criticisms & Golden Silence
+23:15 - Conclusion: History is the ultimate ledger of truth
 
 📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
 We welcome rigorous theoretical disputes and academic audits:
 ➔ yueliusd@163.com
 
-#MolecularOrbitals #ChemicalEducation #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #JournalOfChemicalEducation #JCE #BNUTextbook`;
+#MolecularOrbitals #ChemicalEducation #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #LanzhouUniversity #FashenLi #PeerReviewScandal #JournalOfChemicalEducation #JCE`;
 
   // Select current active text
   const currentScript = 
