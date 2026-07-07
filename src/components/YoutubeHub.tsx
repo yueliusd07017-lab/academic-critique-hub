@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32" | "project33" | "project34">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32" | "project33" | "project34" | "project35">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -3573,6 +3573,106 @@ We welcome rigorous theoretical disputes and academic audits:
 
 #QuantumChemistry #BandTheory #NmrSpectroscopy #Stereochemistry #ScientificIntegrity #DeSci #LanzhouUniversity #LigandFieldTheory #YueLiu #CoordinationChemistry`;
 
+  const youtubeScriptText35 = `[SCENE 1: THE ACCIDENTAL WINNER | 第一幕：真理战胜谬误的线性神话]
+[Visual: Graphic showing two paths. One path has mathematically rigorous proofs, the other path has flawed theories but a high-impact, prestigious SCI logo. A crowd cheering at the prestigious SCI throne. Stamp: "SOCIOLOGICAL DOMINANCE / 思想底盘优势"]
+[Sound: Deep, resonating cello, building up to an electronic tension pad.]
+
+[VOICEOVER]
+"When correct and incorrect ideas meet, we naively assume that truth wins out automatically. But history and science show that objective correctness is irrelevant to immediate survival. What determines victory is the underlying cognitive foundation—the 'epistemic base' of the receiving community.
+当正确与错误的思想相遇，人们总天真地以为真理必将胜出。然而，无论是科学史还是人类地缘政治，短期内决定胜负的，从来都不是思想客观上的对错，而是接收它的群体底层的认知承重结构——这就是‘思想底盘’定律。"
+
+---
+
+[SCENE 2: THERMODYNAMICS AND GIBBS-DUHEM | 第二幕：吉布斯-杜姆方程的学术退步案]
+[Visual: International Journal of Thermophysics 2022 cover (Natural mathematical derivation of the Gibbs-Duhem Equation). Math equation splits showing delta G and partial G with respect to progress. Red ink crosses out sloppy textbook formulas.]
+[Sound: Precise, crisp piano notes.]
+
+[VOICEOVER]
+"Take thermodynamics. The mathematical relationship between delta G and reaction progress progress derivative has been governed by the Gibbs-Duhem Equation for a century. In 2022, we published a natural mathematical derivation in the International Journal of Thermophysics, correcting long-standing conflations in textbook literature. Why did textbooks backslide? Because a scientific community that devalues pen-and-paper logic in favor of alchemical automation eventually forgets its own mathematical foundations, allowing incorrect interpretations to override correct ones.
+以热力学为例，delta G 与反应进度微商之间的相互关系在热力学中早有公论，但在主流教材中却被严重混淆。2022年我们在《国际热物理学报》发表严密推导，予以正本清源。为什么已经解决的真理会退步？因为当主流科学界轻视数学逻辑、迷信仪器数据时，错误思想就会借由教条惯性反噬真理、占据教材！"
+
+---
+
+[SCENE 3: IMPEDANCE MATCHING SCANDAL | 第三幕：初中物理逻辑对SCI顶刊的神学大扫盲]
+[Visual: A massive factory conveyor belt stamping "SCI PRESTIGE" onto piles of wave reflection papers. Red light flashes as a simple high-school physics vector diagram overlay shows that reflections only happen at boundaries.]
+[Sound: Industrial metallic beats, alarm sirens.]
+
+[VOICEOVER]
+"This epistemic failure is flagrant in the microwave absorption literature. The traditional 'impedance matching' theory is logically impossible—suggesting electromagnetic waves can reflect within a single phased material, ignoring boundary conditions. This error can be unmasked using junior-high school physics! Yet, because elite journals prioritize prestige over reality, hundreds of flawed impedance matching papers are published yearly, while correct wave-mechanics work is met with a wall of silence. Mainstream academics care about published badges of victory—not whether the math is correct or false.
+在微波吸收材料界，这种‘思想底座’的腐烂更显露无遗。‘输入阻抗匹配’理论存在严重的底层逻辑硬伤，它声称电磁波可以在单相介质内内部反射，甚至无视了金属背板的边界条件——这种低级错误用初中物理逻辑就能一眼看穿！然而，在名利诱惑下，顶刊SCI仍然大量发表这种伪匹配文章。主流科学家在意的只是发表SCI去迎合‘评价底盘’，而非真理的对错。"
+
+---
+
+[SCENE 4: HISTORICAL ISOMORPHISMS | 第四幕：地缘政治与思想底盘的不二法门]
+[Visual: A split screen of historic figures and scenes: Liang Qichao arguing at a desk vs. Sun Yat-sen's soldiers marching; US soldiers in Afghanistan withdrawing as the old structures immediately collapse back; General MacArthur dictating Japan's reforms.]
+[Sound: Deep, orchestral war-drum beats.]
+
+[VOICEOVER]
+"This same cognitive law governs the survival of human regimes. Institutional superstructures collapse like sandcastles if they do not match the societal cognitive base. Liang Qichao argued that raising the citizenry's educational base through newspapers was far more urgent than armed revolution—warning that without changing the cognitive base, any coup would merely establish another autocracy. He was proven correct. Similarly, America built a multi-trillion dollar democratic apparatus in Afghanistan, only for it to vanish in days because it had no roots in the tribal cognitive base. You cannot bomb a cognitive base into existence.
+历史与地缘政治同样遵循着这一规律。任何顶层体制，若与其底层认知的承重盘脱节，都将如沙面城堡般瞬间瓦解。梁启超曾痛陈，通过办报提高国民认知比武力革命更迫切，若国民认知底盘不改，强推革命建立的依然是强权制度。阿富汗政权在美军撤离后几天内迅速烟消云散，亦是同理——你无法用炮弹去凭空炸出一个国家的认知底盘。"
+
+---
+
+[SCENE 5: THE PERSISTENCE OF STRUCTURAL SYSTEMS | 第五幕：历史的恒常钟摆与改革的承重盘]
+[Visual: Historic portraits: Khrushchev waving to a crowd vs. Brezhnev at an office desk surrounded by bureaucrats. General Douglas MacArthur at a campaign podium vs. the Japanese constitution.]
+[Sound: Majestic, solemn symphonic development.]
+
+[VOICEOVER]
+"Why did Khrushchev's de-Stalinization reforms fall, leading to Brezhnev's long, silent stagnation? Because Khrushchev never dismantled the bureaucratic cognitive base, making his reforms temporary anomalies, while Brezhnev represented the massive inertia of the system. General MacArthur rewrote Japan's political landscape, but only through a decade of absolute military occupation that painstakingly ground a new base into Japanese society. Across all domains, whether it is America's constitutional system, China's centralized state, or North Korea's isolation—structures persist because their cognitive bases support them.
+赫鲁晓夫的倒台与勃列日涅夫的长期稳定，并非谁对谁错，而是因为赫鲁晓夫没能摧毁官僚阶层的‘认知底盘’，使改革成为官僚体系内的偶发事件，而勃列日涅夫则顺应了庞大的系统惯性。麦克阿瑟能重塑日本，是因为战败后的绝对军事占领强行改造了日本社会的思想盘。美、中、朝不同的政体之所以能够强有力地存续，正是因为其背后各自有着极其坚固的思想底盘在提供最硬核的支撑。"
+
+---
+
+[SCENE 6: OUTRO | 第六幕：天道常存，数理永恒]
+[Visual: Dr. Yue Liu's Substack, SSRN index, J. Materials Science 2019, International Journal of Thermophysics 2022, and J. Superconductivity 2017 papers. The equations glow with blinding light as dark silhouettes fade away.]
+[Sound: Glorious, triumphant symphonic resolution.]
+
+[VOICEOVER]
+"Are we doomed to the permanent hegemony of the cartels? No. For in the ultimate ledger of the universe, social regimes and citation metrics are temporary human constructs, but physical law has zero capacity to change its principles. An army of SCI papers can endorse impedance matching, but a real radar wave will always behave according to the unalterable wave equations we derived. Human history bows to the cognitive base, but the cosmos bows to mathematical necessity. Join the DeSci revolution. Turn back to the foundations. See you in the next lecture."
+[Visual: Fade out displaying: Yue Liu's Substack and SSRN Bibliography. Email: yueliusd@163.com]`;
+
+  const youtubeDescText35 = `Lecture 12: The Power of Ideas - The Epistemic Base, Gibbs-Duhem Rectification, and the Tyranny of Cartels
+第十二讲：思想的力量与“思想底盘”定律——论热力学纠错、阻抗匹配泡沫与地缘政治底盘决定论
+ 
+📖 FEATURED ESSAYS & SCIENTIFIC TRACTS (本期核心思想文献):
+1️⃣ Redefining Review Articles: Beyond Balance Toward Theoretical Innovation (SSRN 5434337).
+2️⃣ Natural mathematical derivation of the Gibbs-Duhem Equation related to \\Delta G and \\partial G/\\partial \\xi (Int. J. Thermophysics 2022, 43, 73).
+3️⃣ Characterization microwave absorption from active carbon analyzed with a more rigorous method (J. Materials Science: Materials in Electronics 2019, 30: 1936-1956).
+4️⃣ Substack Treatise: Only Two and a Half Truly Great Statesmen in International History (yueliusd.substack.com).
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE EPISTEMIC BASE LAW (思想底盘定律):
+The survival of an idea, regime, or scientific paradigm does not depend on its objective truth. Correct ideas are actively resisted by institutions built on flawed foundations, as the receiving community's "epistemic base" acts as the final gatekeeper of survival.
+
+2️⃣ THE GIBBS-DUHEM EQUATION CONTROVERSY (热力学大倒退案与纠错):
+We trace how the classic chemistry literature forgot its own mathematical foundations, conflating delta G and progress variable derivatives. Our 2022 paper provided the first natural mathematical derivation, proving that communities valuing experimental alchemical speed over mathematical rigor will inevitably backslide into error.
+
+3️⃣ THE IMPEDANCE MATCHING ACADEMIC BUBBLE (阻抗匹配顶刊泡沫):
+Traditional microwave absorbing film literature uses a logically impossible "impedance matching" model that violates basic high-school boundary physics. Yet, hundreds of flawed papers flood high-impact SCI journals, while mathematically sound wave-mechanics is ignored, proving that peer prestige overrides physical reality.
+
+4️⃣ GEOPOLITICAL & HISTORICAL ISOMORPHISMS (地缘政治与认知底盘的数学同构):
+State structures and regimes only persist if they are supported by a corresponding societal cognitive base. Liang Qichao's educational view vs. Sun Yat-sen's revolution, Khrushchev's failed de-Stalinization, America's collapse in Afghanistan, and MacArthur's forced democratization of Japan prove that structural reform without base transformation is a historical illusion.
+
+5️⃣ THE SOVEREIGNTY OF MATHEMATICS (数学必然性的终极胜利):
+While social systems and citation cartels are ruled by sociological consensus, the universe is ruled by mathematical necessity. Real radar waves behave according to rigorous wave equations—not SCI editorial bias.
+
+---
+
+🕒 TIMESTAMPS (视频时间线):
+0:00 - The linear myth: Why truth does not automatically win
+2:30 - Case Study: Gibbs-Duhem Equation backsliding and our 2022 derivation
+5:50 - Junior-high physics vs. SCI Journals: The Impedance Matching scandal
+9:40 - Geopolitical Isomorphisms: Liang Qichao, Sun Yat-sen, and the Afghan collapse
+13:15 - Institutional Inertia: Khrushchev, Brezhnev, and General MacArthur
+17:00 - Why Tariff wars and empty bombings cannot destroy a state's cognitive base
+20:45 - Conclusion: Sandcastles of the cartels vs. Unalterable mathematical truth
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous theoretical disputes and academic audits:
+➔ yueliusd@163.com
+
+#Thermodynamics #PhysicalChemistry #ScientificIntegrity #DeSci #Epistemology #GibbsDuhem #MicrowaveAbsorption #LiangQichao #YueLiu #PoliticalScience`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -3608,7 +3708,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project31" ? youtubeScriptText31 :
     activeProject === "project32" ? youtubeScriptText32 :
     activeProject === "project33" ? youtubeScriptText33 :
-    youtubeScriptText34;
+    activeProject === "project34" ? youtubeScriptText34 :
+    youtubeScriptText35;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -3644,7 +3745,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project31" ? youtubeDescText31 :
     activeProject === "project32" ? youtubeDescText32 :
     activeProject === "project33" ? youtubeDescText33 :
-    youtubeDescText34;
+    activeProject === "project34" ? youtubeDescText34 :
+    youtubeDescText35;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -4222,6 +4324,22 @@ We welcome rigorous theoretical disputes and academic audits:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-655 animate-pulse" />
             Project AH: Structure Theory
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project35");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project35"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-project35"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-655 animate-pulse" />
+            Project AI: Power of Ideas
           </button>
         </div>
       </div>
@@ -4945,6 +5063,33 @@ We welcome rigorous theoretical disputes and academic audits:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AI */}
+      {activeProject === "project35" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-655 animate-pulse" />
+             Lecture 12: The Power of Ideas • 第十二讲：思想的力量与“思想底盘”定律
+          </div>
+          <p className="text-[12px] text-indigo-955 leading-relaxed italic">
+            "本期视频聚焦于‘思想底盘决定论’——当正确与错误的思想相遇，胜利不属于客观上正确的一方，而属于拥有强大、稳固认知承重基础盘的一方。视频通过三桩硬核案例展开论述：一是热力学退步案，指责化学界因重手段轻数理逻辑，竟逐渐淡忘了吉布斯-杜姆方程关于偏摩尔量差分的严密基石，导致教材大面积倒退，而我们的2022年热力学学报论文对此进行了正本清源。二是阻抗匹配顶刊神话，痛陈用初中物理逻辑即可拆穿的错误模型，因迎合了庞大而腐烂的学术‘发文底盘’而能在顶刊畅通无阻，客观正确的波动力学反遭无声沉默。三是地缘政治底盘同构性，以梁启超‘开民智重于武力革命’、美国在阿富汗民主大厦几天倾覆、赫鲁晓夫不摧毁旧底盘因而最终倒台、以及麦克阿瑟被迫用十年强行清洗日本认知盘为例，雄辩证明：任何政治、军事或学术体制的寿命，完全由其配套认知承重盘的坚固度决定，摧毁不了底盘的袭击都是幼稚的！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              The Cognitive Base Law (认知承重盘决定政体/学术范式寿命)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Gibbs-Duhem Retrogradation (热力学大倒退纠错与2022学报证明)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Impedance Matching Bubble (初中物理拆穿顶刊神话)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Historical Isomorphisms (梁启超、阿富汗、赫鲁晓夫的历史同构)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -4987,7 +5132,8 @@ We welcome rigorous theoretical disputes and academic audits:
                   activeProject === "project31" ? "Project AE" :
                   activeProject === "project32" ? "Project AF" :
                   activeProject === "project33" ? "Project AG" :
-                  "Project AH"
+                  activeProject === "project34" ? "Project AH" :
+                  "Project AI"
                 })</span>
               </div>
               <button
