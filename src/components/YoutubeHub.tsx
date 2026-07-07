@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Youtube, Copy, Check, Headphones, MessageSquare, Video, ArrowDown, PlaySquare, Compass, ChevronRight, ShieldX, ShieldAlert, Sparkles } from "lucide-react";
 
 export default function YoutubeHub() {
-  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32" | "project33">("project1");
+  const [activeProject, setActiveProject] = useState<"project1" | "project2" | "project3" | "project4" | "project5" | "project6" | "project7" | "project8" | "project9" | "project10" | "project11" | "project12" | "project13" | "project14" | "project15" | "project16" | "project17" | "project18" | "project19" | "project20" | "project21" | "project22" | "project23" | "project24" | "project25" | "project26" | "project27" | "project28" | "project29" | "project30" | "project31" | "project32" | "project33" | "project34">("project1");
   const [copiedScript, setCopiedScript] = useState(false);
   const [copiedDesc, setCopiedDesc] = useState(false);
 
@@ -3475,6 +3475,104 @@ We welcome rigorous theoretical disputes and academic audits:
 
 #MolecularOrbitals #ChemicalEducation #ScientificIntegrity #DeSci #AcademicCartels #YueLiu #LanzhouUniversity #FashenLi #PeerReviewScandal #JournalOfChemicalEducation #JCE`;
 
+  const youtubeScriptText34 = `[SCENE 1: THE EPISTEMIC CRITIQUE | 第一幕：被扭曲的科学创新等级]
+[Visual: Graphic showing an academic caste ladder. At the bottom, laborers dumping raw experimental data into a vast heap. At the top, academic barons sitting on thrones receiving review-article honors. Stamp appears: "DEVALUED INSIGHT / 理论被贬低"]
+[Sound: Somber bell chiming, transitioning into a modern tech-synth pad.]
+
+[VOICEOVER]
+"What constitutes true scientific innovation? If you listen to mainstream academic cartels, they will tell you that only raw data generation—reporting another chemical variation or alchemical log—is 'primary innovation.' They dismiss theoretical reviews as mere passive classification. Yet, they greedily gatekeep the writing of review articles, reserving them exclusively for elite academic barons to inflate journal impact factors. This is a profound error of the modern scientific system.
+什么是科学创新？主流学阀会告诉你，只有测定新数据、汇报新合成才是创新。而对分散、零散等碎片化数据的理论综述，被他们贬低为毫无创新的‘二级文献’。可荒谬的是，他们又把综述写作权列为学阀专属特权，用来互相引用、灌水刷因子。这简直是现代科学界的荒谬等级制度！"
+
+---
+
+[SCENE 2: BEYOND CLASSIFICATION | 第二幕：温故而知新，综述是最大的创新]
+[Visual: Split-screen. Left: Bohr's atomic equations appearing, synthesizing discrete hydrogen line spectrum plots. Right: Coordination Chemistry Reviews 2014 cover (The handedness structure of octahedral complexes).]
+[Sound: Majestic orchestral violins.]
+
+[VOICEOVER]
+"Historical breakthroughs prove that synthesizing known facts to see what previous eyes missed is the highest form of innovation. In 2014, we published a landmark review in Coordination Chemistry Reviews, synthesizing decades of scattered, conflicting stereochemical conventions into a single, unified 'invariant handedness topology.' Think of Bohr's atomic model—it didn't discover new spectral lines; it theoretically synthesized existing ones into quantum mechanics. Review articles should not be neutral balance-sheets; they must be theoretical revolutions!
+历史早已证明，从已知事物中温故知新，建立全新理论，才是最大的创新。2014年我们发表在Coordination Chemistry Reviews上的经典工作，正是将几十年相互矛盾、割裂的立体化学判定方法融会贯通，创立了‘不变手性拓扑学’。正如玻尔理论和早期量子力学，并没有去发现新的氢光谱谱线，而是将已知数据升华为量子力学能级理论。综述不该是和稀泥的罗列，而应是思想的革命！"
+
+---
+
+[SCENE 3: NMR SPLITTING AND EXPLICIT MATHEMATICS | 第三幕：NMR谱峰分裂与彻底公开的推导过程]
+[Visual: Appendix 4 of the 2019 Journal of Materials Science paper fading in. Pages scroll, displaying complex matrix operators and explicit algebraic transitions for AX, AA, and AB spin systems. Magnifying glass zooms in on the complete intermediate steps.]
+[Sound: Rapid keyboard typing, sound of page turning.]
+
+[VOICEOVER]
+"Why are students so often alienated by advanced physical chemistry textbooks? Because of the toxic custom of hiding intermediate mathematical steps, displaying only final formulas as if they appeared by magic. In our 2019 paper in the Journal of Materials Science, Appendix 4 explicitly and exhaustively prints every single algebraic step deriving the quantum mechanics of NMR peak splitting. By opening up the 'black box' of matrix transitions, we empower readers to actually master the logic, rather than accepting equations on blind faith. Grasping existing theoretical foundations is far more critical than churning out shallow, blind 'innovations.'
+为什么学者和学生常常害怕物理化学？因为学术文献里充满了装腔作势的‘隐瞒’：作者们省略所有中间推导，直接跳到最终公式。而在我们2019年发表在Journal of Materials Science论文的附录4中，我们毫不妥协地将AX、AA和AB自旋系统的量子力学谱分裂矩阵推导过程一步不剩地彻底公开。对人类已有真理的透彻理解，远比盲目跟风、毫无思想底色的‘垃圾创新’重要万倍！"
+
+---
+
+[SCENE 4: DEMYSTIFYING THE COORDINATION FIELD | 第四幕：配位场与磁化学通俗化案]
+[Visual: 3D model of an octahedral cobalt complex. Ligands approach, and d-orbitals split into eg and t2g. Visual equations show how symmetry quenches the orbital magnetic moment (u_L = 0). Chemical Education 2015 cover scrolls into view.]
+[Sound: Warm digital synth ripple.]
+
+[VOICEOVER]
+"In coordination chemistry, thousands of labs synthesize metal complexes daily, yet most experimentalists do not understand the very Ligand Field Theory they cite. In our 2015 tutorial in the Chinese Journal of Chemical Education, we demystified C. J. Ballhausen's classic equations. We mapped out how symmetry quenches the orbital angular momentum under crystal fields, lowering the mathematical barriers so that ligand field matrices become clear, intuitive, and accessible. You cannot synthesize with confidence if you synthesize in theoretical blindness!
+配位化学界每天有成百上千个实验室在合成配合物、测试磁性，但绝大多数实验合成人员根本没搞懂他们引用的‘配位场理论’。在2015年《化学教育》论文中，我们彻底通俗化了Ballhausen 1962年的经典方程，清晰剖析晶体场对称性如何湮灭轨道磁矩，将冰冷晦涩的矩阵算符转化为直观的物理画卷。不应该在理论失明中盲目做合成！"
+
+---
+
+[SCENE 5: THE UNIFYING POWER OF MATHEMATICS | 第五幕：能带理论与经典传输线理论的同构神迹]
+[Visual: A periodic 1D semiconductor crystal lattice transforming smoothly into a coaxial cable circuit with capacitors and inductors. The Schrödinger wave function overlaying the classical Telegrapher’s signal equations.]
+[Sound: Majestic, sci-fi synthetic resolution chord.]
+
+[VOICEOVER]
+"And what of the artificial boundaries erected between chemistry, physics, and engineering? In our 2017 paper in the Journal of Superconductivity and Novel Magnetism, we proved that quantum band theory and classical transmission line theory are mathematically isomorphic. They are two sides of the exact same coin. Drawing on Roald Hoffmann's view of Solids and Surfaces, we demonstrated how the chemist's localized bonds and the physicist's delocalized energy bands are unified by a single wave equation. This is the majesty of mathematical logic—proving that across all domains, truth speaks but a single language.
+物理、化学与电子工程之间的界限真的存在吗？在我们2017年的经典研究中，我们用严密的数学证明了：量子能带理论与经典传输线理论具有完美的数学同构，它们是同一物理本质在不同表征语言下的两面。正如Roald Hoffmann的名著《固体与表面》所揭示的，化学家的定域键与物理学家的离域能带在波动方程下是完全统一的。这就是数学逻辑的伟大——在真理面前，所有的学科壁垒都是虚妄的！"
+
+---
+
+[SCENE 6: OUTRO | 第六幕：真理永远讲同一种语言]
+[Visual: Screen displays Yue Liu's Substack, SSRN preprints index, JCE 2005, CCR 2014, and the 2017 Superconductivity paper. Golden equations glow, resolving into a bright starry sky.]
+[Sound: Inspiring and grand orchestral outro.]
+
+[VOICEOVER]
+"Whether it is octahedral complexes, quantum splitting, ligand field symmetry, or electromagnetic wave boundaries, Dr. Yue Liu’s lifetime of pen-and-paper derivations stands as a permanent, unalterable record of reality. Join the DeSci revolution. Turn back to the textbooks. Study the foundations. See you in the next lecture."
+[Visual: Fade out showing correspondence email: yueliusd@163.com and SSRN/Substack links.]`;
+
+  const youtubeDescText34 = `Lecture 11: Structure Theory - Redefining Reviews, Mathematical Primacy, and the Band-Transmission Line Isomorphism
+第十一讲：结构理论之美——综述的创新本质、推导过程彻底公开、配位场通俗化与能带理论的经典同构
+ 
+📖 FEATURED ESSAYS & BIBLIOGRAPHY (本期核心思想文献):
+1️⃣ Redefining Review Articles: Beyond Balance Toward Theoretical Innovation (SSRN 5434337).
+2️⃣ The Primacy of Theoretical Foundations: Why Textbooks Matter more than Journal Literature (SSRN 5465615).
+3️⃣ Handedness structure of octahedral metal complexes with chelating ligands (Coord. Chem. Rev. 2014, 260: 37-64).
+4️⃣ Several Theoretical Perspectives of Ferrite-Based Materials—Part 1: Transmission Line Theory and Microwave Absorption (J. Supercond. Nov. Magn. 2017, 30: 2489-2504).
+5️⃣ Crystal Field and Magnetic Properties (Chinese Journal of Chemical Education 2015, 36(6): 1-10).
+
+🔥 VIDEO SUMMARY & KEY CONCEPTS (本期视频精要与双语阐释):
+1️⃣ THE REVIEW ARTICLES MISCONCEPTION (对综述文章的创造性平反):
+Academic cartels devalue review papers as "secondary summaries" to prioritize high-volume "alchemical data" factories, yet keep review authorship as an exclusive, gatekept privilege to inflate SCI impact factors. We prove that reviews are the highest echelon of theoretical innovation—seeing unifying physical laws that isolated eyes missed (analogous to Bohr's spectral synthesis).
+
+2️⃣ THE PRIMACY OF EXPLICIT DERIVATIONS (数学推导的彻底公开):
+Traditional journals suppress intermediate mathematical steps to appear sophisticated and gatekeep knowledge. In J. Materials Science 2019 (Appendix 4), we broke this "hiding threshold" by printing every single algebraic step deriving NMR peak splitting (AX, AA, AB systems). Grounded textbook masters are far more critical than blind "innovators."
+
+3️⃣ DEMYSTIFYING LIGAND FIELD THEORY (配位场与磁性的理论扫盲):
+Over 95% of experimental coordination chemists synthesize complexes without understanding the crystal field splitting matrices or orbital angular moment quenching. Our 2015 tutorial deconstructed C. J. Ballhausen's classic 1962 equations, lowering the mathematical hurdles for the next generation of students.
+
+4️⃣ BAND THEORY VS. TRANSMISSION LINE ISOMORPHISM (量子能带与经典电路的数学等价性):
+We prove that Bloch's theorem for periodic periodic potential lattices and Telegrapher's equations for classical transmission lines are mathematically isomorphic. Localized chemical bonds and delocalized energy bands are merely different representations of the same wave function coin.
+
+---
+
+🕒 TIMESTAMPS (视频时间线):
+0:00 - The hypocritical devaluation of theoretical review articles
+3:15 - Historical evidence: How Bohr and Atomic Theory synthesized existing data
+6:25 - Opening the Black Box: Why we print complete NMR splitting derivations
+10:45 - Demystifying Ballhausen's 1962 Ligand Field Theory equations
+14:15 - The mathematical isomorphism: Quantum Band Theory vs. Telegrapher's Equations
+18:30 - Chemists' bonds vs. Physicists' bands: Roald Hoffmann's "Solids and Surfaces"
+21:45 - Conclusion: Mathematics as the universal translator of scientific truth
+
+📧 CORRESPONDENCE, DEBATES & CRITICAL DISCUSSIONS:
+We welcome rigorous theoretical disputes and academic audits:
+➔ yueliusd@163.com
+
+#QuantumChemistry #BandTheory #NmrSpectroscopy #Stereochemistry #ScientificIntegrity #DeSci #LanzhouUniversity #LigandFieldTheory #YueLiu #CoordinationChemistry`;
+
   // Select current active text
   const currentScript = 
     activeProject === "project1" ? youtubeScriptText : 
@@ -3509,7 +3607,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project30" ? youtubeScriptText30 :
     activeProject === "project31" ? youtubeScriptText31 :
     activeProject === "project32" ? youtubeScriptText32 :
-    youtubeScriptText33;
+    activeProject === "project33" ? youtubeScriptText33 :
+    youtubeScriptText34;
 
   const currentDesc = 
     activeProject === "project1" ? youtubeDescText : 
@@ -3544,7 +3643,8 @@ We welcome rigorous theoretical disputes and academic audits:
     activeProject === "project30" ? youtubeDescText30 :
     activeProject === "project31" ? youtubeDescText31 :
     activeProject === "project32" ? youtubeDescText32 :
-    youtubeDescText33;
+    activeProject === "project33" ? youtubeDescText33 :
+    youtubeDescText34;
 
   const copyToClipboard = (text: string, isScript: boolean) => {
     navigator.clipboard.writeText(text);
@@ -4106,6 +4206,22 @@ We welcome rigorous theoretical disputes and academic audits:
           >
             <Sparkles className="w-4.5 h-4.5 shrink-0 text-emerald-655 animate-pulse" />
             Project AG: Nuclei Location
+          </button>
+          <button
+            onClick={() => {
+              setActiveProject("project34");
+              setCopiedScript(false);
+              setCopiedDesc(false);
+            }}
+            className={`flex items-center justify-center gap-2 py-3 px-3 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeProject === "project34"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-project34"
+          >
+            <Sparkles className="w-4.5 h-4.5 shrink-0 text-indigo-655 animate-pulse" />
+            Project AH: Structure Theory
           </button>
         </div>
       </div>
@@ -4802,6 +4918,33 @@ We welcome rigorous theoretical disputes and academic audits:
         </div>
       )}
 
+      {/* Dynamic Alert Box for Project AH */}
+      {activeProject === "project34" && (
+        <div className="bg-indigo-50/45 border border-indigo-200/50 rounded-xl p-4.5 space-y-3 animate-fade-in font-sans">
+          <div className="text-[10px] font-bold text-indigo-850 uppercase tracking-widest font-mono flex items-center gap-1.5 align-middle">
+            <Sparkles className="w-3.5 h-3.5 text-indigo-655 animate-pulse" />
+             Lecture 11: Structure Theory • 第十一讲：结构理论与学术创造之美
+          </div>
+          <p className="text-[12px] text-indigo-955 leading-relaxed italic">
+            "本期视频系统总结了我们在无机结构理论、量子推导以及学科大统一方面的重大思想成果。视频直击两个核心痛点：首先，对综述文章实施去神圣化和思想平反，痛陈主流学圈为了SCI刷分而吹捧平庸综述、打压无名之辈的荒谬。我们指出温故知新的深度综述才是最具革命性的创新，如同玻尔将已知光谱升华为量子力学！其次，视频呼吁学术写作必须彻底公开推导中间步骤，展示我们在JMS 2019附录中如何对AX、AA、AB自旋系统的NMR谱峰分裂进行无保留矩阵推导，痛斥权威故意省略步骤来虚张声势。最后，视频用数理逻辑打通了学科壁垒，揭示了量子能带理论（Bloch定理）与经典电学传输线理论（Telegrapher方程）之间完美的数学同构，并用Roald Hoffmann名著启发大家：Localized键和Delocalized带只是同一个波动方程的两个侧面！这是一次思想的大一统！"
+          </p>
+          <div className="flex flex-wrap gap-2 pt-1 text-[9px] font-bold font-mono">
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Redefining Review Innovation (综述是温故而知新的终极创造)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Exhaustive Mathematical Derivations (彻底公开推导，杜绝学术装腔作势)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-indigo-100 text-indigo-800 uppercase">
+              Ligand Field Demystified (配位场算符通俗化，理论扫盲)
+            </span>
+            <span className="px-2 py-0.5 rounded bg-slate-900 text-white uppercase">
+              Quantum-Classical Isomorphism (能带理论与经典传输线理论的同构)
+            </span>
+          </div>
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         
         {/* Left column: Video Script */}
@@ -4843,7 +4986,8 @@ We welcome rigorous theoretical disputes and academic audits:
                   activeProject === "project30" ? "Project AD" :
                   activeProject === "project31" ? "Project AE" :
                   activeProject === "project32" ? "Project AF" :
-                  "Project AG"
+                  activeProject === "project33" ? "Project AG" :
+                  "Project AH"
                 })</span>
               </div>
               <button

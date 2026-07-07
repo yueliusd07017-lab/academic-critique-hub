@@ -10,9 +10,10 @@ import HistoryWillJudgeEssay from "./HistoryWillJudgeEssay";
 import RussellSaundersTermsEssay from "./RussellSaundersTermsEssay";
 import MetaphysicalInversionEssay from "./MetaphysicalInversionEssay";
 import NucleiLocationEssay from "./NucleiLocationEssay";
+import StructureTheoryEssay from "./StructureTheoryEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -83,6 +84,7 @@ export default function IntegratedArticle() {
             activeArticle === "russellsaunders" ? "russellsaunders-article-text" :
             activeArticle === "metaphysicalinversion" ? "metaphysicalinversion-article-text" :
             activeArticle === "nucleilocation" ? "nucleilocation-article-text" :
+            activeArticle === "structuretheory" ? "structuretheory-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -602,6 +604,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-emerald-500 animate-pulse" />
             Essay AO: Nuclei Location
+          </button>
+          <button
+            onClick={() => setActiveArticle("structuretheory")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "structuretheory"
+                ? "bg-indigo-955 text-white shadow-sm"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-structuretheory"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-500 animate-pulse" />
+            Essay AP: Structure Theory
           </button>
         </div>
       </div>
@@ -6736,6 +6750,10 @@ export default function IntegratedArticle() {
 
       {activeArticle === "nucleilocation" && (
         <NucleiLocationEssay />
+      )}
+
+      {activeArticle === "structuretheory" && (
+        <StructureTheoryEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
