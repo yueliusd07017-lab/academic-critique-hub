@@ -19,9 +19,10 @@ import AcademicCorruptionEssay from "./AcademicCorruptionEssay";
 import LogicalConsistencyEssay from "./LogicalConsistencyEssay";
 import CitationReliabilityCommentary from "./CitationReliabilityCommentary";
 import ScientificCensorshipEssay from "./ScientificCensorshipEssay";
+import IdeasAheadOfTimeEssay from "./IdeasAheadOfTimeEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -101,6 +102,7 @@ export default function IntegratedArticle() {
             activeArticle === "logicalconsistency" ? "logicalconsistency-article-text" :
             activeArticle === "citationreliability" ? "citationreliability-article-text" :
             activeArticle === "scientificcensorship" ? "scientificcensorship-article-text" :
+            activeArticle === "ideasahead" ? "ideasahead-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -728,6 +730,18 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay AX: Censorship & History
+          </button>
+          <button
+            onClick={() => setActiveArticle("ideasahead")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "ideasahead"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-ideasahead"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay AY: Ideas Ahead of Time
           </button>
         </div>
       </div>
@@ -6898,6 +6912,10 @@ export default function IntegratedArticle() {
 
       {activeArticle === "scientificcensorship" && (
         <ScientificCensorshipEssay />
+      )}
+
+      {activeArticle === "ideasahead" && (
+        <IdeasAheadOfTimeEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
