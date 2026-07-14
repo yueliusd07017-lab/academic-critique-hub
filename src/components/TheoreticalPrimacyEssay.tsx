@@ -50,12 +50,17 @@ export default function TheoreticalPrimacyEssay() {
           They find it impossible to accept that the contemporary scientific peer-review system is deeply dark, corrupt, and dominated by what Richard Feynman famously termed **Cargo Cult Science (草包族科学)**.
         </p>
         <p>
-          This assumption is a fundamental misunderstanding of history. 
-          When we ask hard questions about the origin of these breakthroughs, the myth of "gradual academic progress led by peer-reviewed journals" collapses:
+          This assumption is a fundamental misunderstanding of history. Real breakthroughs do not emerge sequentially or gradually from the consensus of established peer-reviewed cartels. In fact, they almost always arise as radical rebellions that break the shackles of the status quo:
         </p>
         <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-gray-750 font-sans">
           <li>
-            <strong>Did AI and microchips emerge from academic journal debates?</strong> Absolutely not. The pioneers of deep learning and Silicon Valley hardware engineering were frequently marginalized, dismissed, and actively suppressed by academic gatekeepers who preferred symbolic AI and old-school transistor paradigms.
+            <strong>Did Windows programming emerge naturally from mainstream console sequential programming?</strong> Absolutely not. Bill Gates could not tolerate the limitations of the mainstream console sequential programming paradigm of his era, which led him to drop out of university. It was precisely because he broke free from those dogmatic sequential bounds and led Microsoft to pioneer the MFC event-driven Windows programming model that Windows software was able to flourish like bamboo shoots after a spring rain, completely reshaping the consumer computing landscape.
+          </li>
+          <li>
+            <strong>Did modern microchips and semiconductor breakthroughs emerge from harmonious journal debates?</strong> No. Semiconductor history is a history of brutal suppression and radical rebellion. Almost every major milestone in microchip technology was met with fierce industry skepticism, academic resistance, and gatekeeping opposition that nearly snuffed them out in their infancy. As documented in the *China Science Daily* (2023), groundbreaking innovations—including **floating-gate transistors, heterojunctions, insulated gate bipolar transistors (IGBTs), microelectromechanical systems (MEMS), and immersion lithography**—were initially rejected and resisted by traditional forces. The greater the innovation, the more it challenges established dogmas, and consequently, the stronger the immune response from the academic and corporate status quo.
+          </li>
+          <li>
+            <strong>Did AI emerge from gradual academic progress?</strong> Absolutely not. The pioneers of deep learning and Silicon Valley hardware engineering were frequently marginalized, dismissed, and actively suppressed by academic gatekeepers who preferred symbolic AI and old-school transistor paradigms.
           </li>
           <li>
             <strong>Does the rapid iteration of modern mobile phones have anything to do with academic papers?</strong> Not a single cent. The progress of consumer electronics is driven by relentless market competition, physics-based industrial trial-and-error, and brilliant engineering design—not by peer-reviewed cargo cult papers containing fake or irreproducible metrics.
@@ -106,7 +111,6 @@ export default function TheoreticalPrimacyEssay() {
           <span className="text-xs font-sans text-gray-400 font-normal ml-auto">不仅是一个领域的偶发事件，而是整个学术机制的结构性溃败</span>
         </h3>
         <p>
-          Is this pathological behavior unique to the microwave absorption field? 
           No. The suppression of correctives is not a localized glitch; it is the structural default of the modern academic publishing industry. 
           Whether it is physics, materials science, or computer science, the peer-review system acts as an immune response against genuine innovation.
         </p>
