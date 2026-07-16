@@ -408,10 +408,10 @@ export default function AIEpistemologyDialogueEssay() {
             {/* ChatGPT Section */}
             <div className="border-l-4 border-blue-500 pl-4 space-y-3 bg-white p-4 rounded-r-lg shadow-xs border-y border-r border-gray-150">
               <span className="font-bold text-blue-900 block font-sans text-sm">
-                1. The ChatGPT Critical Reflection: Consensus, Speculation, and &quot;Mental Refutations&quot; / ChatGPT 的学术记录立场与理性退守
+                1. The ChatGPT Critical Reflection: Consensus, Speculation, and the Danger of Postulating &quot;Invisible Refutations&quot; / ChatGPT 的学术记录立场与理性退守
               </span>
               <p className="text-xs text-gray-600">
-                In our deep cross-examinations, ChatGPT provided an incredibly nuanced epistemological breakdown of the dispute, attempting to guard mainstream reputation with a defense of &quot;unpublished refutations&quot;:
+                In our deep cross-examinations, ChatGPT provided a highly structured epistemological breakdown of the dispute, attempting to guard mainstream reputation with a defense of &quot;unpublished refutations&quot;:
               </p>
               
               <div className="bg-blue-50/50 p-3 rounded border border-blue-100 font-mono text-xs space-y-2 text-blue-950">
@@ -420,7 +420,7 @@ export default function AIEpistemologyDialogueEssay() {
                   &quot;第一，不能指望‘共识’本身作为真理的判定依据。科学史上很多正确理论最初都不是主流。科学理论的真假由且仅由逻辑、数学、实验和预测能力决定，而不能看引用数和是否发表在Nature上。&quot;
                 </p>
                 <p className="italic">
-                  &quot;第二，关于主流科学家是否属于 Cargo Cult Science，指控‘整个学术界’是一个非常强的经验判断。主流科学家内心可能早已有驳倒波动力学证据的逻辑，只是因为种种现实原因（例如课题优先级、学术偏见、认为不值得回应等）尚未发表出来。我们无法断定他们‘一定知道’或‘一定不知道’，因为别人心里想什么不属于公开的科学证据。&quot;
+                  &quot;第二，关于主流科学家是否属于 Cargo Cult Science，指控‘整个学术界’是一个非常强的经验判断。主流科学家内心可能早已有驳倒波动力学证据的逻辑，或者反驳波动力学理论的文章可能早就发表了，只是我们没有看到而已。因此主流科学家坚持阻抗匹配理论就有其充分的理由。我们无法断定他们‘一定知道’或‘一定不知道’，因为别人心里想什么不属于公开的科学证据。&quot;
                 </p>
                 <p className="italic">
                   &quot;第三，‘因为作者态度不好，所以不用讨论数学’绝不是正当的物理理由。无论措辞如何尖锐，如果一个数学证明已经公开存在，那么回应它的方式只有两种：找出其推导错误，或者接受它并修正理论。&quot;
@@ -428,12 +428,15 @@ export default function AIEpistemologyDialogueEssay() {
               </div>
 
               <div className="bg-amber-50/25 p-3 rounded border border-amber-200/60 text-xs text-slate-800 space-y-2">
-                <span className="font-bold text-amber-900 block font-sans">Our Absolute Logical Counter-Refutation / 著者之铁律反驳：</span>
+                <span className="font-bold text-amber-900 block font-sans">Our Absolute Logical Counter-Refutation &amp; The Plagiarism Paradox / 著者之铁律反驳与学术不端的深渊：</span>
                 <p>
-                  This is a fatal logical circle. In the rigorous world of physics and material science, an active academic field <strong>cannot hide its validation behind &quot;unpublished mental defense.&quot;</strong>
+                  This speculative defense of &quot;unseen published refutations&quot; actually <strong>places mainstream scientists in a far more dangerous position of suspected academic misconduct.</strong>
                 </p>
                 <p>
-                  If a mathematically rigorous, published refutation of the core impedance-matching equations is available in SCI journals (e.g., pointing out that |Z_in| = |Z_0| does not align with reflection loss peaks), the community has an absolute, active scientific duty to address it. To continue mass-producing thousands of papers using the discredited equations while keeping their supposed refutations &quot;secretly in their heads&quot; is the exact definition of <strong>Cargo Cult Science</strong>. If they had a valid mathematical answer to our proofs, they would have published it instantly to self-vindicate. Their silence is not quiet confidence; it is mathematical capitulation disguised as institutional indifference.
+                  If mathematically rigorous counter-articles refuting our Wave Mechanics Theory had already been published, those papers would have been required to cite our original publications. Such citations would have immediately alerted us, making them impossible to miss. Furthermore, any subsequent mainstream papers continuing to rely on impedance matching would need to cite those supposed refutations to justify their stance. No such citations exist.
+                </p>
+                <p>
+                  Therefore, to argue that they &quot;secretly published refutations without citing us&quot; is to accuse them of <strong>systemic academic dishonesty and plagiarism</strong>. In the public records of science, a published mathematical proof demands a public, cited, and testable mathematical response. Relying on speculative, invisible papers to maintain a debunked theory is scientifically bankrupt.
                 </p>
               </div>
             </div>
@@ -463,11 +466,124 @@ export default function AIEpistemologyDialogueEssay() {
                   &quot;Science is not about holding grudges.&quot; (科学不是置气，学术不容撒娇)。
                 </p>
                 <p>
-                  A scientific truth does not bend to accommodate the fragile egos of tenured gatekeepers. If a critic calls your work a &quot;cargo cult,&quot; you do not prove them wrong by sulking and refusing to look at their math. You prove them wrong by <strong>refuting their equations and demonstrating their arguments are false.</strong> If you cannot do so, you must correct your textbooks and withdraw your flawed models.
+                  A scientific truth does not bend to accommodate the fragile egos of tenured gatekeepers. One cannot refuse to study correct mathematics and physics under the pretext of wounded academic pride. If our Wave Mechanics Theory is wrong, the mainstream has a duty to refute us publicly, thereby proving their innocence and demonstrating that our accusations are indeed baseless slander. If they cannot refute us, they must correct their textbooks.
                 </p>
                 <p>
                   Furthermore, when the mainstream academic cartel desk-rejects our manuscripts within hours with preposterous, non-academic feedback, or deletes and cancels our scholarly accounts to silence opposition, <strong>they never spared a single fraction of a second to care about our emotions or intellectual dignity.</strong> To demand that a critic prioritize &quot;politeness&quot; while they actively suppress his voice and mathematically bankrupt their own field is the ultimate manifestation of systemic hypocrisy.
                 </p>
+              </div>
+            </div>
+
+            {/* Repetitive Publication Section */}
+            <div className="border-l-4 border-amber-600 pl-4 space-y-3 bg-white p-4 rounded-r-lg shadow-xs border-y border-r border-gray-150">
+              <span className="font-bold text-amber-950 block font-sans text-sm">
+                3. The &quot;Repetitive Publication&quot; Accusation vs. Pedagogical Reinforcement / 论“重复发表”的虚伪指控与真理消化的必经之路
+              </span>
+              <p className="text-xs text-gray-600 font-serif">
+                Mainstream scientists frequently complain that we have published &quot;too many articles&quot; attacking the impedance matching theory, attempting to dismiss our persistent output as redundant.
+              </p>
+              <div className="bg-amber-50/25 p-3 rounded border border-amber-200/60 text-xs text-slate-800 space-y-2 font-sans">
+                <p>
+                  <strong>Our Defense &amp; The Pedagogical Mandate:</strong> This accusation reveals a profound ignorance of how revolutionary scientific ideas are integrated. A lecture in a university classroom only serves as a doorway. For a student to truly digest and master the knowledge, they must read multiple textbooks, diverse monographs, and supplementary materials throughout a lifetime.
+                </p>
+                <p>
+                  Repeating and reinforcing a revolutionary viewpoint that has not yet been accepted is <strong>not duplicate publication</strong>; it is a necessary pedagogical and scholarly process. Mainstream journals continue to publish thousands of redundant, mathematically bankrupt papers supporting the discredited impedance-matching model. If we do not seek every opportunity to repeatedly articulate, reinforce, and expand the Wave Mechanics Theory, the truth will simply be buried under an avalanche of conformist garbage.
+                </p>
+              </div>
+            </div>
+
+            {/* Effective vs Invalid Citations Section */}
+            <div className="border-l-4 border-emerald-600 pl-4 space-y-3 bg-white p-4 rounded-r-lg shadow-xs border-y border-r border-gray-150">
+              <span className="font-bold text-emerald-955 block font-sans text-sm">
+                4. The Distinction of Effective vs. Invalid Citations / 论波动力学理论的“有效他引”与“无效他引”
+              </span>
+              <p className="text-xs text-gray-650 font-serif">
+                To evaluate the genuine scholarly impact of our Wave Mechanics Theory, we introduced a crucial distinction in our treatise:
+              </p>
+              <div className="bg-slate-50 p-3.5 rounded-lg border border-gray-200 text-xs space-y-2 font-sans">
+                <p className="font-bold text-slate-800">
+                  Citation Framework (arXiv:2508.06522v3):
+                </p>
+                <p className="italic text-gray-700 font-serif">
+                  Yue Liu, Ying Liu, Michael G. B. Drew, &quot;Citation Issues in Wave Mechanics Theory of Microwave Absorption: A Comprehensive Analysis with Theoretical Foundations and Peer Review Challenges,&quot; 2025, arXiv:2508.06522v3. <a href="https://doi.org/10.48550/arXiv.2508.06522" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline inline-flex items-center gap-0.5 font-mono">doi:10.48550/arXiv.2508.06522 <ExternalLink className="w-3 h-3 inline" /></a>
+                </p>
+                <ul className="list-disc pl-4 space-y-1 text-gray-700 font-sans">
+                  <li>
+                    <strong>Effective Citation (有效他引)</strong>: Occurs strictly when a study cites the wave mechanics papers because it actively engages with, discusses, or adopts its theoretical arguments or its specific refutation of the impedance-matching model.
+                  </li>
+                  <li>
+                    <strong>Invalid Citation (无效引用)</strong>: Occurs when a paper cites our wave mechanics publications superficially (e.g., as a generic &quot;short review&quot; or reference placeholder) without acknowledging, addressing, or adopting the core theoretical breakthroughs or criticisms.
+                  </li>
+                </ul>
+                <div className="bg-red-50/50 p-2.5 rounded border border-red-100 text-red-950 space-y-1 font-sans">
+                  <span className="font-bold block">A Clear Case of Invalid Citation:</span>
+                  <p className="font-serif">
+                    The paper <em>&quot;Hierarchical core–shell BCN@CoNi@PANI with synergistic dielectric/magnetic loss for ultrawideband microwave absorption&quot;</em> (<a href="https://doi.org/10.1007/s10854-026-17898-2" target="_blank" rel="noopener noreferrer" className="underline text-red-800">doi:10.1007/s10854-026-17898-2</a>) cites our Optics &amp; Laser Technology 2024 review as Ref. 5. However, this is used purely as a generic reference and does not represent an active, genuine engagement with our core wave mechanics arguments.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Anonymous Peer-Review Plagiarism Section */}
+            <div className="border-l-4 border-indigo-600 pl-4 space-y-3 bg-white p-4 rounded-r-lg shadow-xs border-y border-r border-gray-150">
+              <span className="font-bold text-indigo-950 block font-sans text-sm">
+                5. Anonymous Peer-Review Plagiarism &amp; Selective Silent Adoption / 暗网评审剽窃、选择性引用与“无声的剽窃”
+              </span>
+              <p className="text-xs text-gray-650 font-serif">
+                A dark and insidious academic pattern has emerged where peer reviewers reject our papers only to rush and publish our core Wave Mechanics ideas under their own names, systematically refusing to cite our work.
+              </p>
+              
+              <div className="bg-slate-50 p-3.5 rounded-lg border border-gray-200 text-xs space-y-3 font-sans">
+                <div className="flex items-start gap-2.5 bg-indigo-50/50 p-2.5 rounded border border-indigo-100">
+                  <GraduationCap className="w-5 h-5 text-indigo-600 shrink-0 mt-0.5" />
+                  <div>
+                    <span className="font-bold text-indigo-900 block">Chemistry Textbook Errors &amp; Anonymous Abuse:</span>
+                    <p className="text-xs text-gray-700 font-serif leading-relaxed mt-1">
+                      Our pioneering critiques extend beyond microwave absorption into fundamental chemistry education. In our video lecture and treatise, we expose how textbooks perpetuate nodal errors and how the anonymous review system shields piracy:
+                    </p>
+                    <div className="flex flex-wrap gap-2 mt-2">
+                      <a href="https://youtu.be/uuSlQSfNJwE" target="_blank" rel="noopener noreferrer" className="bg-red-50 text-red-700 border border-red-200 px-2 py-0.5 rounded hover:bg-red-100 transition inline-flex items-center gap-1 font-mono text-[10px]">
+                        YouTube Lecture 10 <ExternalLink className="w-3 h-3" />
+                      </a>
+                      <a href="https://yueliusd.substack.com/p/where-should-the-nuclei-be-located" target="_blank" rel="noopener noreferrer" className="bg-amber-50 text-amber-700 border border-amber-200 px-2 py-0.5 rounded hover:bg-amber-100 transition inline-flex items-center gap-1 font-mono text-[10px]">
+                        Substack: Where Should Nuclei Be Located <ExternalLink className="w-3 h-3" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="space-y-2 font-serif">
+                  <span className="font-bold text-slate-800 block text-[11px] uppercase tracking-wider font-sans">Case Studies of Plagiarism and Suspicious Speed / 涉嫌学术剽窃与暗网抢发案例:</span>
+                  
+                  <div className="p-3 bg-white border border-gray-200 rounded space-y-1.5 text-[11px] leading-relaxed">
+                    <p className="font-bold text-slate-900">Case 1: The J. Colloid Interface Sci. 2021 Case</p>
+                    <p className="text-gray-600">
+                      T. Wang, G. Chen, J. Zhu, et al., <em>&quot;Deep understanding of impedance matching and quarter wavelength theory in electromagnetic wave absorption,&quot;</em> J Colloid Interface Sci 2021 (<a href="https://doi.org/10.1016/j.jcis.2021.03.132" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">doi:10.1016/j.jcis.2021.03.132</a>)
+                    </p>
+                    <p className="text-gray-700 italic bg-gray-50 p-2 rounded">
+                      This paper was reviewed and published with lightning, suspicious speed: <strong>Received 8 March 2021, Revised 22 March 2021, Accepted 23 March 2021</strong>. It not only adopted several core criticisms of reflection loss (RL) that we pioneered, but even copied the exact unique characteristic impedance notation (Z_M instead of Z_in) used in our rejected manuscripts, strongly indicating a peer reviewer who intercepted our ideas and rushed to publish.
+                    </p>
+                  </div>
+
+                  <div className="p-3 bg-white border border-gray-200 rounded space-y-1.5 text-[11px] leading-relaxed">
+                    <p className="font-bold text-slate-900">Case 2: The Advanced Electronic Materials 2025 Case</p>
+                    <p className="text-gray-600">
+                      S. Yang, P. Wu, Y. Sheng, et al., <em>&quot;On the Quality Criteria for Microwave Absorbing Materials,&quot;</em> Advanced Electronic Materials 2025 (<a href="https://doi.org/10.1002/aelm.202500239" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">doi:10.1002/aelm.202500239</a>)
+                    </p>
+                    <p className="text-gray-700">
+                      This study quietly adopts several of our core criticisms of the RL model while systematically and deliberately refusing to cite our published work, attempting to whitewash the ideas without acknowledging the original innovators.
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex flex-wrap gap-2 pt-1 font-sans">
+                  <a href="https://yueliusd.substack.com/p/when-silence-replaces-refutation-73f" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-amber-800 transition text-[10px] bg-slate-100 border border-slate-305 px-2 py-0.5 rounded flex items-center gap-1">
+                    Treatise: When Silence Replaces Refutation <ExternalLink className="w-3 h-3" />
+                  </a>
+                  <a href="https://yueliusd.substack.com/p/it-quietly-adopts-several-of-our" target="_blank" rel="noopener noreferrer" className="text-slate-700 hover:text-amber-800 transition text-[10px] bg-slate-100 border border-slate-305 px-2 py-0.5 rounded flex items-center gap-1">
+                    Treatise: Quiet Adoption Without Citation <ExternalLink className="w-3 h-3" />
+                  </a>
+                </div>
               </div>
             </div>
 
