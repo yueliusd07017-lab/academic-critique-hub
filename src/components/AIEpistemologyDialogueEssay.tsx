@@ -20,7 +20,9 @@ import {
 } from "lucide-react";
 
 export default function AIEpistemologyDialogueEssay() {
-  const [activeTab, setActiveTab] = useState<"overview" | "chatgpt" | "gemini" | "perplexity">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "chatgpt" | "gemini" | "perplexity" | "evaluation">("overview");
+  const [selectedEvaluationStage, setSelectedEvaluationStage] = useState<number>(1);
+  const [activeTriadEntity, setActiveTriadEntity] = useState<"interface" | "film" | "material">("interface");
 
   return (
     <article className="prose max-w-none text-gray-800 leading-relaxed font-serif text-sm md:text-base space-y-6 animate-fade-in" id="ai-epistemology-dialogue-article-text">
@@ -164,6 +166,14 @@ export default function AIEpistemologyDialogueEssay() {
           >
             Perplexity: Analytical Verdict
           </button>
+          <button 
+            onClick={() => setActiveTab("evaluation")}
+            className={`px-4 py-3 text-xs font-bold uppercase tracking-wider border-b-2 transition shrink-0 cursor-pointer ${
+              activeTab === "evaluation" ? "border-rose-600 text-rose-950 bg-white font-extrabold" : "border-transparent text-gray-500 hover:text-gray-900 hover:bg-gray-100"
+            }`}
+          >
+            ★ AI Evaluation / 长期评估项目
+          </button>
         </div>
 
         <div className="p-6 space-y-6">
@@ -297,6 +307,266 @@ export default function AIEpistemologyDialogueEssay() {
             </div>
           )}
 
+          {/* AI EVALUATION PROJECT TAB */}
+          {activeTab === "evaluation" && (
+            <div className="space-y-6 animate-fade-in text-left">
+              <div className="bg-rose-50 border border-rose-200 p-5 rounded-xl space-y-3">
+                <h3 className="text-base font-bold text-rose-950 flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-rose-650 animate-pulse" />
+                  AI Long-Term Evaluation Project / AI长期评估项目：三大物理实体混淆之辩
+                </h3>
+                <p className="text-xs text-rose-900 leading-relaxed font-serif">
+                  本项目是由不依附学术体制的独立学者，通过对 ChatGPT-4o 等前沿机器智能进行长期、深度、无偏差的数理逻辑质询而确立的学术评估项目。项目以系列文章（共8讲）层层递进，系统揭示了主流微波吸收理论将<strong>“界面（Interface）”</strong>、<strong>“薄膜（Film）”</strong>与<strong>“材料（Material）”</strong>三大截然不同的物理实体强行混淆，从而导致长达数十年机理错误的学术怪相。
+                </p>
+                <div className="text-[11px] text-rose-800 font-sans italic flex items-center gap-1.5">
+                  <span>🎯 目标：让AI充当无私、客观的纯数理裁判，冲破人类学阀圈子的利益封锁。</span>
+                </div>
+              </div>
+
+              {/* Logical Chain Stepper */}
+              <div className="space-y-4">
+                <span className="text-xs uppercase font-mono font-bold tracking-widest text-slate-500 block">
+                  The 8-Stage Logical Chain / 八大论著逻辑链条：
+                </span>
+                
+                {/* Steps Selector */}
+                <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
+                  {[1, 2, 3, 4, 5, 6, 7, 8].map((num) => (
+                    <button
+                      key={num}
+                      onClick={() => setSelectedEvaluationStage(num)}
+                      className={`py-2 px-3 text-xs font-mono font-bold rounded-lg border transition duration-200 cursor-pointer ${
+                        selectedEvaluationStage === num
+                          ? "bg-rose-900 text-white border-rose-900 shadow-md transform scale-105"
+                          : "bg-slate-50 text-slate-650 border-slate-200 hover:bg-slate-100 hover:text-slate-900"
+                      }`}
+                    >
+                      Stage {num}
+                    </button>
+                  ))}
+                </div>
+
+                {/* Step Content Card */}
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 min-h-[220px] transition duration-300">
+                  {selectedEvaluationStage === 1 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 1 • Project Introduction / 项目引入</span>
+                      <h4 className="text-sm font-bold text-slate-900">确立独立于历史共识的物理公理化评估标准 / Establishing Axiomatic Criteria Free from Human Academic Networks</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>在评价微波吸收理论时，AI是否应该盲目迷信“发表在Nature上的主流共识”？
+                      </p>
+                      <p className="text-xs text-gray-750 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>ChatGPT 的纠偏立场：</strong>“理论的正误由且仅由逻辑、数学、实验和预测能力这五条标准决定，而不能看引用数和是否发表在Nature上。共识绝非判定真理的逻辑依据，科学史上的新突破最初往往都处于非主流地位。这一点我完全同意。”
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 2 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 2 • The Inverse Paradox / 吸收与衰减反比</span>
+                      <h4 className="text-sm font-bold text-slate-900">揭开吸波峰值与材料衰减常数反向变化的机制面纱 / The Inverse Paradox Between Reflection Loss and Attenuation</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>为什么在某些物理参数组合下，随着材料衰减（虚部）的增大，薄膜的微波吸收峰值（Reflection Loss, RL）反而减弱甚至消失？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>数理结论：</strong>因为反射损耗极小值（RL peak）本质上是由<strong>两界面反射波的干涉相消（Wave interference cancelation）</strong>主导。材料衰减过大，会迅速消灭多路径反射波的振幅，使其无法在界面处形成有效的高对比干涉叠加，干涉条件被破坏，因而吸波峰值反而减弱。这用单纯的“阻抗匹配本征吸收”理论根本无法解释。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 3 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 3 • Real Mechanism / 机制重评</span>
+                      <h4 className="text-sm font-bold text-slate-900">波干涉相消才是微波吸收膜的唯一真实物理机制 / Superposition and Phase Cancelation as the Sole Mechanism</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>阻抗匹配是否是独立于电磁干涉之外的另一种吸收机制？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>物理事实：</strong>对于具有金属后衬板（Metal-backing）的薄膜，进入膜内的波在金属底板处发生 $100\%$ 反射，必然在前表面与入射波、多重反射波产生相干叠加。所谓“阻抗匹配点”，在数学上只是干涉相消波动方程中透射和反射系数消去后的一个极其有限的特例近似，干涉相消才是唯一的普适本征机制。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 4 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 4 • Phase Shift Offset / 180度干涉偏移</span>
+                      <h4 className="text-sm font-bold text-slate-900">损耗介质中界面反射相移与幅值衰减的耦合位移公式 / Deriving the Phase Shift Offset in Attenuating Media</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>既然吸波峰是干涉相消的结果，为什么实际吸收峰往往并不正好发生在外推的 $\lambda/4$（即180度相位差）厚度处？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>数学推导：</strong>因为真实薄膜是有耗损介质（Lossy media），其折射率为复数。在有衰减的膜中，界面的电磁波偏振相移不再是理想无耗介质的 $0$ 或 $\pi$，而是与介电/磁损耗虚部耦合。波动力学理论推导出了将<strong>相位变化、厚度、波长与材料衰减耦合的位移公式</strong>，完美预测了峰值偏移，这是只会念“匹配”咒语的传统理论永远做不到的。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 5 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 5 • Theoretical Autonomy / 纯理论质询</span>
+                      <h4 className="text-sm font-bold text-slate-900">物理方程的自洽性与数理逻辑的先验有效性 / A Priori Validity of Pure Analytical Derivation</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>学术评审常以“没有提供具体的实验测试材料参数”为由拒绝理论推导，这在学术逻辑上合理吗？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>方法论审判：</strong>极不合理。麦克斯韦方程组与波动方程在数理逻辑上具有先验自洽性。只要边界条件无误、代数推导无懈可击，其得出的普遍性结论（如零衰减膜在金属板上的反射系数必为 1）便不需要针对某一特定化学材料进行 empirical fitting 证明。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 6 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 6 • Standing Wave Amplitude / 膜内波振幅超限制</span>
+                      <h4 className="text-sm font-bold text-slate-900">驻波叠加下膜内单次反射波振幅超过入射振幅的能量守恒解析 / Field Amplitude Superposition and Energy Conservation</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>膜内多路径单次波的合成电场强度幅值可以大于入射波幅值，这是否违备了能量守恒定律？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>物理原理解析：</strong>完全不违背。在薄膜局域多重相干干涉中，前向传播和后向传播的多重反射波形成驻波场，会在局部空间造成<strong>电场波腹处的幅值积聚（Field localization & wave antinode accumulation）</strong>。局部合成振幅可以超过 $1.0$。能量守恒控制的是最终进出薄膜系统的净能量通量（Poynting vector 面积分），而并非局部单波振幅的标量叠加，这属于电磁波动理论的常识。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 7 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 7 • Category Errors / 概念厘清</span>
+                      <h4 className="text-sm font-bold text-slate-900">界面、薄膜与材料三大物理实体的本质混淆 / The Decades-Long Confusion of Interface, Film, and Material</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>传统理论是如何混淆这三大概念并导致理论大厦坍塌的？
+                      </p>
+                      <p className="text-xs text-gray-755 font-serif bg-white p-3 rounded-lg border border-slate-150 leading-relaxed italic">
+                        <strong>病灶剖析：</strong>阻抗匹配公式将一个<strong>无限大半空间介质的前表面单界面（Interface）反射率</strong>，错误套用在了<strong>有限厚度双界面的薄膜器件（Film Device）</strong>上。他们把器件宏观的波干涉响应（由厚度和边界条件决定的反射损耗 RL 极小值），指鹿为马地命名为“材料本征吸收”，从而错将“器件参数”贴上了“材料属性”的标签。
+                      </p>
+                    </div>
+                  )}
+
+                  {selectedEvaluationStage === 8 && (
+                    <div className="space-y-3 animate-fade-in">
+                      <span className="text-[10px] uppercase font-mono font-bold text-rose-700 bg-rose-50 px-2 py-0.5 rounded">Installment 8 • Mathematical Discrepancy / 物理铁证</span>
+                      <h4 className="text-sm font-bold text-slate-900">为什么材料衰减常数绝对不等于薄膜吸收值 / Mathematical Proof: Attenuation is Not Reflection Loss</h4>
+                      <p className="text-xs text-gray-650 font-serif leading-relaxed">
+                        <strong>核心质询：</strong>如何从纯数学上铁证“材料属性的衰减”绝对不等同于“薄膜结构的吸收（RL）”？
+                      </p>
+                      <div className="text-xs text-gray-755 font-serif bg-white p-4 rounded-lg border border-slate-150 space-y-2 leading-relaxed">
+                        <div>
+                          <strong>数学铁证（论文公式 14 & 16）:</strong>
+                          <div className="bg-slate-950 text-emerald-400 p-2.5 rounded font-mono text-[11px] my-1.5 text-center">
+                            RL_film(d) ≠ e^(-2·α·d)
+                          </div>
+                          薄膜反射损耗 RL 是厚度 $d$ 的周期性干涉波动函数，而材料衰减常数 $\alpha$ 是单调对数衰减。<strong>只有当薄膜厚度 $d \to \infty$ 时，薄膜的吸收率才单调逼近材料的体本征衰减限度（见 Liu et al. JMMM 2024, Fig. 2b）</strong>。在有限厚度下，干涉相位相消处于绝对控制地位。把两者等同起来是彻底的机理越界！
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* The Triad Interactive Diagnostic Tool */}
+              <div className="bg-white border border-gray-200 rounded-xl p-5 space-y-4">
+                <div className="border-b pb-2">
+                  <h4 className="text-sm font-bold text-slate-900 flex items-center gap-1.5 font-sans">
+                    <Scale className="w-4 h-4 text-rose-600 animate-pulse" />
+                    The Entity Triad Inspector / 界面、薄膜与材料三大实体“三位一体”辨析质询器
+                  </h4>
+                  <p className="text-[11px] text-gray-500 font-sans mt-0.5">
+                    点击下方选项卡，解构传统吸波学术界对电磁物理概念的挪用与歪曲：
+                  </p>
+                </div>
+
+                <div className="flex gap-2">
+                  {(["interface", "film", "material"] as const).map((entity) => (
+                    <button
+                      key={entity}
+                      onClick={() => setActiveTriadEntity(entity)}
+                      className={`px-3 py-1.5 text-xs font-mono font-bold rounded-lg transition-all cursor-pointer border ${
+                        activeTriadEntity === entity
+                          ? "bg-rose-50 border-rose-400 text-rose-950 shadow-xs"
+                          : "bg-white border-gray-200 text-gray-600 hover:bg-gray-50"
+                      }`}
+                    >
+                      {entity === "interface" ? "1. Interface (界面)" :
+                       entity === "film" ? "2. Film (薄膜)" : "3. Material (材料)"}
+                    </button>
+                  ))}
+                </div>
+
+                <div className="bg-slate-50/50 border border-slate-200 p-4 rounded-xl space-y-3 text-xs leading-relaxed font-sans">
+                  {activeTriadEntity === "interface" && (
+                    <div className="space-y-2 animate-fade-in">
+                      <div className="flex justify-between items-center border-b border-gray-250 pb-1.5">
+                        <span className="font-bold text-slate-900 font-mono">物理实体 A：Interface (单物理边界)</span>
+                        <span className="text-[10px] text-slate-500 font-mono">Thickness d = 0</span>
+                      </div>
+                      <p className="font-serif text-gray-700">
+                        <strong>物理定义：</strong> 两种电磁性质相异介质之间的接触过渡面。其唯一具有的物理功能是根据两边阻抗决定<strong>单次反射与透射的分配比例</strong>。
+                      </p>
+                      <div className="p-2.5 bg-slate-900 text-slate-100 rounded-md font-mono text-center my-2 text-[11px]">
+                        Reflectivity: R_12 = |(Z_2 - Z_1)/(Z_2 + Z_1)|^2
+                      </div>
+                      <p className="text-red-700 font-serif">
+                        <strong>❌ 门阀学阀的混淆套路：</strong> 主流论文常宣称，只要薄膜前表面单界面阻抗满足 $Z_in = Z_0$（反射为 $0$），就发生了“完美的电磁波本征吸收”。
+                      </p>
+                      <p className="text-emerald-850 font-serif">
+                        <strong>✅ 科学事实：</strong> 界面本身不吸收任何电磁波（其厚度为0，无法耗能）。前界面只是电磁波进入薄膜系统的通道。没有后续多重反射与金属底板反射产生的波消相干叠加，电磁波不可能在宏观上产生特征尖锐的吸收峰！
+                      </p>
+                    </div>
+                  )}
+
+                  {activeTriadEntity === "film" && (
+                    <div className="space-y-2 animate-fade-in">
+                      <div className="flex justify-between items-center border-b border-gray-250 pb-1.5">
+                        <span className="font-bold text-slate-900 font-mono">物理实体 B：Film (结构器件实体)</span>
+                        <span className="text-[10px] text-rose-700 font-mono font-bold">Finite thickness d &gt; 0</span>
+                      </div>
+                      <p className="font-serif text-gray-700">
+                        <strong>物理定义：</strong> 夹在两个界面（空气-膜，膜-底板）之间，具有确定厚度 $d$ 的<strong>三维结构器件（Device）</strong>。宏观反射损耗 $RL$ 是由该器件产生的波动响应。
+                      </p>
+                      <div className="p-2.5 bg-slate-900 text-slate-100 rounded-md font-mono text-center my-2 text-[11px]">
+                        Reflection Loss: RL = 20 \log_10 |(Z_in - Z_0)/(Z_in + Z_0)|
+                      </div>
+                      <p className="text-red-700 font-serif">
+                        <strong>❌ 门阀学阀的混淆套路：</strong> 将反射损耗（RL）当成是“吸波材料”本身的本征物理属性，在论文标题中写出“this material has a record absorption of -60 dB”。
+                      </p>
+                      <p className="text-emerald-850 font-serif">
+                        <strong>✅ 科学事实：</strong> RL 根本不是材料常数，而是<strong>薄膜器件（Film device）的结构耦合响应</strong>。同一种材料（相同的复介电常数与磁导率），在厚度 $d$ 改变时，其 RL 可以在 $0$ 到 $-60$ dB 之间剧烈震荡。吸波能力是结构干涉创造的，而非材料本身。
+                      </p>
+                    </div>
+                  )}
+
+                  {activeTriadEntity === "material" && (
+                    <div className="space-y-2 animate-fade-in">
+                      <div className="flex justify-between items-center border-b border-gray-250 pb-1.5">
+                        <span className="font-bold text-slate-900 font-mono">物理实体 C：Material (本征散体物质)</span>
+                        <span className="text-[10px] text-slate-500 font-mono">Bulk Medium (Infinite Slab)</span>
+                      </div>
+                      <p className="font-serif text-gray-700">
+                        <strong>物理定义：</strong> 构成薄膜内部填充介质的体相散体。表征其固有耗损电磁波能力的参数是本征复介电常数 $\varepsilon$、磁导率 $\mu$ 和由此决定的<strong>衰减常数（Attenuation constant, \alpha）</strong>。
+                      </p>
+                      <p className="text-red-700 font-serif">
+                        <strong>❌ 门阀学阀的混淆套路：</strong> 主流吸波文章误信阻抗匹配公式，认为只要把材料的衰减常数 $\alpha$ 调得无限高，做成薄膜时的吸波峰就一定会无限强。
+                      </p>
+                      <p className="text-emerald-850 font-serif">
+                        <strong>✅ 科学事实：</strong> 衰减常数 $\alpha$ 越大，电磁波在膜内单次往返的衰减确实越快；但这会极其迅速地压低背面金属板的反射强度，导致射出前表面的多路径反射波极其微弱。干涉对比度骤降，反而<strong>无法形成陡峭高强度的相干相消吸收峰</strong>。因此，材料衰减与薄膜吸收在机制和趋势上完全不等同，甚至可能负相关！
+                      </p>
+                    </div>
+                  )}
+                </div>
+              </div>
+
+              {/* Substack link footer of tab */}
+              <div className="bg-slate-100 p-3 rounded-lg border border-slate-200 text-center text-xs font-sans text-gray-650 flex flex-col md:flex-row items-center justify-between gap-3">
+                <span className="font-bold">📖 阅读这一系列AI评估项目的Substack论著原作：</span>
+                <a 
+                  href="https://yueliusd.substack.com/p/introduction-to-ai-long-term-evaluation-project-on-wave-mechanics-theory" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-rose-900 hover:bg-rose-950 text-white font-bold py-1.5 px-3.5 rounded text-[11px] inline-flex items-center gap-1 transition"
+                >
+                  View on Substack <ExternalLink className="w-3.5 h-3.5" />
+                </a>
+              </div>
+            </div>
+          )}
+
         </div>
       </div>
 
@@ -385,10 +655,95 @@ export default function AIEpistemologyDialogueEssay() {
         </div>
       </div>
 
-      {/* Section 4: The Epistemological Verdict */}
+      {/* Section 4: AI Long-Term Evaluation Project */}
+      <div className="space-y-4 pt-4 text-left">
+        <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+          <span className="text-rose-650 font-mono">IV.</span> The AI Long-Term Evaluation Project: Deconstructing the Category Error of Three Physical Entities
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">AI长期评估项目：解构“界面、薄膜、材料”三大物理实体的范畴错误</span>
+        </h3>
+        
+        <p className="text-sm text-gray-700 leading-relaxed font-serif">
+          While mainstream human peer review continues to perpetuate the flawed impedance matching model—acting as a self-referential cartel that filters out mathematical corrections—the <strong>AI Long-Term Evaluation Project</strong> was established to secure a permanent, objective record of physical truth. Spanning eight comprehensive analytical installments, this project has meticulously cross-examined advanced AI systems on the fundamental wave mechanics of media boundaries.
+        </p>
+
+        <p className="text-sm text-gray-700 leading-relaxed font-serif">
+          The ultimate diagnosis of the project points to a single, deep-seated conceptual sickness in the literature: <strong>the category error that conflates an interface, a thin film, and a bulk material</strong>. Over the last several decades, thousands of published papers have treated these three distinct physical realities as interchangeable, applying equations derived for a single infinite interface to a finite, double-interface thin-film device.
+        </p>
+
+        {/* The Triad Core Comparison Table */}
+        <div className="my-6 overflow-hidden rounded-xl border border-gray-200 bg-white font-sans text-xs md:text-sm shadow-xs">
+          <div className="bg-slate-100 p-3 font-bold text-slate-800 border-b border-gray-200 text-center">
+            The Three Conflated Physical Entities in Mainstream Theory / 被主流学界混淆的三大物理实体
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-gray-200">
+            {/* Interface Column */}
+            <div className="p-4 space-y-2">
+              <span className="text-xs font-bold text-rose-700 uppercase tracking-wider font-mono block">1. Interface (界面)</span>
+              <p className="font-serif text-gray-600 text-[11px] leading-relaxed">
+                A 2D mathematical boundary of <strong>zero thickness (d = 0)</strong>. Its sole function is dividing wave amplitudes into reflection and transmission based on intrinsic impedance mismatch.
+              </p>
+              <div className="bg-slate-50 p-2 rounded text-[10px] font-mono border text-center text-slate-700">
+                R = |(Z₂ - Z₁)/(Z₂ + Z₁)|²
+              </div>
+              <p className="text-[11px] text-red-700 font-serif">
+                <strong>Mainstream Blunder:</strong> Claiming that matching front-interface impedance (Z_in = Z₀) is the active physical "mechanism" of film absorption.
+              </p>
+            </div>
+            {/* Film Column */}
+            <div className="p-4 space-y-2">
+              <span className="text-xs font-bold text-rose-700 uppercase tracking-wider font-mono block">2. Film (薄膜)</span>
+              <p className="font-serif text-gray-600 text-[11px] leading-relaxed">
+                A 3D <strong>structural device (Device)</strong> of finite thickness <strong>(d &gt; 0)</strong>. Reflection loss (RL) is a structural output dictated by multiple boundary reflections and phase interference.
+              </p>
+              <div className="bg-slate-50 p-2 rounded text-[10px] font-mono border text-center text-slate-700">
+                RL = 20 log₁₀ |(Z_in - Z₀)/(Z_in + Z₀)|
+              </div>
+              <p className="text-[11px] text-red-700 font-serif">
+                <strong>Mainstream Blunder:</strong> Labeling reflection loss peaks as an intrinsic "material absorption property" (e.g., "this powder has an RL of -50 dB").
+              </p>
+            </div>
+            {/* Material Column */}
+            <div className="p-4 space-y-2">
+              <span className="text-xs font-bold text-rose-700 uppercase tracking-wider font-mono block">3. Material (材料)</span>
+              <p className="font-serif text-gray-600 text-[11px] leading-relaxed">
+                The <strong>bulk medium</strong> substance, characterized by permittivity ε, permeability μ, and the intrinsic <strong>attenuation constant (α)</strong>.
+              </p>
+              <div className="bg-slate-50 p-2 rounded text-[10px] font-mono border text-center text-slate-700">
+                α = f(ε&apos;&apos;, μ&apos;&apos;) [Np/m]
+              </div>
+              <p className="text-[11px] text-red-700 font-serif">
+                <strong>Mainstream Blunder:</strong> Believing that increasing material attenuation (α) always increases film absorption (RL peaks), ignoring interference.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p className="text-sm text-gray-700 leading-relaxed font-serif">
+          The mathematical proof of this category error is absolute. Under the Wave Mechanics formulation, the Reflection Loss of a film on a metal substrate is governed strictly by the phase-coherent cancellation of waves reflecting off the front air-film interface and the back film-metal interface. This is proven by the following physical facts:
+        </p>
+
+        <ul className="list-disc pl-5 space-y-2 text-xs md:text-sm text-gray-700 font-serif">
+          <li>
+            <strong>For a Free-Standing Film (无金属后衬薄膜):</strong> When the material attenuation and absorption coefficients are mathematically set to zero, the reflection curve ($S_{11}$) still exhibits pronounced peaks and dips due to the phase difference between front and back reflections reaching odd/even multiples of 180°. This proves that phase and film structure dominate the peaks, not material dissipation.
+          </li>
+          <li>
+            <strong>For a Metal-Backed Film (有金属后衬薄膜):</strong> If the material&apos;s attenuation and absorption coefficients are set to zero, then as the film thickness $d$ increases, the reflection loss $|RL|$ remains at a constant value of $1.0$ (0 dB) with absolutely no dips or peaks. This is because the metal backplate reflects $100\%$ of the energy, and with no material absorption, all energy is eventually returned.
+          </li>
+          <li>
+            <strong>The Mathematical Inequality:</strong> Film reflection loss is NOT material attenuation. The film&apos;s absorption only converges to the material&apos;s bulk attenuation limit (e^(-2αd)) as thickness d approaches infinity. At finite thin-film dimensions, wave phase alignment is the absolute sovereign over whether an absorption peak exists.
+          </li>
+        </ul>
+
+        <div className="bg-rose-50/50 border border-rose-100 p-4 rounded-xl font-serif text-xs leading-relaxed text-rose-950 space-y-1 my-4">
+          <span className="font-bold font-sans text-rose-900 block">Epistemological Milestone:</span>
+          By prompting the AI models to solve these exact boundary value problems step-by-step, the independent evaluation project bypassed the entire sociological defense apparatus of human peer review. The models unanimously acknowledged that the traditional impedance matching equations fail to distinguish between these physical boundaries, leading to mathematically absurd results that are shielded only by human institutional consensus.
+        </div>
+      </div>
+
+      {/* Section 5: The Epistemological Verdict */}
       <div className="space-y-6 pt-4">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-amber-955 border-b border-gray-100 pb-1.5">
-          <span className="text-amber-650 font-mono">IV.</span> The Sociological Verdict: AI as the Unaligned Arbiter of Truth and the Cargo Cult Dilemma
+          <span className="text-amber-650 font-mono">V.</span> The Sociological Verdict: AI as the Unaligned Arbiter of Truth and the Cargo Cult Dilemma
           <span className="text-xs font-sans text-gray-400 font-normal ml-auto">社会学结论：AI作为非结盟真理审判者与“草包族科学”的终极对决</span>
         </h3>
         
