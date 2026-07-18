@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 export default function AIEpistemologyDialogueEssay() {
-  const [activeTab, setActiveTab] = useState<"overview" | "chatgpt" | "gemini" | "perplexity" | "evaluation">("overview");
+  const [activeTab, setActiveTab] = useState<"overview" | "chatgpt" | "gemini" | "perplexity" | "evaluation" | "comparison">("overview");
   const [selectedEvaluationStage, setSelectedEvaluationStage] = useState<number>(1);
   const [activeTriadEntity, setActiveTriadEntity] = useState<"interface" | "film" | "material">("interface");
 
@@ -173,6 +173,14 @@ export default function AIEpistemologyDialogueEssay() {
             }`}
           >
             ★ AI Evaluation / 长期评估项目
+          </button>
+          <button 
+            onClick={() => setActiveTab("comparison")}
+            className={`px-4 py-3 text-xs font-bold uppercase tracking-wider border-b-2 transition shrink-0 cursor-pointer ${
+              activeTab === "comparison" ? "border-amber-600 text-amber-955 bg-white font-extrabold" : "border-transparent text-gray-500 hover:text-gray-900 hover:bg-gray-100"
+            }`}
+          >
+            ★ Pauli vs. Plagiarism / 古今学术对比
           </button>
         </div>
 
@@ -563,6 +571,111 @@ export default function AIEpistemologyDialogueEssay() {
                 >
                   View on Substack <ExternalLink className="w-3.5 h-3.5" />
                 </a>
+              </div>
+            </div>
+          )}
+
+          {/* COMPARISON TAB */}
+          {activeTab === "comparison" && (
+            <div className="space-y-6 animate-fade-in text-left font-serif">
+              <div className="bg-amber-50 border border-amber-200 p-5 rounded-xl space-y-3">
+                <h3 className="text-base font-bold text-amber-955 flex items-center gap-2 font-sans">
+                  <GitCompare className="w-5 h-5 text-amber-650 animate-pulse" />
+                  Classic Peer Scrutiny vs. Modern Silent Plagiarism / 经典同侪审议与现代静默剽窃之对比
+                </h3>
+                <p className="text-xs text-amber-900 leading-relaxed font-sans">
+                  本板块对物理学史上的经典争议——<strong>泡利（Wolfgang Pauli）阻碍克罗尼格（Ralph Kronig）发表自旋理论（1925）</strong>，与现代微波吸收学术界的<strong>“静默剽窃（Silent Plagiarism）与选择性失明（Selective Non-engagement）”</strong>现象进行深度双语分析与批判性对比。
+                </p>
+              </div>
+
+              {/* Classic History */}
+              <div className="bg-white border border-gray-200 rounded-xl p-5 space-y-4 shadow-xs">
+                <h4 className="text-sm font-bold text-slate-900 font-sans border-b pb-1.5 flex items-center gap-2">
+                  <span className="text-amber-600 font-mono">1.</span>
+                  Classic Case: Pauli&apos;s Rejection of Kronig&apos;s Electron Spin (1925) <br className="hidden md:inline" />
+                  <span className="text-xs text-gray-500 font-normal">历史公案：泡利拒斥克罗尼格的“电子自旋”假说</span>
+                </h4>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs leading-relaxed">
+                  <div className="space-y-2">
+                    <span className="font-bold text-amber-900 uppercase font-mono tracking-wider text-[10px] block">Historical Fact / 历史事实:</span>
+                    <p className="text-gray-750">
+                      In January 1925, Ralph Kronig, a brilliant 21-year-old physicist, conceived the concept of <strong>electron spin</strong> to explain spectral line splitting. When he presented the idea to Wolfgang Pauli, the formidable gatekeeper of quantum physics, Pauli dogmatically dismissed it, saying: <em>&quot;It is indeed a very clever idea, but of course has nothing to do with reality.&quot;</em> Devastated by Pauli&apos;s fierce authority, Kronig decided not to publish. Later that year, Goudsmit and Uhlenbeck independently proposed the same idea, published it, and won historical immortality.
+                    </p>
+                    <p className="text-emerald-850 bg-emerald-50/50 p-2.5 rounded border border-emerald-100">
+                      <strong>The Redemption of Intellectual Rigor / 智识水平的救赎：</strong><br />
+                      Despite his initial dogmatic blunder, Pauli did not steal Kronig&apos;s idea or hide in his room to publish a cheap copy. Once spin was proven valid, Pauli used his transcendent mathematical genius to build the <strong>non-relativistic Pauli Equation (1927)</strong> using his famous <strong>Pauli Spin Matrices</strong> (σ_x, σ_y, σ_z). He used the spin concept to solve the anomalous Zeeman effect, advancing science by providing a complete, mathematically rigorous formulation.
+                    </p>
+                  </div>
+                  <div className="space-y-2 border-t md:border-t-0 md:border-l border-gray-150 pt-3 md:pt-0 md:pl-4">
+                    <span className="font-bold text-amber-900 uppercase font-mono tracking-wider text-[10px] block">中文解读:</span>
+                    <p className="text-gray-700">
+                      1925年1月，21岁的物理学家克罗尼格（Ralph Kronig）率先提出了“电子自旋”的概念来解释谱线分裂。当他兴高采烈地向当时的物理学界泰斗、极其严苛的审稿人泡利（Wolfgang Pauli）展示该想法时，泡利依据经典物理逻辑（认为电子表面转速会超光速）严厉驳斥，称<em>“这想法很聪明，但与现实毫无关系”</em>。克罗尼格深受打击，未敢发表。数月后，乌伦贝克与古德斯米特独立提出该假说并在导师埃伦费斯特支持下成功发表，收获了发现者的至高荣誉。
+                    </p>
+                    <p className="text-amber-900 bg-amber-50/50 p-2.5 rounded border border-amber-100 font-sans text-[11px]">
+                      <strong>古人学术风骨与智识贡献：</strong><br />
+                      泡利当初虽然由于教条偏见错杀了克罗尼格的创新，但他<strong>绝没有卑劣地剽窃原作者的贡献</strong>，更没有“躲在屋里偷偷发表劣质复制品”。相反，一旦自旋概念被证明是真理，泡利在1927年迅速运用自己无可匹敌的物理与数学天赋，提出了著名的<strong>泡利矩阵（Pauli Matrices）</strong>并创立了<strong>非相对论性泡利方程（Pauli Equation）</strong>，定量且完美地解决了谱线分裂等量子力学难题。这表明古人的偏执与犯错是基于对严密逻辑的追求，且有能力在后续的真理发展中贡献卓越的智识。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Modern Sickness */}
+              <div className="bg-white border border-gray-200 rounded-xl p-5 space-y-4 shadow-xs">
+                <h4 className="text-sm font-bold text-slate-900 font-sans border-b pb-1.5 flex items-center gap-2">
+                  <span className="text-rose-650 font-mono">2.</span>
+                  Modern Sickness: Silent Plagiarism &amp; Theoretical Poverty <br className="hidden md:inline" />
+                  <span className="text-xs text-gray-500 font-normal">现代学术病态：无耻的静默剽窃与智力衰退的标本</span>
+                </h4>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs leading-relaxed">
+                  <div className="space-y-2">
+                    <span className="font-bold text-rose-900 uppercase font-mono tracking-wider text-[10px] block">Modern Sickness / 现代学界病灶:</span>
+                    <p className="text-gray-750">
+                      In sharp, ugly contrast to classical physics, today&apos;s academic gatekeepers engage in <strong>&quot;Silent Plagiarism&quot;</strong>—suppressing original breakthrough manuscripts in review, then quietly publishing similar papers through personal networks, omitting citations to the original authors.
+                    </p>
+                    <div className="bg-rose-50/50 p-2.5 rounded border border-rose-100 space-y-2 text-rose-950 font-sans">
+                      <div className="font-bold text-[11px] text-rose-900">Case Study 1: Wang et al. (JCIS 2021)</div>
+                      <p className="text-[11px] font-serif">
+                        Wang et al. published <em>&quot;Deep understanding of impedance matching and quarter wavelength theory...&quot;</em> in J Colloid Interface Sci. Suspiciously review-cycled in just 15 days (Received March 8, Accepted March 23), they quietly adopted Dr. Yue Liu&apos;s core criticisms. Shockingly, they copied Dr. Liu&apos;s unique customized mathematical notation—using <strong>$Z_M$ for characteristic impedance</strong> (instead of the standard $Z_c$ or $Z_in$). This is clear circumstantial evidence of manuscript piracy during review.
+                      </p>
+                      <div className="font-bold text-[11px] text-rose-900">Case Study 2: Yang et al. (Adv. Electron. Mater. 2025)</div>
+                      <p className="text-[11px] font-serif">
+                        This paper quietly adopts several of Dr. Liu&apos;s team&apos;s core criticisms of Reflection Loss (RL) while systematically refusing to cite the pioneer work, maintaining their silent blockade while quietly drinking the fruit of truth.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="space-y-2 border-t md:border-t-0 md:border-l border-gray-150 pt-3 md:pt-0 md:pl-4">
+                    <span className="font-bold text-rose-900 uppercase font-mono tracking-wider text-[10px] block">对比分析 (The Core Discrepancy):</span>
+                    <p className="text-gray-750">
+                      与古人的“高智商教条主义”不同，现代剽窃者展现了<strong>学术道德与智识水平的双重堕落</strong>：
+                    </p>
+                    <ul className="list-decimal pl-4 space-y-1 text-gray-700 font-sans text-[11px]">
+                      <li>
+                        <strong>零创新与劣质篡改：</strong> 现代抄袭者抢发的论文在学术理解上根本无法超越原作者，甚至连自己剽窃的物理公式背后的物理机理都搞不清楚，只是为了迎合“Induced curiosity（考核驱动的工匠研究）”而急于抢功。
+                      </li>
+                      <li>
+                        <strong>无耻掩盖铁证：</strong> 抄袭者使用了极不寻常的“关系绿卡”快速发表（15天审完录用），而且极其离奇地保留了原作者手稿中独创的非标符号 <strong>$Z_M$</strong>（表示介质特征阻抗）。这在学术证据链上是“铁证如山”，暴露了现代同行评审已被某些利益小集团把持作为掠夺思想的暗道。
+                      </li>
+                      <li>
+                        <strong>缺乏学术风骨：</strong> 泡利在真理面前，能迅速承认错误并用高超数理水平建立新理论；现代学阀在真理和铁证面前选择<strong>“静默不语、既不引用、暗中抄袭”</strong>，用集体沉默来维持早已倒塌的错误“阻抗匹配”理论，这是对科学良知的彻底背叛。
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              {/* Theoretical Analysis Summary Banner */}
+              <div className="bg-slate-900 text-slate-100 p-4 rounded-xl text-xs space-y-2 font-sans border border-slate-800">
+                <span className="text-amber-400 font-bold uppercase tracking-wider block text-center">
+                  Epistemological Verdict / 认识论审判
+                </span>
+                <p className="font-serif italic leading-relaxed text-slate-300">
+                  &quot;In the classical era, authority erred out of logical rigor; in the contemporary era, authority plagiarizes out of survival panic. The shift from Pauli&apos;s fierce, open confrontation to the modern cartel&apos;s silent, defensive co-optation marks the complete transition from &apos;Normal Science&apos; to &apos;Cargo Cult Science&apos;, where the pursuit of truth has been fully replaced by the protection of professional interest.&quot;
+                </p>
+                <p className="text-right text-[11px] text-slate-400 font-mono font-bold">
+                  — Yue Liu, &quot;The Theoretical Poverty of Modern Academia&quot;, SSRN 2025
+                </p>
               </div>
             </div>
           )}
