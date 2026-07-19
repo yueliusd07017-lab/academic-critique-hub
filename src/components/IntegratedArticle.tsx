@@ -29,9 +29,12 @@ import AcademicRecyclingEssay from "./AcademicRecyclingEssay";
 import HanxinScandalEssay from "./HanxinScandalEssay";
 import SilenceAndSystemicRotEssay from "./SilenceAndSystemicRotEssay";
 import AIEpistemologyDialogueEssay from "./AIEpistemologyDialogueEssay";
+import ModernsNotStrongerEssay from "./ModernsNotStrongerEssay";
+import AIAssistanceMisconductEssay from "./AIAssistanceMisconductEssay";
+import TheoryIsScienceEssay from "./TheoryIsScienceEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -121,6 +124,9 @@ export default function IntegratedArticle() {
             activeArticle === "hanxinscandal" ? "hanxinscandal-article-text" :
             activeArticle === "silencesystemicrot" ? "silence-systemic-rot-article-text" :
             activeArticle === "aiepistemology" ? "ai-epistemology-dialogue-article-text" :
+            activeArticle === "modernsnotstronger" ? "modernsnotstronger-article-text" :
+            activeArticle === "aiassistancemisconduct" ? "aiassistancemisconduct-article-text" :
+            activeArticle === "theoryisscience" ? "theoryisscience-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -868,6 +874,42 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
             Essay BH: Arbiter of Civilization
+          </button>
+          <button
+            onClick={() => setActiveArticle("modernsnotstronger")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "modernsnotstronger"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-modernsnotstronger"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay BI: Moderns vs. Ancients
+          </button>
+          <button
+            onClick={() => setActiveArticle("aiassistancemisconduct")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "aiassistancemisconduct"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-aiassistancemisconduct"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay BJ: AI & Misconduct Farce
+          </button>
+          <button
+            onClick={() => setActiveArticle("theoryisscience")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "theoryisscience"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-theoryisscience"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay BK: Theory is Science
           </button>
         </div>
       </div>
@@ -7078,6 +7120,18 @@ export default function IntegratedArticle() {
 
       {activeArticle === "aiepistemology" && (
         <AIEpistemologyDialogueEssay />
+      )}
+
+      {activeArticle === "modernsnotstronger" && (
+        <ModernsNotStrongerEssay />
+      )}
+
+      {activeArticle === "aiassistancemisconduct" && (
+        <AIAssistanceMisconductEssay />
+      )}
+
+      {activeArticle === "theoryisscience" && (
+        <TheoryIsScienceEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
