@@ -28,13 +28,13 @@ export default function TopOnePercentUnderstatedEssay() {
       <div className="max-w-2xl mx-auto my-6 bg-slate-900 text-slate-100 p-5 rounded-xl space-y-4 shadow-inner border border-slate-800 font-mono text-xs md:text-sm">
         <div className="flex items-center gap-2 text-emerald-400 border-b border-slate-800 pb-2">
           <Award className="w-4 h-4 text-emerald-400" />
-          <span className="font-bold uppercase tracking-wider">The Epistemological Hierarchy / 理论价值的阶梯</span>
+          <span className="font-bold uppercase tracking-wider">The Epistemological Proposition / 科学认识论核心命题</span>
         </div>
         <p className="italic text-slate-200 leading-relaxed">
-          "To describe the Wave Mechanics Theory of microwave absorption as belonging to the 'top 1%' of scientific achievements does not exaggerate its importance—it severely understates it. Establishing a foundational physical theory that replaces half a century of flawed empiricism is an achievement more lasting than a Nobel Prize. Meanwhile, claiming that '95% of SCI papers are garbage' is not an irresponsible wild guess; it is an obvious deduction derived from elementary common sense. To demand an impossible 'official statistical backing' before stating the obvious is the ultimate proof of Cargo Cult Science."
+          "Demanding impossible statistical proof for conclusions that can already be reached by common reasoning is itself Cargo Cult Science. Cargo Cult Science does not merely worship experiments—it worships procedures even after reasoning has already settled the question. Common sense precedes statistical confirmation, and reason does not wait for official permission."
         </p>
         <p className="text-[10px] text-slate-400 text-right mt-1 font-sans">
-          — Dr. Yue Liu, *The Primacy of Theoretical Foundations*, SSRN 2025
+          — Dr. Yue Liu, *The Epistemology of Scientific Common Sense*, Substack 2026
         </p>
       </div>
 
@@ -108,22 +108,44 @@ export default function TopOnePercentUnderstatedEssay() {
       <div className="space-y-4 text-left">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-emerald-955 border-b border-gray-100 pb-1.5">
           <span className="text-emerald-600 font-mono">III.</span> Demanding Impossible "Statistical Backing" Is Cargo Cult Science
-          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">强求“统计数据背书”本身就是货拜族科学：幼童与皇帝的寓言</span>
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">强求“统计数据背书”本身就是货拜族科学：混淆概率统计与逻辑演算</span>
         </h3>
         <p>
-          Why do mainstream scientists and journal reviewers refuse to acknowledge that 95% of papers are trash? 
-          Because they suffer from the very condition Richard Feynman diagnosed as **Cargo Cult Science** (货拜族科学).
+          Why do mainstream scientists and journal reviewers refuse to acknowledge that 95% of papers are intellectually barren? 
+          Because they conflate two completely different categories of human knowledge, falling into the condition Richard Feynman diagnosed as <strong>Cargo Cult Science</strong>.
         </p>
         <p>
-          In Feynman's original metaphor, South Sea islanders constructed landing strips, wooden control towers, and bamboo headphones, believing that if they performed the outward rituals of an airfield, cargo planes would land. 
-          Today's academic establishment performs the outward rituals of rigor: demanding statistical significance, official surveys, peer-reviewed citations, and administrative endorsement. 
-          Yet they lack the inner discipline of honest thought.
+          In modern scientific epistemology, we must distinguish between two fundamental classes of questions:
         </p>
+        <div className="grid md:grid-cols-2 gap-4 my-3 font-sans text-xs md:text-sm">
+          <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200 space-y-2">
+            <h5 className="font-bold text-slate-900 flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-slate-500"></span>
+              Category 1: Empirical / Probabilistic Questions
+            </h5>
+            <p className="text-slate-600 leading-relaxed">
+              <em>Requires Comprehensive Statistics.</em> E.g., "Does smoking increase lung cancer risk?" or "Does Drug X improve survival by 12%?" These questions depend on stochastic variables and large sample population distributions.
+            </p>
+          </div>
+          <div className="bg-emerald-50/70 p-3.5 rounded-xl border border-emerald-200 space-y-2">
+            <h5 className="font-bold text-emerald-950 flex items-center gap-1.5">
+              <span className="w-2 h-2 rounded-full bg-emerald-600"></span>
+              Category 2: Logical / Deductive Questions
+            </h5>
+            <p className="text-emerald-900 leading-relaxed">
+              <em>Prior to Statistics & Determined by Pure Reason.</em> E.g., "Is 1+1=3 on page 1 of a textbook wrong?", "Does an equation violate energy conservation?", or "Does a rotated noise image overlap pixel-by-pixel?" Logic settles these instantly.
+            </p>
+          </div>
+        </div>
         <p>
-          When a child sees that the emperor is walking down the street stark naked, the child does not need to execute a double-blind, randomized controlled trial across 10,000 onlookers before declaring that the emperor has no clothes. 
-          The observation is direct, self-evident, and mathematically obvious. 
-          To insist that one cannot state "the emperor is naked" without first presenting an official statistical survey authorized by the emperor's own ministers is the ultimate form of Cargo Cult bureaucracy. 
-          It is an artificial shield designed by the academic cartels to insulate their corrupt paper mills from common-sense public scrutiny.
+          When reviewers demand <em>"Where is your statistical census proving that 95% of papers are trash?"</em>, they are committing a category error: <strong>asking for statistics where logic already suffices</strong>. 
+          If a child sees that the emperor is walking down the street stark naked, the child does not need to execute a double-blind, randomized controlled survey of 10,000 onlookers before declaring that the emperor has no clothes. 
+          Common sense precedes statistical confirmation, and reason does not wait for official permission.
+        </p>
+        <p className="text-emerald-950 bg-emerald-50/80 p-3.5 rounded-xl border border-emerald-200 font-sans text-[13px] leading-relaxed">
+          <strong>Cargo Cult 的真正本质：</strong><br />
+          Cargo Cult Science 不仅仅是盲目崇拜实验，更是在逻辑演算和理性常识已经彻底判明结论之后，仍然教条式地崇拜行政审批流程与统计表格。
+          统计数据可以加强判断，但永远不能取代理性逻辑判断。当整个微波吸收领域数万篇文章在物理公式的第一步就搞错了薄膜边界条件，这种100%的逻辑溃败根本不需要再搞什么“大样本统计”——常识和初中代数就已经完成了审判！
         </p>
         <p className="text-rose-900 bg-rose-50/50 p-3.5 rounded-xl border border-rose-105 font-sans text-[13px] leading-relaxed">
           <strong>审稿人的死循环霸凌：</strong><br />
