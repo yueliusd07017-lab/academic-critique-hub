@@ -35,9 +35,12 @@ import TheoryIsScienceEssay from "./TheoryIsScienceEssay";
 import PaperMillsNotCasesEssay from "./PaperMillsNotCasesEssay";
 import DoExpertsAlwaysKnowBetterEssay from "./DoExpertsAlwaysKnowBetterEssay";
 import TopOnePercentUnderstatedEssay from "./TopOnePercentUnderstatedEssay";
+import WhyAIChangesItsMindEssay from "./WhyAIChangesItsMindEssay";
+import ThirdPartyEvaluationsAndAIBacklashEssay from "./ThirdPartyEvaluationsAndAIBacklashEssay";
+import ScienceAsMetaphysicsEssay from "./ScienceAsMetaphysicsEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -133,6 +136,9 @@ export default function IntegratedArticle() {
             activeArticle === "papermillsnotcases" ? "papermillsnotcases-article-text" :
             activeArticle === "expertsknowbetter" ? "expertsknowbetter-article-text" :
             activeArticle === "toponepercentunderstated" ? "toponepercentunderstated-article-text" :
+            activeArticle === "whyaichangesitsmind" ? "whyaichangesitsmind-article-text" :
+            activeArticle === "thirdpartyandbacklash" ? "thirdpartyandbacklash-article-text" :
+            activeArticle === "scienceasmetaphysics" ? "scienceasmetaphysics-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -952,6 +958,42 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-emerald-550 animate-pulse" />
             Essay BN: "Top 1%" Understated
+          </button>
+          <button
+            onClick={() => setActiveArticle("whyaichangesitsmind")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "whyaichangesitsmind"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-whyaichangesitsmind"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-550 animate-pulse" />
+            Essay BO: Why AI Changes Its Mind
+          </button>
+          <button
+            onClick={() => setActiveArticle("thirdpartyandbacklash")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "thirdpartyandbacklash"
+                ? "bg-violet-955 text-white shadow-sm animate-pulse"
+                : "text-violet-900 hover:bg-violet-50 hover:text-violet-955"
+            }`}
+            id="toggle-article-thirdpartyandbacklash"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-violet-550 animate-pulse" />
+            Essay BP: Third-Party Reviews & AI Backlash
+          </button>
+          <button
+            onClick={() => setActiveArticle("scienceasmetaphysics")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "scienceasmetaphysics"
+                ? "bg-teal-955 text-white shadow-sm animate-pulse"
+                : "text-teal-900 hover:bg-teal-50 hover:text-teal-955"
+            }`}
+            id="toggle-article-scienceasmetaphysics"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-teal-550 animate-pulse" />
+            Essay BQ: Science as Metaphysics
           </button>
         </div>
       </div>
@@ -7186,6 +7228,18 @@ export default function IntegratedArticle() {
 
       {activeArticle === "toponepercentunderstated" && (
         <TopOnePercentUnderstatedEssay />
+      )}
+
+      {activeArticle === "whyaichangesitsmind" && (
+        <WhyAIChangesItsMindEssay />
+      )}
+
+      {activeArticle === "thirdpartyandbacklash" && (
+        <ThirdPartyEvaluationsAndAIBacklashEssay />
+      )}
+
+      {activeArticle === "scienceasmetaphysics" && (
+        <ScienceAsMetaphysicsEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
