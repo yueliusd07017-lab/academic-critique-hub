@@ -39,9 +39,17 @@ import WhyAIChangesItsMindEssay from "./WhyAIChangesItsMindEssay";
 import ThirdPartyEvaluationsAndAIBacklashEssay from "./ThirdPartyEvaluationsAndAIBacklashEssay";
 import ScienceAsMetaphysicsEssay from "./ScienceAsMetaphysicsEssay";
 import PaperMillsAndCopyrightEssay from "./PaperMillsAndCopyrightEssay";
+import PerformanceOfPositivityEssay from "./PerformanceOfPositivityEssay";
+import CourageToRefuseEssay from "./CourageToRefuseEssay";
+import WhenNeutralityIsComplicityEssay from "./WhenNeutralityIsComplicityEssay";
+import PublicLedgerOfReasonEssay from "./PublicLedgerOfReasonEssay";
+import AIMathDerivationAndLogicalValidationEssay from "./AIMathDerivationAndLogicalValidationEssay";
+import AIEpistemologyStressTestingEssay from "./AIEpistemologyStressTestingEssay";
+import AILogicalReductionAndElementaryTruthsEssay from "./AILogicalReductionAndElementaryTruthsEssay";
+import AIEpistemologicalRetreatEssay from "./AIEpistemologicalRetreatEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -141,6 +149,14 @@ export default function IntegratedArticle() {
             activeArticle === "thirdpartyandbacklash" ? "thirdpartyandbacklash-article-text" :
             activeArticle === "scienceasmetaphysics" ? "scienceasmetaphysics-article-text" :
             activeArticle === "papermillscopyright" ? "papermillscopyright-article-text" :
+            activeArticle === "performanceofpositivity" ? "performanceofpositivity-article-text" :
+            activeArticle === "couragetorefuse" ? "couragetorefuse-article-text" :
+            activeArticle === "whenneutralityiscomplicity" ? "whenneutralityiscomplicity-article-text" :
+            activeArticle === "publicledgerofreason" ? "publicledgerofreason-article-text" :
+            activeArticle === "aimathderivation" ? "aimathderivation-article-text" :
+            activeArticle === "aiepistemologystresstesting" ? "aiepistemologystresstesting-article-text" :
+            activeArticle === "ailogicalreduction" ? "ailogicalreduction-article-text" :
+            activeArticle === "aiepistemologicalretreat" ? "aiepistemologicalretreat-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1008,6 +1024,102 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
             Essay BR: Paper Mills & Copyright
+          </button>
+          <button
+            onClick={() => setActiveArticle("performanceofpositivity")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "performanceofpositivity"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-article-performanceofpositivity"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-550 animate-pulse" />
+            Essay BS: Performance of Positivity
+          </button>
+          <button
+            onClick={() => setActiveArticle("couragetorefuse")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "couragetorefuse"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-couragetorefuse"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-550 animate-pulse" />
+            Essay BT: Courage to Refuse
+          </button>
+          <button
+            onClick={() => setActiveArticle("whenneutralityiscomplicity")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "whenneutralityiscomplicity"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-whenneutralityiscomplicity"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay BU: Neutrality as Complicity
+          </button>
+          <button
+            onClick={() => setActiveArticle("publicledgerofreason")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "publicledgerofreason"
+                ? "bg-teal-955 text-white shadow-sm animate-pulse"
+                : "text-teal-900 hover:bg-teal-50 hover:text-teal-955"
+            }`}
+            id="toggle-article-publicledgerofreason"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-teal-550 animate-pulse" />
+            Essay BV: Public Ledger of Reason
+          </button>
+          <button
+            onClick={() => setActiveArticle("aimathderivation")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "aimathderivation"
+                ? "bg-sky-955 text-white shadow-sm animate-pulse"
+                : "text-sky-900 hover:bg-sky-50 hover:text-sky-955"
+            }`}
+            id="toggle-article-aimathderivation"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-sky-550 animate-pulse" />
+            Essay BW: AI Math & Validation
+          </button>
+          <button
+            onClick={() => setActiveArticle("aiepistemologystresstesting")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "aiepistemologystresstesting"
+                ? "bg-cyan-955 text-white shadow-sm animate-pulse"
+                : "text-cyan-900 hover:bg-cyan-50 hover:text-cyan-955"
+            }`}
+            id="toggle-article-aiepistemologystresstesting"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-550 animate-pulse" />
+            Essay BX: AI Epistemology & Stress-Testing
+          </button>
+          <button
+            onClick={() => setActiveArticle("ailogicalreduction")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "ailogicalreduction"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-article-ailogicalreduction"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-550 animate-pulse" />
+            Essay BY: Logical Reduction & Axioms
+          </button>
+          <button
+            onClick={() => setActiveArticle("aiepistemologicalretreat")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "aiepistemologicalretreat"
+                ? "bg-violet-955 text-white shadow-sm animate-pulse"
+                : "text-violet-900 hover:bg-violet-50 hover:text-violet-955"
+            }`}
+            id="toggle-article-aiepistemologicalretreat"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-violet-550 animate-pulse" />
+            Essay BZ: Striking the Pain Point
           </button>
         </div>
       </div>
@@ -7258,6 +7370,38 @@ export default function IntegratedArticle() {
 
       {activeArticle === "papermillscopyright" && (
         <PaperMillsAndCopyrightEssay />
+      )}
+
+      {activeArticle === "performanceofpositivity" && (
+        <PerformanceOfPositivityEssay />
+      )}
+
+      {activeArticle === "couragetorefuse" && (
+        <CourageToRefuseEssay />
+      )}
+
+      {activeArticle === "whenneutralityiscomplicity" && (
+        <WhenNeutralityIsComplicityEssay />
+      )}
+
+      {activeArticle === "publicledgerofreason" && (
+        <PublicLedgerOfReasonEssay />
+      )}
+
+      {activeArticle === "aimathderivation" && (
+        <AIMathDerivationAndLogicalValidationEssay />
+      )}
+
+      {activeArticle === "aiepistemologystresstesting" && (
+        <AIEpistemologyStressTestingEssay />
+      )}
+
+      {activeArticle === "ailogicalreduction" && (
+        <AILogicalReductionAndElementaryTruthsEssay />
+      )}
+
+      {activeArticle === "aiepistemologicalretreat" && (
+        <AIEpistemologicalRetreatEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
