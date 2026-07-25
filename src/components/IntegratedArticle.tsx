@@ -47,9 +47,17 @@ import AIMathDerivationAndLogicalValidationEssay from "./AIMathDerivationAndLogi
 import AIEpistemologyStressTestingEssay from "./AIEpistemologyStressTestingEssay";
 import AILogicalReductionAndElementaryTruthsEssay from "./AILogicalReductionAndElementaryTruthsEssay";
 import AIEpistemologicalRetreatEssay from "./AIEpistemologicalRetreatEssay";
+import FutureOfSCIJournalsEssay from "./FutureOfSCIJournalsEssay";
+import SmashingAcademicWallEssay from "./SmashingAcademicWallEssay";
+import PromotedMediocrityVsQuietTruthEssay from "./PromotedMediocrityVsQuietTruthEssay";
+import CargoCultVsWaveMechanicsEssay from "./CargoCultVsWaveMechanicsEssay";
+import CourageOfSolitudeEssay from "./CourageOfSolitudeEssay";
+import FieldsMedalRevelationEssay from "./FieldsMedalRevelationEssay";
+import NobelPrizeLimitationsEssay from "./NobelPrizeLimitationsEssay";
+import AcademicHypocrisyEssay from "./AcademicHypocrisyEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -157,6 +165,14 @@ export default function IntegratedArticle() {
             activeArticle === "aiepistemologystresstesting" ? "aiepistemologystresstesting-article-text" :
             activeArticle === "ailogicalreduction" ? "ailogicalreduction-article-text" :
             activeArticle === "aiepistemologicalretreat" ? "aiepistemologicalretreat-article-text" :
+            activeArticle === "futureofscijournals" ? "futureofscijournals-article-text" :
+            activeArticle === "smashingacademicwall" ? "smashingacademicwall-article-text" :
+            activeArticle === "promotedmediocrityvsquiettruth" ? "promotedmediocrityvsquiettruth-article-text" :
+            activeArticle === "cargocultvswavemechanics" ? "cargocultvswavemechanics-article-text" :
+            activeArticle === "courageofsolitude" ? "courageofsolitude-article-text" :
+            activeArticle === "fieldsmedalrevelation" ? "fieldsmedalrevelation-article-text" :
+            activeArticle === "nobelprizelimitations" ? "nobelprizelimitations-article-text" :
+            activeArticle === "academichypocrisy" ? "academichypocrisy-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1120,6 +1136,102 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-violet-550 animate-pulse" />
             Essay BZ: Striking the Pain Point
+          </button>
+          <button
+            onClick={() => setActiveArticle("futureofscijournals")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "futureofscijournals"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-futureofscijournals"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-550 animate-pulse" />
+            Essay CA: Future of SCI Journals
+          </button>
+          <button
+            onClick={() => setActiveArticle("smashingacademicwall")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "smashingacademicwall"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-smashingacademicwall"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay CB: Smashing Academic Wall
+          </button>
+          <button
+            onClick={() => setActiveArticle("promotedmediocrityvsquiettruth")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "promotedmediocrityvsquiettruth"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-promotedmediocrityvsquiettruth"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CC: Loud Promotion vs Quiet Truth
+          </button>
+          <button
+            onClick={() => setActiveArticle("cargocultvswavemechanics")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "cargocultvswavemechanics"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-article-cargocultvswavemechanics"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-550 animate-pulse" />
+            Essay CD: Cargo Cult vs Wave Mechanics
+          </button>
+          <button
+            onClick={() => setActiveArticle("courageofsolitude")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "courageofsolitude"
+                ? "bg-teal-955 text-white shadow-sm animate-pulse"
+                : "text-teal-900 hover:bg-teal-50 hover:text-teal-955"
+            }`}
+            id="toggle-article-courageofsolitude"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-teal-550 animate-pulse" />
+            Essay CE: Courage of Solitude
+          </button>
+          <button
+            onClick={() => setActiveArticle("fieldsmedalrevelation")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "fieldsmedalrevelation"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-fieldsmedalrevelation"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-indigo-550 animate-pulse" />
+            Essay CF: Fields Medal Revelation
+          </button>
+          <button
+            onClick={() => setActiveArticle("nobelprizelimitations")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "nobelprizelimitations"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-nobelprizelimitations"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay CG: Nobel Prize Limitations
+          </button>
+          <button
+            onClick={() => setActiveArticle("academichypocrisy")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "academichypocrisy"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-academichypocrisy"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CH: Academic Hypocrisy & Misconduct Shielding
           </button>
         </div>
       </div>
@@ -7402,6 +7514,38 @@ export default function IntegratedArticle() {
 
       {activeArticle === "aiepistemologicalretreat" && (
         <AIEpistemologicalRetreatEssay />
+      )}
+
+      {activeArticle === "futureofscijournals" && (
+        <FutureOfSCIJournalsEssay />
+      )}
+
+      {activeArticle === "smashingacademicwall" && (
+        <SmashingAcademicWallEssay />
+      )}
+
+      {activeArticle === "promotedmediocrityvsquiettruth" && (
+        <PromotedMediocrityVsQuietTruthEssay />
+      )}
+
+      {activeArticle === "cargocultvswavemechanics" && (
+        <CargoCultVsWaveMechanicsEssay />
+      )}
+
+      {activeArticle === "courageofsolitude" && (
+        <CourageOfSolitudeEssay />
+      )}
+
+      {activeArticle === "fieldsmedalrevelation" && (
+        <FieldsMedalRevelationEssay />
+      )}
+
+      {activeArticle === "nobelprizelimitations" && (
+        <NobelPrizeLimitationsEssay />
+      )}
+
+      {activeArticle === "academichypocrisy" && (
+        <AcademicHypocrisyEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
