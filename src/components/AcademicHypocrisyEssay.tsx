@@ -120,6 +120,19 @@ export default function AcademicHypocrisyEssay() {
                 <strong>Evidence:</strong> Followed the same pattern of adopting core critique angles regarding microwave absorption criteria while omitting citation to the original pioneer treatises.
               </p>
             </div>
+
+            <div className="p-3 bg-rose-50/90 rounded border border-rose-300 space-y-2 mt-2">
+              <span className="font-bold text-rose-950 block text-xs flex items-center justify-between">
+                <span>3. Prof. Eduard Arzt (Editor-in-Chief, Progress in Materials Science) — Appeal Response (31 Aug 2025)</span>
+                <span className="text-[10px] bg-rose-200 text-rose-900 px-1.5 py-0.5 rounded font-mono">Formal Journal Endorsement</span>
+              </span>
+              <p className="text-[11px] text-rose-900 leading-relaxed font-serif">
+                In response to Dr. Yue Liu&apos;s formal appeal on MS D-25-00583 (which established the mathematical invalidity of impedance matching), EiC Prof. Eduard Arzt stated: <em>&quot;Progress in Materials Science has a reputation for publishing only balanced review articles... the notion of a &apos;correct theory&apos; is already extremely dubious: philosophy of science has shown that theories are always approximations... and can never be proven, but only disproven...&quot;</em>
+              </p>
+              <p className="text-[11px] text-slate-800 font-sans leading-normal">
+                <strong>Epistemic Indictment:</strong> While desk rejections may be hasty, an official appeal response represents a deliberate, formal journal stance. The EiC weaponizes Karl Popper&apos;s falsificationism (&quot;theories can only be disproven&quot;) while actively suppressing the exact mathematical/physical proofs that <strong>disproved</strong> the legacy impedance matching dogma. Enforcing a fake &quot;balanced view&quot; between disproven error and foundational wave superposition is Cargo Cult Science, for which top journal leadership must be held publicly accountable.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -180,15 +193,32 @@ export default function AcademicHypocrisyEssay() {
         </p>
       </div>
 
-      {/* Section 4: Conclusion */}
+      {/* Section 4: Editorial Accountability & The Verdict of History */}
       <div className="space-y-4 text-left">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
-          <span className="text-rose-600 font-mono">IV.</span> Conclusion: Restoring Simple Justice to Science
-          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">结论：还科学以简单简明的公理与正义</span>
+          <span className="text-rose-600 font-mono">IV.</span> Editorial Accountability & The Verdict of History: Why Failure on Fundamental Truth Demands Resignation
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">结论：大是大非面前的编辑责任与历史裁决——顶级期刊背书错误理论必须承担辞职责任</span>
         </h3>
         <p>
-          True academic integrity is not maintained through hollow editorial rhetoric or intimidating legal disclaimers. It requires an open environment where original priority is honored, editorial silence is exposed, and evidence of co-optation can be openly evaluated by the public ledger of reason.
+          There is a fundamental difference between a hasty desk rejection and a deliberate appeal rejection. A desk rejection might be excused as a quick screening error. But when an Editor-in-Chief issues a formal appeal rejection—deliberately endorsing a 50-year-old disproven theory (*Impedance Matching*) while suppressing the mathematical proofs that invalidated it—the journal takes full organizational responsibility for promoting pseudo-science.
         </p>
+        <p>
+          This is an issue of **fundamental right vs. wrong (大是大非问题)**. When top journals like *Progress in Materials Science* continue to flood the scientific literature with articles based on mathematically disproven impedance-matching assumptions, they forfeit their claim to scientific authority.
+        </p>
+
+        <div className="bg-slate-900 text-slate-100 p-4.5 rounded-xl border border-rose-900/60 font-sans text-xs md:text-sm space-y-3 my-4 shadow-lg">
+          <h5 className="font-bold text-rose-400 flex items-center gap-2 font-mono text-xs uppercase tracking-wider">
+            <Flame className="w-4 h-4 text-rose-400" />
+            The Direct Indictment of Top Journal Leadership:
+          </h5>
+          <p className="text-slate-200 leading-relaxed font-serif">
+            If a top journal lacks the courage and integrity to recognize elementary mathematical truth over popular consensus, what right does it have to call itself a &quot;top journal&quot;? Editors-in-Chief who weaponize fake &quot;balanced view&quot; rhetoric to shield disproven theories must bear <strong>resignation-level editorial responsibility</strong>.
+          </p>
+          <p className="text-slate-300 italic text-xs border-t border-slate-800 pt-2">
+            While contemporary mainstream academia may choose to ignore this indictment today, the record is permanently established. Whether or not institutional consequences are enforced now, the verdict belongs to the history of science.
+          </p>
+        </div>
+
         <p className="font-bold text-center text-slate-900 border-t border-gray-100 pt-4 font-sans text-sm md:text-base">
           &quot;When institutional gatekeeping protects authority at the expense of truth, open public documentation becomes the ultimate guardian of scientific justice.&quot;
         </p>
