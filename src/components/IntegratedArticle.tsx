@@ -61,9 +61,15 @@ import ArbitraryGatekeepingEssay from "./ArbitraryGatekeepingEssay";
 import GenuineInnovationVsEchoChambersEssay from "./GenuineInnovationVsEchoChambersEssay";
 import EcosystemDegradationEssay from "./EcosystemDegradationEssay";
 import FieldsVsNobelEssay from "./FieldsVsNobelEssay";
+import InstitutionalAccountabilityEssay from "./InstitutionalAccountabilityEssay";
+import ForcedGrowthAndRebellionEssay from "./ForcedGrowthAndRebellionEssay";
+import GloryOfEscapingTheBoxEssay from "./GloryOfEscapingTheBoxEssay";
+import WhenNobelRewardsCargoCultEssay from "./WhenNobelRewardsCargoCultEssay";
+import NobelDemonstrationVsCriticalGuidanceEssay from "./NobelDemonstrationVsCriticalGuidanceEssay";
+import CorruptedSystemsAndTheEmperorsChildEssay from "./CorruptedSystemsAndTheEmperorsChildEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -185,6 +191,12 @@ export default function IntegratedArticle() {
             activeArticle === "genuineinnovation" ? "genuineinnovation-article-text" :
             activeArticle === "ecosystemdegradation" ? "ecosystemdegradation-article-text" :
             activeArticle === "fieldsvsnobel" ? "fieldsvsnobel-article-text" :
+            activeArticle === "institutionalaccountability" ? "institutionalaccountability-article-text" :
+            activeArticle === "forcedgrowthandrebellion" ? "forcedgrowthandrebellion-article-text" :
+            activeArticle === "gloryofescapingthebox" ? "gloryofescapingthebox-article-text" :
+            activeArticle === "whennobelrewardscargocult" ? "whennobelrewardscargocult-article-text" :
+            activeArticle === "nobeldemonstrationvscriticalguidance" ? "nobeldemonstrationvscriticalguidance-article-text" :
+            activeArticle === "corruptedsystemsandemperorchild" ? "corruptedsystemsandemperorchild-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1316,6 +1328,78 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay CN: Fields Medal vs. Nobel Prize & The Flaws of Academic Honors
+          </button>
+          <button
+            onClick={() => setActiveArticle("institutionalaccountability")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "institutionalaccountability"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-institutionalaccountability"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CO: The Moral Hazard of Institutional Silence & Cargo Cult Science
+          </button>
+          <button
+            onClick={() => setActiveArticle("forcedgrowthandrebellion")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "forcedgrowthandrebellion"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-forcedgrowthandrebellion"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CP: Artificial Forced Growth vs. Genuine Intellectual Liberation
+          </button>
+          <button
+            onClick={() => setActiveArticle("gloryofescapingthebox")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "gloryofescapingthebox"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-gloryofescapingthebox"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CQ: The True Meaning of Awards & Glory of Escaping the Box
+          </button>
+          <button
+            onClick={() => setActiveArticle("whennobelrewardscargocult")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "whennobelrewardscargocult"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-whennobelrewardscargocult"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CR: When the Nobel Prize Laurels Cargo Cult Science & Irredeemable Academia
+          </button>
+          <button
+            onClick={() => setActiveArticle("nobeldemonstrationvscriticalguidance")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "nobeldemonstrationvscriticalguidance"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-nobeldemonstrationvscriticalguidance"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CS: Nobel Positive Demonstration vs. Critical Guidance & The Editor's Paradox
+          </button>
+          <button
+            onClick={() => setActiveArticle("corruptedsystemsandemperorchild")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "corruptedsystemsandemperorchild"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-corruptedsystemsandemperorchild"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CT: Corrupted Systems, Reform Traps & The Child's Innovation
           </button>
         </div>
       </div>
@@ -7654,6 +7738,30 @@ export default function IntegratedArticle() {
 
       {activeArticle === "fieldsvsnobel" && (
         <FieldsVsNobelEssay />
+      )}
+
+      {activeArticle === "institutionalaccountability" && (
+        <InstitutionalAccountabilityEssay />
+      )}
+
+      {activeArticle === "forcedgrowthandrebellion" && (
+        <ForcedGrowthAndRebellionEssay />
+      )}
+
+      {activeArticle === "gloryofescapingthebox" && (
+        <GloryOfEscapingTheBoxEssay />
+      )}
+
+      {activeArticle === "whennobelrewardscargocult" && (
+        <WhenNobelRewardsCargoCultEssay />
+      )}
+
+      {activeArticle === "nobeldemonstrationvscriticalguidance" && (
+        <NobelDemonstrationVsCriticalGuidanceEssay />
+      )}
+
+      {activeArticle === "corruptedsystemsandemperorchild" && (
+        <CorruptedSystemsAndTheEmperorsChildEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
