@@ -67,9 +67,14 @@ import GloryOfEscapingTheBoxEssay from "./GloryOfEscapingTheBoxEssay";
 import WhenNobelRewardsCargoCultEssay from "./WhenNobelRewardsCargoCultEssay";
 import NobelDemonstrationVsCriticalGuidanceEssay from "./NobelDemonstrationVsCriticalGuidanceEssay";
 import CorruptedSystemsAndTheEmperorsChildEssay from "./CorruptedSystemsAndTheEmperorsChildEssay";
+import FallacyOfCollectiveSupremacyEssay from "./FallacyOfCollectiveSupremacyEssay";
+import GlobalAcademicDegenerationEssay from "./GlobalAcademicDegenerationEssay";
+import LonelinessOfDissentEssay from "./LonelinessOfDissentEssay";
+import InstitutionalEvasionEssay from "./InstitutionalEvasionEssay";
+import ZebraAllegoryScienceEssay from "./ZebraAllegoryScienceEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -197,6 +202,11 @@ export default function IntegratedArticle() {
             activeArticle === "whennobelrewardscargocult" ? "whennobelrewardscargocult-article-text" :
             activeArticle === "nobeldemonstrationvscriticalguidance" ? "nobeldemonstrationvscriticalguidance-article-text" :
             activeArticle === "corruptedsystemsandemperorchild" ? "corruptedsystemsandemperorchild-article-text" :
+            activeArticle === "fallacyofcollectivesupremacy" ? "fallacyofcollectivesupremacy-article-text" :
+            activeArticle === "globalacademicdegeneration" ? "globalacademicdegeneration-article-text" :
+            activeArticle === "lonelinessofdissent" ? "lonelinessofdissent-article-text" :
+            activeArticle === "institutionalevasion" ? "institutionalevasion-article-text" :
+            activeArticle === "zebraallegoryscience" ? "zebraallegoryscience-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1400,6 +1410,66 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay CT: Corrupted Systems, Reform Traps & The Child's Innovation
+          </button>
+          <button
+            onClick={() => setActiveArticle("fallacyofcollectivesupremacy")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "fallacyofcollectivesupremacy"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-fallacyofcollectivesupremacy"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CU: Fallacy of Collective Supremacy & The Solitary Mind
+          </button>
+          <button
+            onClick={() => setActiveArticle("globalacademicdegeneration")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "globalacademicdegeneration"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-globalacademicdegeneration"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CV: Global Academic Degeneration & The Certification Fallacy
+          </button>
+          <button
+            onClick={() => setActiveArticle("lonelinessofdissent")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "lonelinessofdissent"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-lonelinessofdissent"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CW: The Loneliness of Scientific Dissent & Pure Intentions
+          </button>
+          <button
+            onClick={() => setActiveArticle("institutionalevasion")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "institutionalevasion"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-institutionalevasion"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CX: Institutional Evasion & Procedural Whitewashing
+          </button>
+          <button
+            onClick={() => setActiveArticle("zebraallegoryscience")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "zebraallegoryscience"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-zebraallegoryscience"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CY: The Silent Zebra Allegory & The Collapse of Courage
           </button>
         </div>
       </div>
@@ -7762,6 +7832,26 @@ export default function IntegratedArticle() {
 
       {activeArticle === "corruptedsystemsandemperorchild" && (
         <CorruptedSystemsAndTheEmperorsChildEssay />
+      )}
+
+      {activeArticle === "fallacyofcollectivesupremacy" && (
+        <FallacyOfCollectiveSupremacyEssay />
+      )}
+
+      {activeArticle === "globalacademicdegeneration" && (
+        <GlobalAcademicDegenerationEssay />
+      )}
+
+      {activeArticle === "lonelinessofdissent" && (
+        <LonelinessOfDissentEssay />
+      )}
+
+      {activeArticle === "institutionalevasion" && (
+        <InstitutionalEvasionEssay />
+      )}
+
+      {activeArticle === "zebraallegoryscience" && (
+        <ZebraAllegoryScienceEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
