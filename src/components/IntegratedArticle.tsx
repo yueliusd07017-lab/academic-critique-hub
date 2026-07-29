@@ -72,9 +72,19 @@ import GlobalAcademicDegenerationEssay from "./GlobalAcademicDegenerationEssay";
 import LonelinessOfDissentEssay from "./LonelinessOfDissentEssay";
 import InstitutionalEvasionEssay from "./InstitutionalEvasionEssay";
 import ZebraAllegoryScienceEssay from "./ZebraAllegoryScienceEssay";
+import ExpertIncompetenceAccountabilityEssay from "./ExpertIncompetenceAccountabilityEssay";
+import TimidCriticismErrorDetectorsEssay from "./TimidCriticismErrorDetectorsEssay";
+import ElementaryLogicScandalEssay from "./ElementaryLogicScandalEssay";
+import DiversityAndFieldsMedalEssay from "./DiversityAndFieldsMedalEssay";
+import ScientificSoilAndFieldsMedalEssay from "./ScientificSoilAndFieldsMedalEssay";
+import NetworksAuthorityScandalEssay from "./NetworksAuthorityScandalEssay";
+import CargoCultCorruptEcosystemEssay from "./CargoCultCorruptEcosystemEssay";
+import AccountabilityAndNamingNamesEssay from "./AccountabilityAndNamingNamesEssay";
+import WhenOpenToCriticismBecomesAShieldEssay from "./WhenOpenToCriticismBecomesAShieldEssay";
+import FieldsMedalCargoCultAndAIEvasionEssay from "./FieldsMedalCargoCultAndAIEvasionEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -207,6 +217,16 @@ export default function IntegratedArticle() {
             activeArticle === "lonelinessofdissent" ? "lonelinessofdissent-article-text" :
             activeArticle === "institutionalevasion" ? "institutionalevasion-article-text" :
             activeArticle === "zebraallegoryscience" ? "zebraallegoryscience-article-text" :
+            activeArticle === "expertincompetenceaccountability" ? "expertincompetenceaccountability-article-text" :
+            activeArticle === "timidcriticismerrordetectors" ? "timidcriticismerrordetectors-article-text" :
+            activeArticle === "elementarylogicscandal" ? "elementarylogicscandal-article-text" :
+            activeArticle === "diversityfieldsmedal" ? "diversityfieldsmedal-article-text" :
+            activeArticle === "scientificsoilfieldsmedal" ? "scientificsoilfieldsmedal-article-text" :
+            activeArticle === "networksauthorityscandal" ? "networksauthorityscandal-article-text" :
+            activeArticle === "cargocultcorruptecosystem" ? "cargocultcorruptecosystem-article-text" :
+            activeArticle === "accountabilityandnamingnames" ? "accountabilityandnamingnames-article-text" :
+            activeArticle === "whenopentocriticismbecomesashield" ? "whenopentocriticismbecomesashield-article-text" :
+            activeArticle === "fieldsmedalcargocultandaievasion" ? "fieldsmedalcargocultandaievasion-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1470,6 +1490,126 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay CY: The Silent Zebra Allegory & The Collapse of Courage
+          </button>
+          <button
+            onClick={() => setActiveArticle("expertincompetenceaccountability")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "expertincompetenceaccountability"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-expertincompetenceaccountability"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay CZ: Unmasking Expert Incompetence & Personal Accountability
+          </button>
+          <button
+            onClick={() => setActiveArticle("timidcriticismerrordetectors")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "timidcriticismerrordetectors"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-timidcriticismerrordetectors"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DA: Timid Criticism & A Toast to Scientific Error Detectors
+          </button>
+          <button
+            onClick={() => setActiveArticle("elementarylogicscandal")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "elementarylogicscandal"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-elementarylogicscandal"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DB: Elementary Logic & The Scandal of Editorial Endorsement
+          </button>
+          <button
+            onClick={() => setActiveArticle("diversityfieldsmedal")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "diversityfieldsmedal"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-diversityfieldsmedal"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DC: Scientific Diversity & What Fields Medals Reveal
+          </button>
+          <button
+            onClick={() => setActiveArticle("scientificsoilfieldsmedal")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "scientificsoilfieldsmedal"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-scientificsoilfieldsmedal"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DD: Scientific Soil & Cultivating Independent Innovation
+          </button>
+          <button
+            onClick={() => setActiveArticle("networksauthorityscandal")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "networksauthorityscandal"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-networksauthorityscandal"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DE: Networks, Authority & Retraction Scandals
+          </button>
+          <button
+            onClick={() => setActiveArticle("cargocultcorruptecosystem")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "cargocultcorruptecosystem"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-cargocultcorruptecosystem"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DF: Academic Complicity, "Don't Blow Out Lamps" & Cargo Cult Science
+          </button>
+          <button
+            onClick={() => setActiveArticle("accountabilityandnamingnames")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "accountabilityandnamingnames"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-accountabilityandnamingnames"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DG: If No One Can Be Named, How Can Anyone Be Held Accountable?
+          </button>
+          <button
+            onClick={() => setActiveArticle("whenopentocriticismbecomesashield")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "whenopentocriticismbecomesashield"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-whenopentocriticismbecomesashield"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DH: When "Open to Criticism" Becomes an Institutional Shield
+          </button>
+          <button
+            onClick={() => setActiveArticle("fieldsmedalcargocultandaievasion")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "fieldsmedalcargocultandaievasion"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-fieldsmedalcargocultandaievasion"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DI: Why the Fields Medal Went Viral in an Era of 95% SCI Garbage
           </button>
         </div>
       </div>
@@ -7852,6 +7992,46 @@ export default function IntegratedArticle() {
 
       {activeArticle === "zebraallegoryscience" && (
         <ZebraAllegoryScienceEssay />
+      )}
+
+      {activeArticle === "expertincompetenceaccountability" && (
+        <ExpertIncompetenceAccountabilityEssay />
+      )}
+
+      {activeArticle === "timidcriticismerrordetectors" && (
+        <TimidCriticismErrorDetectorsEssay />
+      )}
+
+      {activeArticle === "elementarylogicscandal" && (
+        <ElementaryLogicScandalEssay />
+      )}
+
+      {activeArticle === "diversityfieldsmedal" && (
+        <DiversityAndFieldsMedalEssay />
+      )}
+
+      {activeArticle === "scientificsoilfieldsmedal" && (
+        <ScientificSoilAndFieldsMedalEssay />
+      )}
+
+      {activeArticle === "networksauthorityscandal" && (
+        <NetworksAuthorityScandalEssay />
+      )}
+
+      {activeArticle === "cargocultcorruptecosystem" && (
+        <CargoCultCorruptEcosystemEssay />
+      )}
+
+      {activeArticle === "accountabilityandnamingnames" && (
+        <AccountabilityAndNamingNamesEssay />
+      )}
+
+      {activeArticle === "whenopentocriticismbecomesashield" && (
+        <WhenOpenToCriticismBecomesAShieldEssay />
+      )}
+
+      {activeArticle === "fieldsmedalcargocultandaievasion" && (
+        <FieldsMedalCargoCultAndAIEvasionEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
