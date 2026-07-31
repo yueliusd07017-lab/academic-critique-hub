@@ -82,9 +82,21 @@ import CargoCultCorruptEcosystemEssay from "./CargoCultCorruptEcosystemEssay";
 import AccountabilityAndNamingNamesEssay from "./AccountabilityAndNamingNamesEssay";
 import WhenOpenToCriticismBecomesAShieldEssay from "./WhenOpenToCriticismBecomesAShieldEssay";
 import FieldsMedalCargoCultAndAIEvasionEssay from "./FieldsMedalCargoCultAndAIEvasionEssay";
+import NeutralFramingIdeologicalControlEssay from "./NeutralFramingIdeologicalControlEssay";
+import MainstreamSophistryEssay from "./MainstreamSophistryEssay";
+import NeverOutsourceJudgmentEssay from "./NeverOutsourceJudgmentEssay";
+import LogicOverObedienceEssay from "./LogicOverObedienceEssay";
+import ExceptionsBecomePatternEssay from "./ExceptionsBecomePatternEssay";
+import UncomfortableTruthMisconductEssay from "./UncomfortableTruthMisconductEssay";
+import DiverseEvidenceAndPluralismEssay from "./DiverseEvidenceAndPluralismEssay";
+import WaitingForApprovalEssay from "./WaitingForApprovalEssay";
+import DigitalSovereigntyEssay from "./DigitalSovereigntyEssay";
+import EqualWeightIsNotJusticeEssay from "./EqualWeightIsNotJusticeEssay";
+import WolfSheepLogicalTrapEssay from "./WolfSheepLogicalTrapEssay";
+import NurtureVsSelectionEssay from "./NurtureVsSelectionEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -227,6 +239,18 @@ export default function IntegratedArticle() {
             activeArticle === "accountabilityandnamingnames" ? "accountabilityandnamingnames-article-text" :
             activeArticle === "whenopentocriticismbecomesashield" ? "whenopentocriticismbecomesashield-article-text" :
             activeArticle === "fieldsmedalcargocultandaievasion" ? "fieldsmedalcargocultandaievasion-article-text" :
+            activeArticle === "neutralframingideologicalcontrol" ? "neutralframingideologicalcontrol-article-text" :
+            activeArticle === "mainstreamsophistry" ? "mainstreamsophistry-article-text" :
+            activeArticle === "neveroutsourcejudgment" ? "neveroutsourcejudgment-article-text" :
+            activeArticle === "logicoverobedience" ? "logicoverobedience-article-text" :
+            activeArticle === "exceptionsbecomepattern" ? "exceptionsbecomepattern-article-text" :
+            activeArticle === "uncomfortabletruthmisconduct" ? "uncomfortabletruthmisconduct-article-text" :
+            activeArticle === "diverseevidenceandpluralism" ? "diverseevidenceandpluralism-article-text" :
+            activeArticle === "waitingforapproval" ? "waitingforapproval-article-text" :
+            activeArticle === "digitalsovereignty" ? "digitalsovereignty-article-text" :
+            activeArticle === "equalweightisnotjustice" ? "equalweightisnotjustice-article-text" :
+            activeArticle === "wolfsheeplogicaltrap" ? "wolfsheeplogicaltrap-article-text" :
+            activeArticle === "nurturevsselection" ? "nurturevsselection-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -1610,6 +1634,150 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay DI: Why the Fields Medal Went Viral in an Era of 95% SCI Garbage
+          </button>
+          <button
+            onClick={() => setActiveArticle("neutralframingideologicalcontrol")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "neutralframingideologicalcontrol"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-neutralframingideologicalcontrol"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DJ: When "Neutral Framing" Becomes Ideological Control
+          </button>
+          <button
+            onClick={() => setActiveArticle("mainstreamsophistry")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "mainstreamsophistry"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-mainstreamsophistry"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DK: What My Dialogue with ChatGPT Reveals About Mainstream Sophistry
+          </button>
+          <button
+            onClick={() => setActiveArticle("neveroutsourcejudgment")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "neveroutsourcejudgment"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-neveroutsourcejudgment"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DL: Never Outsource Your Judgment to Authority
+          </button>
+          <button
+            onClick={() => setActiveArticle("logicoverobedience")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "logicoverobedience"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-logicoverobedience"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DM: Logic Matters More Than Obedience
+          </button>
+          <button
+            onClick={() => setActiveArticle("exceptionsbecomepattern")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "exceptionsbecomepattern"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-exceptionsbecomepattern"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DN: When Too Many Exceptions Become a Pattern
+          </button>
+          <button
+            onClick={() => setActiveArticle("uncomfortabletruthmisconduct")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "uncomfortabletruthmisconduct"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-uncomfortabletruthmisconduct"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DO: Why Exposing Misconduct Makes Everyone Uncomfortable
+          </button>
+          <button
+            onClick={() => setActiveArticle("diverseevidenceandpluralism")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "diverseevidenceandpluralism"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-diverseevidenceandpluralism"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DP: No Single Ideology Holds All the Answers
+          </button>
+          <button
+            onClick={() => setActiveArticle("waitingforapproval")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "waitingforapproval"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-waitingforapproval"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DQ: Waiting for Approval from Above & Embracing AI
+          </button>
+          <button
+            onClick={() => setActiveArticle("digitalsovereignty")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "digitalsovereignty"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-digitalsovereignty"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DR: Digital Sovereignty & Uncensored Intellectual Record
+          </button>
+          <button
+            onClick={() => setActiveArticle("equalweightisnotjustice")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "equalweightisnotjustice"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-equalweightisnotjustice"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DS: Equal Weight Is Not Equal Justice — Minority Signal vs. Noise
+          </button>
+          <button
+            onClick={() => setActiveArticle("wolfsheeplogicaltrap")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "wolfsheeplogicaltrap"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-wolfsheeplogicaltrap"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DT: Standing with Authority as a Logical Trap — Wolf-Sheep Fallacy
+          </button>
+          <button
+            onClick={() => setActiveArticle("nurturevsselection")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "nurturevsselection"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-nurturevsselection"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay DU: Nurturing Genius vs. Institutional Screening — Lesson for AI
           </button>
         </div>
       </div>
@@ -8032,6 +8200,54 @@ export default function IntegratedArticle() {
 
       {activeArticle === "fieldsmedalcargocultandaievasion" && (
         <FieldsMedalCargoCultAndAIEvasionEssay />
+      )}
+
+      {activeArticle === "neutralframingideologicalcontrol" && (
+        <NeutralFramingIdeologicalControlEssay />
+      )}
+
+      {activeArticle === "mainstreamsophistry" && (
+        <MainstreamSophistryEssay />
+      )}
+
+      {activeArticle === "neveroutsourcejudgment" && (
+        <NeverOutsourceJudgmentEssay />
+      )}
+
+      {activeArticle === "logicoverobedience" && (
+        <LogicOverObedienceEssay />
+      )}
+
+      {activeArticle === "exceptionsbecomepattern" && (
+        <ExceptionsBecomePatternEssay />
+      )}
+
+      {activeArticle === "uncomfortabletruthmisconduct" && (
+        <UncomfortableTruthMisconductEssay />
+      )}
+
+      {activeArticle === "diverseevidenceandpluralism" && (
+        <DiverseEvidenceAndPluralismEssay />
+      )}
+
+      {activeArticle === "waitingforapproval" && (
+        <WaitingForApprovalEssay />
+      )}
+
+      {activeArticle === "digitalsovereignty" && (
+        <DigitalSovereigntyEssay />
+      )}
+
+      {activeArticle === "equalweightisnotjustice" && (
+        <EqualWeightIsNotJusticeEssay />
+      )}
+
+      {activeArticle === "wolfsheeplogicaltrap" && (
+        <WolfSheepLogicalTrapEssay />
+      )}
+
+      {activeArticle === "nurturevsselection" && (
+        <NurtureVsSelectionEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
