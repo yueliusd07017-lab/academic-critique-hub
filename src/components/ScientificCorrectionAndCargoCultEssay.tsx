@@ -28,7 +28,7 @@ export default function ScientificCorrectionAndCargoCultEssay() {
       <div className="max-w-3xl mx-auto my-6 bg-slate-900 text-slate-100 p-5 rounded-xl space-y-4 shadow-inner border border-slate-800 font-mono text-xs md:text-sm">
         <div className="flex items-center gap-2 text-rose-400 border-b border-slate-800 pb-2">
           <BarChart2 className="w-4 h-4 text-rose-400 shrink-0" />
-          <span className="font-bold uppercase tracking-wider">Independent Empirical Confirmation across Fields</span>
+          <span className="font-bold uppercase tracking-wider">Independent Empirical Confirmation & High-Level Criticisms</span>
         </div>
         <div className="bg-slate-950 p-4 rounded border border-slate-800 space-y-3 text-slate-300 font-serif text-xs leading-relaxed">
           <div className="text-amber-300 font-sans font-semibold text-xs border-b border-slate-800 pb-1.5">
@@ -37,14 +37,30 @@ export default function ScientificCorrectionAndCargoCultEssay() {
           <p className="italic font-mono text-[11px] leading-normal text-slate-300">
             "At least 95% of the papers on Time Series Anomaly Detection are deeply flawed and at best unreliable... When these issues are pointed out, most of the community offers no counterarguments, but just ignores the problem (the head-in-the-sand response)."
           </p>
+
           <div className="text-amber-300 font-sans font-semibold text-xs border-b border-slate-800 pb-1.5 pt-2">
             2. Nobel Laureate Honjo Tasuku (Cell, Nature, Science):
           </div>
           <p className="italic font-mono text-[11px] leading-normal text-slate-300">
             "90% of the views published in top magazines like Cell, Nature, and Science are wrong... Young researchers should not blindly follow superstition."
           </p>
+
+          <div className="text-amber-300 font-sans font-semibold text-xs border-b border-slate-800 pb-1.5 pt-2">
+            3. Historian Li Bozhong (李伯重) & 2008 Two Sessions (两会):
+          </div>
+          <p className="italic font-mono text-[11px] leading-normal text-slate-300">
+            "Regardless of the form academic garbage takes, it is harmful, and it is a public hazard (无论何种‘学术垃圾’，都是有害的，而且都是公害)." In the 2008 CPPCC/NPC sessions, educational delegates lamented: "Currently 95% of scientific research papers are garbage (现在95%的科研论文是垃圾)."
+          </p>
+
+          <div className="text-amber-300 font-sans font-semibold text-xs border-b border-slate-800 pb-1.5 pt-2">
+            4. Elon Musk on Global Academic Publishing:
+          </div>
+          <p className="italic font-mono text-[11px] leading-normal text-slate-300">
+            "99% of academic papers are useless and have no real value—they exist merely for chasing personal fame and institutional metrics."
+          </p>
+
           <div className="text-rose-300 font-sans font-semibold text-xs border-b border-slate-800 pb-1.5 pt-2">
-            3. Peer Review Propagating Elementary Errors (Aly, J. Mater. Sci. 2022):
+            5. Peer Review Propagating Elementary Errors (Aly, J. Mater. Sci. 2022):
           </div>
           <p className="italic font-mono text-[11px] leading-normal text-slate-300">
             "A textbook-level error regarding electrical and optical conductivity relationships was repeatedly published and propagated across peer-reviewed SCI journals over 91 distinct paper instances."
@@ -171,10 +187,95 @@ export default function ScientificCorrectionAndCargoCultEssay() {
         </div>
       </div>
 
-      {/* Section 6: Conclusion */}
+      {/* Section 6: The Logical Equivalence Thesis & The Root Crux of Cargo Cult Science */}
+      <div className="space-y-4 text-left">
+        <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
+          <span className="text-rose-600 font-mono">VI.</span> The Root Crux of Cargo Cult Science: Consensus Tyranny & The Suppression of Error Correction
+          <span className="text-xs font-sans text-gray-400 font-normal ml-auto">现代科学界做 Cargo Cult Science 的根本症结：主流共识霸权与纠错机制的剥夺</span>
+        </h3>
+        <p>
+          The fundamental crux of modern academic Cargo Cult science lies in a dangerous fallacy: <strong>equating mainstream consensus with scientific truth and integrity</strong>. Here, mainstream gatekeepers invoke "integrity" not merely as moral honesty, but in its literal sense—<em>"the state of being whole and undivided"</em>. Under this autocracy, publishing any view that disrupts the unified, unbroken consensus is treated as a breach of scientific "integrity."
+        </p>
+        <p>
+          To maintain this monolithic wholeness, peer review has been transformed from an open forum of logical scrutiny into a dogmatic censorship cartel. Journal Impact Factors (JIF) and journal tiers replace independent cognitive evaluation. Evaluators no longer use their own brains to verify arguments line by line; they delegate judgment to metric proxy labels. Because SCI publication is presumed to guarantee correctness, self-correction is rendered redundant or forbidden.
+        </p>
+        <p>
+          As established in Dr. Yue Liu's Popperian epistemological framework, genuine science operates on diametrically opposed principles:
+        </p>
+        <ul className="list-disc pl-5 space-y-2 text-slate-800 font-serif text-xs md:text-sm">
+          <li>
+            <strong>Problem Formulation as the Engine:</strong> Science progresses primarily by asking the right questions and formulating fundamental problems, not by conducting routine experimental validation.
+          </li>
+          <li>
+            <strong>The Essential Necessity of Error:</strong> Publishing incorrect or non-consensus ideas is not catastrophic; what is truly catastrophic is prohibiting error correction and losing the institutional capacity to self-correct.
+          </li>
+        </ul>
+
+        <div className="p-4 bg-rose-50 border border-rose-200 rounded-xl space-y-3 font-serif text-xs md:text-sm text-rose-950 my-3">
+          <p className="font-sans font-semibold text-xs text-rose-900 uppercase font-mono">SSRN Epistemological Treatises on Problem Formulation & Error Necessity:</p>
+          <ul className="list-disc pl-4 space-y-1.5 text-xs">
+            <li>
+              Liu, Yue, <em>Problem Formulation as the Primary Engine of Scientific Progress: A Popperian Expansion Inspired by Rafe Champion’s Commentary</em> (2025). SSRN: <a href="https://ssrn.com/abstract=5784682" target="_blank" rel="noreferrer" className="text-rose-800 underline">5784682</a>.
+            </li>
+            <li>
+              Liu, Yue, <em>The Primacy of Problem Formulation in Scientific Inquiry: Why Asking the Right Question Matters More Than Experimental Validation</em> (2025). SSRN: <a href="https://ssrn.com/abstract=5709303" target="_blank" rel="noreferrer" className="text-rose-800 underline">5709303</a>.
+            </li>
+            <li>
+              Liu, Yue, <em>The Necessity of Error: Why Mistakes Are the Essential Nutrients for Scientific Progress</em> (2025). SSRN: <a href="https://ssrn.com/abstract=5744422" target="_blank" rel="noreferrer" className="text-rose-800 underline">5744422</a>.
+            </li>
+            <li>
+              Liu, Yue, <em>The Inevitability and Necessity of Error in Scientific Publishing: Why Publishing Incorrect Articles Is Not Catastrophic</em> (2025). SSRN: <a href="https://ssrn.com/abstract=5491906" target="_blank" rel="noreferrer" className="text-rose-800 underline">5491906</a>.
+            </li>
+          </ul>
+        </div>
+
+        {/* Four Real-World Empirical & Case Studies */}
+        <div className="space-y-4 my-6">
+          <h4 className="text-lg font-bold text-slate-900 font-sans tracking-tight border-b border-slate-200 pb-1">
+            Concrete Evidence & Case Studies: How Consensus Gatekeeping Destroys Science
+          </h4>
+          
+          <div className="p-4 bg-slate-900 text-slate-100 rounded-xl space-y-3 font-mono text-xs md:text-sm border border-slate-800">
+            <div className="text-amber-400 font-bold uppercase text-xs flex items-center gap-2">
+              <Zap className="w-4 h-4 text-amber-400 shrink-0" />
+              Case 1: Microwave Absorption Impedance Matching vs. Wave Mechanics (Logical Truth vs. Sociological Recognition)
+            </div>
+            <p className="font-serif text-xs text-slate-300 leading-relaxed">
+              Impedance matching dominated the microwave absorption field for over half a century. Wave mechanics disproved it using elementary logic, middle school algebra, and undergraduate wave superposition—a refutation operating with the objective clarity of <em>1 + 1 = 2</em>. Whether a mathematical contradiction exists is a <strong>Logical Truth</strong>, independent of whether institutions acknowledge it. Mainstream failure to acknowledge the refutation is a <strong>Sociological Phenomenon</strong> exposing institutional inertia. Hiding behind pseudo-neutral claims that <em>"refutation remains unproven because consensus has not acknowledged it"</em> is itself an expression of Cargo Cult Science. In genuine science, if editors cannot logically refute wave mechanics, they have an absolute duty to publish it.
+            </p>
+          </div>
+
+          <div className="p-4 bg-slate-900 text-slate-100 rounded-xl space-y-3 font-mono text-xs md:text-sm border border-slate-800">
+            <div className="text-amber-400 font-bold uppercase text-xs flex items-center gap-2">
+              <Brain className="w-4 h-4 text-amber-400 shrink-0" />
+              Case 2: Quantum Mechanics Skeptics & The Epistemological Duty of Journals
+            </div>
+            <p className="font-serif text-xs text-slate-300 leading-relaxed">
+              Quantum mechanics is established on wave-particle duality as a fundamental axiom (a stance Dr. Yue Liu personally affirms). However, researchers who attempt to build alternative frameworks assuming "waves are strictly waves, particles are strictly particles" are summarily rejected as "cranks" (民科) without logical refutation. While individual scientists have full freedom to focus on their own preferred paradigms, <em>journals as public platforms of scientific debate have an obligation to publish any manuscript whose logical arguments they cannot refute</em>. If the mainstream scientific community as a collective cannot logically dismantle a dissenting submission, it demonstrates the profound theoretical poverty of contemporary academia (Liu, Yue, SSRN: <a href="https://ssrn.com/abstract=5463155" target="_blank" rel="noreferrer" className="text-rose-400 underline">5463155</a>).
+            </p>
+          </div>
+
+          <div className="p-4 bg-slate-900 text-slate-100 rounded-xl space-y-3 font-mono text-xs md:text-sm border border-slate-800">
+            <div className="text-amber-400 font-bold uppercase text-xs flex items-center gap-2">
+              <Award className="w-4 h-4 text-amber-400 shrink-0" />
+              Case 3 & 4: Plate Tectonics 1M RMB Bounty & Forgotten Chemical Truths
+            </div>
+            <p className="font-serif text-xs text-slate-300 leading-relaxed">
+              • <strong>Plate Tectonics Skepticism:</strong> A researcher offered a self-funded 1,000,000 RMB reward to anyone who could refute his counter-arguments against plate tectonics. Regardless of whether plate tectonics is ultimately correct (a domain outside our personal specialization), censoring such work simply because it violates consensus violates the true purpose of journals. Journals are debate platforms, not tribunals.<br />
+              • <strong>Forgotten Correct Derivations:</strong> As demonstrated by Liu Ying, Liu Yue, & Drew Michael G. B. in <em>Int. J. Thermophys.</em> (2022, 43, 73), correct mathematical derivations of the Gibbs-Duhem equation were historically forgotten, allowing erroneous mainstream interpretations to dominate until restored by rigorous first-principles analysis.
+            </p>
+          </div>
+        </div>
+
+        <p>
+          When an entire field publishes thousands of papers per year using disproven formulas while ignoring basic logic, the papers are not merely "imperfect"—they are manufactured noise. If 95% of published papers serve only to pad CVs, fulfill graduation metrics, and satisfy grant quotas without advancing physical truth, then the ritual of publishing itself becomes a <strong>Cargo Cult exercise</strong>.
+        </p>
+      </div>
+
+      {/* Section 7: Conclusion */}
       <div className="space-y-4 text-left pt-4 border-t border-gray-200">
         <h3 className="text-xl font-bold text-gray-955 font-sans tracking-tight flex items-center gap-2 text-rose-955 border-b border-gray-100 pb-1.5">
-          <span className="text-rose-600 font-mono">VI.</span> Conclusion: Let Evidence Accumulate, Break the Cargo Cult Spell
+          <span className="text-rose-600 font-mono">VII.</span> Conclusion: Let Evidence Accumulate, Break the Cargo Cult Spell
           <span className="text-xs font-sans text-gray-400 font-normal ml-auto">结论：让证据自由积累，彻底打破卡尔哥特科学的藩篱</span>
         </h3>
         <p>
