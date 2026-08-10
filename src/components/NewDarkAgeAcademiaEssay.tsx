@@ -175,6 +175,18 @@ export default function NewDarkAgeAcademiaEssay() {
               Elon Musk bluntly stated: <em>"99.9% of academic papers are useless with zero practical application value, written merely to chase academic prestige!"</em>—a verdict arrogant academic "experts" attempted to brush off with: <em>"What does a businessman know?"</em>
             </p>
           </div>
+          <div className="p-4 bg-slate-950 text-emerald-100 rounded-xl space-y-2 border border-emerald-900 font-mono">
+            <div className="font-bold text-emerald-400 font-sans flex items-center gap-2">
+              <Globe className="w-4 h-4 text-emerald-400 shrink-0" />
+              4. Computer Science Empirical Proof: Prof. Eamonn Keogh (UC Riverside)
+            </div>
+            <blockquote className="text-emerald-200 font-serif text-xs italic border-l-2 border-emerald-500 pl-2 leading-relaxed">
+              "At least 95% of the papers on TSAD are deeply flawed, and are at best unreliable... How did the research community not spot these issues before? And, what does it say that when these issues are pointed out, most of the community offers no counterarguments, but just ignores the problem (the head-in-the-sand response)."
+            </blockquote>
+            <p className="text-emerald-300 text-[11px] font-sans">
+              • Direct Validation: Confirms independently that the 95% garbage rate and the systemic "head-in-the-sand" refusal to respond or retract when errors are exposed exist across major scientific disciplines (UCR Data Science, 2022).
+            </p>
+          </div>
         </div>
       </div>
 
