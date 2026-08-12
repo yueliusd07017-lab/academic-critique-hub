@@ -62,6 +62,12 @@ export default function PaperMillsLegitimateCommercialTransactionsEssay() {
           <li>
             • <strong>Liu, Y. (2025).</strong> <em>Scientific Accountability: The Case for Personal Responsibility in Academic Error Correction.</em> Qeios, DOI: <a href="https://doi.org/10.32388/M4GGKZ" target="_blank" rel="noreferrer" className="text-amber-300 underline font-mono">10.32388/M4GGKZ</a>.
           </li>
+          <li>
+            • <strong>Liu, Y. (2025).</strong> <em>The Academic AI Backlash: Innovation vs. Integrity in the Age of Artificial Intelligence.</em> Preprints.org, DOI: <a href="https://doi.org/10.20944/preprints202509.0107.v1" target="_blank" rel="noreferrer" className="text-amber-300 underline font-mono">10.20944/preprints202509.0107.v1</a>.
+          </li>
+          <li>
+            • <strong>Liu, Y. (2025).</strong> <em>Comment on Springer’s New Screening Tool for AI Tortured Phrases.</em> Substack / viXra: <a href="https://vixra.org/abs/2509.0018" target="_blank" rel="noreferrer" className="text-amber-300 underline font-mono">2509.0018</a> (Req: 17406410).
+          </li>
         </ul>
       </div>
 
@@ -272,6 +278,43 @@ export default function PaperMillsLegitimateCommercialTransactionsEssay() {
           </div>
           <div className="p-3 bg-slate-900/90 rounded-lg border border-slate-800 text-xs text-slate-200 font-serif leading-relaxed">
             <strong>Why Do Journals Shield Garbage & False Conclusions?</strong> Retracting a paper for false logic or disproven conclusions forces the journal to admit that its peer reviewers and editors were mathematically and domain-incompetent. Furthermore, false conclusions are often authored by entrenched academic authorities. By enforcing retractions <em>only</em> for "image misuse" or "paper mill origin," commercial journals protect their editorial authority while leaving thousands of logically erroneous, false-conclusion garbage papers permanently unretracted in the scientific record.
+          </div>
+        </div>
+
+        {/* Highlight Box: Cargo Cult Science in AI Backlash — Instant Rejection & Retraction for AI Collaboration */}
+        <div className="p-5 bg-slate-950 text-slate-100 rounded-xl space-y-4 border border-rose-800 shadow-xl my-4 font-sans text-xs md:text-sm">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-2.5 text-rose-400 font-mono font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2">
+              <Bot className="w-5 h-5 text-rose-400 shrink-0" />
+              <span>Cargo Cult Science: The Anti-AI Rejection & Retraction Hysteria</span>
+            </div>
+            <span className="text-amber-400 text-xs font-mono">AI写作拒稿/撤稿的卡尔戈教狂热</span>
+          </div>
+          <p className="text-slate-300 font-serif text-xs leading-relaxed">
+            Another prominent manifestation of <em>Cargo Cult Science</em> in modern editorial practice is the <strong>automatic desk-rejection and retraction of AI-assisted manuscripts</strong> (Y. Liu, <em>The Academic AI Backlash</em>, Preprints.org 2025; <em>Comment on Springer’s Screening Tool</em>, viXra: 2509.0018):
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-mono text-xs">
+            <div className="p-3.5 bg-slate-900 rounded-lg border border-slate-800 space-y-2">
+              <div className="text-rose-400 font-bold flex items-center gap-1.5 border-b border-slate-800 pb-1 font-sans">
+                <AlertTriangle className="w-3.5 h-3.5 text-rose-400" />
+                Editorial Hysteria: Instant Rejection & Retraction
+              </div>
+              <p className="font-serif text-slate-300 text-xs leading-relaxed">
+                When a journal detects that a manuscript was drafted or edited with AI assistance (or contains AI detection signals / "tortured phrases"), it triggers instant desk-rejection. If already published, the paper faces public retraction and academic stigmatization.
+              </p>
+            </div>
+            <div className="p-3.5 bg-slate-900 rounded-lg border border-slate-800 space-y-2">
+              <div className="text-amber-400 font-bold flex items-center gap-1.5 border-b border-slate-800 pb-1 font-sans">
+                <CheckCircle2 className="w-3.5 h-3.5 text-amber-400" />
+                The Epistemological Requirement for Rejection
+              </div>
+              <p className="font-serif text-slate-300 text-xs leading-relaxed">
+                Rejecting or retracting a paper <em>solely</em> due to AI collaboration is pure Cargo Cult ritualism. Journals have the legal and scientific right to reject or retract a manuscript <strong>ONLY when they can prove that the paper is useless garbage or contains logical/theoretical errors leading to false conclusions</strong>.
+              </p>
+            </div>
+          </div>
+          <div className="p-3 bg-slate-900/90 rounded-lg border border-slate-800 text-xs text-slate-200 font-serif leading-relaxed">
+            <strong>AI as a Writing & Thinking Tool:</strong> Artificial intelligence is a productivity tool, akin to spell-checkers, calculators, or LaTeX formatters. Whether a manuscript was polished by a human editor or an AI language model has zero bearing on the objective physical truth of its mathematical derivations or experimental data. Purging manuscripts simply for AI traces—while ignoring disproven theories and false scientific conclusions—proves that publishers prioritize formalist ritual compliance over true scientific validity.
           </div>
         </div>
       </div>
