@@ -237,6 +237,43 @@ export default function PaperMillsLegitimateCommercialTransactionsEssay() {
             • The Jurisprudential Flaw: A journal cannot validly retract a paper <em>merely</em> because of its commercial origin. If a manuscript purchased from a paper mill happens to contain physically sound, mathematically correct derivations, its origin does not render its scientific content false. Retracting it without proving physical/data flaws is an arbitrary administrative exercise.
           </p>
         </div>
+
+        {/* Highlight Box: The Absurd Asymmetry of Retractions — Image Misuse vs. Garbage/Logical Errors */}
+        <div className="p-5 bg-slate-950 text-slate-100 rounded-xl space-y-4 border border-amber-500/40 shadow-xl my-4 font-sans text-xs md:text-sm">
+          <div className="flex items-center justify-between border-b border-slate-800 pb-2.5 text-amber-400 font-mono font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-2">
+              <Scale className="w-5 h-5 text-amber-400 shrink-0" />
+              <span>The Scandalous Retraction Asymmetry: Image Misuse vs. Garbage & Erroneous Conclusions</span>
+            </div>
+            <span className="text-rose-400 text-xs font-mono">撤稿双重标准</span>
+          </div>
+          <p className="text-slate-300 font-serif text-xs leading-relaxed">
+            A glaring indictment of modern academic publishing is the <strong>extreme asymmetry in retraction criteria</strong>:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-mono text-xs">
+            <div className="p-3.5 bg-slate-900 rounded-lg border border-slate-800 space-y-2">
+              <div className="text-rose-400 font-bold flex items-center gap-1.5 border-b border-slate-800 pb-1 font-sans">
+                <AlertTriangle className="w-3.5 h-3.5 text-rose-400" />
+                Routine Retractions: "Image Misuse" (图片误用)
+              </div>
+              <p className="font-serif text-slate-300 text-xs leading-relaxed">
+                Journals eagerly retract papers for image duplication, pixel manipulation, or minor panel misuse. Automated AI software flags these instantly, allowing editors to stage moral grandstanding with zero intellectual effort, even when the underlying mathematical logic or physics remains completely valid.
+              </p>
+            </div>
+            <div className="p-3.5 bg-slate-900 rounded-lg border border-slate-800 space-y-2">
+              <div className="text-amber-400 font-bold flex items-center gap-1.5 border-b border-slate-800 pb-1 font-sans">
+                <UserX className="w-3.5 h-3.5 text-amber-400" />
+                Zero Retraction Precedent: Garbage & False Conclusions (垃圾文章/逻辑错误)
+              </div>
+              <p className="font-serif text-slate-300 text-xs leading-relaxed">
+                There is <strong>virtually no precedent</strong> for a journal retracting a paper because its core logic is flawed, its conclusions are false, or its contents are 95% useless academic garbage. Yet false conclusions and logical fallacies are <strong>infinitely worse in nature</strong>—polluting scientific literature, wasting billions in funding, and misleading researchers for generations.
+              </p>
+            </div>
+          </div>
+          <div className="p-3 bg-slate-900/90 rounded-lg border border-slate-800 text-xs text-slate-200 font-serif leading-relaxed">
+            <strong>Why Do Journals Shield Garbage & False Conclusions?</strong> Retracting a paper for false logic or disproven conclusions forces the journal to admit that its peer reviewers and editors were mathematically and domain-incompetent. Furthermore, false conclusions are often authored by entrenched academic authorities. By enforcing retractions <em>only</em> for "image misuse" or "paper mill origin," commercial journals protect their editorial authority while leaving thousands of logically erroneous, false-conclusion garbage papers permanently unretracted in the scientific record.
+          </div>
+        </div>
       </div>
 
       {/* Section VI: Retraction Is Journal Punishment, Not Author Punishment */}
