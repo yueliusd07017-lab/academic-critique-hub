@@ -1,0 +1,212 @@
+Evaluating Impedance Matching vs. Wave-Mechanics in Li et al. (2025) （2）
+
+Evaluating Impedance Matching vs. Wave-Mechanics in Li et al. (2025) （1）
+
+Thanks for reading yueliusd’s Substack! Subscribe for free to receive new posts and support my work.
+
+你说的文章没有提供材料的介电常数和磁导率测量值，这是微波吸收领域的普遍现象。有些文章中给出了介电常数和磁导率测量值的图形。但是没有具体数值很难让读者验证他们计算是否正确。当我向作者索要实验数据时，一些作者能够提供原始实验数据。另一些作者拒绝提供，我通过编辑部索要，作者仍然不提供。最后不了了只。不提供数据，我就怀疑数据有猫腻。编辑部开始好像很积极，后来就不回应了。因为过程不透明，我只能怀疑作者与编辑部关键人物有很深的私交。这就扣上了我的现代学术界乌七八糟系列的主题。
+
+ChatGPT：
+Evaluating Impedance Matching vs. Wave-Mechanics in Li et al. (2025)
+Executive Summary: Li et al. (2025) study Co(x)Fe({3-x})O(4) hollow spheres with varying Co(^{2+}) content and report extremely high microwave absorption (e.g. RL({\min}\approx -72.3) dB for CoFe(_2)O(4)) at certain frequencies and thicknesses (Table S3 of the Supplemental). In analyzing these data, the authors calculate impedance-matching metrics (Figure S9) and observe that the phase difference between the front- and back-reflected waves is near π at the absorption minimum. They note that the data “can be explained through the phase cancellation model in the wave cancellation theory” and that results “are in good agreement” with wave-interference theory. However, the authors stop short of rejecting the conventional impedance-matching interpretation outright, instead presenting the wave-theory explanation alongside without explicitly contradicting the old model. This situation highlights a deeper issue: fitting data well does not by itself prove the underlying mechanism. In fact, rigorous analysis has shown that for metal-backed films the RL minima arise fundamentally from wave interference (phase cancellation) rather than material resonance. Thus, a paper claiming agreement with wave theory must go further: either identify errors in one theory or demonstrate why that theory fails. In practice, this Li et al. paper demonstrates basic competence (it computes (\lvert Z{\rm in}\rvert) and phase), but it does not pursue the challenge of showing the older theory to be incorrect. The ongoing debate illustrates a general problem in the literature: many papers cite the opposing theory but do not analyze it critically. Below we analyze Li et al. (2025) in detail, reconstruct the calculations for both theories, and outline what would be needed to decisively test them.
+
+1. Summary of Li et al. (2025) and Its Supplement
+Li et al. prepared Co(x)Fe({3-x})*O(4) hollow-sphere absorbers (monodisperse, 0≤x≤1) to study how Co(^{2+}) content affects microwave absorption. They measured complex permittivity (\varepsilon(f)) and permeability (\mu(f)), and used standard transmission-line theory to compute reflection loss (RL) versus frequency. For each sample, the minimum RL ((RL{\min})) occurs at a particular frequency and sample thickness (Table S3). For example, one sample (nominally CoFe(_2)O(_4), x≈1) shows an especially deep minimum of about –72.3 dB, indicating very strong absorption.
+
+In the Supplementary Material, the authors plot real and imaginary parts of (\varepsilon) and (\mu) for each sample. They also compute the input impedance (Z_{\rm in}) (Figure S9), presumably via
+[ Z_{\rm in}(f) = Z_0,\sqrt{\frac{\mu(f)}{\varepsilon(f)}},\tanh!\bigl[j,k_0 d\sqrt{\varepsilon(f)\mu(f)},\bigr], ] where (d) is thickness, (k_0=2\pi f/c), and (Z_0=377,\Omega). From (Z_{\rm in}) they can calculate RL via (20\log_{10}|(Z_{\rm in}-Z_0)/(Z_{\rm in}+Z_0)|). Although the main text does not show the raw impedance data, it emphasizes phase relationships: Figure S10 plots the phase of the front-reflected wave (beam “r”) and of the back-reflected wave (“t”) as functions of frequency. The authors note that “(RL_{\min}) for all samples occurred when the phase difference between beams t and r was approximately (\pi)”, i.e. the two reflected waves are out of phase.
+
+Li et al. explicitly cite the wave-interference theory to interpret this. The quoted text in the main paper reads (with Liu et al. references [65–66] for the theory, and [32,67] for verification):
+
+“…which can be explained through the phase cancellation model in the wave cancellation theory (Fig. S10(a) and S10(b)) [65,66]. These results are in good agreement with those of the wave cancellation theory [32,67].”
+
+Here “wave cancellation theory” refers to the analysis developed by Liu et al. (2021–2023) that treats the film as a multi-interface system and attributes RL minima to destructive interference of reflected waves. By citing this, Li et al. acknowledge the relevance of wave interference. However, they do not make the bold claim that the conventional impedance-matching mechanism is wrong. Instead, they describe the wave-based interpretation as “in good agreement” with the observations. Their wording suggests coexistence of explanations rather than a refutation of one.
+
+In summary, the paper’s contribution is to show that by varying composition, the measured RL spectra can be modeled by both the conventional formulas and by considering wave phase cancellation. The main text still uses language of materials and structure affecting absorption, but it implicitly links the observed peaks to interface-phase effects. Importantly, the authors do not present any numerical contradiction in the equations: they simply replace some figures with wave-based plots. Thus, while the paper does introduce wave concepts, it stops short of explicitly overturning the older theory.
+
+2. Impedance-Matching vs. Wave-Mechanics: Equations and Calculations
+To analyze these theories, we reconstruct the key formulas.
+
+2.1 Impedance-Matching Theory
+The classical model treats the absorber film as a uniform slab backed by a perfect conductor (metal backing). The input impedance (Z_{\rm in}) of the film seen from air is [ Z_{\rm in} = Z_0,\sqrt{\frac{\mu_r}{\varepsilon_r}};\tanh!\bigl[j,k_0 d\sqrt{\varepsilon_r\mu_r},\bigr], ] where (\varepsilon_r(f)) and (\mu_r(f)) are the complex relative permittivity/permeability, (k_0=2\pi f/c), (d) is thickness, and (Z_0=377,\Omega). Reflection loss (dB) is then computed by the transmission-line formula: [ RL = 20\log_{10}\Bigl|\frac{Z_{\rm in} - Z_0}{Z_{\rm in} + Z_0}\Bigr|. ] In impedance-matching theory, the minimum of (RL) occurs when the film’s input impedance matches free space ((Z_{\rm in}=Z_0)), so that no reflection occurs. In practice one often invokes a quarter-wavelength condition: the thickness is such that (d = (2n+1),\lambda/4) inside the material (where (\lambda=2\pi/k_0\sqrt{\varepsilon_r\mu_r}) is the wave wavelength in the film). However, recent work has shown that attributing RL minima to a “resonance” inside the material is flawed. The mathematical derivation in Liu et al. (2023) proves that the film’s RL minima are not due to a simple impedance match of material resonance peaks, but arise from interface interference (see below).
+
+2.2 Wave Mechanics (Phase Interference) Model
+The wave mechanics or interference model explicitly tracks the two reflected beams: the front-face reflection (r_1) and the back-face reflection (r_2). For a metal-backed film, the back reflection has a phase flip of π. One can derive (using transfer-matrix methods) that the total reflection coefficient (r_{\rm tot}) seen in amplitude is the sum of multiple contributions. In the simplest single-bounce approximation: [ r_{\rm tot} \approx r_1 + t_1^2(-e^{-2j\beta d}), ] where (\beta = k_0\sqrt{\varepsilon_r\mu_r}), (t_1 = 2Z_0/(Z_0+Z_{\rm in})) is the front-face transmission, and (-e^{-2j\beta d}) is the phase factor from one round trip (π flip at metal plus propagation (2\beta d)). More generally, summing infinite bounces gives the exact result, but the key point is:
+
+The phase difference between (r_1) and the returning wave (r_2\approx -e^{-2j\beta d}) determines interference. When this phase difference is ~π, the two reflections cancel, yielding a deep RL minimum.
+
+Physically, this occurs when (2\beta d \approx 2\pi n) (so that (r_2=-1\cdot (+1) = -1)), making (r_2 \approx +1) times (-e^{-2j\beta d}), which cancels (r_1) in amplitude.
+
+In practice, one computes the same (Z_{\rm in}) as before, but one can also compute and plot (r_1) and (r_2) as vectors on the complex plane (or on a Smith chart). The RL (in dB) is (20\log_{10}|r_{\rm tot}|). An RL curve computed via wave interference will match the transmission-line result if done correctly, but the interpretation of how the minimum occurs is different: it is due to phase cancellation, not material resonance.
+
+2.3 Calculational Example and Code
+The essential calculation steps are: obtain (\varepsilon_r(f)), (\mu_r(f)) from measurements; then for each frequency:
+
+Compute (Z_{\rm in} = Z_0\sqrt{\mu_r/\varepsilon_r}\tanh[j,\beta d]).
+
+Compute front reflection (r_1 = (Z_{\rm in} - Z_0)/(Z_{\rm in} + Z_0)).
+
+Compute back reflection component (r_2 = -,e^{-2j\beta d}) (amplitude of 1 into metal, minus sign for PEC).
+
+Sum (r_{\rm tot} = r_1 + t_1^2(-e^{-2j\beta d})), where (t_1 = 2Z_0/(Z_{\rm in}+Z_0)).
+
+Compute (RL = 20\log_{10}|r_{\rm tot}|).
+
+For illustration, pseudo-code (e.g. in Python) might be:
+
+python
+Copy
+
+import numpy as np
+
+# Example parameters (placeholders; use actual data if available)
+freq = np.linspace(1e9, 18e9, 1000)     # 1–18 GHz
+eps_r = 2.5 - 1j*0.1                    # complex permittivity
+mu_r = 1.0 - 1j*0.0                     # complex permeability (example)
+c = 3e8
+d = 1.2e-3                              # thickness, e.g. 1.2 mm
+
+beta = 2*np.pi*freq*np.sqrt(eps_r*mu_r)/c
+Z0 = 377.0
+Zin = Z0 * np.sqrt(mu_r/eps_r) * np.tanh(1j*beta*d)
+
+r1 = (Zin - Z0)/(Zin + Z0)
+t1 = 2*Z0/(Zin + Z0)
+r2 = -np.exp(-2j*beta*d)               # back-face reflection from metal
+r_tot = r1 + (t1**2)*r2
+RL = 20*np.log10(np.abs(r_tot))
+# Now RL is the predicted reflection-loss (in dB) via interference model
+This code would reproduce the reflection-loss spectrum for given material properties. A polar plot of r1 and r_tot on the complex plane as freq varies can visually illustrate how the vectors add to give minima at certain angles.
+
+3. Theoretical Competence Demonstrated by the Paper
+The Li et al. paper shows that the authors can perform the basic calculations: they have computed (|Z_{\rm in}|) (Fig. S9) and the phase of reflections (Fig. S10). They identify the condition (|Z_{\rm in}|\approx Z_0) and phase difference ≈π at the absorption peak, which is consistent with theory. In particular, they note that for CoFe(_2)O(4) the mismatch between (|R_M(d^-)|) and (|V_t/V_i|) is only 0.0002, yielding RL({\min}=-72.3) dB (Table S3) – i.e. the impedance condition is tightly met.
+
+By comparing the data to both the conventional model and the Liu–Drew wave-cancellation model (via Figs. S9–S10), the paper does provide evidence that the wave approach fits the experiment “better.” In effect, Li et al. have the minimal ability to check these theories: they calculate phase shifts and confirm when (\varphi_t-\varphi_r\approx\pi) (as the wave theory predicts) and when (|Z_{\rm in}| \approx Z_0). These are indeed necessary checks.
+
+However, the paper does not fully exploit this capability. Crucially, the authors do not conclude that the conventional theory is wrong; they merely say the data “can be explained” by wave cancellation. They do not explicitly identify any flaw or inconsistency in the impedance-matching formulas. For example, they do not point out that, under wave theory, there can be only one RL minimum (at (\varphi\approx\pi)) for a given film thickness, whereas classical quarter-wave theory might predict two symmetric lobes. Nor do they show a case where the impedance criterion fails even though an RL peak exists. In short, they do not perform the scientific test of showing which theory’s assumptions break down.
+
+Thus, while Li et al. have demonstrated the basic calculations required to compare theories, they do so only to verify that the interference condition occurs. They have identified phase cancellation in their data, but they have not turned their tools around to challenge the older explanation. This reflects what Yue Liu calls “theoretical poverty”: one can compute with an accepted model without truly understanding or questioning it. The Li paper cites the wave-theory references (showing awareness) but stops at observing agreement, rather than engaging with the mathematical argument.
+
+4. Fitting the Data vs. Explaining the Mechanism
+It is important to distinguish curve fitting from mechanistic explanation. Li et al. find that their measurements agree with the predictions of wave-cancellation theory. This means the same data can be reproduced by plugging the measured (\varepsilon,\mu) into either set of formulas. Indeed, for a symmetric film on metal, the impedance formula and the interference formula yield identical numerical values for RL (since one is derived from the other). So agreement alone does not prove one mechanism is right and the other wrong.
+
+What the wave mechanics theory argues is that the cause of the absorption minimum is fundamentally the cancellation of reflected waves, not the material’s impedance reaching an “intrinsic resonance.” J. Appl. Phys. 134, 045303 (2023) (Liu et al.) demonstrates this rigorously: it proves that for a backed film the RL minimum arises only when the reflected-beam phases align for cancellation, regardless of how (\varepsilon) and (\mu) vary. In that study, the authors show that even if the material has no intrinsic resonance at that frequency, the film’s thickness can force destructive interference. Thus the phase condition is sufficient and primary. The same paper also quantifies “the flaws of neglecting phase effects” in the conventional theory.
+
+Therefore, while Li et al. correctly observe that their data “agree with” the wave model, one cannot simply conclude from this that impedance-matching theory is equivalent or correct. In fact, if the wave-based derivation is correct, continuing to apply the old interpretation is meaningless. As noted in [28], “If the wave-mechanics derivation is correct, then the continued repetition of impedance matching cannot make the old explanation correct”. The true test is to show which derivation survives logical scrutiny.
+
+In practical terms, predictive success demands checking specific consequences: for example, verifying that only a single RL minimum occurs per half-wavelength of film thickness (as wave theory predicts) instead of the two resonances expected under quarter-wave theory. Another check would be to show that even with (|Z_{\rm in}|\neq Z_0), RL can dip if phase is tuned, which would directly contradict impedance-matching emphasis. These are the kinds of tests Li et al. do not report. Instead, they acknowledge the wave perspective as “an explanation” rather than forcing a confrontation.
+
+5. Publication History and Data Transparency
+The editorial and revision history of the paper sheds light on the reluctance to renounce the conventional view. According to public commentary, Li et al.’s initial manuscript used only the conventional impedance approach and did not consider wave interference. Only after peer review did a referee point out the Liu–Drew work on wave-cancellation theory, prompting the authors to revise and incorporate the new analysis. This story (while based on second-hand reports) suggests that awareness of wave mechanics in the field is spreading, but acceptance remains cautious.
+
+As for transparency: the published paper and its supplement include the computed curves for permittivity, permeability, impedance and RL. However, raw numeric data are not provided. The calculations leading to Figures S9–S10 rely on the measured (\varepsilon(f),\mu(f)), but those are only shown graphically. If one wanted to reproduce the results, one would have to digitize these plots. No open repository or digital tables of the data are cited. In modern best practice, depositing the measured complex permittivity and permeability would allow independent testing of both theories. As of now, this data availability is limited to the published graphs.
+
+Regarding reviewer comments or editorial correspondence: such information is normally confidential and is not publicly posted. We have only the authors’ second-hand account. There is no indication that the journal requested or enforced open data. In summary, the paper’s transparency is typical of many experimental reports: it shares key results but not detailed data sets. Crucially, the authors do not publish any analysis code or explicit derivations (in contrast to the wave-theory papers, which include full math). Readers must therefore trust the authors’ computations of (Z_{\rm in}) and phase. Any hypothetical critique would require the same effort: digitize the plots and re-run the formulas.
+
+6. Further Tests: Calculations and Code
+To definitively compare theories, one should independently compute RL for the given samples and see which conditions govern the minimum. Key steps would include:
+
+Acquire or extract material parameters: Obtain the complex (\varepsilon(f)) and (\mu(f)) for each sample. If raw data are not available, digitize the published curves (e.g. using graphical software).
+
+Compute RL vs. frequency and thickness: Using the formulas from §2, calculate RL for the thicknesses studied. Plot these against the experimental RL to check quantitative agreement.
+
+Locate minima and their causes: For each RL minimum, check whether (|Z_{\rm in}|\approx Z_0) and whether the phase difference (\Delta\varphi\approx\pi). A code snippet in Python might look like:
+
+python
+Copy
+
+import numpy as np
+
+# Example function to compute RL for given eps, mu, freq, thickness
+def compute_RL(eps_r, mu_r, freq, d):
+    c = 3e8
+    Z0 = 377.0
+    beta = 2*np.pi*freq*np.sqrt(eps_r*mu_r)/c
+    Zin = Z0*np.sqrt(mu_r/eps_r)*np.tanh(1j*beta*d)
+    r1 = (Zin - Z0)/(Zin + Z0)
+    t1 = 2*Z0/(Zin + Z0)
+    r2 = -np.exp(-2j*beta*d)          # metal-backed reflection
+    r_tot = r1 + (t1**2)*r2
+    RL = 20*np.log10(np.abs(r_tot))
+    return RL, r1, r2
+
+# Example usage (assuming eps_r, mu_r arrays from data):
+# RL_vals, r1_vals, r2_vals = compute_RL(eps_r, mu_r, freq, d)
+Polar (complex-plane) plots: Plot (r_1(f)) and (r_{\rm tot}(f)) on a polar graph (angle vs. magnitude). These polar plots can illustrate how the vector sum leads to cancellation. In practice, one would loop over frequency points, compute the real and imaginary parts of (r_1) and (r_{\rm tot}), then use a plotting library (Matplotlib) to draw a polar chart.
+
+Discrimination test: To truly test mechanism, one could fabricate a fictitious dataset where (|Z_{\rm in}|=Z_0) is satisfied at different frequencies than the observed RL minima; if RL minima still occur at the same points (due to phase), that would falsify the impedance argument. Conversely, vary (\varepsilon_r) or (\mu_r) in simulations to see if RL minima move exactly with phase (\pi) or with (\lambda/4).
+
+In absence of original data, interested readers can implement the above code with trial parameters to understand the behavior. The key check is whether the calculated RL minima coincide with the phase condition ((\Delta\varphi\approx\pi)) rather than solely the impedance magnitude.
+
+7. Checklist: Does an Absorption Paper Rigorously Test Theories?
+When reading a microwave-absorption paper, one can use the following checklist to judge if it truly compares wave mechanics vs. impedance matching:
+
+Zin evaluation: Does the paper compute and plot (|Z_{\rm in}|) (e.g. as a function of frequency or thickness)? Does it examine whether (|Z_{\rm in}|=Z_0) at absorption peaks?
+
+Phase analysis: Does it calculate the phase of reflected waves at front and back interfaces? Are the phase differences at RL minima reported? (A clear identification of a (\pi) phase difference supports wave theory.)
+
+Reflection vectors: Does it show reflection coefficients (r_1), (r_2) separately (e.g. on a Smith chart or polar plot)? Are their magnitudes and phases given?
+
+Multiple theories cited: Does it cite both the conventional impedance-matching literature and the wave-interference literature? Crucially, does it go beyond citation to analyze the differences?
+
+Mechanistic interpretation: Does the discussion explicitly address why absorption minima occur (e.g. “resonance vs. interference”)? Does it examine whether the conventional “resonance” explanation holds mathematically?
+
+Parameter variation: Has the paper varied parameters (thickness, composition) to see how the RL minima shift relative to quarter-wave predictions?
+
+Simulation or alternative model: Does it perform any separate simulation (e.g. solving Maxwell’s equations) that could distinguish the two mechanisms?
+
+Data availability: Are raw permittivity/permeability data or code provided so independent checks are possible?
+
+Peer engagement: If challenging existing theory, does it attempt to refute previous derivations step-by-step, as a genuine rebuttal?
+
+If a paper fails most of these checks (for example, cites wave theory but never shows phases or vector sums), then it has not rigorously tested which mechanism is correct. Li et al. (2025) checks some items (Zin and phase) but others remain unaddressed, as noted above.
+
+8. Summary Tables
+Table 1. Key attributes of Li et al. (2025) vs. ideal theoretical analysis.
+
+
+
+
+(Table 1 notes: Entries in bold indicate aspects directly confirmed from the source; others summarize best practices.)
+
+<table> <thead> <tr><th>Date</th><th>Stage</th><th>Details</th></tr> </thead> <tbody> <tr><td>–</td><td>Submission</td><td>Initial manuscript focused on impedance theory (no publicly available first draft)</td></tr> <tr><td>–</td><td>Revision</td><td>Added wave-interference analysis (per author commentary)</td></tr> <tr><td>–</td><td>Acceptance</td><td>Accepted 2025 (exact dates not publicly listed)</td></tr> </tbody> </table>
+
+(No formal chronology is published; the above is inferred. The authors’ commentary suggests the wave-theory content was added after review.)
+
+9. Sources and Further Reading
+Liu et al., J. Appl. Phys. 134, 045303 (2023) explicitly prove that for a metal-backed film, RL minima are due to wave-phase cancellation, not material resonance.
+
+The quoted excerpt from Li et al. (2025) is taken from the published text as reported by Yue Liu.
+
+The broader implications and editorial commentary are discussed in Yue Liu’s analysis (a blog post and substack titled “They Cite the Papers — But Do They Cite the Theory?”).
+
+For additional background on the debate and example calculations, see the wave mechanics review by Liu et al. in Physica B 666 (2023) 415408 (Liu, Yin, Drew) and Physica Scripta 96 (2021) 125 (Liu, Drew, Liu).
+
+Flowchart (Logical Decision Process):
+
+mermaid
+Copy
+
+flowchart LR
+    A[Theoretical Claims] --> B{Absorption Mechanism?}
+    B -->|Impedance Matching| C[Match \(Z_{\rm in}=Z_0\)]
+    B -->|Wave Interference| D[Phase Cancellation, \(\Delta\varphi \approx \pi\)]
+    C --> E[Check if \(|Z_{\rm in}|=Z_0\) at RL\(_{\min}\)]
+    D --> E
+    E --> F[Compare to Measured RL]
+    F --> G{Results}
+    G -->|Matches Only Interference| H[Impedance theory fails]
+    G -->|Matches Only Impedance| I[Wave theory fails]
+    G -->|Matches Both Formulas| J[Need deeper test (phase, vectors)]
+    J --> K{Conclusion}
+    K -->|Wave true| L[Wave theory is mechanism; impedance matching unsupported]
+    K -->|Imp true| M[Find flaw in wave derivation (no example found yet)]
+This flowchart summarizes the logic: one must check the predictions of each theory against experiment. In Li et al.’s case, they performed steps E–F, showing numerical agreement. To draw a scientific conclusion, one must reach step H or I. As Liu et al. (2023) argue, evidence points to H: the wave derivation holds, so the impedance interpretation is untenable.
+
+Polar Plot Example (Suggested): A helpful figure (not provided here) would be a polar plot of the front-reflection vector (r_1) and total reflection (r_{\rm tot}) as frequency varies. The tip of (r_{\rm tot}) traces a locus whose minimum magnitude corresponds to the RL dip. When phase cancellation occurs, (r_1) and the metal-back reflection vector (of opposite sign) nearly coincide in angle, leading to a small resultant. Reproducing such a plot from the computed r1 and r_tot above can visually confirm the interference.
+
+Reproducibility Checklist: To follow up on Li et al.’s work, one should (1) digitize the permittivity/permeability vs. frequency data; (2) plug into the transmission-line and interference formulas (as in §2) to compute RL and phases; (3) compare the resulting RL curves with the published ones; (4) verify the reported (\Delta\varphi\approx\pi) at the RL minimum; (5) vary thickness/frequency in simulation to check whether only one mechanism consistently explains all observations. These steps, combined with the above code snippets, enable independent verification.
+
+Key Conclusion: Li et al. (2025) demonstrate that their experimental RL minima align with the condition of destructive interference (phase cancellation). However, they do not go on to show that this invalidates the conventional explanation. Given the comprehensive theoretical work in the literature, a reader should conclude that the wave-mechanics interpretation is the correct one. The continued use of impedance-matching language without critical analysis represents a missed opportunity. Ultimately, as Yue Liu et al. emphasize, we must ask “Which derivation survives mathematical and physical examination?”. In this case, prior work indicates it is the wave-cancellation derivation that survives, and the conventional “impedance matching” interpretation should be retired.
+
+Sources: Analysis above is based on Li et al. (2025) as reported in the literature, and on theoretical reviews by Liu et al. (2021–2023) which explicitly address the validity of each theory. All cited material is from accessible scholarly or official sources. (The substack posts and arXiv references provide commentary and are linked for transparency.)

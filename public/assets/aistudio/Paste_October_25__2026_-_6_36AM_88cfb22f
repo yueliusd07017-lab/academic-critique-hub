@@ -1,0 +1,152 @@
+Evaluating Impedance Matching vs. Wave-Mechanics in Li et al. (2025) （3）
+
+写一篇英文文章，解读文章：
+
+Li, S.; Guo, S.; Chen, G.; Cui, Y.; Yang, H.; Qiu, J.; Wang, Z.; Dai, M.; Liu, S. Evolution of electron localization with Co2+ variations in Co Fe3−O4 hollow spheres for enhanced wave absorption. Journal of Alloys and Compounds 2025, 1026, 180381. DOI: 10.1016/j.jallcom.2025.180381.
+
+Thanks for reading yueliusd’s Substack! Subscribe for free to receive new posts and support my work.
+
+该文表明作者有能力比较核对微波吸收的阻抗匹配理论和波动力学理论，绝大多数SCI文章没有表明像作者这样的能力。
+
+文章的一个有价值的地方是：对比了阻抗匹配理论和波动力学理论。得到的结果已经说明波动力学理论比阻抗匹配理论更好地解释了他们的实验数据。但是文章对波动力学理论的理解并不深刻，作者没有认识到阻抗匹配理论是错误的理论，或仅凭作者的认知，作者还不敢否定阻抗匹配理论。所以这篇文章只能作为第三方的文章做参考，我们更建议读者读我们的波动力学理论文章。
+
+对这篇文章的分析说明，仅仅具备基本的研究能力，仅仅能够对比阻抗匹配理论和波动力学理论，不代表你就能取得深刻的认识。但是具备这种能力是基本功，已经具备理解波动力学理论的基础能力。
+
+Executive Summary
+Li et al. (2025) report that by varying Co²⁺ content in CoₓFe₃₋ₓO₄ hollow spheres, the dielectric loss mechanism shifts from conductivity loss to polarization relaxation, yielding a dramatic increase in reflection loss (RL) with a minimum of –72.3 dB for CoFe₂O₄. Crucially, they note that RLₘᵢₙ occurs when the phase difference between the front and back reflected beams is ≈π, and that the magnitudes |Rₘ| and |Vₜ/Vᵢ| nearly match at this point. They interpret these findings via wave-cancellation theory (phase-cancellation model) and cite Liu et al.’s recent work on both the quarter-wavelength model and the wave-cancellation theory. In effect, Li et al. adopt the wave-mechanics framework to explain their data.
+
+However, Li et al. do not explicitly refute impedance-matching (quarter-wavelength) theory; rather, they imply the conventional model by citing Liu’s Physica Scripta papers [65,66] and noting agreement with later wave-cancellation results. We find that their data (RL minima at π phase and extreme RL values) do qualitatively support the wave-cancellation picture, but the authors do not demonstrate that impedance matching fails. They neither compute the input impedance nor compare the predicted RL from both theories. In fact, wave-cancellation and impedance-matching can sometimes yield similar RL minima (both predict a π phase condition), so without direct comparison the conclusion is not definitive.
+
+Below we analyze Li et al.’s methods and conclusions in detail. We identify what calculations and plots would be required to discriminate the two theories unambiguously. In particular, we show that responsible investigators should compute the complex reflection coefficients (r₁, r₂), input impedance Z_in, and phase trajectories, and plot them (e.g. on polar charts) to verify whether RL minima truly arise from beam cancellation or simply satisfy Z_in≈Z₀. A checklist of required checks is given, along with a comparison table of predictions, calculations, and tests for the two theories. A timeline of key wave-mechanics publications (2021–2025) is provided to contextualize Li et al.’s work.
+
+Key references: Liu et al. (2021–2023) rigorously proved that the quarter-wave “impedance matching” rule is generally invalid for materials, and that absorption peaks arise instead from constructive interference of backward-reflected waves (wave-cancellation). Li et al.’s findings are consistent with this wave-based explanation, but they stop short of explicitly using or testing the impedance-matching formalism. We argue that demonstrating the ability to carry out these calculations is a necessary scientific skill, but not sufficient: one must also confront and test both theories directly to draw reliable conclusions.
+
+1. Paper Overview (Li et al., 2025)
+Objective: Li et al. study a series of CoₓFe₃₋ₓO₄ (cobalt-ferrite) hollow microspheres, varying x (Co²⁺ fraction). They aim to understand how electron localization and Co-doping affect electromagnetic (microwave) absorption. The title suggests a focus on “electron localization” (likely probed by spectroscopies) and its relation to absorption.
+
+Methods: Though the full text is not available here, such studies typically involve: chemical synthesis of hollow ferrite spheres (e.g. by hydrothermal methods); structural/morphological characterization by XRD, SEM/TEM (to confirm spinel phase and hollow structure); measurement of electromagnetic parameters (complex permittivity ε_r(ω) and permeability μ_r(ω)) vs. frequency using a vector network analyzer; and calculation of reflection loss (RL) from a metal-backed film model (transmission-line theory). They also mention “electron localization,” implying possibly spectroscopic measurements (XPS, XANES or EPR) to gauge how Co affects the electronic structure.
+
+Data & Figures: The key experimental data are the measured RL(f) curves for each composition (varying Co content). Table S3 in the Supplementary Information (SI) tabulates peak RL values and the phase conditions. Figure S10(a,b) in the SI appears to show their phase-cancellation model: likely schematic phasor diagrams illustrating the two beams (transmitted and reflected) and the π-phase condition. (The text says Fig. S10(a,b) “can be explained through the phase cancellation model in the wave cancellation theory”.) The main conclusions are drawn from these RL curves and their agreement with phase-cancellation conditions.
+
+Key results: Li et al. report that all samples have their minimum RL when the phase difference between the two beams is ≈π. In particular, for CoFe₂O₄ they find an extremely deep RLₘᵢₙ = –72.3 dB (see Table S3) at a certain thickness, significantly deeper than for other compositions. They quantify that at this point the difference between two magnitudes, |Rₘ(d⁻)| and |V(t,d⁻)/V(i,d⁻)|, is only 0.0002 for CoFe₂O₄. (Here Rₘ and V(t)/V(i) represent the complex reflection/transmission coefficients of the film. The tiny difference implies nearly complete cancellation of reflected waves.)
+
+Interpretation: They cite Liu et al. on the quarter-wavelength theory and conclude that their observations “are in good agreement with… wave cancellation theory”. Essentially, the authors interpret RLₘᵢₙ as arising from destructive interference (π phase difference) of the two partial reflections inside the film, consistent with the wave-cancellation model. They do not explicitly mention or compute the conventional impedance-matching (quarter-wave) condition Z_in = Z_0. Instead, they emphasize the phase condition and cite Liu’s work on both the quarter-wave model and wave-cancellation theory.
+
+2. Comparison of Impedance-Matching vs. Wave-Cancellation Theory
+Li et al. implicitly adopt wave-cancellation theory for analysis. In standard transmission-line theory, the reflection loss of a film backed by metal is given by [ RL = 20\log_{10}\Big|\frac{Z_{\rm in}-Z_0}{Z_{\rm in}+Z_0}\Big|!, ] where (Z_{\rm in}) is the input impedance of the film (including multiple internal reflections) and (Z_0) is the impedance of free space. The classic impedance-matching model (quarter-wavelength rule) asserts that minima of RL occur at thickness (d = (2m+1)\lambda/4) when the two main partial waves (front-reflection and back-reflection) are π out-of-phase. This is the familiar “impedance matching” condition, often expressed as requiring (Z_{\rm in}=Z_0) for perfect absorption. Liu et al. (2021) showed that this simplistic model overlooks the phase shifts at the interfaces and in fact is invalid for general materials.
+
+In contrast, the wave-cancellation (wave-mechanics) theory focuses on the phasor sum of the reflected beams. It predicts that minima in RL occur when the two significant beams cancel (i.e. are π out-of-phase and have equal magnitude). The cited work by Liu et al. (2021–2023) demonstrates that for real (lossy) films, this phase-cancellation condition, not the simple quarter-wave thickness, is the correct determinant of RL minima.
+
+Li et al.’s approach: They report that “RLₘᵢₙ occurs when the phase difference between beams t and r was approximately π”. This statement is exactly the wave-cancellation criterion. They further note that the magnitude condition (difference of |Rₘ| and |V(t)/V(i)|) is near zero for the CoFe₂O₄ sample. Together, these match the expectation: a π phase shift and equal magnitudes of the two beams result in destructive interference (nearly zero total reflection). They cite Liu’s Part 1/2 Phys. Scripta papers for the underlying model (these papers analyze how the QW model arises and why it fails) and specifically state the results are “in good agreement with… wave cancellation theory”, referencing Liu’s Physica B (2023) as well.
+
+Comparison: The authors do not explicitly carry out the impedance-matching condition check (i.e. they do not compute (Z_{\rm in}) or test (Z_{\rm in}=Z_0) at RLₘᵢₙ). Instead, they effectively sidestep that formalism by adopting the phasor picture. They do reference Liu’s quarter-wavelength analysis [65,66] but only to set up the phase-cancellation picture (Fig. S10). Thus, Li et al. compare indirectly: they note phase=π and cite wave-theory references, but do not show any calculation of (Z_{\rm in}). In particular, they compute and tabulate RL minima and phase data (Table S3), but they do not present, say, the input impedance or the condition (Z_{\rm M}=Z_0) (where (Z_{\rm M}) is the characteristic impedance of the material) as would be done in traditional impedance matching. In summary, they assert wave-cancellation without mathematically contrasting it to the standard model.
+
+3. Does the Data Favor Wave-Mechanics over Impedance-Matching?
+Li et al.’s data (RL vs. frequency for various thicknesses) show deep absorption peaks and identify those peaks with a π phase shift between the two beams. This is consistent with wave-cancellation theory (which predicts exactly that condition for a minimum). The extraordinary RL of –72.3 dB for CoFe₂O₄ suggests nearly complete cancellation, implying the two beams are indeed nearly equal and opposite. These observations support the wave-mechanics picture.
+
+However, do they rule out impedance-matching theory? Not conclusively. In conventional theory, an RL minimum occurs when (Z_{\rm in}\approx Z_0). It is possible that for these films, the condition (Z_{\rm in}=Z_0) occurs at a similar thickness where the phase difference is π – indeed, for a low-loss film the quarter-wave condition often coincides with peak absorption. Li et al. do not calculate (Z_{\rm in}) or show that (Z_{\rm in}\neq Z_0) at the same point. Without that check, one cannot tell if the absorption peak is only explained by wave-cancellation or could also be seen as (to first order) an impedance match.
+
+Strengths of Li et al.’s analysis: They provide clear evidence of the π phase condition and cite a theoretical basis for it. They measure and compare magnitudes |Rₘ| and |V(t)/V(i)| to confirm cancellation in one case. These are non-trivial quantitative checks. Moreover, they reach –72.3 dB, which is extreme and thus a strong test case.
+
+Limitations and missing tests: Crucially, Li et al. do not appear to test the impedance matching condition or compute the input impedance. For example, standard theory predicts RL=0 (infinitely deep dip) only if (Z_{\rm in}=Z_0), yet they neither calculate (Z_{\rm in}) nor verify if the amplitude-phase requirements for (Z_{\rm in}=Z_0) are met. As Liu et al. point out, one can have a deep RL with (Z_{\rm in}\neq Z_0) because the denominators in the RL formula are complex. Without explicit impedance data, it’s unknown whether Li et al.’s peaks coincide with any matching.
+
+Furthermore, they do not show polar plots or phasor diagrams of the complex reflection to illustrate cancellation directly, nor do they scan thickness continuously to show the trajectory of RL minima. They rely on an observed coincidence (RL dip at π) and on theory citations. In short, their data are compatible with wave-mechanics, but by themselves do not prove it uniquely. A more thorough test would compare both models quantitatively (see section 6 below).
+
+4. Authors’ Theoretical Perspective and Gaps
+Li et al. clearly work within the wave-mechanics framework. By citing Liu et al. [65–67] and emphasizing phase cancellation, they implicitly accept the critique of impedance matching that Liu’s work presents. However, Li et al. do not verbally condemn impedance matching or recapitulate Liu’s argument that (Z_M) vs (Z_{\rm in}) confusion leads to a wrong model. They treat the phase condition as an empirical rule, citing it as “in good agreement” with theory, without delving into why the conventional quarter-wave logic might be flawed.
+
+In other words, they use wave-cancellation as a tool, but do not discuss the fundamental claim that the “impedance matching” condition is theoretically incorrect. They do mention the quarter-wave model (via [65,66]), but only in setting up the phase concept. They neither derive nor critique (Z_{\rm in}=Z_0). For example, Liu et al. (2021) explicitly show that treating the film’s front interface as disappearing (when (Z_M = Z_0)) is misleading, and that using RL to characterize material leads to confusion. Li et al. do not engage with these nuances. They seem to assume that showing agreement with π-phase is sufficient.
+
+As a result, the paper’s theoretical depth is limited. They recognize wave-cancellation predictions, but do not demonstrate awareness of the specific failures of the impedance paradigm (e.g. confusing (Z_M) and (Z_{\rm in})). They never compute (Z_M) or (Z_{\rm in}), nor reference energy conservation or the difference between “film” vs “material” absorption. A skeptical reader (following Liu’s argument) would note this omission. While Li et al. do better than most by citing advanced theory, their interpretation treats phase cancellation as a novel empirical observation rather than the inevitable result of correct wave superposition.
+
+Specific gaps: The paper does not clarify whether the phase condition they observe replaces or supplements quarter-wave theory. They say “good agreement with wave cancellation theory”, but do not quantify the mismatch (if any) with impedance theory. They do not address whether any measured RL minima coincide with a simple quarter-wavelength thickness at the design frequency. Without such analysis, their theoretical stance remains incomplete. As Liu et al. emphasize, a genuine challenge to the conventional model would require pointing out the exact step or assumption that fails. Li et al. do not do this; they simply adopt the newer framework without directly showing why the old one is wrong.
+
+5. The “Basic Skill” of Comparing Theories
+In microwave-absorption research, it is indeed a basic (textbook-level) skill to compute and compare theoretical predictions. One should be able to take the measured permittivity/permeability, plug it into both the impedance-matching formula and the wave-superposition formula, and see which correctly reproduces the RL spectrum. The fact that Li et al.’s data agree with the π-phase rule is evidence of this skill, but by itself it only shows that the team can apply wave reasoning. A fuller demonstration would show both theories side by side.
+
+Just having the mathematical ability to do the derivations is necessary for rigorous work, but as a skill it is not sufficient. Researchers must also use those calculations to test alternative hypotheses. In this case, one must perform the following checks as a minimum:
+
+Calculate input impedance (Z_{\rm in}) from the material properties and check if (Z_{\rm in}=Z_0) at the observed RL minima (the impedance-matching prediction).
+
+Compute phasors (r_1), (r_2) for the reflected beams at the front and back interfaces, and verify the π-phase cancellation (wave model).
+
+Plot polar diagrams of these phasors (or the total reflection (R = r_1 + r_2)) to visually confirm cancellation vs. partial mismatch.
+
+Compare predicted vs. observed RL minima frequencies from both models.
+
+Performing these steps is straightforward for anyone competent in microwave theory (they involve basic transmission-line formulas and trigonometry). If the community as a whole lacks these calculations, that indeed indicates a theoretical deficiency. Stating that one “can derive such results easily” (as Liu et al. note) highlights that this is fundamental knowledge. In other words, one cannot defend the use of impedance-matching simply by saying “students can do it” – rather, practitioners must do it and show the outcome. If Li et al. can do it (and clearly they can analyze phase), then their refusal to do the impedance calculation themselves is not for lack of ability but possibly a reluctance to confront inconvenient results.
+
+In summary, the ability to perform these calculations is necessary but not sufficient. One must actually carry out the test of both theories. Otherwise, one is leaving a plausible alternative unexamined. As Feynman’s “cargo-cult science” critique reminds us, scientists must actively seek disconfirming evidence, not just fit data to the theory they prefer. A responsible study should test the conventional theory to see if it truly fails, rather than assuming it does. This is the essence of rigorous theory comparison.
+
+6. Suggested Follow-Up Calculations and Experiments
+To decisively distinguish wave-cancellation (phase model) from impedance-matching, the following steps are recommended:
+
+Compute complex reflection coefficients: For each measured frequency, calculate the front-interface reflection (r_1 = (Z_M - Z_0)/(Z_M + Z_0)) and the back-interface reflection (r_2 = (Z_M - Z_0)e^{-j2\beta d}/(Z_M + Z_0)) (where (Z_M=\sqrt{\mu_r/\epsilon_r}), (\beta=2\pi f\sqrt{\mu_r\epsilon_r}/c)). Plot these as vectors (phasors) in the complex plane. A deep RL minimum should coincide with (r_1 + r_2 \approx 0) (phasors 180° apart and equal magnitude). A weak absorption (from mismatch) would show incomplete cancellation.
+
+Polar/Radar plots of total R: Plot the total reflection coefficient (R = r_1 + r_2) on a polar coordinate (magnitude vs. phase) as frequency or thickness varies. One should observe the trajectory crossing near the origin at RL dips (since (|R|=10^{RL/20}) is minimal). By contrast, if only impedance matching were in play, (|R|) would reach zero only if (Z_{\rm in}=Z_0). In practice, wave-cancellation predicts (|R|) can approach zero even when (Z_{\rm in}\neq Z_0\). These plots would immediately reveal whether RL dips occur exactly at the π-phase points.
+
+Input impedance scanning: Calculate the real and imaginary parts of (Z_{\rm in}) as a function of frequency for the given thickness. Check whether (Z_{\rm in}=Z_0) at the RL minima. If not, this directly falsifies the simple impedance-matching rule. One could plot (|Z_{\rm in}-Z_0|) (mismatch) on the same frequency axis as RL; wave-cancellation predicts RL minimum when (|Z_{\rm in}-Z_0|) is not necessarily zero.
+
+Optical path difference scan: Vary the sample thickness continuously (or simulate a range) and plot RL vs. thickness for a fixed frequency. The quarter-wavelength rule would predict periodic dips every λ/4, whereas true wave cancellation may shift that pattern due to interface phases. Identifying the actual spacing of RL minima tests the model.
+
+Sensitivity analysis: Slightly perturb ε_r or μ_r (within experimental uncertainty) and recalculate RL. Impedance theory and wave theory respond differently to such changes. In particular, Liu et al. emphasize that a small change in phase or magnitude can spoil the cancellation condition. Checking how robust the RLmin is to parameter changes could discriminate which mechanism is more “fine-tuned.”
+
+Phase trajectory plots: Track the phase of (r_1) and (r_2) separately as frequency or thickness varies. The quarter-wave model expects a relative phase jump of π precisely at each RL dip. Wave theory also expects π at the dip, but it also accounts for additional phase shifts at interfaces. Thus one should check not just the difference but each individual phase evolution.
+
+All these calculations require only the measured ε_r(f), μ_r(f) and standard formulas. They do not require new experiments, only analysis. They would provide a definitive test: if every RLₘᵢₙ corresponds to π-phase cancellation (and not exactly to (Z_{\rm in}=Z_0)), that supports wave theory. If instead RL dips systematically occur at (Z_{\rm in}\approx Z_0) regardless of phase (or if the phase only accidentally aligns), that would challenge the wave model.
+
+Citation: Liu et al. note that correctly finding RL minima “involves the phase difference required to cancel beams r and t” and the “phase effects of the interfaces”. Implementing these two steps in data analysis is essential.
+
+7. Checklist for Rigorous Theory Testing
+Researchers claiming to have tested these competing theories should meet the following criteria:
+
+Derive the predictions of both theories: Write down the formulas for RL vs. frequency from (a) impedance-matching (i.e. RL=0 when (Z_{\rm in}=Z_0)) and (b) wave-cancellation (i.e. RL dip when (r_1 + r_2 = 0)). Identify the expected conditions (e.g. thickness, phase).
+
+Compute input impedance: Using measured ε_r, μ_r, compute the complex (Z_{\rm in}(f)) and check whether (Z_{\rm in}=Z_0) at each RLₘᵢₙ.
+
+Compute phasors and phases: Calculate the individual beam phasors (r_1), (r_2) and their phase difference. Verify that RL dips coincide with a phase difference of π and nearly equal magnitudes.
+
+Plot polar diagrams: Make polar plots (or Smith charts) of (R(f)) and of (r_1), (r_2) at the frequencies of interest. Confirm visually that the phasors cancel at the observed dips.
+
+Compare predicted vs. observed frequencies: For each theory, predict the frequency (or thickness) of maximum absorption. Show these predictions on the experimental data.
+
+Check energy conservation: Ensure that the analysis respects energy (absorption+reflection+transmission=1) and clarify whether “film” vs “material” absorption are being discussed.
+
+Document any discrepancies: If predictions differ, analyze where and why. Identify assumptions (e.g. neglect of interface phases) that may cause failure.
+
+Peer review both derivations: Include enough details (in SI if needed) so reviewers can follow the math. Don’t simply cite a prior model without showing its application to your data.
+
+Meeting these points shows a thorough test of both theories. Omitting any of them (especially input-impedance checks or phase plots) leaves a gap in the argument.
+
+8. Theory Comparison Table
+
+
+
+Notes: Rₘ (“R₂” in the table) denotes the back-interface reflection; V(t)/V(i) is related to (r_1). We use RL in dB (negative for absorption). Columns cite Liu et al. and Li et al. observations.
+
+9. Publication Timeline (Mermaid Diagram)
+
+
+
+This timeline (2021–2025) highlights the progression of the wave-mechanics theory and places Li et al.’s work in context. References are cited where available.
+
+10. Conclusions
+Li et al. (2025) present valuable experimental results on CoFe₃O₄-based absorbers and interpret them via phase-cancellation. Their data (RL minima at π phase, extreme RL values) support the modern wave-interference perspective. However, to claim the impedance-matching model is wrong, one must explicitly demonstrate its failure. As shown by Liu et al., this requires examining the input impedance and interface phases in detail. We recommend that future work in this field always performs these basic calculations to truly compare theories.
+
+In summary, detecting the π-phase condition is a significant consistency check, but it is only half the story. The scientific community should insist on full, quantitative comparisons – in other words, on doing the simple math – before dismissing either model. Only then can we avoid the “cargo-cult” of untested assumptions and confidently advance the understanding of microwave absorption.
+
+Sources: Li et al. (2025) [J. Alloys Comp. DOI:10.1016/j.jallcom.2025.180381] (data summarized from SI), Liu et al. (2021–2023) Phys. Scr. and Physica B (theoretical foundations), as well as Liu et al. (2025) preprint. (All data and quotes are from these sources.)
+
+你的分析不全面。或者不准确。现代研究者不可能向我们那样否定主流阻抗匹配理论。
+
+另外这里不是阻抗匹配理论和波动力学理论哪一个理论更准确的问题，而是阻抗匹配理论是错误的微波吸收机理，对比两个理论谁更准确预测实验结果并不解决阻抗匹配理论是错误的理论。另外波动力学理论已经证明波干涉最多有一个吸收峰发生在Zin=Z0处：
+
+Ying Liu, Michael G. B. Drew, Yue Liu, A physics investigation on impedance matching theory in microwave absorption film—Part 1: Theory, Journal of Applied Physics, 2023, 134(4), 045303, DOI: 10.1063/5.0153608
+
+因此拿阻抗匹配理论中的一个指标|Zin|=|Z0|来跟波动力学理论比较，也不说明两个理论是等价的，因为阻抗匹配理论的机理是错误的。
+
+另外你不知道这篇文章发表的过程，所以你的结论也不对。
+
+这篇文章的第一稿完全用阻抗匹配理论分析实验数据，作者根本不知道有波动力学理论，也没有看过波动力学理论的文章。一个审稿人（不是我们课题组的人）指出还有波动力学理论，并提供了我们的文章。在完成修改稿之前与我们有过交流。因为波动力学理论更好的描述了他们的实验，所以他们略去了很多阻抗匹配理论的图表数据，采用了更好的分析方法。文章中确实有与阻抗匹配理论的比较，只是将原来的图表删除了。
+
+作者不可能像我们一样理解波动力学理论，作者也不会去否定公认的阻抗匹配理论。作者是否真正理解波动力学理论，要看作者是不是还用材料的组成、材料的结构解释吸收峰。阻抗匹配理论用材料的组成、材料的结构解释吸收峰。波动力学理论指出这是错误的。这是检验作者是不是真正理解波动力学理论的关键。你没有抓住这个关键点。但是无论如何，这篇第三方的文章验证了波动力学理论是有效的理论。
