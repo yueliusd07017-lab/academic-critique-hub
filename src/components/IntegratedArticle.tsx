@@ -116,9 +116,11 @@ import WhistleblowerAndRaoYiLogicCritiqueEssay from "./WhistleblowerAndRaoYiLogi
 import EvaluatingImpedanceMatchingVsWaveMechanicsLi2025Essay from "./EvaluatingImpedanceMatchingVsWaveMechanicsLi2025Essay";
 import HasWorldTrulyUnderstoodDemocracyEssay from "./HasWorldTrulyUnderstoodDemocracyEssay";
 import NatureWhereDoesItGetTheNerveEssay from "./NatureWhereDoesItGetTheNerveEssay";
+import HistoryWillJudgeNatureRecklessGambleEssay from "./HistoryWillJudgeNatureRecklessGambleEssay";
+import WhyQuarterWavelengthModelIsWrongEssay from "./WhyQuarterWavelengthModelIsWrongEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -290,6 +292,7 @@ export default function IntegratedArticle() {
             activeArticle === "evaluatingimpedanceli2025" ? "evaluating-impedance-li2025-essay" :
             activeArticle === "worldtrulyunderstandsdemocracy" ? "world-democracy-essay-container" :
             activeArticle === "naturewheredoesitgetthenerve" ? "nature-nerve-essay-container" :
+            activeArticle === "historywilljudgenaturesrecklessgamble" ? "history-nature-reckless-container" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -2081,6 +2084,30 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
             Essay EQ: Where Does Nature Get the Nerve? Publishing After Misconduct Sanctions: Institutional Arrogance, Complicity, and the Asymmetric Shield of Corresponding Authorship
+          </button>
+          <button
+            onClick={() => setActiveArticle("historywilljudgenaturesrecklessgamble")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "historywilljudgenaturesrecklessgamble"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-historywilljudgenaturesrecklessgamble"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-550 animate-pulse" />
+            Essay ER: History Will Judge Nature’s Reckless Gamble: Why Is a Prestigious Journal Rushing to Stand Behind an Author Sanctioned for Research Misconduct?
+          </button>
+          <button
+            onClick={() => setActiveArticle("whyquarterwavelengthmodeliswrong")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "whyquarterwavelengthmodeliswrong"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-whyquarterwavelengthmodeliswrong"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-550 animate-pulse" />
+            Essay ES: Why the Quarter-Wavelength Theory of Microwave Absorption Is Fundamentally Flawed and Overturned
           </button>
         </div>
       </div>
@@ -8641,11 +8668,37 @@ export default function IntegratedArticle() {
         <NatureWhereDoesItGetTheNerveEssay />
       )}
 
+      {activeArticle === "historywilljudgenaturesrecklessgamble" && (
+        <HistoryWillJudgeNatureRecklessGambleEssay />
+      )}
+
+      {activeArticle === "whyquarterwavelengthmodeliswrong" && (
+        <WhyQuarterWavelengthModelIsWrongEssay />
+      )}
+
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
         <h4 className="text-sm font-bold text-slate-900 font-sans">
           Support Yue Liu’s Critical Scientific Treatises:
         </h4>
         <div className="flex flex-col sm:flex-row flex-wrap gap-2">
+          <a
+            href="https://yueliusd.substack.com/p/the-chaos-of-academia-part-7-science"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-950 text-white hover:bg-black px-4 py-2 border border-rose-800 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Why λ/4 Model is Wrong (Substack Pt 7) <Share2 className="w-3.5 h-3.5 text-rose-300" />
+          </a>
+          <a
+            href="https://yueliusd.substack.com/p/history-will-judge-natures-reckless"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-amber-950 text-white hover:bg-black px-4 py-2 border border-amber-800 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            History Will Judge Nature (Substack) <Share2 className="w-3.5 h-3.5 text-amber-300" />
+          </a>
           <a
             href="https://yueliusd.substack.com/p/where-does-nature-get-the-nerve-the"
             target="_blank"
