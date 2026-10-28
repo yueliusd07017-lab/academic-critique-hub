@@ -430,7 +430,7 @@ export default function WhyImpedanceMatchingTheoryIsWrongEssay() {
             </span>
             <ul className="text-xs space-y-1.5 text-gray-700 font-sans leading-relaxed list-disc pl-4">
               <li><strong>Formulaic Recipe:</strong> Synthesize a trivial variation of graphene, MXene, or MOF nanoparticles; test reflection loss; plot the $RL$ vs $d$ curve.</li>
-              <li><strong>Ritual Invocation:</strong> Automatically cite $Z_{in} = Z_0$ and attribute peaks to &quot;improved impedance matching&quot; and &quot;synergistic loss.&quot;</li>
+              <li><strong>Ritual Invocation:</strong> Automatically cite {"$Z_{in} = Z_0$"} and attribute peaks to &quot;improved impedance matching&quot; and &quot;synergistic loss.&quot;</li>
               <li><strong>Zero Friction:</strong> Reviewers and editors—who themselves built careers publishing identical papers—instantly approve the manuscript because it validates their own past publications.</li>
               <li><strong>Systemic Result:</strong> Tens of thousands of worthless, unrepeatable, mathematically bankrupt papers published in high-IF journals, consuming billions in public research funds.</li>
             </ul>
@@ -442,7 +442,7 @@ export default function WhyImpedanceMatchingTheoryIsWrongEssay() {
             </span>
             <ul className="text-xs space-y-1.5 text-gray-700 font-sans leading-relaxed list-disc pl-4">
               <li><strong>First-Principles Rigor:</strong> Solves Maxwell&apos;s boundary equations directly; exposes mathematical errors and false assumptions in existing models.</li>
-              <li><strong>Falsifies Consensus:</strong> Proves conclusively that $Z_{in} = Z_0$ cannot cause peaks and that at most one peak meets the condition.</li>
+              <li><strong>Falsifies Consensus:</strong> Proves conclusively that {"$Z_{in} = Z_0$"} cannot cause peaks and that at most one peak meets the condition.</li>
               <li><strong>Violent Institutional Immune Response:</strong> Editors desk-reject without review; reviewers respond with subjective evasions, demanding irrelevant experiments or maintaining &quot;the golden silence.&quot;</li>
               <li><strong>Systemic Result:</strong> Truth is blocked because publishing it would compel hundreds of professors to retract their life&apos;s work and forfeit their grants.</li>
             </ul>
@@ -454,7 +454,7 @@ export default function WhyImpedanceMatchingTheoryIsWrongEssay() {
         </p>
 
         <p>
-          When mainstream microwave absorption researchers observed that $Z_{in} \neq Z_0$ at the majority of peaks, or that peaks occur at maximum mismatch, they did not discard the theory. Instead, like Ptolemaic astronomers adding epicycles or alchemists claiming the spirit had escaped the crucible, they invented mythological narratives: &quot;interfacial polarization,&quot; &quot;quarter-wavelength cancellation,&quot; and &quot;defect-induced resonance.&quot;
+          When mainstream microwave absorption researchers observed that {"$Z_{in} \\neq Z_0$"} at the majority of peaks, or that peaks occur at maximum mismatch, they did not discard the theory. Instead, like Ptolemaic astronomers adding epicycles or alchemists claiming the spirit had escaped the crucible, they invented mythological narratives: &quot;interfacial polarization,&quot; &quot;quarter-wavelength cancellation,&quot; and &quot;defect-induced resonance.&quot;
         </p>
 
         <p>

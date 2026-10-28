@@ -119,9 +119,11 @@ import NatureWhereDoesItGetTheNerveEssay from "./NatureWhereDoesItGetTheNerveEss
 import HistoryWillJudgeNatureRecklessGambleEssay from "./HistoryWillJudgeNatureRecklessGambleEssay";
 import WhyQuarterWavelengthModelIsWrongEssay from "./WhyQuarterWavelengthModelIsWrongEssay";
 import WhyImpedanceMatchingTheoryIsWrongEssay from "./WhyImpedanceMatchingTheoryIsWrongEssay";
+import Zhang2020QuarterWavelengthCritiqueEssay from "./Zhang2020QuarterWavelengthCritiqueEssay";
+import Wang2012EnergyDifferenceCritiqueEssay from "./Wang2012EnergyDifferenceCritiqueEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -294,6 +296,10 @@ export default function IntegratedArticle() {
             activeArticle === "worldtrulyunderstandsdemocracy" ? "world-democracy-essay-container" :
             activeArticle === "naturewheredoesitgetthenerve" ? "nature-nerve-essay-container" :
             activeArticle === "historywilljudgenaturesrecklessgamble" ? "history-nature-reckless-container" :
+            activeArticle === "whyquarterwavelengthmodeliswrong" ? "why-quarter-wavelength-wrong-essay" :
+            activeArticle === "whyimpedancematchingtheoryiswrong" ? "why-impedance-matching-wrong-essay" :
+            activeArticle === "zhang2020critique" ? "zhang2020-critique-article-text" :
+            activeArticle === "wang2012critique" ? "wang2012-critique-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -2121,6 +2127,30 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
             Essay ET: Why the Impedance Matching Theory in Microwave Absorption Is Fundamentally Flawed and Overturned
+          </button>
+          <button
+            onClick={() => setActiveArticle("zhang2020critique")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "zhang2020critique"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-zhang2020critique"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-400 animate-pulse" />
+            Essay EU: Deconstructing Zhang et al. (2020): How False Math Gets “Proven” by Data & The Primacy of Deductive Logic
+          </button>
+          <button
+            onClick={() => setActiveArticle("wang2012critique")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "wang2012critique"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-wang2012critique"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-400 animate-pulse" />
+            Essay EV: Deconstructing Wang et al. (2012, 2015): The “Energy Difference” Delusion, Scalar Subtraction vs. Wave Mechanics & Galileo in the Dark Ages
           </button>
         </div>
       </div>
@@ -8693,11 +8723,46 @@ export default function IntegratedArticle() {
         <WhyImpedanceMatchingTheoryIsWrongEssay />
       )}
 
+      {activeArticle === "zhang2020critique" && (
+        <Zhang2020QuarterWavelengthCritiqueEssay />
+      )}
+
+      {activeArticle === "wang2012critique" && (
+        <Wang2012EnergyDifferenceCritiqueEssay />
+      )}
+
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
         <h4 className="text-sm font-bold text-slate-900 font-sans">
           Support Yue Liu’s Critical Scientific Treatises:
         </h4>
         <div className="flex flex-col sm:flex-row flex-wrap gap-2">
+          <a
+            href="https://doi.org/10.1063/5.0153612"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-950 text-white hover:bg-black px-4 py-2 border border-rose-800 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Refutation of Wang 2012 / Table I (J. Appl. Phys. 2023) <Share2 className="w-3.5 h-3.5 text-rose-300" />
+          </a>
+          <a
+            href="https://doi.org/10.1088/1402-4896/ac3c3f"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-950 text-white hover:bg-black px-4 py-2 border border-rose-800 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Quarter-Wavelength Model Critique (Physica Scripta 2021) <Share2 className="w-3.5 h-3.5 text-amber-300" />
+          </a>
+          <a
+            href="https://doi.org/10.1016/j.matchemphys.2022.126521"
+            target="_blank"
+            referrerPolicy="no-referrer"
+            rel="noreferrer"
+            className="text-xs bg-rose-950 text-white hover:bg-black px-4 py-2 border border-rose-800 rounded-lg flex items-center gap-1.5 font-bold transition shadow-2xs"
+          >
+            Refutation of Zhang et al. 2020 (Mater. Chem. Phys. 2022) <Share2 className="w-3.5 h-3.5 text-rose-300" />
+          </a>
           <a
             href="https://doi.org/10.1063/5.0153612"
             target="_blank"
