@@ -260,9 +260,9 @@ export default function TheoreticalPovertyAcademicGamesEssay() {
           <span className="text-rose-600">5.</span> Unlearned in Fundamentals, Adept at Wild Associations: Academic "Innovation" as Cargo Cult
         </h2>
         <p>
-          The evidence demonstrates that mainstream researchers have failed to master undergraduate concepts, yet they are celebrated for "wild associations" and superficial creativity:
+          The evidence demonstrates that mainstream researchers have failed to master undergraduate electrodynamics, yet they are celebrated for "wild associations" and superficial creativity:
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-sans">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-sans mb-6">
           <div className="bg-slate-50 border border-slate-300 p-4 rounded-xl">
             <h3 className="font-bold text-slate-900 mb-1">What Mainstream Authors Treat as "Innovation":</h3>
             <ul className="space-y-1.5 text-slate-700 list-disc pl-4 text-xs sm:text-sm">
@@ -281,6 +281,107 @@ export default function TheoreticalPovertyAcademicGamesEssay() {
               <li>Recognizing that film absorption peak positions (&lambda;/4 vs &lambda;/2) depend strictly on the boundary impedance sequence (<em>Z</em><sub>1</sub>, <em>Z</em><sub>2</sub>, <em>Z</em><sub>3</sub>).</li>
               <li>Understanding that when &epsilon;'' and &mu;'' vanish, no absorption occurs at all—proving that the absorption peak of real lossy absorbers <strong>inevitably deviates</strong> from the lossless quarter-wavelength model.</li>
             </ul>
+          </div>
+        </div>
+
+        {/* Detailed Case Study: Hou et al. (Carbon 2024) High Loss Backplate Error */}
+        <div className="bg-amber-50/60 border border-amber-300 p-5 rounded-2xl space-y-4">
+          <h3 className="text-base sm:text-lg font-bold text-amber-950 flex items-center gap-2 font-sans">
+            <AlertTriangle className="w-5 h-5 text-amber-700 shrink-0" />
+            Deconstructing Hou et al. (<em>Carbon</em> 2024): The "High-Loss Backplate" Fallacy & The Physics of <em>Z</em><sub>1</sub>–<em>Z</em><sub>2</sub>–<em>Z</em><sub>3</sub>
+          </h3>
+          <div className="text-sm text-slate-800 space-y-2">
+            <div className="font-sans font-bold text-slate-900">
+              Direct Citation from Hou et al. (<em>Carbon</em> 2024, 222, 118935):
+            </div>
+            <blockquote className="italic text-slate-700 border-l-4 border-amber-500 pl-3 py-1 bg-white rounded">
+              “For an EMW absorber with a high loss material as a backplate, two interfacial reflections are similar to that with a metal backplate. The quarter-wavelength theory is also applicable if the metal backplate is replaced by a high loss material.”
+            </blockquote>
+            <p className="text-slate-800 leading-relaxed pt-2">
+              <strong>Why This Assertion Is Completely False:</strong> Whether an absorption peak appears at film thickness <em>d</em> &asymp; &lambda;/4 or <em>d</em> &asymp; &lambda;/2 is strictly governed by the relative relationships among the three boundary impedances <strong><em>Z</em><sub>1</sub> (incident medium/air), <em>Z</em><sub>2</sub> (absorber film), and <em>Z</em><sub>3</sub> (backing material)</strong>, rather than being determined solely by the attenuation caused by imaginary permittivity/permeability components.
+            </p>
+          </div>
+
+          {/* Mathematical Proof & Phase Rotation Diagram */}
+          <div className="bg-white border border-amber-200 rounded-xl p-4 space-y-4 text-sm font-sans">
+            <h4 className="font-bold text-slate-900 border-b border-amber-100 pb-2">
+              First-Principles Vector Analysis of the Interface Reflection Coefficient: <em>R</em><sub>M</sub> = (<em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub>) / (<em>Z</em><sub>3</sub> + <em>Z</em><sub>2</sub>)
+            </h4>
+            
+            <div className="space-y-3 text-xs sm:text-sm text-slate-700">
+              <p>
+                <strong>Case 1: Purely Real Permittivity and Permeability (&epsilon;'' = &mu;'' = 0):</strong>
+              </p>
+              <ul className="list-disc pl-5 space-y-1">
+                <li>
+                  When <strong><em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub> &gt; 0</strong> (i.e. <em>Z</em><sub>3</sub> &gt; <em>Z</em><sub>2</sub>): <em>R</em><sub>M</sub> is a positive real number. The reflected wave is <strong>in phase</strong> with the incident wave (&Delta;&theta; = 0).
+                </li>
+                <li>
+                  When <strong><em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub> &lt; 0</strong> (i.e. <em>Z</em><sub>3</sub> &lt; <em>Z</em><sub>2</sub>): <em>R</em><sub>M</sub> is a negative real number. The reflected wave experiences a <strong>phase inversion</strong> (&Delta;&theta; = 180&deg; or &pi; radians).
+                </li>
+              </ul>
+
+              <p className="pt-2">
+                <strong>Case 2: Introducing Imaginary Components (&epsilon;'' &gt; 0, &mu;'' &gt; 0, Material Absorbs Waves):</strong><br />
+                The complex nature of &epsilon; and &mu; introduces imaginary parts into <em>Z</em><sub>2</sub> and <em>Z</em><sub>3</sub>. The imaginary parts modify the phase difference between the reflected and incident waves. Crucially, the phase modification is strictly bounded by the real-part quadrant:
+              </p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>
+                  <strong>When Re(<em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub>) &gt; 0:</strong> The vector starts on the positive real axis (0&deg;). Introducing large microwave loss rotates the vector into the complex plane, but the phase angle can only deviate within the range <strong>(-90&deg;, +90&deg;)</strong>. Imaginary loss components <em>cannot</em> flip the real part from positive to negative! Hence, it can never cross into the opposite half-plane to produce 180&deg;.
+                </li>
+                <li>
+                  <strong>When Re(<em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub>) &lt; 0:</strong> The vector starts on the negative real axis (180&deg;). Introducing loss rotates the vector within the left-half complex plane, restricting the phase angle within <strong>(90&deg;, 270&deg;)</strong>. It can never cross into the right-half plane to produce 0&deg;.
+                </li>
+              </ul>
+            </div>
+
+            {/* Visual Vector Phase Rotation Embeds */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-3">
+              <div className="border border-slate-200 rounded-xl p-3 bg-slate-50 flex flex-col items-center text-center">
+                <span className="text-xs font-bold text-slate-800 mb-2">
+                  Figure A: <em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub> &gt; 0 (Phase Bound in [-90&deg;, 90&deg;])
+                </span>
+                <img
+                  src="/public/assets/aistudio/image_a004a3da.png"
+                  alt="Z3 - Z2 > 0 vector diagram and phase rotation range with imaginary parts"
+                  className="rounded-lg max-h-56 object-contain border border-slate-200 bg-white"
+                />
+                <p className="text-2xs text-slate-500 mt-2 font-mono">
+                  Vector starts at 0&deg;. Non-zero loss modifies phase strictly within right-half plane.
+                </p>
+              </div>
+
+              <div className="border border-slate-200 rounded-xl p-3 bg-slate-50 flex flex-col items-center text-center">
+                <span className="text-xs font-bold text-slate-800 mb-2">
+                  Figure B: <em>Z</em><sub>3</sub> - <em>Z</em><sub>2</sub> &lt; 0 (Phase Bound in [90&deg;, 270&deg;])
+                </span>
+                <img
+                  src="/public/assets/aistudio/image_ef56cc0d.png"
+                  alt="Z3 - Z2 < 0 vector diagram and phase rotation range with imaginary parts"
+                  className="rounded-lg max-h-56 object-contain border border-slate-200 bg-white"
+                />
+                <p className="text-2xs text-slate-500 mt-2 font-mono">
+                  Vector starts at 180&deg;. Non-zero loss modifies phase strictly within left-half plane.
+                </p>
+              </div>
+            </div>
+
+            {/* The Inescapable Epistemological Proof */}
+            <div className="bg-rose-50 border-l-4 border-rose-600 p-3 rounded-r-lg text-rose-950 text-xs sm:text-sm font-sans space-y-1.5 mt-3">
+              <div className="font-bold flex items-center gap-1.5 text-rose-900">
+                <CheckCircle2 className="w-4 h-4 text-rose-600" />
+                The Fundamental Epistemological Proof: Real Absorbers Inevitably Deviate from &lambda;/4
+              </div>
+              <p>
+                <strong>1. Zero-Loss Tautology:</strong> When &epsilon;'' = &mu;'' = 0, neither the material nor the film absorbs any microwave power (total reflection, <em>RL</em> = 0 dB).
+              </p>
+              <p>
+                <strong>2. Necessary Deviation:</strong> For any real film to act as an absorber, &epsilon;'' or &mu;'' MUST be non-zero. But non-zero &epsilon;'' and &mu;'' inherently introduce non-zero phase modifications away from 0&deg; or 180&deg; at the interfaces.
+              </p>
+              <p className="font-bold">
+                <strong>Conclusion:</strong> It is mathematically and physically impossible for any absorbing film to strictly conform to the lossless quarter-wavelength model (<em>d</em> = <em>m</em>&lambda;/4). The presence of absorption guarantees that the absorption peak must deviate from the quarter-wavelength condition!
+              </p>
+            </div>
           </div>
         </div>
       </section>
