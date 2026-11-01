@@ -449,7 +449,7 @@ export default function TheoreticalPovertyAcademicGamesEssay() {
           <li>Peer review operates as an ideological cartel, rejecting any manuscript that threatens the authority's prestige or reveals that thousands of previous papers are built on quicksand.</li>
         </ul>
 
-        <div className="bg-slate-900 text-slate-100 p-5 rounded-xl space-y-2 font-sans text-xs sm:text-sm">
+        <div className="bg-slate-900 text-slate-100 p-5 rounded-xl space-y-3 font-sans text-xs sm:text-sm">
           <p className="font-bold text-amber-400">
             Sociological Insight from <em>Science and Technology Daily</em> (科技日报, 2018-10-18):
           </p>
@@ -460,12 +460,137 @@ export default function TheoreticalPovertyAcademicGamesEssay() {
             This is the architecture through which the impedance matching cargo cult has survived for half a century. But nature cannot be fooled by citation indices. Wave mechanics—anchored in Maxwell’s equations and deductive logic—will outlast the temporary noise of modern journal games.
           </p>
         </div>
+
+        {/* Nobel Laureate Randy Schekman's Testimony */}
+        <div className="bg-amber-50/80 border-2 border-amber-300 p-5 rounded-2xl space-y-3 font-sans text-sm my-6">
+          <div className="flex items-center justify-between flex-wrap gap-2">
+            <span className="font-bold text-amber-950 text-base flex items-center gap-2">
+              <Sparkles className="w-5 h-5 text-amber-700" />
+              Nobel Laureate Randy Schekman: The Toxic Distortion of Impact Factors
+            </span>
+            <span className="text-xs bg-amber-200 text-amber-900 font-mono px-2 py-0.5 rounded">
+              World Laureates Forum (顶尖科学家论坛)
+            </span>
+          </div>
+          <p className="text-slate-800 leading-relaxed text-xs sm:text-sm">
+            At the World Laureates Forum, 2013 Nobel Laureate in Physiology or Medicine <strong>Randy Schekman</strong> delivered an unvarnished indictment of the commercial impact-factor economy, urging evaluation committees—especially in China—to abandon this metric:
+          </p>
+          <blockquote className="italic text-slate-700 border-l-4 border-amber-500 pl-4 py-2 bg-white rounded text-xs sm:text-sm">
+            “Over many years now, this number called the journal impact factor has had far too much influence. And I think it’s a mis-measurement of science. It’s an attempt to reduce the influence of the discovery to a simple number. And unfortunately, too many young scholars feel that they have to publish in journals that have a high impact factor.<br /><br />
+            But these numbers are commercially manipulated to the benefit of journals, often commercial journals. So I feel this is very unfortunate, and those committees who are responsible for evaluating scientific progress the work of young scholars in China should avoid using that number. I also feel that the pressure to publish only in certain journals also represents a distortion of scholarship. So I personally refuse to publish in these commercial so-called high-impact journals. I think they have had a toxic influence on scholarship.”
+          </blockquote>
+          <p className="text-amber-950 font-semibold text-xs sm:text-sm">
+            When a Nobel Laureate publicly refuses to publish in so-called "high-impact" commercial journals because they exert a "toxic influence on scholarship," the claim that top SCI journals represent the gold standard of scientific truth is thoroughly dismantled.
+          </p>
+        </div>
       </section>
+
+      {/* Section 8: Is Peer Review Reliable? The Censored Truth */}
+      <section className="mb-10 space-y-4">
+        <h2 className="text-xl sm:text-2xl font-sans font-bold text-slate-900 border-b border-slate-200 pb-2 flex items-center gap-2">
+          <span className="text-rose-600">8.</span> Is Peer Review Reliable? Stifling Minority Truth While Canonizing Undergraduate Blunders
+        </h2>
+        <p>
+          The universal justification offered by the scientific establishment for peer review is that <em>“it prevents the dissemination of errors.”</em>
+        </p>
+        <p className="font-bold text-rose-950">
+          Has peer review actually accomplished this? Absolutely not.
+        </p>
+        <p>
+          As documented throughout this audit, errors that undergraduate students should never make—conflating <em>Z</em><sub>in</sub> and <em>Z</em><sub>M</sub>, subtracting scalar energies, and treating permittivity as a function of thickness—are routinely published, celebrated as "innovations," and cited hundreds of times in flagship SCI journals. 
+          Peer review does not filter out errors; **peer review filters out non-consensus, disruptive viewpoints of the minority.**
+        </p>
+
+        {/* Empirical Evidence: Censored Blog Post */}
+        <div className="bg-slate-50 border border-slate-300 p-5 rounded-2xl space-y-3 font-sans text-xs sm:text-sm my-4">
+          <div className="font-bold text-slate-950 text-sm sm:text-base flex items-center gap-2">
+            <ShieldAlert className="w-5 h-5 text-rose-700 shrink-0" />
+            Empirical Evidence: ScienceNet Blog Censorship Log — 《同行评审靠谱吗？（审核未通过）》
+          </div>
+          <p className="text-slate-700">
+            When Dr. Yue Liu posted a rigorous methodological critique on China’s official ScienceNet blog (科学网博客) analyzing whether peer review has ever been rigorously verified, the post was immediately stamped: <strong>“审核未通过” (Audit Failed / Censored)</strong>.
+          </p>
+
+          <div className="border border-slate-200 rounded-xl p-3 bg-white flex flex-col items-center text-center">
+            <img
+              src="/public/assets/aistudio/image_3b817c59.png"
+              alt="ScienceNet blog post '同行评审靠谱吗？（审核未通过）' with red audit failed stamp"
+              className="rounded-lg max-h-96 object-contain border border-slate-200 bg-white"
+            />
+            <p className="text-2xs text-slate-500 mt-2 font-mono">
+              Screenshot of Dr. Yue Liu's ScienceNet blog: 《同行评审靠谱吗？（审核未通过）》 (2026-11-1 18:28).
+            </p>
+          </div>
+
+          <div className="bg-rose-50 border-l-4 border-rose-600 p-3 rounded-r-lg text-rose-950 space-y-2 mt-2">
+            <h4 className="font-bold text-rose-900 text-xs sm:text-sm">
+              The Unanswerable Epistemological Core of the Censored Blog:
+            </h4>
+            <div className="italic text-slate-800 text-xs sm:text-sm space-y-1.5 font-serif">
+              <p>
+                “同行评审之所以能够存在，是现代科学界普遍认为它可以防止错误的传播。但是同行评审真正做到这一点了吗？连本科生都不该犯的错误都可以被SCI刊物当做创新广泛传播，说明同行评审不但没有防止错误，同行评审防住的是不符合共识的少数人的颠覆性观点。”
+              </p>
+              <p>
+                “你说大多数少数人的观点多是错误的，我说科学承受的起传播少数人的错误观点，但是科学承受不起扼杀少数人颠覆性的正确观点，犹如商业上风险越大，回报越大。少数人的观点，只要是错误，绝对翻不起大浪，关键是允许纠错。”
+              </p>
+              <p>
+                “现代科学最讲究论证严谨，同行评审经过严格论证了吗？主流科学家坚持同行评审的理由是：没有更好的替代方案。这是足够的科学论证吗？难道取消同行评审，回归学术期刊是不同思想交锋的平台难道不是更好的方案吗？”
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* The Epistemological Risk-Return Asymmetry */}
+        <div className="bg-slate-900 text-slate-100 p-6 rounded-2xl border border-slate-800 space-y-3 font-sans">
+          <h4 className="text-amber-400 font-bold flex items-center gap-2 text-sm sm:text-base">
+            <CheckCircle2 className="w-5 h-5 text-amber-400" />
+            The Asymmetry of Scientific Risk: Minority Error vs. Minority Truth
+          </h4>
+          <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+            In commerce and finance, venture capital understands that high risk is the prerequisite for transformative return. Science operates by the exact same epistemological law:
+          </p>
+          <ul className="list-disc pl-5 space-y-1.5 text-xs sm:text-sm text-slate-300">
+            <li>
+              <strong>Science can easily afford the dissemination of mistaken minority ideas:</strong> If a minority view is physically wrong, it quickly dies of its own mathematical and empirical weight—provided that post-publication error-correction is permitted! An erroneous paper published in an open forum creates no lasting crisis.
+            </li>
+            <li>
+              <strong>Science CANNOT afford the strangulation of minority disruptive truths:</strong> When the academic establishment uses peer-review gatekeeping to throttle a minority truth that overturns an erroneous consensus, the entire field is condemned to decades of stagnation, wasting billions in public funds on cargo cult science.
+            </li>
+          </ul>
+          <p className="text-xs sm:text-sm text-amber-300 font-medium italic">
+            “Abolishing gatekeeping peer review and restoring academic journals as open platforms for the clash of competing ideas and transparent post-publication debate is not merely an alternative; it is the only path that can save science from its current state of theoretical poverty.”
+          </p>
+        </div>
+      </section>
+
+      {/* Substack Essay Link Banner */}
+      <div className="bg-indigo-50 border border-indigo-200 rounded-2xl p-4 flex flex-col sm:flex-row items-center justify-between gap-3 font-sans text-xs sm:text-sm">
+        <div className="space-y-0.5 text-center sm:text-left">
+          <div className="font-bold text-indigo-950 flex items-center gap-1.5 justify-center sm:justify-start">
+            <BookOpen className="w-4 h-4 text-indigo-700" />
+            Original Substack Academic Treatise:
+          </div>
+          <div className="text-indigo-800 text-xs">
+            Read and subscribe to Yue Liu's complete foundational essay on Substack.
+          </div>
+        </div>
+        <a
+          href="https://yueliusd.substack.com/p/the-theoretical-poverty-of-modern-526"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold px-4 py-2 rounded-xl transition shadow-xs text-xs shrink-0"
+        >
+          View on Substack &rarr;
+        </a>
+      </div>
 
       {/* References Footer */}
       <footer className="mt-8 pt-6 border-t border-slate-200 font-sans text-xs text-slate-600 space-y-2">
         <p className="font-bold text-slate-800 text-sm">Key References & Primary Literature:</p>
         <ul className="space-y-1 list-disc pl-5">
+          <li><strong>Randy Schekman</strong>, Speech on Journal Impact Factor and Scientific Distortion, <em>World Laureates Forum (顶尖科学家论坛)</em>, 2026.</li>
+          <li><strong>Yue Liu</strong>, <em>“Is Peer Review Reliable? (同行评审靠谱吗？)”</em>, ScienceNet Blog (科学网博客), Censored (审核未通过), 2026-11-1.</li>
+          <li><strong>Yue Liu</strong>, <em>“The Theoretical Poverty of Modern Academia: How High-Impact SCI Literature Canonized Category Errors, Bogus Physics, and Cargo-Cult Peer Review”</em>, Substack: <a href="https://yueliusd.substack.com/p/the-theoretical-poverty-of-modern-526" className="text-indigo-600 underline">https://yueliusd.substack.com/p/the-theoretical-poverty-of-modern-526</a> (2026).</li>
           <li><strong>Yue Liu, Ying Liu, Michael G. B. Drew</strong>, <em>“Recognizing Problems in Publications Concerned with Microwave Absorption Film and Providing Corrections: A Focused Review”</em>, <strong>Ind. Eng. Chem. Res.</strong> 2025, 64(7), 3635–3650. DOI: 10.1021/acs.iecr.4c04544.</li>
           <li><strong>Yue Liu</strong>, <em>“The Theoretical Poverty of Modern Academia: Evidence of Widespread Intellectual Decline in Contemporary Scientific Research”</em>, SSRN: 5463155 (2025).</li>
           <li><strong>Yue Liu</strong>, <em>“From Academic Research to Academic Games: How Modern Science Lost Its Way”</em>, SSRN: 5684424 (2025).</li>
