@@ -130,9 +130,11 @@ import FeudalismOfResearchGrantsEssay from "./FeudalismOfResearchGrantsEssay";
 import DogmaOfConformityVsScientificLogicEssay from "./DogmaOfConformityVsScientificLogicEssay";
 import TypewritersToAIEssay from "./TypewritersToAIEssay";
 import AutocraticOasisStagnationOfPhysicsEssay from "./AutocraticOasisStagnationOfPhysicsEssay";
+import AcademicLocustsAndTheExtinctionOfGeniusEssay from "./AcademicLocustsAndTheExtinctionOfGeniusEssay";
+import InDefenseOfRumorInAnImperfectWorldEssay from "./InDefenseOfRumorInAnImperfectWorldEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -318,6 +320,8 @@ export default function IntegratedArticle() {
             activeArticle === "dogmaofconformity" ? "dogma-of-conformity-article-text" :
             activeArticle === "typewriterstoai" ? "typewriters-to-ai-article-text" :
             activeArticle === "autocraticoasis" ? "autocratic-oasis-article-text" :
+            activeArticle === "academiclocusts" ? "academic-locusts-article-text" :
+            activeArticle === "defenseofrumor" ? "defense-of-rumor-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -2277,6 +2281,30 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
             Essay FE: Winning an Autocratic Oasis, Losing the March of Science: The Soviet Paradox of Academic Feudalism & Why Physics Stood Still
+          </button>
+          <button
+            onClick={() => setActiveArticle("academiclocusts")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "academiclocusts"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-academiclocusts"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FF: From Newtonian Sovereignty to Academic Locusts: The Pre-Qin vs. Imperial Bureaucracy Paradox & The Extinction of Scientific Genius
+          </button>
+          <button
+            onClick={() => setActiveArticle("defenseofrumor")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "defenseofrumor"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-defenseofrumor"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FG: In Defense of Rumor in an Opaque and Imperfect World: Why an Open Society Must Defend the Right to Question Authority Without Prior Evidence
           </button>
         </div>
       </div>
@@ -8891,6 +8919,14 @@ export default function IntegratedArticle() {
 
       {activeArticle === "autocraticoasis" && (
         <AutocraticOasisStagnationOfPhysicsEssay />
+      )}
+
+      {activeArticle === "academiclocusts" && (
+        <AcademicLocustsAndTheExtinctionOfGeniusEssay />
+      )}
+
+      {activeArticle === "defenseofrumor" && (
+        <InDefenseOfRumorInAnImperfectWorldEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
