@@ -56,69 +56,245 @@ export default function Zhang2020QuarterWavelengthCritiqueEssay() {
             01
           </div>
           <h2 className="text-xl md:text-2xl font-bold text-slate-900 font-sans tracking-tight m-0">
-            The Fatal Mathematical Derivation: Treating a Variable as a Constant
+            The Fatal Mathematical Derivation of Equation (6): Peak-Valley Inversion, Attenuation Shift, and Multivariate Calculus Violations
           </h2>
         </div>
         <p>
           In 2020, S. Zhang, T. Wang, M. Gao, P. Wang, H. Pang, L. Qiao, and F. Li published a high-profile paper titled 
           <em>“Strict proof and applicable range of the quarter-wavelength model for microwave absorbers”</em> in the 
-          <em>Journal of Physics D: Applied Physics</em> (Vol. 53, 265004). The stated ambition of the authors was to establish a “strict mathematical proof” 
-          of the quarter-wavelength model (QWM) and to derive a generalized analytical formula—their Equation (9)—that would accurately calculate 
-          the revised peak absorption thickness {"$d_\\text{rev}$"} when non-zero phase shifts occur at the absorber interface.
+          <em>Journal of Physics D: Applied Physics</em> (Vol. 53, 265004, DOI: 10.1088/1361-6463/ab79da). The stated ambition of the authors was to establish a “strict mathematical proof” 
+          of the quarter-wavelength model (QWM) and to derive a generalized analytical formula—their Equation (9)—that would calculate 
+          the revised peak absorption thickness <em>d</em><sub>rev</sub> when non-zero phase shifts occur at the absorber interface.
         </p>
         <p>
           However, as demonstrated conclusively by Liu, Liu, and Drew (<em>Materials Chemistry and Physics</em> 290, 2022, 126521), 
-          the mathematical foundation of Zhang et al.’s entire paper collapses at the most elementary step of differential calculus.
+          the mathematical foundation of Zhang et al.’s entire paper collapses at its foundational step: <strong>Equation (6)</strong>.
         </p>
         
-        <div className="bg-white border-2 border-rose-200 rounded-xl p-5 shadow-xs space-y-3 font-mono text-xs md:text-sm">
+        <div className="bg-white border-2 border-rose-200 rounded-xl p-5 shadow-xs space-y-4 font-mono text-xs md:text-sm">
           <div className="font-bold text-rose-950 font-sans text-sm flex items-center gap-2">
             <Terminal className="w-4 h-4 text-rose-600" />
-            Deconstruction of the Derivation Fallacy:
+            Step-by-Step Deconstruction of Formula (6): &psi; = &psi;<sub>1</sub> + &theta; = 2n&pi;
           </div>
           <p className="text-slate-700">
-            Zhang et al. express the normalized input impedance as:
+            Zhang et al. express the normalized input impedance in polar coordinates as:
           </p>
           <div className="bg-slate-50 p-3 rounded-lg text-center overflow-x-auto text-slate-900 font-semibold">
-            {`Z_p = A \\cdot e^{-j\\psi}, \\quad \\text{where } A = \\sqrt{|\\mu_r / \\epsilon_r|} \\cdot A_d`}
+            <em>Z</em><sub>p</sub> = <em>A</em> &middot; <em>e</em><sup>&minus;<em>j</em>&psi;</sup>, &emsp; where <em>A</em> = |<em>Z</em><sub>p</sub>| = |<em>Z</em><sub>in</sub>| / <em>Z</em><sub>0</sub>, &emsp; and &psi; = &psi;<sub>1</sub> + &theta;
           </div>
           <p className="text-slate-700">
-            The reflection coefficient magnitude $|\Gamma|$ is given by:
+            Crucially, <strong><em>A</em> in Ref. [6] is the magnitude of the normalized input impedance |<em>Z</em><sub>in</sub>|</strong>, NOT |<em>RL</em>|. 
+            The reflection coefficient magnitude |&Gamma;| = |<em>RL</em>| is:
           </p>
           <div className="bg-slate-50 p-3 rounded-lg text-center overflow-x-auto text-slate-900 font-semibold">
-            {`|\\Gamma|^2 = \\frac{1 + A^2 - 2A\\cos(\\psi)}{1 + A^2 + 2A\\cos(\\psi)}`}
+            |<em>RL</em>|<sup>2</sup> = |&Gamma;|<sup>2</sup> = [1 + <em>A</em><sup>2</sup> &minus; 2<em>A</em> cos(&psi;)] / [1 + <em>A</em><sup>2</sup> + 2<em>A</em> cos(&psi;)]
           </div>
           <p className="text-slate-700">
-            To locate the minimum of $|\Gamma|$ (maximum absorption), Zhang et al. differentiate $|\Gamma|^2$ with respect to $\psi$ and set it to zero:
+            To locate the absorption peak (minimum of |<em>RL</em>|), Zhang et al. freeze <em>A</em> as a constant, differentiate |&Gamma;|<sup>2</sup> with respect to &psi;, and set it to zero:
           </p>
           <div className="bg-rose-50 border border-rose-200 p-3 rounded-lg text-center overflow-x-auto text-rose-900 font-bold">
-            {`\\frac{\\partial |\\Gamma|^2}{\\partial \\psi} = \\frac{4A(1 - A^2)\\sin(\\psi)}{[1 + A^2 + 2A\\cos(\\psi)]^2} = 0 \\implies \\sin(\\psi) = 0 \\implies \\psi = 2n\\pi \\quad \\text{[Equation (6) in Ref. 6]}`}
+            &part;|&Gamma;|<sup>2</sup> / &part;&psi; = [4<em>A</em>(1 &minus; <em>A</em><sup>2</sup>) sin(&psi;)] / [1 + <em>A</em><sup>2</sup> + 2<em>A</em> cos(&psi;)]<sup>2</sup> = 0 
+            &implies; sin(&psi;) = 0 &implies; &psi; = 2<em>n</em>&pi; &emsp; [Equation (6) in Ref. 6]
           </div>
-          <p className="text-rose-900 font-sans font-medium text-xs leading-relaxed">
-            <strong>The Mathematical Fatal Flaw:</strong> This step is valid <em>if and only if</em> $A$ is a constant independent of $\psi$. 
-            Zhang et al. explicitly assumed that <em>“A remained unchanged near peak frequencies”</em>. But in reality, $A$ depends directly on 
-            the attenuation factors $\alpha_P$ and propagation parameters $\alpha_j$, which in turn are functions of phase angle $\psi_1$, 
-            thickness $d$, and frequency $\nu$. 
-            Differentiating with respect to $\psi$ while treating $A$ as an independent constant is a direct violation of elementary multivariable chain rule calculus:
-            <br />
-            <span className="font-mono text-center block mt-1 font-bold text-rose-950">
-              {`\\frac{d |\\Gamma|^2}{d\\psi} = \\frac{\\partial |\\Gamma|^2}{\\partial \\psi} + \\frac{\\partial |\\Gamma|^2}{\\partial A}\\frac{\\partial A}{\\partial \\psi} \\neq \\frac{\\partial |\\Gamma|^2}{\\partial \\psi}`}
+          
+          <div className="bg-slate-900 text-slate-200 p-4 rounded-xl border border-slate-700 font-mono text-xs space-y-2">
+            <span className="text-amber-400 font-bold block uppercase tracking-wider text-[11px]">
+              Verbatim Rationalization in Zhang et al. (J. Phys. D 2020, 53, 265004):
             </span>
+            <p className="italic text-rose-300">
+              &ldquo;Therefore, the phase angle of Z<sub>p</sub> should meet the condition &psi; = 2n&pi; (e<sup>&minus;j&psi;</sup> = 1) if an RL peak appears.&rdquo;
+            </p>
+            <p className="italic text-slate-300">
+              &ldquo;On the other hand, as mentioned above, A refers to the amplitude ratio E/H of the plane wave on the inner side of the vacuum-absorber interface; so, A changes little around each RL peak frequency according to its physical significance. This is supported by the observation that A changes slowly and monotonically with f in the application frequency range in the absorption materials. Hence, we assumed that A remained unchanged near peak frequencies in the following differentiations. Then, the derivatives of |&Gamma;| versus &psi; yielded Eq. (6).&rdquo;
+            </p>
+          </div>
+
+          <div className="border-t border-rose-200 pt-3 space-y-3 font-sans text-xs md:text-sm text-slate-800">
+            <h4 className="font-bold text-rose-950 flex items-center gap-2">
+              <AlertTriangle className="w-4 h-4 text-rose-600" />
+              Four Irrefutable Proofs Why Equation (6) is Mathematically and Physically False:
+            </h4>
+            
+            <div className="bg-rose-50/70 p-3 rounded-lg space-y-2 border border-rose-100">
+              <strong className="text-rose-900 font-mono text-xs block">
+                1. The Inversion of Peak and Valley: Destructive Interference Occurs at (2n+1)&pi;, NOT 2n&pi;
+              </strong>
+              <p className="text-slate-700 text-xs leading-relaxed">
+                From Equation (18) of Liu, Liu, and Drew (<em>Mater. Chem. Phys.</em> 2022, 290, 126521):
+                <br />
+                <span className="font-mono block text-center py-1 font-bold text-slate-900">
+                  &psi; = &psi;<sub>1</sub> + &theta; = <em>n</em>&pi;
+                </span>
+                The phase difference between the front-interface reflection <em>r</em><sub>1</sub> and the substrate-returning wave <em>r</em><sub>2</sub> is essentially the phase of <em>RL</em>. 
+                The relationship between absolute value and square root must take a positive or negative sign according to the physical problem. 
+                Based on wave mechanics, an <strong>absorption peak</strong> requires <strong>destructive interference</strong> between the emergent waves, which physically demands a phase difference of <strong>180&deg;</strong>:
+                <br />
+                <span className="font-mono block text-center py-1 font-bold text-emerald-800">
+                  |<em>RL</em>| minimum (absorption peak) occurs at &psi; = (2<em>n</em> + 1)&pi; (180&deg;, 540&deg;, ...)
+                </span>
+                <span className="font-mono block text-center py-1 font-bold text-rose-800">
+                  |<em>RL</em>| maximum (reflection maximum, absorption valley) occurs at &psi; = 2<em>n</em>&pi; (0&deg;, 360&deg;, ...)
+                </span>
+                Zhang et al. claimed an absorption peak appears at &psi; = 2<em>n</em>&pi; (<em>e</em><sup>&minus;<em>j</em>&psi;</sup> = 1). This is <strong>precisely the MAXIMUM of |RL| (maximum reflection, minimum absorption)</strong>, NOT the minimum! Zhang et al. literally inverted the physical extremum itself!
+              </p>
+            </div>
+
+            <div className="bg-rose-50/70 p-3 rounded-lg space-y-2 border border-rose-100">
+              <strong className="text-rose-900 font-mono text-xs block">
+                2. Equation (5) and Real Data Prove A = |Z<sub>in</sub>| Is NOT a Constant: The Shock of |Z<sub>in</sub>/Z<sub>0</sub>| &gt;&gt; 1 at Absorption Peaks
+              </strong>
+              <p className="text-slate-700 text-xs leading-relaxed">
+                Zhang et al. claimed <em>A</em> &ldquo;changes little around each RL peak&rdquo; and &ldquo;remained unchanged in differentiations.&rdquo; 
+                This assumption is categorically refuted by both rigorous mathematics and published empirical data:
+              </p>
+              <ul className="list-disc pl-5 space-y-1.5 text-xs text-slate-700">
+                <li>
+                  <strong>Mathematical Proof (Eq. 5 in Liu et al. 2022):</strong> 
+                  <em>A</em> = |<em>Z</em><sub>in</sub>| is an explicit function of attenuation &alpha;<sub>P</sub>, phase delay &alpha;<sub>j</sub>, thickness <em>d</em>, frequency &nu;, and interfacial phase &psi;<sub>1</sub>. 
+                  Because &alpha;<sub>P</sub>, &alpha;<sub>j</sub>, and &psi; are linked through complex dispersion, <strong><em>A</em> varies dynamically with &psi; (&part;<em>A</em> / &part;&psi; &ne; 0)</strong>. Freezing <em>A</em> in differentiation violates basic multivariable calculus.
+                </li>
+                <li>
+                  <strong>Extrema Misalignment (Physica B 2023, 666, 415108):</strong> 
+                  As demonstrated in Figs. 5c, 5d, and 6 of Ying Liu, Xiangbin Yin, M. G. B. Drew, and Yue Liu, 
+                  <strong>the extrema of |Z<sub>in</sub>| and the extrema of |RL| do NOT occur at the same position</strong>! Nor do they occur at a phase difference of 180&deg;.
+                </li>
+                <li>
+                  <strong>The Ultimate Refutation of Impedance Matching:</strong> 
+                  When the extrema of |<em>Z</em><sub>in</sub>| and |<em>RL</em>| happen to occur in close proximity (for |<em>Z</em><sub>M</sub>| &lt; |<em>Z</em><sub>0</sub>|), 
+                  the extremum of |<em>Z</em><sub>in</sub>/<em>Z</em><sub>0</sub>| is a <strong>MAXIMUM greater than 1</strong>! 
+                  At this point, <strong><em>Z</em><sub>in</sub> deviates the MOST from <em>Z</em><sub>0</sub>, yet |<em>RL</em>| reaches its MINIMUM (maximum absorption peak)</strong>! 
+                  This is shown directly at the first absorption peak in Figs. 5c and 5d of <em>Physica B</em> (2023). 
+                  Furthermore, in Fig. 5b of Liu, Liu, and Drew (<em>Physica Scripta</em> 2022, 97, 015806), the values of |<em>Z</em><sub>in</sub>/<em>Z</em><sub>0</sub>| corresponding to the first two |<em>RL</em>| absorption peaks are <strong>both far greater than 1 (|<em>Z</em><sub>in</sub>/<em>Z</em><sub>0</sub>| &gt;&gt; 1)</strong>! 
+                  This completely shatters the impedance matching dogma that absorption peaks require <em>Z</em><sub>in</sub> &approx; <em>Z</em><sub>0</sub>.
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-rose-50/70 p-3 rounded-lg space-y-2 border border-rose-100">
+              <strong className="text-rose-900 font-mono text-xs block">
+                3. Material Attenuation Shifts the True Minimum to &psi; &gt; 180&deg; (&psi; &gt; &pi;)
+              </strong>
+              <p className="text-slate-700 text-xs leading-relaxed">
+                In reality, microwaves undergo continuous attenuation as they propagate through lossy media. Because of this material attenuation, |<em>RL</em>| varies continuously with &psi;, and <strong>at &psi; = <em>n</em>&pi; there is no guarantee that |<em>RL</em>| is invariant with respect to &psi;</strong>. 
+                When attenuation causes |<em>RL</em>| (and <em>A</em>) to vary with &psi;, it is only at a phase angle <strong>strictly greater than 180&deg; (&psi; &gt; 180&deg;)</strong> that the total derivative <em>d</em>|<em>RL</em>|/<em>d</em>&psi; can equal zero. 
+                By directly differentiating |<em>RL</em>| with respect to &psi; while accounting for attenuation, one deduces that the absorption peak resides at a phase angle (approximately equal to the phase difference) greater than 180&deg;.
+              </p>
+            </div>
+
+            <div className="bg-rose-50/70 p-3 rounded-lg space-y-2 border border-rose-100">
+              <strong className="text-rose-900 font-mono text-xs block">
+                4. The Lossless Paradox: The Only Case Where A Is Constant Has No Minima
+              </strong>
+              <p className="text-slate-700 text-xs leading-relaxed">
+                Only when the material and film do <strong>NOT absorb microwaves</strong> (&mu;<sub>r</sub>&Prime; = &epsilon;<sub>r</sub>&Prime; = 0, purely real constitutive parameters) does |<em>RL</em>| become constant across phase space. 
+                <strong>Only in this lossless case does the minimum of |RL| appear exactly at 180&deg;, and ONLY in this case could treating A as a constant be mathematically permissible!</strong>
+                However, in this exact lossless limit, the film does not absorb microwaves at all: |<em>RL</em>| = 1 (0 dB reflection) identically across all thicknesses <em>d</em> and frequencies &nu; (proved in Fig. 6(a) and (b) of Liu et al. 2022). 
+                <strong>No absorption minimum exists anywhere!</strong> 
+                Thus: where <em>A</em> is truly constant, no absorption peak exists; where absorption peaks exist, <em>A</em> is never constant. Equation (6) is an unphysical absurdity.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        {/* Detailed Breakdown of Cascading Errors: From Eq. (6) to Eq. (9) */}
+        <div className="bg-rose-950/10 border-2 border-rose-300 rounded-xl p-5 space-y-4 font-sans text-xs md:text-sm">
+          <div className="flex items-center gap-2 text-rose-900 font-bold text-sm">
+            <Layers className="w-5 h-5 text-rose-700" />
+            Cascading Fallacies: Multiple Mathematical &amp; Physical Errors from Equation (6) to Equation (9)
+          </div>
+          <p className="text-slate-800 leading-relaxed">
+            The theoretical breakdown of Zhang et al. is not confined to Equation (6). The entire mathematical bridge constructed between 
+            <strong>Equation (6)</strong> and their celebrated analytical formula <strong>Equation (9)</strong>:
           </p>
+          <div className="bg-white p-3 rounded-lg border border-rose-200 text-center font-mono text-xs md:text-sm text-slate-900 font-bold">
+            <em>d</em><sub>rev</sub> = [(2<em>n</em> + 1)<em>c</em>] / [4&nu; Re(&radic;(&mu;<sub>r</sub>&epsilon;<sub>r</sub>))] &minus; [&psi;<sub>1</sub> <em>c</em>] / [4&pi;&nu; Re(&radic;(&mu;<sub>r</sub>&epsilon;<sub>r</sub>))] &emsp; [Equation (9) in Ref. 6]
+          </div>
+          <p className="text-slate-800 leading-relaxed">
+            is riddled with further mathematical inconsistencies, ad-hoc insertions, and physical contradictions:
+          </p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
+            <div className="bg-white p-3.5 rounded-lg border border-rose-200 space-y-1.5">
+              <span className="font-bold font-mono text-xs text-rose-900 block">
+                A. The Parity Sleight-of-Hand: 2n&pi; in Eq. (6) &rarr; (2n+1) in Eq. (9)
+              </span>
+              <p className="text-slate-600 text-xs leading-relaxed">
+                Equation (6) explicitly asserts &psi; = &psi;<sub>1</sub> + &theta; = 2<em>n</em>&pi;. 
+                Solving directly for propagation phase yields &theta; = 2<em>n</em>&pi; &minus; &psi;<sub>1</sub>. 
+                Substituting &theta; = [4&pi;&nu;<em>d</em> / <em>c</em>] Re(&radic;(&mu;<sub>r</sub>&epsilon;<sub>r</sub>)) yields a numerator with <strong>2n</strong>, NOT <strong>(2n+1)</strong>! 
+                Where did (2<em>n</em>+1) come from? Zhang et al. arbitrarily grafted the odd integer from the classical quarter-wavelength dogma into their formula to ensure it superficially resembled the traditional model when &psi;<sub>1</sub> &rarr; 0!
+              </p>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-lg border border-rose-200 space-y-1.5">
+              <span className="font-bold font-mono text-xs text-rose-900 block">
+                B. Smuggling the Metal Backing &pi; Phase Shift
+              </span>
+              <p className="text-slate-600 text-xs leading-relaxed">
+                Reflection at a perfect metal backing produces a 180&deg; (&pi;) phase reversal. If this boundary phase is properly summed, the round-trip condition is &theta; + &psi;<sub>1</sub> + &pi; = 2<em>m</em>&pi;, which yields (2<em>n</em>+1)&pi;. 
+                Zhang et al. omitted this physical boundary phase when deriving Equation (6), arrived at 2<em>n</em>&pi;, and then surreptitiously smuggled it back into Equation (9) without reconciling the mathematical contradiction.
+              </p>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-lg border border-rose-200 space-y-1.5">
+              <span className="font-bold font-mono text-xs text-rose-900 block">
+                C. Discarding the Attenuation Constant &alpha;<sub>P</sub>
+              </span>
+              <p className="text-slate-600 text-xs leading-relaxed">
+                The propagation constant is complex: &gamma; = &alpha;<sub>P</sub> + <em>j</em>&beta; = <em>j</em>(2&pi;&nu;/<em>c</em>)&radic;(&mu;<sub>r</sub>&epsilon;<sub>r</sub>). 
+                In deriving Equation (9), Zhang et al. completely discarded the imaginary attenuation constant &alpha;<sub>P</sub>, relying solely on Re(&radic;(&mu;<sub>r</sub>&epsilon;<sub>r</sub>)). 
+                By discarding attenuation, their derivation strips out the very physical mechanism responsible for microwave dissipation.
+              </p>
+            </div>
+
+            <div className="bg-white p-3.5 rounded-lg border border-rose-200 space-y-1.5">
+              <span className="font-bold font-mono text-xs text-rose-900 block">
+                D. Linearizing an Inherently Non-Linear System
+              </span>
+              <p className="text-slate-600 text-xs leading-relaxed">
+                Transmission line input impedance <em>Z</em><sub>in</sub> = <em>Z</em><sub>0</sub> &radic;(&mu;/&epsilon;) tanh(&gamma;<em>d</em>) is a non-linear transcendental hyperbolic function. 
+                Decoupling interfacial phase &psi;<sub>1</sub> from thickness <em>d</em> into a simple linear subtractive offset (&minus;&psi;<sub>1</sub><em>c</em> / 4&pi;&nu;...) is an ad-hoc linear truncation that has no rigorous foundation in electrodynamics.
+              </p>
+            </div>
+          </div>
         </div>
 
         <p>
-          Because {`\\partial A / \\partial \\psi \\neq 0`}, Equation (6) is <strong>mathematically false</strong>. 
-          Consequently, the subsequent derivation of Equation (9) (the revised thickness {"$d_\\text{rev}$"} derived from Taylor expansions of this false relation) 
-          is completely invalid.
+          Because both Equation (6) and the algebraic bridge to Equation (9) are mathematically and physically broken, 
+          Equation (9) cannot claim to be a valid physical law or a strict proof.
         </p>
-        <p>
-          The fatal nature of their conclusion is exposed immediately by a simple deductive counterexample:
-          consider a non-absorbing or perfectly matched lossless dielectric film where $\mu_r'' = \epsilon_r'' = 0$ and $\mu_r = \epsilon_r$. 
-          Here, $\psi_1 = 0$, satisfying their condition. Yet the reflection loss $|RL(x_1^-)|$ <strong>has absolutely no minima at all</strong>! 
-          The film does not absorb microwaves, and $RL(x_1^-) = -1$ (0 dB reflection) across all values of thickness $d$ and frequency $\nu$ (as proved in Fig. 6(a) and (b) of Liu et al. 2022). 
-          Their derived formula claims a universal minimum condition that does not even exist in physical reality.
-        </p>
+
+        {/* Peer Review Blindness Case Study: Saikia et al. 2024 */}
+        <div className="bg-slate-900 text-slate-100 p-5 rounded-xl border border-slate-700 space-y-3 font-sans">
+          <div className="flex items-center justify-between border-b border-slate-700 pb-2">
+            <span className="text-amber-400 font-mono font-bold text-xs uppercase tracking-wider flex items-center gap-2">
+              <FileCode className="w-4 h-4 text-amber-400" />
+              Symptom of Institutional Theoretical Poverty: The Saikia et al. (2024) Case
+            </span>
+            <span className="text-xs text-slate-400 font-mono">Appl. Phys. A (2024) 130:189</span>
+          </div>
+          <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
+            The failure of peer review to detect mathematical fallacies in Zhang et al. (2020) is not an isolated incident; it is systemic. 
+            Consider a recent paper published in Springer’s <em>Applied Physics A</em>: 
+            <strong>S. Saikia, H. Saikia, N. S. Bhattacharyya, “Revertible wideband hydrogel-based meta-structure absorber”, <em>Appl. Phys. A</em> 2024, 130(3), 189.</strong>
+          </p>
+          <div className="bg-slate-950 p-3 rounded-lg border border-slate-800 font-mono text-xs text-rose-300 space-y-2">
+            <p className="text-slate-400 italic">Verbatim excerpt from Saikia et al. (2024) Section 4:</p>
+            <p>
+              &ldquo;Impedance matching, i.e. <em>Z</em><sub>L</sub>(&omega;) = <em>Z</em><sub>0</sub>(&omega;) &radic;(&mu;<sub>eff</sub> / &epsilon;<sub>eff</sub>) ... 
+              The normalized impedance at the air-absorber interface can be retrieved from S-parameters using the following equation: 
+              <em>Z</em> = <em>Z</em>&prime; + <em>jZ</em>&Prime; = &radic;[((1+<em>S</em><sub>11</sub>)<sup>2</sup> &minus; <em>S</em><sub>21</sub><sup>2</sup>) / ((1&minus;<em>S</em><sub>11</sub>)<sup>2</sup> &minus; <em>S</em><sub>21</sub><sup>2</sup>)] = (1+<em>S</em><sub>11</sub>)/(1&minus;<em>S</em><sub>11</sub>) ... 
+              Unity or maximum absorption is achieved when <em>Z</em>&prime; = 1 and <em>Z</em>&Prime; = 0.&rdquo;
+            </p>
+          </div>
+          <p className="text-xs md:text-sm text-slate-300 leading-relaxed">
+            <strong>The Undergraduate Category Error:</strong> Saikia et al. define impedance matching using <em>Z</em><sub>L</sub> (the intrinsic characteristic impedance of the medium <em>Z</em><sub>M</sub> = &radic;(&mu;/&epsilon;)), and in the very next line equate it directly to <em>Z</em> = (1+<em>S</em><sub>11</sub>)/(1&minus;<em>S</em><sub>11</sub>), which is the input impedance <em>Z</em><sub>in</sub> of a metal-backed film! 
+            They conflate an intrinsic material property (<em>Z</em><sub>M</sub>) with a boundary-dependent structural system impedance (<em>Z</em><sub>in</sub>). 
+            This is an elementary category mistake that any physics undergraduate should be failed for, yet it was published without friction in an SCI journal. 
+            When peer review welcomes such blatant blunders as &ldquo;cutting-edge research&rdquo; while actively censoring the wave mechanics theory that exposes them, peer review ceases to be a guardian of science and becomes a cartel protecting institutional ignorance.
+          </p>
+        </div>
       </section>
 
       {/* Section 2: The Satire of "Empirical Verification" and Cargo Cult Alchemy */}
@@ -471,6 +647,30 @@ export default function Zhang2020QuarterWavelengthCritiqueEssay() {
               Yue Liu, Ying Liu, Michael G. B. Drew, 
               <em>“Wave Mechanics of Microwave Absorption in Films — Distinguishing Film from Material”</em>, 
               <em>Journal of Magnetism and Magnetic Materials</em> 593 (2024) 171850.
+            </p>
+          </div>
+          <div className="bg-slate-50 border border-slate-200 p-3 rounded-lg space-y-1">
+            <span className="font-bold text-emerald-900 block">[Wave Cancellation vs. |Zin| Discrepancy]</span>
+            <p className="text-xs">
+              Ying Liu, Xiangbin Yin, M. G. B. Drew, Yue Liu, 
+              <em>“Microwave absorption of film explained accurately by wave cancellation theory”</em>, 
+              <em>Physica B: Condensed Matter</em> 666 (2023) 415108. DOI: 10.1016/j.physb.2023.415108.
+            </p>
+          </div>
+          <div className="bg-slate-50 border border-slate-200 p-3 rounded-lg space-y-1">
+            <span className="font-bold text-purple-900 block">[QWM Part 2: |Zin/Z0| &gt;&gt; 1 at Peaks]</span>
+            <p className="text-xs">
+              Liu Y, Liu Y, Drew MGB, 
+              <em>“A theoretical investigation of the quarter-wavelength model — part 2: verification and extension”</em>, 
+              <em>Physica Scripta</em> 97(1) (2022) 015806. DOI: 10.1088/1402-4896/ac3c2a.
+            </p>
+          </div>
+          <div className="bg-slate-50 border border-slate-200 p-3 rounded-lg space-y-1 md:col-span-2">
+            <span className="font-bold text-amber-900 block">[Peer-Reviewed Zin vs ZM Confounding Example]</span>
+            <p className="text-xs">
+              S. Saikia, H. Saikia, N. S. Bhattacharyya, 
+              <em>“Revertible wideband hydrogel-based meta-structure absorber”</em>, 
+              <em>Appl. Phys. A: Mater. Sci. Process.</em> 130(3) (2024) 189. DOI: 10.1007/s00339-024-07334-y.
             </p>
           </div>
         </div>
