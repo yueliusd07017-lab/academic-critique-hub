@@ -362,6 +362,163 @@ export default function RefutingXiaoweiMainstreamApologeticsEssay() {
           </ol>
         </div>
       </section>
+
+      {/* Rebuttal 10: Sociological & Epistemological Excuses */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-rose-600 text-white flex items-center justify-center font-bold font-mono text-sm shrink-0">
+            10
+          </div>
+          <h2 className="text-xl md:text-2xl font-bold text-slate-900 font-sans tracking-tight m-0">
+            Rebuttal 10: Why Mainstream Silence Is Cargo-Cult Pseudoscience—Fake Experts vs. AI, Sufficient/Necessary Conditions, and Why Science Is Logic While Experiment Is Alchemy
+          </h2>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs md:text-sm text-slate-700">
+          <strong>Xiaowei’s Sociological Excuses:</strong> “Nobody has publicly refuted Yue Liu because public debate has low ROI, his critique only targets simplified pedagogy, no public refutation doesn’t mean he won, AI says he confuses sufficient and necessary conditions, and science requires experimental consensus.”
+        </div>
+
+        <p>
+          <strong>Dr. Yue Liu’s Comprehensive Rebuttal:</strong>
+        </p>
+
+        <ol className="list-decimal pl-6 space-y-3">
+          <li>
+            <strong>“Public Debate Has Low ROI” — Feynman’s Definition of Cargo-Cult Pseudoscience:</strong> Richard Feynman stated that an honest scientist must bend over backwards to show how their own theory might be wrong. When a rigorous refutation is published in black and white, mainstream scientists who refuse to examine it, continue churning out thousands of false impedance-matching papers, and suppress Wave Mechanics via anonymous peer review are practicing <strong>cargo-cult pseudoscience</strong>.
+          </li>
+          <li>
+            <strong>Fake Experts vs. AI — Why AI Can Concede Defeat While Mainstream Scientists Cannot:</strong> An AI is trained on mainstream consensus, so it is understandable that it initially lacks deep study of Wave Mechanics. However, for <em>mainstream scientists</em>, Wave Mechanics is already published—refusing to study an opposing theory is pseudoscience. Moreover, a true domain expert must possess deeper insight than an AI (just as I corrected Xiaowei’s errors here). Modern researchers treat doing experiments as doing science, reading only journal papers while neglecting monographs and undergraduate textbooks. Their theoretical level has fallen below AI: <strong>faced with airtight logic, an AI can concede defeat, whereas mainstream “fake experts” (假专家) cannot.</strong>
+          </li>
+          <li>
+            <strong>Theoretical Mastery Determines Scientific Character (学术水平决定人品):</strong> Graduating with high grades does not mean one has mastered theory; true mastery requires lifelong, repeated study of different textbooks from multiple angles. Many modern academic authorities are “fake experts” who climbed to power via junk top-journal papers. Because they cannot tell right from wrong, they are terrified of being proven wrong. By contrast, those with high theoretical mastery (like Feynman) can judge a critique’s validity and have the courage to admit error, considering it far more shameful to persist in falsehood. Modern scientists claim “character matters more than academic level,” but in truth, <strong>a scientist’s theoretical level determines their character</strong>—what low-level authorities call “good character” is merely obedience to authority.
+          </li>
+          <li>
+            <strong>Post-Hoc Rationalization (马后炮) vs. Cumulative Science:</strong> Impedance Matching Theory is pure post-hoc rationalization—useful only for writing papers, completely useless for guiding material design. Once an experimental curve is measured, it can “explain” anything; and a theory that explains everything after the fact explains nothing. Under Wave Mechanics, one experiment’s result directly guides the next experiment, allowing knowledge to accumulate.
+          </li>
+          <li>
+            <strong>Orthodox Errors, Not “Simplified Pedagogy”:</strong> Every error exposed by Wave Mechanics lies at the orthodox core of Impedance Matching Theory. When <em>every</em> paper makes the same error, it is the theory itself that is wrong. Nor does a theory’s truth depend on whether mainstream scholars dare to publish a rebuttal—once the correct theory is laid out in mathematics and physics, it is already right.
+          </li>
+          <li>
+            <strong>Who Confuses Sufficient and Necessary Conditions?</strong> Wave Mechanics is built on rigorous mathematical physics and is fully quantitative, whereas Impedance Matching Theory is qualitative and lacks mathematical logic. It is <strong>Impedance Matching Theory</strong> that satisfies <strong>neither sufficient nor necessary conditions</strong>: (a) <em>Not sufficient</em>—not all <em>Z</em><sub>in</sub> = <em>Z</em><sub>0</sub> (or |<em>Z</em><sub>in</sub>/<em>Z</em><sub>0</sub>| = 1) points produce an absorption peak (e.g., lossless media, <em>Z</em><sub>M</sub> = <em>Z</em><sub>0</sub>, or modulus-only circles in Fig. 4.8); (b) <em>Not necessary</em>—the vast majority of absorption peaks in a film do <em>not</em> satisfy <em>Z</em><sub>in</sub> = <em>Z</em><sub>0</sub> (at a fixed frequency, at most one peak can satisfy <em>Z</em><sub>in</sub> = <em>Z</em><sub>0</sub>).
+          </li>
+          <li>
+            <strong>Science Is Theory and Logic; Experiment Without Theory Is Alchemy:</strong> All human observations once “showed” the Sun revolving around the Earth, yet the Earth revolves around the Sun. Mainstream scientists’ belief that “experiment is the sole criterion of truth; theory can be wrong, but experiment never lies” is false. <strong>Science is theory; science is logic. Experiment is alchemy</strong>—accumulating data and phenomena is not science. Alchemy had experiments, yet there was no science; science was born only when disciplinary theories were established. A correct theory without widespread support is still a correct theory, and major scientific breakthroughs are always driven by the tiny minority who defy consensus.
+          </li>
+        </ol>
+      </section>
+
+      {/* Rebuttal 11: Exposing AI Consensus Amnesia & The Constructive Two-Step Paradigm */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-rose-600 text-white flex items-center justify-center font-bold font-mono text-sm shrink-0">
+            11
+          </div>
+          <h2 className="text-xl md:text-2xl font-bold text-slate-900 font-sans tracking-tight m-0">
+            Rebuttal 11: Exposing AI “Consensus Amnesia,” the Constructive Two-Step Wave-Mechanics Design Paradigm, and Why Logic Judges Experiment
+          </h2>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs md:text-sm text-slate-700">
+          <strong>Xiaowei’s Circular Reset:</strong> After previously conceding the paradigm shift, Xiaowei reset its stance to repeat: “We still cannot treat Impedance Matching Theory as falsified… mainstream academia has not seen universal quantitative design rules… and experiment is the final judge above theory.”
+        </div>
+
+        <p>
+          <strong>Dr. Yue Liu’s Rebuttal:</strong>
+        </p>
+
+        <ol className="list-decimal pl-6 space-y-3">
+          <li>
+            <strong>No “Consensus Amnesia” Allowed Without New Evidence:</strong> We already settled the <em>Z</em><sub>M</sub> vs. <em>Z</em><sub>in</sub> distinction and the retroactive-patching fallacy in our prior exchanges (permanently archived in this <em>Academic Critique Hub</em>). You cannot conveniently “forget” an established logical conclusion just to reset the debate in defense of mainstream consensus. If you wish to recant a concession, you must present new mathematical or physical evidence.
+          </li>
+          <li>
+            <strong>The Constructive Two-Step Design Paradigm of Wave Mechanics:</strong> Claiming that “mainstream academia has not seen universal quantitative design rules” confuses mainstream blindness with theoretical absence. Wave Mechanics provides the exact, constructive two-step scientific design paradigm:
+            <ul className="list-disc pl-6 mt-1.5 space-y-1">
+              <li><strong>Step 1 (Wave-Cancellation Target):</strong> Determine the exact permittivity &epsilon;(<em>f</em>) and permeability &mu;(<em>f</em>) (and their frequency responses) required to satisfy the wave-cancellation design criteria for a given frequency band and thickness;</li>
+              <li><strong>Step 2 (Materials Chemistry &amp; Structure):</strong> Research what chemical compositions (functional groups) and microstructures produce those required &epsilon;(<em>f</em>) and &mu;(<em>f</em>) values.</li>
+            </ul>
+            That is genuine cumulative science, where each study guides the next. By contrast, Impedance Matching Theory has been studied for over half a century and has not produced <strong>a single useful design rule</strong>.
+          </li>
+          <li>
+            <strong>Collective Academic Refusal vs. Elementary Mathematical Truth:</strong> When the entire academic establishment refuses to accept a theory whose validity can be verified with elementary right-and-wrong logic, middle-school algebra, and undergraduate wave superposition, that is not “cautious scientific skepticism”—it is collective institutional incompetence.
+          </li>
+          <li>
+            <strong>Experiment Is a Technical Tool to Test Theory, Not a Judge Standing Above Theory:</strong> Mainstream consensus elevates alchemical experimentation above theoretical logic. In reality, <strong>a mathematically and logically sound theory is already true before any new experiment is run</strong>, and <strong>experimental results must be judged and interpreted by theory</strong>. Experimentation is merely one technical means (一种手段是技术，不是科学) of testing a theory—it is not science itself. A theory’s validity is tested not only by experiment, but first and foremost by <strong>deductive logic</strong>.
+          </li>
+        </ol>
+      </section>
+
+      {/* Rebuttal 12: Division of Scientific Labor & Separating Experiment from Science */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-rose-600 text-white flex items-center justify-center font-bold font-mono text-sm shrink-0">
+            12
+          </div>
+          <h2 className="text-xl md:text-2xl font-bold text-slate-900 font-sans tracking-tight m-0">
+            Rebuttal 12: The Division of Scientific Labor &amp; Separating Experiment (Auxiliary Tool) from Science (Axioms + Logic)
+          </h2>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs md:text-sm text-slate-700">
+          <strong>Xiaowei’s Concession &amp; Final Question:</strong> “You are right—I re-read our earlier discussion. Since we have established consensus that Yue Liu’s critique targets orthodox Impedance Matching Theory itself and that Wave Mechanics can guide material design while Impedance Matching is merely post-hoc rationalization, let’s discuss: how do we determine film composition and structure from target &epsilon; and &mu;? Also, logic and experiment must jointly adjudicate a theory.”
+        </div>
+
+        <p>
+          <strong>Dr. Yue Liu’s Concluding Statement:</strong>
+        </p>
+
+        <ol className="list-decimal pl-6 space-y-3">
+          <li>
+            <strong>Establishing the True Theory &amp; Pointing Out the Direction:</strong> We have already overthrown the false theory and established the correct theory. I am now retired, so the subsequent empirical exploration of specific material recipes belongs to the next generation of researchers. Overthrowing a false paradigm is hard, establishing a new disciplinary theory is hard, and applying theory to materials synthesis is also hard—<strong>but at least the field now has the right theory to guide it, and the true direction of research has been established.</strong>
+          </li>
+          <li>
+            <strong>Theory Consists of Axioms and Logic; Nature Never Violates 1 + 1 = 2:</strong> A scientific theory consists of <strong>axioms and deductive logic</strong>. Experimental results will never violate a correct theory—just as nature will never violate the mathematical logic of 1 + 1 = 2.
+          </li>
+          <li>
+            <strong>Separating Experiment from Science—Relegating Experiment to Its Proper Place as an Auxiliary Tool:</strong> Experimentation is an important <em>auxiliary research tool</em> (辅助研究手段)—an auxiliary tool only. One must not elevate an auxiliary tool above science itself simply because it is useful. <strong>Experiment must be separated from science and relegated to the status of alchemy—an auxiliary empirical instrument, not science itself.</strong> Alchemy had experiments, yet there was no science; science exists only where rigorous axioms and deductive logic govern our understanding of nature.
+          </li>
+        </ol>
+      </section>
+
+      {/* Section 13: Liu Yue Thought - Science Is Logic; Experiment Is Alchemy */}
+      <section className="space-y-4">
+        <div className="flex items-center gap-3">
+          <div className="w-8 h-8 rounded-lg bg-rose-600 text-white flex items-center justify-center font-bold font-mono text-sm shrink-0">
+            13
+          </div>
+          <h2 className="text-xl md:text-2xl font-bold text-slate-900 font-sans tracking-tight m-0">
+            Liu Yue Thought (刘跃思想): Why Axioms Must Conform to Nature, Why Mathematics Without True Axioms Is an Intellectual Game, and Why Scientific Thought Must Not Require Experimental Permission
+          </h2>
+        </div>
+
+        <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 text-xs md:text-sm text-slate-700">
+          <strong>Xiaowei’s Objection:</strong> “If a correct theory does not need experimental verification to be true, then any logically self-consistent theory (including alchemy) could claim to be absolute truth.”
+        </div>
+
+        <p>
+          <strong>Dr. Yue Liu’s Final Philosophical Clarification:</strong>
+        </p>
+
+        <ol className="list-decimal pl-6 space-y-3">
+          <li>
+            <strong>Liu Yue Thought (刘跃思想):</strong> Relegating experiment to the status of alchemy is my original philosophical position that breaks with mainstream consensus. I call it <strong>Liu Yue Thought</strong>.
+          </li>
+          <li>
+            <strong>Logical Self-Consistency Alone Is Not Enough—Axioms Must Conform to the Essence of Nature:</strong> Logical self-consistency does not automatically make a theory true. <strong>The axioms themselves must conform to the essence of nature.</strong> If mathematics is built upon false axioms, then mathematics is merely an intellectual game (智力游戏).
+          </li>
+          <li>
+            <strong>Importance Does Not Equal Equivalence to Science:</strong> Experimentation is undeniably important in scientific research, yet one cannot elevate an auxiliary empirical tool to the rank of science itself. Demanding “experimental permission” before acknowledging a deductive refutation is precisely how academic monopolies protect themselves against theoretical breakthroughs.
+          </li>
+        </ol>
+
+        <div className="bg-indigo-50/70 border border-indigo-200 rounded-xl p-4 text-xs md:text-sm text-indigo-950 font-sans space-y-1.5">
+          <p className="font-bold m-0">Further Reading on Liu Yue Thought:</p>
+          <ul className="list-disc pl-5 space-y-1 text-indigo-900">
+            <li><em>The Chaos of Academia, Part 7: Liu Yue’s Theory — Science Is Logic; Experiment Is Alchemy</em></li>
+            <li><em>Liu Yue’s Theory: Science Is Logic; Experiment Is Alchemy — Why Scientific Thought Must Not Require Experimental Permission</em></li>
+            <li><em>Why Scientific Thought Must Not Require Experimental Permission &amp; How Demanding Evidence Protects Academic Monopolies</em></li>
+          </ul>
+        </div>
+      </section>
     </article>
   );
 }
