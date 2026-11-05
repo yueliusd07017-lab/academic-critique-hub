@@ -33,7 +33,10 @@ export default function CensoredScienceNetArchiveEssay() {
             Why This Archive Exists:
           </p>
           <p>
-            On November 4, 2026, multiple blog posts and reader replies by Dr. Yue Liu on ScienceNet (科学网)—addressing SCI journal errors, Zone 1 vs. Zone 4 plagiarism, the legal/ethical boundary of publishing erroneous institutional peer-review reports, the primacy of textbooks over journal literature, and why peer review has coincided with the stagnation of fundamental physics—were marked <strong>“审核未通过” (Failed Moderation / Unapproved)</strong>. To ensure that reasoned scientific criticism is never erased by algorithmic or administrative gatekeeping, every blocked post, reply, and screenshot is permanently preserved below in both original Chinese and English translation.
+            On November 4, 2026, multiple blog posts and reader replies by Dr. Yue Liu on ScienceNet (科学网)—addressing SCI journal errors, Zone 1 vs. Zone 4 plagiarism, the legal/ethical boundary of publishing erroneous institutional peer-review reports, the primacy of textbooks over journal literature, and why peer review has coincided with the stagnation of fundamental physics—were marked <strong>“审核未通过” (Failed Moderation / Unapproved)</strong>.
+          </p>
+          <p className="border-t border-amber-200/80 pt-2 text-amber-950">
+            <strong>Author’s Strategic Note on Submitting Under Censorship:</strong> <em>“我投稿科学网，并没有指望它能发表，而是多一个人看到，至少有权审核的人都能看到。尽管一般人看不到，作者能看到，说明它已经在网上，或许AI能爬到。”</em> (“I submitted to ScienceNet without expecting it to be published; rather, so that one more person could see it—at least those with the authority to review and moderate it can see it. Even though the general public cannot see it, the author can see it, which means it is already online, and perhaps AI crawlers can index it.”)
           </p>
         </div>
       </div>
@@ -224,7 +227,7 @@ export default function CensoredScienceNetArchiveEssay() {
             <span className="text-xs font-mono font-bold text-slate-500 uppercase">Original Chinese ([547] &amp; [548])</span>
             <p className="text-xs md:text-sm text-slate-800 leading-relaxed">
               <strong>[547]:</strong> “只有思想交锋才会有创新。现代SCI期刊自持是‘严格评审的期刊’，把发表当成果，结果垃圾文章泛滥，鲜有创新。几十年后再回头看这个时代，就是一个垃圾泛滥的时代。根据马斯克的观点，99.99%的SCI文章是垃圾。论文改到崩溃，作者‘怒怼’审稿人，没想到怼人回复竟发了SCI”<br />
-              <em>(Citing SSRN 5720702 &amp; “The Hypothetical Elimination of Science and Nature Journals”, yueliusd.substack.com)</em><br /><br />
+              <em>(Referencing the viral peer-review rebuttal case: <a href="https://www.thepaper.cn/newsDetail_forward_26541445" target="_blank" rel="noreferrer" className="underline text-indigo-700">The Paper (澎湃新闻)</a> &amp; <a href="https://zhuanlan.zhihu.com/p/627170615" target="_blank" rel="noreferrer" className="underline text-indigo-700">Zhihu (知乎专栏)</a>; also citing SSRN 5720702 &amp; “The Hypothetical Elimination of Science and Nature Journals”, yueliusd.substack.com)</em><br /><br />
               <strong>[548]:</strong> “牛顿时代，没有同行评议，产生了多少伟大的学科理论。现代有同行评议，为什么科学反而停滞了？”<br />
               <em>(Citing Liu, Yue, “Why Has Physics Come to a Standstill? The Case of Microwave Absorption Theory and the State of Scientific Progress”, 2025, yueliusd.substack.com &amp; YouTube: https://www.youtube.com/watch?v=hda0_31_dyc — “Why has there been no progress in physics since 1973?”)</em>
             </p>
