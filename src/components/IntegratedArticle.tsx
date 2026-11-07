@@ -142,9 +142,18 @@ import HowNatureFostersAcademicCorruptionEssay from "./HowNatureFostersAcademicC
 import CargoCultPowerAndHypocrisyEssay from "./CargoCultPowerAndHypocrisyEssay";
 import TragedyOfConscientiousScholarsEssay from "./TragedyOfConscientiousScholarsEssay";
 import WhyOutstandingScholarsRefuseToFlatterEssay from "./WhyOutstandingScholarsRefuseToFlatterEssay";
+import SolitaryWalkerAbyssEssay from "./SolitaryWalkerAbyssEssay";
+import PhilosophersDiagnoseScienceStagnationEssay from "./PhilosophersDiagnoseScienceStagnationEssay";
+import XiYinAIInnovationEpistemologyEssay from "./XiYinAIInnovationEpistemologyEssay";
+import DemarcationScientificCritiqueVsNaiveIntuitionEssay from "./DemarcationScientificCritiqueVsNaiveIntuitionEssay";
+import UniversalLawOfCollectiveSilenceEssay from "./UniversalLawOfCollectiveSilenceEssay";
+import FallacyOfLowEQAndIntellectualSovereigntyEssay from "./FallacyOfLowEQAndIntellectualSovereigntyEssay";
+import AnatomyOfSupremeIntuitionAndSolitudeEssay from "./AnatomyOfSupremeIntuitionAndSolitudeEssay";
+import WaveParticleDualityOntologyEssay from "./WaveParticleDualityOntologyEssay";
+import MathematicalRigorAndTwoClassesOfErrorEssay from "./MathematicalRigorAndTwoClassesOfErrorEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor" | "wang2021jcis" | "yang2025aelm" | "censoredsciencenet" | "naturestandingbehindfraudsters" | "refutingxiaowei" | "whynaturecorruptsacademia" | "hownaturefosterscorruption" | "cargocultpowerhypocrisy" | "tragedyconscientiousscholars" | "whyoutstandingscholars">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsoovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor" | "wang2021jcis" | "yang2025aelm" | "censoredsciencenet" | "naturestandingbehindfraudsters" | "refutingxiaowei" | "whynaturecorruptsacademia" | "hownaturefosterscorruption" | "cargocultpowerhypocrisy" | "tragedyconscientiousscholars" | "whyoutstandingscholars" | "solitarywalkerabyss" | "philosophersdiagnosestagnation" | "xiyinaiinnovation" | "demarcationscientificcritique" | "universallawofcollectivesilence" | "fallacyofloweq" | "anatomyofsupremeintuition" | "waveparticledualityontology" | "mathematicalrigortwoerrors">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -342,6 +351,15 @@ export default function IntegratedArticle() {
             activeArticle === "cargocultpowerhypocrisy" ? "cargocult-power-hypocrisy-article-text" :
             activeArticle === "tragedyconscientiousscholars" ? "tragedy-conscientious-scholars-article-text" :
             activeArticle === "whyoutstandingscholars" ? "why-outstanding-scholars-article-text" :
+            activeArticle === "solitarywalkerabyss" ? "solitary-walker-abyss-article-text" :
+            activeArticle === "philosophersdiagnosestagnation" ? "philosophers-diagnose-science-stagnation-article-text" :
+            activeArticle === "xiyinaiinnovation" ? "xiyin-ai-innovation-article-text" :
+            activeArticle === "demarcationscientificcritique" ? "demarcation-scientific-critique-article-text" :
+            activeArticle === "universallawofcollectivesilence" ? "universal-law-collective-silence-article-text" :
+            activeArticle === "fallacyofloweq" ? "fallacy-low-eq-article-text" :
+            activeArticle === "anatomyofsupremeintuition" ? "anatomy-supreme-intuition-article-text" :
+            activeArticle === "waveparticledualityontology" ? "wave-particle-duality-article-text" :
+            activeArticle === "mathematicalrigortwoerrors" ? "mathematical-rigor-two-errors-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -2445,6 +2463,114 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
             Essay FQ: Why Outstanding Scholars Refuse to Flatter Authorities (Real Competence & Unbending Dignity)
+          </button>
+          <button
+            onClick={() => setActiveArticle("solitarywalkerabyss")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "solitarywalkerabyss"
+                ? "bg-slate-955 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-955"
+            }`}
+            id="toggle-article-solitarywalkerabyss"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-300 animate-pulse" />
+            Essay FR: The Solitary Walker Who Emerged from the Abyss (Either Gods or Demons)
+          </button>
+          <button
+            onClick={() => setActiveArticle("philosophersdiagnosestagnation")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "philosophersdiagnosestagnation"
+                ? "bg-indigo-955 text-white shadow-sm animate-pulse"
+                : "text-indigo-900 hover:bg-indigo-50 hover:text-indigo-955"
+            }`}
+            id="toggle-article-philosophersdiagnosestagnation"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FS: Philosophers Diagnose Science Stagnation (Marx, Böhm-Bawerk, Mises, Weber, Schumpeter, Gemini)
+          </button>
+          <button
+            onClick={() => setActiveArticle("xiyinaiinnovation")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "xiyinaiinnovation"
+                ? "bg-cyan-955 text-white shadow-sm animate-pulse"
+                : "text-cyan-900 hover:bg-cyan-50 hover:text-cyan-955"
+            }`}
+            id="toggle-article-xiyinaiinnovation"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-400 animate-pulse" />
+            Essay FT: Like the Typewriter in History, Laws Cannot Stop AI (Xi Yin & Pragmatic Innovation)
+          </button>
+          <button
+            onClick={() => setActiveArticle("demarcationscientificcritique")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "demarcationscientificcritique"
+                ? "bg-violet-955 text-white shadow-sm animate-pulse"
+                : "text-violet-900 hover:bg-violet-50 hover:text-violet-955"
+            }`}
+            id="toggle-article-demarcationscientificcritique"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FU: Demarcation Between Scientific Critique and Naive Intuition (Relativity vs Wave Mechanics)
+          </button>
+          <button
+            onClick={() => setActiveArticle("universallawofcollectivesilence")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "universallawofcollectivesilence"
+                ? "bg-rose-955 text-white shadow-sm animate-pulse"
+                : "text-rose-900 hover:bg-rose-50 hover:text-rose-955"
+            }`}
+            id="toggle-article-universallawofcollectivesilence"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-400 animate-pulse" />
+            Essay FV: The Universal Law of Collective Silence (Chen Jianguo Analogy & 50-Year Complicity)
+          </button>
+          <button
+            onClick={() => setActiveArticle("fallacyofloweq")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "fallacyofloweq"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-fallacyofloweq"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FW: The Fallacy of "Low EQ" (Refusing to Bow to Mediocrity)
+          </button>
+          <button
+            onClick={() => setActiveArticle("anatomyofsupremeintuition")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "anatomyofsupremeintuition"
+                ? "bg-emerald-955 text-white shadow-sm animate-pulse"
+                : "text-emerald-900 hover:bg-emerald-50 hover:text-emerald-955"
+            }`}
+            id="toggle-article-anatomyofsupremeintuition"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-emerald-400 animate-pulse" />
+            Essay FX: The Anatomy of Supreme Intuition & Solitude (Perception, Causal Depth & Autodidacticism)
+          </button>
+          <button
+            onClick={() => setActiveArticle("waveparticledualityontology")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "waveparticledualityontology"
+                ? "bg-cyan-955 text-white shadow-sm animate-pulse"
+                : "text-cyan-900 hover:bg-cyan-50 hover:text-cyan-955"
+            }`}
+            id="toggle-article-waveparticledualityontology"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-cyan-400 animate-pulse" />
+            Essay FY: The Ontological Reality of Wave-Particle Duality (Attributes vs. Trajectory Fallacy)
+          </button>
+          <button
+            onClick={() => setActiveArticle("mathematicalrigortwoerrors")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "mathematicalrigortwoerrors"
+                ? "bg-amber-955 text-white shadow-sm animate-pulse"
+                : "text-amber-900 hover:bg-amber-50 hover:text-amber-955"
+            }`}
+            id="toggle-article-mathematicalrigortwoerrors"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-amber-400 animate-pulse" />
+            Essay FZ: Mathematical Rigor & The Two Classes of Theoretical Error (Impedance Matching vs. Broken Formulas)
           </button>
         </div>
       </div>
@@ -9107,6 +9233,42 @@ export default function IntegratedArticle() {
 
       {activeArticle === "whyoutstandingscholars" && (
         <WhyOutstandingScholarsRefuseToFlatterEssay />
+      )}
+
+      {activeArticle === "solitarywalkerabyss" && (
+        <SolitaryWalkerAbyssEssay />
+      )}
+
+      {activeArticle === "philosophersdiagnosestagnation" && (
+        <PhilosophersDiagnoseScienceStagnationEssay />
+      )}
+
+      {activeArticle === "xiyinaiinnovation" && (
+        <XiYinAIInnovationEpistemologyEssay />
+      )}
+
+      {activeArticle === "demarcationscientificcritique" && (
+        <DemarcationScientificCritiqueVsNaiveIntuitionEssay />
+      )}
+
+      {activeArticle === "universallawofcollectivesilence" && (
+        <UniversalLawOfCollectiveSilenceEssay />
+      )}
+
+      {activeArticle === "fallacyofloweq" && (
+        <FallacyOfLowEQAndIntellectualSovereigntyEssay />
+      )}
+
+      {activeArticle === "anatomyofsupremeintuition" && (
+        <AnatomyOfSupremeIntuitionAndSolitudeEssay />
+      )}
+
+      {activeArticle === "waveparticledualityontology" && (
+        <WaveParticleDualityOntologyEssay />
+      )}
+
+      {activeArticle === "mathematicalrigortwoerrors" && (
+        <MathematicalRigorAndTwoClassesOfErrorEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
