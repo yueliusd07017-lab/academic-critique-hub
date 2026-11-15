@@ -52,12 +52,12 @@ As documented in:
 - New York Times (Oct 16, 2018) on the Harvard/Anversa scandal: "...some scientists wondered how a questionable line of research persisted for so long ... experts were just too timid to take a stand."
 - Simine Vazire, "A toast to the error detectors", Nature 577(7788), 9 (2020) (DOI: 10.1038/d41586-019-03909-2): a postdoc who published an accurate, measured commentary correcting a famous researcher was warned by his adviser that criticizing a senior scientist "crossed a line, and he should never do it again."
 
-7. PUBLIC MEDIA CENSORSHIP — WHAT MODERN ACADEMIA NEEDS MOST IS INCISIVE CRITICISM:
-Documented screenshots from public science media (ScienceNet / KeXueWang) prove suppression goes far beyond journals:
-- Posts solving real physics via Wave Mechanics Theory, criticizing the regression to medieval alchemy, and calling for incisive academic criticism are stamped "Failed Review" (Shenhe Weitongguo).
-- Posts and comments addressing critiques or denials of quantum mechanics and relativity—including Dr. Liu's defense of quantum angular momentum against classical mechanical reductionism and replies on Einstein's 1905 papers—are stamped "Failed Review."
-- Even a reply explaining why institutional peer-review rejection letters are not shielded by individual privacy law, and a philosophical remark that conformity never yields innovation, are censored.
-What is the modern scientific establishment protecting, and what is it suppressing?
+7. PUBLIC MEDIA CENSORSHIP & NATURE REHABILITATING FRAUDSTERS — TEARING OFF THE MASK OF "PROTECTING CONSENSUS":
+Two lines of irrefutable proof show the establishment can NO LONGER hide behind the excuse of "protecting scientific consensus":
+- Suppressing Wave Mechanics Theory might still be excused as "protecting consensus."
+- HOWEVER, opposing relativity and quantum mechanics is ANTI-CONSENSUS pseudoscience. Yet on public science media (ScienceNet / KeXueWang), Dr. Liu's essay REFUTING anti-quantum pseudoscience ("Shallow Classical Mechanism vs. Quantum Angular Momentum") and replies on Einstein's 1905 papers were stamped "Failed Review" (Shenhe Weitongguo)—alongside Wave Mechanics posts, anti-alchemy warnings, Carbon rejection privacy replies, and anti-conformity comments. Banning the refutation of pseudoscience is actively protecting pseudoscience!
+- Equally damning: when Nature and its sub-journals repeatedly vouch for and rehabilitate sanctioned fraudsters—restoring their status to peer-review papers and judge grants while error-detectors are silenced—that is NOT protecting consensus either; it is protecting pseudoscience and misconduct!
+Protecting pseudoscience has completely torn off the painted mask of the modern scientific establishment. What is modern science protecting, and what is it suppressing?
 
 8. THE METRICS PARADOX — CITATIONS & YOUTUBE VIEWS VS. SCIENTIFIC TRUTH:
 Flawed Impedance Matching papers earn hundreds of citations; rigorous Substack essays and YouTube forensic videos exposing the truth attract tiny audiences. Both academia (citations/Impact Factor) and digital platforms (views/clicks) judge value by popularity metrics rather than substantive truth. Popularity statistics will never guide genuine scientific progress.
@@ -129,17 +129,18 @@ First, in the October 16, 2018 New York Times report on the Harvard and Piero An
 Second, in Nature, Volume 577, January 2020, editor Simine Vazire wrote in "A toast to the error detectors": "Last month, I got a private Twitter message from a postdoc bruised by the clash between science as it is and how it should be. He had published a commentary in which he pointed out errors in a famous researcher's paper. The critique was accurate, important and measured—a service to his field. But it caused him problems: his adviser told him that publishing the criticism had crossed a line, and he should never do it again."
 When accurate, measured criticism of a famous researcher "crosses a line," science ceases to be science—it becomes an authoritarian guild protecting garbage!
 
-[Scene 7: Public Media Censorship — What Academia Needs Most Is Incisive Criticism]
-And do not imagine this suppression stays locked inside private peer-review systems. It now governs public scientific media as well!
+[Scene 7: Protecting Pseudoscience Tears Off Modern Science's Mask]
+And do not imagine this suppression stays locked inside private peer-review systems. It now governs public scientific media as well—and when we combine it with flagship journal behavior, the final excuse of modern academia collapses completely!
 What modern academia needs most today is incisive, uncompromising criticism. Yet look at our documented moderation logs on ScienceNet—one of China's premier public science platforms.
-Four substantive blog essays are stamped with the red label "Failed Review"—literally blocked from public view:
-Articles applying Wave Mechanics Theory to concrete microwave absorber design;
-Essays warning that conflating first-principles mathematical logic with phenomenological curve fitting drags science back to medieval alchemy;
-Articles quoting our Forensic Dissection of Carbon under the title "Modern Academia Needs This Kind of Incisive Academic Criticism"—blocked!
-Even more revealing: posts and replies touching critiques or denials of relativity and quantum mechanics are stamped "Failed Review"—including our own essay defending quantum angular momentum against shallow classical orbital reductionism, and two replies asking whether Einstein's 1905 miracle-year papers passed peer review!
-Even a reply explaining why institutional rejection letters from journals like Carbon are NOT shielded by individual privacy law, and a comment noting that "conformity never produces innovation; new ideas emerge by resisting mainstream thought," were BOTH blocked as "Failed Review"!
-Stop and ask yourself the ultimate question of this series: What exactly is modern science protecting, and what is it suppressing?
-It is protecting institutional authority, consensus orthodoxy, and the secrecy of erroneous peer review. And it is suppressing incisive mathematical criticism, first-principles problem-solving, and independent thought itself!
+Substantive blog essays are stamped with the red label "Failed Review": articles applying Wave Mechanics Theory to concrete absorber design; essays warning that conflating first-principles math with curve fitting drags science back to medieval alchemy; and articles titled "Modern Academia Needs This Kind of Incisive Academic Criticism."
+Now look closely at WHY the excuse "the mainstream is just protecting consensus" no longer works at all!
+When the establishment suppresses Wave Mechanics Theory, apologists might still claim it is merely protecting accepted consensus.
+WAIT A SECOND! Opposing relativity and quantum mechanics are ANTI-consensus positions—pure pseudoscience! Yet our essay REFUTING an anti-quantum-mechanics video, defending quantum angular momentum against shallow classical mechanism, along with replies on Einstein's 1905 papers, were ALSO stamped "Failed Review"!
+Silencing an article that refutes anti-quantum pseudoscience is NO LONGER protecting consensus—it is actively protecting pseudoscience!
+And look at the exact parallel at the very summit of prestige publishing: when Nature and its sub-journals repeatedly stand behind and rehabilitate sanctioned fraudsters—publishing their new manuscripts and restoring their power as peer reviewers and grant judges—is THAT protecting scientific consensus? Of course not! Vouching for fraudsters is protecting pseudoscience and misconduct!
+Think about what these two facts prove together: whether banning rebuttals of anti-quantum pseudoscience on public media, blocking remarks on institutional rejection secrecy and anti-conformity, or Nature and its sub-journals vouching for sanctioned fraudsters, the establishment can NO LONGER defend itself by claiming to protect scientific consensus!
+Protecting pseudoscience has completely torn off the painted mask of the modern scientific establishment!
+What is modern science protecting? Pseudoscience, institutional prestige, fraudsters, and hidden blunders. And what is it suppressing? Incisive mathematical criticism, first-principles problem-solving, and independent thought!
 
 [Scene 8: Epilogue — The Tyranny of Popularity Metrics vs. Truth]
 Finally, look at the cruel paradox governing our audience and digital algorithms today.
@@ -294,24 +295,27 @@ Thank you for watching Part One of our Series Finale. In Part Two, we will close
         <div className="bg-rose-50/70 border border-rose-200 p-5 rounded-xl space-y-4">
           <h3 className="font-sans font-bold text-rose-950 text-base flex items-center gap-2">
             <Lock className="w-4 h-4 text-rose-700 shrink-0" />
-            8. What Modern Academia Needs Most Is Incisive Criticism: Public Media Censorship &amp; What Science Is Protecting vs. Suppressing
+            8. What Modern Academia Needs Most Is Incisive Criticism: Protecting Pseudoscience Tears Off Modern Science&apos;s Painted Mask
           </h3>
           <p className="text-sm text-slate-800">
-            Suppression is no longer confined to closed journal peer review; it operates openly across public scientific platforms. Documented ScienceNet (科学网) moderation logs show that posts solving real physical problems and calling for sharp critique are systematically stamped <strong>&ldquo;Failed Review&rdquo; (审核未通过)</strong>:
+            Documented ScienceNet (科学网) censorship logs alongside elite journal behavior dismantle the establishment&apos;s last possible alibi&mdash;that suppression merely &ldquo;protects scientific consensus&rdquo;:
           </p>
           <ul className="list-disc pl-5 text-sm text-slate-800 space-y-1.5">
             <li>
-              <strong>Problem-solving Wave Mechanics Theory blocked:</strong> Articles presenting concrete absorber design via Wave Mechanics Theory (<em>回答小微（微信AI）的自问自答（4）</em>), warning against regression into medieval alchemy, and calling for incisive critique (<em>现代学术界需要这种尖锐的学术评论</em>) were all stamped <strong>审核未通过</strong>.
+              <strong>Wave Mechanics Theory vs. &ldquo;protecting consensus&rdquo;:</strong> Suppressing Wave Mechanics articles&mdash;concrete absorber design (<em>回答小微（微信AI）的自问自答（4）</em>), anti-alchemy warnings, and calls for sharp critique (<em>现代学术界需要这种尖锐的学术评论</em>)&mdash;might still be excused as the mainstream &ldquo;protecting consensus.&rdquo;
             </li>
             <li>
-              <strong>Relativity &amp; Quantum Mechanics discussions blocked:</strong> Posts and replies concerning critiques or denials of relativity and quantum mechanics&mdash;even Dr. Liu&apos;s essay defending quantum angular momentum against shallow classical orbital reductionism (<em>经典机械论的浅薄 vs. 量子角动量</em>) and comments on Einstein&apos;s 1905 papers (<code>[547]</code>, <code>[548]</code>)&mdash;were stamped <strong>审核未通过</strong>.
+              <strong>Silencing rebuttals of anti-quantum pseudoscience proves it protects pseudoscience, not consensus:</strong> Opposing relativity and quantum mechanics is an <em>anti-consensus</em>, pseudoscientific position. Yet Dr. Liu&apos;s essay <em>refuting</em> an anti-quantum video&mdash;defending quantum angular momentum against shallow classical mechanical orbital reductionism (<em>经典机械论的浅薄 vs. 量子角动量</em>)&mdash;along with replies on Einstein&apos;s 1905 papers (<code>[547]</code>, <code>[548]</code>), were ALSO stamped <strong>审核未通过</strong>. Banning arguments that refute pseudoscience is actively <strong>protecting pseudoscience</strong>!
             </li>
             <li>
-              <strong>Peer-review transparency &amp; anti-conformity blocked:</strong> Reply <code>[550]</code> explaining why erroneous institutional rejection letters (e.g., <em>Carbon</em>) are not protected by individual privacy law, reply <code>[549]</code> reviewing mainstream SCI physics articles, and even comment <code>[3]/[551]</code> stating that <em>&ldquo;conformity never yields innovation; new ideas emerge from resisting mainstream thought&rdquo;</em> were all blocked.
+              <strong><em>Nature</em> and its sub-journals vouching for fraudsters proves the same truth:</strong> When <em>Nature</em> and its sister journals repeatedly stand behind and rehabilitate sanctioned fraudsters&mdash;publishing their work and restoring them as peer reviewers and grant evaluators&mdash;that is likewise NOT protecting consensus; it is protecting pseudoscience and misconduct.
+            </li>
+            <li>
+              <strong>Peer-review transparency &amp; anti-conformity blocked:</strong> Reply <code>[550]</code> explaining why erroneous institutional rejection letters (e.g., <em>Carbon</em>) are not protected by individual privacy law, reply <code>[549]</code> reviewing mainstream SCI physics articles, and comment <code>[3]/[551]</code> stating that <em>&ldquo;conformity never yields innovation; new ideas emerge from resisting mainstream thought&rdquo;</em> were all blocked.
             </li>
           </ul>
           <p className="text-sm font-bold text-rose-950">
-            Core Indictment: What is the modern scientific establishment protecting (institutional authority, consensus conformity, and hidden peer-review blunders), and what is it suppressing (incisive academic criticism, Wave Mechanics problem-solving, and independent thought)?
+            Core Indictment: You can no longer invoke &ldquo;protecting consensus&rdquo; to defend modern academia. Protecting pseudoscience&mdash;both by silencing anti-pseudoscience rebuttals and by rehabilitating fraudsters at <em>Nature</em>&mdash;has completely torn off the painted mask (彻底撕下了画皮) of the modern scientific establishment.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
             <figure className="bg-white p-2.5 rounded-lg border border-rose-200 space-y-1.5">
