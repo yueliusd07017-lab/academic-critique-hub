@@ -26,8 +26,9 @@ When critics state that over 95 percent of modern SCI papers are garbage, mainst
 
 Fortunately, LOGIC is more decisive than brute-force headcounts. In this episode, Dr. Yue Liu synthesizes seven cumulative proofs—and introduces a devastating new structural proof built directly on our audit of glossy flagship-journal cartoons ("Pretty Pictures, Shallow Theory") and Yang et al. (Adv. Electron. Mater. 2025):
 
-1. RESEARCHERS VS. PROFESSIONAL COPYWRITERS:
-When handed raw experimental materials (numbers and microscopy images), a genuine RESEARCHER digs into those materials to uncover physical problems and extract deep laws. A COPYWRITER simply arranges and decorates those numbers and glossy 3D cartoons into an eye-catching, publishable story. Modern academia is no longer led by problem-solvers—it has turned into a guild of copywriters.
+1. RESEARCHERS VS. PROFESSIONAL COPYWRITERS ("CHANG'E & CALABASH BROTHERS" FREE-ASSOCIATION VS. SEEING TO THE BONE):
+- What COPYWRITERS do out of theoretical poverty: Instead of studying the physics inside numbers and images, they invent associative storytelling ("Chang'e Flying to the Moon" and "Calabash Brothers" leaps): equating Zin and ZM; equating film and interface; equating film and material; mistaking RL caused by front/back interface reflection interference for a standing wave of incident and reflected waves; mistaking wave superposition for energy addition/subtraction; and turning the inverse thickness-frequency formula into "permittivity is a function of thickness."
+- What GENUINE RESEARCHERS do on solid theory and logic: They cut straight to the bone and see what consensus misses—seeing that interfaces absorb ZERO microwaves; that if a material absorbs zero, a metal-backed film absorbs zero; that the penetrating microwave voltage inside a film can exceed the incident voltage; that 100 percent wave entry produces NO absorption peak; that a film absorbs according to wave-interference requirements rather than optical-path material attenuation; and that more wave entry plus higher material loss does NOT automatically improve film absorption.
 
 2. THE DOUBLE INVERSION OF TOPIC SELECTION & "OUT OF SCOPE" GATEKEEPING:
 - Authors no longer decide what scientific problem is worth solving; they invite journal Editors-in-Chief to instruct them on which hot topics sell and how to package raw data into a trendy narrative.
@@ -48,11 +49,11 @@ Modern science worships statistical headcounts and experimental piles while dism
 TIMESTAMPS:
 00:00 - Scene 1: Prologue — Why Demanding an Impossible Paper-by-Paper Census Is a Shield for Garbage
 02:00 - Scene 2: The Cumulative Logical Proofs (From Yang et al. 2025 to Newton's Era & Musk)
-04:35 - Scene 3: Researchers vs. Copywriters — What Happens When Scientists Receive Raw Data?
-07:05 - Scene 4: Editors Preset the Mold, Authors Beg for Topic Orders ("Out of Scope" Censorship)
-09:30 - Scene 5: Why This Inverted System Must Mathematically Produce Over 95% Garbage
-11:15 - Scene 6: Logic Beats Brute-Force Statistics — Why Data-Worship Crushes Innovation
-12:50 - Scene 7: Epilogue — Reclaiming Science From Copywriters
+04:35 - Scene 3: Researchers vs. Copywriters — Seeing to the Bone vs. "Chang'e & Calabash Brothers" Free-Association
+08:35 - Scene 4: Editors Preset the Mold, Authors Beg for Topic Orders ("Out of Scope" Censorship)
+11:00 - Scene 5: Why This Inverted System Must Mathematically Produce Over 95% Garbage
+12:45 - Scene 6: Logic Beats Brute-Force Statistics — Why Data-Worship Crushes Innovation
+14:20 - Scene 7: Epilogue — Reclaiming Science From Copywriters
 
 Key References Cited:
 - Forensic Dissection Case 2: Deconstructing Yang et al. (Adv. Electron. Mater. 2025)
@@ -79,15 +80,29 @@ Fifth, blunt admissions from inside the elite itself: Elon Musk and Nobel laurea
 Sixth, universal scholarly cowardice—scientists terrified to correct errors or take a principled stand even in small disputes.
 And seventh, intergenerational vested interests passing down power, funding, and citation cartels like a hereditary guild!
 
-[Scene 3: Researchers vs. Copywriters — What Happens When Scientists Receive Raw Data?]
+[Scene 3: Researchers vs. Copywriters — Seeing to the Bone vs. "Chang'e & Calabash Brothers" Free-Association]
 Now let us add the decisive logical proof revealed by our previous forensic audit: "Pretty Pictures, Shallow Theory: How Glossy Flagship Cartoons Mislead Microwave Absorption Science."
-Watch closely what happens the moment a modern scientist sits down with raw experimental materials—a table of numbers and a folder of microscopy images.
-What does a genuine RESEARCHER do with those raw materials?
-A real researcher treats numbers and images as clues to an unsolved physical puzzle! A researcher asks: What deep mechanism am I missing? Do my equations actually describe this film? Where does my assumption contradict Maxwell or thermodynamics? A researcher digs downward into the hidden information inside the data!
-Now watch what a modern flagship-journal scientist actually does with the exact same numbers and images:
-They do NOT investigate the underlying problem at all! Instead, they organize the numbers, call a graphic designer for shiny 3D hollow spheres, zig-zag lightning arrows, and neon waterfall plots, and stitch the materials into an attractive, marketable article!
-Let us call this spade by its real name: a person who digs for truth inside raw materials is a RESEARCHER. A person who packages raw materials into an appealing story is a COPYWRITER!
-Modern academia is no longer driven by problem researchers—its mainstream practitioners have degenerated into professional copywriters!
+Watch closely what happens the moment someone sits down with raw experimental materials—numbers and microscopy images.
+What does a modern COPYWRITER do with them?
+Because of extreme theoretical poverty, copywriters cannot analyze the equations—so they excel at "Chang'e Flying to the Moon" and "Calabash Brothers" style creative free-association! From every imaginable angle, they imaginatively glue totally different physical concepts into the exact same muddy story:
+They equate input impedance Z-in with material characteristic impedance Z-M as if they were the same thing!
+They equate the film and the interface as if they were the same thing!
+They equate the film and the material as if they were the same thing!
+They look at Reflection Loss—governed by interference between waves reflected from the front and back interfaces of a film—and creatively associate it with a standing wave between the incident microwave and the reflected microwave!
+They take wave superposition and freely associate it with simple addition and subtraction of energy!
+And they take the inverse proportionality between film thickness and frequency and creatively declare that the material's permittivity is a function of material thickness!
+That is pure copywriting—decorating raw data with fairy-tale associations instead of solving physics!
+
+Now contrast that with what a genuine RESEARCHER does with the EXACT SAME data!
+Standing on a solid theoretical foundation, a genuine researcher uses rigorous logical analysis to pierce straight through the surface of the numbers and see all the way to the bone!
+A true researcher sees what nobody else saw—and sees truths diametrically opposed to mainstream consensus:
+A researcher sees that an interface itself absorbs ZERO microwaves!
+A researcher sees that if the material absorbs zero microwaves, a metal-backed film made of it absorbs ZERO microwaves too!
+A researcher sees that the voltage amplitude of the penetrating wave inside the film can actually exceed the voltage of the incident wave!
+A researcher sees that even if one hundred percent of the incident microwave enters the film, it produces NO microwave absorption peak!
+A researcher sees that a film absorbs microwaves according to the demands of wave interference—NOT simply according to material attenuation along the optical path!
+And a researcher sees that more microwave energy entering the film paired with higher intrinsic material attenuation does NOT automatically yield better microwave absorption for the film!
+Seeing straight to the bone versus spinning "Chang'e and Calabash Brothers" associations—that is the exact boundary between a researcher and a copywriter! And today's SCI establishment is dominated by copywriters!
 
 [Scene 4: Editors Preset the Mold, Authors Beg for Topic Orders]
 Once you recognize that scientists have turned into copywriters, look at how the entire publishing pipeline operates—and see why over ninety-five percent garbage is not an accident, but a mathematical certainty!
@@ -209,23 +224,39 @@ Thank you for watching—and for defending real science.`;
 
         {/* Contrast: Researcher vs. Copywriter */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="bg-emerald-50/70 border border-emerald-200 p-5 rounded-xl space-y-2">
+          <div className="bg-emerald-50/70 border border-emerald-200 p-5 rounded-xl space-y-2.5">
             <h3 className="font-sans font-bold text-emerald-950 text-sm flex items-center gap-2">
               <Layers className="w-4 h-4 text-emerald-700 shrink-0" />
-              What a Real Researcher Does With Raw Data
+              Real Researchers: Seeing Straight to the Bone (看到骨头、入木三分)
             </h3>
-            <p className="text-sm text-slate-800">
-              Upon receiving experimental numbers and microscopy images, a genuine <strong>researcher</strong> mines those materials to <strong>uncover physical problems</strong>, extract deep hidden laws, and test where existing theory fails.
+            <p className="text-xs text-slate-700">
+              Standing on solid theory and logical analysis, researchers pierce raw numbers to see what others missed and what opposes consensus:
             </p>
+            <ul className="text-xs text-slate-800 space-y-1.5 list-disc pl-4">
+              <li>An <strong>interface absorbs zero microwaves</strong>.</li>
+              <li>If a <strong>material does not absorb microwaves</strong>, a metal-backed film made of it absorbs zero microwaves either.</li>
+              <li>The voltage of the <strong>penetrating microwave</strong> inside a film can be <strong>higher than the incident voltage</strong>.</li>
+              <li><strong>100% wave entry</strong> into a film produces <strong>no absorption peak</strong>.</li>
+              <li>A film absorbs according to <strong>wave interference requirements</strong>, not optical-path material attenuation.</li>
+              <li>More wave entry + stronger material attenuation does <strong>not</strong> automatically yield better film absorption.</li>
+            </ul>
           </div>
-          <div className="bg-rose-50/80 border border-rose-200 p-5 rounded-xl space-y-2">
+          <div className="bg-rose-50/80 border border-rose-200 p-5 rounded-xl space-y-2.5">
             <h3 className="font-sans font-bold text-rose-950 text-sm flex items-center gap-2">
               <PenTool className="w-4 h-4 text-rose-700 shrink-0" />
-              What Modern SCI Scientists Do (Copywriters)
+              Copywriters (写手): &ldquo;Chang&apos;e &amp; Calabash Brothers&rdquo; Free-Association
             </h3>
-            <p className="text-sm text-slate-800">
-              Instead of investigating physical problems inside data, modern scientists act as <strong>copywriters (写手)</strong>: they organize raw numbers and glossy 3D cartoons to decorate them into an <strong>eye-catching, publishable article</strong>.
+            <p className="text-xs text-slate-700">
+              Driven by extreme theoretical poverty, modern copywriters creatively conflate distinct physics into decorative stories:
             </p>
+            <ul className="text-xs text-slate-800 space-y-1.5 list-disc pl-4">
+              <li>Conflating <strong>Z<sub>in</sub></strong> and <strong>Z<sub>M</sub></strong> as the exact same thing.</li>
+              <li>Conflating the <strong>film</strong> and the <strong>interface</strong> as the same thing.</li>
+              <li>Conflating the <strong>film</strong> and the <strong>material</strong> as the same thing.</li>
+              <li>Associating front/back interface <strong>reflection interference</strong> with an incident/reflected <strong>standing wave</strong>.</li>
+              <li>Associating <strong>wave superposition</strong> with simple <strong>addition and subtraction of energy</strong>.</li>
+              <li>Turning the inverse <strong>thickness&ndash;frequency relation</strong> into &ldquo;permittivity is a function of thickness.&rdquo;</li>
+            </ul>
           </div>
         </div>
 
@@ -271,7 +302,7 @@ Thank you for watching—and for defending real science.`;
         <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-slate-900 pb-2 font-sans">
           <div className="flex items-center gap-2 font-bold text-xl text-slate-950">
             <Video className="w-6 h-6 text-rose-700" />
-            <h2>Part II: Complete 7-Scene Digital Avatar Broadcast Script (~13.5 Min)</h2>
+            <h2>Part II: Complete 7-Scene Digital Avatar Broadcast Script (~15.5 Min)</h2>
           </div>
           <button
             onClick={() => handleCopyText(spokenScriptText, "script-hb-mid")}
