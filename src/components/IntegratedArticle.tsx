@@ -180,9 +180,14 @@ import Why23300PapersYieldedZeroDesignRulesScript from "./Why23300PapersYieldedZ
 import GlossyCartoonsVsWaveMechanicsScript from "./GlossyCartoonsVsWaveMechanicsScript";
 import ResearchersVsCopywritersGarbageProofScript from "./ResearchersVsCopywritersGarbageProofScript";
 import ScienceBrokenBeyondFraudGarbageScript from "./ScienceBrokenBeyondFraudGarbageScript";
+import BreakingConsensusAndTrueTheoryScript from "./BreakingConsensusAndTrueTheoryScript";
+import LiuYueTheoryScienceIsLogicScript from "./LiuYueTheoryScienceIsLogicScript";
+import PhilosophicalFoundationsOfLiuYueThoughtScript from "./PhilosophicalFoundationsOfLiuYueThoughtScript";
+import SilenceInScienceIsCargoCultScript from "./SilenceInScienceIsCargoCultScript";
+import VideoCalloutAndRumorDefenseEssay from "./VideoCalloutAndRumorDefenseEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsoovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor" | "wang2021jcis" | "yang2025aelm" | "censoredsciencenet" | "naturestandingbehindfraudsters" | "refutingxiaowei" | "whynaturecorruptsacademia" | "hownaturefosterscorruption" | "cargocultpowerhypocrisy" | "tragedyconscientiousscholars" | "whyoutstandingscholars" | "solitarywalkerabyss" | "philosophersdiagnosestagnation" | "xiyinaiinnovation" | "demarcationscientificcritique" | "universallawofcollectivesilence" | "fallacyofloweq" | "anatomyofsupremeintuition" | "waveparticledualityontology" | "mathematicalrigortwoerrors" | "wavemechanicsmaterialdesign" | "deconstructingxiaoweiquarterwavelength" | "unbendingdignityagainstpaywall" | "classicalradiationquantumstationary" | "deeplearningtextbooksvsauthority" | "collectiveblindnessninetyninepercent" | "mathematicallogicfittingalchemy" | "naturerecklessgamblescript" | "rescuingcondemnedthoughts" | "cargocultdissectionprologue" | "forensicdissectionhou2024" | "electricmagneticontology" | "classicalvsquantummagn" | "forensicdissectionyang2025" | "forensicdissectionwang2021" | "forensicdissectionwang2012" | "forensicdissectionzhang2020" | "quantitativerigorvsqualitative" | "forensicdissectionli2025" | "establishmentneveradmitserrors" | "forensicdissectionzinzm3" | "forensicdissectionnespolo2017" | "forensicdissectionfinalepart1" | "forensicdissectionfinalepart2" | "moderncivilizationvsacademicdespotism" | "why23300paperszerodesignrules" | "glossycartoonsvswavemechanics" | "researchersvscopywritersgarbage" | "sciencebrokenbeyondfraudgarbage">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsoovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor" | "wang2021jcis" | "yang2025aelm" | "censoredsciencenet" | "naturestandingbehindfraudsters" | "refutingxiaowei" | "whynaturecorruptsacademia" | "hownaturefosterscorruption" | "cargocultpowerhypocrisy" | "tragedyconscientiousscholars" | "whyoutstandingscholars" | "solitarywalkerabyss" | "philosophersdiagnosestagnation" | "xiyinaiinnovation" | "demarcationscientificcritique" | "universallawofcollectivesilence" | "fallacyofloweq" | "anatomyofsupremeintuition" | "waveparticledualityontology" | "mathematicalrigortwoerrors" | "wavemechanicsmaterialdesign" | "deconstructingxiaoweiquarterwavelength" | "unbendingdignityagainstpaywall" | "classicalradiationquantumstationary" | "deeplearningtextbooksvsauthority" | "collectiveblindnessninetyninepercent" | "mathematicallogicfittingalchemy" | "naturerecklessgamblescript" | "rescuingcondemnedthoughts" | "cargocultdissectionprologue" | "forensicdissectionhou2024" | "electricmagneticontology" | "classicalvsquantummagn" | "forensicdissectionyang2025" | "forensicdissectionwang2021" | "forensicdissectionwang2012" | "forensicdissectionzhang2020" | "quantitativerigorvsqualitative" | "forensicdissectionli2025" | "establishmentneveradmitserrors" | "forensicdissectionzinzm3" | "forensicdissectionnespolo2017" | "forensicdissectionfinalepart1" | "forensicdissectionfinalepart2" | "moderncivilizationvsacademicdespotism" | "why23300paperszerodesignrules" | "glossycartoonsvswavemechanics" | "researchersvscopywritersgarbage" | "sciencebrokenbeyondfraudgarbage" | "breakingconsensusandtruetheory" | "liuyuetheoryscienceislogic" | "philosophicalfoundationsliuyue" | "silenceinscienceiscargocult" | "videocalloutandrumordefense">("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -418,6 +423,11 @@ export default function IntegratedArticle() {
             activeArticle === "glossycartoonsvswavemechanics" ? "glossy-cartoons-vs-wave-mechanics-article-text" :
             activeArticle === "researchersvscopywritersgarbage" ? "researchers-vs-copywriters-garbage-article-text" :
             activeArticle === "sciencebrokenbeyondfraudgarbage" ? "science-broken-beyond-fraud-garbage-article-text" :
+            activeArticle === "breakingconsensusandtruetheory" ? "breaking-consensus-and-true-theory-article-text" :
+            activeArticle === "liuyuetheoryscienceislogic" ? "liu-yue-theory-science-is-logic-article-text" :
+            activeArticle === "philosophicalfoundationsliuyue" ? "philosophical-foundations-liu-yue-article-text" :
+            activeArticle === "silenceinscienceiscargocult" ? "silence-in-science-cargo-cult-article-text" :
+            activeArticle === "videocalloutandrumordefense" ? "video-callout-rumor-defense-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -2977,6 +2987,66 @@ export default function IntegratedArticle() {
           >
             <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
             Essay HC: &ldquo;Is Science Broken?&rdquo; Beyond Data Fraud — Garbage Papers, Cargo Cult Science &amp; Returning to Newton&apos;s Era (Video Script)
+          </button>
+          <button
+            onClick={() => setActiveArticle("breakingconsensusandtruetheory")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "breakingconsensusandtruetheory"
+                ? "bg-slate-900 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-breakingconsensusandtruetheory"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay HD: Breaking Consensus, Garbage Harm &amp; Why True Theory Built AI, Chips &amp; Drones (Video Script)
+          </button>
+          <button
+            onClick={() => setActiveArticle("liuyuetheoryscienceislogic")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "liuyuetheoryscienceislogic"
+                ? "bg-slate-900 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-liuyuetheoryscienceislogic"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay HE: What Is Liu Yue&apos;s Theory? Science Is Logic; Experiment Is Alchemy (Video Script)
+          </button>
+          <button
+            onClick={() => setActiveArticle("philosophicalfoundationsliuyue")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "philosophicalfoundationsliuyue"
+                ? "bg-slate-900 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-philosophicalfoundationsliuyue"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay HF: Philosophical Foundations of Liu Yue&apos;s Thought — Idealistic Metaphysics vs. Alchemy (Video Script)
+          </button>
+          <button
+            onClick={() => setActiveArticle("silenceinscienceiscargocult")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "silenceinscienceiscargocult"
+                ? "bg-slate-900 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-silenceinscienceiscargocult"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay HG: &ldquo;Not Responding&rdquo; Works on Trolls—In Science, Refusing Public Challenges Is Being a Troll
+          </button>
+          <button
+            onClick={() => setActiveArticle("videocalloutandrumordefense")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold uppercase transition tracking-wider cursor-pointer ${
+              activeArticle === "videocalloutandrumordefense"
+                ? "bg-slate-900 text-white shadow-sm animate-pulse"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-videocalloutandrumordefense"
+          >
+            <Sparkles className="w-4 h-4 shrink-0 text-rose-500 animate-pulse" />
+            Essay HH: 再次叫号“论文没造假”——我的观点、主流话术与 Gemini 深度点评
           </button>
         </div>
       </div>
@@ -9791,6 +9861,26 @@ export default function IntegratedArticle() {
 
       {activeArticle === "sciencebrokenbeyondfraudgarbage" && (
         <ScienceBrokenBeyondFraudGarbageScript />
+      )}
+
+      {activeArticle === "breakingconsensusandtruetheory" && (
+        <BreakingConsensusAndTrueTheoryScript />
+      )}
+
+      {activeArticle === "liuyuetheoryscienceislogic" && (
+        <LiuYueTheoryScienceIsLogicScript />
+      )}
+
+      {activeArticle === "philosophicalfoundationsliuyue" && (
+        <PhilosophicalFoundationsOfLiuYueThoughtScript />
+      )}
+
+      {activeArticle === "silenceinscienceiscargocult" && (
+        <SilenceInScienceIsCargoCultScript />
+      )}
+
+      {activeArticle === "videocalloutandrumordefense" && (
+        <VideoCalloutAndRumorDefenseEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
