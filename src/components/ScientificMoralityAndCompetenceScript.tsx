@@ -32,57 +32,55 @@ export default function ScientificMoralityAndCompetenceScript() {
 
   const youtubeSafeDescription = `Title: Academia Calls Obedience "Character"—Why Real Scientific Morality Requires Theoretical Competence
 
-When someone witnesses rampant injustice and feels zero moral pain, that is NOT maturity and NOT "inner peace"—it is moral numbness and the death of conscience. If an injustice can crush someone else today, basic empathy AND basic logic prove it can crush you tomorrow. Silence destroys society's self-correcting compass.
+When someone witnesses rampant injustice and feels zero moral pain, that is NOT maturity and NOT "inner peace"—it is moral numbness and the death of conscience. Logic and empathy demand speaking out before injustice reaches you.
 
-Now apply that exact standard to modern academia, where establishment scientists constantly lecture that "a scientist's character matters more than academic ability."
-
-WHAT DOES MAINSTREAM ACADEMIA ACTUALLY MEAN BY "CHARACTER"?
-Not Feynman's scientific integrity. They mean OBEDIENCE—obedience to consensus, obedience to senior patrons, and silence before error.
-
-In this Digital Avatar commentary, Dr. Yue Liu dissects modern science's moral collapse across seven hard exhibits:
+Mainstream academia lectures that "character matters more than academic ability." Yet by "character," they mean OBEDIENCE—not Feynman's integrity. In this script, Dr. Yue Liu dissects the moral collapse of modern science:
 
 1. REWARDING COWARDICE & PUNISHING ERROR DETECTORS:
-- New York Times (Oct 16, 2018, Harvard cardiologist scandal): "experts were just too timid to take a stand."
+- NYT (Oct 16, 2018, Harvard cardiologist scandal): "experts were just too timid to take a stand."
 - Simine Vazire, Nature 577 (2020) 9: "his adviser told him that publishing the criticism had crossed a line, and he should never do it again."
 
-2. PROTECTING THE SYSTEM VIA TONE-POLICING:
-- Qeios 10.32388/5FRZHG: claims every study is "relatively correct or wrong according to the era" and demands "more polite and professional" writing.
-- Qeios 10.32388/4PN4RT: dismisses Nobel laureate Tasuku Honjo's warning that 90% of CNS top-journal views are wrong as an "exaggerated formulation."
+2. TONE-POLICING & SILENCING WARNINGS:
+- Qeios 10.32388/5FRZHG: claims every research is "relatively correct or wrong according to the era" and demands "more polite" writing.
+- Qeios 10.32388/4PN4RT: dismisses Nobel laureate Tasuku Honjo's 90% warning as an "exaggerated formulation."
 
-3. COLD INDIFFERENCE TO HUMAN TRAGEDIES:
-- Where was mainstream compassion for Zhu Yuejun (whose tragedy mainstream media suppressed), Yitang Zhang washing dishes (a past even Zhang avoids discussing), or Shu Xingbei suffering alone after correcting Wang Zhuxi's mistake?
+3. COLD INDIFFERENCE & NATURE'S BRAND-FIRST PR:
+- Zero empathy for Zhu Yuejun (reporting suppressed), Yitang Zhang washing dishes, or Shu Xingbei suffering alone after correcting Wang Zhuxi.
+- Nature calls fraud "isolated cases" while publishing sanctioned misconduct authors—caring only about reputation.
 
-4. INSTITUTIONAL HYPOCRISY AT NATURE:
-- Exposed for publishing widespread fraud, Nature's spokesperson calls it "isolated cases" while rushing to publish new work by sanctioned fraudsters—caring purely about brand reputation, never scientific ethics.
+4. FEYNMAN'S INTEGRITY VS. "CONTROVERSIAL" LABELS:
+- Impedance Matching Theory is mathematically refuted, with ZERO published rebuttals against Wave Mechanics—yet insiders still label Wave Mechanics "controversial."
 
-5. FEYNMAN'S INTEGRITY VS. "CONTROVERSIAL" LABELS:
-- Although Impedance Matching Theory in microwave absorption has been mathematically refuted in peer-reviewed literature and ZERO rebuttal papers exist against Wave Mechanics Theory, AI systems and mainstream insiders still parrot that Wave Mechanics "remains controversial."
+5. HIGH VISIBILITY, PRIORITY LAW & STEALTH Z_M REVISION:
+- Wave Mechanics Theory is highly visible and trivially searchable. In science, ONCE PUBLISHED, EVERYONE HAS SEEN IT (the legal basis of copyright, discovery priority, and submission timestamps).
+- "We didn't see it" hides true moral bankruptcy: omitting citations while stealthily altering Impedance Matching claims and fixing the Z_M sign issue behind the scenes (Case 3: Wang et al., JCIS 2021; Case 2: Yang et al., Adv. Electron. Mater. 2025; "The Illusion of Deep Understanding").
 
-6. DESTROYING THE "WE DIDN'T SEE IT" EXCUSE:
-- In science, ONCE A PAPER IS PUBLISHED, EVERYONE HAS SEEN IT. That is the entire legal and ethical foundation of copyright, discovery priority, and submission/publication timestamps. A later author cannot steal priority by claiming "I didn't read your paper." Claiming "mainstream scholars didn't see it" is moral evasion.
+6. COMPETENCE CREATES MORALITY & "BALANCED VIEW" SOPHISTRY:
+- Feynman's integrity came from theoretical mastery; modern Theoretical Poverty (SSRN 5463155) makes authorities terrified of math—exemplified by Eduard Arzt (Progress in Materials Science, Aug 31, 2025, D-25-00583) calling "correct theory" "extremely dubious."
 
-7. WHY ACADEMIC COMPETENCE DETERMINES SCIENTIFIC MORALITY:
-- Richard Feynman's integrity was towering because his theoretical competence was towering: he could tell true theory from false theory and knew persisting in falsehood is more shameful than making an initial mistake.
-- Today's theoretical poverty (SSRN 5463155) breeds low morality: when editors and reviewers cannot follow middle-school algebra and undergraduate wave superposition, they hide behind "balanced view" sophistry—like Eduard Arzt (Editor-in-Chief, Progress in Materials Science, Aug 31, 2025, D-25-00583) calling the very notion of a "correct theory" "extremely dubious."
+7. WHEN COMPLEXITY HIDES THE TRUTH (CHALLENGER & COLUMBIA):
+- Before Challenger, authorities put prestige over risk; afterward, they buried the simple root cause inside complex charts and hid truth in an appendix—repeating disaster with Columbia's foam strike, where ground control knew of damage yet withheld it.
+- Real solutions are simple. Shallow work looks "mysterious" and passes 15-day peer review; bone-deep truth looks "too simple" and gets rejected.
 
 TIMESTAMPS:
 00:00 - Scene 1: Prologue — Moral Numbness Is Not Maturity
 01:55 - Scene 2: What Mainstream Academia Calls "Character" Is Obedience
-03:45 - Scene 3: Coldness Toward Real Scholars' Tragedies & Nature's PR Ethics
+03:45 - Scene 3: Coldness Toward Real Tragedies & Nature's PR Ethics
 05:35 - Scene 4: Cargo Cult Consensus vs. Feynman's Integrity
-07:20 - Scene 5: Why "We Didn't See It" Violates the First Law of Scientific Priority
-09:10 - Scene 6: Competence Creates Morality — Feynman vs. Theoretical Poverty
-11:25 - Scene 7: Case Exhibit — Progress in Materials Science & "Balanced View" Sophistry
-13:20 - Scene 8: Epilogue — Speak Out Before the Injustice Reaches You
+07:20 - Scene 5: High Visibility, Priority Law & Stealth Z_M Revision Without Citation
+09:45 - Scene 6: Competence Creates Morality — Feynman vs. Theoretical Poverty
+11:55 - Scene 7: Progress in Materials Science & "Balanced View" Sophistry
+13:50 - Scene 8: Challenger, Columbia & Why Complexity Hides Simple Truth
+15:50 - Scene 9: Epilogue — Speak Out Before Injustice Reaches You
 
-Key References:
-- Liu, Yue, The Theoretical Poverty of Modern Academia (Sept 5, 2025). SSRN: https://ssrn.com/abstract=5463155 | http://dx.doi.org/10.2139/ssrn.5463155
+References:
+- Liu, Yue, The Theoretical Poverty of Modern Academia (2025). SSRN: https://ssrn.com/abstract=5463155 | http://dx.doi.org/10.2139/ssrn.5463155
 - Liu, Yue, Rethinking "Balanced View" in Scientific Controversies (2025), yueliusd.substack.com
-- S. Vazire, Nature 577(7788) (2020) 9, https://doi.org/10.1038/d41586-019-03909-2
-- Qeios DOIs: 10.32388/5FRZHG & 10.32388/4PN4RT
-- R. Feynman, "Cargo Cult Science" (Caltech, 1974)
+- Forensic Dissection Case 2 (Yang et al., AEM 2025) & Case 3 (Wang et al., JCIS 2021 — 15-Day Peer Review)
+- Wave Mechanics vs. Cargo-Cult Impedance Matching | When Complexity Hides the Truth
+- S. Vazire, Nature 577 (2020) 9 | Qeios: 10.32388/5FRZHG, 10.32388/4PN4RT
 
-#ScientificMorality #CargoCultScience #RichardFeynman #TheoreticalPoverty #AcademicIntegrity #PeerReviewCrisis`;
+#ScientificMorality #CargoCultScience #WhenComplexityHidesTruth #TheoreticalPoverty #AcademicIntegrity`;
 
   const spokenScriptText = `[Scene 1: Prologue — Moral Numbness Is Not Maturity]
 If a person witnesses rampant injustice, sees outrage after outrage, and feels no moral pain anymore—that is NOT maturity. That is NOT spiritual elevation. That is numbness, and the death of conscience.
@@ -123,15 +121,17 @@ Look at microwave absorption physics right now. Impedance Matching Theory has al
 Has even ONE mainstream scientist published a single paper refuting Wave Mechanics Theory? **NOT ONE!**
 Yet AI models and mainstream insiders still parrot that Wave Mechanics Theory "has not overturned Impedance Matching Theory" and still label Wave Mechanics "a controversial theory"!
 
-[Scene 5: Why "We Didn't See It" Violates the First Law of Scientific Priority]
+[Scene 5: High Visibility, Priority Law, and Stealth Revision Without Citation]
 Some AI defenders try to excuse mainstream silence politely: "Perhaps mainstream scientists simply didn't see the refutation, or saw it and felt it wasn't worth refuting publicly."
-Wait a second! Look at both halves of that excuse:
+Wait a second! Look at the reality first:
+Wave Mechanics Theory for microwave absorption is NOT buried in some obscure basement archive! It has long been a **highly visible, effortlessly searchable theory** indexed across major journals, preprints, and every scientific search engine!
 First, if an entire field's foundational theory is mathematically wrong and you decide verifying it is "not worth refuting," then either your theoretical competence is rock bottom, or you are openly practicing Cargo Cult Science!
-Second—**nobody saw it?!** One author missed a paper? Maybe. Two authors missed it? Perhaps. Thousands of authors, dozens of editors, and armies of peer reviewers all missed it across years of publications?!
+Second—**nobody saw it?!** One author missed a paper? Maybe. Two authors missed it? Perhaps. Thousands of authors, dozens of editors, and armies of peer reviewers all missed a highly visible, top-indexed theory across years of publications?!
 Remember the fundamental rule of science: **ONCE A PAPER IS PUBLISHED, EVERYONE HAS SEEN IT!**
 That is the ENTIRE legal and ethical foundation of copyright, invention priority, and scientific discovery! That is why every journal stamps the exact dates of submission, acceptance, and publication!
 No later author can steal an invention by saying, "Sorry, I didn't read your paper!"
-So claiming "we didn't see it" to dodge published refutations is not an innocent oversight—it is a brazen violation of scientific ethics used to cover up moral bankruptcy!
+Even worse—claiming "we didn't see it" is a deliberate smokescreen to cover up concrete moral corruption: **mainstream scientists refuse to cite Wave Mechanics Theory while stealthily revising Impedance Matching Theory and quietly updating their own claims behind the scenes!**
+Look at the **Z-M sign problem** and circuit-element confusion dissected in our forensic case studies—such as Wang et al. in JCIS 2021 with its fifteen-day peer review and illusion of "deep understanding," and Yang et al. in Advanced Electronic Materials 2025! Instead of citing Wave Mechanics openly and admitting error, mainstream authors silently patch equations, swap signs, and borrow our conclusions without attribution! That stealth revision without citation IS concrete proof of moral bankruptcy!
 
 [Scene 6: Academic Competence Creates Scientific Morality]
 Now we reach the deepest question of all: **Which is truly more fundamental—a scientist's "character" or a scientist's academic competence?**
@@ -150,9 +150,19 @@ Listen verbatim to the August 31, 2025 rejection letter from Eduard Arzt, Editor
 "Progress in Materials Science has a reputation for publishing only balanced review articles... Let me only state the notion of a 'correct theory' (which you are alluding to) is already extremely dubious: philosophy of science has shown that theories are always approximations to reality and can never be proven, but only disproven by conflicting experimental data. In that sense, the style of your reply reinforces my original decision."
 Hear that?! A flagship materials-science Editor-in-Chief literally declares that the very notion of a **"correct theory"** is "extremely dubious," refuses to judge mathematical proof, hides behind "balanced view," and uses "the style of your reply" as grounds for rejection! That is the exact institutional sophistry analyzed in "Rethinking 'Balanced View' in Scientific Controversies"!
 
-[Scene 8: Epilogue — Speak Out Before the Injustice Reaches You]
+[Scene 8: When Complexity Hides the Truth — Challenger, Columbia, and Why Shallow Papers Win]
+Let us expose one final trick of Cargo-Cult morality: **using artificial complexity to bury simple truth!**
+Look at the **Challenger space shuttle disaster**. The root cause was NOT complicated! Before the launch, NASA authorities put institutional honor and schedule pride above glaring technical risk. After the disaster, to evade accountability, those same authorities buried the simple cause beneath towering, impenetrable charts—and tucked the real reason away inside an appendix!
+And what happened because institutions evaded the simple truth? History repeated itself with the **Columbia disaster**! A piece of insulating foam tore into the wing—and devastatingly, ground authorities ALREADY KNEW the orbiter was damaged, yet withheld the warning from the astronauts!
+Now look at academic publishing through that exact lens:
+**The principle that truly solves a scientific problem is ALWAYS simple!**
+When research is shallow and has NOT grasped the true essence of a problem, experimental curves look mysterious, intricate, and impressively "worthy of publication"—producing the illusion of deep understanding!
+When research cuts **straight to the bone** and reveals that a simple fundamental law explains everything, gatekeepers dismiss it as "too simple, not novel enough to publish"!
+THAT is why superficial, over-complicated garbage sails through fifteen-day peer reviews into top journals, while deep, bone-penetrating theoretical truth gets rejected!
+
+[Scene 9: Epilogue — Speak Out Before the Injustice Reaches You]
 Real scientific morality is forged from two unbreakable pillars: **theoretical competence** strong enough to tell truth from error, and **moral conscience** brave enough to reject numbness and speak out.
-Do not mistake timidity for professionalism, obedience for character, or silence for maturity. Speak up while you still feel moral pain—because when everyone goes silent, truth has no defenders left. Thank you for watching.`;
+Do not mistake timidity for professionalism, obedience for character, stealth revision for innovation, or artificial complexity for depth. Speak up while you still feel moral pain—because when everyone goes silent, truth has no defenders left. Thank you for watching.`;
 
   const keyPillars = [
     {
@@ -166,14 +176,14 @@ Do not mistake timidity for professionalism, obedience for character, or silence
         "Exhibits: NYT Harvard scandal ('experts were just too timid to take a stand'), Simine Vazire Nature 2020 ('crossed a line'), Qeios 5FRZHG & 4PN4RT tone-policing, and cold indifference toward Zhu Yuejun, Yitang Zhang, and Shu Xingbei.",
     },
     {
-      title: "3. “没看到”违背科学首创权第一铁律",
+      title: "3. “没看到”谎言与不引用的偷偷修改",
       detail:
-        "Published = Seen. Copyright and discovery priority depend strictly on submission/publication timestamps. Using 'mainstream authors didn't see your refutation' is an ethical evasion covering up Cargo Cult Science.",
+        "Wave Mechanics is highly visible and easily searchable; Published = Seen. Excusing silence as 'not seen' covers up stealth revisions without citation—such as silently patching the Z_M sign error (Wang et al. JCIS 2021; Yang et al. AEM 2025).",
     },
     {
-      title: "4. 学术水平决定科学道德（费曼之问）",
+      title: "4. 学术水平与“复杂掩盖简单真相”",
       detail:
-        "Feynman's integrity rested on his theoretical competence to distinguish true from false theories. Modern Theoretical Poverty (SSRN 5463155) makes authorities terrified of math—illustrated verbatim by Eduard Arzt's Aug 31, 2025 letter dismissing 'correct theory' as 'extremely dubious'.",
+        "Feynman's integrity came from competence. Like Challenger (complex charts hiding simple risk) and Columbia (withholding known foam damage), shallow papers look 'mysterious' and pass 15-day review, while bone-deep simple principles get rejected (SSRNs & Eduard Arzt).",
     },
   ];
 
@@ -282,7 +292,7 @@ Do not mistake timidity for professionalism, obedience for character, or silence
         <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-slate-900 pb-2 font-sans">
           <div className="flex items-center gap-2 font-bold text-xl text-slate-950">
             <Video className="w-6 h-6 text-rose-700" />
-            <h2>Part II: Complete 8-Scene Digital Avatar English Script (~14.5 Min)</h2>
+            <h2>Part II: Complete 9-Scene Digital Avatar English Script (~16 Min)</h2>
           </div>
           <button
             onClick={() => handleCopyText(spokenScriptText, "script-hi-mid")}
