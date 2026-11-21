@@ -38,22 +38,25 @@ Impedance Matching Theory misunderstood the transmission-line result (RL approac
 
 Wave Mechanics Theory proves that Impedance Matching confused FILM absorption with MATERIAL absorption. Absorption peaks arise purely from destructive wave interference—NOT from material attenuation along the travel path. Using the exact expression for R2 and polar plots of |R2|, Wave Mechanics proves peaks occur where the optical path difference between front- and back-interface reflections exceeds 180 degrees (refuting naive Quarter-Wavelength cancellation), that full wave entry yields ZERO peak, and that the film forces the material to absorb according to interference demands.
 
-In this Digital Avatar script, Dr. Yue Liu refutes all five mainstream and AI defenses (A through E):
+In this Digital Avatar script, Dr. Yue Liu refutes all six mainstream and AI defenses (A through F):
 
 A. ARE IMPEDANCE MATCHING AND WAVE MECHANICS EQUIVALENT VIA Zin = Z0?
-No! Impedance Matching historically used |Zin| = |Z0|; mainstream authors only switched to Zin = Z0 stealthily AFTER Wave Mechanics—without citing it. Neither transmission-line theory, Impedance Matching, nor Quarter-Wavelength Theory had the R2 equation. Checking Zin = Z0 against data proves nothing about equivalence.
+No! Impedance Matching historically used |Zin| = |Z0|; mainstream authors only switched to Zin = Z0 stealthily AFTER Wave Mechanics—without citing it. Neither transmission-line theory, Impedance Matching, nor Quarter-Wavelength Theory had the R2 equation.
 
 B. THE REAL WATERSHED TEST: INTERFERENCE PEAK VS. ATTENUATION PEAK
-The true test is NOT Zin = Z0—it is whether absorption peaks come from wave interference or material attenuation. For 50+ years, mainstream science claimed intrinsic resonance yet NEVER published a single calculation proving the peak is caused by attenuation rather than interference.
+The true test is whether absorption peaks come from wave interference or material attenuation. For 50+ years, mainstream science NEVER published a single calculation proving peaks come from attenuation rather than interference.
 
-C. "ONLY INDIVIDUALS MISUNDERSTOOD" & THE 50-YEAR MATERIAL DESIGN PROOF
-If mainstream scientists truly viewed the Zin = Z0 peak as thickness-dependent interference, they would have asked what permittivity and permeability satisfy interference at a target thickness. For half a century, nobody thought that way until Wave Mechanics arrived! Stealthily patching the ZM sign error without citation exposes moral bankruptcy.
+C. "ONLY INDIVIDUALS MISUNDERSTOOD" & THE 50-YEAR DESIGN PROOF
+If scientists truly viewed the Zin = Z0 peak as thickness-dependent interference, they would have deduced required permittivity and permeability from thickness—nobody did for 50+ years until Wave Mechanics! Stealthily fixing the ZM sign error without citation exposes moral bankruptcy.
 
 D. "MAYBE SCIENTISTS DIDN'T SEE IT" — THE DUPLICATE-SUBMISSION RULE
-Science forbids duplicate submission precisely because ONCE A PAPER IS PUBLISHED ONCE, THE ENTIRE COMMUNITY IS DEEMED TO HAVE SEEN IT. Timestamps define copyright and discovery priority. One person may miss a paper; the scientific community as a whole MUST see it and MUST rebut it if wrong. Refusing response is Cargo Cult Science.
+Science forbids duplicate submission because ONCE PUBLISHED ONCE, THE ENTIRE COMMUNITY HAS SEEN IT. One person may miss a paper; the community as a whole MUST see it and rebut it if wrong.
 
 E. "IMPEDANCE MATCHING IS USEFUL FOR MATERIAL DESIGN"
-Show ONE valid material design rule produced in 50+ years of Impedance Matching! Confusing 23,300+ papers with scientific utility is absurd: a false theory cannot guide material design—it is only useful for writing papers.
+50+ years produced ZERO design rules! A false theory cannot design materials—it is only useful for writing papers.
+
+F. AI XIAOWEI: "INTERFERENCE ONLY REDISTRIBUTES ENERGY; MATERIAL ATTENUATION ABSORBS"
+Refuted in Physica B 666 (2023) 415108 (DOI: 10.21203/rs.3.rs-2616469/v2): Total absorption (RL approaching minus infinity) does NOT require 100% entry. As long as energy remains unabsorbed, the final internal beam is non-zero and keeps bouncing inside the film until absorbed—only hitting zero when |r2| = |r1| cancels completely. Interference dictates the optical path length, and transmission-line theory guarantees it automatically! Permittivity and permeability stay constant because ground states dominate and excited states immediately release heat and relax back to ground state.
 
 TIMESTAMPS:
 00:00 - Scene 1: Prologue — Two Conceptual Systems Born From Transmission-Line Math
@@ -63,8 +66,12 @@ TIMESTAMPS:
 08:50 - Scene 5: Refuting AI (B & C) — The Watershed Test & 50-Year Blindness
 11:30 - Scene 6: Refuting AI (D) — Duplicate Submission Law, Priority & Stealth ZM Fixes
 13:45 - Scene 7: Refuting AI (E) — False Theories Only Design Papers, Never Materials
+15:10 - Scene 8: Refuting AI (F) — How Films Force Absorption & Why Constants Stay Fixed
 
-#WaveMechanics #ImpedanceMatching #QuarterWavelength #MicrowaveAbsorption #CargoCultScience #MaterialsScience`;
+Reference Cited in Objection F:
+- Ying Liu, Xiangbin Yin, M. G. B. Drew, Yue Liu, Physica B: Condensed Matter 666 (2023) 415108 (Research Square: https://doi.org/10.21203/rs.3.rs-2616469/v2)
+
+#WaveMechanics #ImpedanceMatching #QuarterWavelength #MicrowaveAbsorption #PhysicaB #CargoCultScience`;
 
   const spokenScriptText = `[Scene 1: Prologue — One Transmission-Line Equation, Two Opposite Worlds]
 Both mainstream Impedance Matching Theory and Wave Mechanics Theory for microwave absorption are built on transmission-line theory, primarily addressing metal-backed absorbing films.
@@ -92,7 +99,7 @@ Peak strength is NOT determined by "how much wave enters times attenuation capac
 Wave Mechanics fully inherited transmission-line interference; Impedance Matching and Quarter-Wavelength completely abandoned it. Mainstream scientists have published ZERO rebuttals of Wave Mechanics—yet they continue flooding journals with Impedance Matching papers!
 
 [Scene 4: Refuting AI Argument A — Does Z-in = Z-zero Make Both Theories Equivalent?]
-Recently, several AI models defending mainstream consensus raised five objections—A through E. Let us dismantle every single one!
+Recently, several AI models defending mainstream consensus raised six objections—A through F. Let us dismantle every single one!
 **AI Objection A:** *"In Impedance Matching Theory, Z-in equals Z-zero already contains interference—so Impedance Matching and Wave Mechanics are mathematically equivalent!"*
 Pure historical amnesia!
 First, Impedance Matching papers historically ALWAYS used **magnitude of Z-in equals magnitude of Z-zero**—ignoring phase! Mainstream authors only began quietly writing Z-in equals Z-zero *after* Wave Mechanics Theory was published—while refusing to cite Wave Mechanics!
@@ -121,7 +128,22 @@ Declaring a foundational refutation "not worth refuting" while secretly altering
 Really? **Show the evidence!** Across more than fifty years, name **ONE** genuine material-design rule derived from Impedance Matching Theory! Not one! Wave Mechanics Theory actually provides quantitative principles for material design—Impedance Matching never did!
 AI has confused **twenty-three thousand papers chanting Impedance Matching** with **scientific usefulness for material design**!
 Ask yourself a common-sense question: **HOW CAN A FALSE THEORY POSSIBLY GUIDE REAL MATERIAL DESIGN?**
-A wrong theory is useless for designing materials. A wrong theory is ONLY useful for churning out papers! Thank you for watching.`;
+A wrong theory is useless for designing materials. A wrong theory is ONLY useful for churning out papers!
+
+[Scene 8: Refuting AI Argument F — How the Film Forces Material Absorption and Why Constants Stay Fixed]
+Finally, let us answer **AI Objection F**, raised by WeChat AI Xiaowei:
+*"Interference only changes the energy distribution; actual microwave absorption is still accomplished by material attenuation—dielectric loss and magnetic loss!"*
+That claim completely misses the physics we proved in **Physica B: Condensed Matter, 2023, Volume 666, Article 415108**—along with its Research Square preprint comments and responses!
+Look at the exact physical mechanism of how a film **FORCES** the material to absorb microwaves according to the demands of wave interference:
+Take reflection loss approaching minus infinity—complete absorption—as an example.
+Even though NOT all incident microwaves "enter" the film—in fact, the fraction entering the film cannot even be uniquely defined—**one hundred percent of the incident microwave energy IS absorbed by the material!** Total absorption by the film does NOT require one hundred percent of incident waves to "enter" on impact!
+Why? Think physically! As long as the incident microwave energy has NOT been completely absorbed by the film, the intensity of the final circulating beam inside the film is **NOT zero**! And because its intensity is non-zero, that beam **keeps reflecting back and forth inside the film** until ALL required energy has been absorbed by the material!
+Only when all energy is absorbed does that final internal beam drop to **zero**—and at that exact moment, the magnitude of reflected beam R-two equals the magnitude of front-interface beam R-one, so the two reflected waves **completely cancel each other out**!
+In other words, **the effective optical path length of microwaves inside the film is dictated entirely by wave interference!** Whether it takes fewer bounces or more bounces—for reflection loss at minus infinity OR any intermediate value—the interference requirement between R-two and R-one dictates the exact instant the final beam drops to zero! You do not even have to track those bounces manually—**transmission-line theory automatically guarantees** that the final beam hits zero at the exact moment interference demands!
+THAT is how the film forces the material to absorb microwaves to satisfy wave interference!
+And one more crucial question that seals the physics: **Why do permittivity and permeability stay constant whether an absorption peak occurs or not?**
+Because under experimental conditions, the vast majority of material states remain in the **ground state**! When ground states absorb microwave photons and transition to excited states, those excited states immediately release their energy as heat and relax straight back to the ground state!
+So before excitation, during excitation, and throughout converting microwave energy into heat, permittivity and permeability remain true **constants**! That is WHY transmission-line theory holds rigorously—a physical fact verified across every real-world application of transmission-line engineering! Thank you for watching.`;
 
   const aiRefutations = [
     {
@@ -154,6 +176,12 @@ A wrong theory is useless for designing materials. A wrong theory is ONLY useful
       rebuttal:
         "50+ years of Impedance Matching produced ZERO real material design rules (Wave Mechanics actually yields them). Confusing a flood of papers with engineering utility ignores reality: a false theory cannot design materials—it only designs papers.",
     },
+    {
+      code: "AI Objection F",
+      claim: "AI Xiaowei: Interference only redistributes energy; microwave absorption is still done by dielectric/magnetic loss.",
+      rebuttal:
+        "Refuted in Physica B 666 (2023) 415108 (DOI: 10.21203/rs.3.rs-2616469/v2): Total absorption does NOT require 100% wave entry. Any unabsorbed energy keeps the final internal beam non-zero, forcing it to keep bouncing inside the film until completely absorbed—dropping to zero exactly when |r2| = |r1| cancels completely. Interference sets the optical path length (automatically guaranteed by transmission-line theory). Ground-state dominance & instant thermal relaxation keep ε and μ constant.",
+    },
   ];
 
   return (
@@ -173,10 +201,10 @@ A wrong theory is useless for designing materials. A wrong theory is ONLY useful
           </span>
         </div>
         <h1 className="text-2xl md:text-4xl font-extrabold text-slate-950 font-serif leading-tight tracking-tight">
-          Why Impedance Matching &amp; Quarter-Wavelength Theories Are Wrong (Wave Mechanics Refutes AI Objections A–E)
+          Why Impedance Matching &amp; Quarter-Wavelength Theories Are Wrong (Wave Mechanics Refutes AI Objections A–F)
         </h1>
         <p className="text-sm font-bold text-rose-800 mt-2 font-sans">
-          主流微波吸收理论（阻抗匹配与四分之一波长理论）为什么是错误的：传输线继承、R₂极坐标干涉与逐条反驳AI五问
+          主流微波吸收理论（阻抗匹配与四分之一波长理论）为什么是错误的：传输线继承、R₂极坐标干涉与逐条反驳AI六问（含小微F问）
         </p>
         <p className="text-sm md:text-base text-slate-600 mt-2 font-sans italic">
           Why sharing the transmission-line result Z_in = Z_0 does NOT make Impedance Matching equivalent to Wave Mechanics; why film absorption is NOT material absorption; how the duplicate-submission rule destroys the &ldquo;we didn&apos;t see it&rdquo; excuse; and why false theories only design papers, never materials.
@@ -217,7 +245,7 @@ A wrong theory is useless for designing materials. A wrong theory is ONLY useful
       <section className="mb-12 space-y-5">
         <div className="flex items-center gap-2 font-sans font-bold text-xl text-slate-900 border-b border-slate-200 pb-2">
           <Waves className="w-6 h-6 text-rose-700" />
-          <h2>Part I: Five AI &amp; Mainstream Defenses Dismantled (A–E)</h2>
+          <h2>Part I: Six AI &amp; Mainstream Defenses Dismantled (A–F)</h2>
         </div>
 
         <div className="bg-rose-50/75 border border-rose-200 p-4 rounded-xl text-sm text-slate-800 font-sans space-y-1.5">
@@ -262,7 +290,7 @@ A wrong theory is useless for designing materials. A wrong theory is ONLY useful
         <div className="flex flex-wrap items-center justify-between gap-2 border-b-2 border-slate-900 pb-2 font-sans">
           <div className="flex items-center gap-2 font-bold text-xl text-slate-950">
             <Video className="w-6 h-6 text-rose-700" />
-            <h2>Part II: Complete 7-Scene Digital Avatar English Script (~15 Min)</h2>
+            <h2>Part II: Complete 8-Scene Digital Avatar English Script (~17 Min)</h2>
           </div>
           <button
             onClick={() => handleCopyText(spokenScriptText, "script-hl-mid")}
@@ -313,7 +341,7 @@ A wrong theory is useless for designing materials. A wrong theory is ONLY useful
             R2 Interference
           </span>
           <span className="bg-rose-100 text-rose-900 px-2.5 py-1 rounded-md font-semibold">
-            AI Audit A–E
+            AI Audit A–F
           </span>
           <span className="bg-amber-100 text-amber-950 px-2.5 py-1 rounded-md font-semibold">
             Published = Seen
