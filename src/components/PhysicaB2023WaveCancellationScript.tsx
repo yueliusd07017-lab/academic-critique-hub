@@ -45,7 +45,7 @@ KEY BREAKTHROUGHS EXPLAINED:
 - You CANNOT sum squared amplitudes |1r|^2 + |t|^2 to get reflected energy. Small penetration (weak beam t) + weak attenuation alpha_P can still produce massive absorption peaks via multi-reflection cancellation, whereas IM's large penetration yields weak 1r, tiny |RM|, and shallow peaks.
 
 2. FIGURE 5 POLAR INWARD SPIRAL — WHY Zin = Z0 PEAKS ARE ULTRA-RARE:
-- In Fig. 5b (Cu@ZnFe2O4 at 4.74 GHz), material attenuation exp(-alpha_P d) forces |R2(alpha_j d)| into a deformed inward spiral converging toward zero while RL = RM + R2 orbits RM.
+- In polar plot Fig. 5b (Cu@ZnFe2O4 at 4.74 GHz), |R2(alpha_j d)| traces a deformed inward spiral whose cycle-to-cycle envelope decays via exp(-alpha_P d) while RL = RM + R2 orbits RM—a polar view that makes |R2| look deceptively monotonic, whereas Fig. 5d reveals |R2| actually oscillates up and down due to the angular phase effect, peaking at B and D!
 - Consequently, most absorption valleys can NEVER pass through the origin Zin = Z0 (where R2 = -RM). True Zin = Z0 peaks are extraordinarily rare special coincidences.
 
 3. ABSORPTION PEAKS AT MAXIMUM IMPEDANCE MISMATCH (PHYSICA B FIG. 5d & PHYSICA SCRIPTA 2022 FIG. 5):
@@ -93,11 +93,12 @@ For a lossless film that absorbs nothing, any number of reflections still yields
 Now turn to **Figure 5** of our Physica B paper—one of the clearest geometric proofs in electromagnetic materials physics!
 Remember that reflection loss equals R-M plus R-two, where beam 1-r gives constant vector R-M, and beam t gives spiral vector R-two!
 Look at **Figure 5b**, plotting the magnitude of R-two as a function of phase angle alpha-j-d in polar coordinates for copper-zinc-ferrite at 4.74 gigahertz.
-As film thickness d increases from zero, material attenuation exp(-alpha-P d) shrinks the magnitude of R-two monotonically. As a result, R-two traces a **deformed INWARD SPIRAL** converging steadily toward zero!
+At first glance, the **deformed INWARD SPIRAL** in Figure 5b makes it look as though |R-two| shrinks monotonically toward zero as film thickness d increases! Wait—do NOT be fooled by the polar geometry!
+Look directly over at **Figure 5d**! Plotting |R-two| linearly against phase shows that **|R-two| is NOT a monotonically decreasing function—it oscillates UP AND DOWN!** Why? Because **material attenuation exp(-alpha-P d)** only tends to pull the overall cycle-to-cycle envelope downward, whereas the **film's angular phase effect**—multi-reflection interference inside beam t—forces |R-two| to **surge UPWARD to local maxima at points B and D** where beams 1-r and t are out of phase, and drop to a valley at point C where they are in phase! That up-and-down angular oscillation is what deforms the spiral in Figure 5b, hiding its outward bulges in polar coordinates until you inspect Figure 5d!
 Meanwhile, in **Figure 5a**, total reflection loss |R-L| orbits around the endpoint of vector R-M!
-Stop and look at that inward spiral geometry! For |R-L| to hit zero—which is the exact condition **Z-in equals Z-zero**—the inward spiral of R-two must pass directly through the exact point minus R-M, hitting the origin O-1!
-Because the spiral shrinks inward continuously as thickness grows while R-M stays fixed, almost all trajectories miss that exact origin completely! Most absorption peaks—where R-two points roughly opposite to R-M at phi equals pi or 3-pi—occur along the loops of the spiral **far from zero**!
-That single polar diagram proves visually why true **Z-in equals Z-zero** absorption peaks are extraordinarily rare!
+Stop and look at that deformed inward spiral geometry! For |R-L| to hit zero—which is the exact condition **Z-in equals Z-zero**—the inward-winding trajectory of R-two must pass directly through the exact point minus R-M, hitting the origin O-1!
+Because the spiral winds inward cycle by cycle as attenuation grows while R-M stays fixed, almost all trajectories miss that exact origin completely! Most absorption peaks—where R-two points roughly opposite to R-M at phi equals pi or 3-pi—occur along the bulging outer loops of the spiral **far from zero**!
+That polar-plus-Cartesian pair proves visually why true **Z-in equals Z-zero** absorption peaks are extraordinarily rare!
 
 [Scene 4: Absorption Peaks Occurring at MAXIMUM Impedance Mismatch]
 Now look at **Figure 5d** of Physica B—and compare it directly with **Figure 5 of our 2022 Physica Scripta Part 2 paper**!
@@ -126,7 +127,7 @@ It is time to replace Impedance Matching and Quarter-Wavelength dogma with Wave 
     {
       num: "2. Fig. 5b Polar Inward Spiral",
       detail:
-        "Material attenuation exp(-α_P d) deforms |R2(α_j d)| into an inward spiral converging toward zero while RL = RM + R2 orbits RM—proving most peaks can NEVER hit the origin Zin = Z0.",
+        "While polar Fig. 5b makes |R2(α_j d)| appear to spiral inward monotonically under attenuation exp(-α_P d), Fig. 5d reveals |R2| actually oscillates up and down (peaking at B & D) due to the film's angular effect—proving most loops miss origin Zin = Z0.",
     },
     {
       num: "3. Peaks at Maximum |Zin - Z0|",
