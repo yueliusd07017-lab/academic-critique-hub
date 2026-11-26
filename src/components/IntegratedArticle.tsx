@@ -215,6 +215,7 @@ import AIAssistedDialecticsAndWMTAdvancementEssay from "./AIAssistedDialecticsAn
 import MakeshiftTroupeAndExpertIncompetenceEssay from "./MakeshiftTroupeAndExpertIncompetenceEssay";
 import GoodhartsLawAndAdministrativeConfidenceEssay from "./GoodhartsLawAndAdministrativeConfidenceEssay";
 import TopJournalsPreferringErrorsAndSuppressingInnovationEssay from "./TopJournalsPreferringErrorsAndSuppressingInnovationEssay";
+import CreativeErrorsAndEditorialGaslightingEssay from "./CreativeErrorsAndEditorialGaslightingEssay";
 
 export default function IntegratedArticle() {
   const [activeArticle, setActiveArticle] = useState<string>("asymmetry");
@@ -488,6 +489,7 @@ export default function IntegratedArticle() {
             activeArticle === "makeshifttroupe" ? "makeshift-troupe-article-text" :
             activeArticle === "goodhartsconfidence" ? "goodharts-confidence-article-text" :
             activeArticle === "topjournalserrors" ? "top-journals-errors-article-text" :
+            activeArticle === "creativeerrors" ? "creative-errors-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -3447,6 +3449,17 @@ export default function IntegratedArticle() {
             id="toggle-article-topjournalserrors"
           >
             Essay HAL: Top Journals &amp; Error Reward Myth
+          </button>
+          <button
+            onClick={() => setActiveArticle("creativeerrors")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "creativeerrors"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-creativeerrors"
+          >
+            Essay HAM: &ldquo;Creative&rdquo; Errors &amp; Editorial Gaslighting
           </button>
         </div>
       </div>
@@ -10401,6 +10414,10 @@ export default function IntegratedArticle() {
 
       {activeArticle === "topjournalserrors" && (
         <TopJournalsPreferringErrorsAndSuppressingInnovationEssay />
+      )}
+
+      {activeArticle === "creativeerrors" && (
+        <CreativeErrorsAndEditorialGaslightingEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
