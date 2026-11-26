@@ -209,9 +209,12 @@ import ConstantPermittivityWaveCancellationEssay from "./ConstantPermittivityWav
 import TrueScientificPracticeAndPhilosophicalBreakthroughEssay from "./TrueScientificPracticeAndPhilosophicalBreakthroughEssay";
 import UntouchableCrisisAndAcademicConformityEssay from "./UntouchableCrisisAndAcademicConformityEssay";
 import DinosaurianAcademiaAndImmuneSystemEssay from "./DinosaurianAcademiaAndImmuneSystemEssay";
+import EpistemicExclusionAndPeerReviewCritiqueEssay from "./EpistemicExclusionAndPeerReviewCritiqueEssay";
+import SciencenetRejectionBadgeOfHonorEssay from "./SciencenetRejectionBadgeOfHonorEssay";
+import AIAssistedDialecticsAndWMTAdvancementEssay from "./AIAssistedDialecticsAndWMTAdvancementEssay";
 
 export default function IntegratedArticle() {
-  const [activeArticle, setActiveArticle] = useState<"asymmetry" | "darkage" | "systemic" | "freedom" | "metaphysics" | "tyranny" | "theories" | "empiricalAll" | "firstprinciples" | "academicgames" | "textbooksprimacy" | "collectivesupremacy" | "planckai" | "huangwanli" | "cooptation" | "trialanderror" | "quantumscience" | "followersletter" | "realworld" | "confrontingfear" | "aiarbiter" | "characterandsystem" | "credentialism" | "collectivefallacy" | "wavemechanicshistory" | "unsolvedmysteries" | "concludingremarks" | "interplanarspacing" | "gibbsduhem" | "chemicalequilibrium" | "modernacademia" | "academicwhistleblowing" | "academicpublishing" | "itifcritique" | "representative" | "authorityparadox" | "publishingconflict" | "peerreviewdeterrence" | "historywilljudge" | "russellsaunders" | "metaphysicalinversion" | "nucleilocation" | "structuretheory" | "powerofideas" | "crystalstructure" | "quantummetaphysics" | "microwaveabsorption" | "academiccorruption" | "logicalconsistency" | "citationreliability" | "scientificcensorship" | "ideasahead" | "dutytofightback" | "preprintmilestone" | "theoreticalprimacy" | "laseracademicrot" | "fangzhouzicritique" | "academicrecycling" | "hanxinscandal" | "silencesystemicrot" | "aiepistemology" | "modernsnotstronger" | "aiassistancemisconduct" | "theoryisscience" | "papermillsnotcases" | "expertsknowbetter" | "toponepercentunderstated" | "whyaichangesitsmind" | "thirdpartyandbacklash" | "scienceasmetaphysics" | "papermillscopyright" | "performanceofpositivity" | "couragetorefuse" | "whenneutralityiscomplicity" | "publicledgerofreason" | "aimathderivation" | "aiepistemologystresstesting" | "ailogicalreduction" | "aiepistemologicalretreat" | "futureofscijournals" | "smashingacademicwall" | "promotedmediocrityvsquiettruth" | "cargocultvswavemechanics" | "courageofsolitude" | "fieldsmedalrevelation" | "nobelprizelimitations" | "academichypocrisy" | "ninetyfivepercentgarbage" | "aithreewaycomparison" | "arbitrarygatekeeping" | "genuineinnovation" | "ecosystemdegradation" | "fieldsvsnobel" | "institutionalaccountability" | "forcedgrowthandrebellion" | "gloryofescapingthebox" | "whennobelrewardscargocult" | "nobeldemonstrationvscriticalguidance" | "corruptedsystemsandemperorchild" | "fallacyofcollectivesupremacy" | "globalacademicdegeneration" | "lonelinessofdissent" | "institutionalevasion" | "zebraallegoryscience" | "expertincompetenceaccountability" | "timidcriticismerrordetectors" | "elementarylogicscandal" | "diversityfieldsmedal" | "scientificsoilfieldsmedal" | "networksauthorityscandal" | "cargocultcorruptecosystem" | "accountabilityandnamingnames" | "whenopentocriticismbecomesashield" | "fieldsmedalcargocultandaievasion" | "neutralframingideologicalcontrol" | "mainstreamsophistry" | "neveroutsourcejudgment" | "logicoverobedience" | "exceptionsbecomepattern" | "uncomfortabletruthmisconduct" | "diverseevidenceandpluralism" | "waitingforapproval" | "digitalsoovereignty" | "equalweightisnotjustice" | "wolfsheeplogicaltrap" | "nurturevsselection" | "scientificcorrectionandcargocult" | "popperinstitutionalscience" | "threepathologiesmoderneducation" | "rootcausecargocultscience" | "whereistherefutation" | "cargocultsciencetest" | "newdarkageacademia" | "tragedycognitivecommons" | "papermillscommercial" | "reviewerselfcitation" | "aiinstrumentinnovation" | "scientificdemocracyfreedom" | "popperopensocietyerrorchannels" | "tieronetierfourcargocult" | "ieeetmttbetrayal" | "controlledsciencecargocult" | "fiftyyearplagiarism" | "scienceislogicandalchemy" | "whistleblowerraoyicritique" | "evaluatingimpedanceli2025" | "worldtrulyunderstandsdemocracy" | "naturewheredoesitgetthenerve" | "historywilljudgenaturesrecklessgamble" | "whyquarterwavelengthmodeliswrong" | "whyimpedancematchingtheoryiswrong" | "zhang2020critique" | "wang2012critique" | "hou2024critique" | "theoreticalpoverty" | "whathistorywillremember" | "architectureofsilence" | "intentionalerror" | "feudalismofgrants" | "dogmaofconformity" | "typewriterstoai" | "autocraticoasis" | "academiclocusts" | "defenseofrumor" | "wang2021jcis" | "yang2025aelm" | "censoredsciencenet" | "naturestandingbehindfraudsters" | "refutingxiaowei" | "whynaturecorruptsacademia" | "hownaturefosterscorruption" | "cargocultpowerhypocrisy" | "tragedyconscientiousscholars" | "whyoutstandingscholars" | "solitarywalkerabyss" | "philosophersdiagnosestagnation" | "xiyinaiinnovation" | "demarcationscientificcritique" | "universallawofcollectivesilence" | "fallacyofloweq" | "anatomyofsupremeintuition" | "waveparticledualityontology" | "mathematicalrigortwoerrors" | "wavemechanicsmaterialdesign" | "deconstructingxiaoweiquarterwavelength" | "unbendingdignityagainstpaywall" | "classicalradiationquantumstationary" | "deeplearningtextbooksvsauthority" | "collectiveblindnessninetyninepercent" | "mathematicallogicfittingalchemy" | "naturerecklessgamblescript" | "rescuingcondemnedthoughts" | "cargocultdissectionprologue" | "forensicdissectionhou2024" | "electricmagneticontology" | "classicalvsquantummagn" | "forensicdissectionyang2025" | "forensicdissectionwang2021" | "forensicdissectionwang2012" | "forensicdissectionzhang2020" | "quantitativerigorvsqualitative" | "forensicdissectionli2025" | "establishmentneveradmitserrors" | "forensicdissectionzinzm3" | "forensicdissectionnespolo2017" | "forensicdissectionfinalepart1" | "forensicdissectionfinalepart2" | "moderncivilizationvsacademicdespotism" | "why23300paperszerodesignrules" | "glossycartoonsvswavemechanics" | "researchersvscopywritersgarbage" | "sciencebrokenbeyondfraudgarbage" | "breakingconsensusandtruetheory" | "liuyuetheoryscienceislogic" | "philosophicalfoundationsliuyue" | "silenceinscienceiscargocult" | "videocalloutandrumordefense" | "scientificmoralityandcompetence" | "mathissoulofsciencecensorship" | "whatisliuyuethoughtmanifesto" | "whyimpedanceandquarterwavelengthwrong" | "physicab2023wavecancellation" | "yuanbaoelevenepisodescritique" | "yuanbao11episodesyoutube" | "speculations14whyliuthoughtisthought" | "historicalempiresandnaturesilence" | "academiccandoranddepth" | "filmforcedabsorptionmechanism" | "reviewerlanguagecritiques" | "iaskaisixepisodescritique" | "mainstreamreviewcritique" | "iaskai-comparative-analysis" | "ultimateliuyuetheorysynthesis" | "millerindicessuccess" | "trueconfidencerefutation" | "beamvoltagemagnification" | "filmforcedabsorptionpath" | "constantpermittivitywave" | "truescientificpractice" | "untouchablecrisis" | "dinosaurianacademia">("asymmetry");
+  const [activeArticle, setActiveArticle] = useState<string>("asymmetry");
 
   const handleCopy = (textId: string) => {
     const el = document.getElementById(textId);
@@ -476,6 +479,9 @@ export default function IntegratedArticle() {
             activeArticle === "truescientificpractice" ? "true-scientific-practice-article-text" :
             activeArticle === "untouchablecrisis" ? "untouchable-crisis-article-text" :
             activeArticle === "dinosaurianacademia" ? "dinosaurian-academia-article-text" :
+            activeArticle === "epistemicexclusion" ? "epistemic-exclusion-article-text" :
+            activeArticle === "sciencenetbadge" ? "sciencenet-rejection-article-text" :
+            activeArticle === "aidialectics" ? "ai-dialectics-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -3369,6 +3375,39 @@ export default function IntegratedArticle() {
             id="toggle-article-dinosaurianacademia"
           >
             Essay HAF: Dinosaurian Academia &amp; Immunity
+          </button>
+          <button
+            onClick={() => setActiveArticle("epistemicexclusion")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "epistemicexclusion"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-epistemicexclusion"
+          >
+            Essay HAG: Epistemic Exclusion &amp; Gatekeeping
+          </button>
+          <button
+            onClick={() => setActiveArticle("sciencenetbadge")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "sciencenetbadge"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-sciencenetbadge"
+          >
+            Essay HAH: Sciencenet Badge of Honor &amp; Censorship
+          </button>
+          <button
+            onClick={() => setActiveArticle("aidialectics")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "aidialectics"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-aidialectics"
+          >
+            Essay HAI: AI-Assisted Dialectics &amp; WMT Advancement
           </button>
         </div>
       </div>
@@ -10299,6 +10338,18 @@ export default function IntegratedArticle() {
 
       {activeArticle === "dinosaurianacademia" && (
         <DinosaurianAcademiaAndImmuneSystemEssay />
+      )}
+
+      {activeArticle === "epistemicexclusion" && (
+        <EpistemicExclusionAndPeerReviewCritiqueEssay />
+      )}
+
+      {activeArticle === "sciencenetbadge" && (
+        <SciencenetRejectionBadgeOfHonorEssay />
+      )}
+
+      {activeArticle === "aidialectics" && (
+        <AIAssistedDialecticsAndWMTAdvancementEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
