@@ -212,6 +212,9 @@ import DinosaurianAcademiaAndImmuneSystemEssay from "./DinosaurianAcademiaAndImm
 import EpistemicExclusionAndPeerReviewCritiqueEssay from "./EpistemicExclusionAndPeerReviewCritiqueEssay";
 import SciencenetRejectionBadgeOfHonorEssay from "./SciencenetRejectionBadgeOfHonorEssay";
 import AIAssistedDialecticsAndWMTAdvancementEssay from "./AIAssistedDialecticsAndWMTAdvancementEssay";
+import MakeshiftTroupeAndExpertIncompetenceEssay from "./MakeshiftTroupeAndExpertIncompetenceEssay";
+import GoodhartsLawAndAdministrativeConfidenceEssay from "./GoodhartsLawAndAdministrativeConfidenceEssay";
+import TopJournalsPreferringErrorsAndSuppressingInnovationEssay from "./TopJournalsPreferringErrorsAndSuppressingInnovationEssay";
 
 export default function IntegratedArticle() {
   const [activeArticle, setActiveArticle] = useState<string>("asymmetry");
@@ -482,6 +485,9 @@ export default function IntegratedArticle() {
             activeArticle === "epistemicexclusion" ? "epistemic-exclusion-article-text" :
             activeArticle === "sciencenetbadge" ? "sciencenet-rejection-article-text" :
             activeArticle === "aidialectics" ? "ai-dialectics-article-text" :
+            activeArticle === "makeshifttroupe" ? "makeshift-troupe-article-text" :
+            activeArticle === "goodhartsconfidence" ? "goodharts-confidence-article-text" :
+            activeArticle === "topjournalserrors" ? "top-journals-errors-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -3408,6 +3414,39 @@ export default function IntegratedArticle() {
             id="toggle-article-aidialectics"
           >
             Essay HAI: AI-Assisted Dialectics &amp; WMT Advancement
+          </button>
+          <button
+            onClick={() => setActiveArticle("makeshifttroupe")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "makeshifttroupe"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-makeshifttroupe"
+          >
+            Essay HAJ: The Makeshift Troupe &amp; Expert Incompetence
+          </button>
+          <button
+            onClick={() => setActiveArticle("goodhartsconfidence")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "goodhartsconfidence"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-goodhartsconfidence"
+          >
+            Essay HAK: Goodhart&apos;s Law &amp; Administrative Confidence
+          </button>
+          <button
+            onClick={() => setActiveArticle("topjournalserrors")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "topjournalserrors"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-topjournalserrors"
+          >
+            Essay HAL: Top Journals &amp; Error Reward Myth
           </button>
         </div>
       </div>
@@ -10350,6 +10389,18 @@ export default function IntegratedArticle() {
 
       {activeArticle === "aidialectics" && (
         <AIAssistedDialecticsAndWMTAdvancementEssay />
+      )}
+
+      {activeArticle === "makeshifttroupe" && (
+        <MakeshiftTroupeAndExpertIncompetenceEssay />
+      )}
+
+      {activeArticle === "goodhartsconfidence" && (
+        <GoodhartsLawAndAdministrativeConfidenceEssay />
+      )}
+
+      {activeArticle === "topjournalserrors" && (
+        <TopJournalsPreferringErrorsAndSuppressingInnovationEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
