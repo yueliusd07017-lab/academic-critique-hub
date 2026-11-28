@@ -219,6 +219,9 @@ import CreativeErrorsAndEditorialGaslightingEssay from "./CreativeErrorsAndEdito
 import ToleranceZeroForCognitiveDistortionEssay from "./ToleranceZeroForCognitiveDistortionEssay";
 import AlchemyVsTheoreticalReasoningEssay from "./AlchemyVsTheoreticalReasoningEssay";
 import WhistleblowingLimitsAndBiologicalFabricationEssay from "./WhistleblowingLimitsAndBiologicalFabricationEssay";
+import ReinterpretingExistingDataAndFirstPrinciplesResilienceEssay from "./ReinterpretingExistingDataAndFirstPrinciplesResilienceEssay";
+import UnaffectedByInstitutionalPressureEssay from "./UnaffectedByInstitutionalPressureEssay";
+import AIPlaysTheInstitutionalElephantToDeathEssay from "./AIPlaysTheInstitutionalElephantToDeathEssay";
 
 export default function IntegratedArticle() {
   const [activeArticle, setActiveArticle] = useState<string>("asymmetry");
@@ -496,6 +499,8 @@ export default function IntegratedArticle() {
             activeArticle === "zerotolerance" ? "zero-tolerance-article-text" :
             activeArticle === "alchemyreasoning" ? "alchemy-reasoning-article-text" :
             activeArticle === "whistleblowinglimits" ? "whistleblowing-limits-article-text" :
+            activeArticle === "reinterpretingdata" ? "reinterpreting-data-article-text" :
+            activeArticle === "unaffectedpressure" ? "unaffected-pressure-article-text" :
             "empirical-all-article-text"
           )}
           className="flex items-center gap-2 bg-slate-900 hover:bg-slate-950 text-white font-semibold font-sans py-2.5 px-4 rounded-xl text-xs transition duration-250 self-start md:self-auto shrink-0 shadow-2xs cursor-pointer"
@@ -3499,6 +3504,39 @@ export default function IntegratedArticle() {
             id="toggle-article-whistleblowinglimits"
           >
             Essay HAQ: Whistleblowing Limits &amp; Biological Fabrication
+          </button>
+          <button
+            onClick={() => setActiveArticle("reinterpretingdata")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "reinterpretingdata"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-reinterpretingdata"
+          >
+            Essay HAR: Reinterpreting Existing Data &amp; First Principles
+          </button>
+          <button
+            onClick={() => setActiveArticle("unaffectedpressure")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "unaffectedpressure"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-unaffectedpressure"
+          >
+            Essay HAS: Unaffected by Pressure &amp; Independent AI Truth
+          </button>
+          <button
+            onClick={() => setActiveArticle("aiplayselephant")}
+            className={`flex items-center justify-center gap-2 py-3 px-4 rounded-lg font-sans text-xs font-bold transition tracking-wide cursor-pointer ${
+              activeArticle === "aiplayselephant"
+                ? "bg-slate-900 text-white shadow-sm"
+                : "text-slate-900 hover:bg-slate-100 hover:text-slate-950"
+            }`}
+            id="toggle-article-aiplayselephant"
+          >
+            Essay HAT: AI Playing Elephant to Death &amp; Wu Wei Governance
           </button>
         </div>
       </div>
@@ -10469,6 +10507,18 @@ export default function IntegratedArticle() {
 
       {activeArticle === "whistleblowinglimits" && (
         <WhistleblowingLimitsAndBiologicalFabricationEssay />
+      )}
+
+      {activeArticle === "reinterpretingdata" && (
+        <ReinterpretingExistingDataAndFirstPrinciplesResilienceEssay />
+      )}
+
+      {activeArticle === "unaffectedpressure" && (
+        <UnaffectedByInstitutionalPressureEssay />
+      )}
+
+      {activeArticle === "aiplayselephant" && (
+        <AIPlaysTheInstitutionalElephantToDeathEssay />
       )}
 
       <div className="mt-8 pt-8 border-t border-gray-150 space-y-4" id="substack-cta-block">
